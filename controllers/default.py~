@@ -111,14 +111,14 @@ def edit():
         redirect(URL(args=request.args))
     return dict(form=form,path=path_info,is_wiki=False)
 
-#@auth.requires_membership('editor')
+@auth.requires_membership('editor')
 def sync():
     """
     processes all the RST files and updated the corresponding DB records
     check for missing RST files and created automatic redirects to 404 page
     """
     processed = []
-    for language in response.languageS:
+    for language in LANGUAGES:
         basepath = os.path.join(BASE_PATH,language)
         if not os.path.exists(basepath): continue
         for filename in walk(basepath):

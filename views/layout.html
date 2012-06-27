@@ -15,14 +15,15 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
     <!-- le styles -->
-    {{response.files.append(URL('static','css/web2py.css'))}}
+    {{
+    response.files.append(URL('static','css/web2py.css'))
+    response.files.append(URL('static','bootswatch_files/jquery.toc.js'))
+    response.files.append("http://bootswatch.com/spacelab/bootstrap.min.css")
+    response.files.append("http://bootswatch.com/assets/css/bootstrap-responsive.css")
+    response.files.append("http://bootswatch.com/css/docs.css")
+    }}
     {{include 'web2py_ajax.html'}}
-    <script src="{{=URL('static','bootswatch_files/jquery.toc.js')}}"></script>
-    <link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" />
-    <link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" />
-    <link href="http://bootswatch.com/css/docs.css" rel="stylesheet" />
     <style>
-
 #content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
  font-weight: 300;line-height: 22.5px;color: #333;}
 #content-main img {max-width:200px; padding: 10px;}
@@ -37,6 +38,11 @@ p, li {text-align: justify; line-height: 22.5px;}
 #content h1, #content h2, #content h3, #content h4 { 
   padding-top:1em; padding-bottom: 0.5em; 
 }
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
 </style>
   </head>
   <body data-spy="scroll" data-target=".subnav" data-offset="50">
@@ -90,21 +96,22 @@ p, li {text-align: justify; line-height: 22.5px;}
         </div>
         <!-- headings & paragraph copy -->
         <div class="row">
-          <div class="{{if is_wiki:}}span8{{else:}}span12{{pass}}" id="content-main">
+          <div class="{{if is_wiki or request.function=='search':}}span8{{else:}}span12{{pass}}" id="content-main">
 	    {{include}}
           </div>
-	  {{if is_wiki:}}
+	  {{if is_wiki or request.function=='search':}}
           <div class="span4">
 	    <form class="well form-search" action="{{=URL('default','search')}}">
               <input type="text" name="keywords" class="input-medium search-query">
 	      <button type="submit" class="btn">Search</button>
 	    </form>
-	    {{if not path.startswith('download'):}}
+	    {{if is_wiki and not path.startswith('download'):}}
             <div class="well" id="download">
 	      <a href="{{=URL(args='download')}}">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2 or 3?)
 	    </div>
 	    {{pass}}
-	    {{if not path.startswith('index'):}}
+	    {{if is_wiki and not path.startswith('index'):}}
             <div class="well" id="toc"></div>
             <script>
 	      jQuery(function(){jQuery('#toc').toc({

@@ -1,16 +1,9 @@
 {{extend 'layout.html'}}
-<style>
-  #rst-content h1 {font-size: 28px; text-align: left}
-  #rst-content h2 {font-size: 24px; text-align: left}
-  #rst-content h3 {font-size: 20px; text-align: left}
-  #rst-content h4 {font-size: 16px; text-align: left}
-  #rst-content pre {background-color: black; border: 0; color:white}
-</style>
 <div id="rst-content">
-{{if path.startswith('index'):}}
-<div class="well" style="background:black">
-  <img src="{{=URL('static','images/antigravity.png')}}" style="width:100%;max-width:100%; border:1px;padding:9px"/>
-  <pre id="demo">
+  {{if path.startswith('index'):}}
+  <div class="well" style="background:black">
+    <img src="{{=URL('static','images/antigravity.png')}}" style="width:100%;max-width:100%; border:1px;padding:9px"/>
+    <pre id="demo">
 >>> print 'Hello, World!'
 Hello, World!
 >>> for thing in 'Python', 101, 3.14, [1,2,3], {'key':'value'}: 
@@ -24,24 +17,23 @@ Python is str
 >>> html = urllib.urlopen('http://python.org').read()
 >>> import antigravity
 </pre>
+  </div>
+  <script type="text/javascript">
+    jQuery(document).ready(function() { jQuery('#demo').typewrite({ 
+    'delay': 100,
+    'callback': function() {jQuery('#demo').slideUp();}
+    }); });
+  </script>
+  {{pass}}
+  {{=XML(content)}}
+  {{if path.startswith('index'):}}
+  <h2>People say...</h2>
+  {{include 'default/quotes.html'}}
+  <script type="text/javascript">
+    jQuery(function() { jQuery('blockquote').quovolver(); });
+  </script>
+  {{pass}}<br/><br/>
 </div>
-<script type="text/javascript">
-jQuery(document).ready(function() { jQuery('#demo').typewrite({ 
-   'delay': 100,
-   'callback': function() {jQuery('#demo').slideUp();}
- }); });
-</script>
-{{pass}}
-{{=XML(content)}}
-{{if path.startswith('index'):}}
-<h2>People say...</h2>
-{{include 'default/quotes.html'}}
-<script type="text/javascript">
-  jQuery(function() { jQuery('blockquote').quovolver(); });
-</script>
-{{pass}}<br/><br/>
-</div>
-
 <script>
   jQuery(function(){
     jQuery('.system-message').hide();

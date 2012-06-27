@@ -13,7 +13,7 @@ crud, service, plugins = Crud(db), Service(), PluginManager()
 
 ## create all tables needed by auth if not custom tables
 auth.define_tables(username=True, signature=False)
-
+auth.settings.actions_disabled=['register']
 ## configure email
 mail=auth.settings.mailer
 mail.settings.server = EMAIL_SERVER

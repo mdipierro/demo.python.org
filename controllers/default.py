@@ -118,7 +118,7 @@ def sync():
     check for missing RST files and created automatic redirects to 404 page
     """
     processed = []
-    for language in response.languageS:
+    for language in LANGUAGES:
         basepath = os.path.join(BASE_PATH,language)
         if not os.path.exists(basepath): continue
         for filename in walk(basepath):

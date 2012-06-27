@@ -22,7 +22,7 @@
 This app is in demo mode so editing does not require authentication but edits are not saved. Page title is computed from first line of the following RST document. If the page is to be deprecated, setup a redirect to another page below. You can also edit this <a href="https://github.com/mdipierro/demo.python.org/edit/master/private/data/127.0.0.1/en/{{=path}}.rst">RST file on github</a> and <a href="{{=URL('sync')}}">sync</a> the app.
 
 {{=form.custom.begin}}
-<div style="padding:5px;background: #e8e8e8; width: auto; position: relative; border: 1px solid #e8e8e8">File: /{{=path}}<span style="float:right"><input type="submit" class="btn" value="Submit"><a class="btn" href="https://github.com/mdipierro/demo.python.org/edit/master/private/data/127.0.0.1/en/{{=path}}.rst">Edit on Github</a><a class="btn" href="{{=URL('index',args=path)}}">View</a><span></div>
+<div style="padding:5px;background: #e8e8e8; width: auto; position: relative; border: 1px solid #e8e8e8">File: /{{=path}}.rst<span style="float:right"><input type="submit" class="btn" value="Submit"><a class="btn" href="https://github.com/mdipierro/demo.python.org/edit/master/private/data/127.0.0.1/en/{{=path}}.rst">Edit on Github</a><a class="btn" href="{{=URL('index',args=path)}}">Preview</a><span></div>
 <div id="editor" style="height: 500px; width: auto; position: relative; border: 1px solid #e8e8e8"></div>
 <div style="padding:5px; background: #e8e8e8; width: auto; position: relative; border: 1px solid #e8e8e8">or redirect or {{=form.custom.widget.redirect}}</div>
 {{=form.custom.widget.body}}
