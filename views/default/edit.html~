@@ -19,7 +19,7 @@
 
 <h2>{{=T('Editing "%s"',path)}}</h2>
 
-This app is in demo mode so editing does not require authentication but edits are not saved. Page title is computed from first line of the following RST document. If the page is to be deprecated, setup a redirect to another page below. You can also edit the RST files on github and <a href="{{=URL('sync')}}">sync<a> the app.
+This app is in demo mode so editing does not require authentication but edits are not saved. Page title is computed from first line of the following RST document. If the page is to be deprecated, setup a redirect to another page below. You can also edit the RST files on github and <a href="{{=URL('sync')}}">sync</a> the app.
 
 {{=form.custom.begin}}
 <div style="padding:5px;background: #e8e8e8; width: auto; position: relative; border: 1px solid #e8e8e8">File: /{{=path}}<span style="float:right"><input type="submit" class="btn" value="submit"><a class="btn" href="{{=URL('index',args=path)}}">view</a><span></div>
