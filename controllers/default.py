@@ -69,7 +69,7 @@ def index():
                        title=title,path=path_info)
         return html
     # if it does not exist redirect to python org
-    redirect('http://python.org'+path_info)
+    redirect('http://python.org/'+path_info)
 
 def search():
     """
