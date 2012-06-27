@@ -1,0 +1,1 @@
+This is a demo of a possible refactoring of Python.org

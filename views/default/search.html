@@ -1,0 +1,9 @@
+{{extend 'layout.html'}}
+<h2>Search results for "{{=request.vars.keywords}}"</h2>
+{{if pages:}}
+{{for page in pages:}}
+<a href="{{=URL('index',args=page.path)}}">{{=page.title}}</a><br/>
+{{pass}}
+{{else:}}
+Search produced no results
+{{pass}}

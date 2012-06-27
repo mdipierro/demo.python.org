@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{if not 'is_wiki' in globals(): is_wiki=False}}
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    {{response.files.append(URL('static','css/web2py.css'))}}
+    {{include 'web2py_ajax.html'}}
+    <script src="{{=URL('static','bootswatch_files/jquery.toc.js')}}"></script>
+    <link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" />
+    <link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="http://bootswatch.com/css/docs.css" rel="stylesheet" />
+    <style>
+
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner" style="text-align:center; vertical-align:middle; background: red; color:white">
+	Attention this is not the official python.org web site. This is a demo!
+      </div>
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black">{{=response.flash or ''}}</div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    {{=MENU(response.menu,_class="nav",li_class='dropdown',ul_class='dropdown-menu')}}
+	    {{if is_wiki:}}
+            <ul class="nav pull-right">
+	      <li>
+		[{{=response.language}}]
+	      </li>
+              <li>
+                <a href="{{=URL('edit',args=path)}}">
+                  Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    {{pass}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="{{=URL('static','images/logo.png')}}" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="{{if is_wiki:}}span8{{else:}}span12{{pass}}" id="content-main">
+	    {{include}}
+          </div>
+	  {{if is_wiki:}}
+          <div class="span4">
+	    <form class="well form-search" action="{{=URL('default','search')}}">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    {{if not path.startswith('download'):}}
+            <div class="well" id="download">
+	      <a href="{{=URL(args='download')}}">Download Now!</a>
+	    </div>
+	    {{pass}}
+	    {{if not path.startswith('index'):}}
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    {{pass}}
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="{{=URL('index',args='about/apps')}}">Networking</a>
+		</li>
+		<li>
+		  <a href="{{=URL('index',args='about/apps')}}">Science</a>
+		</li>
+		<li>
+		  <a href="{{=URL('index',args='community/sigs/current/edu-sig')}}">CS Education</a>
+		</li>
+		<li>
+		  <a href="{{=URL('index',args='about/apps')}}">Games</a>
+		</li>
+		<li>
+		  <a href="{{=URL('index',args='about/apps')}}">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  {{pass}}
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	{{=auth.navbar()}}
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="{{=URL(args=('about','legal'))}}">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="{{=URL('static','js/jquery.quovolver.js')}}"></script>
+    <script src="{{=URL('static','bootswatch_files/bootstrap-dropdown.js')}}"></script>
+    <script src="{{=URL('static','bootswatch_files/bootstrap-scrollspy.js')}}"></script>
+    <script src="{{=URL('static','bootswatch_files/bootstrap-collapse.js')}}"></script>
+    <script src="{{=URL('static','bootswatch_files/bootstrap-tooltip.js')}}"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="{{=URL('static','js/jquerytypewriter.js')}}"></script>
+    <script src="{{=URL('static','js/share.js',vars=dict(static=URL('static','images')))}}"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', '{{=GOOGLE_ANALYTICS}}']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

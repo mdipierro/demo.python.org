@@ -1,0 +1,8 @@
+db.define_table('page',
+                Field('language'),
+                Field('path'),
+                Field('title'),
+                Field('body','text'),
+                Field('html','text'),
+                Field('redirect',default=None),
+                auth.signature)

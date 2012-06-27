@@ -1,0 +1,47 @@
+{{extend 'layout.html'}}
+{{TEXT_EDITOR_THEME='chrome'}}
+{{TEXT_EDITOR_KEYBINDING = ''}}
+{{data = form.vars.body or ''}}
+
+{{
+  def shortcut(combo, description):
+    return XML('<li><tt>%s</tt> %s</li>' % (combo, description))
+}}
+
+<script src="{{=URL(r=request,c='static',f='ace/src/ace.js')}}" type="text/javascript" charset="utf-8"></script>
+<script src="{{=URL(r=request,c='static',f='ace/src/theme-%s.js' % TEXT_EDITOR_THEME)}}" type="text/javascript" charset="utf-8"></script>
+<script>var theme = "ace/theme/{{=TEXT_EDITOR_THEME}}";</script>
+<script src="{{=URL(r=request,c='static',f='ace/src/mode-text.js')}}" type="text/javascript" charset="utf-8"></script>
+<script>
+  var mode = require("ace/mode/text").Mode;
+  var keybinding = null;
+</script>
+
+<h2>{{=T('Editing "%s"',path)}}</h2>
+
+This app is in demo mode so editing does not require authentication but edits are not saved. Page title is computed from first line of the following RST document. If the page is to be deprecated, setup a redirect to another page below. You can also edit the RST files on github and <a href="{{=URL('sync')}}">sync</a> the app.
+
+{{=form.custom.begin}}
+<div style="padding:5px;background: #e8e8e8; width: auto; position: relative; border: 1px solid #e8e8e8">File: /{{=path}}<span style="float:right"><input type="submit" class="btn" value="submit"><a class="btn" href="{{=URL('index',args=path)}}">view</a><span></div>
+<div id="editor" style="height: 500px; width: auto; position: relative; border: 1px solid #e8e8e8"></div>
+<div style="padding:5px; background: #e8e8e8; width: auto; position: relative; border: 1px solid #e8e8e8">or redirect or {{=form.custom.widget.redirect}}</div>
+{{=form.custom.widget.body}}
+{{=form.custom.end}}
+
+<script>
+jQuery(function(){
+    var editor = ace.edit("editor");
+    var textarea = jQuery('textarea[name="body"]').hide();
+    editor.getSession().setValue(textarea.val());
+    editor.getSession().on('change', function(){
+      textarea.val(editor.getSession().getValue());
+    });
+    editor.setTheme(theme);
+    editor.getSession().setMode(new mode());
+    if(keybinding) editor.setKeyboardHandler(keybinding);
+    window.ace_editor = editor;
+});
+</script>
+</div>
+
+

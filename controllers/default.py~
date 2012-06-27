@@ -1,0 +1,194 @@
+# -*- coding: utf-8 -*-
+
+def rst2html(path):
+    """
+    opens a RST file and convers to HTML,
+    also extract the tite from first line of RST
+    """
+    from docutils.core import publish_parts
+    basepath = URL('default','index')
+    path_info = '/'.join(x for x in request.args if x)
+    content = rst = open(path,'rb').read()    
+    content = content.replace('&quot;','"') # to be removed
+    content = publish_parts(content, writer_name="html")['body']
+    content = content.replace('href="/','href="%s/' % basepath)
+    content = content.replace('src="/','src="%s/' % basepath)
+    title = rst.strip().split('\n',1)[0]
+    html = response.render('default/index.html',
+                           content=content,
+                           editable=True,
+                           path=path_info,
+                           is_wiki=True)
+    return title, rst, html
+
+
+def find_file(path):
+    """
+    locate the RST file based on URI path
+    """
+    return os.path.join(BASE_PATH,response.language,path)
+
+def walk(path,ignore=None):
+    """
+    loop over all files in a tree, recursively
+    """
+    paths = [path]
+    while paths:
+        path = paths.pop()
+        for f in os.listdir(path):
+            discovery = os.path.join(path,f)
+            if ignore and ignore(discovery):
+                continue
+            if os.path.isdir(discovery):
+                paths.append(discovery)
+            else:
+                yield discovery
+
+
+def index():
+    """
+    renders the RST files in a layout, picks them from cache is available
+    """
+    # if not filename assume 'index'
+    request.args = request.args or ['index']
+    # rebuild path_info from the request.args
+    path_info = '/'.join(x for x in request.args if x)
+    # if this is a static file, retrieve it
+    path = find_file(path_info)
+    if os.path.exists(path) and not os.path.isdir(path):
+        return response.stream(open(path,'rb'))
+    # check if there is a file in cache and retrieve it
+    page = USE_CACHE and db.page(language=response.language,path=path_info)
+    if page:
+        return page.html
+    # if not but the rst exists, process the rst
+    path = find_file(path_info+'.rst')    
+    if os.path.exists(path):
+        title, rst, html = rst2html(path)
+        db.page.insert(language=response.language,body=rst,html=html,
+                       title=title,path=path_info)
+        return html
+    # if it does not exist redirect to python org
+    redirect('http://python.org'+path_info)
+
+def search():
+    """
+    searches web page
+    """
+    sub = [db.page.title.contains(key.strip().lower()) \
+               for key in request.vars.keywords.split(',') if key.strip()]
+    pages = db(reduce(lambda a,b:a&b,sub)).select(db.page.path,db.page.title)
+    return dict(pages=pages)
+
+def edit():
+    """
+    allows online editing of RST content associated to a page
+    updates both RST file and cache database
+    """
+    if not DEMO_MODE and not auth.has_membership('editor'):
+        session.flash = "not authorized"
+        redirect(URL('index',args=request.args))
+    path_info = '/'.join(x for x in request.args if x)
+    page = db.page(path=path_info,language=response.language)
+    form = SQLFORM(db.page,page)
+    if form.process(dbio=False).accepted:
+        body = form.vars.body
+        path = find_file(path_info+'.rst')
+        open(path,'wb').write(form.vars.body)
+        title,rst,html = rst2html(path)        
+        if not DEMO_MODE:
+            if page and form.deleted:
+                os.unlink(path)
+                page.update_record(redirect='/404')
+            elif page:
+                open(path,'wb').write(page.body)
+                page.update_record(title=title,body=body,html=html)
+            else:
+                open(path,'wb').write(page.body)
+                db.page.insert(language=response.language,path=path_info,
+                               title=title,body=body,html=html)
+        session.flash = 'record updated'
+        redirect(URL(args=request.args))
+    return dict(form=form,path=path_info,is_wiki=False)
+
+#@auth.requires_membership('editor')
+def sync():
+    """
+    processes all the RST files and updated the corresponding DB records
+    check for missing RST files and created automatic redirects to 404 page
+    """
+    processed = []
+    for language in response.languageS:
+        basepath = os.path.join(BASE_PATH,language)
+        if not os.path.exists(basepath): continue
+        for filename in walk(basepath):
+            if filename.endswith('.rst') and not filename.startswith('.'):
+                path=filename[len(basepath):]
+                title, rst, html = rst2html(filename)
+                page = db.page(language=language,path=path)
+                if page:
+                    processed.append(page.id)
+                if not page or not page.html == html:
+                    if page:
+                        page.update_record(body=rst,html=html)
+                    else:
+                        db.page.insert(language=language,body=rst,html=html,
+                                       title=title,path=path)
+                db.commit()
+        db(db.page.language==language)(~db.page.id.belongs(processed))\
+            ((db.page.redirect=='')|(db.page.redirect==None))\
+            .update(redirect='/404')
+    # session.flash = 'Synced'
+    redirect(URL('index'))
+
+def user():
+    """
+    exposes:
+    http://..../[app]/default/user/login
+    http://..../[app]/default/user/logout
+    http://..../[app]/default/user/register
+    http://..../[app]/default/user/profile
+    http://..../[app]/default/user/retrieve_password
+    http://..../[app]/default/user/change_password
+    use @auth.requires_login()
+        @auth.requires_membership('group name')
+        @auth.requires_permission('read','table name',record_id)
+    to decorate functions that need access control
+    """
+    return dict(form=auth())
+
+
+def download():
+    """
+    allows downloading of uploaded files
+    http://..../[app]/default/download/[filename]
+    """
+    return response.download(request,db)
+
+
+def call():
+    """
+    exposes services. for example:
+    http://..../[app]/default/call/jsonrpc
+    decorate with @services.jsonrpc the functions to expose
+    supports xml, json, xmlrpc, jsonrpc, amfrpc, rss, csv
+    """
+    return service()
+
+
+@auth.requires_signature()
+def data():
+    """
+    http://..../[app]/default/data/tables
+    http://..../[app]/default/data/create/[table]
+    http://..../[app]/default/data/read/[table]/[id]
+    http://..../[app]/default/data/update/[table]/[id]
+    http://..../[app]/default/data/delete/[table]/[id]
+    http://..../[app]/default/data/select/[table]
+    http://..../[app]/default/data/search/[table]
+    but URLs must be signed, i.e. linked with
+      A('table',_href=URL('data/tables',user_signature=True))
+    or with the signed load operator
+      LOAD('default','data.load',args='tables',ajax=True,user_signature=True)
+    """
+    return dict(form=crud())
