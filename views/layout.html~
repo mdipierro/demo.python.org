@@ -108,6 +108,7 @@ p, li {text-align: justify; line-height: 22.5px;}
 	    {{if is_wiki and not path.startswith('download'):}}
             <div class="well" id="download">
 	      <a href="{{=URL(args='download')}}">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2 or 3?)
 	    </div>
 	    {{pass}}
 	    {{if is_wiki and not path.startswith('index'):}}

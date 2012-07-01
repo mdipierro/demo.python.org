@@ -7,7 +7,7 @@ def rst2html(path):
     """
     from docutils.core import publish_parts
     basepath = URL('default','index')
-    path_info = '/'.join(x for x in request.args if x)
+    path_info = path[len(BASE_PATH)+1:]
     content = rst = open(path,'rb').read()    
     content = content.replace('&quot;','"') # to be removed
     content = publish_parts(content, writer_name="html")['body']
@@ -18,9 +18,9 @@ def rst2html(path):
                            content=content,
                            editable=True,
                            path=path_info,
-                           is_wiki=True)
+                           is_wiki=True)    
+    open(path.replace('.rst','.html'),'wb').write(html)
     return title, rst, html
-
 
 def find_file(path):
     """
@@ -111,7 +111,7 @@ def edit():
         redirect(URL(args=request.args))
     return dict(form=form,path=path_info,is_wiki=False)
 
-@auth.requires_membership('editor')
+# @auth.requires_membership('editor')
 def sync():
     """
     processes all the RST files and updated the corresponding DB records

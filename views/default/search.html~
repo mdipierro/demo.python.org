@@ -1,4 +1,0 @@
-{{for page in pages:}}
-
-<a href="{{=URL('index',args=page.path)}}">{{=page.title}}</a><br/>
-{{pass}}
