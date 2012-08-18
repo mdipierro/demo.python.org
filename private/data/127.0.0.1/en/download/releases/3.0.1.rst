@@ -1,0 +1,89 @@
+Python 3.0.1
+------------
+
+    **Python 3.0 is end-of-lifed with the release of Python 3.1.**
+    All users of Python 3.0 should upgrade to `Python 3.1 <../3.1/>`_.
+
+Python 3.0.1 was released on February 13, 2009.  It was a bugfix
+release of Python `3.0 <../3.0/>`_.
+
+This is the first bugfix release of Python 3.0. Python 3.0 is now in
+bugfix-only mode; no new features are being added.  Dozens of bugs that were
+reported since the release of 3.0 final have been fixed.
+
+Python 3.0 (a.k.a. &quot;Python 3000&quot; or &quot;Py3k&quot;) is a **new
+version** of the language that is **incompatible** with the 2.x line of
+releases.  The language is mostly the same, but many details,
+especially how built-in objects like dictionaries and strings work,
+have changed considerably, and a lot of deprecated features have
+finally been removed.  Also, the standard library has been reorganized
+in a few prominent places.
+
+Here are some Python 3.0 resources: 
+
+- `What's new in Python 3000 <http://docs.python.org/3.0/whatsnew/3.0.html>`_
+
+- `Python 3.0 change log <NEWS.txt>`_.
+
+- `Online Documentation <http://docs.python.org/3.0/>`_
+
+- Read more in `PEP 3000 </dev/peps/pep-3000/>`_
+
+- To help out, sign up for `python-3000@python.org <http://mail.python.org/mailman/listinfo/python-3000/>`_
+
+- Conversion tool for Python 2.x code: `2to3 <http://svn.python.org/view/sandbox/trunk/2to3/>`_
+
+Please report bugs at `http://bugs.python.org <http://bugs.python.org>`_ 
+
+See also the `license <license>`_. 
+
+Python 3.0.1 Released: 13-Feb-2009
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Download
+--------
+
+This is a production release; we currently support these formats: 
+
+    - `Gzipped source tar ball (3.0.1) </ftp/python/3.0.1/Python-3.0.1.tgz>`_ `(sig) <Python-3.0.1.tgz.asc>`_
+
+    - `Bzipped source tar ball (3.0.1) </ftp/python/3.0.1/Python-3.0.1.tar.bz2>`_ `(sig) <Python-3.0.1.tar.bz2.asc>`_
+
+    - `Windows x86 MSI Installer (3.0.1) </ftp/python/3.0.1/python-3.0.1.msi>`_ `(sig) <python-3.0.1.msi.asc>`_
+
+    - `Windows X86-64 MSI Installer (3.0.1) </ftp/python/3.0.1/python-3.0.1.amd64.msi>`_ `[1] <#id6>`_ `(sig) <python-3.0.1.amd64.msi.asc>`_
+
+    - `Mac OS X Installer Disk Image (3.0.1) </ftp/python/3.0.1/python-3.0.1-macosx2009-02-14.dmg>`_ (unsigned).
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    220b73f0a1a20c4b1cdf9f9db4cd52fe  11258272  Python-3.0.1.tgz
+    7291eac6a9a7a3642e309c78b8d744e5   9495088  Python-3.0.1.tar.bz2
+    be8f57265e1419330965692a4fa15d9a  13702656  python-3.0.1.amd64.msi
+    ffce874eb1a832927fb705b84720bfc6  13434880  python-3.0.1.msi
+    b17949fe1aa84c7b1b5c8932046c5b6f  16984391  python-3.0.1-macosx2009-02-14.dmg
+
+The signatures for the source tarballs above were generated with
+`GnuPG <http://www.gnupg.org>`_ using release manager
+Barry Warsaw's
+`public key </download#pubkeys>`_
+which has a key id of EA5BBD71.
+The Windows installers were signed by Martin von L?wis'
+`public key </download#pubkeys>`_
+which has a key id of 7D9DC8D2.
+
+Documentation
+-------------
+
+- `Online Documentation <http://docs.python.org/3.0/>`_ is updated twice a day
+
+- `What's new in Python 3000 <http://docs.python.org/3.0/whatsnew/3.0.html>`_
+
+- `Guido van Rossum's current blog <http://neopythonic.blogspot.com/>`_
+
+- `Guido van Rossum's previous blog <http://www.artima.com/weblogs/index.jsp?blogger=guido>`_
+
+**MISSING**
+`[1] <#id2>`_  The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).

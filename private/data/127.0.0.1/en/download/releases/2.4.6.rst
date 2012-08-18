@@ -1,0 +1,104 @@
+Python 2.4.6
+------------
+
+    We are pleased to announce
+    **Python 2.4.6 (final)**, a
+    bugfix release of Python 2.4, on Dec 19, 2008.
+
+    **Important:**
+    2.4.6 is a source-only release. If you need a binary release
+    of 2.4, use `2.4.4 <../2.4.4>`_. If you need the fixes that are
+    included in this release, use `2.6.1 <../2.6.1>`_ or later.
+
+This release includes just a small number of fixes, primarily preventing
+crashes of the interpreter in certain boundary cases.  This is the last
+planned release in the Python 2.4 series.
+
+We have decided not to include binaries for Windows or OS X in this
+release, nor to update any online documentation, as the overhead
+for doing so would have greatly outweighed the amount of changes that
+we release. If you need the security fixes included in this release,
+please build your own binaries from the sources, or (better) upgrade
+to a more recent Python release for which we still do provide binaries
+and documentation updates.
+
+See the `detailed release notes <NEWS.txt>`_ for more details. 
+
+For the previous release (2.4.5), we received various reports that the
+this release may fail to build on current operating systems, in
+particular on OS X. We have made no attempt to fix these problems,
+as the release is targeted for systems that were current at the time
+Python 2.4 was originally released. For more recent systems, you might
+have to come up with work-arounds. For OS X in particular, try
+invoking:
+
+.. code-block::
+
+    ./configure MACOSX_DEPLOYMENT_TARGET=10.5
+
+For more information on the new features of `Python 2.4 <../2.4/>`_ see the
+`2.4 highlights <../2.4/highlights>`_ or consult Andrew Kuchling's
+`What's New In Python <http://www.python.org/doc/2.4.4/whatsnew/whatsnew24.html>`_
+for a more detailed view.
+
+Please see the separate `bugs page <bugs>`_ for known issues and the bug
+reporting procedure.
+
+See also the `license <license>`_
+
+Download the release
+--------------------
+
+gzip-compressed source code: `python-2.4.6.tgz 
+</ftp/python/2.4.6/Python-2.4.6.tgz>`_ 
+
+bzip2-compressed source code: `python-2.4.6.tar.bz2 </ftp/python/2.4.6/Python-2.4.6.tar.bz2>`_,
+the source archive.
+
+The bzip2-compressed version is considerably smaller, so get that one if
+your system has the `appropriate  tools <http://www.bzip.org/>`_ to deal
+with it.
+
+Unpack the archive with ``tar -zxvf Python-2.4.6.tgz`` (or
+``bzcat Python-2.4.6.tar.bz2 | tar -xf -``).
+Change to the Python-2.4.6 directory and run the &quot;./configure&quot;, &quot;make&quot;,
+&quot;make install&quot; commands to compile and install Python. The source archive
+is also suitable for Windows users who feel the need to build their
+own version.
+
+What's New?
+-----------
+
+- See the `highlights <../2.4/highlights>`_ of the Python 2.4 release.
+
+- Andrew Kuchling's `What's New in Python 2.4 <http://www.python.org/doc/2.4.3/whatsnew/whatsnew24.html>`_ describes the most visible changes since `Python 2.3 <../2.3/>`_ in more detail.
+
+- A detailed list of the changes in 2.4.6 can be found in the `release notes <NEWS.txt>`_, or the ``Misc/NEWS`` file in the source distribution.
+
+- For the full list of changes, you can poke around in `Subversion <http://svn.python.org/view/python/trunk/>`_.
+
+Documentation
+-------------
+
+The documentation has also been updated: 
+
+- `Browse HTML on-line </doc/2.4.4/>`_
+
+- Download using `HTTP </ftp/python/doc/2.4.4/>`_.
+
+- Documentation is available in Windows Help (.chm) format - `python24.chm </ftp/python/2.4.4/python24.chm>`_.
+
+Files, `MD5 <md5sum.py>`_ checksums, signatures and sizes
+---------------------------------------------------------
+
+    ``7564b2b142b1b8345cd5358b7aaaa482`` `Python-2.4.6.tgz </ftp/python/2.4.6/Python-2.4.6.tgz>`_
+    (9550168 bytes, `signature <Python-2.4.6.tgz.asc>`_)
+
+    ``76083277f6c7e4d78992f36d7ad9018d`` `Python-2.4.6.tar.bz2 </ftp/python/2.4.6/Python-2.4.6.tar.bz2>`_
+    (8154677 bytes, `signature <Python-2.4.6.tar.bz2.asc>`_)
+
+The signatures above were generated with
+`GnuPG <http://www.gnupg.org>`_ using release manager
+Martin v. L?wis's
+`public key </download#pubkeys>`_
+which has a key id of 7D9DC8D2.

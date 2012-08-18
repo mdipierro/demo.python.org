@@ -1,0 +1,532 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+May 16, 2011
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 16
+May 2011. Steve Holden presided at the meeting. Pat Campbell prepared
+the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ??? opposed ???
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Reports <#progress-reports>`_- `5.1   Communication Status <#communication-status>`_  - `5.2   Honorary Associate Membership WebPages/Links <#honorary-associate-membership-webpages-links>`_  - `5.3   Infrastructure Committee <#infrastructure-committee>`_  - `5.4   Marketing Material <#marketing-material>`_  - `5.5   Moving PyPI to Amazon CloudFront <#moving-pypi-to-amazon-cloudfront>`_  - `5.6   PyCon Chair (new) <#pycon-chair-new>`_  - `5.7   Sprint Committee <#sprint-committee>`_
+
+- `6   Final PyCon-related Expenses <#final-pycon-related-expenses>`_
+
+- `7   SciPy 2011 Conference Funding <#scipy-2011-conference-funding>`_
+
+- `8   2011 Libre Graphics Meeting (LGM) Funding <#libre-graphics-meeting-lgm-funding>`_
+
+- `9   2011 PyArgentina Conference Funding <#pyargentina-conference-funding>`_
+
+- `10   Appointment of 2011/2012 PSF Committee Chairs <#appointment-of-2011-2012-psf-committee-chairs>`_
+
+- `11   Procedures Used to Appointment the 2011/2012 PSF Committee Members <#procedures-used-to-appointment-the-2011-2012-psf-committee-members>`_
+
+- `12   2011 Frank Willison Award Nomination <#frank-willison-award-nomination>`_
+
+- `13   Other Business <#other-business>`_- `13.1   PSF Seeks an Assistant Treasurer <#psf-seeks-an-assistant-treasurer>`_
+
+- `14   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Steve Holden, Marc-Andre Lemburg [arrived at 12:21], David Mertz,
+Doug Napoleone [arrived at 12:29], Jesse Noller, Tim Peters, Allison Randal,
+Jeff Rush, and Martin von Loewis. Also in attendance were Kurt Kaiser
+(Treasurer), and Pat Campbell (Secretary & Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 18 April 2011 Board meeting minutes were voted on and approved. 
+
+Approved, 6-0-1.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting held on 18
+April 2011.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K.
+Kaiser prior to the Board meeting and produced from Quickbooks Online.
+
+Here is an excerpt from the treasurer's report on a few of the activities
+the treasurer has been focused on:
+
+&quot;My focus remains on AR and AP reduction, PyCon wrap-up and final
+payments to the hotel, and implementation of the Associate Member
+program, with increased effort on the latter.&quot;
+
+Board Discussion: 
+
+The board briefly discussed the outstanding AR and the 2011 PyCon
+Conference hotel bill.
+
+S. Holden: &quot;I am rather concerned that the outstanding AR appears
+to be all or mostly *last year's* sponsor memberships. We haven't
+invoiced this year yet, and it's almost June.
+
+K. Kaiser: &quot;I wanted some gap between the 2010 and 2011 invoices
+so the sponsors wouldn't get confused.&quot;
+
+J. Noller: &quot;I am waiting on @kbk's [K. Kaiser] approval that the books
+are closed to move forward with financial obligations for Pycon 2012.&quot;
+
+K. Kaiser: &quot;I'm hoping that we can clear the PyCon hotel bill soon and
+recognize PyCon [2012]. I can't do that w/o the bill!&quot;
+
+- Holden: &quot;Seems to me you need help.&quot;
+
+K. Kaiser: &quot;Last year was a big problem. We introduced sponsor levels
+and a new accounting system.
+
+`5   Progress Reports <#id5>`_
+------------------------------
+
+The following board reports were submitted to the board mailing list
+one week prior to this month's meeting. Please see a summary of each
+board report listed below and a possible board discussion at the end
+of the report(s):
+
+`5.1   Communication Status <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Hellmann, Communication Officer, reported continued activities from
+last month, by saying:
+
+    - Mike Driscoll wrote a post announcing the PyPy grant.      `http://pyfound.blogspot.com/2011/05/pypy-receives-us10000-at-pycon-usa.html  <http://pyfound.blogspot.com/2011/05/pypy-receives-us10000-at-pycon-usa.html>`_
+
+    - &quot;Python Insider&quot; blog translations.      Since we announced the Spanish and Japanese translations, close to 30 volunteers have stepped forward to translate the Python Insider blog into other languages. In addition to the original two translations, we now have teams working on Simplified and Traditional Chinese, Korean, Portuguese, Romanian, and German. Persian and Russian volunteers just joined and are setting up the tools. We have added links to all of the available translations in the sidebar on `http://blog.python.org/ <http://blog.python.org/>`_.
+
+    - Work with Jesse Noller to announce the Python-core Mentors project.      *No progress*
+
+    - Post a request for help with PSF logos      *No progress*
+
+    - Post about common trademark use      *No progress*
+
+As far as new activities for the month are concerned, he reported: 
+
+    - Wrote up the list of new Board members for 2011-2012.      `http://pyfound.blogspot.com/2011/04/board-of-directors-for-2011-2012.html  <http://pyfound.blogspot.com/2011/04/board-of-directors-for-2011-2012.html>`_
+
+    - Wrote up the newly elected PSF members.      `http://pyfound.blogspot.com/2011/04/psf-elects-new-members.html  <http://pyfound.blogspot.com/2011/04/psf-elects-new-members.html>`_
+
+    - Announced Zimbio sponsorship      `http://pyfound.blogspot.com/2011/04/zimbio-joins-psf-as-sponsor-member.html  <http://pyfound.blogspot.com/2011/04/zimbio-joins-psf-as-sponsor-member.html>`_
+
+    - Announced Online Degree Reviews sponsorship      `http://pyfound.blogspot.com/2011/04/online-degree-reviews-joins-psf-as.html  <http://pyfound.blogspot.com/2011/04/online-degree-reviews-joins-psf-as.html>`_
+
+    - Announced next members meeting at EuroPython      `http://pyfound.blogspot.com/2011/05/next-psf-members-meeting-europython.html  <http://pyfound.blogspot.com/2011/05/next-psf-members-meeting-europython.html>`_
+
+For items planned for next month and ongoing projects, D. Hellmann reported
+respectively:
+
+    - Start interviews with GSoC students.
+
+    Facebook stats 
+
+    17,952 monthly active users (up 14%) 
+
+    3,763 new likes (up 100%) 
+
+    313,648 post views (down 42%) 
+
+    717 post feedback
+
+And, for tabled activities, Doug said: 
+
+    - Writing about new PyCon website software.
+
+    - Paulo Nuin is working on a post about the PyPI mirroring project.
+
+`5.2   Honorary Associate Membership WebPages/Links <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+P. Campbell, Honorary Associate Membership (HAM) WebPages Start-up
+Project, reported on the current issues or blockages the project may
+be faced with by saying:
+
+&quot;We have been in the technical phase of the Honorary Associate Membership
+(HAM) Project for the past few months which means that the actual HAM
+membership recruitment can not begin until the new membership sign-up and
+payment system are in place on the official Python website.
+
+According to Kurt Kaiser, our treasurer, since PyCon US 2011 is behind us,
+he will be able to devote more of his time to the HAM project.
+
+So, hopefully, our first HAM membership signup will soon be on the way
+once the HAM membership signup and payment system is integrated with
+python.org!&quot;
+
+As far as continued activities from last month are concerned, she reported: 
+
+    Please see the message below from Kurt Kaiser regarding the current
+    status of the technical phase of the HAM program implementation and
+    maintenance:
+
+    &quot;There is basically no change, due to PyCon pressures.  I did discuss the
+    project with several key people at PyCon and none of them had any
+    suggestions on how to accomplish it using a currently available Python-based
+    solution. They did express interest, however, and I'm pursing those leads on a
+    secondary basis.  For now, CiviCRM appears to be the best way to get it going.
+
+    I also discussed CiviCRM with John Sullivan, FSF ED, at the Free Software
+    Foundation annual meeting 19 March.  He confirmed that their current solution for
+    maintaining the FSF Assocate Memberships was Plone-based, but it was getting old
+    and they were planning on switching to CiviCRM, primarily because they expected
+    it to be easier to maintain and supplement content. They are already using CiviCRM
+    for their Libre Planet website and registration system.  He offered help and
+    collaboration with our implementation.&quot;
+
+Pat reported on new activities for the month by saying: 
+
+    &quot;Work is taking place with the new CiviCRM installation at psfmember.org by Kurt
+    Kaiser.
+
+    Also, Andrew Kuchling has been importing the PSF database from MatrixMaxx into
+    CiviCRM where the Honorary Associate Membership data will reside. However, there
+    is be more work to be done in order to get the site up and running
+
+    According to Andrew, before the site is up and running, it will need a top page,
+    for example:
+
+    &quot;We need to implement a top page for the site, set up the associate-member pages,
+    and then turn off 'Site is offline'.&quot;&quot;
+
+`5.3   Infrastructure Committee <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Reifschneider, Infrastructure Committee Chair, reported on continued activities from
+last month when he wrote:
+
+    - Arc Riley is taking over the DNS transfer activities of pound-python.
+
+As far as new activities for the month, planned activities for next month, or ongoing
+projects are concerned, Sean reported:
+
+    - None.
+
+`5.4   Marketing Material <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M.A.Lemburg, Marketing Material Project Manager, reported progress
+on the project:
+
+&quot;The project is currently in the content acquisition phase. We
+have sent out the first emails to the contacts made at PyCon US
+and directly or indirectly with the help of Guido, Laura, Fabio,
+Doug, as well as suggestions by the PSF members. We like to
+thank them for their help.
+
+Content negotiations have begun with Disney, ILM and RackSpace/
+OpenStack. We are working with them to settle on licensing terms
+for the images and getting project texts written/approved.
+
+We've also been in contact with several science projects and
+are preparing another wave of emails in the next week
+to reach out to more projects.
+
+Even though we have not yet actively been contacting companies
+for sponsorships or funding, a few of the ones we have contacted
+have already shown interested in supporting the project and
+one of them is prepared to sign up with us.
+
+More information on the available sponsoring/funding options
+is available on our project website:
+
+    `http://brochure.getpython.info/sponsorship <http://brochure.getpython.info/sponsorship>`_
+
+M.A.Lemburg also reported issues with the project, he said: 
+
+&quot;As always, additional help in finding such interesting projects
+would be greatly appreciated. Please consider signing up as
+contact scout:
+
+    `http://brochure.getpython.info/signup/contact-scout-signup <http://brochure.getpython.info/signup/contact-scout-signup>`_
+
+and, if you're interested in the project, please consider signing
+up to our newsletter:
+
+    `http://brochure.getpython.info/ <http://brochure.getpython.info/>`_
+
+Thanks !&quot; 
+
+As far as future plans are concerned, he reported: 
+
+&quot;If the project goes well, we'll follow up with a Python flyer,
+translated versions of the brochure and also consider creating
+marketing material more targeted at specific user groups or
+application fields.
+
+In the long run, we'd also like to take the idea of producing
+marketing material beyond printed material and develop booth
+setups, giveaways, CDs, etc. to support conference organizers and
+local user groups wishing to promote Python at their events.&quot;
+
+`5.5   Moving PyPI to Amazon CloudFront <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The project leader, M.A. Lemburg, Moving PyPI to Amazon CloudFront,
+reported progress on this project for the month:
+
+&quot;No one on the team has had time to work on the project in the last
+4 weeks.
+
+By shutting down the EC2 instance, we have reduced the
+monthly costs to USD 4.01, which is significantly down from the
+USD 70-80 we had to pay with the EC2 instance up and running
+for a whole month.&quot;
+
+In terms of having any issues surrounding his project, M. A.
+Lemburg reported no issues except that he just does not have enough
+time to devote to his Moving PyPI to Amazon CloudFront project.
+
+- - Lemburg also reported on future plans for the project:
+
+&quot;Check to see whether a trigger based approach to S3 syncing
+wouldn't be easier to implement right from the start.&quot;
+
+`5.6   PyCon Chair (new) <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, PyCon Chair, provided his first report on activities for
+this month. He started with:
+
+    &quot;This is the first official report; so I have filed things where I felt
+    appropriate.
+
+    PyCon 2012: March 7th ? 15th, Santa Clara, CA 
+
+    PyCon 2013: March 11th ? 21st, Santa Clara, CA
+
+He reported on issues and blockages by saying: 
+
+    &quot;1. Currently pending the final &quot;closing&quot; of the PyCon 2011
+    books. I do not feel that we can &quot;open&quot; 2012 books until such
+    time as this is done. Van Lindberg is almost done with this task,
+    and the amount of money coming into the PSF from PyCon 2011 has
+    been disclosed to the board. PyCon 2011 was an astounding social,
+    community and financial success.&quot;
+
+As far as reporting on the continued activities from last month, Jesse
+said:
+
+    &quot;1. Discussion and explanation of the &quot;deposit fees&quot; associated
+    with the Hyatt Convention center in Santa Clara. Currently, we
+    have paid a ~39K deposit for the 2012 convention and on 12/1/2011
+    we must pay a deposit of 38,667 for the 2013 conference. These
+    deposits are, while unfortunate in the short term, provide a long
+    term benefit - quoting Van Lindberg (who constructed these
+    contracts in conjunction with CTE guidance):
+
+    &quot;A little bit of background - this is a case of spend money to
+    save money. Right now there is still quite a bit of depression in
+    the hotel/convention market - although it is going away
+    quickly. This was a chance (for them) to lock us in to being
+    there two years, and (for us) to lock in the lower of our 2011
+    costs or negotiated 2012 costs for two years -- including
+    catering!
+
+    Given that we were already planning on staying there two years,
+    this was a significant win on PyCon budget planning and
+    expenditures without much of an effect on us other than the
+    unfortunate deposit up front. On the bright side, we get the
+    catering costs negotiated in 2009 - at the height of the
+    recession - extended through 2013. As this is the single biggest
+    cost driver for PyCon, this is a big win.&quot;&quot;
+
+He reported on the new activities he is engaged in. Jesse said: 
+
+    &quot;1. Discussed and signed of planned Letter of Intent for PyCon
+    2014/2015 in Montreal, Canada. We had been negotiating for an
+    April date that gives us warmer weather and in general, a better
+    experience within the venue and town. The final LOI (Attached)
+    has us hosting PyCon in Montreal from April 10 2014 to April 17
+    2014 and from April 7, 2015 to April 16 2015.&quot;
+
+    (The Letter of Intent has not been attached to the monthly board
+    minutes here, however, it can be found in the attachment on
+    J. Noller's original PyCon Chair report to the board for May
+    2011.)
+
+As far as the planned activities for next month, Jesse reported: 
+
+    &quot;1. With the planned closing of the 2012 budget; I will begin
+    finalizing the staffing roles of the PyCon programming
+    committee. This currently looks like:
+
+    Chair: Jesse Noller 
+
+    Co-Chair: Yannick Gingras 
+
+    Accountant/Sponsors: Van Lindberg
+
+    Event Coordinator: Ewa Jodlowska/CTE 
+
+    Public Relations Lead: Unknown
+
+    Tech Lead: Doug Napoleone 
+
+    Tech Co-Lead: Noah Kantrowtiz
+
+    Program Committee Chair: Jacob Kaplan-Moss 
+
+    Program Committee Co-Chair: Tim Lesher
+
+    My Goal is to have each role have a secondary person who can act
+    for that person in case of anything happening, and also to spread
+    the institutional knowledge and processes a lot further than they
+    are right now. The PyCon-Montreal crowd will be heavily involved
+    as well.
+
+    2. I will be working with Doug Napoleone and Eldarion, Inc to
+    finalize a website maintenance contract for the 2012 website and
+    codebase.  There will be monetary expenditure involved, and it
+    will be part of my next report.
+
+    3. Finalize milestones: We have a number of milestones (launching
+    the site, CFP) which have been discussed. These are going to be
+    more widely disseminated and finalized in the upcoming month. Our
+    goal is a CFP by July/August. We already have sponsors ready to
+    sign up with us for the 2012 conference, all we're waiting for
+    are open books and a site.&quot;
+
+The report was closed with an explanation of his currently tabled activities
+Jesse said:
+
+    &quot;1. I am supposed to make a flight to Santa Clara and Montreal
+    for site surveys; due to personal reasons I will not be able to
+    do so until later this summer.&quot;
+
+`5.7   Sprint Committee <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, Sprint Committee Chair, provided a summary of activities for
+this month, he reported:
+
+&quot;We approved one new sprint this month for DjangoCon Europe 2011, which
+we received a request for late last month. We're supplying them with
+$300 USD for a two day sprint after the conference in Amsterdam.&quot;
+
+On his report of new activities for the month, J. Noller said: 
+
+&quot;We have the announcement for the DjangoCon sponsorship written and
+ready to post, but we're waiting on their announcement of the selected
+talks in order to have more buzz for sprint sponsorships and their
+conference.
+
+Waiting to hear back from Kurt on an update to our accounting, as
+we've processed a number of reimbursements lately and have the PyCon
+sprint expenses to account for as well.&quot;
+
+`6   Final PyCon-related Expenses <#id13>`_
+-------------------------------------------
+
+The board discussed and approved $3,000 for final PyCon-related expenses 
+
+    **RESOLVED**, that the PSF provide funding of $3,000 in discretionary
+    spending to allow Van Lindberg to provide the monies for the final
+    PyCon-related expenses.
+
+Approved, 7-0-0.
+
+`7   SciPy 2011 Conference Funding <#id14>`_
+--------------------------------------------
+
+    **RESOLVED**, that the PSF provide a grant of $2,000 to sponsor the
+    SciPy 2011 Conference to be held in Austin, Texas on July 11 through
+    the 16th.
+
+Approved, 8-0-0.
+
+`8   2011 Libre Graphics Meeting (LGM) Funding <#id15>`_
+--------------------------------------------------------
+
+    **RESOLVED**, that the PSF provide funding of $1,500 to the GNOME
+    Foundation for the 2011 Libre Graphics Meeting to be held in Montreal.
+
+Approved, 7-0-1.
+
+`9   2011 PyArgentina Conference Funding <#id16>`_
+--------------------------------------------------
+
+    **RESOLVED**, that the PSF provide funding of $1,500 USD to sponsor
+    the PyArgentina Conference (requested by Juan Rodr?guez Monti).
+
+Approved, 6-0-2.
+
+`10   Appointment of 2011/2012 PSF Committee Chairs <#id17>`_
+-------------------------------------------------------------
+
+The board re-appointed three committee chairs: 
+
+    **RESOLVED**, that David Mertz be appointed chairman of the Trademarks
+    Committee for 2011/2012.
+
+Approved, 8-0-1. 
+
+    **RESOLVED**, that Sean Reifschneider be appointed chairman of the
+    Infrastructure Committee for 2011/2012.
+
+Approved, 9-0-0. 
+
+    **RESOLVED**, that Jesse Noller be appointed chairman of the Sprints
+    Committee for 2011/2012.
+
+Approved, 8-0-1.
+
+`11   Procedures Used to Appointment the 2011/2012 PSF Committee Members <#id18>`_
+----------------------------------------------------------------------------------
+
+    **RESOLVED**, that the reappointment of the individual members of the
+    Trademarks Committee, the Infrastructure Committee and the Sprints
+    Committee for the term 2010/2011 be delegated to the Chairman of the
+    Board based on the proposals by the chairmen of the respective
+    committees in accordance with section 6.4 of the bylaws.
+
+Approved, 8-0-0.
+
+`12   2011 Frank Willison Award Nomination <#id19>`_
+----------------------------------------------------
+
+A nominee for the 2011 Frank Willison Award was selected. 
+
+**RESOLVED**, that the 2011 Frank Willison Award be awarded
+to Georg Brandl. The award was initially announced at the 2011
+EuroPython Conference.
+
+Approved, 7-0-1.
+
+`13   Other Business <#id20>`_
+------------------------------
+
+`13.1   PSF Seeks an Assistant Treasurer <#id21>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Board members discussed the need for an active Assistant Treasurer and
+will be looking for someone to fill the position soon.
+
+`14   Adjournment <#id22>`_
+---------------------------
+
+S. Holden adjourned the meeting
+at 17:08 UTC.

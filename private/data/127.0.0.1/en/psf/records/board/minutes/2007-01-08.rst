@@ -1,0 +1,198 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+January 8, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:02 UTC, 8
+January 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in December <#new-in-december>`_
+
+- `4   Grants Committee <#grants-committee>`_
+
+- `5   New Sponsor Member: Canonical <#new-sponsor-member-canonical>`_
+
+- `6   Conference Committee <#conference-committee>`_
+
+- `7   Trademark Policy v1.3 <#trademark-policy-v1-3>`_
+
+- `8   Planning for the Members' Meeting <#planning-for-the-members-meeting>`_
+
+- `9   PyCon Sponsorships <#pycon-sponsorships>`_
+
+- `10   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+All members of the Board of Directors were present at the meeting:
+David Goodger, Tim Peters, Brett Cannon, Andrew Kuchling, Martin von
+L?wis, Steve Holden, Stephan Deibel, and David Ascher (arrived at
+18:14).  Also in attendance was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 11 December 2006 minutes were approved by a 6-0-1 vote
+(*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 11 December
+2006 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     Status: **done**.  See `New Sponsor Member: Canonical  <#new-sponsor-member-canonical>`_ below.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Still awaiting records.      Status: in progress.
+
+- Originally from July 2006, Section 3.2, item 3: D. Goodger will update & confirm email & snail mail addresses when he receives the PSF records, with the help of M. von L?wis.     M. von L?wis sent out address confirmation messages to members in December.  There are a few responses to add, and some pings to those who didn't respond.     Status: in progress.
+
+- Originally from July 2006, Section 9, 2006 Budget & Action Plan: D. Goodger will develop the 2006 Budget & Action Plan further and take it to the PSF membership for feedback.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from September 2006, Section 3.1, item 7: D. Goodger will telephone Jeremy Hylton to ask for PSF records to be sent.     Status: follow-up required.
+
+- Originally from September 2006, Section 3.2, item 7: S. Deibel and B. Cannon will follow up regarding further discussion with Mark Shuttleworth.     Status: **dropped**.
+
+- Originally from November 2006, Section 4, Grants Committee: M. von L?wis will clarify the status of the Jython grant and provide a new figure for the outstanding grants commitment.     Status: **done**.  See `Grants Committee <#grants-committee>`_ below.
+
+- Originally from November 2006, Section 7, PyCon: D. Goodger will prepare for the PSF members' meeting at PyCon.     Status: in progress.
+
+`3.2   New in December <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated in the 11 December 2006 board meeting on
+IRC.
+
+- Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Section 5, Jython License: A. Kuchling will write up a summary of the license discussion, post it to jython-dev, and the current developers can decide what to do.     Status: carried forward.
+
+- Section 6, PyCon Budget: A. Kuchling will make a static copy of the budget for the records and prepare a resolution approving the submitted budget.     Status: **done**.
+
+- Section 8, Call For New Directors?: D. Goodger will list the directors standing for re-election in the agenda of the upcoming Members' Meeting.     Status: **done**.
+
+- Section 8, Call For New Directors?: D. Goodger will send out a &quot;call for directors&quot;.     Status: **done**.
+
+- Section 9, Catering the Members' Meeting: D. Goodger will coordinate food for the 2007 PSF Members' Meeting with the conference committee & members.     Status: carried forward.
+
+`4   Grants Committee <#id6>`_
+------------------------------
+
+Regarding the outstanding portion of the Jython grant, M. von L?wis
+reported that he contacted Frank Wierzbicki, who said that he is
+unlikely to complete the planned milestones (2.3 support) in any
+foreseeable future.  Therefore M. von L?wis declared the remaining
+portion of the Jython grant dead.
+
+M. von L?wis will inform Frank Wierzbicki and the PSF members
+of the decision to terminate the Jython grant.
+
+D. Goodger will convert the Jython grant termination message
+from M. von L?wis into a PSF weblog post.
+
+`5   New Sponsor Member: Canonical <#id7>`_
+-------------------------------------------
+
+D. Goodger reported that we have received Canonical's sponsor member
+application form.  The representative would be Steve Alexander.  Their
+membership would begin January 2007.
+
+    RESOLVED, that the board recommends Canonical as a new sponsor
+    member, for future approval by the membership.
+
+Approved 8-0-0. 
+
+K. Kaiser will issue an invoice for sponsor dues to
+Canonical.
+
+`6   Conference Committee <#id8>`_
+----------------------------------
+
+A. Kuchling asked if changes to a committee need a board resolution or
+is it up to the committee chair?  D. Goodger replied that according to
+the bylaws, it seems that a board resolution is needed.  However,
+section 5.9 of the bylaws allow for committee changes without a
+resolution (just a decision from the committee chair), given an
+&quot;authorizing resolution&quot;.
+
+S. Holden asked if a resolution is necessary; &quot;We can always vote
+someone on or off by email.  The membership isn't likely to be very
+volatile&quot;.  B. Cannon noted: &quot;The whole point of the committees, I
+think, is so that the Board doesn't have to deal with little details
+like this.&quot;
+
+    RESOLVED, that the Conference Committee chair be authorized to
+    appoint and dismiss committee members, subject to prompt reporting
+    to the Board.
+
+Approved 5-0-3.
+
+`7   Trademark Policy v1.3 <#id9>`_
+-----------------------------------
+
+T. Peters asked if v1.3 went through lawyer review.  S. Deibel
+replied: &quot;I contacted the lawyer with an outline of what I wanted to
+change and she said it was fine.  We could ask her to read through the
+diffs / etc if people think it's necessary (but I don't).&quot;
+A. Kuchling noted a minor typo.
+
+    RESOLVED, that the PSF update the trademark policy available at
+    `http://python.org/psf/trademarks <http://python.org/psf/trademarks>`_ to version 1.3, as posted to the
+    Board's mailing list.
+
+Approved 8-0-0.
+
+`8   Planning for the Members' Meeting <#id10>`_
+------------------------------------------------
+
+D. Goodger reminded T. Peters, S. Holden, and M. von L?wis to add
+summaries to
+`http://wiki.python.org/moin/PythonSoftwareFoundation/BoardCandidates2007 <http://wiki.python.org/moin/PythonSoftwareFoundation/BoardCandidates2007>`_.
+
+D. Goodger suggested that there should be a deadline for nominations
+so the absentee ballots and proxy forms could be finalized.  There has
+been plenty of notice for nominations; this would just be the last
+reminder.  There was general agreement on one week's notice.
+
+D. Goodger will send out notices of a deadline for
+nominations of January 15, 2007.
+
+`9   PyCon Sponsorships <#id11>`_
+---------------------------------
+
+S. Holden reported by email the current status: 4 Platinum sponsors, 1
+Gold, 1 Silver, and 1 bag insert sponsor, total $22,700.
+
+S. Holden: &quot;Just to say that I'm sorry it took so long to start up
+this year, but it's now controlled by an autospam system with a
+wxPython GUI, so it should be possible a) to start earlier next time
+and b) to hand it over if necessary.&quot;
+
+S. Deibel noticed that the website says logos will go on tote bags
+only if sponsor fee is paid by Jan 15th, but invoices haven't been
+received yet.  A. Kuchling removed the deadline entirely.
+
+`10   Adjournment <#id12>`_
+---------------------------
+
+S. Deibel adjourned the meeting at 18:43 UTC.

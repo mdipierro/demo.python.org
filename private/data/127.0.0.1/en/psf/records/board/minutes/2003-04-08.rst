@@ -1,0 +1,56 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+April 8, 2003 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:05 GMT. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting:
+Thomas Wouters, David Ascher, Guido van Rossum, Marc-Andre Lemburg, Martin von L?wis, Tim Peters, Jeremy Hylton. 
+A quorum was present. Neal Norwitz also participated in the meeting. 
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+Guido moved to approve the minutes of March 11th. Motion passes
+with 6 ayes and 1 abstention.
+
+3. Treasurer appointment
+########################
+
+Neal has volunteered to take over the treasurer position from Jeremy.
+He will get all documents from Jeremy, and a procedure to give him access
+to the PSF maildrop will be established. Jeremy moves to appoint Neal
+as the treasurer. Motion passes with 7 ayes. The board thanks Neal for
+volunteering.
+
+4. Grant proposals
+##################
+
+Jeremy reports that several PSF members (Michael McLay,
+Keven Altis, Aron Traurin, Dan Moore) have been suggested that
+the PSF applies for grants for Python development. Possible
+sponsors are the Mellon Foundation, Intel, and DARPA. Board
+members ask how the money would be spent if it were granted.
+One option is to sponsor individuals with it, like Guido for
+working on Python 3. Zope Corporation might also be the prime
+contractor of the grant, or Metaslash (Neal's company).  There 
+is concern that funding PSF members or PSF officers 
+with granted money may be a problem.
+
+The board concludes that a committee should be formed to
+review grant proposals that volunteers may draft; no decision
+to form such a committee is taken at this time. Tim will be
+responsible for forming the committee.
+
+5. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 17:45.

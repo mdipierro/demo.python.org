@@ -1,0 +1,488 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+March 26, 2012
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 26
+March 2012. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ??? opposed ???
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_- `3.1   PSF Sponsor Membership Application from Lincoln Loop <#psf-sponsor-membership-application-from-lincoln-loop>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Reports <#progress-reports>`_- `5.1   Communication Status <#communication-status>`_  - `5.2   Marketing Material <#marketing-material>`_- `5.2.1   Sponsor Options <#sponsor-options>`_  - `5.2.2   New Option: Educational Sponsorship <#new-option-educational-sponsorship>`_  - `5.2.3   Please Help find Sponsors <#please-help-find-sponsors>`_  - `5.3   Moving PyPI to Amazon CloudFront <#moving-pypi-to-amazon-cloudfront>`_  - `5.4   Sprint Committee <#sprint-committee>`_  - `5.5   Outreach and Education Committee <#outreach-and-education-committee>`_  - `5.6   Google Summer of Code <#google-summer-of-code>`_
+
+- `6   PSF Contracts and Contributor Agreement Forms <#psf-contracts-and-contributor-agreement-forms>`_
+
+- `7   Kiwi PyCon 2012 Conference Funding <#kiwi-pycon-2012-conference-funding>`_
+
+- `8   Increase Budget for the Outreach and Education Committee <#increase-budget-for-the-outreach-and-education-committee>`_
+
+- `9   PSF Adds Newest Employee to PyCon US <#psf-adds-newest-employee-to-pycon-us>`_
+
+- `10   Other Business <#other-business>`_
+
+- `11   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors (8 of ll) were present at
+the meeting: Steve Holden, Marc-Andre Lemburg, Martin von L?wis, David Mertz
+Jesse Noller, Tim Peters, Jeff Rush [arrived at 12:06 & left at 12:13], and
+Gloria Willadsen [arrived at 12:12 & left at 12:21]. Also in attendance were
+Kurt Kaiser (Treasurer) and Pat Campbell (Secretary/Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 27 February 2012 Board meeting minutes were voted on and approved. 
+
+    **RESOLVED**, that the minutes at `http://mail.python.org/mailman/private <http://mail.python.org/mailman/private>`_
+    /psf-board/attachments/20120310/15bff493/attachment-0001.txt represent
+    a fair and accurate record of the February meeting.
+
+Approved, 5-0-1.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There was one (1) vote taken between meetings. 
+
+`3.1   PSF Sponsor Membership Application from Lincoln Loop <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    **RESOLVED**, that the Board of Directors recommend Lincoln Loop
+    to the membership, as a future sponsor member of the PSF.
+
+Approved via email vote on February 29, 2012, 8-0-0.
+
+`4   Treasurer Report <#id5>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K.
+Kaiser prior to the Board meeting and produced from Quickbooks Online.
+
+Here is an exerpt from the treasurer's report on a few of the activities
+the treasurer has been focused on:
+
+For the month of March 2012, the treasurer provided a sumation of the financial
+activities by saying:
+
+    Our assets were up by 290K in February, reflecting the payments for
+    PyCon registration and sponsorship.  This was matched by a similar increase
+    in liability.
+
+    The next month will continue to be very busy financially, but the P&L
+    won't show much change until we recognize the results of PyCon 2012.  At
+    that point (triggered by settling accounts with the convention center
+    and the hotels) the accrued expense and revenue will move to the P&L and
+    our assets and liabilities will return to normal levels.
+
+He reported on the revenue and expense below: 
+
+    Revenue: 
+
+        In the month of February, YTD income was up by 87K, primarily due to
+        invoicing our PSF Sponsors for 2012 dues. Total equity rose to 476K.
+
+        Donations for the month were $1811.
+
+    Expense: 
+
+        Outside Services:
+        Wendroff                             1,150
+
+The treasurer goes on to say: 
+
+    AR is up by 6K due to PyCon 2012 Sponsor and PSF Sponsor invoicing and
+    collection activity..
+
+Concerning the Honorary Associate Member Program (HAM), he said: 
+
+    Associate Member program: 
+
+        At PyCon, the Chairman and I made sufficient progress on the Associate
+        Member website (psfmember.org) to open it for enrollment.  Useful
+        commments were received, resulting in improvements.  I expect this
+        process to continue over the next few months.
+
+        We still need to link psfmember.org to python.org and make the
+        community aware of the Associate Member opportunity.
+
+Kurt concluded his report with a list of financial business items he will
+be focused on, he said:
+
+    My focus is on PyCon wrapup, AR/AP reduction, the Associate program, and
+    the increased activity and interest on the fiscal sponsorship front.
+
+`5   Progress Reports <#id6>`_
+------------------------------
+
+The following board reports were submitted to the board mailing list
+one week prior to this month's meeting. Please see a summary of each
+board report listed below and a possible board discussion at the end
+of the report(s):
+
+`5.1   Communication Status <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Hellmann, Communication Officer, reported on continued activities from
+last month. He said:
+
+    1. Send announcement email about the blog to various mailing lists
+    (c.l.py, c.l.py.announce, etc.).
+
+    Brian is planning an email campaign with the Outreach & Education
+    committee, and the PSF blog may be included in the resources
+    discussed there.
+
+Doug also reported on the new activities for the month. He reported: 
+
+    - None
+
+He reported the following information on the planned activities for next month: 
+
+    1. Via Steve Holden, we have some information to put together a story
+    about Python's use in schools from David Coopersmith along with a
+    student of his named Isaac. The same story involves some
+    praise for the trademark committee, which may or may not go into the
+    same post.
+
+    - Community service award posts for Audrey Roy and Carl Trachte.
+
+    3. Post information about this summer's PyGames contest for students
+    (`http://www.summerpygames.org/ <http://www.summerpygames.org/>`_).
+
+As far as the ongoing projects for the month are concerned, he reported: 
+
+    - Brian Curtin is working on a post about the video equipment purchased by the PSF and how it has been used to record conference talks and other events.
+
+    - Recruiting other people to help write for the blog.
+
+    - We are wrapping up the transition plan so Brian Curtin can take over as Communications Director around the time of the next Board elections this spring.
+
+For tabled activities, D. Hellmann said: 
+
+    - PyCon video equipment loan/rental program post      There was some discussion of offering the PyCon video equipment to PUGs for their meetings, but the mechanism to do it isn't in place, yet.
+
+`5.2   Marketing Material <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M.A.Lemburg, Marketing Material Project Manager, provided a summary
+of his work. He said:
+
+    The project is lead by Marc-Andr? Lemburg who is in contact with
+    the people behind the Plone brochure created by the German Zope
+    User Group (DZUG): Jan Ulrich Hasecke and Armin Stro?-Radschinski.
+
+    We started working on the concept a few weeks after World Plone Day
+    in April 2010 and had several meetings and conference calls to take
+    the idea forward.
+
+    For more details, please see the brochure support site at: 
+
+        `http://brochure.getpython.info/learn-more <http://brochure.getpython.info/learn-more>`_
+
+Marc-Andr? also reported on the progress of his project when he said: 
+
+    For PyCon US, we created a small teaser version of the brochure
+    to get the attention of potential sponsors. The teaser was
+    distributed to all PyCon US attendees in the conference bag.
+    Unfortunately, no one of our team was present at PyCon US, but
+    we had contact scouts available at the conference:
+
+        `http://brochure.getpython.info/newsletter/pycon-us-2012-special <http://brochure.getpython.info/newsletter/pycon-us-2012-special>`_
+
+    Here's the link to the PDF of the teaser, in case you missed
+    it:
+
+        `http://brochure.getpython.info/media/flyer/python-brochure-pycon-us <http://brochure.getpython.info/media/flyer/python-brochure-pycon-us>`_-
+        2012-teaser-booklet/view
+
+    Armin has setup a complete web shop solution to make it easy for
+    sponsors to sign up:
+
+        `http://brochure.getpython.info/mediadata <http://brochure.getpython.info/mediadata>`_
+
+    We have now finished the layout and texts for most of the
+    brochure and are actively looking for sponsors.
+
+`5.2.1   Sponsor Options <#id9>`_
+#################################
+
+    There are 8 half-page ads available in the brochure and
+    we want to have 30-40 reference sponsor entries as well.
+
+    The reference sponsor entries are meant for companies
+    providing Python services, have a fixed layout and provide
+    a great value for money: the companies will not only be
+    listed in 10.000+ copies of the brochure, but they will
+    also each get a box of around 120 copies of the brochure.
+
+`5.2.2   New Option: Educational Sponsorship <#id10>`_
+######################################################
+
+    We have also added a new sponsor option: the education sponsorship.
+    This works much like the subscription sponsorship where a company
+    can order extra brochure copies at very reasonable prices. The
+    difference is that companies can order extra copies for educational
+    institutions of their choice or of the PSF's choice. The bill will
+    be paid by the company and the boxes will go straight to the
+    institution.
+
+`5.2.3   Please Help find Sponsors <#id11>`_
+############################################
+
+    We are trying to get the brochure ready in time for EuroPython 2012
+    in July this year, but whether that works out depends entirely on finding
+    enough sponsors in time to refinance the brochure production costs.
+    The deadline for this is June 1st.
+
+    If you know possible sponsors or are interested in sponsoring
+    the brochure yourself, please check the available sponsorship plans
+    we have available:
+
+        `http://brochure.getpython.info/sponsorship <http://brochure.getpython.info/sponsorship>`_
+
+    We will announce the call for sponsors on the usual lists, feeds
+    and our website, once we have the credit card system setup.
+
+M.A Lemburg reported on the current issues the project is faced with.
+He said:
+
+    If you know of interesting projects or companies using Python
+    to great things, please contact us and consider signing up as
+    contact scout to provide on-site help at conferences or other
+    events:
+
+        `http://brochure.getpython.info/signup/contact-scout-signup <http://brochure.getpython.info/signup/contact-scout-signup>`_
+
+    and, if you're interested in the project, please consider signing
+    up to our newsletter:
+
+        `http://brochure.getpython.info/ <http://brochure.getpython.info/>`_
+
+    Thanks !
+
+As far as the future plans for this project are concerned, he reported: 
+
+    If the project goes well, we'll follow up with a second edition
+    of the brochure, Python flyers using material extracted from the
+    brochure, translated versions of the brochure and also consider
+    creating marketing material more targeted at specific user groups or
+    application fields.
+
+    In the long run, we'd also like to take the idea of producing
+    marketing material beyond printed material and develop booth
+    setups, giveaways, CDs, etc. to support conference organizers and
+    local user groups wishing to promote Python at their events.
+
+`5.3   Moving PyPI to Amazon CloudFront <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The project leader, M.A. Lemburg, Moving PyPI to Amazon CloudFront,
+reported on progress for the month:
+
+&quot;The project is currently on hold, since the team members don't have
+time to put into this.
+
+I'm beginning to believe that doing a sprint of sorts would likely
+be the best way to move this forward, but I currently don't have more
+cycles to spare (the brochure project has turned out to be very
+work intense), so can't lead such an effort at the moment.&quot;
+
+In terms of having any issues surrounding his project, M. A.
+Lemburg reported no issues except one: he said, he just does not have
+enough time to devote to his Moving PyPI to Amazon CloudFront project.
+
+- - Lemburg also reported on the future plans for this project:
+
+&quot;Check to see whether a trigger based approach to S3 syncing
+wouldn't be easier to implement right from the start.&quot;
+
+`5.4   Sprint Committee <#id13>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller &/or B. Curtin, Sprint Committee Chair, reported that there
+were no issues or blockages surrounding any sprint activities for the
+month.
+
+As far as the continued activities from last month, he reported: 
+
+    1. Wrapping up the ledger project. All payments and expenses are
+    currently listed in a Google Spreadsheet, and we had previously
+    discussed adding a front-end (Google Form) for easier tracking of
+    receipts.
+
+On his report of the new activities for the month, He reported: 
+
+    The PyCon poster, split between Sprints and Outreach & Education,
+    went pretty well for both groups. It was a reminder to some, and
+    an introduction to most - either way, people seemed interested.
+
+    No new sprint funding requests were received in this period.
+
+In terms of the new activities planned for next month. He wrote: 
+
+    Begin another email and blog campaign to raise awareness of the group.
+    The poster we ran at PyCon got fairly good traffic and I handed out
+    about 70 business cards that we had made. A few people showed
+    immediate interest, so hopefully another push in the coming month
+    brings some groups to action.
+
+As far as the ongoing projects for this committee, He said: 
+
+    Wrapping up of the ledger project.
+
+`5.5   Outreach and Education Committee <#id14>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Mertz, Outreach and Education Committee Chair, reported on the issues
+& blockages this committee was faced with for the month.
+
+    - As a preface, I apologize for being so remiss in generating reports for the Outreach and Education Committee during the last months. The committee itself has been rather inactive since the November 2011 grant of $3300 to Boston Python Workshop. The grant of $1200 to PyLadies to subsidize some attendance at PyCon was funded through the PyCon budget, but was also somewhat the result of discussion by O&E (but all thanks and praise to Jesse for actually doing the specifics).
+
+However, he also provided a list of planned activities. He wrote: 
+
+    - At the Pycon US conference, I was able to arrange a very productive in-person meeting of many of the O&E members, as well as some additional observers who are likely to participate as members or advisors to the committee.  I believe we had 13 attendees to that meeting, and made much more concrete plans for 2012.
+
+    Goals for 2012 and upshots of March meeting 
+
+    - Create a website to coordinate local user group and education events.  A logical place to park such a site might be community.python.org (maybe events.python.org or pythoncommunity.org), with links to that subdomain from the home page of python.org.   **MISSING**   ** Move the existing python.org community information to new site.      ** Form for requesting reimbursements of meetup.com fees      ** Form for adding your user group event information (RSS feed)      ** Map showing user group locations and upcoming events?    **MISSING**
+
+    - Revive the group-organizers mailing list.      ** Contact local user groups to encourage their participation in the list.      ** Get someone from O&E to be an admin on that list.
+
+    - Add user group material to pythonguide.org
+
+    - Make it really obvious on the python.org front page that community is  important.
+
+    - What could happen to make `http://python.org/community/  <http://python.org/community/>`_ more welcoming / useful
+
+    - Need to propose a budget for this year
+
+    - Summarize what we've done so far in a report to the PSF at large
+
+    - Do quarterly reports to the PSF (Jessica will do this)
+
+    - Speaker exchange program    **MISSING**
+
+    - Revisit the user group organizer survey for more ideas
+
+    - What do user groups need money for:      ** food      ** space      ** travel for speakers
+
+    - List of goals:      ** Get 7 meetup.com fees covered    **MISSING**   ** Grants for kids groups
+
+    - Observation: &quot;the less specific you are, the fewer grants you get&quot;
+
+    - Getting people from python-dev committed to GSoC (Brian will pull in pythonmentors.com)
+
+`5.6   Google Summer of Code <#id15>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A. Riley, Google Summer of Code (GSoC), reported on the issues and/or
+blockages this program may be faced with. He said:
+
+    None, smooth sailing so far.
+
+Arc also reported on the new activities for the month when he wrote: 
+
+    - Applied and was accepted for Google Summer of Code 2012.
+
+    - Signing up mentors and umbrella orgs.  I'm speaking with each mentor personally this year to ensure we have clear lines of communication re: vacations, emergencies, etc.
+
+- Riley reported on the planned activities for next month. He said:
+
+    - Signing up umbrella orgs and working with prospective students until March 26th
+
+    - Student applications open March 26 to April 6th.
+
+    - Each umbrella'd org will review their applicants and get prerequisites (patch, interviews, etc) in until April 16.
+
+As far as the ongoing projects, he reported: 
+
+    None - this year just began.
+
+`6   PSF Contracts and Contributor Agreement Forms <#id16>`_
+------------------------------------------------------------
+
+Board members discussed and voted on a motion to clarify the
+current contract and contributor agreement form signature process.
+
+    **RESOLVED**, that the PSF secretary be authorized to sign
+    contributor agreements on behalf of the PSF.
+
+Approved, 6-0-0. 
+
+    **RESOLVED**, that given no specific instructions on who is to
+    sign contracts required to implement projects approved by the Board
+    of Directors, the Chairman of the PSF is authorized to sign such
+    contracts on behalf of the PSF.
+
+Approved, 5-0-1.
+
+`7   Kiwi PyCon 2012 Conference Funding <#id17>`_
+-------------------------------------------------
+
+    **RESOLVED**, that the PSF provide NZD 1,000 for the Kiwi PyCon 2012
+    Conference to be held in New Zealand.
+
+Approved, 6-0-0.
+
+`8   Increase Budget for the Outreach and Education Committee <#id18>`_
+-----------------------------------------------------------------------
+
+Board members discussed and later withdrew a motion
+to increase the annual budget of the Outreach and Education
+Committee from the 2011 budget of $5,000 to $10,000 for 2012.
+
+However, this motion was temporarily withdrawn due primarily
+to a need to first finalize the books for PyCon US 2012.
+
+    **RESOLVED**, that the Outreach and Education Committee
+        shall have authority to authorize PSF expenditure of up
+        to US$10,000 during the calendar year of 2012, to be spent
+        and divided as the Committee determines best assists in
+        promoting diversity with Python communities. No single
+        spending item shall exceed $2000 without prior approval
+        by the PSF Board.  Any commitment of PSF funds by the
+        Committee shall be subject to the voting procedure
+        adopted by the Committee and set forth in its July 2011
+        Committee report (`http://mail.python.org/mailman/private <http://mail.python.org/mailman/private>`_
+        /psf-board/2011-July/015026.html)
+
+    Motion Withdrawn.
+
+`9   PSF Adds Newest Employee to PyCon US <#id19>`_
+---------------------------------------------------
+
+    **RESOLVED**, that the Foundation hire Ewa Jodlowska as
+    &quot;PSF Event Coordinator&quot; as an employee and officer of the
+    foundation focused on the continued management and success
+    of PyCon, at a salary agreed to between herself and the
+    board of directors.
+
+Approved, 6-0-0.
+
+`10   Other Business <#id20>`_
+------------------------------
+
+None
+
+`11   Adjournment <#id21>`_
+---------------------------
+
+- Holden adjourned the meeting at 12:57 UTC.

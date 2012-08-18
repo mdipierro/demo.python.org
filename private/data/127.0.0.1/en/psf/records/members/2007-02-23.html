@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf/records/members/2007-02-23 -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf/records/members/2007-02-23">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>The Python Software Foundation</p>
+<p>Minutes of the 2007 Members' Meeting</p>
+<p>February 23, 2007</p>
+<p>The Python Software Foundation (the &quot;PSF&quot;) held its annual members'
+meeting on February 23, 2007 at 19:00 CST (01:00 UTC) in the Marriott
+Quorum Hotel in Dallas/Addison, Texas, USA (PyCon TX 2007).  The
+<a class="reference external" href="agenda/">agenda is available here</a>.  Stephan Deibel presided over
+the meeting.  David Goodger prepared these minutes.</p>
+<p>Contents</p>
+<ul class="simple">
+<li><a class="reference external" href="#attendance">1   Attendance</a></li>
+<li><a class="reference external" href="#election-of-nominated-members">2   Election of Nominated Members</a></li>
+<li><a class="reference external" href="#election-of-sponsor-members">3   Election of Sponsor Members</a></li>
+<li><a class="reference external" href="#review-of-the-year">4   Review of the Year</a>- <a class="reference external" href="#financial-report">4.1   Financial Report</a>  - <a class="reference external" href="#infrastructure-committee">4.2   Infrastructure Committee</a>  - <a class="reference external" href="#conference-committee">4.3   Conference Committee</a>  - <a class="reference external" href="#advocacy-coordinator">4.4   Advocacy Coordinator</a>  - <a class="reference external" href="#secretary">4.5   Secretary</a></li>
+<li><a class="reference external" href="#motion-to-increase-the-maximum-number-of-directors">5   Motion to Increase the Maximum Number of Directors</a></li>
+<li><a class="reference external" href="#election-of-a-new-board-of-directors">6   Election of a New Board of Directors</a></li>
+<li><a class="reference external" href="#psf-budget-and-action-plan">7   PSF Budget and Action Plan</a></li>
+<li><a class="reference external" href="#google-summer-of-code">8   Google Summer of Code</a></li>
+<li><a class="reference external" href="#adjournment">9   Adjournment</a></li>
+</ul>
+<div class="section" id="id2">
+<h1><a class="reference external" href="#id1">1   Attendance</a></h1>
+<p>The following members were present at the meeting:</p>
+<ul class="simple">
+<li>Advanced Simulation Technology Inc., represented by Andrew Kuchling</li>
+<li>David M. Beazley</li>
+<li>Brett Cannon</li>
+<li>CCP Games, represented by Kristj?n Valur J?nsson</li>
+<li>Andrew Dalke</li>
+<li>Stephan Deibel</li>
+<li>Jeff Elkner</li>
+<li>Enthought, represented by Travis Vaught</li>
+<li>Jim Fulton</li>
+<li>David Goodger</li>
+<li>Raymond Hettinger</li>
+<li>Steve Holden</li>
+<li>Michael Hudson</li>
+<li>Jeremy Hylton</li>
+<li>Eric Jones</li>
+<li>Richard Jones</li>
+<li>Andrew Kuchling</li>
+<li>Merfin LLC, represented by Reggie Dugard</li>
+<li>Anna Martelli Ravenscroft</li>
+<li>Gustavo Niemeyer</li>
+<li>Neal Norwitz</li>
+<li>Travis Oliphant</li>
+<li>Guido van Rossum</li>
+<li>Christian Tismer</li>
+<li>Barry Warsaw</li>
+<li>Thomas Wouters</li>
+<li>Ka-Ping Yee</li>
+<li>Moshe Zadka</li>
+<li>ZeOmega, represented by Brad Allen</li>
+<li>Zope Corporation, represented by Jim Fulton</li>
+</ul>
+<p>The following members were represented by proxy (in parentheses):</p>
+<ul class="simple">
+<li>ActiveState, represented by David Ascher (Brett Cannon)</li>
+<li>David Ascher (Brett Cannon)</li>
+<li>Anthony Baxter (Richard Jones)</li>
+<li>Georg Brandl (Brett Cannon)</li>
+<li>Matthew Dixon Cowles (Stephan Deibel)</li>
+<li>Walter D?rwald (Brett Cannon)</li>
+<li>Paul F. Dubois (Brett Cannon)</li>
+<li>Paul Everitt (Barry Warsaw)</li>
+<li>Google, represented by Chris DiBona (Guido van Rossum)</li>
+<li>Thomas Heller (Michael Hudson)</li>
+<li>Neil Hodgson (Stephan Deibel)</li>
+<li>Hostway, represented by Jason Abate (Barry Warsaw)</li>
+<li>Jim Hugunin (Jeremy Hylton)</li>
+<li>Jack Jansen (Barry Warsaw)</li>
+<li>Kurt B. Kaiser (Neal Norwitz)</li>
+<li>Cameron Laird (Barry Warsaw)</li>
+<li>Marc-Andr? Lemburg (David Goodger)</li>
+<li>Martin von L?wis (Barry Warsaw)</li>
+<li>Ken Manheimer (Barry Warsaw)</li>
+<li>Alex Martelli (Anna Martelli Ravenscroft)</li>
+<li>Open Source Applications Foundation, represented by Ted Leung (Stephan Deibel)</li>
+<li>Samuele Pedroni (Michael Hudson)</li>
+<li>Tim Peters (Barry Warsaw)</li>
+<li>Armin Rigo (Michael Hudson)</li>
+<li>Vinay Sajip (Richard Jones)</li>
+<li>Peter Schneider-Kamp (Barry Warsaw)</li>
+<li>Strakt Holdings, represented by Laura Creighton (Michael Hudson)</li>
+<li>Jason Tishler (Neal Norwitz)</li>
+</ul>
+<p>The following members voted by absentee ballot:</p>
+<ul class="simple">
+<li>Neil Schemenauer</li>
+<li>Brian Zimmer</li>
+</ul>
+<p>60 members were in attendance, represented by proxy, or voted by
+absentee ballot, constituting a quorum according to the Bylaws.</p>
+<p>The following were also present, initially as observers:</p>
+<ul class="simple">
+<li>Steve Alexander, representing Canonical</li>
+<li>Steven Bethard</li>
+<li>Catherine Devlin</li>
+<li>Runar Petersson, representing Madison Tyler LLC</li>
+<li>Sean Reifschneider</li>
+<li>James Tauber</li>
+</ul>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 34); <em><a href="#id1">backlink</a></em></p>
+Duplicate explicit target name: &quot;1 attendance&quot;.</div>
+<div class="section" id="id4">
+<h1><a class="reference external" href="#id2">2   Election of Nominated Members</a></h1>
+<p>The observers were asked to leave the meeting during discussion.  The
+following topics were discussed:</p>
+<ul class="simple">
+<li>What are the requirements for membership?  Past and expected future contributions to the Python codebase and to the Python community; visibility in the community; attitude toward Python's IP.     The existence of the new <a class="reference external" href="/pythonorg/default/index/psf/membership/">Membership FAQ</a> was pointed out.     Nomination should not merely be a reflection of appreciation.</li>
+<li>Emeritus membership.</li>
+<li>New category of membership to show appreciation: associate member? The consensus was no; appreciation should be shown on the website.</li>
+</ul>
+<p>After discussion, all proposed nominated members were elected (vote
+counts in parentheses, for-against-abstain):</p>
+<ul class="simple">
+<li>Steven Bethard (47-3-9)</li>
+<li>Nick Coghlan (55-0-4)</li>
+<li>Laura Creighton (55-3-1)</li>
+<li>Catherine Devlin (40-3-16)</li>
+<li>Doug Napoleone (38-3-18)</li>
+<li>Sean Reifschneider (58-0-1)</li>
+<li>Jeff Rush (56-0-3)</li>
+</ul>
+<p>After the vote, the observers were invited back into the meeting;
+Runar Petersson did not return to the meeting.  Pizza was consumed
+while the ballots were counted.  Ballots (for the remainder of the
+votes) were issued to the three new members present: Steven Bethard,
+Catherine Devlin, and Sean Reifschneider.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 180); <em><a href="#id3">backlink</a></em></p>
+Duplicate explicit target name: &quot;2 election of nominated members&quot;.</div>
+<div class="section" id="id6">
+<h1><a class="reference external" href="#id3">3   Election of Sponsor Members</a></h1>
+<p>The Board had already approved the pending sponsor members listed
+below.  Each candidate was discussed.  In future, candidates for
+sponsor membership should be asked for a paragraph describing their
+reasons for wanting to join the PSF.</p>
+<p>After discussion, all proposed sponsor members were elected (vote
+counts in parentheses):</p>
+<ul class="simple">
+<li>Canonical (62-0-1)</li>
+<li>cPacket Networks (48-1-14)</li>
+<li>Madison Tyler LLC (57-0-6)</li>
+<li>Microsoft (57-4-2)</li>
+<li>Tabblo (57-0-6)</li>
+</ul>
+<p>After the vote, ballots (for the remainder of the votes) were issued
+to representatives of the two new sponsor members present: Steve
+Alexander (Canonical) and Raymond Hettinger (Madison Tyler LLC).</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 215); <em><a href="#id5">backlink</a></em></p>
+Duplicate explicit target name: &quot;3 election of sponsor members&quot;.</div>
+<div class="section" id="id8">
+<h1><a class="reference external" href="#id4">4   Review of the Year</a></h1>
+<div class="section" id="id10">
+<h2><a class="reference external" href="#id5">4.1   Financial Report</a></h2>
+<p>Kurt Kaiser sent the 2006 financial report by email, which was
+reviewed.  Summary:</p>
+<p><strong>MISSING</strong>
+Total Assets   $289,419</p>
+<p>Total Liabilities   $177</p>
+<p>Total Revenue   $180,188</p>
+<p>Total Expenses   $158,284</p>
+<p>Net Income   $21,904</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 240); <em><a href="#id9">backlink</a></em></p>
+Duplicate explicit target name: &quot;4.1 financial report&quot;.</div>
+<div class="section" id="id12">
+<h2><a class="reference external" href="#id6">4.2   Infrastructure Committee</a></h2>
+<p>Brett Cannon summarized the choice of a new bug tracker for Python
+development (Roundup) and the current status:</p>
+<blockquote>
+The tracker is almost ready.  We can get our data out of SF
+without issue and load it into our Roundup instance.  At this
+point we are doing minor detail work on settings and such.  After
+a reasonable amount of time following the release of 2.5.1 we will
+make the transition.</blockquote>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 240); <em><a href="#id11">backlink</a></em></p>
+Duplicate explicit target name: &quot;4.2 infrastructure committee&quot;.</div>
+<div class="section" id="id14">
+<h2><a class="reference external" href="#id7">4.3   Conference Committee</a></h2>
+<p>Andrew Kuchling summarized PyCon 2006 and 2007: about 410 attendees in
+2006, about 590 in 2007.  We had a $19,000 profit from PyCon in 2006,
+and expect a profit for 2007 as well.  There was a $6000 travel grant
+(financial aid) supplementary budget from the PSF in 2006, $7000 in
+2007 but part of the PyCon budget.  We got to a late start with
+sponsors for 2007, but many sponsors contacted us, and we have had
+excellent results.</p>
+<p>Ideas &amp; comments that arose during the discussion:</p>
+<ul class="simple">
+<li>Thomas Wouters: Should we have a lower fee, and take a loss?</li>
+<li>Travis Vaught: Spend more on financial aid / scholarships?</li>
+<li>Steve Holden: Increase sponsorship fees?</li>
+<li>Ka-Ping Yee: Lower the student rate?</li>
+<li>David Goodger: The financial aid program should start earlier, and end prior to the end of early-bird registration.</li>
+<li>Neal Norwitz: We should mention financial aid in the call for proposals.</li>
+<li>Moshe Zadka: Free registration for speakers?</li>
+<li>Sean Reifschneider: Registration optional for speakers?  &quot;I would like to pay my registration.&quot;</li>
+<li>Ka-Ping Yee: Encourage speakers even if they can't afford to attend.</li>
+<li>Thomas Wouters: Volunteers could get free registration.</li>
+<li>David Goodger: An idea from linux.conf.au: have a corporate rate (purely voluntary)?</li>
+<li>Steve Holden: The registration form could have an option like &quot;I would like to fund another attendee's registration&quot;.</li>
+</ul>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 240); <em><a href="#id13">backlink</a></em></p>
+Duplicate explicit target name: &quot;4.3 conference committee&quot;.</div>
+<div class="section" id="id16">
+<h2><a class="reference external" href="#id8">4.4   Advocacy Coordinator</a></h2>
+<p>Jeff Rush, the Python Advocacy Coordinator, sent a status report to
+the PSF Board, which was then forwarded to the PSF-members list.
+Andrew Kuchling summarized the status report which was then discussed:</p>
+<ul class="simple">
+<li>Neal Norwitz: The PSF overviewers [himself and Stephan Deibel] didn't provide much direction.</li>
+<li>Stephan Deibel: There was a failure of direction/supervision.</li>
+<li>David Goodger: The result was positive &amp; worthwhile though.</li>
+<li>Moshe Zadka: There should be a stronger commitment for supervision.</li>
+<li>Jeremy Hylton: I'm not interested in advocacy.  Perhaps pay for a PyCon coordinator and/or a user group coordinator instead?</li>
+<li>Brad Allen: Emphasize infrastructure &amp; user group support?  Send the coordinator to user groups?  That may be a better use of their time.</li>
+<li>Michael Hudson: EuroPython could use help too.</li>
+</ul>
+<p>In his report Jeff Rush admits to spending an increasingly larger
+portion of his efforts on PyCon instead of on pure Python advocacy.
+As PyCon co-Chair, the temptation was too great.  However, the
+consensus was that Jeff has done a lot for PyCon and for Python
+through PyCon, and Jeff deserves significant credit for the large
+increase in attendees and the success of Pycon 2007.  The members were
+in favor of renewing Jeff's contract.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 240); <em><a href="#id15">backlink</a></em></p>
+Duplicate explicit target name: &quot;4.4 advocacy coordinator&quot;.</div>
+<div class="section" id="id18">
+<h2><a class="reference external" href="#id9">4.5   Secretary</a></h2>
+<p>David Goodger reported that he is proceeding to get the PSF's paper &amp;
+electronic records under control.  He will be scanning all the PSF's
+paper records into a repository and filling in gaps in our records.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 240); <em><a href="#id17">backlink</a></em></p>
+Duplicate explicit target name: &quot;4.5 secretary&quot;.</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 240); <em><a href="#id7">backlink</a></em></p>
+Duplicate explicit target name: &quot;4 review of the year&quot;.</div>
+<div class="section" id="id20">
+<h1><a class="reference external" href="#id10">5   Motion to Increase the Maximum Number of Directors</a></h1>
+<p>From the <a class="reference external" href="agenda/">agenda</a>:</p>
+<blockquote>
+<p>A call for nominations of PSF directors was issued, to the
+PSF-members list, to other lists, and to <a class="reference external" href="http://pyfound.blogspot.com/2006/12/call-for-nominations-of-psf-directors.html">the PSF blog</a>.
+We had a good response, with 4 new candidates stepping forward, in
+addition to the 8 incumbents.  We have a total of 12 candidates
+for Director this year, but currently the Board is limited to 8
+Directors.  As Tim Peters put it, &quot;the bigger the board, the more
+gets done.&quot;</p>
+<p>This motion aims to increase the limit on the number of Directors
+going forward.  We learned in the past that it's better to expand
+the Board than to miss out on offers of help.  This does <em>not</em>
+mean that all candidates for Director will automatically be
+elected; this year's Directors will be decided in the election
+below.</p>
+</blockquote>
+<p>There was much discussion and controversy.  Guido van Rossum noted
+that the PSF's activities are not, by definition, work for the Board.
+David Goodger noted that other than the incumbent Directors, no PSF
+members stepped forward as candidates for Director.</p>
+<p>The following motion was put to a vote:</p>
+<blockquote>
+<p><strong>WHEREAS</strong> it is recognized that it is beneficial to the
+Foundation to have a large number of active Directors, be it</p>
+<p><strong>RESOLVED</strong>, that the PSF Board be increased to twelve (12)
+Directors.</p>
+</blockquote>
+<p>The motion failed to pass: 27 for, 31 against, 3 abstentions.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 345); <em><a href="#id19">backlink</a></em></p>
+Duplicate explicit target name: &quot;5 motion to increase the maximum number of directors&quot;.</div>
+<div class="section" id="id22">
+<h1><a class="reference external" href="#id11">6   Election of a New Board of Directors</a></h1>
+<p>There were 12 candidates for 8 board positions.  There was some
+discussion of the voting procedures.  One idea: next year, have only
+&quot;yes&quot; votes, no &quot;no&quot; votes, and the top-voted candidates are elected.</p>
+<p>The vote results are in parentheses:</p>
+<ul class="simple">
+<li>David Turvene (2-26-34)</li>
+<li>Andy Todd (3-26-33)</li>
+<li>James Tauber (16-16-30)</li>
+<li>Mark Summerfield (1-26-35)</li>
+<li>Tim Peters * (62-0-0)</li>
+<li>Martin von L?wis * (59-1-2)</li>
+<li>Andrew Kuchling * (60-0-2)</li>
+<li>Steve Holden * (61-1-0)</li>
+<li>David Goodger * (61-0-1)</li>
+<li>Stephan Deibel * (60-0-2)</li>
+<li>Brett Cannon * (59-0-3)</li>
+<li>David Ascher * (55-3-4)</li>
+</ul>
+<p>The 8 incumbent Directors (marked by asterisks above) were re-elected
+to the PSF Board.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 380); <em><a href="#id21">backlink</a></em></p>
+Duplicate explicit target name: &quot;6 election of a new board of directors&quot;.</div>
+<div class="section" id="id24">
+<h1><a class="reference external" href="#id12">7   PSF Budget and Action Plan</a></h1>
+<p>David Goodger briefly described the budget &amp; action plan he sent to
+the PSF-members mailing list, but due to the late hour, he moved that
+further discussion be deferred.  The motion was enthusiastically
+received, seconded, and passed without discussion.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 416); <em><a href="#id23">backlink</a></em></p>
+Duplicate explicit target name: &quot;7 psf budget and action plan&quot;.</div>
+<div class="section" id="id26">
+<h1><a class="reference external" href="#id13">8   Google Summer of Code</a></h1>
+<p>There was a brief discussion on the Google Summer of Code, such as
+non-core projects being directly supported by the PSF.  Further
+discussion was deferred, including the appointment of an administrator
+for the PSF projects.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 424); <em><a href="#id25">backlink</a></em></p>
+Duplicate explicit target name: &quot;8 google summer of code&quot;.</div>
+<div class="section" id="id28">
+<h1><a class="reference external" href="#id14">9   Adjournment</a></h1>
+<p>Stephan Deibel adjourned the meeting at around 22:00 CST.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 432); <em><a href="#id27">backlink</a></em></p>
+Duplicate explicit target name: &quot;9 adjournment&quot;.</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

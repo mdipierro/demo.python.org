@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- index -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li><a href="/pythonorg/default/index/news">News</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_2.6">Python 2.x Tutorial</a></li><li><a href="http://en.wikibooks.org/wiki/Non-Programmer%27s_Tutorial_for_Python_3.0">Python 3.x Tutorial</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide/NonProgrammers">Other Tutorials and Guides</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Core</a><ul class="dropdown-menu"><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">People</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Foundation</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/index">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <div class="well" style="background:black">
+    <img src="/pythonorg/static/images/antigravity.png" style="width:100%;max-width:100%; border:1px;padding:9px"/>
+    <pre id="demo">
+>>> print 'Hello, World!'
+Hello, World!
+>>> for thing in 'Python', 101, 3.14, [1,2,3], {'key':'value'}: 
+...     print thing,'is',type(thing).__name__
+Python is str
+101 is int
+3.14 is float
+[1, 2, 3] is list
+{'key': 'value'} is dict
+>>> import urllib
+>>> html = urllib.urlopen('http://python.org').read()
+>>> import antigravity
+</pre>
+  </div>
+  <script type="text/javascript">
+    jQuery(document).ready(function() { jQuery('#demo').typewrite({ 
+    'delay': 100,
+    'callback': function() {jQuery('#demo').slideUp();}
+    }); });
+  </script>
+  
+  <p>Python is an interpreted programming language with a simple syntax. It is easy to learn and it allows you to create new programs and to integrate existing components quickly and efficiently.</p>
+<p>The main Python interpreter, written in C, runs on Windows, Linux/Unix, Mac OS X, and many other platforms. There are Python interepreters written in other languages (including Java and Python itself) and some targeting specific virtual machines and architectures (including .NET).</p>
+<p>Python is free to use and to reditribute, even in commercial products, thanks to its
+OSI-approved <a class="reference external" href="http://docs.python.org/license.html">open source license</a>.</p>
+<p>There are two majors versions of the Python language:
+<a class="reference external" href="http://wiki.python.org/moin/Python2orPython3">Python 2.x and Python 3.x</a>.
+They are similar but not compatible. Python 2.x is more popular and counts more library.
+Python 3.x is a newer and much improved version.</p>
+<p>The <a class="reference external" href="/pythonorg/default/index/psf/">Python Software Foundation</a> holds the
+intellectual property rights behind Python, underwrites the PyCon
+conference, and funds projects in the Python community.</p>
+
+  
+  <h2>People say...</h2>
+  <blockquote>
+<p>Python is fast enough for our site and allows us to produce
+maintainable features in record times, with a minimum of developers,
+said Cuong Do, Software Architect, <cite>&ndash;<a class="reference external" href="http://youtube.com">YouTube.com</a></cite></p></blockquote>
+
+<blockquote>
+<p>Python plays a key role in our production pipeline.  Without it a
+project the size of Star Wars: Episode II would have been very
+difficult to pull off. From crowd rendering to batch processing to
+compositing, Python binds all things together, said Tommy Burnette,
+Senior Technical Director, <cite>&ndash;<a class="reference external" href="http://www.ilm.com">Industrial Light &amp; Magic</a></cite></p></blockquote>
+
+<blockquote>
+<p>Python is everywhere at ILM. It's used to extend the capabilities
+of our applications, as well as providing the glue between them. Every
+CG image we create has involved Python somewhere in the process, said
+Philip Peterson, Principal Engineer, Research &amp; Development, <cite>&ndash;<a class="reference external" href="http://www.ilm.com">Industrial Light &amp; Magic</a></cite></p></blockquote>
+
+<blockquote>
+<p>Python has been an important part of Google since the beginning,
+and remains so as the system grows and evolves. Today dozens of Google
+engineers use Python, and we're looking for more people with skills in
+this language. said Peter Norvig, director of search quality at <cite>&ndash;<a class="reference external" href="http://google.com">Google, Inc.</a></cite></p></blockquote>
+
+<blockquote>
+<p>Journyx technology, from the source code of our software to the code that
+maintains our Web site and ASP sites, is entirely based on Python. It
+increases our speed of development and keeps us several steps ahead of
+competitors while remaining easy to read and use.  It's as high level of a
+language as you can have without running into functionality problems.  I
+estimate that Python makes our coders 10 times more productive than Java
+programmers, and 100 times more than C programmers. -- Curt Finch, CEO,
+<cite>&ndash;<a class="reference external" href="http://www.journyx.com">Journyx</a></cite></p></blockquote>
+
+<blockquote>
+<p>IronPort email gateway appliances are used by the largest
+corporations and ISPs in the world. <cite>&ndash; Mark Peek, <a class="reference external" href="http://www.ironport.com">IronPort Systems</a></cite>. 
+</blockquote>
+
+<blockquote>
+<p>Python enabled us to create <cite>&ndash;<a class="reference external" href="http://www.eve-online.com/">EVE Online</a></cite>,
+a massive multiplayer game, in record
+time. The EVE Online server cluster runs over 50,000 simultaneous players
+in a shared space simulation, most of which is created in Python. The
+flexibilities of Python have enabled us to quickly improve the game
+experience based on player feedback said
+Hilmar Veigar Petursson of <cite>&ndash;<a class="reference external" href="http://www.ccpgames.com/">CCP Games</a></cite></p></blockquote>
+
+<blockquote>
+<p>HomeGain maintains its commitment to continual improvement through
+rapid turnaround of new features and enhancements.  Python supports
+this short time-to-market philosophy with concise, clear syntax and a
+powerful standard library.  New development proceeds rapidly, and
+maintenance of existing code is straightforward and fast, said Geoff
+Gerrietts, Software Engineer, <cite>&ndash;<a class="reference external" href="http://HomeGain.com">HomeGain.com</a></cite></p></blockquote>
+
+<blockquote>
+<p>Python makes us extremely productive, and makes
+maintaining a large and rapidly evolving codebase relatively
+simple, said Mark Shuttleworth.</p></blockquote>
+
+
+<blockquote>
+<p>I have the students learn Python in our undergraduate and graduate
+Semantic Web courses.  Why?  Because basically there's nothing else
+with the flexibility and as many web libraries, said Prof. James
+A. Hendler.</p></blockquote>
+
+<blockquote>
+<p>The travel industry is made up of a myriad supplier data feeds all of
+which are proprietary in some way and are constantly changing.   Python
+repeatedly has allowed us to access, build and test our in-house
+communications with hundreds of travel suppliers around the world in a
+matter of days rather then the months it would have taken using other
+languages.  Since adopting Python 2 years ago, Python has provided us
+with a measurable productivity gain that allows us to stay competitive
+in the online travel space, said Michael Engelhart, CTO of
+<cite>&ndash;<a class="reference external" href="http://www.eztrip.com">EZTrip.com</a></cite></p></blockquote>
+
+<blockquote>
+<p>Python in conjunction with PHP has repeatedly allowed us to develop
+fast and proficient applications that permit <cite>&ndash;<a class="reference external" href="http://www.realestateagent.com">Real Estate Agent .com</a></cite> to operate with minimal
+resources. Python is a critical part of our dynamically growing
+cluster directory of real estate agents. said Gadi Hus, Webmaster,
+<cite>&ndash;<a class="reference external" href="http://www.volico.com/">Volico Web Consulting</a></cite></p></blockquote>
+
+<blockquote>
+<p>Like XML, scripting was extremely useful as both a mod tool and an
+internal development tool.  If you don't have any need to expose code
+and algorithms in a simple and safe way to others, you can argue that
+providing a scripting language is not worth the effort.  However, if
+you do have that need, as we did, scripting is a no brainer, and it
+makes complete sense to use a powerful, documented, cross-platform
+standard such as Python.  -- Mustafa Thamer of Firaxis Games, talking
+about Civilization IV.  Quoted on page 18 of the August 2005
+<cite>&ndash;<a class="reference external" href="http://www.gdmag.com/">Game Developer Magazine</a></cite></p></blockquote>
+
+
+  <script type="text/javascript">
+    jQuery(function() { jQuery('blockquote').quovolver(); });
+  </script>
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/index/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/index/index">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/index/index">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/index/index">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/index/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

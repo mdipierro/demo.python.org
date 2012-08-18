@@ -1,0 +1,78 @@
+The Python Software Foundation   Minutes of Special Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+March 25, 2005 
+
+A special meeting of the Python Software Foundation (the "PSF")
+Board of Directors was held at George Washington University on March
+25 at noon.  Stephan Deibel presided.  Jeremy Hylton recorded the
+minutes.
+
+1. Attendance
+#############
+
+A quorum was present.  All board members and treasurer Neal Norwitz
+attended the meeting.  David Ascher arrived late, because he was not
+informed of the meeting in advance.
+
+2. Appointment of officers
+##########################
+
+The board appointed officers by unanimous vote.  The officers are:
+- Stephan Deibel, chairman of the board
+- Guido van Rossum, president
+- Neal Norwitz, treasurer
+- Kurt Kaiser, assistant treasurer
+- Jeremy Hylton, secretary
+
+The board asked Hylton to appoint an assistant secretary and to
+avoid taking on tasks unless he was sure he could complete them.
+
+Norwitz reported that we would be taking a sabbatical later in the
+year and may not be able to serve as treasurer then.  The board
+encouraged him to get Kaiser more involved in regular operations.
+
+3. Project management committees
+################################
+
+The board discussed the status of its existing committees.  Several
+committees may be dissolved or re-chartered later in the year, including
+the conference committee, the public relations committee, and the
+grants committee.  It decided to make decisions about those committees
+at its next meeting.
+
+The board re-appointed Deibel as chair of the public support
+committee.  It created a new committee, the infrastrucure project
+management committee, with Richard Jones, Andrew Kuchling, and Barry
+Warsaw as initial members.  Kuchling was appointed chair of the
+committee and vice president for infrastructure.  The board encourage
+the committee to make concrete plans for improving python.org
+infrastructure and to address technical infrastructure broadly.
+
+4. Business items from members meeting
+######################################
+
+Stephan Deibel will respond to the legal concerns raised at the PSF
+meeting.  Rob Page of Zope Corp. will send a list of specific
+questions about the current contributor agreement.
+
+We will not have a member meeting at EuroPython, because Van Rossum is
+the only officer or director who is going to attend.  We will arrange
+a social or informational event there.
+
+Kuchling plans to improve the gender diversity of PyCon presenters and
+attendees for next year. Hylton will look at improving diversity in
+the broader Python / PSF community.
+
+Ascher will take the lead on developing a trademark policy for the PSF.
+
+5. Resignation
+##############
+
+Guido van Rossum resigned as a director, but will continue to serve as
+president.
+
+6. Adjournment
+##############
+
+The meeting adjourned at 1 p.m.

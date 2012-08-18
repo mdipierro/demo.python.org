@@ -1,0 +1,85 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+July 16, 2002. 
+
+A regular regular meeting of the Python Software Foundation (the
+"PSF") Board of Directors was held over Internet Relay Chat at 1 pm
+EST.  Guido van Rossum, president of the Foundation and chairman of
+the Board, presided at the meeting.
+
+1. Attendance
+#############
+
+The following Board members were present: Tim Peters, Guido van
+   Rossum, David Ascher, Jeremy Hylton, Martin von Loewis, Marc-Andre
+   Lemburg.  The following members were absent: Thomas Wouters.  
+   A quorum was present.
+
+2. Minutes approved
+###################
+
+The minutes from the June 11, 2002 meeting were approved by a 5-0-1
+vote (5 yes, 1 abstention).
+
+3. Officers reports
+###################
+
+Secretary: Hylton reported that he contacted Anthony Baxter, Dave
+Beazley, Andy Robinson, and Just van Rossum about their membership
+nominations.  And Michael Hudson was subscribed to the psf-members
+mailing list.
+
+Treasurer: Hylton wrote a check to Zope Corp. for $1,419.30 to
+cover legal fees related to our IRS charity application.  Ascher
+reported that a check for the ActiveState membership fee was
+mailed.
+
+Conference committee: Nothing to report.
+
+4. Legal review of contributor agreement
+########################################
+
+There was some earlier miscommunication about whether the
+contributor agreement was ready for legal review.  Lemburg agreed
+to write a cover letter that describes what issues on which we'd like
+a lawyer's opinion.
+
+5. Public support committee
+###########################
+
+Hylton notes that we can now accept donations because we have filed
+Form 1023 with the IRS.
+
+6. IRC members meeting
+######################
+
+The board discussed whether it would be legal and practical to hold
+member meetings using IRC.  The Apache Software Foundation (ASF) uses
+IRC for member meetings, and the PSF bylaws are modelled after the ASF
+bylaws.
+
+Hylton suggested that the PSF get a lawyer's opinion of the
+legality of IRC meetings.  Van Rossum suggested that an opinion was
+unnecessary if no member objects.  He offered to report the board's
+position to the members.
+
+Lemburg asked whether email votes would be possible for actions
+without a meeting.  Van Rossum noted that the membership had strong
+reservations about email votes.
+
+Lemburg then asked whether email could be used for official
+announcements as well.  Hylton said that a change to the bylaws was
+necessary and offered to draft an amendment.
+
+7. Upcoming member meeting
+##########################
+
+The board reviewed the agenda for the member meeting to be held at
+the open source conference -- on July 24, 2002 in San Diego, CA.  The
+agenda consists of reports and a vote on new member nominations.
+
+8. Adjournment
+##############
+
+There being no further business, the meeting was adjourned.

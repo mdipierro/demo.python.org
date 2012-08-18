@@ -1,0 +1,191 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+December 10, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:00 UTC, 10
+December 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in November <#new-in-november>`_
+
+- `4   GHOP Issues <#ghop-issues>`_
+
+- `5   PyCon Update <#pycon-update>`_
+
+- `6   PyCon Podcast Update <#pycon-podcast-update>`_
+
+- `7   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: David Goodger, Tim Peters, Andrew Kuchling, Stephan Deibel,
+Brett Cannon, David Ascher, and Steve Holden.  Also in attendance was
+Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 12 November 2007 Board meeting minutes were approved by a 6-0-1
+vote (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 12 November
+2007 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from March 2007, Section 12, Awards: S. Holden will prepare a proposal for a PSF awards program.     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     Status: carried forward.
+
+- Originally from April 2007, Section 9, New PSF Members: D. Goodger will contact the PSF members not subscribed to the PSF-Members mailing list.     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will produce a PSF logo based on the Python logo.     D. Goodger produced a set of candidate logos and presented them by email.  He will make recommendations for a decision.     Status: in progress.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: carried forward.
+
+- Originally from September 2007, Section 4, Tracker Thank-you Gifts: B. Cannon will prepare a concrete proposal for tracker thank-you gifts, for a Board vote.     This has been done.  The total amount was within director discretionary fund limits.     Status: **done**.
+
+- Originally from September 2007, Section 5, Fraud Attempts: A. Kuchling will prepare a statement on fraudulent PSF checks for the python.org website.     Status: in progress.
+
+- Originally from October 2007, Section 8, Google Summer of Code Mentor Summit Report: D. Goodger will coordinate with James Tauber to write a summary of the results of the PSF projects in the Google Summer of Code.     D. Goodger reported that James Tauber is working on the final report.     Status: in progress.
+
+`3.2   New in November <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 12 November 2007 board meeting on
+IRC.
+
+- Section 4, Credit Card Payment System: K. Kaiser will follow up with the credit card service provider to fix the payment system.     K. Kaiser:          Aside from the stripped off html on psf-donations, I think     everything is working.  I just sent an email summarizing     status.     Status: **done**.
+
+- Section 5, New Sponsor Application: S. Deibel will ask the prospective sponsor member for further information.     S. Deibel reported that he sent email, and will follow up.      Status: in progress.
+
+- Section 6, PyCon 2007 Audio: A. Kuchling will announce the PyCon 2007 audio on the python.org front page (news) and on the PSF & PyCon blogs.     Status: **done**.
+
+- Section 7, PSF Article for The Python Papers: S. Deibel will post his PSF article on python.org, but well after it is published in The Python Papers.     The article is not published yet, so it's too early to post on python.org.     Status: carried forward.
+
+- Section 8, PyCon 2008: D. Goodger will put out a call for new member nominations, board candidates, and meeting topics & resolutions for the PSF members' meeting to be held at PyCon. On-list discussions will be encouraged so we can keep the meeting short.     D. Goodger posted a draft for Board comment, and will send it to psf-members shortly.     Status: in progress.
+
+`4   GHOP Issues <#id6>`_
+-------------------------
+
+Questions arose on the Python GHOP (Google Highly Open Participation
+Contest) mentors mailing list regarding publishing the names of the
+underage contributors, and the requirement for contributor agreements.
+S. Holden spoke with Van Lindberg and reported:
+
+    1: Google's competition rules have required competitors to agree
+    to license their contributions under the license required by the
+    affiliate (in our case, clearly, the PSF), but the act of
+    licensing has not yet occurred.
+
+    2: As a Google affiliate in the competition we are allowed to use
+    competitors' names and images, so the original concern about
+    publishing their names is moot.
+
+    3: While it isn't necessary to have parent or guardian's signature
+    it wouldn't hurt to do so on a belt-and-braces principle.
+
+    He also mentioned that dealing with under 13s would make things
+    much more bound by legality, which is probably why GHOP rules
+    exclude them.
+
+S. Deibel asked: &quot;Is Google requiring any parent signature or
+involvement?&quot;  S. Holden:
+
+    [I] don't think Google are requiring that, no, but we can ask them
+    to require completion of our contributor agreement (modified by
+    adding parental consent) before they hand out prizes.
+
+It was noted that according to Van, there is no legal requirement for
+a parent's signature.  T. Peters noted:
+
+    We need more than just that they [contributors] license them
+    [contributions].  We need them to agree to let us relicense them.
+    Which is what the contributor form is all about.
+
+So GHOP participants must license their contributions under one of the
+acceptable licenses (Academic Free License v. 2.1, Apache License,
+Version 2.0), and we have to ask the contributors for signed
+contributor agreements.
+
+S. Holden: 
+
+    We should suggest that the students consult a responsible adult if
+    they have any hesitation about signing a legal document.
+
+On a related issue, B. Cannon asked, 
+
+    What is the status on who has or has not signed a contrib form for
+    regular contributors and who is listed in Misc/ACKS?
+
+D. Goodger: 
+
+    [That is] a project dependent on getting the records sorted out.
+    I'm going to do a lot of scanning over the holidays, [and] will
+    hopefully have a definitive answer then.
+
+`5   PyCon Update <#id7>`_
+--------------------------
+
+D. Goodger reported: 
+
+    We received 142 conference talk proposals, 64 accepted by the
+    program committee as of this past weekend.  Accept/decline
+    messages should be going out shortly (if they haven't already).
+    Scheduling has yet to take place, but that's a small-group job
+    rather than a committee thing.
+
+    We received 44 tutorial proposals.  We (= Greg Lindstrom, Van
+    Lindberg, me) are still deciding which to accept, and are
+    considering adding an evening session on tutorial day.
+
+    Sponsorship is going well.  Current confirmed amount: $43K
+    (signed); current probable amount: $54K (signed & committed to
+    sign).  And several big names haven't decided yet.
+
+    We're getting interest in sprint sponsorship as well (catering,
+    maybe paying for sprint leaders to give tutorials).
+
+`6   PyCon Podcast Update <#id8>`_
+----------------------------------
+
+A. Kuchling reported: 
+
+    The podcast seems to have ~250 listeners so far.  It has seriously
+    boosted our bandwidth consumption on advocacy.python.org.
+
+There was some concern that the increased bandwidth may pose a problem
+to XS4ALL, but we have been reassured in the past that this wasn't the
+case.  If the bandwidth does become a problem, XS4ALL will surely let
+us know.
+
+`7   Adjournment <#id9>`_
+-------------------------
+
+S. Deibel adjourned the meeting at 18:51 UTC.

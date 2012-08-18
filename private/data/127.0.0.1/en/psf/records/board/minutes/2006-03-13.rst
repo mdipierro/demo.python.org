@@ -1,0 +1,189 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+March 13, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:00 UTC, 13
+March 2006.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, David Goodger, David Ascher, Brett Cannon,
+Tim Peters, Martin von L?wis, Andrew Kuchling, and Steve Holden
+(arrived at 18:45).  Also in attendance was Neal Norwitz (Assistant
+Treasurer; arrived at 18:10).  D. Goodger prepared these minutes.
+
+2   Minutes of Past Meetings
+----------------------------
+
+The 14 February 2006 minutes were approved by a 6-0-2 vote. 
+
+The minutes for the 24 February 2006 members meeting and 25 February
+2006 special board meeting, both held at PyCon TX 2006, have not yet
+been prepared.
+
+3   Status of Past Action Items
+-------------------------------
+
+3.1   Follow-Up Required
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     Status: follow-up required.
+
+- Originally from November 2005, follow-up from December 2005: D. Ascher is to contact a potential PSF sponsor/donor.     Status: follow-up required.
+
+S. Deibel noted that all the directors, officers, and members should
+keep in mind approaching eligible people to extract donations and/or
+sponsorship from them, at PyCon, and in general.
+
+3.2   In Progress
+~~~~~~~~~~~~~~~~~
+
+- Originally from September 2005, Section 10.1, Trademarks & The .com Domain: N. Norwitz will ask the lawyer about the python.com domain.     N. Norwitz sent an email report earlier.  In summary, he spoke with our lawyers, and got the answer we were expecting: that it's going to be difficult.  The recommendation was to try to buy the domain.     The consensus of the board was that it wasn't worth the time, which none of us have, or the effort.     Status: **dropped**.
+
+- Originally from November 2005, Section 4, Python.org Redesign (S. Holden):         - get the new production system to run on Mac OS X;          - detail which parts of the current content have been transformed for the new system and which parts still require conversion;          - complete the documentation so that webmaster team members can use the new system rather than the old one.     S. Deibel summarized: &quot;The site was rolled out after the sprint at PyCon and further work is in the hands of the community via psf.pollenation.org.  Many of the sprinters and Tim [Parkin] are continuing fairly intensive work.&quot;     D. Ascher commented that although switching was good, he was not impressed with the &quot;cleanliness&quot; of the switch; lots of 404s, broken URLs, etc.  D. Goodger thought there was too much attempted all at once.  S. Deibel agreed that it could have been done better, but thought it was worth the pain/breakage (which should mostly be fixed by now).  M. von L?wis noted that the pydotorgers will fix what got broken over time.     D. Goodger suggested a debrief/post-mortem at some point; &quot;I think we can learn a lot from this&quot;.     D. Ascher wanted to know how we're going to enroll people outside the pydotorgers to help with content, and noted that Fredrik Lundh has a good point worth hearing.  M. von L?wis agreed, noting that there is a much broader issue, which is whether &quot;wider&quot; involvement that Fredrik wants should be done.  B. Cannon noted that this is going to require simplifying the building of the site by maintainers.     Further discussion was moved to email.      Status: **done**.
+
+- Originally from December 2005, Section 6, PSF Member Meeting: M. von L?wis volunteered to ensure that the necessary steps are taken for the member meeting.     Status: **done**.
+
+3.3   Carried Forward
+~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 14 February
+2006 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from September 2005, Section 4, Donor Levels: S. Deibel will add the topic of &quot;Donor Levels&quot; to the agenda of a future meeting, and may begin discussions via email before that.     Status: **done**.  Discussed in the board meeting at PyCon.
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.
+
+- Originally from October 2005, Section 7, Reserve Funds: K. Kaiser will send a reserve fund investment proposal to the PSF-board mailing list.     Status: **done**
+
+- Originally from November 2005, Section 8, Trademark Policy: D. Ascher will probably work with ActiveState's legal person on trademark policy.     Status: carried forward.
+
+- Originally from December 2005, Section 4, Python.org Redesign: S. Holden said that he would be responsible for making sure that documentation is available for the new python.org system.     Status: **done**, although we still need better docs.
+
+- Originally from December 2005, Section 6, PSF Member Meeting: J. Hylton pledged to complete the minutes for the 2005 PSF member meeting.     Status: task transferred; taken on by David Goodger.
+
+- Originally from December 2005, Section 7, PSF BoF Sessions: A. Kuchling promised to write to Chris DiBona and Greg Stein and ask about their attendance at PyCon and possible BoF participation.     Status: **done** (they didn't attend PyCon).
+
+3.4   New in February
+~~~~~~~~~~~~~~~~~~~~~
+
+- Section 3.3.2, Status of Past Action Items, Carried Forward: (re: Grants Committee) M. von L?wis will ask Brian Zimmer to send an invoice for the part of the Jython grant that goes to him.     M. von L?wis reports that &quot;Brian has sent and invoice, and I approved payment.  Not sure whether payment happened.&quot;     Status: **done**.
+
+- Section 4, Financials: K. Kaiser will ping the sponsor members who have not yet paid their 2006 PSF sponsor fees.     Status: carried forward.
+
+4   Grants Committee
+--------------------
+
+In the February 14 minutes, section 3.3 (Status of Past Action Items,
+Carried Forward), item 11 ends with &quot;A post to the PSF blog was
+suggested, and discussion was deferred to email.&quot;  M. von
+L?wis agreed to draft a report on the PSF grants.
+
+5   Weblog Policy
+-----------------
+
+    RESOLVED, that the PSF adopt the policies contained in version
+    1.03 of the draft weblog policy [1] for managing access and
+    editorial content for the PSF weblog [2].
+
+    **MISSING**
+
+    [2] Available at <;`http://pyfound.blogspot.com 
+    <http://pyfound.blogspot.com>`_>.
+
+Approved 7-0-0.
+
+6   Donation to freenode.net
+----------------------------
+
+In a 28 February 2006 message to the PSF-board mailing list, Steve
+Holden suggested donating $250 to freenode.net, which hosts the IRC
+channels used for board meetings and other Python-related discussions.
+There was general agreement, but no motion was put forth.  Deferred
+due to the absence of the proposal's champion.
+
+7   Paying the Treasurer or Offload Tasks to Paid Service
+---------------------------------------------------------
+
+N. Norwitz summarized: 
+
+    When picking up the treasurer tasks, it seems there is always a
+    lot of work at the beginning.  Some of it is learning, some of it
+    is finishing the outstanding work.  Part of what makes things hard
+    is that many things only happen once a year.  Pycon usually
+    creates lots of work because things have changed (and broken) over
+    the last year.  I tried to document a bunch and be available for
+    answering questions, but it's always hard.  I went from zero
+    automation to 50%, I think Kurt has brought that up to about 90%.
+    So hopefully it won't continue to be as much work going forward.
+
+S. Deibel asked if it is OK to pay the treasurer or only to pay for
+services?  M. von L?wis replied that the board should offer something,
+e.g. compensation by the hour.  If the workload decreases, the
+compensation will also decrease.  T. Peters noted that if the PSF
+becomes an employer, we have to take on a lot more fiddly paperwork.
+D. Ascher suggested buying the treasurer a computer.  S. Deibel noted
+that we need to be careful about violating rules about non-salary
+compensation for officers.
+
+The board was generally in favor, but discussion was deferred to
+email.  Kurt Kaiser is to propose compensation for the
+treasurer.
+
+8   Post-PyCon Report
+---------------------
+
+A. Kuchling sent a detailed report on &quot;PyCon status&quot; to the PSF-board
+mailing list.  In summary:
+
+- The hotel has offered two later date options, contingent on renegotiating a few contract clauses.
+
+- The raw data from the conference feedback forms is available.
+
+- PyCon 2006 broke even, give or take a few thousand dollars.
+
+A. Kuchling asked: *should* PyCon be profit-making?  S. Deibel replied
+that profit is nice but not at all necessary.  D. Goodger opined that
+the goal should be break-even or a slight profit, but we accept a
+loss.  M. von L?wis: &quot;a break even is fine with me&quot;.  T. Peters stated
+the PyCon goal of &quot;low-cost community conference&quot;, which had general
+agreement.  S. Holden noted that on a budget of $100,000 the profit or
+loss could be $20,000 -- we can't plan more closely than that.
+D. Ascher: &quot;I don't think we should make a profit, but we should be
+wary of running big losses&quot;; there was general agreement with this
+statement.
+
+D. Ascher observed that the move out of DC was because we were running
+out of room at GWU, and we haven't grown, making the move apparently
+pointless.  S. Holden noted that the 2006 event showed the advantages
+of a hotel venue, even though it's more expensive; D. Ascher was not
+convinced.  S. Holden and D. Goodger noted that the evidence is that
+growth would have continued at the previous venue, which was at
+capacity (or over, taking the 2-floor split into account), so DC 2006
+would not have worked.  S. Deibel noted his opinion that moving the
+conference around is a Good Thing.
+
+A. Kuchling mentioned that he would like to weblog PyCon's final
+statement of profit & loss.  M. von L?wis cautioned providing too much
+detail.  It was agreed that a statement of the final balance would be
+sufficient.
+
+9   Infrastructure Committee
+----------------------------
+
+B. Cannon listed the members of the Infrastructure Committee: Martin
+v. L?wis, Andrew Kuchling, Thomas Wouters, Barry Warsaw, Richard
+Jones, and himself.
+
+10   Adjournment
+----------------
+
+S. Deibel adjourned the meeting at 19:02 UTC.

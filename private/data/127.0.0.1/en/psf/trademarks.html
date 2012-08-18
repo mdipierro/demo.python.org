@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf/trademarks -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf/trademarks">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><em>Version 1.4</em></p>
+<div class="section" id="introduction">
+<h1>Introduction</h1>
+<p>This document outlines the policy of the Python Software Foundation (&quot;PSF&quot;)
+regarding the use of its trademarks. Any use of any PSF trademark must be in
+accordance with this policy.</p>
+<p>&quot;Python&quot; is a registered trademark of the PSF. The Python logos (in several
+variants) are trademarks of the PSF as well. The logos are not registered, but
+registration does not equal ownership of trademarks.</p>
+<p>All trademarks, even those that apply to open source software, must be used
+according to certain legal requirements. If these requirements are not met,
+the trademark may be endangered or lost. One of these requirements is for the
+trademark owner (in this case, the PSF) to maintain standards for using its
+trademarks, and to enforce acceptable use of the trademarks by taking action
+against parties that violate those standards.</p>
+<p>Trademark law is mainly a way to protect the public, rather than the trademark
+holder. This means that uses of trademarks that confuse consumers -- which in
+our case would include our developer and user community, or anyone else who
+might be likely to use the Python programming language -- are not permitted
+under law. As the owner of the trademark, we must be sure the mark is used
+properly, so the community is not confused. That is what we mean when we say
+that an unpoliced trademark may be endangered or lost. When the trademark no
+longer represents a certain level of quality to the community, or no longer
+indicates that we are the source of the products that bear the trademark, the
+trademark loses its value.</p>
+<p>Underlying PSF's trademark policy is a set of guidelines for what is -- and is
+not -- acceptable use of PSF's trademarks, specifically the word mark
+&quot;Python&quot;, the Python logos, and variations of those marks. This policy
+describes the uses generally approved by PSF for its trademarks. However, if
+you violate this policy, or otherwise take actions that may compromise the
+goodwill or trademarks of PSF, or expose PSF to liability, PSF may require you
+to cease all use of any PSF trademark, regardless of the uses allowed in this
+policy.</p>
+</div>
+<div class="section" id="general-goals">
+<h1>General Goals</h1>
+<p>In general, we want the word mark &quot;Python&quot; and the Python logos to be used
+with minimal restriction to refer to the Python programming language.</p>
+<p>We do <strong>not</strong> want these trademarks to be used:</p>
+<ul class="simple">
+<li>to refer to any other programming language</li>
+<li>in a way that is misleading or may imply association of unrelated modules, tools, documentation, or other resources with the Python programming language</li>
+<li>in ways that confuse the community as to whether the Python programming language is open source and free to use</li>
+</ul>
+</div>
+<div class="section" id="uses-that-never-require-approval">
+<h1>Uses that Never Require Approval</h1>
+<p>All trademarks are subject to &quot;nominative use rules&quot; that allow use of
+the trademark to name the trademarked entity in a way that is minimal
+and does not imply a sponsorship relationship with the trademark
+holder.</p>
+<p>As such, stating accurately that software is written in the Python
+programming language, that it is compatible with the Python
+programming language, or that it contains the Python programming
+language, is always allowed. In those cases, you may use the word
+&quot;Python&quot; or <a class="reference external" href="http://www.python.org/community/logos/">the unaltered logos</a> to indicate this, without our prior
+approval.  This is true both for non-commercial and commercial uses.</p>
+<p>This clause overrides other clauses of this policy.  However, if you have any
+doubts about your intended use of the trademarks, please
+<a class="reference external" href="mailto:psf-trademarks%40python.org">contact the PSF Trademarks Committee</a>.</p>
+</div>
+<div class="section" id="uses-that-always-require-approval">
+<h1>Uses that Always Require Approval</h1>
+<p>Any commercial use of the PSF trademarks in product or company names must be
+approved first by the PSF. Some uses, like calling a company &quot;The Python
+Company,&quot; or a product &quot;Python Language&quot; or &quot;Python IDE&quot; will be refused. This
+is because they are overly broad, or confusing as to whether the Python
+programming language is open source or commercial, or whether your product or
+organization is affiliated with or sponsored by PSF.</p>
+<p>Any use of a derived (modified) logo for any commercial purpose must also be
+approved first by the PSF. We will generally be unable to do this, because of
+the confusion it may cause.</p>
+</div>
+<div class="section" id="how-to-use-the-trademarks">
+<h1>How to Use the Trademarks</h1>
+<p>Although many uses of PSF's trademarks are governed by more specific rules,
+which appear in the examples below, the following basic guidelines apply to
+almost any use of PSF's trademarks.</p>
+<ul class="simple">
+<li>If the trademark is registered with the U.S. Patent and Trademark Office, it is referred to as a registered mark. The first or most prominent mention of a Python trademark should be immediately followed by a symbol for registered trademark: &quot;?&quot; or &quot;(r)&quot;. For example &quot;Python? ...&quot; This requirement is waived in all contexts where such marks are not normally included: email, online discussion, non-graphical advertisements (when permitted), and academic papers. We encourage the use of the symbol whenever possible, but recognize that many non-commercial and informal uses will omit it.</li>
+<li>The Python logos are not currently registered. (We will post an update to this policy if they are registered later.) These logos should be used in the form provided by the PSF, and should be accompanied by a symbol for unregistered trademarks: &quot;(TM)&quot; or a small TM &quot;?&quot;. This may not be removed or obscured and must always be included with the logo.</li>
+<li>Try to give the word &quot;Python&quot; distinctive graphic treatment wherever possible. The trademark should be set apart from surrounding text by using ALLCAPS, <em>italics</em>, <strong>emphasized</strong> or underlined fonts.</li>
+<li>If the word &quot;Python&quot; or the Python logos are used in certain contexts, the following statement should accompany its use:  <em>&quot;Python&quot; and the Python logos are trademarks or registered trademarks of the Python Software Foundation, used by ___________ with permission from the Foundation.</em>     For websites and documentation this can be on a &quot;legal statements&quot; page. For brochures and published articles, this statement is optional. We encourage use of this statement, particularly for published materials, but recognize some non-commercial and informal uses will omit it.</li>
+<li>Always use any trademark as an adjective only, followed by a generic noun. For instance, it is correct to refer to the Python programming language (adjective) but not simply to Python (noun). Don't use the trademark as a verb (&quot;Python your software today!&quot;).</li>
+</ul>
+<div class="section" id="examples">
+<h2>Examples</h2>
+<p>We have specific rules for the following uses:</p>
+<ul class="simple">
+<li>Use of the word &quot;Python&quot; in text, or as text in 3rd party logos and trademarks.</li>
+<li>Use of one of the PSF-provided logo variants in <em>unaltered</em> form.</li>
+<li>Use of a logo <em>derived</em> from the Python logos. For example, use of the intertwined snake graphic combined with different text, or with no text, or in combination with other graphic elements.</li>
+</ul>
+<p>The following rules apply to the use of trademarks in each of these three
+classes.</p>
+<div class="section" id="the-word-python">
+<h3>The word &quot;Python&quot;</h3>
+<ul class="simple">
+<li>Use of the word &quot;Python&quot; in the names of freely distributed products like IronPython, wxPython, Python Extensions, etc. -- Allowed when referring to use with or suitability for the Python programming language. For commercial products, <a class="reference external" href="mailto:psf-trademarks%40python.org">contact the PSF</a> for permission.</li>
+<li>Use of the word &quot;Python&quot; in company names -- Allowed only by prior written permission from the PSF.</li>
+<li>Use of the word &quot;Python&quot; when redistributing the Python programming language as part of a freely distributed application -- Allowed. If the standard version of the Python programming language is modified, this should be clearly indicated. For commercial distributions, <a class="reference external" href="mailto:psf-trademarks%40python.org">contact the PSF</a> for permission if your use is not covered by the nominative use rules described in the section &quot;<a class="reference external" href="#uses-that-never-require-approval">Uses that Never Require Approval</a>&quot; above.</li>
+<li>Use of the word &quot;Python&quot; in the names of user groups and conferences that are free to join or attend (Ex., &quot;Dallas Python Users Group&quot;) -- Allowed if for the Python programming language. Other uses require permission.</li>
+<li>Use of the word &quot;Python&quot; in the name of books or publications like &quot;Python Journal&quot; and &quot;Python Cookbook&quot; -- Allowed if for the Python programming language.</li>
+<li>Use of the word &quot;Python&quot; on websites, brochures, documentation, and product packaging -- Allowed if referring to the Python programming language. Please follow the rules above about the use of the circle-R symbol.</li>
+<li>Use of the word &quot;Python&quot; in advertisements -- Allowed in most cases by the nominative use rules described in the section &quot;Uses that Never Require Approval&quot; above.  Other uses in ads only with prior permission.</li>
+<li>Use of the word &quot;Python&quot; in email and informally -- Allowed without the circle-R symbol.</li>
+<li>Use of the word &quot;Python&quot; in academic papers, theses, and books -- Allowed without the circle-R symbol. Books should include the symbol.</li>
+<li>Use of the word &quot;Python&quot; in another trademark -- Not allowed without prior written permission from the PSF, except as described above.</li>
+</ul>
+</div>
+<div class="section" id="unaltered-logos">
+<h3>Unaltered Logos</h3>
+<ul class="simple">
+<li>Use of unaltered PSF-provided logos on T-shirts, mugs, etc. -- Again, non-commercial uses to promote the Python programming language are allowed. Commercial uses (which includes any use where you sell these items for money) require permission from PSF. Please reproduce our logos with the right colors and fonts; if you need help, let us know.</li>
+<li>Use of unaltered PSF-provided logos on websites, brochures, and product packaging -- Non-commercial uses to promote the Python programming language are allowed, as are all nominative uses as described in the section &quot;<a class="reference external" href="#uses-that-never-require-approval">Uses that Never Require Approval</a>&quot;. Any other commercial uses require prior written permission from PSF.</li>
+</ul>
+</div>
+<div class="section" id="derived-logos">
+<h3>Derived Logos</h3>
+<ul class="simple">
+<li><em>Derived</em> logos must always be sufficiently different from the Python logos to allow the community to tell the difference. For example, if you want to create a <em>derived</em> logo for a local Python user group, you might be able to insert an unaltered Python logo graphic into the local group's name in a way that does not cause confusion. But confusingly similar derived logos are not allowed. This includes entwining Python logos with other logos, or connecting them together in a confusing manner. Logos that simply change the colors or fonts are not allowed.</li>
+<li>Use of freely distributable <em>derived</em> logos as icons for files and executables -- Allowed if used to refer to the Python programming language.  Commercial users should obtain permission before using <em>derived</em> logos as icons for proprietary file formats.</li>
+<li>Use of <em>derived</em> logos for user groups and conferences -- Allowed if used to refer to the Python programming language.  Commercial user groups and for-profit conferences require permission from the PSF.</li>
+<li>Use of <em>derived</em> logos for freely distributed 3rd-party modules or tools -- Allowed if for the Python programming language.  Use of <em>derived</em> logos for commercial modules and tools requires permission from the PSF.</li>
+<li>We recommend <a class="reference external" href="mailto:psf-trademarks%40python.org">contacting the PSF</a> for permission for <strong>all</strong> <em>derived</em> logos to avoid placing a confusing logo into wide-spread use.  Contacting us is not a requirement for the specific non-commercial uses listed above, or when using freely distributable <em>derived</em> logos that have already been approved by the PSF. However, obtaining permission from the PSF is required in all other uses of a <em>derived</em> logo.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="notes">
+<h1>Notes</h1>
+<p>The word mark &quot;Python&quot; is a registered trademark in the United States of America.
+See <a class="reference external" href="http://tarr.uspto.gov/servlet/tarr?regser=serial&amp;entry=76044902">http://tarr.uspto.gov/servlet/tarr?regser=serial&amp;entry=76044902</a>.</p>
+<p>PSF sponsors and members do not receive any preferential treatment under this
+policy.</p>
+<p>Commercial trademark uses that predate this policy (prior to June 2006) do not
+require permission from the PSF if the use is consistent with this policy.
+However, if you think you may have used the PSF trademarks in the past in ways
+that would violate this policy, we recommend seeking permission. Although we
+are not generally in the business of suing for past infringement of our
+trademarks, the PSF does reserve the right to deny trademark use that violates
+this policy. Past use in violation of this policy does not confer a right to
+continue that use. (<em>Please note:</em> We are not currently aware of any prior
+commercial uses of the trademarks that do violate this policy.)</p>
+<p>Note</p>
+<p>The PSF Trademark Usage Policy above was approved by the PSF Board
+of Directors on November 13, 2006.  See the PSF Board Resolutions
+page for details.</p>
+<p>The first publically released version of the document was 1.2.2. Version
+1.3 was approved by the PSF board January 8, 2007. It clarifies how the
+policy relates to nominative use rules, and adjusts the derived logo
+examples to avoid unnecessary restrictions on commercial use of certain
+types of derived logos.</p>
+</div>
+<div class="section" id="helping-out">
+<h1>Helping Out</h1>
+<p>As a member of the Python community, please keep an eye out for questionable
+uses of the Python logo and &quot;Python&quot; word mark.  You can report potential
+misuse to <a class="reference external" href="mailto:psf-trademarks%40python.org">The PSF Trademarks Committee</a>.
+We will evaluate each case and take appropriate action.</p>
+<p>Please do not approach users of the trademarks with a complaint.  That should
+be left to the PSF and its representatives.</p>
+<p>Thanks!</p>
+</div>
+<div class="section" id="license-for-this-policy">
+<h1>License for this Policy</h1>
+<p>Interested parties may adapt this policy document freely under the
+<a class="reference external" href="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons CC0 license</a>:</p>
+<blockquote>
+<img alt="http://i.creativecommons.org/l/zero/1.0/88x31.png" src="http://i.creativecommons.org/l/zero/1.0/88x31.png" />
+<p>To the extent possible under law, the <a class="reference external" href="../">Python Software Foundation</a>
+has waived all copyright and related or neighboring rights to
+the &quot;PSF Trademark Usage Policy&quot;.
+This work is published from the United States.</p>
+</blockquote>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

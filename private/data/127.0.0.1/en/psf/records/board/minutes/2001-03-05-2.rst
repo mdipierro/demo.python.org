@@ -1,0 +1,38 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+March 5, 2001
+
+Long Beach, Calif., USA
+
+A regular meeting of the Python Software Foundation (the "Foundation")
+Board of Directors was held following the first annual meeting of the
+Foundation, pursuant to Sec. 5. 11 of the Bylaws of the Foundation.
+The meeting was held at the Hilton Long Beach at 9:00 p.m.
+
+**1. Attendance** 
+
+The following members of the Board of Directors were present at the
+Meeting: David Ascher, Paul Everitt, Fredrik Lundh, Tim Peters, Guido
+van Rossum, Greg Stein, Thomas Wouters.  No members were absent.
+
+A quorum was present. 
+
+Also in attendance was Dick Hardt, representative of sponsor member
+ActiveState.
+
+**2. Election of Officers** 
+
+The Board unanimously adopted the resolution
+
+    RESOLVED, that the Board will not elect a Chairman of the Board at
+    this time.
+
+    President: Dick Hardt was nominated and elected by unanimous consent. 
+
+    Secretary: Shawn O'Donnell was nominated and elected by unanimous
+    consent.
+
+**3. Adjournment** 
+
+The Board adopted a motion to adjourn the meeting.

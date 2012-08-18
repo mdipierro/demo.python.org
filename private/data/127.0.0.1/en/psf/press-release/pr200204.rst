@@ -1,0 +1,76 @@
+Python Software Foundation Announces Python Version 2.1.3
+=========================================================
+
+Maintenance release confirms support for Python 2.1
+###################################################
+
+FREDERICKSBURG, VA -- April 8, 2002 -- 
+
+The Python Software Foundation (PSF) has announced release of version
+2.1.3 of the Python programming language and standard libraries. This
+maintenance release confirms the PSF's commitment to supporting older
+Python versions.
+
+"We're happy to offer this maintenance release. This is not the latest
+and greatest version of Python, but it introduces several important
+improvements for people who prefer to continue running Python 2.1,"
+said Guido van Rossum, creator of Python and president of the Python
+Software Foundation.
+
+About Python:
+#############
+
+Python is a powerful object oriented programming language that is
+developed and maintained by a global community of Open Source
+contributors, under the oversight of the Python Software Foundation.
+
+Python's unique blend of simplicity and power excels in a wide range of
+business and research development tasks, including the construction of
+web applications, complex business solutions, and large desktop
+applications.
+
+"NASA is using Python to implement a CAD/CAE/PDM repository and model
+management, integration, and transformation system which will be the core
+infrastructure for its next generation collaborative engineering
+environment. We chose Python because it provides maximum productivity,
+code that's clear and easy to maintain, strong and extensive (and
+growing!) libraries, and excellent capabilities for integration with
+other applications on any platform. All of these characteristics are
+essential for building efficient, flexible, scalable, and well-integrated
+systems, which is exactly what we need. Python has met or exceeded every
+requirement we've had," said Steve Waterbury, Software Group Leader, NASA
+STEP Testbed.
+
+Python significantly increases programmer productivity over languages
+such as C, C++, Java, and Visual Basic. The language's global user base
+is estimated in the hundreds of thousands and is growing rapidly.
+
+Key features of Python include:
+###############################
+
+- Object orientation, modular name spaces, exceptions, and multi-threading
+- High-level dynamic data typing and very late binding
+- Tight integration with C, C++, and Java modules
+- May be compiled to Java byte code for use in any JVM
+- String and regular expression processing
+- Extensive XML and web services support
+- HTTP, FTP, SMTP, POP, IMAP, NNTP, telnet, and other IP protocols
+- HTML, MIME, base64, binhex, uuencode, and other internet data handling
+- GUI development and multimedia services
+- Unit testing, profiling, and documentation generation
+- Restricted execution security option
+- Available third party modules for database access, math, 3D modeling,    image processing, LDAP, WebDAV, jabber, MIDI, and much more
+
+Python runs on Microsoft Windows, Macintosh, Linux, Unix, OS/2, WinCE,
+and many other operating systems. Full source code is available for the
+language and associated standard libraries.
+
+About the PSF:
+##############
+
+The Python Software Foundation (PSF) is a non-profit organization devoted
+to advancing Open Source technology related to the Python programming
+language. The PSF holds the intellectual property rights to Python.
+
+Additional information and downloads are available at `www.python.org 
+<http://www.python.org>`_.

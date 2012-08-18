@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- download/releases/1.5/whatsnew -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/download/releases/1.5/whatsnew">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>If you download the source release, there's a loooong list of
+changes since release 1.4 in the file Misc/NEWS.  Below are some
+highlights.  (Or go directly to the listings of <a class="reference external" href="#b1">what's new in 1.5b1</a>, <a class="reference external" href="#b2">what's new in 1.5b2</a>, and <a class="reference external" href="#final">what's new in 1.5 (final)</a>.)</p>
+<ul class="simple">
+<li>For an essay on the (difficult!) subject of metaprogramming, see my essay <a class="reference external" href="/pythonorg/default/index/doc/essays/metaclasses/">Metaprogramming in Python 1.5</a>.</li>
+<li>See also the description of some major new features in version 1.5: <a class="reference external" href="/pythonorg/default/index/doc/essays/packages.html">Built-in Package Support</a> and <a class="reference external" href="/pythonorg/default/index/doc/essays/stdexceptions.html">Standard Exception Classes</a>.</li>
+</ul>
+<div class="section" id="from-1-5-to-1-5-1-highlights">
+<h1>From 1.5 to 1.5.1 - Highlights</h1>
+<ul class="simple">
+<li>The documentation is now unbundled -- download it from the <a class="reference external" href="/pythonorg/default/index/doc/">documentation</a> page.</li>
+<li>New python-mode.el (Emacs/Xemacs editing mode).</li>
+<li>Printing of recursive dictionaries and lists no longer causes a core dump.</li>
+<li>A raise statement without arguments re-raises the last exception raised in the current function.</li>
+<li>The import statement is now serialized between different threads.</li>
+<li>The finalization order is much more sensible.</li>
+<li>On Mac and Windows, the case of module file names must match the case as used in the import statement.  (On Unix, this was always true, of course.)</li>
+<li>When you specify the -t option, the tokenizer warns about inconsistent mixing of spaces and tabs.  Two -t options and this causes syntax errors instead.  See also Tools/scripts/tabnanny.py. All library modules are warning-free.</li>
+<li>The freeze tool now supports hierarchical module names.</li>
+<li>New standard modules: threading, getpass, imaplib, poplib, smtplib, Tkdnd (Tkinter drag-and-drop).</li>
+<li>Some modules that were declared obsolete a while ago have been moved out of the standard library path.</li>
+</ul>
+</div>
+<div class="section" id="from-1-4-to-1-5-highlights">
+<h1>From 1.4 To 1.5 - Highlights</h1>
+<ul class="simple">
+<li>It's much faster (almost twice for the Lib/test/pystone.py benchmark.)</li>
+<li>There is now an assert statement: <tt class="docutils literal">assert &lt;;condition&gt;</tt> or <tt class="docutils literal">assert &lt;;condition&gt;, &lt;;errormessage&gt;</tt>.  It raises AssertionError if the condition evaluates to false.  The default error message is empty; the source text of the assertion statement is printed as part of the traceback.</li>
+<li>There is now built-in support for importing hierarchical module names (e.g. &quot;import spam.ham.eggs&quot;); ni is declared obsolete.  Note that the built-in package support is somewhat simpler (no __ and __domain__) and differs in one crucial aspect: __init__.py is required, and loaded in the package's namespace instead of as a submodule.  For more information, see <a class="reference external" href="/pythonorg/default/index/doc/essays/packages.html">Built-in Package Support</a>.</li>
+<li>The new &quot;re&quot; module (Perl style regular expressions) is here.  It is based on Philip Hazel's pcre code; the Python interfaces were put together by Andrew Kuchling.  The regex module is declared obsolete.</li>
+<li>In support of the re module, a new form of string literals is introduced, &quot;raw strings&quot;: e.g. r&quot;n&quot; is equal to &quot;n&quot;.</li>
+<li>All standard exceptions and most exceptions defined in standard extension modules are now classes.  Use python -X to revert back to string exceptions.  See <a class="reference external" href="/pythonorg/default/index/doc/essays/stdexceptions.html">Standard Exception Classes</a> for more info.</li>
+<li>Comparisons can now raise exceptions (previously, exceptions occurring during comparisons were swept under the rug).</li>
+<li>New dictionary methods: .clear(), .copy(), .update(), .get().  The first two are obvious; d1.update(d2) is equivalent to the for loop <tt class="docutils literal">for k in <span class="pre">d2.keys():</span> d1[k] = d2[k]</tt>; and d.get(k) returns d[k] if it exists and None (or the optional second argument) if not.</li>
+<li>There is a new regression test harness, which tests many more modules.  (To run the tests, do &quot;import test.autotest&quot;.)</li>
+<li>The interpreter is much smarter about the initial value for sys.path; you can control it easier using $PYTHONHOME (see the usage message, e.g. try <tt class="docutils literal">python <span class="pre">-h</span></tt>).  In most situations, the interpreter can be installed at an arbitrary location without having to recompile.</li>
+<li>The build process now builds a single library (libpython1.5.a) which contains everything except for the main() entry point.  This makes life much easier for applications that embed Python.</li>
+<li>There is much better support for embedding, including threads, multiple interpreters(!), uninitialization, and access to the global interpreter lock.</li>
+<li>There is a -O option that removes SET_LINENO instructions, assert statements and code prefixed with <tt class="docutils literal">if __debug__: ...</tt>.  (It still only makes a few percent difference, so don't get all worked up about this.)</li>
+<li>The Grand Renaming is completed: all linker-visible symbols defined by Python now have a &quot;Py&quot; or &quot;_Py&quot; prefix, and the same is true for most macros and typedefs.</li>
+</ul>
+</div>
+<div class="section" id="from-1-5a4-to-1-5b1">
+<h1>From 1.5a4 to 1.5b1</h1>
+<p>If you were an alpha tester, here are the most relevant changes since
+1.5a4 (of course all known bugs have been fixed, leaks plugged, and
+some documentation has been added).  The full list of changes since
+1.5a4 is presented at the end of the Misc/NEWS file.</p>
+<ul class="simple">
+<li>Package directories now <em>require</em> the presence of __init__.py (or .pyc/.pyo as applicable).  Packages can now contain shared library modules.</li>
+<li>New module 'fileinput' to iterate over the lines of a list of files.</li>
+<li>New module 'locale' for localized number formatting and string case sensitivity.</li>
+<li>New module 'xmllib' to parse XML files.</li>
+<li>Some more support for Tk extensions (PIL, TIX, BLT, TOGL).</li>
+<li>Fixed address list parsing in module 'rfc822'.</li>
+<li>More deployment (and only one fix) for the 're' module.</li>
+<li>New Python mode for Emacs.</li>
+<li>OS/2 support.</li>
+</ul>
+</div>
+<div class="section" id="from-1-5b1-to-1-5b2">
+<h1>From 1.5b1 to 1.5b2</h1>
+<ul class="simple">
+<li>Thanks to all who contributed doc strings for library modules!</li>
+<li>The portability problems caused by indented preprocessor commands and C++ style comments should be gone now.</li>
+<li>Lots of improvements to python-mode.el again.</li>
+<li>Changes in pickle.py and cPickle.c: when unpickling an instance of a class that doesn't define the __getinitargs__() method, the __init__() constructor is no longer called.  This makes a much larger group of classes picklable by default, but may occasionally change semantics.  To force calling __init__() on unpickling, define a __getinitargs__() method.  Other changes too, in particular cPickle now handles classes defined in packages correctly.  The same change applies to copying instances with copy.py.</li>
+<li>Locale support in the &quot;re&quot; (Perl regular expressions) module.  Use the flag re.L (or re.LOCALE) to enable locale-specific matching rules for w and b.  The in-line syntax for this flag is (?L).</li>
+<li>The built-in function isinstance(x, y) now also succeeds when y is a type object and type(x) is y.</li>
+<li>repr() and str() of class and instance objects now reflect the package/module in which the class is defined.</li>
+<li>Module &quot;ni&quot; has been removed.  (If you really need it, it's been renamed to &quot;ni1&quot;.  Let me know if this causes any problems for you. Package authors are encouraged to write __init__.py files that support both ni and 1.5 package support, so the same version can be used with Python 1.4 as well as 1.5.)</li>
+<li>The thread module is now automatically included when threads are configured.  (You must remove it from your existing Setup file, since it is now in its own Setup.thread file.)</li>
+<li>New command line option &quot;-x&quot; to skip the first line of the script; handy to make executable scripts on non-Unix platforms.</li>
+<li>In importdl.c, add the RTLD_GLOBAL to the dlopen() flags.  I haven't checked how this affects things, but it should make symbols in one shared library available to the next one.</li>
+<li>The Windows configuration adds a new main program, &quot;pythonw&quot;, and registers a new extension, &quot;.pyw&quot; that invokes this.  This is a standard Python interpreter that does not pop up a console window; handy for pure Tkinter applications.  All output to the original stdout and stderr is lost; reading from the original stdin yields EOF.</li>
+</ul>
+</div>
+<div class="section" id="from-1-5b2-to-1-5-final">
+<h1>From 1.5b2 to 1.5 (final)</h1>
+<ul class="simple">
+<li>Thanks to all who contributed doc strings or other documentation!</li>
+<li>Many small improvements to the quality of the documentation, both PostScript, HTML and even Emacs info (library manual only).</li>
+<li>New module telnetlib.py.</li>
+<li>New tool versioncheck.</li>
+<li>Two bugs with ftp URLs fixed in urllib.py.</li>
+<li>Fixed infinite recursion when printing __builtins__.</li>
+<li>A bunch of small problems fixed in Tkinter.py.</li>
+<li>Ported zlibmodule.c and bsddbmodule.c to NT.</li>
+<li>Better NT support in tempfile.py.</li>
+<li>Fixed 4294967296==0.</li>
+<li>Latest re and pcre modules (versions of Dec. 22).</li>
+</ul>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

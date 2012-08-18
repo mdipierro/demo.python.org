@@ -1,0 +1,173 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+July 10, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 10
+July 2006.  Steve Holden presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Follow-Up Required <#follow-up-required>`_  - `3.2   Carried Forward <#carried-forward>`_  - `3.3   New in June <#new-in-june>`_
+
+- `4   New Sponsor Invoices <#new-sponsor-invoices>`_
+
+- `5   New Sponsor: EWT <#new-sponsor-ewt>`_
+
+- `6   PyCon Gift Cards <#pycon-gift-cards>`_
+
+- `7   Officer Compensation <#officer-compensation>`_
+
+- `8   Trademark Agreement from Autodesk <#trademark-agreement-from-autodesk>`_
+
+- `9   2006 Budget & Action Plan <#budget-action-plan>`_
+
+- `10   Adjournment <#adjournment>`_
+
+(Color legend: action items; follow-up required;
+in progress)
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Steve Holden, David Goodger, Martin von L?wis, Brett Cannon,
+Tim Peters, and Andrew Kuchling.  Also in attendance were Kurt Kaiser
+(Treasurer) and Neal Norwitz (Assistant Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 12 June 2006 minutes were approved by a 4-0-2 vote.
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+`3.1   Follow-Up Required <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     Status: follow-up required.
+
+- Originally from November 2005, follow-up from December 2005: S. Holden is to contact a potential PSF sponsor/donor.     Status: follow-up required.  (Task transferred from D. Ascher.)
+
+- Originally from November 2005, Section 8, Trademark Policy: S. Deibel to work on the PSF trademark policy, and discuss with Milind Shaw.     Awaiting response from our lawyer.      Status: follow-up required.
+
+`3.2   Carried Forward <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 12 June 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.
+
+- Originally from 25 February 2006, Section 4, Other Business: M. von L?wis will update the list of email addresses of PSF members.     Status: **done**.      The list has been updated.  D. Goodger will update & confirm email & snail mail addresses when he receives the PSF records, with the help of M. von L?wis.
+
+- Originally from March 2006, Section 4, Grants Committee: M. von L?wis agreed to draft a report on the PSF grants.     Status: carried forward.
+
+- Originally from April 2006, Section 3.4, item 2: S. Deibel to develop a compensation policy.     Status: **done**.      See `Officer Compensation <#officer-compensation>`_ below.
+
+`3.3   New in June <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated in the 12 June 2006 board meeting on
+IRC.
+
+- Section 3.2, item 2: D. Goodger volunteered to draft a plan and a budget for positive actions to take to move Python forward.     Status: **done**.      See `2006 Budget & Action Plan <#budget-action-plan>`_ below.
+
+- Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository.  D. Goodger will coordinate this work and maintain the records.     Status: **in progress**.      D. Goodger sent email to the current keepers of the records (J. Hylton & K. Kaiser, CC: to PSF-Board), and is awaiting replies.
+
+- Section 7, Other Business: S. Holden will follow up regarding a promised donation.     Status: **done**.      See `New Sponsor: EWT <#new-sponsor-ewt>`_ below.
+
+`4   New Sponsor Invoices <#id7>`_
+----------------------------------
+
+K. Kaiser will send sponsor member fee invoices to cPacket
+Networks and Tabblo.
+
+`5   New Sponsor: EWT <#id8>`_
+------------------------------
+
+K. Kaiser reported that a membership application and a check (combined
+sponsor member fee & donation) have been received from EWT, membership
+to be effective from July 1.  The representative would be John
+Benediktsson, CTO.
+
+    **RESOLVED**, that the PSF Board accepts EWT as a pending sponsor
+    member.
+
+Approved 6-0-0.
+
+`6   PyCon Gift Cards <#id9>`_
+------------------------------
+
+    **RESOLVED**, that the board approves purchase of $750 of Amazon
+    gift cards to thank some of the volunteers who assisted with
+    PyCon.
+
+Approved 6-0-0.
+
+`7   Officer Compensation <#id10>`_
+-----------------------------------
+
+    **WHEREAS** some of the offices held by officers of the PSF
+    require substantial time commitment, on the order of hundreds of
+    hours per year,
+
+    **WHEREAS** the ongoing and timely performance of these officers
+    is critical to the continued existence of the PSF, be it
+
+    **RESOLVED**, that effective July 1st, 2006, the following
+    officers of the corporation will receive compensation, paid
+    quarterly: Treasurer: $10K/yr; Secretary: $5K/yr.
+
+Approved 6-0-0. 
+
+S. Deibel is tasked with reporting the result of the vote to
+the PSF membership.
+
+`8   Trademark Agreement from Autodesk <#id11>`_
+------------------------------------------------
+
+Autodesk would like to use the Python trademarks in a product with
+Python bindings and embedded Python scripting.  We have received a
+draft agreement from them, which has been forwarded to our lawyer.
+S. Holden will inform Autodesk that we are awaiting a formal
+opinion from counsel, after which we will make a decision via email
+vote.
+
+`9   2006 Budget & Action Plan <#id12>`_
+--------------------------------------------
+
+D. Goodger composed a draft budget & action plan, for which the board
+expressed general approval.  M. von L?wis: &quot;Most of it would be
+grants, so we need to form the appropriate Grants Committee first.&quot;
+He also noted that a new committee chair would probably be needed.
+S. Holden expressed doubts about grants, largely because of the
+administration they engender, and noted &quot;We aren't set up for that
+sort of activity.&quot;  D. Goodger: &quot;I think we have to get set up for it.
+It's part of our core mission.&quot;
+
+D. Goodger will develop the 2006 Budget & Action Plan further
+and take it to the PSF membership for feedback.
+
+In the plan, D. Goodger proposed adding a concise statement to the PSF
+mission statement.  T. Peters reported that the mission statement was
+intentionally elaborate, for the purposes of incorporation as a
+501(c)(3) public charity.  D. Goodger: &quot;When I visit a
+site/company/foundation, I want to know what they do in simple terms,
+*then* read the elaboration.&quot;  The discussion was deferred to email.
+
+`10   Adjournment <#id13>`_
+---------------------------
+
+S. Holden adjourned the meeting at 18:00 UTC.

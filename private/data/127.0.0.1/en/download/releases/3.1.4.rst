@@ -1,0 +1,92 @@
+Python 3.1.4
+------------
+
+Note: It is recommended that you use the latest bug fix release of the 3.1
+series, `3.1.5 </download/releases/3.1.5>`_.
+
+Python 3.1.4 was released on June 11th, 2011. 
+
+The Python 3.1 version series is a continuation of the work started by Python
+3.0, the **new backwards-incompatible series** of
+Python.  For ongoing maintenance releases, please see the Python `3.2 <../3.2/>`_ series.  Improvements in the the 3.1 series release include:
+
+- An ordered dictionary type
+
+- Various optimizations to the int type
+
+- New unittest features including test skipping and new assert methods.
+
+- A much faster io module
+
+- Tile support for Tkinter
+
+- A pure Python reference implementation of the import statement
+
+- New syntax for nested with statements
+
+See these resources for further information: 
+
+- `What's New in 3.1? <http://docs.python.org/3.1/whatsnew/3.1.html>`_
+
+- `What's new in Python 3000? <http://docs.python.org/3.0/whatsnew/3.0.html>`_
+
+- `Python 3.1.4 Change Log <http://hg.python.org/cpython/raw-file/feae9f9e9f30/Misc/NEWS>`_
+
+- `Online Documentation <http://docs.python.org/3.1/>`_
+
+- Conversion tool for Python 2.x code: `2to3 <http://svn.python.org/view/sandbox/trunk/2to3/>`_
+
+- Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+Help fund Python and its community by donating to the Python Software
+Foundation.
+
+Download
+--------
+
+This is a production release.  Please
+report any bugs you may encounter to `http://bugs.python.org <http://bugs.python.org>`_.
+
+We currently support these formats for download: 
+
+- `Gzipped source tar ball (3.1.4) </ftp/python/3.1.4/Python-3.1.4.tgz>`_ `(sig) <Python-3.1.4.tgz.asc>`_
+
+- `Bzipped source tar ball (3.1.4) </ftp/python/3.1.4/Python-3.1.4.tar.bz2>`_ `(sig) <Python-3.1.4.tar.bz2.asc>`_
+
+- `XZ source tar ball (3.1.4) </ftp/python/3.1.4/Python-3.1.4.tar.xz>`_ `(sig) <Python-3.1.4.tar.xz.asc>`_
+
+- `Windows x86 MSI Installer (3.1.4) </ftp/python/3.1.4/python-3.1.4.msi>`_ `(sig) <python-3.1.4.msi.asc>`_
+
+- `Windows x86 MSI program database (3.1.4) </ftp/python/3.1.4/python-3.1.4-pdb.zip>`_ `(sig) <python-3.1.4-pdb.zip.asc>`_
+
+- `Windows X86-64 MSI Installer (3.1.4) </ftp/python/3.1.4/python-3.1.4.amd64.msi>`_ `[1] <#id6>`_ `(sig) <python-3.1.4.amd64.msi.asc>`_
+
+- `Windows X86-64 program database (3.1.4) </ftp/python/3.1.4/python-3.1.4.amd64-pdb.zip>`_ `[1] <#id6>`_ `(sig) <python-3.1.4.amd64-pdb.zip.asc>`_
+
+- `Mac OS X 32-bit i386/PPC Installer (3.1.4) for Mac OS X 10.3 through 10.6 </ftp/python/3.1.4/python-3.1.4-macosx10.3.dmg>`_ `[2] <#id7>`_ `(sig) <python-3.1.4-macosx10.3.dmg.asc>`_
+
+The source tarballs are signed with Benjamin Peterson's key (fingerprint: 12EF
+3DC3 8047 DA38 2D18 A5B9 99CD EA9D A413 5B38). The Windows installers are signed
+with Martin von L?wis' public key which has a key id of 7D9DC8D2.
+The Mac disk image was signed with
+Ned Deily's key which has a key id of 6F5E1540.
+The public
+keys are located on the `download page </download#pubkeys>`_.
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    fa9f8efdc63944c8393870282e8b5c35  11795512  Python-3.1.4.tgz
+    09ed98eace4c403b475846702708675e   9887870  Python-3.1.4.tar.bz2
+    dcd128e69f8ee239182b54e33313aac7   8184052  Python-3.1.4.tar.xz
+    4384d3fa1ae96d0f21c37c7aff03161f  17580055  python-3.1.4-macosx10.3.dmg
+    b632340d63c6583382f77358f7f220ce  12711906  python-3.1.4-pdb.zip
+    c0f83b5097289b8d874be950f1c8a99a  13531106  python-3.1.4.amd64-pdb.zip
+    829794fc7902880e4d55c7937c364541  14557184  python-3.1.4.amd64.msi
+    142acb595152b322f5341045327a42b8  14282752  python-3.1.4.msi
+
+**MISSING**
+[1]  *(`1 <#id3>`_, `2 <#id4>`_)* The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).
+**MISSING**
+`[2] <#id5>`_  There is important information about IDLE, Tkinter, and Tcl/Tk on Mac OS X here.  Also, on Mac OS X 10.6, if you need to build C extension modules with the 32-bit-only Python installed, you will need Apple Xcode 3, not 4.

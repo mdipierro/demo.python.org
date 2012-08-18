@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- community/lists -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/community/lists">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <div class="section" id="python-mailing-lists-and-newsgroups">
+<h1>Python Mailing Lists and Newsgroups</h1>
+<p>Here's an overview of the mail and news resources for python. A complete
+listing of python.org's public mailing lists
+is also available.</p>
+<p>To request a new list, send e-mail to postmaster &#64; python.org; please check
+first to make sure a similar list does not already exist.</p>
+<p>Mailing lists for users speaking languages other than
+English are listed in the <a class="reference external" href="http://wiki.python.org/moin/Languages">non-english python resources</a> guide, which includes mailing
+lists, translated and original non-English documentation, and other
+resources.</p>
+</div>
+<div class="section" id="comp-lang-python">
+<h1>comp.lang.python</h1>
+<p><a class="reference external" href="news:comp.lang.python">comp.lang.python</a> is a high-volume
+Usenet open (not moderated) newsgroup for general discussions and
+questions about Python.  You can also access it as a mailing list through
+<a class="reference external" href="http://mail.python.org/mailman/listinfo/python-list">python-list</a>.</p>
+<p>Pretty much anything Python-related is fair game for discussion, and the group
+is even fairly tolerant of off-topic digressions; there have been entertaining
+discussions of topics such as floating point, good software design, and other
+programming languages such as Lisp and Forth.</p>
+<p>Most discussion on comp.lang.python is about developing with Python, not about
+development of the Python interpreter itself. Some of the core developers still
+read the list, but most of them don't. Occasionally comp.lang.python
+suggestions have resulted in an enhancement proposal being written, leading to
+a new Python feature. If you find a bug in Python, don't send it to
+comp.lang.python; file a bug report in <a class="reference external" href="http://bugs.python.org/">the issue tracker</a>.</p>
+<p>Items posted on the Usenet group appear on the mailing list, and vice
+versa (bidirectional gateway). Due to the mysteries of Usenet, the
+order in which items show up may vary.</p>
+<p>Rudeness and personal attacks, even in reaction to blatant flamebait, are
+strongly frowned upon. People may strongly disagree on an issue, but usually
+discussion remains civil. In case of an actual flamebait posting, you can
+ignore it, quietly plonk the offending poster in your killfile or mail filters,
+or write a sharp but still-polite response, but at all costs resist the urge to
+flame back. Generally comp.lang.python is a high-signal, low-noise group. It's
+also a high-traffic group, running at around 200 posts per day.</p>
+<p>There are several different archives:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://groups.google.com/group/comp.lang.python/topics">Google Groups archive of comp.lang.python</a></li>
+<li><a class="reference external" href="http://mail.python.org/pipermail/python-list/">python.org archive of python-list</a></li>
+<li><a class="reference external" href="http://news.gmane.org/gmane.comp.python.general">gmane.org archive of python-list</a></li>
+</ul>
+</div>
+<div class="section" id="comp-lang-python-in-non-english">
+<h1>comp.lang.python in non-English</h1>
+<p>There are some non-English language versions of this newsgroup. The links
+provided here are to the Google Groups archive for each: <a class="reference external" href="https://groups.google.com/group/de.comp.lang.python/topics?lnk=gschg">de.comp.lang.python</a>
+(German), <a class="reference external" href="https://groups.google.com/group/it.comp.lang.python/topics">it.comp.lang.python</a> (Italian),
+<a class="reference external" href="https://groups.google.com/group/pl.comp.lang.python/topics">pl.comp.lang.python</a> (Polish),
+<a class="reference external" href="https://groups.google.com/group/fr.comp.lang.python/topics">fr.comp.lang.python</a> (French), and
+<a class="reference external" href="http://groups.google.com/group/cz.comp.lang.python/topics">cz.comp.lang.python</a> (Czech).</p>
+</div>
+<div class="section" id="comp-lang-python-announce">
+<h1>comp.lang.python.announce</h1>
+<p><a class="reference external" href="news:comp.lang.python.announce">comp.lang.python.announce</a> is a
+low-volume moderated forum for Python-related announcements. New
+modules and programs are announced here, and it's where
+<a class="reference external" href="/pythonorg/default/index/dev/peps/">PEPs</a> are posted to get comments from the community.
+You'll also see announcements for conferences.</p>
+<p>This is a moderated newsgroup carrying at most perhaps 10 to 20 messages per
+week, so it's an easy way to be keep up-to-date on what's new in the Python
+world. See the <a class="reference external" href="http://www.python.org/community/lists/clpya-guidelines.txt">comp.lang.python.announce posting guidelines</a> for guidelines
+on submitting announcements.</p>
+<p>It is also available as a read-only mailing list, python-announce. Subscribing
+can be done via the <a class="reference external" href="http://mail.python.org/mailman/listinfo/python-announce-list">python-announce list information page</a>.</p>
+<p>comp.lang.python.announce is moderated by a team of people. If you need to
+contact them directly, e.g. to ask why a particular message was rejected, write
+to clpa-moderators-owner &#64; python.org.</p>
+<p>There are several archives for comp.lang.python.announce:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://groups.google.com/group/comp.lang.python.announce">Google Groups archive of comp.lang.python.announce</a></li>
+<li><a class="reference external" href="http://mail.python.org/pipermail/python-announce-list">python.org archive of python-announce</a></li>
+</ul>
+</div>
+<div class="section" id="tutor">
+<h1>tutor</h1>
+<p>The <a class="reference external" href="http://www.python.org/mailman/listinfo/tutor">tutor mailing list</a> is for
+users who want to ask questions about learning computer programming with
+Python. An <a class="reference external" href="http://mail.python.org/pipermail/tutor/">archive of the list</a> is
+available.</p>
+<p>People interested in learning about programming with Python are
+encouraged to join, as are experienced users interested in helping
+others learn -- teaching other people is one of the best ways to learn
+more yourself!</p>
+</div>
+<div class="section" id="python-dev">
+<h1>python-dev</h1>
+<p><em>Note:</em> python-dev is for work on developing Python (fixing bugs and adding new
+features to Python itself); if you're having problems writing a Python program,
+please post to comp.lang.python.</p>
+<p>python-dev is the heart of Python's development. Practically everyone with
+Subversion write privileges is on python-dev, and first drafts of PEPs are
+often posted here for initial review and rewriting before their more public
+appearance on python-announce.</p>
+<p>Anyone can subscribe to python-dev, though your subscription will have
+to be approved, resulting in a delay of a day or two before you start
+receiving e-mail. The list address accepts e-mail from non-members
+(after a delay in moderation, so subscribing is a Good Idea), and
+the <a class="reference external" href="http://mail.python.org/pipermail/python-dev/">python-dev archives</a>
+are public.</p>
+<p>There is also a gmane gateway to the mailing list:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://news.gmane.org/gmane.comp.python.devel">gmane.org archive of python-dev</a></li>
+</ul>
+</div>
+<div class="section" id="python-ideas-mailing-list">
+<h1>python-ideas mailing list</h1>
+<p>The python-ideas list is for discussing more speculative design ideas.</p>
+<ul class="simple">
+<li><a class="reference external" href="http://mail.python.org/mailman/listinfo/python-ideas">python-ideas Mailman interface</a></li>
+<li><a class="reference external" href="http://news.gmane.org/gmane.comp.python.ideas">gmane.org archive of python-ideas</a></li>
+</ul>
+</div>
+<div class="section" id="porting-mailing-list">
+<h1>Porting mailing list</h1>
+<p>The <a class="reference external" href="http://mail.python.org/mailman/listinfo/python-porting">python-porting list</a> focuses on porting
+Python code between versions, mainly between 2.x and 3.x code.</p>
+</div>
+<div class="section" id="special-interest-groups">
+<h1>Special Interest Groups</h1>
+<p>Special Interest Groups (SIGs) are smaller communities focused on a particular
+topic or application such as databases, Python on MacOS, etc. Every SIG has a
+mailing list of its own. See <a class="reference external" href="http://www.python.org/community/sigs/">the SIG page</a> for more information.</p>
+<p>SIGs vary in their success. Some, such as the XML, Database, and Distutils
+SIGs, have produced specifications and software that are now used throughout
+the Python community. Not all SIGs are as productive, though, and some sputter
+along for years without ever finalizing an implementation or a document.</p>
+</div>
+<div class="section" id="python-checkins">
+<h1>python-checkins</h1>
+<p>The <a class="reference external" href="http://mail.python.org/mailman/listinfo/python-checkins">python-checkins mailing list</a> receives an
+automatically generated message for each change committed to the Python
+Subversion tree. python-checkins makes it easy for developers to know what is
+happening in the repository. The volume of traffic on this list varies widely
+based on developer activity.</p>
+</div>
+<div class="section" id="python-help">
+<h1>python-help</h1>
+<p>The python-help mailing list is python.org's help desk. You can ask a group of
+knowledgeable volunteers questions about all your Python problems.</p>
+<p>You can send email to python-help by writing to help &#64; python.org for
+individual support. Mail sent there lands in the mailbox of a small group of
+volunteers who may reply to reasonable requests for help, depending on their
+area of expertise. Using it is much preferred to sending mail directly to Guido
+or some other individual, but less preferable than posting to comp.lang.python.
+In all cases, try <a class="reference external" href="http://www.python.org/search/">searching the various archives</a> first.</p>
+<p>When you ask a question, be sure to give your configuration: what hardware
+platform, what OS (and version), what Python version, and (when using Tkinter)
+what Tcl/Tk version you are using. If you're using an older Python version, try
+upgrading to the latest version first -- things often get better!</p>
+<p>You can't subscribe to python-help -- it is not for bystanders, only for
+questioners to submit questions and for helpers to receive and field them. The
+archives are not accessible, to protect the questioners' privacy. If you would
+like to help answer questions, send your qualifications to webmaster &#64;
+python.org.</p>
+<p>When you send a message to python-help, you will get an automated response.
+Your message is still delivered to the volunteers, and you will only receive
+this automated response once every approximately three months.</p>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

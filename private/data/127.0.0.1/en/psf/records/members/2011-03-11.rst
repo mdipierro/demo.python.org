@@ -1,0 +1,285 @@
+The Python Software Foundation 
+
+Minutes of the 2010 Members' Meeting 
+
+March 11, 2011
+
+The Python Software Foundation (the &quot;PSF&quot;) held an annual
+members' meeting on March 11, 2011 during lunch at the Hyatt
+Regency Atlanta hotel in Atlanta, Georgia, USA (PyCon 2011 Atlanta).
+Steve Holden presided over the meeting. Pat Campbell prepared these
+minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Greetings & Announcements <#greetings-announcements>`_
+
+- `3   Board Report <#board-report>`_
+
+- `4   Financial Report <#financial-report>`_
+
+- `5   Introduction of the 2011 Members' Election Candidates <#introduction-of-the-2011-members-election-candidates>`_
+
+- `6   2010 & 2011 Active PSF Projects <#active-psf-projects>`_
+
+- `7   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+47 nominated members were present at the meeting: 
+
+    - Jim Baker
+
+    - Facundo Batista
+
+    - Ian Bicking
+
+    - C.Titus Brown
+
+    - Jean-Paul Calderone
+
+    - Brett Cannon
+
+    - Wesley Chun
+
+    - Nick Coghlan
+
+    - Dr.Tim Couper
+
+    - Laura Creighton
+
+    - Stephan Deibel
+
+    - Graham Dumpleton
+
+    - Jeff Elkner
+
+    - Michael Foord
+
+    - Jim Fulton
+
+    - Jacob Hall?n
+
+    - Doug Hellmann
+
+    - Raymond Hettinger
+
+    - Steve Holden
+
+    - Adrian Holovaty
+
+    - Gloria W.Jacobs
+
+    - Kurt Kaiser
+
+    - Jacob Kaplan-Moss
+
+    - Glyph Lefkowitz
+
+    - Van Lindberg
+
+    - Alex Martelli
+
+    - Anna Martelli Ravenscroft
+
+    - Harald Armin Massa
+
+    - David Mertz
+
+    - Mike M?ller
+
+    - R.David Murray
+
+    - Doug Napoleone
+
+    - Jesse Noller
+
+    - Terry Pepper
+
+    - Allison Randal
+
+    - Brandon Rhodes
+
+    - Armin Rigo
+
+    - Arc Riley
+
+    - Jeff Rush
+
+    - Eric V.Smith
+
+    - James Tauber
+
+    - Guido van Rossum
+
+    - Martin von Loewis
+
+    - Barry Warsaw
+
+    - Frank Wierzbicki
+
+    - Thomas Wouters
+
+    - Moshe Zadka
+
+5 representatives of sponsor members were present: 
+
+    - Canonical, represented by Barry Warsaw
+
+    - CCP Games, represented by Kristj?n Valur J?nsson
+
+    - Google, represented by Guido van Rossum for Dan Bentley
+
+    - Merfin LLC, represented by Reggie Dugard
+
+    - Strakt Holdings, represented by Laura Creighton
+
+8 PSF nominated membership nominees for 2011 were present: 
+
+    - Ned Batchelder
+
+    - Vern Ceder
+
+    - Rick Copeland
+
+    - Brian Curtin
+
+    - Yannick Gingras
+
+    - Jonathan LaCour
+
+    - Ronald Oussoren
+
+    - Greg P.Smith
+
+`2   Greetings & Announcements <#id2>`_
+-------------------------------------------
+
+On March 11, 2011 at the PyCon US Conference held at the Hyatt Regency
+in Atlanta,Georgia, Steve Holden, PSF member and chairman of the board
+called the PSF Members' Meeting to order at 12:30 pm [EST] during a
+catered lunch for members and guests.
+
+PSF members (nominated and sponsor) and new PSF nominated membership
+candidates were greeted and welcomed.
+
+During the PSF members' meeting and lunch S. Holden began announcements
+with:
+
+&quot;There is no formal agenda since there is no formal business to
+be conducted. Basically, we are just going to have a &quot;welcome to
+everyone.&quot; There is not going to be a roll call.&quot;
+
+Members and prospective members were asked to sign their names on the
+meeting attendance sign-in sheet that was being passed around the room.
+
+Afterward, members were reminded of the upcoming members' meeting to
+be held at EuroPython 2011 in Florence, Italy, June 20-26.
+
+`3   Board Report <#id3>`_
+--------------------------
+
+S. Holden presented a brief and informal board report to members
+which included mentioning that 2010 was a more successful year for the
+organization financially, especially, after having gone through some
+financial pitfalls in 2009.
+
+&quot;If you saw my ten minute talk this morning, that is basically the board
+report. We have been trying to do good things. We have been trying to
+recover from a bad financial situation. Thanks to Van [Lindberg's] and
+Jesse [Noller's] hard work over the past two years, PyCon is now on the road
+again as a popular and revenue contributing activity. So thanks very much
+to them. [the audience applauds] Things are getting a little better. We
+have spent as much money as we felt we safely could on supporting
+community-oriented activities of the kind that I described with other
+conferences.&quot;
+
+Next, Guido van Rossum, PSF President, was acknowledged and then asked to
+say a few words on how he felt about the current state of affairs with the
+PSF;
+
+&quot;Basically, I would like to hear from the president who I know had certain
+criticisms last year about the way the foundation was conducting itself --
+that he does feel that we are successfully back on track now. [S. Holden
+glances over at G.v Rossum during a brief pause] Good! Thank-you very much!
+[the audience roars with laughter]. In that case, that is the end of the
+board report.&quot;
+
+`4   Financial Report <#id4>`_
+------------------------------
+
+The treasurer, Kurt Kaiser, presented everyone with a two-page hard copy of
+his report: a PSF Accrual Basis Balance Sheet for March 10, 2011, Revision 1
+which included 2008 to the present figures and a PSF Accrual Basis PyCon
+2010 Income Statement for March 10, 2011 which included 2009 and 2010
+figures.
+
+Then, he briefly reported on the financials for 2010 for the PSF and
+PyCon US.
+
+&quot;Last year PyCon US did very well and turned in a $70,000 profit. Overall,
+the PSF turned in a $50,000 profit.&quot;
+
+`5   Introduction of the 2011 Members' Election Candidates <#id5>`_
+-------------------------------------------------------------------
+
+During this portion of the members' meeting, all board candidates who
+were present at the meeting and running for re-election stood up after
+their names had been called by the chairman. The board of directors
+currently consist of 13 members.
+
+Next, the new nominated membership candidates were acknowledged. The
+prospective members who were present briefly introduced themselves to
+the current PSF membership after their name had been called.
+
+Then, S. Holden reminded everyone of the upcoming 2011 members election
+and member nomination deadline.
+
+&quot;Since the ballot does not go out until next week, there is still time
+to get further membership nominations on the ballot if you want to and
+we are going to be doing the electronic ballot in the same way that we
+did last year.&quot;
+
+`6   2010 & 2011 Active PSF Projects <#id6>`_
+-------------------------------------------------
+
+During the final portion of the members' meeting, S. Holden  presented
+members with a list and brief summary of the 2010 & 2011 active and
+completed projects the PSF, board of directors, officers, and a host of
+volunteers from the PSF community had either started or had been involved
+in since the last members' meeting held at PyCon US in February 2010.
+Project leaders were also introduced to members and recognized for their
+work.
+
+The 2010 & 2011 active and completed PSF projects and leaders included: 
+
+**MISSING**
+**Committee**   **Leader**
+PSF Infrastructure Committee (IC)   Sean Reifschneider
+
+PSF Sprints Program   Jesse Noller
+
+PSF Trademarks Committee (TMC)   David Mertz
+
+PSF Communications Project   Doug Hellmann
+
+PSF Honorary Associate Membership (HAM) Project   Pat Campbell & Kurt Kaiser
+
+PSF Python Brochure Project   Marc-Andre Lemburg
+
+PyPI Cloud Mirroring Project   Marc-Andre Lemburg
+
+PyCon US Website Project   Doug Napoleone
+
+Core Development Tasks Project   Brett Cannon
+
+pyOpenSSL Project   Jean-Paul Calderone
+
+`7   Adjournment <#id7>`_
+-------------------------
+
+Steve Holden thanked everyone for attending and adjourned the informal members'
+meeting at approximately 1:30pm (EST), local time.

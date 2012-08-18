@@ -1,0 +1,82 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+December 10, 2002. 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 13:02 PM PCT. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Tim Peters, Guido van Rossum, Thomas Wouters,
+Marc-Andre Lemburg, Martin von Loewis. A quorum was present.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+Guido moved to approve the meeting minutes of November 12th. Motion
+passes with 2 abstentions and 4 ayes.
+
+3. Secretary/Treasurer's report
+###############################
+
+Hylton has sent out invoces to Strakt Holdings and Merfin LLC.  The
+bank transfer from Sweden to US didn't work out right for Strakt due
+to routing problems. Hylton will get in touch with the the bank to
+sort this out.  There was no news on the state of the Merfin LLC
+payment.
+
+Lemburg asked for the bank account details of the PSF bank account
+needed for the activities of the Public Support Committee (PSC) in
+order to accept donations via wire-transfer. Jeremy said he'd call up
+the bank to find out.
+
+4. Python Conference (PyCon) report
+###################################
+
+Van Rossum reported that the conference organization is moving along
+well.  He has signed the contract and paid 10% of the cost as a
+deposit.  The next 15% are due 30 days before the start of the event.
+Van Rossum will get a quote for insurance.  The estimate is that
+insurance for the event only will cost about $500.  The conference
+committee has started publishing the event and set some dates.
+
+Wouters asked how well the paper submissions are going. Van Rossum
+mentions that the deadline is too close, but that he has no further
+information on this.
+
+5. Python Support Committee (PSC) status report
+###############################################
+
+Lemburg reported that the PSC is looking into taking the first steps
+towards setting up online donations and using the ShareIT service
+(http://www.shareit.com/) for this. Von Loewis questioned the use of a
+shareware reseller for the PSF's purposes. Lemburg explained that
+ShareIT is offering good services for reasonably low costs (compared
+to other online payment providers).
+
+Hylton asked whether the PSC had already asked ShareIT for permission
+to use their service in the way intended by the PSC (sending out
+"Thank You" PDF files as product in return for the donation). Lemburg
+replied that the question has been forwarded to ShareIT pending an
+answer.
+
+Van Rossum suggested that the PSC get Chris Rourk's opinion on the
+ShareIT contract and the possible implications of using ShareIT for
+online fund raising. The motion to accept the ShareIT contract was
+postponed until after the legal review.
+
+6. Contribution forms status report
+###################################
+
+Nothing to report.
+
+8. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 13:34 PM
+EST.

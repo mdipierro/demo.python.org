@@ -1,0 +1,233 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+October 18, 2010
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 18
+October 2010. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Report <#progress-report>`_- `5.1   Communication Status <#communication-status>`_  - `5.2   Core Development Tasks <#core-development-tasks>`_  - `5.3   HAM WebPages/Links <#ham-webpages-links>`_  - `5.4   Marketing Material <#marketing-material>`_  - `5.5   PyCon US Website <#pycon-us-website>`_  - `5.6   pyOpenSSL Status <#pyopenssl-status>`_  - `5.7   Sprint Committee <#sprint-committee>`_
+
+- `6   Host OSX Buildbot Slaves <#host-osx-buildbot-slaves>`_
+
+- `7   Community Service Award Nomination for 2010-3rd Quarter <#community-service-award-nomination-for-2010-3rd-quarter>`_
+
+- `8   Other Business <#other-business>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Steve Holden, Marc-Andre Lemburg, Martin v. Lowis, David Mertz,
+Doug Napoleone, Jesse Noller, Tim Peters, Jeff Rush, Greg Stein, James
+Tauber, and Gloria Willadsen. Also in attendance were Kurt Kaiser
+(Treasurer), and Pat Campbell (Secretary & Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 20 September 2010 Board meeting minutes were voted on and approved. 
+
+Approved, 8-0-2.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting held on 20
+September 2010.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K. Kaiser
+prior to the Board meeting. There were no major changes in the PSF's
+financial position since the last Treasurer's Report a month ago.
+
+However, the treasurer did report that we will be moving away from the usual
+Google Checkout system to CTE's Registration processing system for PyCon.
+In addition, the treasurer will be soliciting the aid of our secretary to
+help with AR and our new Quickbooks system.
+
+M.A. Lemburg also suggested the use of a Quickbooks emailing feature to help
+reduce the on-going AP and AR issues by routinely emailing out reminders to
+concerned parties.
+
+`5   Progress Report <#id5>`_
+-----------------------------
+
+The following board reports were submitted to the board mailing list
+one week prior to this month's meeting. Please see a summary of each
+board report listed below:
+
+`5.1   Communication Status <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Hellmann, Communication Officer, has recruited volunteers to help
+write for the blog found at `http://pyfound.blogspot.com/ <http://pyfound.blogspot.com/>`_. For instance,
+Paul Nuin will be writing about the PyPi Mirroring Project and Engelbert
+Gruber is constructing interview questions to use to inquire about the
+new PyCon website.
+
+`5.2   Core Development Tasks <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+B. Cannon, Core Development Tasks Project, will begin working
+on this 2-month project in January 2011.
+
+`5.3   HAM WebPages/Links <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+P. Campbell, Honorary Associate Membership (HAM) WebPages Start-up
+Project, is currently working with our treasurer, Kurt Kaiser in
+order to setup the new Honorary Associate Membership fee payment
+system that will interface with the Python website.
+
+Board Discussion: 
+
+S. Holden: &quot;We really need to treat this as important, since it
+will generate additional revenues to spend on sprints and the like.&quot;
+
+K. Kaiser:  &quot;We are setting up a new processor, FirstData. So between
+them and &quot;classic&quot; PayPal (money by email) we should be able to handle
+the payments.
+
+`5.4   Marketing Material <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+MAL provides a brief introduction into his marketing project: 
+
+&quot;The project is lead by Marc-Andr? Lemburg who is in contact with
+the people behind the Plone brochure created by the German Zope
+User Group (DZUG): Jan Ulrich Hasecke and Armin Stro?-Radschinski.
+
+We started working on the concept a few weeks after World Plone Day
+(`http://rheinland.worldploneday.de/ <http://rheinland.worldploneday.de/>`_) and had several meetings and
+phone conference calls to take the idea forward.&quot;
+
+`5.5   PyCon US Website <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Napoleone, PyCon US Website Project, says that the new website for
+2011 has been launched and that calls for proposals, tutorials, and
+posters are currently being accepted:&quot;The website us.pycon.org/2011 is
+live with complete information, including sponsorship, and blog
+integration on planet python. Calls for proposals, tutorials and
+posters have been sent out and the website is now accepting all three.
+The review system is in place. We have already received proposals in
+all three categories.&quot;
+
+In addition, D. Napoleone also reported that the registration launch
+has been slightly delayed due to issues with PSF accounting and CTE.
+
+Board Discussion: 
+
+S. Holden: &quot;I see we chose to use CTE's registration system. I am
+surprised that registration has been such a time sink over so many
+years.&quot;
+
+K. Kaiser: &quot;Yes, we change every year but hopefully, this is it for
+awhile...&quot;
+
+J. Noller: &quot;Because registration and accounting is a h&quot;ard problem,
+we've been unable to get a volunteer pool to address fully, completely,
+and with a code base that's actually maintainable.&quot;
+
+D. Napoleone: &quot;Registration is very hard to get right, especially when
+everything including the kitchen sink is wanted. We are rather liberal
+when its comes to things like refunds, and unlike some other conferences,
+we have add-ons like tutorials which are announced AFTER registration
+opens.&quot;
+
+- Noller: &quot;Therefore, outsourcing it makes the most sense.&quot;
+
+S. Holden: &quot;A small concern that it ties us to a third party that's
+shown evidence of instability in the last year.&quot;
+
+K. Kaiser: &quot;Yes, outsourcing registration is a good idea because it
+provides continuity across volunteers.&quot;
+
+D. Napoleone: &quot;When you look at the history of trying to do registration
+with a volunteer based system, we have had to rewrite it every year. One
+massive problem with this is integration with the hotel registration which
+is something impossible for a volunteer effort to manage. As well as, we
+change hotel vendors as we move locations.&quot;
+
+`5.6   pyOpenSSL Status <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J.P. Calderone, pyOpenSSL Project, has been working to improve the
+coverage provided by pyOpenSSL's test suite and one such improvement
+would include having addressed all known issues with the port.
+
+`5.7   Sprint Committee <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, Sprint Committee Chair, provides a brief summary of the
+Sprint Committee's current activities and progress:
+
+&quot;We still don't have the number of sprints we want lined up - on the other
+hand, we do have a donor who has sent money to the PSF for further sprints funding:
+`http://pythonsprints.com/2010/10/11/trading-technologies-sponsors-python-sprints/ <http://pythonsprints.com/2010/10/11/trading-technologies-sponsors-python-sprints/>`_&quot;
+
+Board Discussion: 
+
+S. Holden: &quot;Thanks for your work on sprints. I see this as a good practical way
+to support grass-roots development work.
+
+`6   Host OSX Buildbot Slaves <#id13>`_
+---------------------------------------
+
+Motion from Martin v. Lowis: 
+
+    **RESOLVED**, that the PSF buys one Mac Mini computer, for a total
+    of no more than 1200 USD, to be used for Python core development;
+    usage details are determined by the infrastructure committee.
+
+Approved, 11-0-0.
+
+`7   Community Service Award Nomination for 2010-3rd Quarter <#id14>`_
+----------------------------------------------------------------------
+
+Michael Foord was selected for the 2010-3rd Quarter PSF Community
+Service Award.
+
+    **RESOLVED**, that Michael Foord receives the PSF Community
+    Service Award Q3 2010.
+
+Approved, 11-0-0.
+
+`8   Other Business <#id15>`_
+-----------------------------
+
+S. Holden reminded members to utilize the board mailing list more often
+per month to discuss board matters that are subject to be voted on during
+the monthly board meeting.
+
+G. Stein will be providing a new template to be used by writers when
+they are drafting their monthly board reports. The new template will
+include an additional section to the board report to be used to
+summarize the report.
+
+`9   Adjournment <#id16>`_
+--------------------------
+
+- Holden adjourned the meeting at 16:59 UTC.

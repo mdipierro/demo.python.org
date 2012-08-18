@@ -1,0 +1,82 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+May 10, 2005 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: David Ascher, Stephan Deibel, Tim Peters, Andrew Kuchling,
+and Martin v. L?wis.
+Kurt Kaiser and Neal Norwitz also attended the meeting.  von L?wis took minutes.
+
+2. Meeting minutes of past meetings
+###################################
+
+The April minutes were approved with a 5-0-0 vote.
+The December minutes were still missing.
+
+3. PyCon Planning
+#################
+
+The board discusses the proposals for venues for the next PyCon.
+Under consideration was a draft contract with the University of
+Maryland Community College (UMUC), and Marriott's conference center.
+Several board members expressed concern about the increase in costs;
+Peters said PyCon was supposed to be a low-cost community
+conference. Kuchling explained that the hotel food is the
+largest cost driver.
+
+Staying with George Washington University was discussed. The
+main issue is that PyCon's attendance might not fit into the
+meeting rooms that GWU can provide. Deibel suggested to cap
+the attendance. Smaller rooms are also available on GWU for
+further sessions, but they might also be booked already.
+
+von L?wis asked about expected attendance; Kuchling explained
+that, at a registration fee of $250, he would expect the conference
+would need 300 to 350 attendants to break even. Predicting these
+things is difficult, of course.
+
+The time of the event was also discussed. The committee was
+looking at February 2006; several directores objected that
+this is hardly "spring", and that a later point in the year
+should be considered. Kuchling explained that that might
+cause an increase in hotel charges for the attendees.
+
+Kuchling summarized the discussion as follows: the UMUC
+proposal was killed, and the board would prefer if attendance
+fees stayed about the same.
+
+4. Europython
+#############
+
+Deibel asked whether the PSF should sponsor something at EuroPython,
+to refute the impression that the PSF is an U.S. centric. Ascher
+said that we should not do anything without a champion. Deibel
+said that he would ask the PSF members list whether there are
+any volunteers that need support.
+
+5. Grants committee
+###################
+
+von L?wis reported that Brian Zimmer had to withdraw from
+the grant, because of changes in employment. The board agreed
+to pay that work that was done up to that point.
+
+6. Other business
+#################
+
+A number of other things would need to be discussed. Because
+the meeting was running out of time, they were deferred to
+email or to the next meeting.
+
+7. Adjournment.
+###############
+
+The meeting was adjourned at 19:05 GMT.

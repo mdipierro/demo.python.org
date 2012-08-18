@@ -1,0 +1,361 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+March 12, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:02 UTC, 12
+March 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in February <#new-in-february>`_
+
+- `4   Tasks for the Secretary <#tasks-for-the-secretary>`_
+
+- `5   Treasurer Records <#treasurer-records>`_
+
+- `6   Java Package name for Jython <#java-package-name-for-jython>`_
+
+- `7   Renewing the Advocacy Coordinator Position <#renewing-the-advocacy-coordinator-position>`_
+
+- `8   PSF Support for EuroPython <#psf-support-for-europython>`_
+
+- `9   PSF Mailing Address <#psf-mailing-address>`_
+
+- `10   PyCon 2008 <#pycon-2008>`_
+
+- `11   Minimum Board Size <#minimum-board-size>`_
+
+- `12   Awards <#awards>`_
+
+- `13   Google Summer of Code <#google-summer-of-code>`_
+
+- `14   Python.org Mirrors <#python-org-mirrors>`_
+
+- `15   Status of Member Inventory <#status-of-member-inventory>`_
+
+- `16   Reviving the Grants Program <#reviving-the-grants-program>`_
+
+- `17   PSF-Funded BuildBots <#psf-funded-buildbots>`_
+
+- `18   Bylaw Change Survey <#bylaw-change-survey>`_
+
+- `19   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, David Goodger, Andrew Kuchling, Martin von
+L?wis, David Ascher, Tim Peters, and Steve Holden.  Also in attendance
+was Kurt Kaiser (Treasurer) and Neal Norwitz (Assistant Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 12 February 2007 Board meeting minutes were approved by a 5-0-2
+vote (*in favor ? opposed ? abstentions*).
+
+The 23 February 2007 members' meeting minutes were approved by a 4-0-3
+vote.
+
+The 25 February 2007 Board meeting minutes were approved by a 4-0-3
+vote.
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 12 February
+2007 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     D. Goodger reported that the records were received from Jeremy Hylton.     Status: in progress.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from September 2006, Section 3.1, item 7: D. Goodger will telephone Jeremy Hylton to ask for PSF records to be sent.     The records were received.      Status: **done**.
+
+- Originally from November 2006, Section 7, PyCon: D. Goodger will prepare for the PSF members' meeting at PyCon.     Status: **done**.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from December 2006, Section 5, Jython License: A. Kuchling will write up a summary of the license discussion, post it to jython-dev, and the current developers can decide what to do.     Status: **done**.
+
+- Originally from December 2006, Section 9, Catering the Members' Meeting: D. Goodger will coordinate food for the 2007 PSF Members' Meeting with the conference committee & members.     S. Deibel placed a last-minute pizza order.      Status: **done**.
+
+- Originally from 8 January 2007, Section 5, New Sponsor Member: Canonical: K. Kaiser will issue an invoice for sponsor dues to Canonical.     Canonical has been invoiced and has responded.      Status: **done**.
+
+`3.2   New in February <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 12 February 2007 board meeting on
+IRC.
+
+- Section 7, Treasurer Records: K. Kaiser will make the 2003, 2004, and 2005 PSF tax returns available on the web site.     K. Kaiser has added scans of current 2003 & 2004 form 990's to the PSF CVS repository.  2005 is pending.     Status: in progress.
+
+- Section 7, Treasurer Records: K. Kaiser will produce the 2006 PSF financials for the members' meeting.     Status: **done**.
+
+- Section 7, Treasurer Records: K. Kaiser will make the PSF's final 501(c)(3) ruling available on python.org.     Status: **done**.
+
+For the three items above, see `Treasurer Records <#treasurer-records>`_ below.
+
+`4   Tasks for the Secretary <#id6>`_
+-------------------------------------
+
+D. Goodger will update the Membership Roster web page. 
+
+D. Goodger will update the PSF Committees wiki page, and
+convert the wiki page to a regular web page.
+
+D. Goodger will consult the PSF's lawyer to ask if the proxy
+forms and absentee ballots from the members' meeting should be kept or
+destroyed.
+
+`5   Treasurer Records <#id7>`_
+-------------------------------
+
+D. Goodger will publish the treasurer records produced by
+K. Kaiser (tax returns, 2006 financial report, 501(c)(3) ruling) on
+python.org.
+
+`6   Java Package name for Jython <#id8>`_
+------------------------------------------
+
+    **RESOLVED**, that the ``org.python.*`` Java package name be
+    reserved for use by the Jython project.
+
+Approved 7-0-0.
+
+`7   Renewing the Advocacy Coordinator Position <#id9>`_
+--------------------------------------------------------
+
+As the Board has not yet received a proposal, a decision was deferred
+until a proposal (or contract or work plan) has been received.
+
+Discussion: 
+
+*D. Ascher:* I guess I feel like it's not a great relationship -- we
+asked for X, and really got Y.  Whether Y is good or not isn't
+really the issue.
+
+*S. Deibel:* Various people agree with that point but consensus
+seemed to be that we should continue.
+
+*D. Goodger:* The Advocate was also PyCon co-Chair, a situation we
+should avoid in future.
+
+*T. Peters:* I sure don't mind paying someone to work on PyCon. 
+
+*D. Ascher:* It also feels like he's (like all of us) more tempted
+by the idea of writing software than documents. ... I'm just trying
+to figure out there's a way to get X next time.
+
+*D. Goodger:* I think the key is the supervision.  That's us. 
+
+*D. Ascher:* Agreed, and I think [the problem is that] &quot;us&quot; doesn't
+work in practice.
+
+*A. Kuchling:* I think several people suggested that helping user
+groups is a good strategy for advocacy.
+
+*K. Kaiser:* Note that the cost of the AC would be about equal to
+our income last year.  I repeat my comment that the position should
+be self funding in that advocacy should result in more sponsors and
+donors.
+
+`8   PSF Support for EuroPython <#id10>`_
+-----------------------------------------
+
+N. Norwitz reported a rumor that EuroPython may need help.  The nature
+(and existence) of any problem wasn't known, but it was thought to be
+a lack of organizers.  The Board agreed that money probably isn't the
+solution.
+
+D. Goodger asked if the PSF has ever offered help for EuroPython; the
+PSF is a stable legal entity that can offer financial underwriting,
+with directors and members who can offer advice and help.  A. Kuchling
+replied that he didn't think the PSF has ever helped with EuroPython,
+but that it is certainly within the PSF's mandate.  D. Goodger noted
+that this would require a separate EuroPython Chair & organizers, and
+that helping EuroPython could remove the US-centric perception of the
+PSF.
+
+K. Kaiser asked if EuroPython is a foundation or some other organized
+entity.  No one was certain.
+
+S. Deibel pointed out that this was just speculation; we need to talk
+to someone to find out what the problem really is, see if there's
+something the PSF could do, then bring that back to the Board.
+T. Peters noted that this may be a good job for the Advocacy
+Coordinator (AC).  S. Deibel agreed, with the condition that the AC
+shouldn't commit more than a day or two of outreach.
+
+`9   PSF Mailing Address <#id11>`_
+----------------------------------
+
+D. Goodger noted that the PSF's &quot;current&quot; mailing address, according
+to the resolutions, was out of date.
+
+    **RESOLVED**, that the mailing address of the PSF shall be: 
+
+    Python Software Foundation 
+
+    c/o Kurt Kaiser 
+
+    P.O. Box 653 
+
+    8 Bayview Road 
+
+    Ipswich, MA 01938 
+
+    USA
+
+Approved 7-0-0. 
+
+K. Kaiser noted that he will be moving at the end of March.
+D. Goodger asked him to &quot;keep us advised, we can change it again&quot;.
+
+`10   PyCon 2008 <#id12>`_
+--------------------------
+
+D. Goodger reported that he had a conference call on March 8 with
+Larry Skaja & Tim Costello of CTE, and Ted Pollari & Carl Karsten of
+ChiPy.  They went over the requested changes to the draft contract
+(&quot;CTE Technical Conference Revised Feb 6.doc&quot;), sent to the Board by
+email on March 7.  Most of the requested changes will be put into the
+contract.  There will be a contract ready to sign within a week or
+two.
+
+Highlights of the requested changes were presented and discussed.
+D. Goodger: &quot;I feel very comfortable working with CTE.&quot;
+
+    **RESOLVED**, that Kurt Kaiser and David Goodger are authorized to
+    obligate the PSF under the previously emailed contract for PyCon
+    2008 to be held at the Crowne Plaza Chicago O'Hare in Rosemont,
+    Illinois.  The contract may be changed before signing but any
+    changes will be reported to the PSF board and may not increase the
+    financial obligation assumed by the PSF.
+
+Approved 7-0-0.
+
+`11   Minimum Board Size <#id13>`_
+----------------------------------
+
+D. Goodger: &quot;While discussing the motion to increase the size of the
+Board (at PyCon), I was asked what the minimum number of Directors
+was.  There is nothing in the bylaws or in the resolutions about a
+minimum.  Should there be?&quot;
+
+The Board agreed that there was no need to set a minimum.
+
+`12   Awards <#id14>`_
+----------------------
+
+On January 18 Guido van Rossum forwarded a message from Nathan
+Torkington of O'Reilly reminding us about the &quot;PSF awards&quot;.  As the
+PSF doesn't have an awards program yet, and considering the confusion
+last year, it was assumed that Torkington meant the Frank Willison
+Award.  D. Goodger sent email to Torkington on March 8, to clarify the
+roles and responsibilities involved.  There has been no response yet.
+
+Alex Martelli, recipient of the Frank Willison Award last year, never
+received a certificate.  There should be a certificate presentation
+for him.
+
+D. Goodger will follow up with Nathan Torkington of O'Reilly
+regarding the Frank Willison Award.
+
+T. Peters noted that the Frank Willison Award was O'Reilly's idea, and
+&quot;they should carry the ball&quot;.  S. Holden suggested that if O'Reilly
+won't administer the award, we should honour Willison's memory by
+having it as a PSF award.
+
+There has been some discussion about the PSF establishing an awards
+program.  S. Holden volunteered to lead this effort.
+
+S. Holden will prepare a proposal for a PSF awards program.
+
+`13   Google Summer of Code <#id15>`_
+-------------------------------------
+
+D. Goodger reported that at PyCon James Tauber volunteered to act as
+administrator for PSF projects in Google's Summer of Code program, and
+Brett Cannon and Neal Norwitz agreed.
+
+`14   Python.org Mirrors <#id16>`_
+----------------------------------
+
+S. Deibel asked: &quot;Can we drop the mirrors list from python.org, or
+officially say it's unmaintained?&quot;  The Board agreed that the era for
+mirrors is largely past.
+
+S. Deibel will begin to dismantle the python.org mirrors
+system.  First step: mark the python.org mirrors list as unmaintained
+and refuse additions.
+
+`15   Status of Member Inventory <#id17>`_
+------------------------------------------
+
+S. Deibel asked about the status of the member roster: check email
+list, update addresses, etc.  D. Goodger replied that M. von L?wis and
+he updated the records prior to PyCon.  Most members could be reached;
+those who couldn't, if still unreachable by next year, should convert
+to emeritus membership status.
+
+`16   Reviving the Grants Program <#id18>`_
+-------------------------------------------
+
+S. Deibel asked if we should look for someone to sign up to lead a new
+grants program.  S. Holden asked if &quot;grants&quot; and &quot;awards&quot; should be
+distinct (S. Deibel: probably yes).  M. von L?wis proposed that this
+discussion be deferred: &quot;It's not clear that members want the PSF to
+engage in grants.&quot;
+
+D. Goodger will send email to PSF-members about recruiting: a
+leader for a new grants program, an Assistant Secretary, and an
+Assistant Treasurer.
+
+`17   PSF-Funded BuildBots <#id19>`_
+------------------------------------
+
+S. Holden reported that he spoke with Grig Gheorghiu briefly about
+providing buildbots: &quot;The intention should be to provide facilities
+for third-party extensions and modules to be able to create tested
+Windows builds with reasonably short version lag.  We will discuss
+further, and I'll try to rope in some support from Microsoft.&quot;
+
+`18   Bylaw Change Survey <#id20>`_
+-----------------------------------
+
+S. Holden reported that he considers the current PSF bylaws deficient,
+and asked if anyone had specific changes to propose.
+
+T. Peters would like to make it possible to do more electronically (by
+email, IRC, etc.): &quot;I think that's actually allowed now, but it takes
+creative reading to support that view ;-)&quot;.
+
+D. Goodger asked if we are limited by Delaware's corporation laws.
+S. Deibel responded that there are very few limits from there.
+
+Since it will probably be very involved and time-consuming,
+S. Holden will call for a separate discussion of changes to
+the bylaws.
+
+`19   Adjournment <#id21>`_
+---------------------------
+
+S. Deibel adjourned the meeting at 18:03 UTC.

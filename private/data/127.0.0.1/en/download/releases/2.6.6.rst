@@ -1,0 +1,72 @@
+Python 2.6.6
+------------
+
+    **Python 2.6.6 has been replaced by a newer security-fix only source release
+    of Python**.  Please download `Python 2.6.8 <../2.6.8/>`_ instead.
+
+Python 2.6 is now in security-fix-only mode; no new features are being added,
+and no new bug fix releases are planned.  We intend to provide source-only
+security fixes for the Python 2.6 series until October 2013 (five years after
+the 2.6 final release).  For ongoing maintenance releases, please see the
+Python `2.7 <../2.7/>`_ series.  The `NEWS file <NEWS.txt>`_ lists every
+change in each alpha, beta, and release candidate of Python 2.6.
+
+    - `What's New in Python 2.6 <http://docs.python.org/whatsnew/2.6.html>`_.
+
+    - Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+    - Read the `Python license <license>`_.
+
+    - `PEP 361 <http://www.python.org/dev/peps/pep-0361/>`_ set out the development schedule for 2.6.
+
+Help fund Python and its community by `donating to the Python Software 
+Foundation </psf/donations/>`_.
+
+Download
+--------
+
+This is a production release; we currently support these formats: 
+
+    - `Gzipped source tar ball (2.6.6) </ftp/python/2.6.6/Python-2.6.6.tgz>`_ `(sig) <Python-2.6.6.tgz.asc>`_
+
+    - `Bzipped source tar ball (2.6.6) </ftp/python/2.6.6/Python-2.6.6.tar.bz2>`_ `(sig) <Python-2.6.6.tar.bz2.asc>`_
+
+    - `Windows x86 MSI Installer (2.6.6) </ftp/python/2.6.6/python-2.6.6.msi>`_ `(sig) <python-2.6.6.msi.asc>`_
+
+    - `Windows X86-64 MSI Installer (2.6.6) </ftp/python/2.6.6/python-2.6.6.amd64.msi>`_ `[1] <#id4>`_ `(sig) <python-2.6.6.amd64.msi.asc>`_
+
+    - `Windows help file </ftp/python/2.6.6/python266.chm>`_ `(sig) <python266.chm.asc>`_
+
+    - `Mac Installer disk image (2.6.6) </ftp/python/2.6.6/python-2.6.6-macosx10.3.dmg>`_ `(sig) <python-2.6.6-macosx10.3.dmg.asc>`_
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    b2f209df270a33315e62c1ffac1937f0  13318547  Python-2.6.6.tgz
+    cf4e6881bb84a7ce6089e4a307f71f14  11080872  Python-2.6.6.tar.bz2
+    6f91625fe7744771da04dd1cabef0adc  15561216  python-2.6.6.amd64.msi
+    80b1ef074a3b86f34a2e6b454a05c8eb  15227904  python-2.6.6.msi
+    29af0ada063ca98257a7d4e3e685e2e8   5468483  python266.chm
+    f9b532a7e674a4d67fa214419c83398a  20452372  python-2.6.6-macosx10.3.dmg
+
+The signatures for the source tarballs above were generated with
+`GnuPG <http://www.gnupg.org>`_ using release manager
+Barry Warsaw's
+`public key </download#pubkeys>`_
+which has a key id of A74B06BF.
+The Windows installers were signed by Martin von L?wis'
+`public key </download#pubkeys>`_
+which has a key id of 7D9DC8D2.
+The Mac disk image was signed by
+Ronald Oussoren's public key which has a key id of E6DF025C.
+
+Documentation
+-------------
+
+The documentation has also been updated.  You can `browse the HTML on-line 
+<http://docs.python.org/release/2.6.6>`_ or `download the HTML 
+<http://docs.python.org/release/2.6.6/download.html>`_. 
+
+**MISSING**
+`[1] <#id2>`_  The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).

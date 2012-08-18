@@ -1,0 +1,113 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+March 8, 2001
+
+Long Beach, Calif., USA
+
+A regular meeting of the Python Software Foundation (the "Foundation")
+Board of Directors was held at the Hilton Long Beach at 2 p.m.  Dick
+Hardt, president of the Foundation, presided at the meeting.
+
+**1. Attendance** 
+
+The following members of the Board of Directors were present at the
+Meeting: David Ascher, Paul Everitt, Fredrik Lundh, Tim Peters, Guido
+van Rossum, Greg Stein, Thomas Wouters.  No members were absent.
+
+A quorum was present. 
+
+Also in attendance was Dick Hardt, president of the Foundation. 
+
+**2. Duties of President** 
+
+The meeting began with a discussion of the role of the president.
+Hardt asked for a mandate that described what he should do, what
+limits he should observe, and what directives the Board wished to give
+him.
+
+**3. Budget** 
+
+*Action Item:* Hardt was directed to draft a budget for Board approval. 
+
+The board discussed how the Foundation should fulfill its educational
+role, specifically how should it use its budget to further its
+educational objectives.
+
+The Board unanimously adopted the resolution
+
+    RESOLVED, that the Foundation will not pay for development or
+    documentation for Python or other software that the Foundation
+    owns or makes available as Open Source software.
+
+**4. Communications** 
+
+The Foundation needs mailing lists for communicating with members and
+the public.  It also needs a Web site.
+
+*Action Item:* Greg Stein will create mailing lists. 
+
+*Action Item:* Greg Stein will set up Web pages. 
+
+**5. Sponsor discussion** 
+
+The Board directed Hardt to continue seeking out sponsor members.
+There was a discussion of what freedom he should have to perform
+branding activities.  The Board allowed him to develop the brand, but
+warned against over-promotion or dilution.
+
+The Board further directed Hardt to seek out sponsor members that
+visibly or actively use Python.  There was concern that a potential
+member might use the Foundation as a marketing vehicle for itself.
+
+*Action Item:* Paul Everitt will prepare a short paper on how to sell
+Python to managers.
+
+**6. Voting procedures** 
+
+There was a long discussion about valid ways for the members to vote. 
+
+*Action Item:* Greg Stein will determine how to vote in new members
+under the Bylaws.
+
+The Board reach a basic consensus that it wanted to enable some kind
+of email or electronic voting, provided that it is legally allowed.
+The Board expressed an intent to change the Bylaws at its next
+meeting, when the text of the necessary changes will be provided.
+
+*Action Item:* Paul Everitt will determine the conditions under which
+the Board can amend the Bylaws.
+
+**7. Python Interest Groups** 
+
+The Foundation will collect references to Python Interest Groups, but
+does not intend to assist with the organization or operation of such
+groups.  If a member is interested in leading the activity, the
+Foundation could provide overall coordination and guidance to groups.
+
+**8. Intellectual property** 
+
+The Board discussed several issues related to contributions of
+intellectual property.  It concluded that the Foundation should
+formalize its policies and craft legal documents and contributor forms
+that address the issue.  The Board must decide whether to require
+copyright transfers or to accept licensing arrangements.
+
+*Action Item:* Hardt will continue working with the current owners of
+Python's intellectual property -- the Corporation for National
+Research Initiatives (CNRI), BeOpen, and Stichting Mathematisch
+Centrum (CWI) -- to arrange transfer of ownership or licensing to the
+Foundation.  He should also formally complete the transfers of IP from
+Digital Creations for recent Python development and Mark Hammond for
+Pythonwin.
+
+**9. Tax-exempt status** 
+
+The Board discussed the requirements of operating a non-profit
+corporation and questions about seeking recognition as a tax-exempt
+charity from the IRS.
+
+**10. Adjournment** 
+
+There being no further business, the meeting was adjourned at 3:00
+p.m.

@@ -1,0 +1,190 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+April 12, 2010
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 12
+April 2010.  Steve Holden presided at the meeting.  Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Report <#progress-report>`_
+
+- `6   Election of Board Officers <#election-of-board-officers>`_
+
+- `7   Appointment of Infrastructure Committee Chairman <#appointment-of-infrastructure-committee-chairman>`_
+
+- `8   Appointment of Trademarks Committee Chairman <#appointment-of-trademarks-committee-chairman>`_
+
+- `9   Funding of PyCon Italy 2010 <#funding-of-pycon-italy-2010>`_
+
+- `10   Funding of Kiwi PyCon 2010 <#funding-of-kiwi-pycon-2010>`_
+
+- `11   Contributor Agreements - Methods to Pursue Coverage <#contributor-agreements-methods-to-pursue-coverage>`_
+
+- `12   PSF Community Service Award Nominations for 2010 - 2nd Quarter <#psf-community-service-award-nominations-for-2010-2nd-quarter>`_
+
+- `13   PSF Members Vote Counting Requirement Waived <#psf-members-vote-counting-requirement-waived>`_
+
+- `14   Other Business <#other-business>`_
+
+- `15   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Raymond Hettinger, Steve Holden, Marc-Andre Lemburg, David Mertz
+[joined meeting at 16:09], Doug Napoleone, Jesse Noller, Tim Peters, Allison
+Randal, and Jeff Rush, Greg Stein, James Tauber, Martin v. L?wis [left meeting
+at 16:58], Gloria Willadsen. Also in attendance were Kurt Kaiser (Treasurer),
+and Pat Campbell (Secretary & Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 8 February 2010 and 8 March 2010 Board meeting minutes were approved
+during this month's meeting session.
+
+8 February 2010: Approved, 10-0-2
+8 March 2010: Approved, 9-0-3
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting on 08 March 2010.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+A preliminary version of the monthly Treasurer's Report was provided to
+Board members by K. Kaiser prior to the Board meeting.
+
+`5   Progress Report <#id5>`_
+-----------------------------
+
+To add to K. Kaiser's monthly financial report of PyCon 2010, V. Lindberg
+provided the board with an additional financial update shortly after the
+board meeting had adjourned.
+
+`6   Election of Board Officers <#id6>`_
+----------------------------------------
+
+The following Officers were elected: 
+
+- **President**: Guido van Rossum
+
+- **Chairman**: Steve Holden
+
+- **Secretary**: Pat Campbell
+
+- **Treasurer**: Kurt Kaiser
+
+- **PyCon Chairman**: Van Lindberg
+
+Further discussion to elect more officers and create new officer
+positions such as Membership Communications Officer, Voting Officer,
+etc. was deferred to email and will continue at next month's board
+meeting.
+
+`7   Appointment of Infrastructure Committee Chairman <#id7>`_
+--------------------------------------------------------------
+
+R. Hettinger: &quot;Sean [Reifschneider] is expected to abstain from votes
+about his own company.&quot;
+
+S. Holden: &quot;We do need to discuss the conflict of interest situation with
+him, but I agree with T. Peters' suggestion that we trust him to recuse
+himself from decisions where tummy.com might profit.&quot;
+
+    **RESOLVED**, that Sean Reifschneider be appointed chairman of the
+    Infrastructure Committee.
+
+Approved, 13-0-0.
+
+`8   Appointment of Trademarks Committee Chairman <#id8>`_
+----------------------------------------------------------
+
+    **RESOLVED**, that David Mertz be appointed chairman of the Trademarks
+    Committee.
+
+Approved, 11-0-1
+
+`9   Funding of PyCon Italy 2010 <#id9>`_
+-----------------------------------------
+
+The board discussed funding of PyCon Italy and agreed to provide
+a grant to conference organizers. However, S. Holden reminded board
+members of the limited funding available in the 2010 PSF budget for
+conference funding.
+
+    **RESOLVED**, that the PSF grant US$4,000 to PyCon Italy 2010.
+
+Approved, 10-0-3.
+
+`10   Funding of Kiwi PyCon 2010 <#id10>`_
+------------------------------------------
+
+The board discussed funding of Kiwi PyCon 2010. 
+
+    **RESOLVED**, that the PSF sponsor Kiwi PyCon 2010 at the
+    &quot;Silver&quot; rate of NZ$1,000.
+
+Approved, 8-0-4.
+
+`11   Contributor Agreements - Methods to Pursue Coverage <#id11>`_
+-------------------------------------------------------------------
+
+M.A Lemburg: &quot;Who will be continuing Andrew [Kuchling's] effort?&quot; 
+
+- Hettinger: &quot;I am continuing the effort.&quot;
+
+- Holden: &quot;...It is important work.&quot;
+
+This discussion was deferred to email in order for members to
+pursue the remaining coverage of the Python code base which is
+nearly at 100%.
+
+`12   PSF Community Service Award Nominations for 2010 - 2nd Quarter <#id12>`_
+------------------------------------------------------------------------------
+
+The Board decided that the award candidate pool should first be broaden to
+include more candidates then nominations for the award would resume. Therefore,
+the discussion was deferred to email.
+
+`13   PSF Members Vote Counting Requirement Waived <#id13>`_
+------------------------------------------------------------
+
+Motion from Marc-Andre Lemburg: 
+
+    **RESOLVED**, that the new SECTION 4.10 clause vote counting scheme becomes
+    effective today, i.e. failure to vote in the April 3, 2010 members election
+    does not count toward the missed votes count.
+
+Approved, 11-0-0
+
+`14   Other Business <#id14>`_
+------------------------------
+
+The board briefly discussed payment to D. Goodger for expenses he incurred over
+time. This discussion was deferred to email.
+
+`15   Adjournment <#id15>`_
+---------------------------
+
+S. Holden adjourned the meeting at 17:30 UTC.

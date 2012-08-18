@@ -1,0 +1,82 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+November 11, 2003 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 18:00 GMT. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Thomas Wouters, Guido van Rossum, Martin von L?wis, Tim
+Peters, Jeremy Hylton, David Ascher. A quorum was present. Neal
+Norwitz also participated in the meeting. Martin was taking minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The September minutes where approved with one abstention.
+The October minutes draft was amended, and then approved unanimously.
+
+3. Reports
+##########
+
+Thomas reported that a message received from Verisign on a
+failed transfer of the python.org domain to the PSF should be
+interpreted as an old attempt of the transfer which failed. Transfer
+is still in progress.
+
+Several people reported on the status of PyCon. Guido reported that
+Steve Holden appears to be busy teaching, and no one else takes any
+action. Neal reported that registration is proceeding and almost done;
+it was happening in private mail between Trevor Troenjes, Steve
+Holden, and himself. David commented that the PCC needs to know about
+such activities. Guido remarked that the next priority should be the
+papers deadline.
+
+Thomas reported on the progress of the website committee. He
+apologized for not dealing with the corporate links discussion, and
+reported that the PWC has not done very much. The committee should not
+do the redesign itself, but merely oversee it, and give feedback to
+the web designers. Guido commented that the committee apparently did
+not even do that. Jeremy asked whether Kevin Altis is still involved;
+apparently, he is not. There was discussion about setting a deadline
+for the work; Thomas will find a deadline and communicate
+it. Marc-Andre's request for a policy on corporate links is still
+pending; Thomas will try to resolve this issue as well.
+
+Neal reported that donations have decreased a bit; most new
+donations currently come as a result of SpamBayes. Neal has added OSAF
+and Array BioPhara to website as pending members, and received a check
+from Array BioPharma. He also received a Cookbook check for $723.48.
+He sent a form requesting Sales Tax Exemption for Washington, DC.  He
+also sent letters to all sponsors that Archaeopteryx has changed to
+emeritus member, that OSAF, Array BioPharma became pending members,
+and to O'Reilly requesting checks sent to the PSF use my address.
+He also reported that the current assets are $44,066.43, there are
+no current liabilities.
+
+4. Marketing
+############
+
+David reported on the status of the marketing-python group.  There
+seems to be a lot of energy in that group, not especially well
+channeled.  Some people are very set that the logo they picked _has_
+to be the one that's chosen, and aren't willing to argue why. However,
+various Board members have various concerns with that logo. David
+believed that there is no coherence, no shared vision in that group,
+and insults seem to fly around quite a bit.
+
+There was discussion. Guido suggested that David works with the
+group, showing them the direction that the PSF would like to take
+these efforts to take, and that David heads a PWC subcommittee for
+marketing. David agreed to work in such a committee.
+
+5. Adjournment
+##############
+
+There being no further business, the meeting was adjourned.

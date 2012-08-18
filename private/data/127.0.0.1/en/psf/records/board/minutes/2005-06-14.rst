@@ -1,0 +1,83 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+June 14, 2005 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: David Ascher, Stephan Deibel, Jeremy Hylton, Kurt Kaiser, Andrew Kuchling,
+Tim Peters, and Martin von L?wis.  Kuchling took minutes.
+
+2. Meeting minutes of past meetings
+###################################
+
+The May minutes were approved with a 5-0-1 vote.
+
+3. Budget for PSF presence at EuroPython
+########################################
+
+Michael Hudson and Jacob Hallen have requested 
+money to sponsor a social event at EuroPython and for a PSF banner or poster.
+Stephan Deibel moved that it is 
+
+    RESOLVED, that a budget of $1,000 will be made available for banner,
+    posters, brochures, and any food, drink, and venue costs for a PSF
+    sponsored social event at EuroPython. Reimbursement will require
+    receipts from the recipient of the funds.
+
+The motion was approved 5-0-1.  
+
+4. "Summer of Code" plans
+#########################
+
+David Ascher said he expected to see around 200 applications from
+Google's "Summer of Code" program.  Google will donate $500 to the PSF
+for each completed project, and Ascher wondered whether this money
+should be kept by the PSF or given to the project's mentor.  After
+some discussion, the consensus was to offer the money to mentors
+but give them the option to let the PSF keep it; this way a mentor who
+wants the PSF to keep the money doesn't have to declare $500 of
+income.
+
+5. Web site redesign status
+###########################
+
+Tim Parkin is planning to unveil the new site design at EuroPython.
+Some discussion followed about the payment schedule and about how
+images for the site would be found.
+
+6. Other issues
+###############
+
+von L?wis asked Kaiser about the status of postal and fax contact
+addresses for the PSF.  Kaiser replied that the PO box is operational
+and he is receiving mail. Neal Norwitz is also forwarding his mail to
+Kaiser.  Norwitz was using his private fax number for PSF purposes,
+but Kaiser doesn't have a personal fax.  Deibel suggested a fax
+service that sends a PDF e-mail message for every fax received, and
+Kaiser said he would look into such services.
+
+Kuchling asked if there were any questions about the infrastructure
+status report.  Ascher wondered if it would be easy to populate the
+Wiki with a page for every Summer of Code proposal, and Kuchling
+promised to look into this.
+
+Kuchling asked if there were any questions about the PyCon status
+report.  von L?wis asked what date was currently being planned;
+Kuchling answered that the <;REDACTED> university site requires
+the date to be the week of March 26 (spring break).  The Dallas
+proposal offers a variety of dates, all in February, and the Chicago
+group has not provided any concrete details.  Hylton noted that one
+person found it difficult to get a direct flight from California to
+Dallas; Kuchling checked Yahoo! Travel and found a few such flights.
+
+7. Adjournment.
+###############
+
+The meeting was then adjourned.

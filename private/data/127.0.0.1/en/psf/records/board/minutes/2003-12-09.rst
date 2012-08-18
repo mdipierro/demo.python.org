@@ -1,0 +1,84 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+December 9, 2003 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 18:00 GMT. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: David Ascher, Jeremy Hylton, Marc-Andre Lemburg, Tim Peters,
+Guido van Rossum, and Thomas Wouters.  A quorum was present.  Neal
+Norwitz also participated in the meeting.
+
+2. Reports
+##########
+
+`Treasurer's Report </psf/records/board/treasurer/2003-12/>`_ 
+
+`Python Conference Committee Report </psf/records/board/conference/2003-12/>`_
+
+3. PyCon
+########
+
+The board discussed preparations for PyCon and concern about the
+apparent lack of activity among the organizers.  Norwitz reported that
+registration is working.  Ascher said that Steve Holden, the
+conference chair, could devote four hours per week to planning
+activities; others will need to help.
+
+4. Sponsor membership
+#####################
+
+The board voted to accept BizRate.com as a pending sponsor member,
+by a 5-1-1 vote.
+
+A few board members said they would like to encourage some
+companies that want to support to make donations instead of becoming
+sponsor members.  The board agreed that the Public Support Committee
+should do more to encourage and recognize donations from non-member
+companies.
+
+Tim Peters moved that it is
+
+    RESOLVED, that the Foundation accepts Industrial Light & Magic as
+    a pending sponsor member.
+
+The motion passed unanimously (7-0-0).
+
+5. PSF license
+##############
+
+Marc-Andre Lemburg reported on continuing efforts to revise the
+Python license.  The board was in favor of making the Python license
+more generic.  Lemburg said he would discuss it with Larry Rosen, who
+is doing other licensing work for the Foundation.
+
+6. DNS transfer
+###############
+
+Wouters reported that the latest attempt to transfer ownership of
+the python.org domain from the Corporation for National Research
+Initiatives (CNRI) to the Foundation failed.  Norwitz said he would
+make another attempt today.  He will also open an account with
+Verisign.
+
+7. Reports in board minutes
+###########################
+
+The board discussed several issues related to the minutes.  It
+agreed on several conventions for writing minutes:  Action items
+should be clearly marked in the minutes.  Reports from officers and
+committees should be included in the minutes; personal information in
+the treasurer's report may need to be expunged.  A link to the minutes
+should be sent to the psf-members list after the minutes are posted.
+
+9. Adjournment
+##############
+
+There being no further business, the meeting was adjourned.

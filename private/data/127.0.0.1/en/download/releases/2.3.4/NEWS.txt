@@ -1,0 +1,98 @@
+++++++++++++++++++++++++++
+Python 2.3.4 Release Notes
+++++++++++++++++++++++++++
+
+What's New in Python 2.3.4 final?
+=================================
+
+*Release date: 27-May-2004*
+
+What's New in Python 2.3.4rc1?
+==============================
+
+*Release date: 13-May-2004*
+
+Core and builtins
+-----------------
+
+- Bug #858016: isinstance() and issubclass() can have their second
+  argument be a tuple whose nested depth is capped at the interpreter's
+  recursion limit.  Raises RuntimeError if the limit reached.
+
+- Made omitted callback and None equivalent for weakref.ref() and
+  weakref.proxy(); the None case wasn't handled correctly in all
+  cases.
+
+- Fixed problem where PyWeakref_NewRef() and PyWeakref_NewProxy()
+  assumed that initial existing entries in an object's weakref list
+  would not be removed while allocating a new weakref object.  Since
+  GC could be invoked at that time, however, that assumption was
+  invalid.  In a truly obscure case of GC being triggered during
+  creation for a new weakref object for an referent which already
+  has a weakref without a callback which is only referenced from
+  cyclic trash, a memory error can occur.  This consistently created a
+  segfault in a debug build, but provided less predictable behavior in
+  a release build.
+
+- Fixed a bug in object.__reduce_ex__ when using protocol 2.  Failure
+  to clear the error when attempts to get the __getstate__ attribute
+  fail caused intermittent errors and odd behavior.
+
+- fixed: if a file is opened with an explicit buffer size >= 1, repeated
+  close() calls would attempt to free() the buffer already free()ed on
+  the first call.
+
+Library
+-------
+
+- Bug #876278: Unbounded recursion in modulefinder
+
+- Brought platform.py in line with the 2.4 version, fixing support for
+  newer Windows versions and a cache issue.
+
+- Bug #950057: itertools.chain() and itertools.cycle() now handle
+               exceptions immediately instead of waiting until the
+               input source is updated.
+
+- Bug #931848: Fix _sre.CODESIZE on 64-bit machines in UCS-4 mode.
+
+- Bug #938076: Consider output encoding in XMLGenerator.
+
+- Bug #936637: Properly delegate startElementNS in saxutils.XMLFilterBase.
+
+- Bug #944082: Empty passwords in urllib2 are now supported.
+
+- Bug #926075: Fixed a bug that returns a wrong pattern object
+  for a string or unicode object in sre.compile() when a different
+  type pattern with the same value exists.
+
+- Bug #924361: Properly support normalization of empty unicode strings.
+
+- Fixed a caching bug in platform.platform() where the argument of 'terse' was
+  not taken into consideration when caching value.
+
+- Bug #920575: A problem that _locale module segfaults on
+  nl_langinfo(ERA) caused by GNU libc's illegal NULL return is fixed.
+
+- Bug #883604: Fix Lib/test/test_strftime.py to escape characters from locale
+  time values that might be mistaken as regex syntax.
+
+- Bug #700055: .pth files can now have any type of line endings.
+
+- Patch 817379: Allow absolute ftp paths in urllib2.
+
+- Patch 711838: Support non-anonymous ftp URLs in urllib2.
+
+Windows
+-------
+
+- The Windows installer now includes tix, the Tk Interface eXtension,
+  a powerful set of user  interface components that expands the capabilities
+  of your Tcl/Tk and Python applications.
+
+Build
+-----
+
+- Bug #929689: Don't define _XOPEN_SOURCE on UnixWare 7.1.4.
+
+

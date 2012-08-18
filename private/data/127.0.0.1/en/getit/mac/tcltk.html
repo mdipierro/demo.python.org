@@ -1,0 +1,405 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- getit/mac/tcltk -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/getit/mac/tcltk">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>Important</p>
+<p>Only use IDLE or tkinter from the Python 3.2.3 64-bit/32-bit
+installer
+on Mac OS X 10.6 if you also have ActiveTcl 8.5 installed.  If you cannot
+install ActiveTcl 8.5, use the <em>3.2.3 32-bit-only installer</em> instead.</p>
+<p>Only use IDLE or Tkinter from the Python 2.7.3 64-bit/32-bit
+installer
+on Mac OS X 10.6 if you also have ActiveTcl 8.5 installed.  If you cannot
+install ActiveTcl 8.5, use the <em>2.7.3 32-bit-only installer</em> instead.</p>
+<p>Do not use IDLE or Tkinter from the Apple-supplied Python 2.6.1 in
+Mac OS X 10.6.  If possible, use one of the <em>Python 2.7.3 installers</em> instead;
+otherwise, install a newer version of <a class="reference external" href="http://python.org/download/releases/2.6.6/">Python 2.6</a>.</p>
+<p>Read the details below.</p>
+<p>Python's integrated development environment,
+<a class="reference external" href="http://docs.python.org/py3k/library/idle.html">IDLE</a>, and the
+<a class="reference external" href="http://docs.python.org/py3k/library/tkinter.html">tkinter GUI toolkit</a>
+it uses, depend on the <a class="reference external" href="http://www.tcl.tk/">Tk GUI toolkit</a> which is
+not part of Python itself.  For best results, it is important that the
+proper release of Tcl/Tk is installed on your machine.
+For recent Python installers for Mac OS X downloadable from this website,
+here is a summary of current recommendations followed by more detailed
+information.</p>
+<p><strong>MISSING</strong>
+<strong>Python Release</strong>   <strong>Installer Variant</strong>   <strong>Mac OS X Release</strong>   <strong>Recommended Tcl/Tk</strong>   <strong>Alternate Tcl/Tk</strong>   <strong>Not Recommended</strong>
+3.2.3   64-/32-bit   10.7   ActiveTcl 8.5.11   Apple 8.5.9</p>
+<p>10.6   ActiveTcl 8.5.11      Apple 8.5.7</p>
+<p>32-bit   10.6   ActiveTcl 8.4.19   Apple 8.4.19</p>
+<p>10.5   ActiveTcl 8.4.19   Apple 8.4.7</p>
+<p>10.4   ActiveTcl 8.4.19   Apple 8.4.7</p>
+<p>10.3.9   ActiveTcl 8.4.19</p>
+<p>2.7.3   64-/32-bit   10.7   ActiveTcl 8.5.11   Apple 8.5.9</p>
+<p>10.6   ActiveTcl 8.5.11      Apple 8.5.7</p>
+<p>32-bit   10.6   ActiveTcl 8.4.19   Apple 8.4.19</p>
+<p>10.5   ActiveTcl 8.4.19   Apple 8.4.7</p>
+<p>10.4   ActiveTcl 8.4.19   Apple 8.4.7</p>
+<p>10.3.9   ActiveTcl 8.4.19</p>
+<div class="section" id="tk-on-mac-os-x">
+<h1>Tk On Mac OS X</h1>
+<p>There are currently three major variants of Tk in common use on Mac OS X:</p>
+<p><strong>MISSING</strong></p>
+<p>Note</p>
+<p>In this document the terms <strong>Tcl/Tk</strong> and <strong>Tk</strong> are used
+interchangeably.  Keep in mind that while Tcl and Tk are
+separate frameworks and libraries, they are closely related and are
+generally installed or updated simultaneously.  You should not
+attempt to mix-and-match Tcl and Tk versions.  References to
+a specific version of Tk assume the corresponding version of
+Tcl is installed as well</p>
+</div>
+<div class="section" id="how-python-chooses-which-tk-release-to-use">
+<h1>How Python Chooses Which Tk Release To Use</h1>
+<p>The Python for Mac OS X installers downloaded from this website dynamically
+link at runtime to Tcl/Tk Mac OS X frameworks.  The Tcl/Tk major version is
+determined when the installer is created and cannot be overridden.
+As of this writing, the Python 3.2.x 64-bit/32-bit and 2.7.x 64-bit/32-bit
+Mac OS X installers dynamically link to Tcl/Tk 8.5 frameworks.
+All other Python installers for Mac OS X dynamically link to Tcl/Tk 8.4
+frameworks.</p>
+<p>In either case, the dynamically linking occurs when tkinter (Python 3)
+or Tkinter (Python 2) is first imported (specifically, the internal
+_tkinter C extension module).  By default, the Mac OS X dynamic linker
+looks first in <tt class="docutils literal">/Library/Frameworks</tt> for Tcl and Tk frameworks with
+the proper major version.  This is the standard location for third-party
+or built from source frameworks, including the ActiveTcl releases.
+If frameworks of the proper major version are not found there,
+the dynamic linker looks for the same version in
+<tt class="docutils literal">/System/Library/Frameworks</tt>, the location for Apple-supplied
+frameworks shipped with Mac OS X.  (Note, you should normally not modify
+or delete files in <tt class="docutils literal">/System/Library</tt>.)</p>
+<p>Warning</p>
+<p>This search order does not apply to the <em>Python 2.7.1
+Mac OS X 64-bit/32-bit x86-64/i386 installer for Mac OS X 10.6</em>.  This
+installer was built and released before ActiveState Tcl 8.5.9 was
+available so this version of Python links only with the Apple 8.5.7
+released with Mac OS X 10.6.  As noted below, IDLE is known to hang
+or crash when using this combination.  Python 2.7.1 is no longer
+current or supported.  Use a newer Python 2.7.x installer instead.
+(This warning also applies to the IDLE and Tkinter
+in the Apple-supplied Python 2.6.1 shipped with Mac OS X 10.6.)</p>
+<p>As is common on Mac OS X, the installed Pythons and the Tcl and Tk
+frameworks are built to run on multiple CPU architectures (<em>universal
+binaries</em>) and across multiple Mac OS X levels (<em>minimum deployment
+target</em>).  For Python to be able to dynamically link with a particular
+Tcl and Tk version, the available architectures in the Tcl/Tk frameworks
+must include the architecture that Python is running in and their
+minimum deployment target should be no greater than that of Python.
+As of this writing, the Python <em>3.2.x 64-bit/32-bit</em> and <em>2.7.x 64-bit/32-bit</em>
+Mac OS X installers are built with Intel-64 (<tt class="docutils literal">x86_64</tt>) and Intel-32 (<tt class="docutils literal">i386</tt>)
+architectures and a minimum deployment target of Mac OS X 10.6.  The
+Apple 8.5.9 and ActiveTcl 8.5.11 releases discussed below are compatible
+with these installers.  All other current Python installers for Mac OS X
+from this web site are built with Intel-32 (<tt class="docutils literal">i386</tt>) and PowerPC-32 (<tt class="docutils literal">ppc</tt>)
+architectures with a minimum deployment target of Mac OS X 10.3.9 and
+are compatible with all current releases of Apple 8.4.x and ActiveTcl 8.4.x.</p>
+</div>
+<div class="section" id="tcl-tk-releases">
+<h1>Tcl/Tk Releases</h1>
+<div class="section" id="activetcl-8-5-11">
+<h2>ActiveTcl 8.5.11</h2>
+<p>ActiveState provides binary distributions of Tcl/Tk which are upward compatible
+with and generally more up-to-date than those provided by Apple in Mac OS X
+releases.  You can download an installer for this release from
+<a class="reference external" href="http://www.activestate.com/activetcl/downloads">the ActiveState web site</a>.
+Note that ActiveState Community Edition binaries are not open source and
+are covered by an ActiveState license.  You should read the license
+before downloading to verify that your usage complies with its terms of use.</p>
+<p>Make sure that you are using the most recent release which, as of this writing,
+is 8.5.11.1 (released 2012-02-27).  This is an <em>Aqua Cocoa Tk</em>.</p>
+</div>
+<div class="section" id="apple-8-5-9">
+<h2>Apple 8.5.9</h2>
+<p>This release is included in Mac OS X 10.7.  As of this writing, Mac OS X
+10.7.3 is current and there are at least two known issues with Tk 8.5.9 that
+are present in Apple 8.5.9 Tk but fixed in the most recent 8.5 release
+from ActiveState.  The more serious problem is an immediate crash in Tk
+when entering a composition character, like <tt class="docutils literal"><span class="pre">Option-u</span></tt> on a US keyboard.
+(This problem is documented as
+<a class="reference external" href="http://sourceforge.net/tracker/index.php?func=detail&amp;aid=2907388&amp;group_id=12997&amp;atid=112997">Tk bug 2907388</a>.)
+Until and if the fix for
+this problem is released in an update for Apple 8.5.9 in OS X 10.7, we
+recommend using ActiveTcl 8.5.11 where possible.  This is an <em>Aqua Cocoa Tk</em>.</p>
+</div>
+<div class="section" id="apple-8-5-7">
+<h2>Apple 8.5.7</h2>
+<p>This release is included in Mac OS X 10.6.  As of this writing, Mac OS X
+10.6.8 is current and IDLE is known to hang or crash when used with the
+Apple 8.5.7 included in all versions of Mac OS X 10.6.x up to now.
+We strongly recommend that you do not attempt to use it with Python!
+If possible, install ActiveTcl 8.5.11 but see the <a class="reference external" href="#warning">warning</a> above about
+Python 2.7.1 and the Apple-supplied Python 2.6.1.  This is an <em>Aqua Cocoa Tk</em>.</p>
+</div>
+<div class="section" id="activetcl-8-4-19">
+<h2>ActiveTcl 8.4.19</h2>
+<p>ActiveState provides binary distributions of Tcl/Tk which are upward compatible
+with and generally more up-to-date than those provided by Apple in Mac OS X
+releases.  You can download an installer for this release from
+<a class="reference external" href="http://www.activestate.com/activetcl/downloads">the ActiveState web site</a>.
+Note that ActiveState Community Edition binaries are not open source and
+are covered by an ActiveState license.  You should read the license
+before downloading to verify that your usage complies with its terms of use.
+This is an <em>Aqua Carbon Tk</em>.</p>
+</div>
+<div class="section" id="apple-8-4-19">
+<h2>Apple 8.4.19</h2>
+<p>This release is included in Mac OS X 10.7 and 10.6.  This is an <em>Aqua
+Carbon Tk</em>.</p>
+</div>
+<div class="section" id="apple-8-4-7">
+<h2>Apple 8.4.7</h2>
+<p>This release is included in Mac OS X 10.5 and 10.4.  This is an <em>Aqua
+Carbon Tk</em>.</p>
+</div>
+</div>
+<div class="section" id="revision-history">
+<h1>Revision history</h1>
+<ul class="simple">
+<li>2012-04-11 - updated for 3.2.3 final and 2.7.3 final</li>
+<li>2012-03-18 - updated for 3.2.3rc2 and 2.7.3rc2</li>
+<li>2012-03-04 - updated for ActiveTcl 8.5.11.1, 3.2.3rc1, 2.7.3rc1, removed 3.1.4</li>
+<li>2011-11-12 - updated for ActiveTcl 8.5.11</li>
+<li>2011-09-04 - updated for 3.2.2 final</li>
+<li>2011-07-21 - updated for OS X 10.7 and ActiveTcl 8.5.10.1</li>
+<li>2011-07-09 - updated for 3.2.1 final and ActiveTcl 8.5.10</li>
+<li>2011-06-12 - updated for 2.7.2 final and 3.1.4 final</li>
+<li>2011-05-30 - updated for 3.2.1rc, 2.7.2rc, and 3.1.4rc</li>
+<li>2011-03-08 - add warnings and include details on how Python links with Tcl/Tk releases</li>
+<li>2011-02-20 - updated for 3.2 final</li>
+<li>2011-01-31 draft 1 - preliminary info for 3.2rc2</li>
+<li>2011-01-14 draft 0</li>
+</ul>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

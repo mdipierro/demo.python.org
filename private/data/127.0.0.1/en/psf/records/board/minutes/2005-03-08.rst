@@ -1,0 +1,60 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+March 8, 2005 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 18:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Martin v. L?wis, Stephan Deibel, Steve Holden, and Tim Peters.
+David Ascher joined the meeting at 18:20, Jeremy Hylton at 18:33.
+Kurt Kaiser also attended the meeting.  Martin took minutes.
+
+2. Meeting minutes approved
+###########################
+
+The February minutes were approved with a 3-0-2 vote. The
+December minutes were still missing.
+
+3. Member meeting
+#################
+
+Tim reported that Facundo Batista is interested in being a member,
+but has neither been nominated, nor did he send an application. Tim
+will make sure that both happen. Stephan reported that Jim Hugunin
+is also interested, but needs to check with his employer's lawyers
+to make sure there are no conflicts.
+
+Jeremy will send out the meeting notice to the users in this week;
+he will also work out a list of members to be converted to emeritus
+status. On the final proxy form, the actual text of proposed motions
+is required.
+
+Stephan will make sure summaries/biographies of the new sponsor
+and nominated members will be available at the meeting
+
+3. Contrib forms
+################
+
+Martin reports that the forms are ready to go. The one remaining
+isssue is the waiver for small contributions. Stephan answers that
+the concern of Marc-Andre Lemburg still needs an answer, i.e. what
+to do about past contributions.
+
+Stephan also said that he considers the proposed solution of
+waiving the form for contributions with less than 25 lines a reasonable
+approach. David responded that he thinks this is bizarre notion from
+a legal POV which he expected has no precedent. Kurt pointed to the
+`official FSF statement <http://www.gnu.org/prep/maintain/maintain.html#Copyright-Papers>`_ on small contributions.
+*Martin will draft a policy, and ask Larry Rosen to clarify
+the issue of past contributions*.
+
+Adjournment.
+############
+
+The meeting was adjourned at 18:51 GMT.

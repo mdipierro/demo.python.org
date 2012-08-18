@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf/records/board/minutes/2007-02-25 -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf/records/board/minutes/2007-02-25">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>The Python Software Foundation</p>
+<p>Minutes of a Special Meeting of the Board of Directors</p>
+<p>February 25, 2007</p>
+<p>A special meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held at PyCon 2007 in Dallas at 12:30 CST (18:30 UTC),
+25 February 2007.  Stephan Deibel presided at the meeting.  David
+Goodger prepared these minutes.</p>
+<p>Contents</p>
+<ul class="simple">
+<li><a class="reference external" href="#attendance">1   Attendance</a></li>
+<li><a class="reference external" href="#election-of-officers">2   Election of Officers</a></li>
+<li><a class="reference external" href="#motion-to-dissolve-the-grants-committee">3   Motion to Dissolve the Grants Committee</a></li>
+<li><a class="reference external" href="#motion-to-dissolve-the-public-support-committee">4   Motion to Dissolve the Public Support Committee</a></li>
+<li><a class="reference external" href="#discussion-of-the-twisted-foundation">5   Discussion of the &quot;Twisted Foundation&quot;</a></li>
+<li><a class="reference external" href="#conference-committee">6   Conference Committee</a></li>
+<li><a class="reference external" href="#budget-action-plan">7   Budget &amp; Action Plan</a></li>
+<li><a class="reference external" href="#adjournment">8   Adjournment</a></li>
+</ul>
+<div class="section" id="id2">
+<h1><a class="reference external" href="#id1">1   Attendance</a></h1>
+<p>The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Andrew Kuchling, Brett Cannon, Steve Holden,
+and David Goodger.  Also in attendance was Guido van Rossum
+(President).</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 31); <em><a href="#id1">backlink</a></em></p>
+Duplicate explicit target name: &quot;1 attendance&quot;.</div>
+<div class="section" id="id4">
+<h1><a class="reference external" href="#id2">2   Election of Officers</a></h1>
+<p>The following officers were elected by acclamation:</p>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>President:</strong>  Guido van Rossum</p>
+<p><strong>Chairman:</strong>  Stephan Deibel</p>
+<p><strong>Vice Chairman:</strong>  Steve Holden</p>
+<p><strong>Secretary:</strong>  David Goodger</p>
+<p><strong>Treasurer:</strong>  Kurt Kaiser</p>
+<p><strong>Assistant Treasurer:</strong></p>
+<p>Neal Norwitz</p>
+<p><strong>Executive Vice President:</strong></p>
+<p>Brett Cannon</p>
+<p><strong>Vice President:</strong>  Andrew Kuchling</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 39); <em><a href="#id3">backlink</a></em></p>
+Duplicate explicit target name: &quot;2 election of officers&quot;.</div>
+<div class="section" id="id6">
+<h1><a class="reference external" href="#id3">3   Motion to Dissolve the Grants Committee</a></h1>
+<p>As the Grants Program begun in 2004 has concluded,</p>
+<blockquote>
+<strong>RESOLVED</strong>, that the Grants Committee is dissolved.</blockquote>
+<p>Approved by a 5-0-0 vote (<em>in favor ? opposed ? abstentions</em>).</p>
+<p>A new Grants Committee may be formed in the future for a new Grants
+Program.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 66); <em><a href="#id5">backlink</a></em></p>
+Duplicate explicit target name: &quot;3 motion to dissolve the grants committee&quot;.</div>
+<div class="section" id="id8">
+<h1><a class="reference external" href="#id4">4   Motion to Dissolve the Public Support Committee</a></h1>
+<p>As the Public Support Committee (PSC) has been inactive for some time,</p>
+<blockquote>
+<strong>RESOLVED</strong>, that the Public Support Committee is dissolved.</blockquote>
+<p>Approved by a 5-0-0 vote.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 78); <em><a href="#id7">backlink</a></em></p>
+Duplicate explicit target name: &quot;4 motion to dissolve the public support committee&quot;.</div>
+<div class="section" id="id10">
+<h1><a class="reference external" href="#id5">5   Discussion of the &quot;Twisted Foundation&quot;</a></h1>
+<p>The Twisted project is actively working toward establishing a
+foundation, and have informally approached the PSF for sponsorship.
+After discussion, it was decided to take no action at present.  The
+idea of the PSF as an umbrella organization was revisited.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 87); <em><a href="#id9">backlink</a></em></p>
+Duplicate explicit target name: &quot;5 discussion of the &quot;twisted foundation&quot;&quot;.</div>
+<div class="section" id="id12">
+<h1><a class="reference external" href="#id6">6   Conference Committee</a></h1>
+<p>D. Goodger summarized the PyCon 2008 bids presented at morning
+meetings during the conference (Saturday February 24 &amp; Sunday February
+25).</p>
+<p><strong>Chicago</strong>: Ted Pollari presented a bid from ChiPy (the Chicago
+Python User Group) for Chicago at the Crowne Plaza Chicago O'Hare
+hotel, with talk days on March 14-16 (Friday-Sunday), a tutorial day
+before, and sprints after.  The hotel's meeting space is much larger
+than that of the Marriott in Dallas: a ballroom almost triple the
+size, and many more rooms for tutorials and break-out sessions.  The
+hotel has more sleeping rooms as well.  The hotel's room rate is
+$99/night (+ tax), with a 10% commission to PyCon.  The Chicago bid
+includes provision for hiring the meeting planner they have been
+working with; the meeting planner will handle hotel negotiations and
+many logistical tasks.</p>
+<p><strong>San Francisco Bay Area</strong>: Alvin Wang presented a bid for PyCon 2008
+&amp; 2009 at the San Mateo Marriott, with talk days February 22-24 2008
+and February 20-23 2009, a tutorial day before, and sprints after.
+The attraction of the Bay area is the proximity to so many high-tech
+companies, and the warmer weather.  The room rate is $119 (+ tax),
+non-commissionable.  The meeting space is comparable to that of the
+Dallas Marriott, with more small &amp; medium-sized rooms but a slightly
+smaller main ballroom.</p>
+<p>After some discussion, considering the potential for growth of PyCon
+in 2008 and considering the room rate,</p>
+<blockquote>
+<strong>RESOLVED</strong>, that the Chicago bid be accepted for PyCon 2008.</blockquote>
+<p>Approved by a 5-0-0 vote.</p>
+<p>The San Francisco Bay Area may be revisited for a future PyCon.  The
+Board thanks Alvin Wang for his efforts.</p>
+<p>The Conference Committee should decide on venues with a lead time of
+at least 18 months.  The venue for PyCon 2009 should be decided well
+before PyCon 2008 is underway.</p>
+<p>Regarding PyCon 2007, the experiment of piping sound into the hall for
+the lunchtime presentations was deemed less than successful.  Perhaps
+presentations during lunch should be rethought.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 95); <em><a href="#id11">backlink</a></em></p>
+Duplicate explicit target name: &quot;6 conference committee&quot;.</div>
+<div class="section" id="id14">
+<h1><a class="reference external" href="#id7">7   Budget &amp; Action Plan</a></h1>
+<p>S. Holden suggested that a focus on travel grants and sprints may be
+the most effective use of our funds.</p>
+<p>The concept of a target asset balance or reserve, and the $150,000
+figure for a target asset balance, were both approved informally.</p>
+<p>Idea: establish funding guidelines (bright-line rules) and/or a
+funding FAQ.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 141); <em><a href="#id13">backlink</a></em></p>
+Duplicate explicit target name: &quot;7 budget &amp; action plan&quot;.</div>
+<div class="section" id="id16">
+<h1><a class="reference external" href="#id8">8   Adjournment</a></h1>
+<ol class="upperalpha simple" start="19">
+<li>Deibel adjourned the meeting at 13:45 CST (19:45 UTC).</li>
+</ol>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 153); <em><a href="#id15">backlink</a></em></p>
+Duplicate explicit target name: &quot;8 adjournment&quot;.</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

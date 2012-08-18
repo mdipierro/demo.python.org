@@ -1,0 +1,324 @@
+The Python Software Foundation 
+
+Minutes of the 2009 Members' Meeting 
+
+March 27, 2009
+
+The Python Software Foundation (the &quot;PSF&quot;) held its annual members'
+meeting on March 27, 2009 at 12:10 CDT (17:10 UTC) at the Hyatt
+Regency O'Hare hotel in Rosemont, Illinois, USA (PyCon 2009 Chicago).
+The `agenda is available here <agenda/>`_.  Steve Holden presided
+over the meeting.  David Goodger prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Election of Nominated Members <#election-of-nominated-members>`_
+
+- `3   Election of Sponsor Members <#election-of-sponsor-members>`_
+
+- `4   Number of Directors <#number-of-directors>`_
+
+- `5   Election of a New Board of Directors <#election-of-a-new-board-of-directors>`_
+
+- `6   Approval of Changes to the Bylaws <#approval-of-changes-to-the-bylaws>`_
+
+- `7   Give Up Control of the Python Logo? <#give-up-control-of-the-python-logo>`_
+
+- `8   Financial Report <#financial-report>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+34 nominated members were present at the meeting: 
+
+- David M. Beazley
+
+- Steven Bethard
+
+- Georg Brandl
+
+- Titus Brown
+
+- Brett Cannon
+
+- Stephan Deibel
+
+- Catherine Devlin
+
+- Jeff Elkner
+
+- Jim Fulton
+
+- David Goodger
+
+- Raymond Hettinger
+
+- Steve Holden
+
+- Michael Hudson
+
+- Jim Hugunin
+
+- Eric Jones
+
+- Kurt B. Kaiser
+
+- Andrew Kuchling
+
+- Van Lindberg
+
+- Martin von L?wis
+
+- Alex Martelli
+
+- Anna Martelli Ravenscroft
+
+- David Mertz
+
+- Trent Mick
+
+- Doug Napoleone
+
+- Travis Oliphant
+
+- Samuele Pedroni
+
+- Sean Reifschneider
+
+- Guido van Rossum
+
+- Jeff Rush
+
+- James Tauber
+
+- Barry Warsaw
+
+- Thomas Wouters
+
+- Moshe Zadka
+
+- Brian Zimmer
+
+12 representatives of sponsor members were present: 
+
+- ActiveState, represented by Trent Mick
+
+- ASTi, represented by David Ripton for Patrick Gaffney
+
+- Canonical, represented by Michael Hudson for Steve Alexander
+
+- CCP Games, represented by Kristj?n Valur J?nsson
+
+- Enthought, represented by Eric Jones
+
+- Google, represented by Guido van Rossum for Chris DiBona
+
+- Merfin LLC, represented by Reggie Dugard
+
+- Microsoft, represented by Jim Hugunin
+
+- Strakt Holdings, represented by Samuele Pedroni for Laura Creighton
+
+- Sun Microsystems, represented by Ted Leung
+
+- ZeOmega, represented by Brad Allen for Sam Rangaswamy
+
+- Zope Corporation, represented by Jim Fulton
+
+13 members were represented by proxy (in parentheses): 
+
+- Aahz (David Mertz)
+
+- Facundo Batista (Barry Warsaw)
+
+- Nick Coghlan (Brett Cannon)
+
+- Matthew Dixon Cowles (Alex Martelli)
+
+- Laura Creighton (Samuele Pedroni)
+
+- Walter D?rwald (Barry Warsaw)
+
+- Christian Heimes (Brett Cannon)
+
+- Richard Jones (Brett Cannon)
+
+- Marc-Andr? Lemburg (Barry Warsaw)
+
+- Tim Peters (Barry Warsaw)
+
+- John Pinner (Steve Holden)
+
+- Peter Schneider-Kamp (Barry Warsaw)
+
+- Trevor Toenjes (Barry Warsaw)
+
+No members voted by absentee ballot. 
+
+The PSF had a total membership of 108 (22 sponsor members & 86 active
+nominated members) before the meeting.  59 members (55%) were in
+attendance or represented by proxy, constituting a quorum according to
+the Bylaws.  Note the discrepancy with the results below: only 57
+votes were counted (53%).  It is assumed that two nominated members
+who were also representing sponsor members only cast a single vote
+where they had the right to cast two.
+
+Several observers were also present, both nominees and invited guests.
+
+`2   Election of Nominated Members <#id2>`_
+-------------------------------------------
+
+The individual nominations and summaries/recommendations were made on
+the psf-members mailing list and recorded in the PSF private wiki, and
+were not reviewed.  There was no discussion.
+
+All proposed nominated members were elected (vote counts in
+parentheses, for-against-abstain):
+
+- Christopher Armstrong (40-0-17)
+
+- Jim Baker (45-0-12)
+
+- Ben Bangert (40-0-17)
+
+- James Bennett (33-0-24)
+
+- Jean-Paul Calderone (48-0-9)
+
+- Graham Dumpleton (38-0-19)
+
+- Martijn Faassen (48-0-9)
+
+- Mike Fletcher (44-1-12)
+
+- Michael Foord (51-0-6)
+
+- Doug Hellmann (45-0-12)
+
+- Adrian Holovaty (42-0-15)
+
+- Jacob Kaplan-Moss (51-1-5)
+
+- Matthias Klose (38-1-18)
+
+- Glyph Lefkowitz (52-0-5)
+
+- Duncan McGreggor (46-0-11)
+
+- Jesse Noller (48-0-9)
+
+- Benjamin Peterson (44-0-13)
+
+- Ted Pollari (38-0-19)
+
+- Mark Ramm (38-0-19)
+
+- Phil Thompson (33-0-24)
+
+- Malcolm Tredinnick (32-0-25)
+
+- Kirby Urner (37-0-20)
+
+- Dino Viehland (34-1-22)
+
+- Thomas Waldmann (38-0-19)
+
+- Frank Wierzbicki (40-0-17)
+
+- Simon Willison (41-1-15)
+
+`3   Election of Sponsor Members <#id3>`_
+-----------------------------------------
+
+Four companies have applied for sponsor membership.  The candidates
+were discussed.  The Board had already recommended all four as pending
+sponsor members.
+
+After the discussion, all nominated sponsor members were elected (vote
+counts in parentheses):
+
+- PropertySold.ca (45-1-11)
+
+- Lucasfilm (replaces emeritus member Industrial Light & Magic), (56-1-0)
+
+- OpenEye Scientific Software (52-0-5)
+
+- KNMP (49-0-8)
+
+`4   Number of Directors <#id4>`_
+---------------------------------
+
+Previously, there were eight (8) positions. 
+
+    **RESOLVED**, that the Board of Directors will consist of up to
+    ten (10) Directors.
+
+Approved, 50-3-4.
+
+`5   Election of a New Board of Directors <#id5>`_
+--------------------------------------------------
+
+There were 10 candidates for the 10 board positions.  All were elected
+(vote results in parentheses):
+
+- Brett Cannon (54-0-3)
+
+- David Goodger (53-2-2)
+
+- Raymond Hettinger (53-0-4)
+
+- Steve Holden (56-0-1)
+
+- Andrew Kuchling (50-1-6)
+
+- Martin von L?wis (49-0-8)
+
+- David Mertz (46-2-9)
+
+- Tim Peters (56-0-1)
+
+- Jeff Rush (49-1-7)
+
+- James Tauber (51-0-6)
+
+`6   Approval of Changes to the Bylaws <#id6>`_
+-----------------------------------------------
+
+There were some requests for clarification of the changes to the
+bylaws.
+
+    **RESOLVED**, that the PSF adopts the proposed changes to its
+    bylaws as documented at
+    `http://www.python.org/psf/records/members/2009-03-27/bylaws/ <http://www.python.org/psf/records/members/2009-03-27/bylaws/>`_.
+
+Approved, 53-0-4.
+
+`7   Give Up Control of the Python Logo? <#id7>`_
+-------------------------------------------------
+
+There was much discussion of this resolution, with many members (and
+an observer or two) clarifying their positions and how trademarks
+work.
+
+    **RESOLVED**, that the PSF stops enforcing control over the
+    Python logo as a trademark, and licenses it as a work of art to
+    anybody without any restrictions.
+
+Defeated, 8-48-1.
+
+`8   Financial Report <#id8>`_
+------------------------------
+
+Kurt Kaiser, the PSF Treasurer, reported on the financial status of
+the PSF for 2008: a net income of $86,086 and total equity of
+$453,397.
+
+`9   Adjournment <#id9>`_
+-------------------------
+
+Steve Holden adjourned the formal part of the meeting at approximately
+13:10 CST.  Informal discussion followed.

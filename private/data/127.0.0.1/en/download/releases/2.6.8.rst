@@ -1,0 +1,68 @@
+Python 2.6.8
+------------
+
+    **Python 2.6.8** is a security-fix source-only release for Python `2.6.7 <../2.6.7/>`_, fixing several reported security issues: `issue 13703 <http://bugs.python.org/issue13703>`_
+    (oCERT-2011-003, CVE-2012-1150, hash collision denial of service), issue
+    14234 (CVE-2012-0876, pyexpat hash randomization), `issue 14001 <http://bugs.python.org/issue14001>`_
+    (CVE-2012-0845, SimpleXMLRPCServer denial of service), and `issue 13885 <http://bugs.python.org/issue13885>`_
+    (CVE-2011-3389, disabling of the CBC IV attack countermeasure in the _ssl
+    module).  Python 2.6.8 was released on April 10, 2012.
+
+    The last binary release of Python 2.6 was `2.6.6 <../2.6.6/>`_.
+
+Python 2.6 is now in security-fix-only mode; no new features are being added,
+and no new bug fix releases are planned.  We intend to provide source-only
+security fixes for the Python 2.6 series until October 2013 (five years after
+the 2.6 final release).  For ongoing maintenance releases, please see the
+Python `2.7 <../2.7/>`_ series.  The `NEWS file <NEWS.txt>`_ lists every
+change in each alpha, beta, and release candidate of Python 2.6.
+
+    - `What's New in Python 2.6 <http://docs.python.org/whatsnew/2.6.html>`_.
+
+    - Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+    - Read the `Python license <license>`_.
+
+    - `PEP 361 <http://www.python.org/dev/peps/pep-0361/>`_ set out the development schedule for 2.6.
+
+Help fund Python and its community by `donating to the Python Software 
+Foundation </psf/donations/>`_.
+
+Download
+--------
+
+This is a testing release; we currently support these formats: 
+
+    - `Gzipped source tar ball (2.6.8) </ftp/python/2.6.8/Python-2.6.8.tgz>`_ `(sig) <Python-2.6.8.tgz.asc>`_
+
+    - `Bzipped source tar ball (2.6.8) </ftp/python/2.6.8/Python-2.6.8.tar.bz2>`_ `(sig) <Python-2.6.8.tar.bz2.asc>`_
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    f6c1781f5d73ab7dfa5181f43ea065f6  13282574  Python-2.6.8.tgz
+    c6e0420a21d8b23dee8b0195c9b9a125  11127915  Python-2.6.8.tar.bz2
+
+The signatures for the source tarballs above were generated with
+`GnuPG <http://www.gnupg.org>`_ using release manager
+Barry Warsaw's
+`public key </download#pubkeys>`_
+which has a key id of A74B06BF.
+
+Notes
+-----
+
+Developers on Ubuntu 11.04 (Natty Narwhal) or later may experience
+problems when building Python 2.6 from source, due to the adoption of
+`multiarch <https://wiki.ubuntu.com/MultiarchSpec>`_ support.  See `issue 9762 <http://bugs.python.org/issue9762>`_ for additional details and
+workarounds.  The version of Python 2.6 in Ubuntu itself has been
+appropriately patched, so the Ubuntu source package should build just
+fine.
+
+Documentation
+-------------
+
+The documentation has also been updated.  You can `browse the HTML on-line 
+<http://docs.python.org/release/2.6.8>`_ or `download the HTML 
+<http://docs.python.org/release/2.6.8/download.html>`_.

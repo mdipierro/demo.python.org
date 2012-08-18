@@ -1,0 +1,157 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+June 12, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 12
+June 2006.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Follow-Up Required <#follow-up-required>`_  - `3.2   In Progress <#in-progress>`_  - `3.3   Carried Forward <#carried-forward>`_  - `3.4   New in April <#new-in-april>`_
+
+- `4   New Sponsor: cPacket Networks <#new-sponsor-cpacket-networks>`_
+
+- `5   Minor Expenses <#minor-expenses>`_
+
+- `6   PSF Records <#psf-records>`_
+
+- `7   Other Business <#other-business>`_
+
+- `8   Adjournment <#adjournment>`_
+
+(Color legend: action items; follow-up required;
+in progress)
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, David Goodger, David Ascher, Steve Holden
+(until 17:21), Andrew Kuchling, and Brett Cannon.  Also in attendance
+were Kurt Kaiser (Treasurer) and Neal Norwitz (Assistant Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 10 April 2006 minutes were approved by a 5-0-1 vote. 
+
+Due to a lack of quorum, there was no May 2006 meeting. 
+
+The minutes of the 24 February 2006 member meeting (at PyCon TX 2006)
+were approved by a 6-0-0 vote.
+
+The minutes of the 24 March 2005 member meeting (at PyCon DC 2005)
+were approved by a 6-0-0 vote.
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+`3.1   Follow-Up Required <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     Status: follow-up required.
+
+- Originally from November 2005, follow-up from December 2005: S. Holden is to contact a potential PSF sponsor/donor.     Status: follow-up required.  (Task transferred from D. Ascher.)
+
+`3.2   In Progress <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Originally from December 2005, Section 6, PSF Member Meeting: D. Goodger to complete the minutes for the 2005 PSF member meeting.     Status: **done**.
+
+- Originally from 25 February 2006, Section 4, Other Business: Stephan Deibel will approach the sponsor members about potential changes to sponsorship fees, such as the introduction of sponsorship levels.     S. Deibel reported that this was on hold for the moment.  He was not sure what will happen with it but wanted to keep it on the agenda: &quot;Frankly, I'm back to the 'PSF should prove itself first' mindset.&quot;     Status: **deferred**.      D. Goodger volunteered to draft a plan and a budget for positive actions to take to move Python forward.
+
+`3.3   Carried Forward <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 10 April 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.
+
+- Originally from November 2005, Section 8, Trademark Policy: S. Deibel to work on the PSF trademark policy, and discuss with Milind Shaw.     The trademark policy was reviewed by members, the minimal feedback was incorporated, and sent to our lawyer.  No word back yet, expected soon.     Status: **follow-up required**.
+
+- Originally from 14 February 2005, Section 4, Financials: K. Kaiser will ping the sponsor members who have not yet paid their 2006 PSF sponsor fees.     Status: **done**.
+
+- Originally from 25 February 2006, Section 4, Other Business: Steve Holden will contact Brian Fitzpatrick, VP of public relations for the Apache Software Foundation.     S. Holden exchanged email with Brian Fitzpatrick of the ASF and Google.  It turns out the ASF aren't that much more organized than the PSF on PR and publicity/sponsorship.  He will be following up with a telephone call, and that may (but may not) lead to a proposal for several Foundations to get together and discuss a common approach.     Status: **done**.
+
+- Originally from 25 February 2006, Section 4, Other Business: David Goodger will create a calendar of recurring PSF business events to remember.     A PSF Board calendar has been created using Google calendar.      Status: **done**.
+
+- Originally from 25 February 2006, Section 4, Other Business: Martin v. L?wis will update the list of email addresses of PSF members.     Status: carried forward.
+
+- Originally from March 2006, Section 4, Grants Committee: M. von L?wis agreed to draft a report on the PSF grants.     Status: carried forward.
+
+`3.4   New in April <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated in the 10 April 2006 board meeting on
+IRC.
+
+- Section 3.4, item 2: S. Deibel to develop a compensation policy.     Status: carried forward.
+
+- Section 5, Notifying New Members: M. v. L?wis will contact the new PSF members elected at PyCon.     Status: **done**.
+
+- Section 6, Trademark Policy Plan: S. Deibel to ask the PSF members for input regarding the trademark policy by April 30, then incorporate their input and pass the policy to our lawyer.     Status: **done** (see Section 3.3, item 3, above).
+
+`4   New Sponsor: cPacket Networks <#id8>`_
+-------------------------------------------
+
+We have received an application for sponsor membership from cPacket
+Networks.
+
+    RESOLVED that the board recommends cPacket Networks as a new
+    sponsor member, for future approval by the membership.
+
+Approved 5-0-0.
+
+`5   Minor Expenses <#id9>`_
+----------------------------
+
+    RESOLVED that the board repeals the previously passed resolution
+    of October 8, 2002 which states &quot;until further notice, the
+    Officers of the Board can spend up to USD 500 per expense without
+    prior board approval, but subject to prompt reporting to the
+    Board.&quot;
+
+Approved 5-0-0. 
+
+    RESOLVED that until further notice, the Officers of the
+    Corporation may spend up to USD 500 per expense without prior
+    Board approval, but subject to prompt reporting to the Board, and
+    consistent with the mission statement and requirements of
+    maintaining our status as a 501(c)3 non-profit.
+
+Approved 5-0-0.
+
+`6   PSF Records <#id10>`_
+--------------------------
+
+S. Deibel noted that the PSF &quot;seem[s] to have a range of often
+inaccessible records all over the planet.  I would like to get them
+somewhere accessible, well managed, and possibly scanned.&quot;  The most
+important records are the contributor agreements, then the voting
+records.
+
+The Board agreed to assemble the existing records in one
+place, have them scanned, and enter them into the PSF data repository.
+D. Goodger will coordinate this work and maintain the records.
+
+`7   Other Business <#id11>`_
+-----------------------------
+
+S. Holden will follow up regarding a promised donation.
+
+`8   Adjournment <#id12>`_
+--------------------------
+
+S. Deibel adjourned the meeting at 17:59 UTC.

@@ -1,0 +1,341 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+February 28, 2011
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 28
+February 2011. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ??? opposed ???
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Report <#progress-report>`_- `5.1   Communication Status <#communication-status>`_  - `5.2   Core Development Tasks <#core-development-tasks>`_  - `5.3   HAM WebPages/Links <#ham-webpages-links>`_  - `5.4   Infrastructure Committee <#infrastructure-committee>`_  - `5.5   Marketing Material <#marketing-material>`_  - `5.6   Moving PyPI to Amazon CloudFront <#moving-pypi-to-amazon-cloudfront>`_  - `5.7   PyCon US Website <#pycon-us-website>`_  - `5.8   Sprint Committee <#sprint-committee>`_
+
+- `6   Python Miro Community Grant Funding <#python-miro-community-grant-funding>`_
+
+- `7   PyCon AU 2011 Sponsorship Funding <#pycon-au-2011-sponsorship-funding>`_
+
+- `8   Create RFP Document to Redesign Python.org <#create-rfp-document-to-redesign-python-org>`_
+
+- `9   Read the Docs Grant Funding <#read-the-docs-grant-funding>`_
+
+- `10   2011 Members' Meeting <#members-meeting>`_
+
+- `11   Other Business <#other-business>`_
+
+- `12   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Raymond Hettinger, Steve Holden, Marc-Andre Lemburg arrived
+at 12:09, David Mertz, Doug Napoleone, Jesse Noller, Tim Peters,
+Allison Randal left at 12:31, Jeff Rush, Greg Stein, James Tauber,
+and Gloria Willadsen. Also in attendance were Kurt Kaiser (Treasurer),
+and Pat Campbell (Secretary & Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 24 January 2011 Board meeting minutes were voted on and approved. 
+
+Approved, 10-0-1.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting held on 24
+January 2010.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K.
+Kaiser prior to the Board meeting and produced from Quickbooks Online.
+
+Here is an exerpt from the treasurer's report on a few of the activities
+the treasurer will be focused on:
+
+&quot;My focus is currently on AR and AP reduction, PyCon sponsor invoicing,
+implementation of the Associate Member program. and preparation of the
+2010 Financial Statements.&quot;
+
+`5   Progress Report <#id5>`_
+-----------------------------
+
+The following board reports were submitted to the board mailing list
+one week prior to this month's meeting. Please see a summary of each
+board report listed below and a possible board discussion at the end
+of the report:
+
+`5.1   Communication Status <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Hellmann, Communication Officer, reported continued activities from
+last month, by saying:
+
+    - Paulo Nuin is working on a post about the PyPI mirroring project.
+
+    2. Engelbert Gruber is working on interview questions for a post about
+    the new PyCon web site.
+
+As far as new activities for the month are concerned, he reported: 
+
+    - Local users' group post by Doug Hellmann      `http://pyfound.blogspot.com/2011/01/finding-local-users-group.html  <http://pyfound.blogspot.com/2011/01/finding-local-users-group.html>`_
+
+For items planned for next month and ongoing projects, D. Hellmann reported
+respectively:
+
+    - Assist with publicity for PyCon.
+
+    - Talk with R. David Murray about the email package status and write up that project.
+
+    Facebook stats for 9 Dec - 7 Jan 
+
+    8,834 monthly active users 
+
+    1,450 new likes 
+
+    51.191 post views 
+
+    274 post feedback
+
+`5.2   Core Development Tasks <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+B. Cannon, Core Development Tasks Project, reported continued
+activities from last month by saying:
+
+- Finished new devguide for contributing to Python (and related patches to Python, mostly related to testing and coverage measuring)
+
+- Finished Python 2/3 porting guide
+
+B. Cannon also reported new activities for the month,
+he said:
+
+<;pycon surprise -- I would like to spring this on the community as a
+lightning talk, but it is in no way crucial>
+Developing a website to monitor Python 3 project uptake on PyPI. Core
+difference compared to
+`http://pypi.python.org/pypi?:action=browse&c=533&show=all <http://pypi.python.org/pypi?:action=browse&c=533&show=all>`_,
+`http://python3wos.appspot.com/ <http://python3wos.appspot.com/>`_, or `http://onpython3yet.com/ <http://onpython3yet.com/>`_ is that it
+will support manually specifying a project supports Python 3. IOW it
+will get around the issue of these sites accidentally spreading FUD
+about Python 3 adoption inherent in their reliance on only automated
+processes which rely on project maintainers to not be lazy. By
+allowing select people (initially) to mark projects as supporting
+Python 3 this will get around those limitations. Think
+`http://getpython3.net/ <http://getpython3.net/>`_ but with PyPI project tie-in for detecting
+Python 3 support and (hopefully) a more pro-active search for projects
+by the community.
+
+There will also be more metrics for measuring project popularity to
+provide various lists of top projects to get a clearer idea of exactly
+what still needs to be ported.
+<;/pycon surprise>
+
+As far as making plans for next month's activities, Brett's core
+development task project will be finished.
+
+`5.3   HAM WebPages/Links <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+P. Campbell, Honorary Associate Membership (HAM) WebPages Start-up
+Project, reported continued activities from last month by saying:
+
+&quot;According to our treasurer, Kurt Kaiser, a server has been setup and
+the CiviCRM has been installed.
+
+Kurt is working with Andrew Kuchling to import our data from the
+MatrixMaxx system to CiviCRM.
+
+Hopefully, our first HAM membership signup will soon be on the way
+once the HAM membership signup and payment system is integrated with
+python.org!&quot;
+
+`5.4   Infrastructure Committee <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Reifschneider, Infrastructure Committee Chair, reported on a task
+from previous months, he said:
+
+    - A previous task that I thought was completed, the &quot;trac&quot; instance for the PSF, was re-opened.  Through a mis-communication, I thought this was resolved, but the board was waiting for me to do the order.     The treasurer needed to place the order and so it has been handed off to Kurt.
+
+As far as ongoing projects, Sean listed: PSF Trac.
+
+`5.5   Marketing Material <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M.A.Lemburg, Marketing Material Project Manager, reported progress
+on the project:
+
+&quot;The contract has been finalized and submitted to the PSF chairman
+for sign-off.
+
+Meanwhile we have started work on the brochure cover, a flyer for
+PyCon US and are currently preparing a blog post for the PSF blog.
+
+The next steps are setting up a website to attract both content
+providers and sponsors for the brochure.&quot;
+
+M.A.Lemburg also reported issues with the project, he said: 
+
+&quot;Getting contacts to companies with interesting Python projects
+has so far been difficult. While we did get a few leads on our
+first rounds of emails, we will need a lot more to make the
+brochure as attractive as possible.
+
+For that reason, we're currently focusing on getting more attention
+for the brochure project - via the PyCon US flyer, a newsletter,
+a Twitter account, blog posts and direct emails.
+
+Additional help in finding such interesting projects would be greatly
+appreciated. Please email me directly, if you know of such
+projects and ideally provide an introduction, so that we can
+pick up the lead from there. Thanks !&quot;
+
+As far as future plans are concerned for his marketing materials
+project, he reported:
+
+&quot;If the project goes well, we'll follow up with a Python flyer,
+translated versions of the brochure and also consider creating
+marketing material more targeted at specific user groups or
+application fields.
+
+In the long run, we'd also like to take the idea of producing
+marketing material beyond printed material and develop booth
+setups, giveaways, CDs, etc. to support conference organizers and
+local user groups wishing to promote Python at their events.&quot;
+
+`5.6   Moving PyPI to Amazon CloudFront <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The project leader, M.A. Lemburg, Moving PyPI to Amazon CloudFront,
+reported progress on this project for the month:
+
+&quot;In order to work on the PyPI code and to experiment with the
+push logic needed for Amazon S3 (and from there CloudFront),
+I have setup an Amazon EC2 instance running Ubuntu with a
+mirror copy of the PyPI installation on the main server.
+
+Neil has made progress on getting the syncing of package files
+to the S3 buckets working.
+
+Grig and I have tried to find ways to get S3 and CloudFront
+to work more like a real web server would. Especially the
+directory index access is giving us problems.&quot;
+
+In terms of having any issues surrounding his project, M. A.
+Lemburg reported no issues except that he just does not have enough
+time to devote to his Moving PyPI to Amazon CloudFront project.
+
+- - Lemburg also reported on future plans for the project:
+
+&quot;Check to see whether a trigger based approach to S3 syncing
+wouldn't be easier to implement right from the start.&quot;
+
+`5.7   PyCon US Website <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Napoleone, PyCon US Website Project, reported on new activities
+for the month:
+
+    - Schedule now live (url omitted to not pre-empt announcement)
+
+Doug also reported on next month's planned activities, he said: 
+
+    - Archival of old PyCon websites.      We will end of life the Tummy.com dedicated server within 6 months. All the previous years sites will be archived to static content, checked into the python.org PyCon svn repository and cheaply hosted.
+
+`5.8   Sprint Committee <#id13>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, Sprint Committee Chair, provided a summary of activities for this
+month, he reported: :
+
+&quot;We recently had two approved sprints in January for which we are awaiting
+reimbursement requests; the PyPy sprint and the Python African Tour sprint.
+After a mass email campaign, we approved three more sprints; Cape Town,
+Portland, and PyCon Australia. We're currently evaluating what our involvement
+at PyCon US should be.&quot;
+
+As far as new activities for the month are concerned, J. Noller said: 
+
+**MISSING**
+- Creation of a swag-bag insert for PyCon, which was cleared by Jesse and Van.
+
+- Working with Kurt to get a dump of the payment history, to be used for the creation of a ledger and better tracking of funding.&quot;
+
+- Noller's plans for next month are PyCon related.
+
+`6   Python Miro Community Grant Funding <#id14>`_
+--------------------------------------------------
+
+    **RESOLVED**, that the PSF provide USD $1,800 to Will Kahn-Greene
+    to finance the Miro Community service costs for one year (USD $900)
+    and continue to develop the Python Miro Community.
+
+Approved, 10-1-1.
+
+`7   PyCon AU 2011 Sponsorship Funding <#id15>`_
+------------------------------------------------
+
+    **RESOLVED**, that the PSF provide a US$1,500 sponsorship funding to
+    the PyCon AU 2011 conference to be held in Sydney, Australia.
+
+Approved, 9-0-1.
+
+`8   Create RFP Document to Redesign Python.org <#id16>`_
+---------------------------------------------------------
+
+    **RESOLVED**, that the PSF approves the exploration and creation of a
+    Request For Proposals (RFP) document outlining the requirements for an
+    redesign and refresh of the current Python.org website, including
+    front-end user interface and back end publishing and content creation
+    system. The document will be put together by Jesse Noller (current PSF
+    board member) and the acceptance and publishing of the document will be
+    contingent on board approval.
+
+Approved, 8-0-3.
+
+`9   Read the Docs Grant Funding <#id17>`_
+------------------------------------------
+
+    **RESOLVED**, That the PSF provide funding for the Read the Docs website
+    (`http://readthedocs.org/ <http://readthedocs.org/>`_) hosting costs for a period of 12 months at the
+    rate of $70 for a total amount of $840 for the next year.
+
+Approved, 6-2-3.
+
+`10   2011 Members' Meeting <#id18>`_
+-------------------------------------
+
+Board members discussed the upcoming Members' Meeting to be held at PyCon US
+2011 in Atlanta, Georgia to review the final planning stages. Prior to this
+month's board meeting, P. Campbell, PSF Secretary, had prepared a members'
+meeting report for board members review which included details of the
+arrangements for the members' meeting and catered lunch event.
+
+`11   Other Business <#id19>`_
+------------------------------
+
+None
+
+`12   Adjournment <#id20>`_
+---------------------------
+
+- Holden adjourned the meeting at 17:10 UTC.

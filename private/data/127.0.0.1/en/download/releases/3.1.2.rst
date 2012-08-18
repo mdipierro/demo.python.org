@@ -1,0 +1,81 @@
+Python 3.1.2
+------------
+
+Note: It is recommended that you use the latest bug fix release of the 3.1
+series, `3.1.4 </download/releases/3.1.4>`_.
+
+Python 3.1.2 was released on March 21st, 2010. 
+
+The Python 3.1 version series is a continuation of the work started by Python
+3.0, the **new backwards-incompatible series** of
+Python.  Improvements in this release include:
+
+- An ordered dictionary type
+
+- Various optimizations to the int type
+
+- New unittest features including test skipping and new assert methods.
+
+- A much faster io module
+
+- Tile support for Tkinter
+
+- A pure Python reference implementation of the import statement
+
+- New syntax for nested with statements
+
+See these resources for further information: 
+
+- `What's New in 3.1? <http://docs.python.org/3.1/whatsnew/3.1.html>`_
+
+- `What's new in Python 3000 <http://docs.python.org/3.0/whatsnew/3.0.html>`_
+
+- `Python 3.1.2 Change Log <http://svn.python.org/projects/python/tags/r312/Misc/NEWS>`_
+
+- `Online Documentation <http://docs.python.org/3.1/>`_
+
+- Conversion tool for Python 2.x code: `2to3 <http://svn.python.org/view/sandbox/trunk/2to3/>`_
+
+- Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+Help fund Python and its community by donating to the Python Software
+Foundation.
+
+Download
+--------
+
+This is a production release.  Please report any bugs you may encounter to
+`http://bugs.python.org <http://bugs.python.org>`_.
+
+We currently support these formats for download: 
+
+- `Gzipped source tar ball (3.1.2) </ftp/python/3.1.2/Python-3.1.2.tgz>`_ `(sig) <Python-3.1.2.tgz.asc>`_
+
+- `Bzipped source tar ball (3.1.2) </ftp/python/3.1.2/Python-3.1.2.tar.bz2>`_ `(sig) <Python-3.1.2.tar.bz2.asc>`_
+
+- `Windows x86 MSI Installer (3.1.2) </ftp/python/3.1.2/python-3.1.2.msi>`_ `(sig) <python-3.1.2.msi.asc>`_
+
+- `Windows X86-64 MSI Installer (3.1.2) </ftp/python/3.1.2/python-3.1.2.amd64.msi>`_ `[1] <#id3>`_ `(sig) <python-3.1.2.amd64.msi.asc>`_
+
+- `Mac Installer disk image (3.1.2) </ftp/python/3.1.2/python-3.1.2-macosx10.3-2010-03-24.dmg>`_ `(sig) <python-3.1.2.sig>`_
+
+The source tarballs are signed with Benjamin Peterson's key (fingerprint: 12EF
+3DC3 8047 DA38 2D18 A5B9 99CD EA9D A413 5B38). The Windows installers are signed
+with Martin von L?wis' public key which has a key id of 7D9DC8D2.
+The Mac disk image was signed by
+Ronald Oussoren's public key which has a key id of E6DF025C.
+The public
+keys are located on the `download page </download#pubkeys>`_.
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    08d01c468989d1f2cc560c23f8e6a7ea  11661773  Python-3.1.2.tgz
+    45350b51b58a46b029fb06c61257e350   9719769  Python-3.1.2.tar.bz2
+    a50d1fe2648783126c7a70654a08b755  14369280  python-3.1.2.amd64.msi
+    098269f6057916821e41e82e7a7be227  14098432  python-3.1.2.msi
+    597ba520c9c989f23464e0bf534db389  17418524  python-3.1.2-macosx10.3-2010-03-24.dmg
+
+**MISSING**
+`[1] <#id2>`_  The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).

@@ -1,0 +1,64 @@
+The Python Software Foundation 
+
+Minutes of a Special Meeting of the Board of Directors 
+
+February 25, 2006
+
+A special meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held at PyCon in Dallas at 12:15 CST (18:15 UTC), 25
+February 2006.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Martin von L?wis, Andrew Kuchling, Tim
+Peters, David Goodger, Brett Cannon, Steve Holden, and David Ascher.
+Also in attendance were Neal Norwitz, and Jeremy Hylton.  M. v. L?wis
+and D. Goodger prepared these minutes.
+
+2   Election of Officers
+------------------------
+
+Guido van Rossum was re-elected as the President of the Foundation,
+with 8 votes in favour.  Stephan Deibel was re-elected as the
+Chairman, with 7 votes in favour, and 1 abstention.  David Goodger was
+elected as the Secretary, with 7 votes in favour, and 1 abstention.
+Kurt Kaiser was re-elected as the Treasurer, with 8 votes in favour.
+Neal Norwitz was re-elected as the Assistant Treasurer, with 8 votes
+in favour.  Jeremy Hylton was elected as Assistant Secretary, with 8
+votes in favour.
+
+David Ascher, Martin v. L?wis, Andrew Kuchling, and Brett Cannon
+were elected as Vice Presidents, and David Ascher as Executive
+Vice President, each with 8 votes in favour.
+
+3   Changes to Committees
+-------------------------
+
+Brett Cannon was appointed as the chairman of the Infrastructure
+Committee, with 8 votes in favour.
+
+4   Other Business
+------------------
+
+David Ascher proposed to register PyCon as a trademark for
+the PSF; he will contact Milind Shaw about that.
+
+Steve Holden will contact Brian Fitzpatrick, VP of public
+relations for the Apache Software Foundation.
+
+David Goodger will create a calendar of recurring PSF
+business events to remember.
+
+Martin v. L?wis will update the list of email addresses of
+PSF members.
+
+Stephan Deibel will approach the sponsor members about
+potential changes to sponsorship fees, such as the introduction of
+sponsorship levels.
+
+5   Adjournment
+---------------
+
+S. Deibel adjourned the meeting at 13:30 CST (19:30 UTC).

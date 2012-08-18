@@ -1,0 +1,212 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+January 10, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:00 UTC, 10
+January 2006.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Martin von L?wis, Andrew Kuchling, Tim
+Peters, and David Ascher (arrived at 18:45).  Also in attendance were
+Kurt B. Kaiser (Treasurer), Neal Norwitz (Assistant Treasurer), and
+David Goodger (Assistant Secretary).  D. Goodger prepared these
+minutes.
+
+2   Minutes of Past Meetings
+----------------------------
+
+The December 2005 minutes were approved by a 4-0-1 vote.
+
+3   Status of Past Action Items
+-------------------------------
+
+3.1   Follow-Up Required
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Originally from November 2005, follow-up from December 2005: Mark Shuttleworth (Ubuntu/Canonical) on PSF sponsorship or donation.
+
+- Originally from November 2005, follow-up from December 2005: Bram Cohen (BitTorrent) on PSF sponsorship or donation.
+
+3.2   In Progress
+~~~~~~~~~~~~~~~~~
+
+- Originally from September 2005, Section 10.1, Trademarks & The .com Domain: N. Norwitz will ask the lawyer about the python.com domain.  He has been in contact with the lawyer.
+
+- Originally from November 2005, Section 4, Python.org Redesign (S. Holden):- get the new production system to run on Mac OS X;  - detail which parts of the current content have been transformed for the new system and which parts still require conversion;  - complete the documentation so that webmaster team members can use the new system rather than the old one.
+
+3.3   Carried Forward
+~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the December 2005
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from September 2005, Section 4, Donor Levels: S. Deibel will add the topic of &quot;Donor Levels&quot; to the agenda of a future meeting, and may begin discussions via email before that.     Status: **carried forward**.
+
+- Originally from September 2005, Section 9, Grants Committee: M. von L?wis will verify whether Brian Zimmer's grant invoice is the one previously discussed (i.e. a reduced amount of work, and a reduced payment).     Status: **carried forward**.  See `Grants Committee <#grants-committee>`_  below.
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: **carried forward**.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: **carried forward**.
+
+- Originally from October 2005, Section 7, Reserve Funds: K. Kaiser will send a reserve fund investment proposal to the PSF-board mailing list.     Status: **carried forward**.
+
+- Originally from November 2005, Section 8, Trademark Policy: D. Ascher will probably work with ActiveState's legal person on trademark policy.     Status: **carried forward**.
+
+3.4   New in December
+~~~~~~~~~~~~~~~~~~~~~
+
+The following action items originated with the December 2005 meeting,
+as highlighted in the minutes:
+
+- Section 4, Python.org Redesign: S. Holden said he would speak with Tim Parkin and they would contact A. Kuchling about setting up a publicly-visible test server.     Status: **done**.  A. Kuchling reports that a publicly visible test server exists at `http://beta.python.org <http://beta.python.org>`_.  Committing changes to the SVN repository causes the beta.python.org site to be updated.
+
+- Section 4, Python.org Redesign: S. Holden said that he would see if Tim Parkin is available for an IRC sprint.     Status: **done**.  D. Goodger reported that the IRC sprint happened, and work is ongoing.
+
+- Section 4, Python.org Redesign: S. Holden said that he would be responsible for making sure that documentation is available for the new python.org system.     Status: **carried forward**.  S. Deibel reports that he has edited the docs based on his experiences and believes they are reasonable for someone to get up and running with the new pydotorg on Linux at least (psf.pollenation.net and pyramid.pollenation.net).
+
+- Section 6, PSF Member Meeting: J. Hylton took on the task of finding someone to send out member meeting notices & proxy forms.     Status: **carried forward**.
+
+- Section 6, PSF Member Meeting: M. von L?wis volunteered to ensure that the necessary steps are taken for the member meeting.     Status: **in progress**.  M. von L?wis reports that he created the various forms, and posted an email invitation.  We should set a deadline for closing the absentee ballot.
+
+- Section 6, PSF Member Meeting: S. Deibel volunteered to send email to psf-members to ask people to do new member nominations.     Status: **done**.  See `PSF Members' Meeting <#psf-members-meeting>`_ below.
+
+- Section 6, PSF Member Meeting: J. Hylton pledged to complete the minutes for the 2005 PSF member meeting.     Status: **carried forward**.
+
+- Section 7, PSF BoF Sessions: A. Kuchling promised to write to Chris DiBona and Greg Stein and ask about their attendance at PyCon and possible BoF participation.     Status: **carried forward**.  A. Kuchling emailed DiBona & Stein about the Summer of Code panel; they replied, but the answer was basically &quot;ask again later&quot;.
+
+- Section 7, PSF BoF Sessions: M. von L?wis agreed to see if the grant recipients (Greg Wilson, Brian Zimmer, and/or Ilya Etingof) will be at PyCon, and ask them to report on what they've done.     Status: **carried forward**.
+
+4   Conference Committee
+------------------------
+
+A. Kuchling posted a status report to the PSF-board mailing list just
+prior to the meeting:
+
+    Current status of PyCon: 205 registrants.  The spreadsheet
+    indicates that this means a loss of around $23K.  Break-even is
+    calculated to be around 250 registrants.
+
+    Jeff Rush did get the hotel to lower the food price from
+    $42/person to $30; this is taken into account in the above figure.
+    Another sponsor or two have appeared; they haven't been taken into
+    account yet, but they won't change the picture very much.
+
+    We aren't currently filling our room block, and therefore will be
+    paying penalty fees on rooms and on food.
+
+    (The penalty fee is just the cost of the rooms for that night.  We
+    should therefore consider booking rooms for keynote speakers, PSF
+    board members, etc.; if the PSF is paying the cost of X rooms, we
+    might as well get something for the money.)
+
+    Tutorial registrations are healthy: 136 seats have been filled (I
+    don't know how many people that is, because people can register
+    for 1 or 2 spots).  I estimate about $3000 profit from the
+    tutorials at this time.
+
+    Lengthening the early-bird brought in about 15 more registrations
+    so far, so it didn't make a huge difference.  We'll raise prices
+    on the 15th as planned.
+
+    Current actions: more last-minute publicity.  I wrote an Advogato
+    post, and submitted a slashdot story; will send out more
+    announcements in hope of attracting more people; will send note to
+    2005 attendees asking why they aren't attending (location, date,
+    cost, program?); preparing some banner ads.  Jeff Rush will try to
+    publicize more among local groups.
+
+    Issue for discussion: should we tell the community about the
+    shortfall?  Maybe people will rethink registering, or help
+    publicize more.  Maybe it's too whiny.
+
+    Issue for discussion: given that we've signed a 2-year contract,
+    what do we do for 2007?  Options I can think of:
+
+    - Try to be released from the contract.  This is only worth doing if it's free.  If we have to pay the $70000 penalty, it's better to give the conference and take the smaller 20K loss.
+
+    - Reduce the contract numbers to ~200-250, so that the total costs are cheaper and we actually meet our numbers.
+
+    - Keep the numbers the same, and try to do better on publicity to reduce the loss.  I made various mistakes -- most notably a delay in getting the schedule posted -- but it's not clear if that delay is responsible for the poor registration.
+
+    Other suggestions?
+
+S. Deibel asked A. Kuchling about the status of the funding we
+approved for helping people to attend PyCon: &quot;Have you had any
+responses to your posting?&quot;  A. Kuchling replied that five or six
+requests for funding had been received.
+
+N. Norwitz suggested that we need to publicize the Feb. 1 hotel
+reservation deadline.  S. Deibel agreed, noting that in addition to
+the lower room rate, &quot;We should make clear that reservations after Feb
+1st don't count for us so making them before saves the PSF $89/nite or
+whatever it is.&quot;
+
+5   PSF Members' Meeting
+------------------------
+
+S. Deibel reported that he sent email asking for member and director
+nominations and will follow up and keep the list of those nominated.
+All directors present confirmed their candidacy for director; the
+other two directors (Steve Holden and Jeremy Hylton) were to be
+confirmed.  David Goodger and Brett Cannon had also been nominated for
+director.
+
+M. von L?wis asked about converting members into emeritus status,
+noting that we don't have to do this (since it was done last year, it
+isn't critical this year).  S. Deibel replied that Jeremy Hylton took
+care of looking at records for emeritus conversion last year.  It was
+agreed to forget about this.
+
+S. Deibel expressed concern that the minutes from the 2005 members'
+meeting were not in the repository.  D. Goodger noted that J. Hylton
+has promised to produce the minutes, and there is a draft dated March
+27 2005 in the PSF-Members mailing list archives.  M. von L?wis noted
+that the attendance of previous years' meetings were also missing.
+S. Deibel noted his general feeling that &quot;Jeremy continues to be too
+busy to really carry out his job [secretary] in a timely
+fashion...  And secretary is pretty darn important as we find out at
+moments like this. ... We do need to fix the records issue, at least
+going forward.&quot;
+
+S. Deibel brought up deadlines.  M. von L?wis suggested January 30th
+for sending out snail mail invitations to PSF members; S. Deibel
+agreed.  A. Kuchling volunteered to help with mailing to
+U.S. addresses.
+
+S. Deibel also suggested January 30th as the deadline for the agenda
+and nominations.  T. Peters noted that the bylaws state that for a
+regular meeting, the notice is only required to state &quot;the place, date
+and hour of the meeting&quot;.  M. von L?wis noted that all forms are sent
+to the same address, and then distributed.  Absentees are requested to
+also email the recipient, first confirming their presence.  Proxy
+forms must be received one week in advance of the meeting.
+
+6   Grants Committee
+--------------------
+
+M. von L?wis noted that Brian Zimmer did not complete the Jython
+project, and we still need to determine what fraction was done and
+what the payment should be.  Brian had suggested that Frank Wierzbicki
+get the remaining money, since he is doing the remaining work.  M. von
+L?wis asked if the board would agree to a procedure where Frank gets a
+separate contract.  There was agreement in general, but discussion
+ensued regarding the amount of the split, and how it was to be worded.
+
+    RESOLVED, that the total amount previously authorized by the Board
+    to be paid to Brian Zimmer as part of his Jython grant be split
+    between Brian Zimmer and Frank Wierzbicki, in proportion to be
+    decided by the Grants Committee.
+
+Approved 5-0-0.
+
+7   Adjournment
+---------------
+
+S. Deibel adjourned the meeting at 19:04 UTC.

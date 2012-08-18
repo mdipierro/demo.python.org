@@ -1,0 +1,154 @@
+The Python Software Foundation 
+
+Minutes of the 2010 Members' Meeting 
+
+February 19, 2010
+
+The Python Software Foundation (the &quot;PSF&quot;) held an informal annual
+members' meeting on February 19, 2010 during lunch at the Hyatt
+Regency Atlanta hotel in Atlanta, Georgia, USA (PyCon 2010 Atlanta).
+Steve Holden presided over the meeting. Pat Campbell prepared these
+minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Greetings & Announcements <#greetings-announcements>`_
+
+- `3   2010 Election Delay Issues <#election-delay-issues>`_
+
+- `4   Role of the PSF <#role-of-the-psf>`_
+
+- `5   Number of Available Slots for Board <#number-of-available-slots-for-board>`_
+
+- `6   Guido van Rossum's Proposal <#guido-van-rossum-s-proposal>`_
+
+- `7   Glancing at PSF Activities for 2009 <#glancing-at-psf-activities-for-2009>`_
+
+- `8   Financial Report <#financial-report>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+No attendance was taken.
+
+`2   Greetings & Announcements <#id2>`_
+-------------------------------------------
+
+During the PSF members' lunch at PyCon on February 19, 2010, S.
+Holden greeted members, prospective members, and prospective
+board members and announced that the members' election would be
+postponed and rescheduled to take place at a later date due to the
+need to find an electronic voting mechanism to replace the manual
+voting apparatus used in past members' annual elections.
+
+However, an informal members' meeting did take place during the
+lunch where members were invited by S. Holden to speak on PSF
+matters of concern to them.
+
+`3   2010 Election Delay Issues <#id3>`_
+----------------------------------------
+
+To start, a question was posed by G. van Rossum as to who would be
+taking responsibility for the 2010 members' meeting election debacle.
+The PSF secretary responded by saying: &quot;that would be me.&quot; S. Holden
+stepped in and said that he would take full responsibility for the
+election delay and that the members' election for 2010 will take
+place next month.
+
+`4   Role of the PSF <#id4>`_
+-----------------------------
+
+After being recognized by the chairman of the board, V. Lindberg
+asked if the prospective members and the prospective board members
+would introduce themselves and provide some insight into &quot;what
+they see as the role of the PSF.&quot;
+
+Four new board candidates present at the meeting introduced themselves
+and outlined the basis of their candidacies: Jesse Noller, Gloria
+Willadsen, Doug Napoleone, and Allison Randal.
+
+There were two board candidates for the 2010 election who were not present
+during the informal meeting: Greg Stein and Marc-Andr? Lemburg.
+
+`5   Number of Available Slots for Board <#id5>`_
+-------------------------------------------------
+
+There was some discussion over the number of open slots on the board versus
+the number of new board candidates for 2010.
+
+`6   Guido van Rossum's Proposal <#id6>`_
+-----------------------------------------
+
+&quot;My proposal would be to actively work to having a paid contractor do all the
+webmaster, sysadmin, postmaster work -- instead of relying on volunteers and
+also pay for webhosting so that we don't have to worry about, for example, if
+the hard-drive failed, who is going to donate a new one and how fast can they
+FedEx it.
+
+And, maybe the switch to mercurial is also an opportunity to switch to a
+mercurial host. And, I think that we should just pay them rather than slowly
+eat-up goodwill...&quot;
+
+`7   Glancing at PSF Activities for 2009 <#id7>`_
+-------------------------------------------------
+
+S. Holden presented members with a list of activities the board had been engaged
+in during 2009, since some members were concerned about what the foundation had
+done since the last members' meeting a year ago and where the PSF is headed in
+2010:
+
+Various discussions concerning the above can be summarized by the following text,
+posted on the members' list by Jeremy Hylton.
+
+The board needs to set official, measurable goals and communicate them
+to the members.  We had little idea what the organization had done in
+the last year and no one seemed prepared to tell us what had been
+accomplished.  The board ought to decide what is important and focus
+on those things.  We should document those goals, so everyone
+understand what the priorities are.  Those goals should be tied to
+outcomes that are measurable so that we can assess whether we did a
+good job.
+
+The board should provide some regular progress reports on those goals.
+It's been hard to follow what the PSF does.  We learned, via the
+treasurer's report distributed at the meeting, that we spent a lot of
+money helping people travel to conferences.  It made me happy to learn
+that.  It's the sort of report that might help with fund raising,
+because it gives a prospective donor some idea of what their donation
+would do.  Regular progress reports make it easier for people to get
+involved in activities and provides a clear warning sign when
+something is going wrong.  We need some accountability.
+
+One goal that had broad support from the members was making Python
+development easier.  Guido had some specific suggestions about
+infrastructure that generated a few long threads with Martin following
+the conference.  If there is infrastructure work that will go faster
+with paid support, I'd encourage us to pay for support.  Sprints were
+discussed as another way to promote Python development.  We should
+host more sprints and provide financial support to get key developers
+to attend them.
+
+There was a surprising discussion about whether the board had to avoid
+commercial interests in some way.  I observed that the foundation was
+created by Greg and folks from Zope Corp. I don't think anyone
+expressed a concern about working with the businesses that use Python.
+
+The board shouldn't feel the need to come to the full membership to
+ratify its decisions on a regular basis.  We all felt comfortable with
+the officers and the board making executive decisions.  I think some
+board members worried that before they took any action, they had to at
+least take a straw poll on the membership list.  That's not necessary.
+Moreover, if the PSF has official goals, measurable outcomes, and
+regular progress reports, the members will be able to make some noise
+if they ever have a concern.  A similar point was that the board
+should appoint some officers who will get things done.  We don't need
+to elect people to the board in order for them to do something for the
+PSF.  The board serves an executive function and the work should be
+done by the officers and committees.
+
+`8   Financial Report <#id8>`_
+------------------------------
+
+The PSF treasurer provided a financial report to members.

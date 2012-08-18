@@ -1,0 +1,62 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+February 11, 2003. 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 1 p.m. EST. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Marc-Andre Lemburg, Tim Peters, Guido van
+Rossum.  A quorum was present.
+
+2. Meeting minutes of past IRC meetings.
+########################################
+
+Guido moved to approve the meeting minutes of January 14th. Motion
+passes unanimously.
+
+3. Contributor forms.
+#####################
+
+Lemburg reported that Chris Rourk will not be available to review
+contributor forms for a couple of weeks.  The board decided to seek
+paid advice from Larry Rosen.
+
+The Board unanimously adopted the resolution
+
+    RESOLVED, that the foundation will pay up to $1,000 for legal
+       review of the contributor agreement.
+
+5. PyCon
+########
+
+Van Rossum reported that registration is open and papers have been
+selected.  There were 15 people registered at the time of the meeting.
+We will need roughly 150 to 200 people registered to break even.
+
+The next 15 percent of the money to George Washington Univ. is due on
+Feb. 24, which is four days before the early registration deadline.
+Van Rossum will notify the board of the registration status a few days
+before the 24th. 
+
+The board felt there was a need to better publicize the conference.
+
+6. Members meeting
+##################
+
+The PyCon schedule has time reserved for a members meeting.  The
+bylaws require that an annual meeting to elect board members be held
+within 13 months of the previous election.  A quorum of 19 members,
+present or voting by proxy, would be required.
+
+7. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 1:30
+p.m.

@@ -1,0 +1,134 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+April 13, 2004 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+p>The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Steve Holden, Jeremy Hylton, Martin v. L?wis,
+Tim Peters, and Guido van Rossum.  Neal Norwitz also attended.  A
+quorum was present.  Hylton took minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The minutes of the March meeting were approved 5-0-1.  The minutes
+of the February meeting were approved by a 3-0-2 vote.  The minutes of
+the December meeting were approved by a 3-0-3 vote.
+
+3. Reports
+##########
+
+Reports were sent by email.  [Need to be incorporated into minutes.]
+
+4. Designation of Executive Vice President
+##########################################
+
+The Bylaws require that we appoint an executive vice president if
+there is more than one vice president, although we have failed to do
+that in the past.  David Ascher was nominated, although he was not
+present to accept the nomination.
+
+Deibel moved that it is
+
+    RESOLVED, that David Ascher is designated Executive Vice President
+    of the Python Software Foundation.
+
+The resolution passed 6-0-0.
+
+5. Grants Committee
+###################
+
+Von L?wis moved that it is
+
+    RESOLVED, that a Grants Committee is formed, with Michael
+        McLay, Paul Dubois, Jeremy Hylton, and Martin v. L?wis as
+        initial members, and Martin v. L?wis as the initial chairman
+        and Vice President of Grants, that the Grant Committee drafts
+        for approval by the Board the rules for soliciting grant-funded
+        development proposals designed to further the PSF mission, that
+        the committee selects among proposals and oversees the completion
+        of those that are accepted by the Board, and that members of
+        the committee cannot apply for grants until one (1) year after
+        they leave the committee.
+
+The resolution passed 6-0-0.
+
+Von L?wis said he hoped to set an August deadline for the first round
+of grant proposals.
+
+6. Public Relations Committee
+#############################
+
+Several issues were discussed before finalizing the details of the
+public relations committee.  The board agreed that it was not willing
+to pay members to do work for this committee.  It also discussed the
+scope of the committee:  Fund raising should remain with the public
+support committee.  Registration of trademarks should be handled by
+the secretary.
+
+It was noted that CNRI was granted a trademark on Python on March 23,
+2004.  There is an agreement between the PSF and CNRI to transfer that
+trademark to the PSF.
+
+    RESOLVED, that a Public Relations (PR) Committee is formed, with Tim
+      Parkin, Kevin Altis, Aahz, Barry Warsaw, Andrew Kuchling, and Steve
+      Holden as initial members, and Steve Holden as the initial chairman
+      and Vice President of Public Relations, that the PR Committee
+      replaces and subsumes the activities of the previously disbanded Web
+      Committee, and that the PR Committee shall:
+
+      1. Facilitate and oversee the development and maintenance of the official
+      informational, marketing, and advocacy materials for the Python
+      programming language, including but not limited to those appearing
+      on python.org, brochures, and press releases.
+
+      2. Ensure that content and design for such materials is consistent and
+      appropriate with the mission and requirements of the Python Software
+      Foundation and the needs and ideals of the Python open source
+      community.
+
+      3. Develop and manage brand identities associated with the Python
+      Software Foundation and Python.
+
+      4. Actively promote Python in commercial, governmental and educational
+      contexts, in order to facilitate the recruitment of new users and
+      contributors to Python.
+
+The motion passed 5-0-0.
+
+7. Public Support Committee
+###########################
+
+Deibel moved that it is
+
+    RESOLVED, that the Public Support Committee formed in August 2002
+      shall continue under current membership and leadership, and that the
+      committee's activities shall now be constrained to all aspects of
+      fund raising for the PSF, including but not limited to (1) creation
+      of fund raising messages, ads, and materials, (2) soliciting of
+      donations from private and company contributors, and (3) management
+      of fund raising infrastructure.
+
+The motion passed by a 5-0-0 vote.
+
+7. Miscellaneous
+################
+
+There was no progress on the contributor forms, reported Von L?wis.
+Larry Rosen was asked to review changes to the Bylaws to support
+electronic meetings, but did not report, reported Peters.  The
+trademark for Python Software Foundation has not been registered yet,
+Hylton reported.
+
+10. Adjournment
+###############
+
+The meeting was adjorned at 18:00 GMT, the scheduled time for the end
+of the meeting.

@@ -1,0 +1,117 @@
+December 27, 2004
+Press Release
+SOURCE: Python Software Foundation
+
+PYCON 2005 - THIRD ANNUAL PYTHON DEVELOPERS CONFERENCE
+Keynote Speech by Jim Hugunin, author of IronPython.
+
+FREDERICKSBURG, Va., December 27, 2004 -- PyCon 2005, the third
+annual Python developers' conference, will be held at George
+Washington University's Cafritz Conference Center in Washington DC on
+March 23-25, 2005.  The keynote speaker will be Jim Hugunin, author of
+IronPython.  IronPython is a new implementation of the Python
+programming language for the Microsoft .NET and open-source Mono
+platforms.
+
+PyCon is a community-oriented conference targeting developers
+interested in Python, a powerful open source programming language.
+The conference provides opportunities to learn about significant
+advances in the Python development community and to meet fellow
+developers from around the world.  The conference program will include
+peer-reviewed presentations, impromptu talks, and meetings for
+planning future development.
+
+"PyCon brings together Python users of all types, from newbies to
+veterans, to exchange ideas, work on code, discuss future directions for
+the language, and in general to foster the continued success and growth
+of the Python technology base. This is a community-oriented conference
+and the Python community includes everyone, from grade schoolers just
+learning about computer science, to renowned scientists interested in
+using the best tools, to business people looking for a secret weapon,"
+said Guido van Rossum, creator of Python.
+
+PyCon 2005 is organized by members of the Python community, and made
+possible by the Python Software Foundation and conference sponsors.
+
+Early bird conference registration costs $175 US ($125 for students)
+through January 28.  Regular per-registration after that date will
+cost $250 ($175 for students), and $300 ($225 for students) at the
+conference.
+
+For more information or to register, please visit the PyCon 2005 website:
+http://www.python.org/pycon/2005/
+
+Coding Sprints
+
+The conference will be preceded by 4 days of coding sprints on March
+19-22.  Sprints are intensive coding sessions focusing on a particular
+problem, and they give an opportunity for face-to-face collaboration
+between developers who normally communicate online.  Participation in
+sprints is free of charge and open to all.
+
+Planning for the sprints is taking place on the web at
+http://www.python.org/moin/PyConDC2005/Sprints
+
+
+About Python
+
+Python is a powerful object-oriented programming language that is
+developed and maintained by a global community of open source developers
+under the oversight of the Python Software Foundation.
+
+Python is very easy to learn for programmers familiar with other
+languages such as C, C++, Java, and Visual Basic, and can
+significantly increase programmer productivity.  It is often
+characterized as an agile language that promotes speedy development
+and includes a unit-testing framework for building more robust
+applications. Python is often used in large system development to
+decrease software costs, mitigate risk, and meet aggressive
+schedules. The language is the basis of applications used by tens of
+thousands of companies and organizations worldwide, and its user base
+is growing rapidly.
+
+Key features of Python include:
+
+* Object orientation, modular name spaces, exceptions, and multi-threading
+* High-level dynamic data typing and very late binding
+* Tight integration with C, C++, and Java modules
+* May be compiled to Java byte code for use in any JVM
+* String and regular expression processing
+* Extensive XML and web services support
+* HTTP, FTP, SMTP, POP, IMAP, NNTP, telnet, and other IP protocols
+* HTML, MIME, base64, binhex, uuencode, and other internet data handling
+* GUI development and multimedia services
+* Unit testing, profiling, and documentation generation
+* Available third party modules for database access, scientific computation,
+  visualization, 3D modeling, image processing, LDAP, WebDAV, jabber, 
+  MIDI, game development, and much more
+
+Python runs on Microsoft Windows(R), Mac OS X, Linux, Unix, OS/2, WinCE,
+and many other operating systems. Full source code is available for the
+language and associated standard libraries.
+
+Additional information and downloads are available at www.python.org.
+
+About the PSF
+
+The Python Software Foundation (PSF) is a non-profit organization
+devoted to advancing Open Source technology related to the Python
+programming language. The PSF holds the intellectual property rights to
+Python and plans to fund portions of future development of the
+language. Additional information on the PSF is available at
+http://www.python.org/psf. To make a tax-deductible donation, please
+visit http://www.python.org/psf/donations.html. Corporate sponsorships
+are also being accepted.
+
+
+
+Press Contact
+
+Stephan Deibel
+Wingware
+PO Box 1937
+Brookline, MA 02446
+617-232-0059
+sdeibel@wingware.com
+http://www.wingware.com/
+

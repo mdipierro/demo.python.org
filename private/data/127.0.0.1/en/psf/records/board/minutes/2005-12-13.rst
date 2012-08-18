@@ -1,0 +1,268 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+December 13, 2005
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:04 UTC, 13
+December 2005.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Martin von L?wis, Steve Holden, Andrew
+Kuchling, Tim Peters, Jeremy Hylton (arrived at 18:11), and David
+Ascher (arrived at 18:25).  Also in attendance were Kurt B. Kaiser
+(Treasurer), Neal Norwitz (Assistant Treasurer), and David Goodger
+(Assistant Secretary).  D. Goodger prepared these minutes.
+
+2   Minutes of Past Meetings
+----------------------------
+
+The November 2005 minutes were approved by a 4-0-1 vote.
+
+3   Status of Past Action Items
+-------------------------------
+
+The following are action items carried forward from the November 2005
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from September 2005, Section 4, Donor Levels: S. Deibel will add the topic of &quot;Donor Levels&quot; to the agenda of a future meeting, and may begin discussions via email before that.     Status: **carried forward**.
+
+- Originally from September 2005, Section 8, Conference Committee Status Report: A. Kuchling will send a copy of the PyCon 2006 contract to the Treasurer.     Status: **done**.
+
+- Originally from September 2005, Section 9, Grants Committee: M. von L?wis will verify whether Brian Zimmer's grant invoice is the one previously discussed (i.e. a reduced amount of work, and a reduced payment).     Status: **carried forward**.
+
+- Originally from September 2005, Section 10.1, Trademarks & The .com Domain: N. Norwitz will ask the lawyer about the python.com domain.     Status: **in progress**.  N. Norwitz has begun discussions with the lawyer.  He reports that he is supposed to talk to the lawyer again at some point, but it doesn't seem like our chances are great of getting python.com.
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: **carried forward**.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: D. Goodger will ask if Ubuntu wants to become a PSF sponsor or donor.     Status: **done**.  D. Goodger asked Mark Shuttleworth if Ubuntu would like to become a PSF sponsor or donor.  There is no response yet.  Followup required: Mark Shuttleworth (Ubuntu/Canonical) on PSF sponsorship or donation.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: **carried forward**.
+
+- Originally from October 2005, Section 7, Reserve Funds: K. Kaiser will send a reserve fund investment proposal to the PSF-board mailing list.     Status: **carried forward**.
+
+The following action items originated with the November 2005 meeting,
+as highlighted in the minutes:
+
+- Section 4, Python.org Redesign: To do [S. Holden]:    - get the new production system to run on Mac OS X;  - detail which parts of the current content have been transformed for the new system and which parts still require conversion;  - complete the documentation so that webmaster team members can use the new system rather than the old one.    Status: **in progress**.  See `Python.org Redesign <#python-org-redesign>`_  below.
+
+- Section 6, Funding of PyCon Attendees: A. Kuchling will discuss attendee funding with the conference committee and make a proposal to the board.     Status: **done**.  See `Funding of PyCon Attendees  <#funding-of-pycon-attendees>`_ below.
+
+- Section 7, Public Support Committee: D. Ascher will ask Bram Cohen (BitTorrent) about PSF sponsorship.     Status: **done**; no answer so far.  Followup required: Bram Cohen (BitTorrent) on PSF sponsorship or donation.
+
+- Section 8, Trademark Policy: D. Ascher will probably work with ActiveState's legal person on trademark policy.     Status: **carried forward**.
+
+4   Python.org Redesign
+-----------------------
+
+S. Holden reported that he has been in touch with Tim Parkin: he needs
+to finalize the build process, and this work has been delayed behind
+other paying jobs.  Work is progressing on a system to track which
+parts of hte site has been converted, and Tim has asked A. Kuchling
+about putting a test server up.  A. Kuchling replied that we can
+certainly create a test server, but Tim hasn't asked him to do
+anything in particular.  D. Goodger volunteered to help with Mac OS X,
+and commented that the redesign should be up & running before PyCon.
+S. Holden replied that it *must* be up before PyCon, but there isn't
+much to do now.  S. Holden said he would speak with Tim
+Parkin and they would contact A. Kuchling about setting up a
+publicly-visible test server. Then help could be recruited from the
+pydotorg list.
+
+D. Goodger suggested that the PSF board set a deadline, to push from
+our end, and not wait on Tim.  A. Kuchling agreed, suggesting it might
+also stir the pydotorg list participants into action.  S. Deibel
+remarked that it would be great to have the site up and running, but
+it seems like time is short and there are probably a lot of snags.
+D. Goodger replied that we &quot;won't know if we don't try ... let's get
+it off Tim's plate and onto ours&quot;.  S. Deibel agreed.
+
+S. Holden remarked that Tim Parkin has probably done more work on the
+system than he had originally anticipated; we should look at taking
+the SVN repository in to the web server.  D. Goodger suggested a
+weekend IRC sprint; others agreed, and S. Holden said that he
+would see if Tim Parkin is available for an IRC sprint: &quot;A SWAT team
+approach might move things along.&quot;
+
+S. Holden reported that Tim Parkin is anxious to get formal acceptance
+of his work so he can access the final payment.  S. Deibel replied
+that it can't be accepted until it's deployed in some form -- once we
+have something in our hands, then he would be OK with paying.
+S. Holden asked if payment can be made once the source is in our SVN
+repository.  D. Goodger suggested SVN plus at least a test/partial
+deployment.  S. Deibel pointed out that there should be enough
+documentation so that work can be picked up by others.
+S. Holden said that he would be responsible for making sure
+that documentation is available for the new python.org system.
+S. Deibel stated that we need sources, a test deployment, a map/list
+of parts that have been translated and that need manual work, and
+documentation.
+
+J. Hylton asekd if the original contract had a statement of work.
+S. Deibel confirmed that there was (and shortly after the meeting
+ended, he posted a link to the original proposal:
+`http://wiki.python.org/moin/WebsiteRedesignProposal <http://wiki.python.org/moin/WebsiteRedesignProposal>`_).
+
+5   Conference Committee
+------------------------
+
+A. Kuchling posted a status report to the PSF-board mailing list just
+prior to the meeting:
+
+    PyCon status, Dec. 13 2005 
+
+    The program is mostly complete: 
+
+    `http://wiki.python.org/moin/PyCon2006/Talks 
+    <http://wiki.python.org/moin/PyCon2006/Talks>`_ 
+
+    `http://wiki.python.org/moin/PyCon2006/Tutorials 
+    <http://wiki.python.org/moin/PyCon2006/Tutorials>`_ 
+
+    `http://wiki.python.org/moin/PyCon2006/Sprints 
+    <http://wiki.python.org/moin/PyCon2006/Sprints>`_
+
+    The talks have been chosen and announced, but the actual schedule
+    hasn't been posted by the Program Chair yet.  I am not happy about
+    this and have been badgering him about it; we'll set the schedule
+    in an IRC meeting next year.
+
+    There are no keynote speakers yet, beyond GvR.  It's increasingly
+    probable we won't have any other keynotes.  (I'm OK with that,
+    frankly, not being a big fan of keynote speeches.)
+
+    There's still room for sprints, so feel free to add sprints for
+    your project.  I'll be posting a call for sprints/call for BoFs
+    soon.
+
+    Registration is now open.  Cost is $185/125 student, a $10
+    increase.  Early bird registration ends Dec. 31st, after which
+    prices go up, so if you're going, please register.  Current
+    registration: 27 attendees (12 tutorial registrations), but it's
+    still early; most will be last-minute.  Break-even figure is 351
+    attendees.  I don't have current hotel registration numbers.
+
+    Sponsorship target of $16K reached.  (Sponsorships are still
+    available, if you know any possibilities.)
+
+    Jeff Rush is working on negotiating lower food costs.  No results
+    yet, but any reduction will make a significant change.
+
+    Publicity suggestions are welcome. 
+
+    I can answer questions on psf-board or at the meeting.
+
+D. Ascher asked who the sprint coordinator was; he wanted to know who
+to tell the Django folks to talk to.  A. Kuchling replied that Jeff
+Rush is probably the closest to being sprint coordinator.  D. Goodger
+stated that sprints are more-or-less self-coordinating; just have them
+add to the wiki page.  J. Hylton replied &quot;As a former sprint
+coordinator, I'd say it would be good to have someone to actually
+coordinate, answer questions, etc.&quot;
+
+N. Norwitz noted that we don't have all keynote slots filled, and
+asked if he should try to ask Andy Hertzfeld.  A. Kuchling replied
+that &quot;if we don't find anyone, that's OK with me.  If we find someone,
+that's *also* OK with me...  We'll probably have a lightning talk
+plenary session on the Sunday.&quot;
+
+5.1   Funding of PyCon Attendees
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    RESOLVED, that the Python Conference Committee is given additional
+    funds of up to $6000 to pay attendance costs for individuals
+    attending PyCon 2006, at the discretion of the Conference
+    Committee.
+
+Approved 7-0-0.
+
+6   PSF Member Meeting
+----------------------
+
+S. Deibel stated that we need to begin preparing for the PSF member
+meeting in February at PyCon, and asked what needs to get
+done/prepared.
+
+S. Holden and M. von L?wis replied: 
+
+- announce the meeting,
+
+- call for Board nominations,
+
+- prepare an agenda,
+
+- prepare proxy forms with both board and new member nominations (plus board-approved sponsor members),
+
+- send out email and snail-mailed invitations & proxy forms,
+
+J. Hylton suggested that we find a company that can send the snailmail
+given templates and addresses.  S. Deibel agreed, and noted that
+usually it's the secretary that does this, but last year things almost
+didn't happen in time, so it would be good to assign tasks clearly.
+J. Hylton took on the task of finding someone to send out
+member meeting notices & proxy forms. M. von L?wis
+volunteered to ensure that the necessary steps are taken for the
+member meeting.
+
+J. Hylton noted that we can't send mail out until we have an agenda.
+S. Deibel replied that the agenda will probably be very similar to
+last year.  J. Hylton suggested that we should start the ball rolling
+on nominations and the like; the actual proxy form with votes may be
+the biggest source of delay.  S. Deibel volunteered to send
+email to psf-members to ask people to do new member nominations.
+
+A. Kuchling and M. von L?wis noted that the minutes for the member
+meetings of 2005, 2003, and 2002 are missing.  J. Hylton
+pledged to complete the minutes for the 2005 PSF member meeting. (He
+posted a draft to psf-members on March 27, but never wrote up an
+official version.)  S. Deibel noted that the 2003 meeting minutes may
+never have been done.
+
+7   PSF BoF Sessions
+--------------------
+
+S. Deibel reported that there are currently two PSF-related
+birds-of-a-feather (BoF) sessions scheduled for PyCon, and asked who
+is going to deliver the talks and run the discussions.  A. Kuchling
+noted that the two are:
+
+- a PSF Grant Program BoF (tips on what the PSF is looking for), and
+
+- a Google Summer of Code BoF (what was done, the outcomes, and what will happen next year).
+
+A. Kuchling volunteered to run the Summer of Code BoF if nobody else
+was forthcoming, and noted that the subject would be regarding what
+the PSF did for the SoC, not about the SoC in general.  J. Hylton
+suggested that Chris DiBona and Greg Stein be asked if they want to
+participate in the SoC BoF.  A. Kuchling noted that if Chris DiBona is
+coming to PyCon, he and a PSF director would probably work well.
+A. Kuchling promised to write to Chris DiBona and Greg Stein
+and ask about their attendance at PyCon and possible BoF
+participation. N. Norwitz thought that neither Chris nor Greg is
+coming to pycon; J. Hylton noted that &quot;no one at work is excited by
+the location&quot;.  D. Goodger noted: &quot;the location: it's a hotel; same
+everywhere&quot;.
+
+M. von L?wis agreed to lead the Grants BoF.  He envisions a discussion
+on &quot;what the PSF wants to pay for&quot;, but suggested that the PSF should
+really decide what we *are* looking for, either before PyCon, or
+during the BoF.  A. Kuchling envisioned that the subject of the BoF
+would be &quot;how to write proposals that aren't awful&quot;, not &quot;the PSF
+wants to fund X, Y, and Z&quot;, but left the subject up to M. von L?wis.
+A. Kuchling suggested, and M. von L?wis agreed, to see if the
+grant recipients (Greg Wilson, Brian Zimmer, and/or Ilya Etingof) will
+be at PyCon, and ask them to report on what they've done.
+
+J. Hylton noted that he thought we could give a lot of helpful advice
+to people on how to write a successful proposal.  S. Diebel stated
+that he planned to attend both BoFs.
+
+8   Adjournment
+---------------
+
+S. Deibel adjourned the meeting at 19:04 UTC.

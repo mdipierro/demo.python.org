@@ -1,0 +1,97 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+February 8, 2005 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 1:00 EST. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: David Ascher, Jeremy Hylton, Tim Peters, Stephan Deibel, and
+Guido van Rossum.  Neal Norwitz and Kurt Kaiser also attended the
+meeting.  Hylton took minutes.
+
+2. Meeting minutes approved
+###########################
+
+The January minutes were approved by a 4-0-1 vote. 
+
+*Hylton will circulate draft minutes for the
+Dec. 2004 meeting.*
+
+3. Discussion of action items
+#############################
+
+Norwitz reported that Google stock received as a gift in Dec. 2004
+was sold at $200.66 a share.  He also reported that Tim Parkin's
+company was paid per the January resolution ("Web Site Redesign") and
+that Active Grid paid a sponsor member fee.
+
+4. Assistant treasurer
+######################
+
+Kurt Kaiser was appointed assistant treasurer by unanimous vote.
+
+5. Member meeting
+#################
+
+Deibel will run the members meeting at PyCon. 
+
+*Hylton will send meeting notices and proxy
+forms.  He will also compile a list of members who have not voted at
+the last two meetings and suggest that they become emeritus
+members.*
+
+Deibel will also run the "What is the PSF" session at PyCon.  It
+will be an informal session with no specific preparation needed.
+
+6. Change to psf-board mailing list policy
+##########################################
+
+The board discussed whether people other that board members or
+officers should be subscribed to the psf-board mailing list.  The
+foundation lawyer raised a concern about privileged communication with
+the board, because regular members were also on that list.  There was
+also some concern that sensitive communicates might want to be limited
+to current board members.
+
+RESOLVED that subscribers to the psf-board mailing list be officers
+or directors of the corporation or the corporation counsel.a
+
+Passed 5-0-0. 
+
+*Van Rossum updated the mailing list
+membership.*
+
+7. Discussion of board size
+###########################
+
+The board discussed whether the foundation would benefit from
+having a larger board, specifically because there are more candidates
+for the new board than there are positions on the board.  The
+membership is responsible for setting the board membership, but the
+board could make a recommendation.
+
+There was not clear consensus on the issue, although a few board
+members expressed interest in keeping as many active board members as
+possible.  If a motion is to be voted on in the meeting, it should be
+included in the meeting notice and proxy forms.
+
+8. Miscellaneous
+################
+
+Ascher reported on a Perl Foundation meeting that he was invited to
+attend.  Van Rossum reported on some tensions on the python IRC
+channel.  Hylton suggested that the PSF designate one of the officers
+as the group contact at freenode.  Hylton mentioned that we need to
+determine what acceptable use of the Python trademark is and begin
+policing it, but there was no time for further discussion.
+
+Adjournment.
+############
+
+The meeting was adjourned at 2:06 p.m. EST.

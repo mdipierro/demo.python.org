@@ -1,0 +1,324 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+February 8, 2010
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 8
+February 2010.  Steve Holden presided at the meeting.  Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Status of Past Action Items <#status-of-past-action-items>`_- `4.1   Carried Forward <#carried-forward>`_  - `4.2   New On 11 January <#new-on-11-january>`_  - `4.3   New Between Meetings <#new-between-meetings>`_
+
+- `5   PSF Community Service Award Nominations for 2010-1st Qtr. <#psf-community-service-award-nominations-for-2010-1st-qtr>`_
+
+- `6   Sponsor Membership Application for Rogue Wave Software <#sponsor-membership-application-for-rogue-wave-software>`_
+
+- `7   Funding for GSoC-like Event <#funding-for-gsoc-like-event>`_
+
+- `8   Trademarks Committee Membership for Carl Trachte <#trademarks-committee-membership-for-carl-trachte>`_
+
+- `9   Copyright Assignment Current Status & Next Step <#copyright-assignment-current-status-next-step>`_
+
+- `10   Treasurer Report <#treasurer-report>`_
+
+- `11   Progress Report <#progress-report>`_
+
+- `12   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, Raymond Hettinger [joined meeting at 17:12],
+Steve Holden, Andrew Kuchling, Martin v. L?wis, David Mertz, Tim Peters,
+and Jeff Rush.  Also in attendance were Kurt Kaiser (Treasurer), David
+Goodger (Secretary), and Pat Campbell (Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 11 January 2010 Board meeting minutes were approved by a vote of
+5-0-2.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting on 11 January 2010.
+
+`4   Status of Past Action Items <#id4>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+Action items are tracked in `the private PSF wiki <http://wiki.python.org/psf/Action_Items>`_ and their status is
+recorded in the regular minutes.  The numbers in square brackets (like
+&quot;[0]&quot;) refer to the action item ID on the wiki.
+
+`4.1   Carried Forward <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 14 December &
+21 December 2009 meeting, as highlighted in the minutes (Section 4, Status
+of Past Action Items).  Numbers in [brackets] represent the item ID in the PSF
+private wiki.
+
+- [11] Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository.  D. Goodger will coordinate this work and maintain the records.  [Update 2008-12-08] D. Goodger will identify the records for scanning and send photocopies to P. Campbell.  [Update 2009-03-10] Copies received by P. Campbell [Update 2009-06-08] D. Goodger to send more copies to P. Campbell for scanning.     Status: active.
+
+- [15] Originally from 14 April 2008, Section 7, PyCon Asset Record-Keeping: D. Goodger will update the assets file in PSF CVS with the details of the laptops and VGA2USB boxes purchased for PyCon 2008.     Status: pending.
+
+- [16] Originally from 14 April 2008, Section 12, Sponsor Membership Issues: D. Goodger and P. Campbell will update the member information in members.xls (sponsors & nominated members) & sponsor-addrs.txt, in PSF CVS. [Update 2009-06-19 & 2009-06-25] P. Campbell updated sponsor-addrs.txt & sent to K. Kaiser on 2009-06-19 & updated members.xls & sent to D. Goodger to post on PSF CVS on 2009-06-25.     Status: active.
+
+- [4] Originally from 16 June 2008, Section 6.2, Treasurer's Report: D. Goodger will follow up regarding the PyCon transaction analysis.     Status: pending.
+
+- [10] Originally from 16 June 2008, Section 6.8, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon registrations.     Status: pending.
+
+- [25] Originally from 11 August 2008, Section 6.2, PyCon UK Sponsorship: R. Hettinger will propose a blanket policy for sponsorships, instead of one-off requests.     Status: pending.
+
+- [17] Originally from 8 September 2008, Section 7, PSF Logo: D. Goodger will produce final layouts for a PSF logo.     Status: pending.
+
+- [42] Originally from 12 January 2009, Section 10, Legal Issues: K. Kaiser will look into acquiring errors and omissions insurance for the Board of Directors. [Update 2010-02-06: Received application. Next: complete & send to Steve]     Status: active.
+
+- [50] Originally from 12 March 2009, Section 8, Account Signature Authority: K. Kaiser will obtain signature cards from the PSF's bank and coordinate their signing. [Update 2010-02-06: Sig cards sent to Tim/Steve]     Status: active.
+
+- [51] Originally from 27 March 2009, Section 4, New Members: D. Goodger and P. Campbell will inform the new members of their election, invite them to join the psf-members list, and will update the membership records. [Update 2009-04-16/DG: Email sent to new nominated members.] [Update 2009-06-01/DG: Membership roster updated.] [Update 2009-06-08/DG: Email sent to new sponsor members.]     Status: active.
+
+- [45] Added 2009-05-08: A. Kuchling will design, write, and deploy a Python for Beginners site. (Discussion/notes in public wiki, Drafting has been started).     Status: active.
+
+- [57] Added 2009-05-08: A. Kuchling will analyze how much 'coverage' we have in contributor agreements and if there are any high-profile contributors who haven't signed agreements. Go after people to improve our coverage. (Transferred from #13, Dec 2006 ?4.)     Status: active.
+
+- [58] Originally from 11 May 2009, Section 5, New Memory for PSF Computer: M. von L?wis will purchase new memory to replace faulty memory on a PSF computer.     Status: pending.
+
+- [65] Originally from 11 May 2009, Section 13, Board Email List and Repository Access to PSF Administrator: S. Holden will initiate further discussion via email about adding the PSF Administrator to the Board email list and granting access to the repository.  [Update 2009-06-08: Email access done.]     Status: pending.
+
+- [68] Originally from 11 May 2009, Section 15, PyCon Report: D. Goodger will update the Board by email as soon as the PyCon 2009 financial information is available. [Update 2009-05-22: status email sent to Board.]     Status: active.
+
+- [70] Originally from 8 June 2009, Section 14.1, Progress Report: A. Kuchling will draw up a PSF budget plan.     Status: active.
+
+- [87] Originally from 13 July 2009, Section 16.1, Financial Report: D. Goodger will work with V. Lindberg on a budget plan for PyCon 2010 & 2011.     Status: pending.
+
+- [89] Originally from 13 July 2009, Section 16.1, Financial Report: D. Goodger will inform the Board of the 10% commission amount received from hotel room charges at the Crowne Plaza Hotel stay during PyCon 2009 when the information becomes available.     Status: pending.
+
+- [90] Added 2009-08-02: Pat Campbell to assist Treasurer in collecting all outstanding receivables.  Outstanding total currently $12,000.     Status: active.
+
+- [99] Originally from 12 October 2009, Section 6, Sponsor Membership Levels: D. Mertz will develop guidelines for the new 2010 Sponsor Member fee levels.     Status: pending.
+
+- [102] Originally from 12 October 2009, Section 8, Motion to Adopt a Diversity Statement: D. Mertz will inform PSF members and the Diversity list of the new diversity statement and will consult with Diversity list members on a website location to publish the diversity statement.     Status: pending.
+
+- [104] Originally from November 2009, Section 7, Adopt Guidelines for Sponsor Membership Levels: K. Kaiser will copy the new guidelines for sponsor membership levels into the repository.     Status: pending. [Item missing from wiki page]
+
+- [105] Originally from November 2009, Section 7, Adopt Guidelines for Sponsor Membership Levels: S. Holden will send a sponsor membership levels draft letter out to the Board and to PSF members for comments.     Status: active.
+
+- [107] Originally from November 2009, Section 9, Funding for PyTexas WiFi Setup & Projectors: J. Rush will inform PyTexas organizers of the PSF's grant funding of $150 and request an invoice.     Status: pending.
+
+- [108] Originally from 14 December 2009, Section 5, Funding for DjangoSki: S. Holden will inform DjangoSki organizers of the PSF's grant funding of $750 and request an invoice.     Status: pending.
+
+- [109] Originally from 14 December 2009, Section 6, Funding/Fundraiser for Durian Blender Open Movie Project: J. Rush will inform the Blender Foundation organizers of the PSF's decision to offer matching funds of 10 Euros for each 100 Euros raised, not to exceed $1,500 Euros & request an invoice. He will also provide fund-raising ideas and copy S. Holden on the correspondence.     Status: pending.
+
+- [110] Originally from 14 December 2009, Section 7, PSF Members Meeting at PyCon 2010: D. Goodger will send out a call for resolutions & nominations to be voted on at the 2010 PSF Members meeting to be held at PyCon 2010.     Status: **done**.
+
+- [111] Originally from 14 December 2009, Section 8, Funding for Python 3 Email Module: S. Holden will inform David R. Murray of the boards decision to offer a seed funding grant of $4,000 & assist with raising a further $10,000.     Status: pending.
+
+- [112] Originally from 14 December 2009, Section 9, Appointment of Wendroff as PSF Accountants: S. Holden will inform Wendroff & Associates, LLC of the board's decision to contract with them according to the terms of the agreement.     Status: pending.
+
+- [113] Originally from 21 December 2009, Section 5, PSF budget for 2010: K. Kaiser will update the PSF website to reflect the changes on financial & tax filing data.     Status: pending.
+
+- [114] Originally from 21 December 2009, Section 5, PSF budget for 2010: K. Kaiser will archive the 2010 Budget.     Status: pending.
+
+- [115] Originally from 21 December 2009, Section 6, PSF Community Service Award Nominations for 2009-4th Qtr.: P.  Campbell will mail out awards to 4th quarter recipients of the PSF Community Service Award for 2009.     Status: active.
+
+- [116] Originally from 21 December 2009, Section 6, PSF Community Service Award Nominations for 2009-4th Qtr.: S.  Holden will write a congratulatory letter to the 4th quarter PSF Community Service Award recipients for 2009 & write a PSF blog entry about their contributions to the community.     Status: pending.
+
+- [117] Originally from 21 December 2009, Section 6, PSF Community Service Award Nominations for 2009-4th Qtr.: D. Goodger will update the PSF Wiki website to reflect the change in dollar amount allocated for a PSF Community Service Award recipient.     Status: **done**.
+
+`4.2   New On 11 January <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 11 January 2010 Board meeting on
+IRC.
+
+- [118] Section 5, PyCon 2010 Budget & Current Attendance Rate: R. Hettinger will communicate with V. Lindberg to get the &quot;probable&quot; and &quot;actual&quot; PyCon 2010 major fixed cost figures updated on the googlesheet & contact S. Holden.     Status: pending.
+
+- [119] Section 7, Membership Status of PropertySold.ca: D. Goodger will amend the PSF bylaws to reflect that a two-thirds majority vote of members is enough to change a membership status.     Status: pending.
+
+- [120] Section 9, Arrangements for Members Meeting & Board Meeting at PyCon 2010: D. Goodger will arrange for an open-space room to be allocated & lunch for the members meeting at PyCon 2010.     Status: pending.
+
+- [121] Section 10, Sponsor Member Annual Dues: K. Kaiser will formulate a strategy to be used for the new sponsor member fee level correspondence and invoicing.     Status: active.
+
+- [122] Section 11, Funding for Mercurial 1.5 Sprint: S. Holden will inform Mercurial organizers of the PSF funding of $1,000 and request an invoice.     Status: pending.
+
+`4.3   New Between Meetings <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There were no action items added since the last Board meeting on 11 January.
+
+`5   PSF Community Service Award Nominations for 2010-1st Qtr. <#id8>`_
+-----------------------------------------------------------------------
+
+Two Nominees for the 2010 - 1st quarter PSF Community Service Award
+were selected; Ken Whitesell for long-term grass roots support of the
+PyCon conference, tutorial presentations and Python evangelism in the
+corporate environment and Yarko Tymciurak for meritorious service in
+developing and maintaining electronic registration and payment systems,
+and exceptional levels of customer service. The awards were presented
+by Guido van Rossum at PyCon 2010 in mid-February.
+
+    **RESOLVED**, that Ken Whitesell and Yarko Tymciurak receive PSF
+    Community Service Awards, to be presented at PyCon.
+
+Approved, 6-0-2. 
+
+[123] P. Campbell will prepare award plaques for the 1st quarter
+recipients of the PSF Community Service Award for 2010 to be presented at
+PyCon 2010.
+
+[124] S. Holden will write a PSF blog entry about the 2010-1st
+quarter PSF Community Service Award recipients highlighting their
+contributions to the community.
+
+`6   Sponsor Membership Application for Rogue Wave Software <#id9>`_
+--------------------------------------------------------------------
+
+The board reached a consensus after a discussion on whether
+to recommend the PSF sponsor membership application of Rogue Wave
+Software, a software vendor.
+
+    **RESOLVED**, that the board recommends Rogue Wave Software as
+    a pending sponsor member.
+
+Approved, 8-0-0. 
+
+[125] S. Holden will inform Rogue Wave Software organizers of the
+boards decision to recommend their PSF sponsor membership application
+for 2010.
+
+[126] K. Kaiser will invoice Rogue Wave Software for sponsor
+membership fees.
+
+[127] D. Goodger will add Rogue Wave Software's application for
+membership to the ballot list of items to be voted on by members.
+
+`7   Funding for GSoC-like Event <#id10>`_
+------------------------------------------
+
+The board discussed funding of $10,000 for GSoC-like event for students. 
+
+M. von L?wis: &quot;I would be personally fine with spending all the mentor
+money that we received on students again - I'm sure mentors would agree
+that this is good use.&quot;
+
+S. Holden: &quot;Perhaps we should agree to *underwrite* the event, allowing
+outside funds to fund it if possible?&quot;
+
+A. Kuchling: &quot;Someone (A. Riley, GSoC Coordinator) should write a wiki
+page describing the whole proposal for the new board.&quot;
+
+Board discussion deferred to a meeting at PyCon 2010 with A. Riley.
+
+`8   Trademarks Committee Membership for Carl Trachte <#id11>`_
+---------------------------------------------------------------
+
+S. Holden: &quot;There was some suggestion that C. Trachte can't
+be a committee member since he isn't a PSF member, but I
+can't find anything in the bylaws that places such a
+limitation.&quot;
+
+T. Peters: &quot;In the &quot;old&quot; bylaws, there absolutely was no
+requirement about PSF membership to serve on a committee.&quot;
+
+D. Mertz: &quot;I had advocated that we add Carl to the committee. But
+Carl has also stated he'd be fine to just be a &quot;consultant&quot; to the
+committee.&quot;
+
+S. Holden: &quot;Let's just leave him as a consultant to the committee
+for now, and he can join once we get the bylaws fixed. but it
+would be good to be able to offer a formal membership of the
+committee later.&quot;
+
+R. Hettinger: &quot;That seems to be a reasonable solution.&quot; 
+
+[128] S. Holden will draft and propose an amendment to Section
+5.9 and 6.3 of the bylaws that will allow non-members to serve on a PSF
+committee.
+
+`9   Copyright Assignment Current Status & Next Step <#id12>`_
+------------------------------------------------------------------
+
+The Board discussed the extent of copyright coverage and
+agreed that 100% coverage should be sought by the PSF.
+
+A. Kuchling: &quot;Today I re-ran the 'svn blame' for the
+current 2.7 and 3.2 branches. 2.7 has only 8.5% not covered
+and 3.2 has 9.9% not covered.
+
+So, what next? Analyze which files aren't covered? Add an
+assignment flag to PyPI? I've started on a patch for that.
+Put this flag in MatrixMaxx? I'd like to see this task through,
+even though I won't be on the board.&quot;
+
+S. Holden: &quot;Thank you for that.&quot; 
+
+T. Peters: &quot;100% coverage is the goal, right?&quot; 
+
+S. Holden: &quot;I think we probably want a continual push
+to increase coverage.&quot;
+
+T. Peters: &quot;The next step is to get closer to 100%.&quot;
+
+`10   Treasurer Report <#id13>`_
+--------------------------------
+
+The monthly Treasurer's Report was provided to Board members by
+K. Kaiser prior to the Board meeting. In addition, K. Kaiser
+provided a summary of the current treasurer's activities.
+
+Excerpt from summary: 
+
+    I'm continuing to focus on monitoring PyCon registration and
+    processing refunds and donations, manually processing the Google
+    Checkout transactions, processing PyCon Sponsor invoices and
+    payments, producing the 2010 Sponsor Invoices, collecting Sponsor
+    Member receivables, processing the year-end 1042 tax forms,
+    converting the bookkeeping to an outside service, updating our
+    insurance coverage, and expediting the remaining tax documentation
+    so the tutorial honoraria AP can be cleared.
+
+    Van Lindberg has done an outstanding job bringing in PyCon
+    Sponsors.  We are above budget in that category.  However, we may
+    be facing a registration shortfall - please process any
+    outstanding registrations through Google Checkout so we can
+    accurately update the on-line spreadsheet which compares budget,
+    projected, and actual PyCon results.
+
+`11   Progress Report <#id14>`_
+-------------------------------
+
+Board members discussed the status of the members' meeting motions and
+the voting mechanism and voting process to be used for the upcoming
+members meeting to be held during PyCon 2010.
+
+The PyCon budget update was provided to board members by V. Lindberg,
+PyCon 2010 Chair, prior to the board meeting.
+
+As a part of the PyCon budget report, V. Lindberg stated: &quot;Based on
+current numbers, I expect us to meet or exceed our budget
+goals. overall. Costs are in line with the budget as
+approved. Estimated bottom line: +30K.&quot;
+
+`12   Adjournment <#id15>`_
+---------------------------
+
+S. Holden adjourned the meeting at 18:00 UTC.

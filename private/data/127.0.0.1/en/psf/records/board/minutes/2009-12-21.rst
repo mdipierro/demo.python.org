@@ -1,0 +1,171 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+December 21, 2009
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:15 UTC, 21
+December 2009 (continued from `the meeting of December 14, 2009 <../2009-12-14/>`_).  Steve Holden presided at the meeting.  Pat
+Campbell prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Status of Past Action Items <#status-of-past-action-items>`_
+
+- `5   PSF Budget for 2010 <#psf-budget-for-2010>`_
+
+- `6   PSF Community Service Award Nominations for 2009-4th Qtr. <#psf-community-service-award-nominations-for-2009-4th-qtr>`_
+
+- `7   &quot;Python Swallowed Whole&quot; Book Project <#python-swallowed-whole-book-project>`_
+
+- `8   Funding for Python Miro Community Website <#funding-for-python-miro-community-website>`_
+
+- `9   PSF Members Meeting at PyCon 2010 <#psf-members-meeting-at-pycon-2010>`_
+
+- `10   IRC Policy <#irc-policy>`_
+
+- `11   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, Steve Holden, Martin v. L?wis, David Mertz,
+Tim Peters, and Jeff Rush.  Also in attendance were David Goodger
+(Secretary), Kurt Kaiser (Treasurer), and Pat Campbell (Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+No action was taken at this meeting.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting on 14 December.
+
+`4   Status of Past Action Items <#id4>`_
+-----------------------------------------
+
+See `the minutes of December 14, 2009 <../2009-12-14/>`_.
+
+`5   PSF Budget for 2010 <#id5>`_
+---------------------------------
+
+K. Kaiser: &quot;We are all agreed, I think that we need a budget and that
+it should compare with previous years.&quot;
+
+S. Holden: &quot;The question is, are we prepared to commit to being guided
+by the budget figures I prepared?&quot;
+
+K. Kaiser: &quot;We have a page on the PSF website. I'll see to it that it
+is up-to-date with financials and tax filings.&quot;
+
+S. Holden: &quot;The point is first of all to start planning. Then we can
+improve our planning. The accountants [Wendroff] should be providing a
+much better picture of our position on a monthly basis this year.&quot;
+
+    **RESOLVED**, that the PSF adopt the budget proposed in
+    `http://spreadsheets.google.com/ccc?key=0Ags6GY_6T6qqdEJySEQ0VHBoaWlDWEJhZk9mZGhzNHc&hl=en <http://spreadsheets.google.com/ccc?key=0Ags6GY_6T6qqdEJySEQ0VHBoaWlDWEJhZk9mZGhzNHc&hl=en>`_
+    to guide its operations in 2010.
+
+Approved, 4-0-2. 
+
+[113] K. Kaiser will update the PSF website to reflect the
+changes on financial & tax filing data.
+
+[114] K. Kaiser will archive the 2010 Budget.
+
+`6   PSF Community Service Award Nominations for 2009-4th Qtr. <#id6>`_
+-----------------------------------------------------------------------
+
+Two Nominees for the 2009 - 4th quarter PSF Community Service Award
+were selected.
+
+*[Details temporarily omitted from the public minutes, to be restored
+after the announcement.]*
+
+[115] P. Campbell will mail out awards to 4th quarter
+recipients of the PSF Community Service Award for 2009.
+
+[116] S. Holden will write a congratulatory letter to the 4th
+quarter PSF Community Service Award recipients for 2009 and write a
+PSF blog entry about their contributions to the community.
+
+[117] D. Goodger will update the PSF Wiki website to reflect
+the change in dollar amount (cash award changed to $500) allocated for
+a PSF Community Service Award recipient.
+
+`7   &quot;Python Swallowed Whole&quot; Book Project <#id7>`_
+-------------------------------------------------------------
+
+S. Holden: &quot;&quot;Python Swallowed Whole&quot; is a collaborative project with
+Pearson's to get up to 30 distinguished Pythonistas to contribute a
+chapter for a book about Python. R.  Hettinger has prepared a list of
+potential contributors.&quot;
+
+D. Mertz: &quot;I've talked with R. Hettinger about the [book] idea.&quot; 
+
+T. Peters: &quot;Is the project asking the PSF for something tangible?&quot; 
+
+D. Mertz: &quot;R. Hettinger's idea is to &quot;honor&quot; the work of a bunch of
+core developers by having them write about what they've done.&quot;
+
+S. Holden: &quot;So this discussion was more of a heads-up than anything
+else. It would be good to have all directors' support.&quot;
+
+`8   Funding for Python Miro Community Website <#id8>`_
+-------------------------------------------------------
+
+S. Holden: &quot;Can we see a tangible or intangible benefit to the
+Python community?&quot;
+
+M. von L?wis: &quot;I think we shouldn't do that. They start with &quot;the
+objective of this grant is to reduce the difficulty of finding
+and disseminating videos related to Python,&quot; I disagree with the
+preposition: Python videos are not difficult to find.&quot;
+
+D. Mertz: &quot;I don't see enough benefit to fund it at levels like they
+are requesting.&quot;
+
+J. Rush: &quot;I agree, just finding them [Python videos] is not hard but
+I'd hoped it would also critique or filter them too.&quot;
+
+S. Holden: &quot;It's not difficult to find Python videos, but it's not
+easy to find a specific video. It would be nice to see that work of
+tagging and indexing done.&quot;
+
+M. von L?wis: &quot;I think we should ask the members whether they think
+that a &quot;Miro community&quot; is something useful to have.&quot;
+
+Further discussion deferred to the PSF members email list.
+
+`9   PSF Members Meeting at PyCon 2010 <#id9>`_
+-----------------------------------------------
+
+Further preparations are being made by the board for the PSF members
+meeting to be held at PyCon 2010.  All nominations and deadlines will
+be listed on the wiki page.
+
+`10   IRC Policy <#id10>`_
+--------------------------
+
+B. Cannon initiated a discussion about the possibilities of an IRC
+policy. Due to time constraints on the board meeting, this discussion
+was deferred to email.
+
+`11   Adjournment <#id11>`_
+---------------------------
+
+S. Holden adjourned the meeting at 18:15 UTC.

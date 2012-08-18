@@ -1,0 +1,124 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+March 12th, 2002. 
+
+Board meeting in session at: 18:07 GMT 
+
+Present:
+
+Guido van Rossum (presiding)
+
+David Ascher
+
+Jeremy Hylton
+
+Marc-Andre Lemburg
+
+Martin von Loewis
+
+Tim Peters
+
+Thomas Wouters (minutes)
+
+No board members were absent. A quorum was present.
+
+Agenda:
+#######
+
+- Meeting minutes of February 12th 2002
+- Progress reports:   - 501(c)(3) application - Tax filing - Foreign charity status - Contribution forms - Public Support Committee - Treasurer
+- Press release page
+- Next member meeting
+- Sponsor member payment deadline
+- PSF Member applications received
+
+1) Last minutes
+###############
+
+Marc-Andre notes the minutes to ASF meetings carry timestamps in
+   them. Jeremy points out a few comments and omissions he feels are
+   out of place in official meeting minutes. The comments are taken
+   into advisement for the next minutes, and Guido will adjust the
+   last minutes to suit and post them for approval to the mailing
+   list.
+
+Several points of order were raised, on the procedure to accept the
+   minutes and on the procedure to propose, second and vote on
+   motions.
+
+2) Progress reports
+###################
+
+- 501(c)(3) application      Guido and Tim started the process of filling out Form 1023, which     should be submitted by 20 May 2002, and at least be submitted to a     legal review before that. A lot of work remains to be done, but     Guido is optimistic about the review. Tim notes they will need     Jeremy's help in answering some of the questions.
+- Tax filing      The PSF has yet to file its US taxes over 2001. Guido has an     outstanding query at his own accountant, but hasn't heard back     yet. David notes Kevin Jacobs offered his [company's] services,     and that Kevin does a lot of accounting, including for non-profit     companies. Jeremy and Guido will contact Kevin or otherwise find     an accountant to handle the taxes.
+- International charity status      Thomas notes Dutch tax laws seem to recognize only Dutch     institutions as (possible) charities for reasons of tax     deduction. Marc-Andre reports a similar case for German tax laws,     and notes the FSF is working on setting up offices in each EU     country for that purpose. It is generally agreed this is beyond     the PSF's reach at this moment.
+- Contribution forms      Marc-Andre notes he has had no feedback regarding the contribution     forms, so far. The deadline for the forms is Friday March 15th,     after which they are subjected to the legal review. Martin notes     the deadline is not listed on the PSF website; Marc-Andre will     update the webpage.      Marc-Andre raises the question of the lawfirm to use for the     revew. Jeremy indicates the plan was to use Zope Corporation's     lawyer. The board agrees there is no conflict of interest in this     particular case, but it is noted the choice of lawyer may be     raised at later times, for other issues.
+- Public Support Committee      The Public Support Committee has been formed, but no members     assigned yet. Marc-Andre is unclear on how to proceed; the exact     regulations regarding committees, and how to determine howmany and     which members to include. The board gives Marc-Andre free reign     within reasonable bounds and suggests to consult the board by mail     if there are any questions.
+- Treasurer      Jeremy, as Treasurer, reports an expected income of $17000 in     sponsor fees this year, provided all current and prospective     sponsors pay up. A few payments and the Bank of America checking     account are being waiting on paperwork.
+
+3) Press release page
+#####################
+
+Marc-Andre suggests to split up the press release page so it is
+   clear which belong to the PSF itself and which are outside
+   sources. The board agrees, and Marc-Andre will update the site.
+
+4) Next member meeting
+######################
+
+Due to time constraints, it is decided to move this item to the next
+   meeting or the mailing list. Guido also notes this should probably
+   be handled in a small subcommittee.
+
+5) Sponsor member payment deadline
+##################################
+
+David brings up payment deadlines: do we have them ? He suggests
+   getting sponsor members to actually pay their dues might be easier
+   if a fixed deadline and set consequences were established and
+   clear. Jeremy points out the Bylaws are specific in the matter of
+   consequences: a sponsor member who has not paid his like a member
+   in all respects except he cannot vote. Removal of company link,
+   logo and name from the PSF website are also suggested.
+
+Guido moves to set a deadline of 30 days for US companies, 60 days
+   for other, starting at date of invoice. Thomas seconds the motion,
+   and the motion carries with two abstentions which later turn out to
+   be 'nay's.  Jeremy objects to the cavalier way motions are
+   handled. Due to network problems he has trouble figuring out what
+   is going on. Tim did not recognize the motion as such. The
+   objections are noted. A discussion on clear IRC voting mechanisms
+   is postponed to the mailing list.
+
+6) PSF Member appliations
+#########################
+
+Requests to fill out PSF Member applications were sent out to all
+   PSF members nominated for acceptance at the last PSF Member
+   meeting. Martin and Guido have the impression the response rate is
+   low, though no exact numbers are available. Jeremy will update the
+   Wiki record with applications he received. Tim notes the PSF is not
+   very interesting to members yet. This is expected to improve once
+   the groundwork and paperwork is underway, and the PSF can focus on
+   fulfilling its mission statement.
+
+Martin moves to adjourn. Tim seconds the motion. The motion carries
+with one abstention.
+
+Board meeting adjourned at: 19:15 GMT
+
+Resolutions:
+############
+
+Debtors are granted a 30 (60 for non-US debtors) grace period
+    after date of invoice, after which measures are taken in
+    accordance with the Bylaws.
+
+Action items:
+#############
+
+- Marc-Andre will update the website to note the deadline for the   contribution forms.
+- Marc-Andre will restructure the Press Release webpage.
+- Jeremy will contact Kevin Jacobs regarding accounting.
+- Jeremy will update the Member applications Wiki with applications he   received.

@@ -1,0 +1,89 @@
+Python 2.3.1
+------------
+
+    *Note: See `Python 2.3.5 <../2.3.5/>`_ for a
+    patch release release which supersedes earlier releases of 2.3.*
+
+    **Important:** This release is vulnerable to the problem described in
+      `security advisory PSF-2006-001 </news/security/PSF-2006-001/>`_
+      "Buffer overrun in repr() of unicode strings in wide unicode
+      builds (UCS-4)".  This fix is included in
+      `Python 2.4.4 <../2.4.4/>`_
+      and `Python 2.5 <../2.5/>`_. If you need to remain with Python 2.3,
+      there's a patch available from the security advisory page.
+
+    **Important:
+    2.3.5 includes a security
+    fix for SimpleXMLRPCServer.py.**
+
+We are pleased to announce the release of **Python 2.3.1** on
+September 23, 2003.  This is a bug-fix release for Python 2.3 and 
+supersedes the original `Python 2.3 <../2.3/>`_ release.
+
+No new features have been added in Python 2.3.1. Instead, this
+release is the result of two months of bug hunting.  A number of
+obscure bugs that could cause crashes have been fixed, as well as a
+number of memory leaks.
+
+Please see the separate `bugs page <bugs>`_ for known
+issues and the bug reporting procedure.
+
+Download the release
+~~~~~~~~~~~~~~~~~~~~
+
+**Windows** users should download the Windows installer, `Python-2.3.1.exe </ftp/python/2.3.1/Python-2.3.1.exe>`_, run
+it and follow the friendly instructions on the screen to complete the
+installation.  Windows users may also be interested in Mark Hammond's
+`win32all <http://starship.python.net/crew/mhammond/>`_, a collection of Windows-specific extensions including
+COM support and Pythonwin, an IDE built using Windows components.
+
+RPMs suitable for Redhat and source RPMs for other RPM-using
+operating systems are available from `the RPMs page <rpms>`_.
+
+**All others** should download `Python-2.3.1.tgz </ftp/python/2.3.1/Python-2.3.1.tgz>`_, the
+source archive.  Unpack it with 
+"tar -zxvf Python-2.3.1.tgz".  Change to the Python-2.3.1 directory
+and run the "./configure", "make", "make install" commands to compile 
+and install Python.
+
+What's New?
+~~~~~~~~~~~
+
+- See the `highlights <../2.3/highlights>`_ of the Python 2.3 release. As noted, the 2.3.1 release is a bugfix release of 2.3.
+- The Windows installer now includes the documentation in searchable  htmlhelp format, rather than individual HTML files. You can still download the `individual HTML files </ftp/python/doc/2.3.1/>`_.
+- Andrew Kuchling's What's New in Python 2.3 describes the most visible changes since `Python 2.2 <../2.2.3/>`_ in more detail.
+- A detailed list of the changes is in the `release notes <NEWS.txt>`_, or the ``Misc/NEWS`` file in the source distribution.
+- For the full list of changes, you can poke around in `CVS <http://sourceforge.net/cvs/?group_id=5470>`_, or see the `ChangeLog <ChangeLog.txt>`_ of individual checkin messages since 2.3.
+- The PSF's press release announcing 2.3.1.
+
+Documentation
+~~~~~~~~~~~~~
+
+The documentation has been updated too:
+
+- `Browse HTML documentation on-line </doc/2.3.1/>`_
+- Download using `HTTP </ftp/python/doc/2.3.1/>`_.
+
+The interim documentation for
+new-style classes, last seen for Python 2.2.3, is still relevant
+for Python 2.3.1.  Raymond Hettinger has also written a tutorial on
+descriptors, introduced in Python 2.2.  
+In addition, The Python 2.3 Method
+Resolution Order is a nice paper by Michele Simionato that
+explains the C3 MRO algorithm (new in Python 2.3) clearly.  (Also
+available as `reStructured Text </download/releases/2.3/mro/mro.txt>`_.  Copied with
+permission.)
+
+Files, `MD5 <md5sum.py>`_ checksums, signatures, and sizes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
+
+    a3dcbe1c7f173c8e3c7cce28495016ae `Python-2.3.1.tgz </ftp/python/2.3.1/Python-2.3.1.tgz>`_ (8558611 bytes, `signature <Python-2.3.1.tgz.asc>`_)
+    2cff4d8a54ad3535376b7bce57538f7a `Python-2.3.1.exe </ftp/python/2.3.1/Python-2.3.1.exe>`_ (9583272 bytes, `signature <Python-2.3.1.exe.asc>`_)
+
+The signatures above were generated with
+`GnuPG <http://www.gnupg.org>`_ using the release manager's
+(Anthony Baxter)
+`public key </download#pubkeys>`_ 
+which has a key id of 6A45C816.

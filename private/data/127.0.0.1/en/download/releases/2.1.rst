@@ -1,0 +1,66 @@
+Python 2.1 - final release
+--------------------------
+
+    *Note: This is no longer the most current Python
+    release.  See `Python 2.1.3 <../2.1.3/>`_ for a patch release
+    and the `download page </download/>`_ for more recent
+    releases.*
+
+The **final** version Python 2.1was released on April 17, 2001.
+See our (gulp :-) `press release <press>`_.
+
+What's New?
+~~~~~~~~~~~
+
+- What's New in Python 2.1 by Andrew Kuchling describes the most visible changes since `Python 2.0 <../2.0/>`_.
+- `Full release notes <NEWS.txt>`_ with detailed lists of what was new in each alpha, beta or candidate release.
+
+Download
+~~~~~~~~
+
+**Windows** users should download Python-2.1.exe, the Windows
+installer, from one of the `download locations <#locations>`_
+below, run it, and follow the friendly instructions on the screen to
+complete the installation.  (Python-2.1-Debug.zip is a set of DLLs for
+Windows developers compiled in debug mode; it contains nothing of
+value for regular Python users.)  After downloading and installing
+Python 2.1 for Windows, you may also want to download and install
+`win32all <http://starship.python.net/crew/mhammond/>`_, an
+add-on with many Windows-specic modules (e.g. COM
+support), plus an alternative development environment, Pythonwin.
+
+**Mac** users please go to `Jack's MacPython Page 
+<http://www.cwi.nl/~jack/macpython.html>`_ for downloads. 
+
+**All others** should download Python-2.1.tgz, the source
+tarball, from one of the `download locations <#locations>`_
+below, and do the usual "gunzip; tar; configure; make" dance.
+
+**Red Hat Linux** users may also try to download the `RPMs <rpms>`_ made available by Sean Reifschneider.
+
+Download locations
+##################
+
+- Python.org: `HTTP </ftp/python/2.1/>`_.
+
+`MD5 <md5sum.py>`_ checksums
+############################
+
+.. code-block::
+
+    2ba2baeccd6100a4be80e6368a975054 Python-2.1.tgz
+        e78b2efb6d3c00db1704105c25f4d6a9 Python-2.1.exe
+        65627f0ac87d88fd1091cb418bff5fb7 Python-2.1-Debug.zip
+
+Documentation
+~~~~~~~~~~~~~
+
+- `Browse </doc/2.1/>`_ HTML on-line
+- `Download </doc/2.1/download.html>`_ (choice of HTML, PDF, PostScript or LaTeX)
+
+Bugs and Patches
+~~~~~~~~~~~~~~~~
+
+To report a bug, always use the SourceForge `Bug Tracker <http://sourceforge.net/bugs/?group_id=5470>`_.  If
+you have a patch, please use the SourceForge `Patch Manager <http://sourceforge.net/patch/?group_id=5470>`_.
+Please mention that you are reporting a bug in 2.1!

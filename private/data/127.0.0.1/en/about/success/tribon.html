@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/tribon -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/tribon">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="maritime-industry-increases-efficiency-with-python">
+<h1>Maritime Industry Increases Efficiency with Python</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Software Development, Business, Engineering</p>
+<p><strong>Keywords:</strong>  Product Development, Rapid Application Development, Quality, Marine, Manufacturing</p>
+<p><strong>Title:</strong>  Maritime Industry Increases Efficiency with Python</p>
+<p><strong>Author:</strong>   Henrik Wimmerstedt</p>
+<p><strong>Date:</strong>   2003/01/17 15:59:02</p>
+<p><strong>Website:</strong>  <a class="reference external" href="http://www.tribon.com/">http://www.tribon.com/</a></p>
+<p><strong>Contact:</strong>   <a class="reference external" href="mailto:info%40tribon.com">info&#64;tribon.com</a></p>
+<p><strong>Summary:</strong>  Tribon Solutions uses Python to increase efficiency in ship design and construction.</p>
+<p><strong>Logo:</strong>  .. image:: /files/success/tribon/tribon-logo.gif    :alt: /files/success/tribon/tribon-logo.gif</p>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p><a class="reference external" href="http://www.tribon.com/">Tribon Solutions</a> develops, markets and supports CAD/CAM/CIM software
+solutions, with the mission of increasing overall efficiency in the
+maritime industry.</p>
+<p>For more than 30 years the company has provided shipyards, design
+agents and maritime equipment suppliers with new ways to improve cost
+efficiency, quality and performance. Our solutions are proven to
+generate time savings and to increase speed to market.</p>
+<p>With its head office in Sweden and offices in the Republic of Korea,
+China, Japan, Germany, the UK, Russia, Singapore and the USA, Tribon
+Solutions serves the global maritime industry and customers in more
+than 43 countries.</p>
+</div>
+<div class="section" id="the-need-for-a-ship-building-api">
+<h2>The Need for a Ship Building API</h2>
+<p>The building of a ship is initiated by the need to transport goods,
+people, or firepower. The particular need dictates the dimensions,
+layout of the cargo area, engine power, and other basic attributes for
+the ship. The design for the ship then meshes these requirements with
+strength and safety regulations. Because most transport needs are
+unique, many ship designs are built only once or only in a small
+series.</p>
+<p>The Tribon software suite covers the ship building process from the
+first concept to the finished ship. The design and construction of a
+ship involves a high degree of concurrent engineering. To solve this
+problem Tribon uses a Product Information Model (PIM), which is the
+central repository and single source of information for designers,
+planners, administrators of material, manufacturing personnel, and
+others working on design and construction.</p>
+<img alt="View of a small part of a ship's PIM created using the Tribon system" src="/pythonorg/default/index/files/success/tribon/tribon-web.jpg" />
+<p><em>View of a small part of a ship's PIM created using the Tribon system.
+Picture courtesy of Samho Heavy Industries Co., Ltd.</em> <a class="reference external" href="/pythonorg/default/index/files/success/tribon/tribon-print.png">Zoom in</a></p>
+<p>Even though most ship designs are unique, shipyards try to lower cost
+by using as much standardized and parameter-driven design as possible.
+The problem for a software vendor is that design principles are
+different at each yard due to factors such as ship type, production
+facilities, prior experience, and national regulations and standards.</p>
+<p>Tribon's solution to this problem was to make it easy for shipyards to
+develop their own functionality based on Tribon core technology,
+including the Tribon PIM. To achieve this, Tribon Solutions had to
+create an API that was platform independent, easy to use, had all the
+strengths of a modern programming language, and was extendable and
+embeddable.</p>
+</div>
+<div class="section" id="choosing-python">
+<h2>Choosing Python</h2>
+<p>Tribon began work on its API in 1995. Two different paths were
+considered at this stage: Either to publish directly the libraries used
+by Tribon, or to create a wrapper on top of existing code.</p>
+<p>The first approach would make all our functionality available to the
+user, but users would have to use the same development environment as
+Tribon Solutions, change compiler versions when Tribon Solutions did
+so, and so forth. This would have been an expensive and complex
+solution, only usable by the largest shipyards in the world, those that
+had their own large IT and development departments.</p>
+<p>The second approach was preferable, as long as a tool could be found
+or developed that covered most of the given criteria. Tribon already
+had a geometry macro language that was developed in-house, but to
+extend it to the desired level of functionality would have been costly
+to implement and maintain. The remaining option was to find a 3rd party
+solution that fulfilled the API's needs.</p>
+<p>During investigation of options, Python was discovered quite early when
+a member of the development team read about Python in a computer
+magazine. After some initial experimentation there were really no other
+contenders. Python had it all. It was a beautiful programming language
+that was extensible, embeddable, platform independent, and had no
+license cost.</p>
+<p>When it came to incorporate Python into the Tribon software, we found
+the integration to be quite easy and problem-free, and it was achieved
+with very little effort. The result of this merge between Tribon and
+Python was named Tribon Vitesse, and the first version of Python used
+was 1.2.</p>
+</div>
+<div class="section" id="experiences">
+<h2>Experiences</h2>
+<p>During the last seven years Tribon Solutions has been able to move with
+the updates of Python without any major inconvenience to our customers
+or ourselves. Today we have customers that have developed hundreds of
+modules over the years. Python's platform independence, and the fact
+that it is an interpreted language, have been a major benefit to
+customers that have migrated from the VMS and UNIX to Windows. They
+have been able to port their code with no changes or at most only minor
+changes.</p>
+<p>Today Tribon Solutions has customers that have, by utilizing the power
+of Tribon Vitesse, been able to reduce design time of certain complex
+ship structures from four weeks to two days, while improving overall
+quality. This enormous reduction in design time has been possible by
+automating more of the design, calculations, information search, and
+result checking.</p>
+<p>Other customers have created entire applications, based on Tribon
+technology, that fit perfectly into their way of working and thinking.</p>
+<p>Python is also used to customize the Tribon system through the
+implementation of hooks and event driven triggers that allow the user
+to control the graphical user interface, information display, design
+standards, and much more.</p>
+<p>In the fall of 2002, as a further service to customers, Tribon
+Solutions formed a Developer's Network that supports third party
+vendors building maritime solutions based on Tribon Vitesse.</p>
+</div>
+<div class="section" id="summary">
+<h2>Summary</h2>
+<p>Today Tribon Vitesse consists of over 500 functions and more than 50
+different classes, and it is still growing.  Development is to a
+large extent driven by customer requests.</p>
+<p>Python has proven to be a perfect tool for creating an API to
+existing applications because it is:</p>
+<blockquote>
+<ul class="simple">
+<li>Extendable</li>
+<li>Embeddable</li>
+<li>Platform independent</li>
+<li>Easy and logical to learn, even for non programmers</li>
+<li>A beautiful programming language</li>
+</ul>
+</blockquote>
+<p>Visit Tribon Solutions on-line at <a class="reference external" href="http://www.tribon.com/">www.tribon.com</a> for more information
+or contact <a class="reference external" href="mailto:info%40tribon.com">info&#64;tribon.com</a>.</p>
+</div>
+<div class="section" id="about-the-author">
+<h2>About the Author</h2>
+<p><em>Henrik Wimmerstedt is product manager for the Tribon Developer's Toolkit and
+chairman of the Tribon Developers Network. He joined the company in 1997,
+after studies in naval architecture.</em></p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

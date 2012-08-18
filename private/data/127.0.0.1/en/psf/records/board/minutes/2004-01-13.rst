@@ -1,0 +1,94 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Januar 13, 2004 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 18:00 GMT. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Guido van Rossum, Martin von L?wis, Tim Peters, Jeremy
+Hylton, David Ascher, Marc-Andre Lemburg. A quorum was present. Martin
+was taking minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The December minutes where not available yet.
+
+3. Funding of PyCon Participants
+################################
+
+David Goodger had requested funding for travelling expenses to
+PyCon as a sprint organizer, and Jeff Elkner had requested funding for
+students who would like to participate. There was discussion on
+whether funds should be granted. Guido did not want to give the
+impression that we give money away to old buddies, but these were
+valid cases. Jeremy agrees. Martin was opposed to funding students
+unless they present something at the conference. David proposed
+an alternative to direct funding: the silver sponsors should select
+a sprint that their sponsor money should go to. Students applying
+for grants should apply for a gopher position.
+
+Marc-Andre proposed that sprint leaders get a free entry and
+reimbursement of expenses up to $500. Martin is opposed, David
+remarked that this proposal does not scale, Guido observed that
+the proposal does not deal with a wealthy sprint leader who wants
+to invite a poor sprinter. There was more discussion, after which
+it was
+
+    RESOLVED, that monies from the silver sponsorships be allocated to help defray
+    costs associated with sponsor-selected sprints, up to a maximum of
+    $500.  Each silver sponsor can choose what sprint to allocate the
+    funds to.  The sprint leader and the sprint chair must agree on how
+    the monies are to be disbursed.  Any reimbursement for travel or other
+    expenses must be made based on submission of receipts.
+
+The motion passed with 4/2/0. It is then further
+
+    RESOLVED, that sprint leaders who organize and run sprints with at
+    least two other full-time attendants get waived admission to the
+    conference if they want it.
+
+The motion passed with 6/0/0. Finally, it is
+
+    RESOLVED, that students at accredited institutions can apply for a
+    "gopher" position, which grants them free admission to the conference
+    in exchange for administrative assistance of the conference, under the
+    direction of the organizing committee.  The board grants the
+    conference chair the authority to approve these requests according to
+    the needs of the conference.
+
+The motion passes 6/0/0. Guido will forward these decisions to Steve
+Holden.
+
+4. PyCon Member meeting
+#######################
+
+A member meeting should be held on the Thursday of PyCon, 5-7pm.
+There is discussion whether snail mail invitations should be sent to
+the members; we never did that before, but could do it this time.
+Martin will take charge of organizing the meeting.
+
+Jeremy requested that new members should apply for membership
+before they are voted in, otherwise, they might never formally
+apply.
+
+All current board members, except for Thomas Wouters, will stand
+again for the board. Guido has asked Dennis Allison whether he
+is interested in filling Thomas' spot.
+
+Marc-Andre asked whether email voting should be allowed for member
+votes. Guido suggested that Marc-Andre should prepare a motion to
+change the bylaws. Jeremy is concerned that we may need legal review
+for such a change.
+
+5. Adjournment
+##############
+
+There being no further business, the meeting was adjourned.

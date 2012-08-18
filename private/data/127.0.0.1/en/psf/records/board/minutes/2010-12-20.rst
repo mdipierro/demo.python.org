@@ -1,0 +1,278 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+December 20, 2010
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 20
+December 2010. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Report <#progress-report>`_- `5.1   Communication Status <#communication-status>`_  - `5.2   Core Development Tasks <#core-development-tasks>`_  - `5.3   HAM WebPages/Links <#ham-webpages-links>`_  - `5.4   Infrastructure Committee <#infrastructure-committee>`_  - `5.5   Marketing Material <#marketing-material>`_  - `5.6   Moving PyPI to Amazon CloudFront <#moving-pypi-to-amazon-cloudfront>`_  - `5.7   PyCon US Website <#pycon-us-website>`_  - `5.8   Sprint Committee <#sprint-committee>`_  - `5.9   Trademarks Committee <#trademarks-committee>`_
+
+- `6   Pre-Finance & Underwrite Python Brochure <#pre-finance-underwrite-python-brochure>`_
+
+- `7   Fund 2010 Summer pyGames Competition <#fund-2010-summer-pygames-competition>`_
+
+- `8   2010-Q4 Community Service Award Nominations <#q4-community-service-award-nominations>`_
+
+- `9   Other Business <#other-business>`_- `9.1   Indebtedness to D. Goodger <#indebtedness-to-d-goodger>`_  - `9.2   Message of Seasonal Cheer! <#message-of-seasonal-cheer>`_
+
+- `10   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Raymond Hettinger, Steve Holden, Marc-Andre Lemburg, Martin
+v. L?wis, David Mertz, Jesse Noller, Tim Peters, Allison Randal, Jeff
+Rush, James Tauber, and Gloria Willadsen. Also in attendance were
+Kurt Kaiser (Treasurer), and Pat Campbell (Secretary & Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 15 November 2010 Board meeting minutes were voted on and approved. 
+
+Approved, 8-0-3.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting held on 15
+November 2010.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K.
+Kaiser prior to the Board meeting and produced from Quickbooks Online
+where the year 2009 has come to a close.
+
+The treasurer's focus for the beginning of the year 2011 starts out with
+PSF Sponsor Member invoices:
+
+&quot;My focus is currently on PSF Sponsor Member invoices, AR and AP
+reduction, and implementation of the financial aspects of the Associate
+Member program. With respect to the latter, I've begun setting up a new
+PayFlow Pro account using our new processor, since MatrixMaxx can't
+interface to our existing PayFlow account.&quot;
+
+`5   Progress Report <#id5>`_
+-----------------------------
+
+The following board reports were submitted to the board mailing list
+one week prior to this month's meeting. Please see a summary of each
+board report listed below and a possible board discussion to follow:
+
+`5.1   Communication Status <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Hellmann, Communication Officer, reported continued activities from
+last month, by saying:
+
+- Paulo Nuin is working on a post about the PyPI mirroring project.
+
+- Engelbert Gruber is working on interview questions for a post about the new PyCon web site.
+
+As far as new activities for the month are concerned, he reported: 
+
+- Jobs Board Maintainer change post by Mike Driscoll      `http://pyfound.blogspot.com/2010/12/python-jobs-board-maintainer-changing.html  <http://pyfound.blogspot.com/2010/12/python-jobs-board-maintainer-changing.html>`_
+
+- SciPy India grant post by Paulo Nuin      `http://pyfound.blogspot.com/2010/12/psf-supports-2010-scipy-india.html  <http://pyfound.blogspot.com/2010/12/psf-supports-2010-scipy-india.html>`_
+
+For items planned for next month and ongoing projects, D. Hellmann reported
+respectively:
+
+- Post linking to the news article about Vern Ceder's Python programming class for high school students.
+
+Facebook stats, as of 13 Dec. 
+
+10,782 monthly active users, up 7,567 since last week 
+
+20,826 people like this, up 442 since last week 
+
+130 wall posts and comments this week, up 78 since last week 
+
+2,030 visits this week, up 430 since last week
+
+`5.2   Core Development Tasks <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+B. Cannon, Core Development Tasks Project, will begin working
+on this 2-month project in January 2011. B. Cannon said, &quot;My goal
+is to have the dev docs finished by the end of January with hopes
+of having a very solid (with hopes of substantial) start on the
+Python 2 to 3 porting HOWTO.&quot;
+
+`5.3   HAM WebPages/Links <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+P. Campbell, Honorary Associate Membership (HAM) WebPages Start-up
+Project, reported continued activities from last month, by saying
+&quot;Andrew Kuchling of Matrix Maxx and Kurt Kaiser our PSF treasurer are now
+working together with MatrixMaxx, a CMS program and PayFlow Pro, an
+accounting program to make the new Honorary Associate Membership a reality.
+
+With the use of the MatrixMaxx program our expectations are for full
+automation of the HAM membership signup, fee payment, annual renewals, etc.
+without the need for manual intervention.&quot;
+
+Board Discussion: 
+
+S. Holden: &quot;Happy to see that we may soon have some movement on being able
+to sign up HAMs. That's been stalled for too long now.&quot;
+
+`5.4   Infrastructure Committee <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Reifschneider, Infrastructure Committee Chair, reported the following
+work initiated for the month:
+
+- Martin set up DNS for the Polish Python Coders group.They were losing access to their previous domain at www.python.org.pl because the domain owner wanted to commercialize it. COMPLETED.
+
+`5.5   Marketing Material <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M.A.Lemburg, Marketing Material Project Manager, presented a marketing
+material proposal to the board that was discussed and voted on (see topic
+below for vote results -- Pre-Finance & Underwrite Python Brochure).
+
+`5.6   Moving PyPI to Amazon CloudFront <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The project leader, M.A. Lemburg, Moving PyPI to Amazon CloudFront, provided
+a purpose for his project by saying, &quot;The project is intended to improve the
+availability, uptime and performance of PyPI for use by automatic package
+installation tools.
+
+The main idea is to make all PyPI static content available via Amazon
+Cloudfront, a content delivery network maintained by Amazon.&quot;
+
+MAL hopes to get his project started by early 2011. He would also like
+to start recruiting for volunteers to help implement the startup facets of
+the project.
+
+`5.7   PyCon US Website <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Napoleone, PyCon US Website Project, reported continued activities from
+last month, by saying:
+
+- Registration Launched      Registration is now live, and after a minor problem with donation notifications, has worked with no problems. We have record registrations for this period.
+
+- Talk, Tutorial, and Poster reviews are progressing      There were some minor complications with the software for reviewing submitted materials, but they have all been resolved.
+
+For items planned for next month and ongoing projects, D. Napoleone reported
+respectively:
+
+- New schedule system from Eldarion
+
+- Bug fixes and feature requests.
+
+- Archival of old PyCon websites.
+
+Board Discussion: 
+
+S. Holden: &quot;I'd like to be sure the PyCon website is supporting financial assistance
+properly - jnoller, any idea on that?&quot;
+
+- Noller: &quot;FA (Financial Aid) is accepting applications.&quot;
+
+- Holden: &quot;Fine, thanks.&quot;
+
+`5.8   Sprint Committee <#id13>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, Sprint Committee Chair, reported continued activities from last month,
+by saying he was &quot;shifting gears to accept applications for funding from all python
+projects.&quot;
+
+Board Discussion: 
+
+S. Holden: &quot;Glad sprints have widened their scope and look forward to seeing the new
+documentation.&quot;
+
+`5.9   Trademarks Committee <#id14>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Mertz, Trademarks Committee Chair, reported continued activities from last month
+by saying the committee &quot;received several requests for use of logo and/or wordmark.
+In all cases during the last two months, the requested use was purely nominative and
+no additional discussion by the committee was required.The chair or a member provided
+clarification to requester in each case.&quot;
+
+`6   Pre-Finance & Underwrite Python Brochure <#id15>`_
+-----------------------------------------------------------
+
+    **RESOLVED**,that the PSF pre-finances and underwrites the costs of
+    producing a printed Python brochure as outlined in the proposal
+    `http://mail.python.org/mailman/private/psf-board/2010-December/013532.html <http://mail.python.org/mailman/private/psf-board/2010-December/013532.html>`_.
+
+Approved, 6-5-0.
+
+`7   Fund 2010 Summer pyGames Competition <#id16>`_
+---------------------------------------------------
+
+    **RESOLVED**, that the PSF provide a grant of $1,000 US to sponsor the Summer
+    pyGames python based programming competition.
+
+Aproved, 10-0-1.
+
+`8   2010-Q4 Community Service Award Nominations <#id17>`_
+----------------------------------------------------------
+
+    **RESOLVED**, that the 2010-Q4 PSF Community Service Award be awarded to
+    Doug Hellmann and Andrew Kuchling.
+
+Approved, 10-0-0.
+
+`9   Other Business <#id18>`_
+-----------------------------
+
+`9.1   Indebtedness to D. Goodger <#id19>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The board discussed the need to move forward on several time-sensitive
+payments to be made to PSF member D. Goodger for services rendered to the
+organization.
+
+`9.2   Message of Seasonal Cheer! <#id20>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Towards the end of the meeting the chairman (S. Holden) thanked everyone
+for their hard work and wished everyone &quot;the best for the holidays.&quot;
+
+- Peters: &quot;Cheers!&quot;
+
+- Holden: &quot;Have a great time, relax, come back refreshed next month!&quot;
+
+- Campbell:&quot;Happy Holidays&quot;
+
+M.A. Lemburg: Cheers, Happy Holidays!&quot; 
+
+- Willadsen: &quot;Have a great holiday!
+
+- Rush: &quot;Happy Holidays to all!
+
+- Kaiser: &quot;Merry Xmas!&quot;
+
+`10   Adjournment <#id21>`_
+---------------------------
+
+- Holden adjourned the meeting at 16:52 UTC.

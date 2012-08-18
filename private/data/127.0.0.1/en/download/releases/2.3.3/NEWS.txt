@@ -1,0 +1,109 @@
+++++++++++++++++++++++++++
+Python 2.3.3 Release Notes
+++++++++++++++++++++++++++
+
+(editors: check NEWS.help for information about editing NEWS using ReST.)
+
+What's New in Python 2.3.3 (final)?
+===================================
+
+*Release date: 19-Dec-2003*
+
+Core and builtins
+-----------------
+
+- Removed PendingDeprecationWarning from apply().  apply() remains
+  deprecated, but the nuisance warning will not be issued.
+
+Library
+-------
+
+- A couple of bugs were squished in trace.py
+
+What's New in Python 2.3.3c1?
+=============================
+
+*Release date: 05-Dec-2003*
+
+Core and builtins
+-----------------
+
+- Critical bugfix, for SF bug 839548:  if a weakref with a callback,
+  its callback, and its weakly referenced object, all became part of
+  cyclic garbage during a single run of garbage collection, the order
+  in which they were torn down was unpredictable.  It was possible for
+  the callback to see partially-torn-down objects, leading to immediate
+  segfaults, or, if the callback resurrected garbage objects, to
+  resurrect insane objects that caused segfaults (or other surprises)
+  later.  In one sense this wasn't surprising, because Python's cyclic gc
+  had no knowledge of Python's weakref objects.  It does now.  When
+  weakrefs with callbacks become part of cyclic garbage now, those
+  weakrefs are cleared first.  The callbacks don't trigger then,
+  preventing the problems.  If you need callbacks to trigger, then just
+  as when cyclic gc is not involved, you need to write your code so
+  that weakref objects outlive the objects they weakly reference.
+
+- Critical bugfix, for SF bug 840829:  if cyclic garbage collection
+  happened to occur during a weakref callback for a new-style class
+  instance, subtle memory corruption could result (in a release build;
+  in a debug build, a segfault occurred reliably very soon after).
+  This has been repaired.
+
+- At Python shutdown time (Py_Finalize()), 2.3 called cyclic garbage
+  collection twice, both before and after tearing down modules.  The
+  call after tearing down modules has been disabled, because too much
+  of Python has been torn down then for __del__ methods and weakref
+  callbacks to execute sanely.  The most common symptom was a sequence
+  of uninformative messages on stderr when Python shut down, produced
+  by threads trying to raise exceptions, but unable to report the nature
+  of their problems because too much of the sys module had already been
+  destroyed.
+
+- Patch #820195: object.__contains__() now returns True or False instead
+  of 1 or 0.
+
+Extension modules
+-----------------
+
+- Bug #852314: Fix return type of tkFileDialog.askdirectory on Unix.
+
+- Bug #834676: Fix crashes when normalizing Hangul syllables.
+
+- Bug #703198: Ignore "b" and "t" in os.popen on Unix.
+
+- Patch #803998: Deal with errors in SSL_write correctly.
+
+- The xml.parsers.expat module now provides Expat 1.95.7.
+
+- Patch #813445: Add missing socket.IPPROTO_IPV6.
+
+- Bug #807314: Properly raise an exception if non-existent Tcl
+  variable is accessed.
+
+- Bug #811028: ncurses.h breakage on FreeBSD/MacOS X
+
+- Bug #814613: INET_ADDRSTRLEN fix needed for all compilers on SGI
+
+Library
+-------
+
+- Bug #849662:  UserDict.DictMixin had performance issues when
+  an instance was tested for equality with None.
+
+- Bug #848614: distutils' msvccompiler fails to find the MSVC6
+  compiler because of incomplete registry entries.
+
+- Patch #841977: modulefinder didn't find extension modules
+  in packages.
+
+- Bug #792101: Add missing file operations for httplib.SSLFile.
+
+- Bug #811082: test_tempfile fails if space in install directory.
+
+- Bug #780461: platform.mac_ver() raised MacOSError exception under OS X.
+
+- Bug #812202: random.randrange() returned only even numbers
+  for range lengths above 2**53.
+
+- Bug #823328: urllib2's HTTP Digest Auth support works again.
+

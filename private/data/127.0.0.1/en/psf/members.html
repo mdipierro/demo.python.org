@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf/members -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf/members">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <ul class="simple">
+<li><a class="reference external" href="#officers">Officers</a></li>
+<li><a class="reference external" href="#board-of-directors">Board of Directors</a></li>
+<li><a class="reference external" href="#members">Members</a>- <a class="reference external" href="#sponsor-members">Sponsor Members</a>  - <a class="reference external" href="#nominated-members">Nominated Members</a>  - <a class="reference external" href="#emeritus-members">Emeritus Members</a></li>
+<li><a class="reference external" href="#former-members">Former Members</a></li>
+</ul>
+<div class="section" id="id2">
+<h1><a class="reference external" href="#id1">Officers</a></h1>
+<ul class="simple">
+<li>Guido van Rossum, President</li>
+<li>Van Lindberg, Chairman</li>
+<li>Pat Campbell, Secretary</li>
+<li>Kurt Kaiser, Treasurer</li>
+<li>Jesse Noller, PyCon Chair</li>
+<li>Brian Curtin, Communications</li>
+<li>Ewa Jodlowska, Event Coordinator</li>
+</ul>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id1">backlink</a></em></p>
+Duplicate explicit target name: &quot;officers&quot;.</div>
+<div class="section" id="id4">
+<h1><a class="reference external" href="#id2">Board of Directors</a></h1>
+<ul class="simple">
+<li>Brian Curtin</li>
+<li>Steve Holden</li>
+<li>Andrew Kuchling</li>
+<li>Marc-Andr? Lemburg</li>
+<li>Van Lindberg</li>
+<li>Martin von L?wis</li>
+<li>Jessica McKellar</li>
+<li>David Mertz</li>
+<li>Douglas Napoleone</li>
+<li>Jesse Noller</li>
+<li>Tim Peters</li>
+</ul>
+<p>Also see: <a class="reference external" href="http://wiki.python.org/moin/PythonSoftwareFoundation/DutiesAndResponsibilitiesOfDirectors">Duties &amp; Responsibilities of Directors</a>
+and <a class="reference external" href="../records/board/history/">History of PSF Officers &amp; Directors</a>.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id3">backlink</a></em></p>
+Duplicate explicit target name: &quot;board of directors&quot;.</div>
+<div class="section" id="id6">
+<h1><a class="reference external" href="#id3">Members</a></h1>
+<p>Below are the PSF Members.  The PSF recognizes three categories
+of members:</p>
+<ul class="simple">
+<li>sponsor members are elected after paying a sponsorship fee</li>
+<li>nominated members are elected on merit</li>
+<li>emeritus members are no longer active in the PSF</li>
+</ul>
+<p>See the <a class="reference external" href="../membership">membership FAQ</a> for more information.</p>
+<div class="section" id="id8">
+<h2><a class="reference external" href="#id4">Sponsor Members</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="http://www.activestate.com/">ActiveState</a> <em>(founding member)</em>, sponsor since March 2001, represented by Trent Mick</li>
+<li><a class="reference external" href="http://www.asti-usa.com/">Advanced Simulation Technology Inc. (ASTi)</a>, since January 2002, represented by Patrick Gaffney</li>
+<li><a class="reference external" href="http://www.arraybiopharma.com/">Array BioPharma</a>, since October 2003, represented by Daniel Weaver</li>
+<li><a class="reference external" href="http://www.bizrate.com/">BizRate.com</a>, since January 2004, represented by Henri Asseily</li>
+<li><a class="reference external" href="http://www.canonical.com">Canonical</a>, since January 2007, represented by Barry Warsaw</li>
+<li><a class="reference external" href="http://www.ccpgames.com/">CCP Games</a>, since September 2005, represented by Kristj?n Valur J?nsson</li>
+<li><a class="reference external" href="http://www.cpacket.com">cPacket Networks</a>, since June 2006, represented by Rony Kay</li>
+<li><a class="reference external" href="http://www.earnmydegree.com">EarnMyDegree.com</a>, since August 2007, represented by Nik Papic</li>
+<li><a class="reference external" href="http://www.enthought.com/">Enthought</a>, since January 2004, represented by Peter Wang</li>
+<li><a class="reference external" href="http://www.exoweb.net/">Exoweb</a>, since July 2010, represented by Bjorn Stabell</li>
+<li><a class="reference external" href="http://www.google.com/">Google</a>, since April 2004, represented by Dan Bentley</li>
+<li><a class="reference external" href="http://www.hitmeister.de/">Hitmeister GmbH</a>, since January 2008 (as HitFlip, Inc.), represented by Gerald Schoenbucher</li>
+<li><a class="reference external" href="http://www.ironport.com/">IronPort Systems</a>, since March 2004, represented by Mark Peek</li>
+<li><a class="reference external" href="http://www.knmp.nl">KNMP</a>, since July 2008, represented by Mark Dufour</li>
+<li><a class="reference external" href="http://lucasfilm.com">Lucasfilm</a>, since April 2008, represented by Lori Gianino (originally elected as Industrial Light &amp; Magic in 2004)</li>
+<li><a class="reference external" href="http://lincolnloop.com/">Lincoln Loop</a>, since April 2012, represented by Peter Baumgartner</li>
+<li><a class="reference external" href="http://www.ewtcareers.com">Madison Tyler LLC</a>, since July 2006, represented by John Benediktsson</li>
+<li>Merfin LLC, since July 2002, represented by Reggie Dugard</li>
+<li><a class="reference external" href="http://www.microsoft.com">Microsoft</a>, since August 2006, represented by Jimmy Schementi</li>
+<li><a class="reference external" href="http://www.OnlineDegreeReviews.org">Online Degree Reviews</a>, since April 2011, represented by Steve Rawlinson</li>
+<li><a class="reference external" href="http://www.eutaxia.eu/">Open End AB (formely AB Strakt)</a>, since July 2002, represented by Laura Creighton</li>
+<li><a class="reference external" href="http://www.eyesopen.com">OpenEye Scientific Software</a>, since October 2008, represented by Brian Cole</li>
+<li><a class="reference external" href="http://www.opsware.com/">Opsware</a>,  since January 2004, represented by Ray Suorsa</li>
+<li><a class="reference external" href="http://www.oreilly.com/">O'Reilly &amp; Associates, Inc.</a>, since April 2002, represented by Laurel Ackerman</li>
+<li><a class="reference external" href="http://www.propertysold.ca/">PropertySold.ca</a>, since April 2008, represented by Michael B. Lawrence</li>
+<li><a class="reference external" href="http://www.roguewave.com/">Rogue Wave Software</a>, since March 2010, represented by Steve Lang</li>
+<li><a class="reference external" href="http://www.seomoves.org/">SEO Moves, Inc.</a>, since March 2010, represented by Jen Thames</li>
+<li><a class="reference external" href="http://www.sun.com">Sun Microsystems</a>, since March 2008, represented by Ted Leung</li>
+<li><a class="reference external" href="http://www.tabblo.com">Tabblo</a>, since April 2006, represented by Antonio Rodriguez</li>
+<li><a class="reference external" href="http://www.uniblue.com/">Uniblue Systems Ltd</a>, since April 2011, represented by Raffaele Bianco</li>
+<li><a class="reference external" href="http://www.zeomega.com/">ZeOmega</a>, since January 2004, represented by Sam Rangaswamy</li>
+<li><a class="reference external" href="http://www.zimbio.com">Zimbio</a>, since April 2011, represented by Bruce Martin</li>
+<li><a class="reference external" href="http://www.zope.com/">Zope Corporation</a> <em>(founding member)</em>, since March 2001 (as Digital Creations, Inc.), represented by Stacey Peterson</li>
+</ul>
+<p>For information about becoming a sponsor member, please see the
+Sponsorship page.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id7">backlink</a></em></p>
+Duplicate explicit target name: &quot;sponsor members&quot;.</div>
+<div class="section" id="id10">
+<h2><a class="reference external" href="#id5">Nominated Members</a></h2>
+<p>The year the member was elected is in parentheses.</p>
+<ul class="simple">
+<li>Aahz (2002)</li>
+<li>Kevin Altis (2003)</li>
+<li>Christopher Armstrong (2009)</li>
+<li>David Ascher (2001)</li>
+<li>Martin Aspelli (2012)</li>
+<li>Tim Ansell (2012)</li>
+<li>Giovanni Bajo (2011)</li>
+<li>Jim Baker (2009)</li>
+<li>Ben Bangert (2009)</li>
+<li>Henrique Bastos (2012)</li>
+<li>Ned Batchelder (2011)</li>
+<li>Facundo Batista (2005)</li>
+<li>Anthony Baxter (2002)</li>
+<li>Michael Bayer (2010)</li>
+<li>Donald Beaudry (2002)</li>
+<li>David M. Beazley (2002)</li>
+<li>James Bennett (2009)</li>
+<li>Steven Bethard (2007)</li>
+<li>Ian Bicking (2010)</li>
+<li>Finn Bock (2001)</li>
+<li>Paul Boddie (2010)</li>
+<li>Carl Friedrich Bolz (2010)</li>
+<li>Georg Brandl (2006)</li>
+<li><ol class="first upperalpha" start="3">
+<li>Titus Brown (2008)</li>
+</ol>
+</li>
+<li>Jean-Paul Calderone (2009)</li>
+<li>Brett Cannon (2003)</li>
+<li>Vern Ceder (2011)</li>
+<li>Hye-Shik Chang (2004)</li>
+<li>Nicolas Chauvat (2010)</li>
+<li>Benoit Chesneau (2012)</li>
+<li>Wesley Chun (2010)</li>
+<li>Nick Coghlan (2007)</li>
+<li>Rick Copeland (2011)</li>
+<li>Tim Couper (2010)</li>
+<li>Matthew Dixon Cowles (2003)</li>
+<li>Laura Creighton (2007)</li>
+<li>Brian Curtin (2011)</li>
+<li>Andrew Dalke (2004)</li>
+<li>Steven d?Aprano (2010)</li>
+<li>Stephan Deibel (2003)</li>
+<li>Catherine Devlin (2007)</li>
+<li>Mark Dickinson (2008)</li>
+<li>Jack Diederich (2010)</li>
+<li>Massimo DiPierro (2011)</li>
+<li>Walter D?rwald (2003)</li>
+<li>Fred L. Drake, Jr. (2001)</li>
+<li>Mike Driscoll (2011)</li>
+<li>Graham Dumpleton (2009)</li>
+<li>Robin Dunn (2002)</li>
+<li>Jeff Elkner (2004)</li>
+<li>Paul Everitt (2006)</li>
+<li>Greg Ewing (2002)</li>
+<li>Martijn Faassen (2009)</li>
+<li>Maciej Fijalkowski (2011)</li>
+<li>Mike Fletcher (2009)</li>
+<li>Michael Foord (2009)</li>
+<li>Amaury Forgeot d'Arc (2008)</li>
+<li>Jim Fulton (2001)</li>
+<li>Alex Gaynor (2011)</li>
+<li>Noah Gift (2010)</li>
+<li>Yannick Gingras (2011)</li>
+<li>Ralph Green (2010)</li>
+<li>Zeth Green (2010)</li>
+<li>Daniel Greenfeld (2011)</li>
+<li>Tim Golden (2010)</li>
+<li>David Goodger (2003)</li>
+<li>Jacob Hall?n (2010)</li>
+<li>Mark Hammond (2001)</li>
+<li>Jonathan Hartley (2011)</li>
+<li>Jan Ulrich Hasecke (2012)</li>
+<li>Larry Hastings (2012)</li>
+<li>Stephen Hawkes (2012)</li>
+<li>Christian Heimes (2008)</li>
+<li>Doug Hellmann (2009)</li>
+<li>Raymond Hettinger (2003)</li>
+<li>Steve Holden (2003)</li>
+<li>Adrian Holovaty (2009)</li>
+<li>Laurens Van Houtven (2010)</li>
+<li>Michael Hudson (2002)</li>
+<li>Jim Hugunin (2006)</li>
+<li>Jeremy Hylton (2001)</li>
+<li>Gloria W. Jacobs (2010)</li>
+<li>Jack Jansen (2001)</li>
+<li>Philip Jenvey (2011)</li>
+<li>Ewa Jodlowska (2012)</li>
+<li>Eric Jones (2002)</li>
+<li>Brian K. Jones (2011)</li>
+<li>Richard Jones (2003)</li>
+<li>Andreas Jung (2012)</li>
+<li>Kurt B. Kaiser (2004)</li>
+<li>Noah Kantrowitz (2012)</li>
+<li>Jacob Kaplan-Moss (2009)</li>
+<li>Carl F. Karsten (2010)</li>
+<li>Robert Kern (2010)</li>
+<li>Matthias Klose (2009)</li>
+<li>Holger Krekel (2010)</li>
+<li>Peter Kropf (2012)</li>
+<li>Andrew Kuchling (2003)</li>
+<li>Jonathan LaCour (2011)</li>
+<li>Cameron Laird (2002)</li>
+<li>Asheesh Laroia (2011)</li>
+<li>Glyph Lefkowitz (2009)</li>
+<li>Jannis Leidel (2012)</li>
+<li>Marc-Andr? Lemburg (2001)</li>
+<li>Van Lindberg (2008)</li>
+<li>Martin von L?wis (2001)</li>
+<li>Fredrik Lundh (2001)</li>
+<li>Mark Lutz (2002)</li>
+<li>Ken Manheimer (2001)</li>
+<li>Alex Martelli (2002)</li>
+<li>Anna Martelli Ravenscroft (2006)</li>
+<li>Harald Armin Massa (2010)</li>
+<li>Duncan McGreggor (2009)</li>
+<li>Jessica McKellar (2011)</li>
+<li>Mike McLay (2002)</li>
+<li>Paul McMillan (2012)</li>
+<li>David Mertz (2008)</li>
+<li>Carl Meyer (2012)</li>
+<li>Trent Mick (2001)</li>
+<li>Tetsuya Morimoto (2011)</li>
+<li>Sjoerd Mullender (2001)</li>
+<li>Mike M?ller (2010)</li>
+<li><ol class="first upperalpha" start="18">
+<li>David Murray (2010)</li>
+</ol>
+</li>
+<li>Gustavo Niemeyer (2004)</li>
+<li>Doug Napoleone (2007)</li>
+<li>Jesse Noller (2009)</li>
+<li>Neal Norwitz (2002)</li>
+<li>Paulo Nuin (2011)</li>
+<li>Uche Ogbuji (2002)</li>
+<li>Travis Oliphant (2006)</li>
+<li>Mike Olson (2002)</li>
+<li>Mike Orr (2011)</li>
+<li>Ronald Oussoren (2011)</li>
+<li>George Paci (2006)</li>
+<li>Samuele Pedroni (2001)</li>
+<li>Terry Peppers (2010)</li>
+<li>Fernando Perez (2010)</li>
+<li>Tim Peters (2001)</li>
+<li>Benjamin Peterson (2009)</li>
+<li>Anand Pillai (2010)</li>
+<li>John Pinner (2008)</li>
+<li>Antoine Pitrou (2010)</li>
+<li>Fabio Pliger (2011)</li>
+<li>Ted Pollari (2009)</li>
+<li>Paul Prescod (2001)</li>
+<li>Vasudev Ram (2010)</li>
+<li>Prabhu Ramachandran (2010)</li>
+<li>Luciano Ramalho (2012)</li>
+<li>Mark Ramm (2009)</li>
+<li>Allison Randal (2010)</li>
+<li>Eric S. Raymond (2001)</li>
+<li>Terry Reedy (2010)</li>
+<li>Kenneth Reitz (2012)</li>
+<li>Lennart Regebro (2011)</li>
+<li>Sean Reifschneider (2007)</li>
+<li>Brandon Rhodes (2010)</li>
+<li>Arc Riley (2010)</li>
+<li>Andr? Roberge (2010)</li>
+<li>Armin Ronacher (2012)</li>
+<li>Guido van Rossum (2001)</li>
+<li>Just van Rossum (2002)</li>
+<li>Michelle Rowley (2012)</li>
+<li>Audrey Roy (2011)</li>
+<li>Gavin M. Roy (2011)</li>
+<li>Jeff Rush (2007)</li>
+<li>Vinay Sajip (2003)</li>
+<li>Neil Schemenauer (2001)</li>
+<li>Hanno Schlichting (2012)</li>
+<li>Peter Schneider-Kamp (2001)</li>
+<li>Christian Scholz (2010)</li>
+<li>Tres Seaver (2012)</li>
+<li>Eric V. Smith (2010)</li>
+<li>Gregory Smith (2011)</li>
+<li>Michael Sparks (2010)</li>
+<li>Greg Stein (2001)</li>
+<li>Victor Stinner (2010)</li>
+<li>Armin Stro?-Radschinski (2012)</li>
+<li>James Tauber (2008)</li>
+<li>Richard Taylor (2011)</li>
+<li>Christian Theune (2012)</li>
+<li>Giles Thomas (2012)</li>
+<li>Phil Thompson (2009)</li>
+<li>Stephen Thorne (2010)</li>
+<li>Jason Tishler (2003)</li>
+<li>Christian Tismer (2001)</li>
+<li>Trevor Toenjes (2004)</li>
+<li>Nicholas H. Tollervey (2012)</li>
+<li>Malcolm Tredinnick (2009)</li>
+<li>Kirby Urner (2009)</li>
+<li>Wilfredo Sanchez Vega (2012)</li>
+<li>Dino Viehland (2009)</li>
+<li>Thomas Waldmann (2009)</li>
+<li>Barry Warsaw (2001)</li>
+<li>Frank Wierzbicki (2009)</li>
+<li>Simon Willison (2009)</li>
+<li>Alex Willmer (2010)</li>
+<li>Greg Wilson (2010)</li>
+<li>Chris Withers (2012)</li>
+<li>Thomas Wouters (2001)</li>
+<li>Quentin Wright (2010)</li>
+<li>Ka-Ping Yee (2001)</li>
+<li>Moshe Zadka (2001)</li>
+<li>Tarek Ziad? (2010)</li>
+<li>Brian Zimmer (2005)</li>
+</ul>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id9">backlink</a></em></p>
+Duplicate explicit target name: &quot;nominated members&quot;.</div>
+<div class="section" id="id12">
+<h2><a class="reference external" href="#id6">Emeritus Members</a></h2>
+<p>There are 10 emeritus members <em>(year of election / year of emeritus
+conversion)</em>:</p>
+<ul class="simple">
+<li>David Abrahams (2002/2008)</li>
+<li>Paul F. Dubois (2002/2008)      Paul Dubois was an original contributor to Numerical Python, and its coordinator for five years.  Paul also hosted the Fourth International Python Conference in 1996.</li>
+<li>Lars Marius Garshol (2001/2005)</li>
+<li>Thomas Heller (2001/2009)</li>
+<li>Skip Montanaro (2001/2008)</li>
+<li>Armin Rigo (2004/2010)</li>
+<li>Sam Rushing (2002/2008)</li>
+<li>Charles G. Waldman (2001/2005)</li>
+<li>Greg Ward (2001/2008)</li>
+<li>Danny Yoo (2004/2008)</li>
+</ul>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id11">backlink</a></em></p>
+Duplicate explicit target name: &quot;emeritus members&quot;.</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id5">backlink</a></em></p>
+Duplicate explicit target name: &quot;members&quot;.</div>
+<div class="section" id="id14">
+<h1><a class="reference external" href="#id7">Former Members</a></h1>
+<p>The following have withdrawn from membership <em>(member type / year of
+election / year membership ended)</em>:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.activegrid.com/">ActiveGrid</a> (sponsor/2005/2008)</li>
+<li><a class="reference external" href="http://www.wingide.com">Archaeopteryx Software, Inc.</a> (sponsor/2002/2003)</li>
+<li>Neil Hodgson (nominated/2002/2009)</li>
+<li><a class="reference external" href="http://www.hostway.com/">Hostway Corporation</a> (sponsor/2002/2008)</li>
+<li><a class="reference external" href="http://www.osafoundation.org/">Open Source Applications Foundation</a> (sponsor/2003/2008)</li>
+<li><a class="reference external" href="http://www.stsci.edu/">Space Telescope Science Institute</a> (sponsor/2002/2003)</li>
+</ul>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id13">backlink</a></em></p>
+Duplicate explicit target name: &quot;former members&quot;.</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

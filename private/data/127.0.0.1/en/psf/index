@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+                      "http://www.w3.org/TR/html4/loose.dtd" >
+<?xml-stylesheet href="../css/ht2html.css" type="text/css"?>
+<html>
+<!-- THIS PAGE IS AUTOMATICALLY GENERATED.  DO NOT EDIT. -->
+<!-- Wed Mar 10 16:31:18 2004 -->
+<!-- USING HT2HTML 2.0 -->
+<!-- SEE http://ht2html.sf.net -->
+<!-- User-specified headers:
+Title: Python Software Foundation: Home Page
+
+-->
+
+<head>
+<title>Python Software Foundation: Home Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="generator" content="HT2HTML/2.0" />
+<link rel="SHORTCUT ICON" href="/pics/pyfav.gif" />
+<link rel="STYLESHEET" href="../css/ht2html.css" type="text/css" />
+</head>
+<body bgcolor="#ffffff" text="#000000"
+      marginwidth="0" marginheight="0"
+      link="#0000bb"  vlink="#551a8b"
+      alink="#ff0000">
+<!-- start of page table -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- start of banner row -->
+<tr>
+<!-- start of corner cells -->
+<td width="150" valign="middle" bgcolor="#6699cc" class="corner">
+
+<center>
+    <a href="../">
+    <img alt="" border="0"
+         src="../pics/PyBanner061.gif" /></a></center> </td>
+<td width="15" bgcolor="#99ccff">&nbsp;&nbsp;</td><!--spacer-->
+<!-- end of corner cells -->
+<!-- start of banner -->
+<td width="90%" bgcolor="#99ccff" class="banner">
+<!-- start of site links table -->
+<table width="100%" border="0"
+cellspacing="0" cellpadding="0"
+       bgcolor="#ffffff">
+<tr>
+    <td bgcolor="#99ccff">
+<a href="../">Home</a>
+    </td>
+    <td bgcolor="#99ccff">
+<a href="../search/">Search</a>
+    </td>
+    <td bgcolor="#99ccff">
+<a href="../download/">Download</a>
+    </td>
+    <td bgcolor="#99ccff">
+<a href="../doc/">Documentation</a>
+    </td>
+</tr><tr>
+    <td bgcolor="#99ccff">
+<a href="../Help.html">Help</a>
+    </td>
+    <td bgcolor="#99ccff">
+<a href="../dev/">Developers</a>
+    </td>
+    <td bgcolor="#99ccff">
+<a href="../community/">Community</a>
+    </td>
+    <td bgcolor="#99ccff">
+<a href="../sigs/">SIGs</a>
+    </td>
+</tr>
+</table><!-- end of site links table -->
+
+</td><!-- end of banner -->
+</tr><!-- end of banner row -->
+<tr><!-- start of sidebar/body row -->
+<!-- start of sidebar cells -->
+<td width="150" valign="top" bgcolor="#99ccff" class="sidebar">
+<!-- start of sidebar table -->
+<table width="100%" border="0" cellspacing="0" cellpadding="3"
+       bgcolor="#ffffff">
+<tr><td bgcolor="#003366"><b><font color="#ffffff">
+PSF
+</font></b></td></tr>
+<tr><td bgcolor="#99ccff">
+<b>PSF Home</b>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="about.html">About the PSF</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="mission.html">Mission statement</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="donations.html">Donations</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="sponsorship.html">Sponsor memberships</>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="members.html">Membership roster</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="records/">Public records</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="bylaws.html">Bylaws</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="press-release/">Press releases</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="meeting-march-2004.html">Member meeting at PyCon 2004</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">&nbsp;</td></tr>
+<tr><td bgcolor="#003366"><b><font color="#ffffff">
+Email Us
+</font></b></td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="mailto:psf@python.org">psf@python.org</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+&nbsp;
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="..">
+<center>
+    <img alt="" border="0"
+         src="../pics/PythonPoweredSmall.gif" /></center>
+</a>
+</td></tr>
+<tr><td bgcolor="#99ccff">
+&nbsp;
+</td></tr>
+<tr><td bgcolor="#99ccff">
+&copy; 2004
+</td></tr>
+<tr><td bgcolor="#99ccff">
+<a href="http://www.python.org/psf/">Python Software Foundation</a>
+</td></tr>
+</table><!-- end of sidebar table -->
+
+</td>
+<td width="15">&nbsp;&nbsp;</td><!--spacer-->
+<!-- end of sidebar cell -->
+<!-- start of body cell -->
+<td valign="top" width="90%" class="body"><br />
+<img src="logos/psflogo.jpg" width="512" height="177" alt="">
+
+<h1>Python Software Foundation Home Page</h1>
+
+<p>This is the home page for the PSF, the Python Software
+Foundation.</p>
+
+<p> The PSF owns the <em>intellectual property</em> of Python 2.1 and
+newer versions.</p>
+
+<p>&nbsp;</p>
+
+<ul>
+
+<li><a href="about.html">About the PSF</a></li>
+
+<li><a href="mission.html">Mission Statement</a></li>
+
+<li><a href="donations.html">Donations</a> (support the PSF!)</li>
+
+<li><a href="sponsorship.html">Sponsor memberships</a> (support the
+PSF by becoming a paying member!)</li>
+
+<li><a href="members.html">Membership roster</a>, including officers and
+directors</li>
+
+<li><a href="records/">Public records</A>, including meeting
+minutes</li>
+
+<li><a href="bylaws.html">Bylaws</a> (<a
+href="bylaws_plain.html">printable version</a>)</li>
+
+<li><a href="press-release/">Press releases</a></li>
+
+<li><a href="forms.html">Application forms</a></li>
+
+<li><a href="psf-contributor-agreement.html">(Proposal for the) PSF 
+Contribution Documents</A> (discussion ends on March 15th 2002)</li>
+
+</ul>
+
+
+<h2>PSF Sponsor Members</h2>
+
+<p>The PSF would not be possible without the generous financial help
+of the following <em>sponsor members</em>:</p>
+
+<ul>
+
+<p><li><a href="http://www.activestate.com"><img
+src="logos/activestate_logo.gif" width="115" height="50"
+align="center" border="0" alt="ActiveState"></a> <a
+href="http://www.activestate.com">ActiveState</a> <em>(founding
+sponsor)</em></li>
+
+<p><li><a href="http://asti-usa.com"><img src="logos/astilogo.gif"
+width="128" height="64" align="center" border="0" alt="ASTi">Advanced
+Simulation Technology Inc. (ASTi)</a>
+
+<p><li><a href="http://www.hostway.com"><img src="logos/hw128_28.gif"
+alt="Hostway" width="128" height="28" border="0"
+align="center"></a> <a href="http://www.hostway.com">Hostway Corporation</a></li>
+
+<p><li>Merfin, LLC. 
+
+<p><li><a href="http://www.oreilly.com"><img
+src="logos/oreilly_logo.gif" align="center" border="0" width="128"
+height="44" alt="O'Reilly"></a> <a
+href="http://www.oreilly.com">O'Reilly & Associates, Inc.</a></li>
+
+<p><li><a href="http://www.stsci.edu/"><img src="logos/stscilogo.gif"
+align="center" border="0" width="122" height="89" alt="STScI"></a> <a
+href="http://www.stsci.edu/">Space Telescope Science Institute</a>
+
+<p><li><a href="http://www.strakt.com">
+  <img src="logos/straktlogo_webcolors.gif" border="0" width="171" height="36"
+   alt="Strakt Holdings" align="center"></a>
+  <a href="http://www.strakt.com/">Strakt Holdings, Inc.</a>
+
+<p><li><a href="http://www.zope.com"><img src="logos/zope_logo.gif"
+border="0" width="125" height="50" alt="Zope Corporation"
+align="center"></a> <a href="http://www.zope.com">Zope Corporation</a>
+<em>(founding sponsor)</em></li>
+
+</ul>
+
+<hr>
+
+
+<h4>Feedback:</h4>
+
+<small>
+
+<p>For questions about the PSF, please write to <a
+href="mailto:psf@python.org">psf@python.org</a>.</p>
+
+<p>For comments on the PSF web pages, please write to <a
+href="mailto:psf-webmasters@python.org">psf-webmasters@python.org</a>.</p>
+
+<p>For questions about Python, please write to <a
+href="mailto:help@python.org">help@python.org</a>.</p>
+
+<p>For comments on the python.org web pages, please write to <a
+href="mailto:webmaster@python.org">webmaster@python.org</a>.</p>
+
+</small>
+
+</td><!-- end of body cell -->
+</tr><!-- end of sidebar/body row -->
+</table><!-- end of page table -->
+</body></html>

@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/verity -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/verity">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="verity-ultraseek-building-successful-enterprise-solutions-with-python">
+<h1>Verity Ultraseek: Building Successful Enterprise Solutions with Python</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Business, Software Development</p>
+<p><strong>Keywords:</strong>  Business Information, Document Management, ROI Case Study, Web Development,</p>
+<p><strong>Title:</strong>  Verity Ultraseek: Building Successful Enterprise Solutions with Python</p>
+<p><strong>Author:</strong>   Ryan Weisenberger; Software Developer; Verity Inc.</p>
+<p><strong>Date:</strong>   2003/03/15 03:58:14</p>
+<p><strong>Web site:</strong>  <a class="reference external" href="http://www.verity.com/">http://www.verity.com/</a></p>
+<p><strong>Summary:</strong>  Python was used to write many parts of the original Infoseek Internet search service, and the enterprise search software product Ultraseek Server, now known as Verity Ultraseek.</p>
+<p><strong>Logo:</strong>  .. image:: /files/success/verity/verity-logo.gif    :alt: /files/success/verity/verity-logo.gif</p>
+<div class="section" id="background">
+<h2>Background</h2>
+<p>Successful information search is mission-critical. It increases worker
+efficiency and saves money. On an external web site, it also increases customer
+satisfaction and helps retain users to the web site. The average company can
+waste millions of dollars because its employees cannot locate and retrieve the
+information that is needed for their jobs.</p>
+<p>Infoseek released the original version of Ultraseek Server on March 31, 1997. It
+was built by wrapping Infoseek's core search technology with Python, in order to
+make it a complete search engine for enterprises. Verity Inc. acquired the
+Ultraseek product through its recent acquisition of Inktomi's enterprise search
+business in December 2002. The product is now known as <a class="reference external" href="http://www.verity.com/products/ultraseek/index.html">Verity Ultraseek</a>.</p>
+<img alt="Screenshot of Verity Ultraseek" src="/pythonorg/default/index/files/success/verity/verity-small.jpg" />
+<p><em>The New Verity Ultraseek</em> <a class="reference external" href="/pythonorg/default/index/files/success/verity/verity.jpg">Zoom in</a></p>
+<p>Verity Ultraseek is an advanced search engine that gives employees of
+departments and small to mid-size enterprises the power to quickly find the
+information they need to get their jobs done.</p>
+<p>Downloadable for free 30-day trials, Verity Ultraseek can be downloaded and
+installed on a corporate intranet or website typically within 20 minutes, and
+delivers extremely low total cost of ownership.  The software's administrative
+and user interfaces are also extremely user-friendly.</p>
+</div>
+<div class="section" id="choice-of-python">
+<h2>Choice of Python</h2>
+<p>Python, a language that was previously used to build the Ultraseek Server and
+several back-end tasks at Infoseek, was used in creating the Ultraseek spider,
+as well as the GUI that provides the end-user search box, results pages, and all
+administrative functions.</p>
+<p>Python was chosen for several reasons:</p>
+<ul class="simple">
+<li>Python (like Java) is a modern language with objects, modules, threads, exceptions, and automatic memory management. At the time, both C and C++ were rejected as missing at least some of these features.</li>
+<li>The solution needed to be multi-threaded. Neither Perl nor Java was chosen as the solution at the time. Perl was not considered to be as robust. Java did not allow control over the core interpreter. The language was subject to the quirks of the particular Java Runtime Environment (JRE) installed on each system. Although a JRE could have been bundled with the product, it would have substantially bloated the size of the download.</li>
+<li>Python reference counting was found to be superior to Java garbage collection, especially in an environment where response time was critical. Java's approach resulted in brief periods where the search engine was unavailable for several seconds at a time. Python's reference counting method allowed incremental recovery of unused memory, which meant that server threads would always be available to do a search.</li>
+<li>From previous experience with the language, we knew that Python can provide faster development, smaller code volume, access to a rich set of libraries, and fewer memory management bugs to deal with.  Python's built-in serialization features would also simplify saving and restoring state in the engine.</li>
+<li>Python could be used to build a set of internal interfaces, and as a scripting language would allow customers to programmatically alter the behavior of the indexing spider and parser to meet local requirements. This extensibility without the need to learn proprietary scripting languages or API's has been highly regarded by many customers.</li>
+<li>Python could be embedded into the HTML pages that make up the product's user interface, and used during page generation. This was before JSP existed, so our evaluation of Java didn't include that technology.</li>
+</ul>
+<p>Some other Python benefits:</p>
+<ul class="simple">
+<li>Python is open source which means we can fix bugs in the interpreter ourselves.</li>
+<li>Ease of integration with C allows for connections to complex C functionality.</li>
+<li>High syntax readability helps decrease development time.</li>
+</ul>
+</div>
+<div class="section" id="implementation">
+<h2>Implementation</h2>
+<p>Verity Ultraseek now runs on Windows NT, Linux, and Solaris.</p>
+<p>The overall architecture includes a built-in HTTP server with an underlying
+spider to collect web documents, and a query engine to serve search results back
+to the user. The interface, including the administrative console, is served over
+the built-in HTTP server using Python-scripted HTML. Some of the modules, such
+as the search spider, GUI, and HTTP server, were written in Python. For
+performance reasons, others, such as the query engine, indexer, and HTML parser,
+use the Python/C API to incorporate functionality written in C. The C-based
+search engine core was also wrapped as a Python extension module. Some C++ is
+used in the interfaces to key third party technologies. Python's flexibility in
+this regard gave us a wide degree of flexibility in integration.</p>
+<p>Other software packages that are integrated into the product include:
+Basistech's JMA, KMA, and Rosette, DataDirect's ODBC Connect, XLT from InXight,
+KeyView document filters from Verity, and Adobe Acrobat libraries.</p>
+</div>
+<div class="section" id="results">
+<h2>Results</h2>
+<p>Python was facilitated in a cost competitive environment. Today, more than 2,500
+worldwide customers have deployed Verity Ultraseek that uses the Python
+language.</p>
+<p>The source code, not including third party technology, is approximately 80,000
+lines of Python, and less than 150,000 lines of code overall. This includes the
+Python-scripted HTML that makes up the user and administrative interfaces which
+represents approximately 40,000 lines of the total.</p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>This project has been incredibly successful.</p>
+<p>The Verity Ultraseek development team has been flexible and responsive in
+developing, implementing and improving features according to customer feedback.
+Python has been very useful in keeping the development environment simple,
+flexible, and easy to learn.</p>
+<p>During the course of development, only a few disadvantages were found in Python.
+One was inability to detect some errors that would typically be uncovered during
+compilation (although static error checking tools like PyChecker are now
+available for this problem). Another was a result of the very seamless way in
+which Python casts between object and data types. While this feature allows for
+quick and flexible code, it is the responsibility of the programmer to make
+explicit the data types that a function expects. A standard coding style that
+names variables according to their expected data type is an easy way to address
+this problem.</p>
+<p>A 30-day evaluation of Ultraseek 5.2 is available for download at
+<a class="reference external" href="http://www.verity.com/">http://www.verity.com/</a>.</p>
+</div>
+<div class="section" id="about-the-author">
+<h2>About the Author</h2>
+<p><em>Ryan Weisenberger is a software developer and project lead for Verity Ultraseek.
+He has been involved with the product for four years. Ryan is originally from
+southern California, and has been working in the high-tech industry for seven
+years.</em></p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

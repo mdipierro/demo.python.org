@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf/committees -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf/committees">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <ul class="simple">
+<li><a class="reference external" href="#active-committees">Active Committees</a>- <a class="reference external" href="#infrastructure-committee-ic">Infrastructure Committee (IC)</a>  - <a class="reference external" href="#outreach-education-committee-orec">Outreach &amp; Education Committee (OREC)</a>  - <a class="reference external" href="#sprint-committee-sc">Sprint Committee (SC)</a>  - <a class="reference external" href="#trademarks-committee-tmc">Trademarks Committee (TMC)</a></li>
+<li><a class="reference external" href="#inactive-committees">Inactive Committees</a>- <a class="reference external" href="#grants-committee-gc">Grants Committee (GC)</a>  - <a class="reference external" href="#public-support-committee-psc">Public Support Committee (PSC)</a>  - <a class="reference external" href="#public-relations-committee-prc">Public Relations Committee (PRC)</a>  - <a class="reference external" href="#python-conference-committee-pcc">Python Conference Committee (PCC)</a></li>
+</ul>
+<div class="section" id="id2">
+<h1><a class="reference external" href="#id3">Active Committees</a></h1>
+<div class="section" id="id4">
+<h2><a class="reference external" href="#id4">Infrastructure Committee (IC)</a></h2>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Formed:</strong>  April 2010</p>
+<p><strong>Chairman:</strong>  Sean Reifschneider</p>
+<p><strong>Members:</strong>  Sean Reifschneider (jafo at tummy.com)</p>
+<p><strong>Mailing List:</strong>  <a class="reference external" href="http://mail.python.org/mailman/listinfo/infrastructure">infrastructure at python.org</a></p>
+<p>This committee works on making concrete plans for improving python.org
+infrastructure and to address technical infrastructure broadly.  The
+board created this committee at a special meeting on March 24 2005.</p>
+<p>Current resolution: April 2010</p>
+<blockquote>
+<strong>RESOLVED</strong>, that Sean Reifschneider be appointed chairman of the
+Infrastructure Committee.</blockquote>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id3">backlink</a></em></p>
+Duplicate explicit target name: &quot;infrastructure committee (ic)&quot;.</div>
+<div class="section" id="id6">
+<h2><a class="reference external" href="#id5">Outreach &amp; Education Committee (OREC)</a></h2>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Formed:</strong>  June 27, 2011</p>
+<p><strong>Chairman:</strong>  David Mertz</p>
+<p><strong>Members:</strong>  David Mertz (mertz at gnosis.cx), Gloria Jacobs (strangest at comcast.net), Jessica McKellar (jessica.mckellar at gmail.com), Daniel Greenfeld (pydanny at gmail.com), Audrey Roy (audreyr at pyladies.com), Ned Batchelder (ned at nedbatchelder.com), Asheesh Laroia (asheesh at asheesh.org ), Simon Law (sfllaw at sfllaw.ca ), and Yannick Gingras (ygingras at ygingras.net).</p>
+<p><strong>Mailing List:</strong>  <a class="reference external" href="mailto:outreach-and-education%40python.org">outreach at python.org</a></p>
+<p>Establishing resolution:</p>
+<blockquote>
+<strong>RESOLVED</strong>, that the PSF form an official &quot;Outreach and Education&quot;
+project management committee with the goals of identifying key
+initiatives, programs and subjects in this domain that the PSF can
+assist, fund or help guide. This committee will make recommendations to
+the membership, the board and its committees and act as a guiding hand
+for the PSF in this domain. The committee will be chaired by
+David Mertz (PSF Director). The initial membership will be the following
+individuals: Gloria Jacobs (PSF Director), Jessica McKellar,
+Daniel Greenfeld, Audrey Roy, Ned Batchelder, Asheesh Laroia,
+Simon Law and Yannick Gingras.</blockquote>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id5">backlink</a></em></p>
+Duplicate explicit target name: &quot;outreach &amp; education committee (orec)&quot;.</div>
+<div class="section" id="id8">
+<h2><a class="reference external" href="#id6">Sprint Committee (SC)</a></h2>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Formed:</strong>  May 10, 2010</p>
+<p><strong>Chairman:</strong>  Jesse Noller</p>
+<p><strong>Members:</strong>  Jesse Noller (jnoller at gmail.com), Alex Gaynor (alex.gaynor at gmail.com), Brian Curtin (brian at python.org), Geremy Condra (debatem1 at gmail.com), Catherine Devlin (catherine.devlin at gmail.com), Doug Napoleone (doug.napoleone at gmail.com), Jack Diederich (jackdiedat at gmail.com), Jacob Kaplan-Moss (jacob at jacobian.org), Kelsey Hightower (kelsey.hightower at gmail.com), James Mills (unknown), R. David Murray (r. david rdmurray at bitdance.com)</p>
+<p><strong>Mailing List:</strong>  <a class="reference external" href="mailto:sprints%40python.org">sprints at python.org</a></p>
+<p>The committee will be responsible for the coordination and review and
+approval of sprint proposals.</p>
+<p>Establishing resolution:</p>
+<blockquote>
+<strong>RESOLVED</strong>, that the Board approves the creation of a specific
+&quot;Targeted Sprint Committee&quot; and allocates a yearly budget of 5000 USD
+for the funding of targeted, community based sprints with Jesse Noller
+as the initial Chairman, and additional members as needed per project
+requirements and approved by the board.</blockquote>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id7">backlink</a></em></p>
+Duplicate explicit target name: &quot;sprint committee (sc)&quot;.</div>
+<div class="section" id="id10">
+<h2><a class="reference external" href="#id7">Trademarks Committee (TMC)</a></h2>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Formed:</strong>  November 10, 2008</p>
+<p><strong>Chairman:</strong>  David Mertz</p>
+<p><strong>Members:</strong>  David Mertz (mertz at gnosis.cx), David Goodger (goodger at python.org), Marc-Andre Lemburg (mal at egenix.com), Doug Napoleone (doug.napoleone at gmail.com), James Tauber (jtauber at jtauber.com),</p>
+<p><strong>Mailing List:</strong>  <a class="reference external" href="http://mail.python.org/mailman/listinfo/psf-trademarks">psf-trademarks at python.org</a></p>
+<p>This committee assesses actual and proposed uses of the Python
+trademarks.  See the <a class="reference external" href="/pythonorg/default/index/psf/trademarks/">PSF Trademark Usage Policy</a>.</p>
+<p>Current resolution: (July 2010)</p>
+<blockquote>
+<strong>RESOLVED</strong>, that the Board reauthorize the Trademarks Committee, with
+a membership consisting of Chair David Mertz, and
+members Marc-Andre Lemburg, David Goodger, James Tauber, Doug Napoleone.
+Further resolve that the Chair shall be authorized to appoint or remove
+such advisors to the committee as s/he sees fit, where advisors may offer
+advice to the committee on legal or technical issues but shall not vote
+in discussions nor count towards quorum.</blockquote>
+<p>Establishing resolution:</p>
+<blockquote>
+<strong>RESOLVED</strong>, that a Project Management Committee designated the
+&quot;Trademarks Committee&quot; (TMC) be formed with David Goodger,
+Marc-Andre Lemburg, Van Lindberg, David Mertz, Doug Napoleone,
+James Tauber and Trevor Toenjes as initial members, and James
+Tauber as the initial chairman, and that the Trademarks Committee
+shall, when so instructed by the PSF Board, assess trademarks for
+compliance with the current PSF Trademark Usage Policy and advise
+the PSF Board on what action, if any, to take.</blockquote>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id9">backlink</a></em></p>
+Duplicate explicit target name: &quot;trademarks committee (tmc)&quot;.</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id1">backlink</a></em></p>
+Duplicate explicit target name: &quot;active committees&quot;.</div>
+<div class="section" id="id12">
+<h1><a class="reference external" href="#id8">Inactive Committees</a></h1>
+<div class="section" id="id14">
+<h2><a class="reference external" href="#id9">Grants Committee (GC)</a></h2>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Dissolved:</strong>  February 25, 2007</p>
+<p><strong>Formed:</strong>  April 13, 2004</p>
+<p><strong>Chairman:</strong>  Martin v. L?wis</p>
+<p><strong>Members:</strong>  Paul Dubois, Jeremy Hylton, Martin v. L?wis, Michael McLay</p>
+<p><strong>Mailing List:</strong>  <a class="reference external" href="http://mail.python.org/mailman/listinfo/grants-discuss">http://mail.python.org/mailman/listinfo/grants-discuss</a></p>
+<p><strong>Web:</strong>  <a class="reference external" href="http://www.python.org/psf/grants/">http://www.python.org/psf/grants/</a></p>
+<p>The Grants Committee solicits grant-funded development proposals that
+are designed to further the PSF mission, selects among the proposals
+received, and oversees their completion.  Grants are paid for by the
+PSF using contributions received from its sponsor members and donors.
+The policies and procedures for the Grants Committee are defined by
+the committee and approved by the Board of Directors.</p>
+<div class="section" id="establishing-resolution">
+<h3>Establishing Resolution</h3>
+<p>RESOLVED, that a Grants Committee is formed, with Michael McLay, Paul
+Dubois, Jeremy Hylton, and Martin v. L?wis as initial members, and
+Martin v. L?wis as the initial chairman and Vice President of Grants,
+that the Grant Committee drafts for approval by the Board the rules
+for soliciting grant-funded development proposals designed to further
+the PSF mission, that the committee selects among proposals and
+oversees the completion of those that are accepted by the Board, and
+that members of the committee cannot apply for grants until one (1)
+year after they leave the committee.</p>
+</div>
+<div class="section" id="rules-for-grants-committee">
+<h3>Rules for Grants Committee</h3>
+<p><strong>MISSING</strong>
+- The PSF will grant a total of not more than $40,000 in the initial round of grants (2004/2005).  The budget will be set by the board in future years.</p>
+<ul class="simple">
+<li>Grants can go to anybody who submits a proposal for the call below, except for committee members.</li>
+<li>After the deadline, the committee members review the proposals, and rank them as a) strong accept b) weak accept c) weak reject d) strong reject</li>
+<li>Proposals that get a single d) vote or only c) votes are rejected.</li>
+<li>The committee ranks the remaining proposals considering the reviews, and the highest-ranking proposals are accepted until the money is exhausted, or we run out of proposals.</li>
+<li>The board is asked for approval of the suggested projects.</li>
+<li>The committee oversees approved projects, and clears payments to the project contingent to payment plan and delivery of project results.</li>
+</ul>
+<p><strong>MISSING</strong></p>
+<p>The Python Software Foundation is seeking grant proposals for projects
+related to the further development of Python, Python-related
+technology, and educational resources. The PSF plans to issue calls
+for proposals regularly.</p>
+<p>Proposals should be for specific projects with a clear objective,
+rather than support for ongoing activities. Proposals should be brief
+(a few pages of text), and they should explain:</p>
+<ul class="simple">
+<li>what the objective of the project is,</li>
+<li>what precisely the funds are needed for,</li>
+<li>a delivery plan, indicating what deliverables will be provided at what time, and</li>
+<li>a payment plan, indicating what payments should be made at what time.</li>
+</ul>
+<p>Awarded grants can range up to $40,000.</p>
+<p>Proposals for this call must be submitted before October 1, 2004.
+Projects will start on November 1, 2004, and must be completed by
+October 30, 2005.</p>
+<p>The above rules were accepted by the PSF board July 7, 2004 via email
+vote 4-0-0 on the following resolution:</p>
+<blockquote>
+RESOLVED that the board accepts the policies and procedures
+for the grants committee, as submitted July 5th, and
+authorizes the grants committee to begin its work as
+put forth in those policies and procedures.</blockquote>
+</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id13">backlink</a></em></p>
+Duplicate explicit target name: &quot;grants committee (gc)&quot;.</div>
+<div class="section" id="id16">
+<h2><a class="reference external" href="#id10">Public Support Committee (PSC)</a></h2>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Dissolved:</strong>  February 25, 2007</p>
+<p><strong>Formed:</strong>  August 13, 2002</p>
+<p><strong>Chairman:</strong>  Stephan Deibel</p>
+<p><strong>Members:</strong>  Steve Holden, Neil Norwitz, David Goodger, and Stephan Deibel</p>
+<p><strong>Mailing List:</strong>  <a class="reference external" href="http://mail.python.org/mailman/listinfo/psc">http://mail.python.org/mailman/listinfo/psc</a></p>
+<p>The Public Support Committee (PSC) is charged with fund raising for
+the PSF, which it does by creating fund raising messages, ads, and
+materials, soliciting donations from private and commercial
+contributors, and managing the PSF's fund raising infrastructure.</p>
+<div class="section" id="charter">
+<h3>Charter</h3>
+<p>RESOLVED, That the Public Support Committee (PSC) be made up of the
+following initial members: Stephan Deibel, Jeremy Hylton, Marc-Andre
+Lemburg, Tim Peters, Aahz, Alex Martelli, Neil Norwitz and Greg Ward,
+that the committee follows rules analog to those set forth in the PSF
+bylaws for the PSF board with respect to voting and meetings, and that
+Marc-Andre Lemburg will be the initial chairman of the PSC.</p>
+</div>
+<div class="section" id="amended-charter-2004-04-13">
+<h3>Amended Charter (2004-04-13)</h3>
+<p>RESOLVED, that the Public Support Committee formed in August 2002
+shall continue under current membership and leadership, and that the
+committee's activities shall now be constrained to all aspects of fund
+raising for the PSF, including but not limited to (1) creation of fund
+raising messages, ads, and materials, (2) soliciting of donations from
+private and company contributors, and (3) management of fund raising
+infrastructure.</p>
+</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id15">backlink</a></em></p>
+Duplicate explicit target name: &quot;public support committee (psc)&quot;.</div>
+<div class="section" id="id18">
+<h2><a class="reference external" href="#id11">Public Relations Committee (PRC)</a></h2>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Dissolved:</strong>  April 12, 2005</p>
+<p><strong>Formed:</strong>  April 13, 2004</p>
+<p><strong>Chairman:</strong>  Steve Holden</p>
+<p><strong>Members:</strong>  Aahz, Kevin Altis, Steve Holden, Andrew Kuchling, Tim Parkin, Barry Warsaw</p>
+<p><strong>Mailing List:</strong>  <a class="reference external" href="http://mail.python.org/mailman/listinfo/psf-prc">http://mail.python.org/mailman/listinfo/psf-prc</a></p>
+<p>The Public Relations Committee (PRC) is responsible for the
+development of official informational, marketing, and advocacy
+materials for the Python programming language.  This includes the
+python.org website and brand identities associated with the PSF and
+Python, among other things.  The PRC also promotes Python in
+commercial, governmental and educational contexts, in order to
+facilitate the recruitment of new users and contributors to the
+language.</p>
+<div class="section" id="id19">
+<h3>Establishing Resolution</h3>
+<p>RESOLVED, that a Public Relations (PR) Committee is formed,
+with Tim Parkin, Kevin Altis, Aahz, Barry Warsaw, Andrew
+Kuchling, and Steve Holden as initial members, and Steve Holden
+as the initial chairman and Vice President of Public Relations,
+that the PR Committee replaces and subsumes the activities of
+the previously disbanded Web Committee, and that the PR Committee
+shall:</p>
+<ul class="simple">
+<li>Facilitate and oversee the development and maintenance of the official informational, marketing, and advocacy materials for the Python programming language, including but not limited to those appearing on python.org, brochures, and press releases.</li>
+<li>Ensure that content and design for such materials is consistent and appropriate with the mission and requirements of the Python Software Foundation and the needs and ideals of the Python open source community.</li>
+<li>Develop and manage brand identities associated with the Python Software Foundation and Python.</li>
+<li>Actively promote Python in commercial, governmental and educational contexts, in order to facilitate the recruitment of new users and contributors to Python.</li>
+</ul>
+</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id17">backlink</a></em></p>
+Duplicate explicit target name: &quot;public relations committee (prc)&quot;.</div>
+<div class="section" id="id21">
+<h2><a class="reference external" href="#id12">Python Conference Committee (PCC)</a></h2>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Dissolved:</strong>  March 14, 2008</p>
+<p><strong>Formed:</strong>  Oct 14, 2003</p>
+<p><strong>Chairman:</strong>  Andrew Kuchling</p>
+<p><strong>Members:</strong>  David Ascher, David Goodger, Steve Holden (secretary), Andrew Kuchling (chair)</p>
+<p><strong>Mailing List:</strong>  <a class="reference external" href="http://mail.python.org/mailman/listinfo/pycon-organizers">http://mail.python.org/mailman/listinfo/pycon-organizers</a></p>
+<p>The PyCon Committee runs <a class="reference external" href="http://pycon.org/">PyCon</a>, the annual
+developer-oriented conference for the Python programming language.</p>
+<div class="section" id="id22">
+<h3>Establishing Resolution</h3>
+<p>RESOLVED, that the Foundation establish a Project Management
+Committee, the Python Conference Committee, responsible for organizing
+and sponsoring conferences that advance the Foundation's mission. The
+committee is authorized to incur expenses up to a limit establish by
+the board for a specific conference. The chairman of the committee
+shall be Vice President of the Corporation. The initial members of the
+committee shall be David Ascher, Steve Holden, and Jeremy
+Hylton. Ascher will be its initial chairman.</p>
+</div>
+<div class="section" id="amending-resolution-2005-05-06">
+<h3>Amending Resolution (2005-05-06)</h3>
+<p>RESOLVED, that Andrew Kuchling be appointed a member of the Python
+Conference Committee, and that he be appointed the new chair of this
+Committee. By this resolution, the membership of the Committee will be
+David Ascher, Steve Holden (secretary), Jeremy Hylton, Andrew Kuchling
+(chair).</p>
+</div>
+<div class="section" id="amending-resolution-2007-01-08">
+<h3>Amending Resolution (2007-01-08)</h3>
+<p>RESOLVED, that the Conference Committee chair be authorized to appoint
+and dismiss committee members, subject to prompt reporting to the
+Board.</p>
+</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id20">backlink</a></em></p>
+Duplicate explicit target name: &quot;python conference committee (pcc)&quot;.</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id11">backlink</a></em></p>
+Duplicate explicit target name: &quot;inactive committees&quot;.</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

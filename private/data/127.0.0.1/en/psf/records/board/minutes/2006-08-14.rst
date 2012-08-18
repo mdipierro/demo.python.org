@@ -1,0 +1,216 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+August 14, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 14
+August 2006.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   In Progress <#in-progress>`_  - `3.2   Carried Forward <#carried-forward>`_  - `3.3   New in July <#new-in-july>`_
+
+- `4   New Sponsor Member: Microsoft <#new-sponsor-member-microsoft>`_
+
+- `5   Python Advocacy Coordinator Proposal <#python-advocacy-coordinator-proposal>`_
+
+- `6   Mission Statement Change <#mission-statement-change>`_
+
+- `7   Funding for PSF Representative at Python Argentina <#funding-for-psf-representative-at-python-argentina>`_
+
+- `8   http://www.cafepress.com/pydotorg <#http-www-cafepress-com-pydotorg>`_
+
+- `9   Brett's Discussion with Mark Shuttleworth <#brett-s-discussion-with-mark-shuttleworth>`_
+
+- `10   Other Business <#other-business>`_
+
+- `11   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Steve Holden, Tim Peters, Martin von L?wis,
+David Goodger, Andrew Kuchling, and Brett Cannon.  Also in attendance
+were Kurt Kaiser (Treasurer) and Neal Norwitz (Assistant Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 10 July 2006 minutes were approved by a 6-0-1 vote.
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this) 
+
+`3.1   In Progress <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Originally from 12 June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Awaiting the delivery of records.      Status: in progress.      S. Holden will scan and forward the contributor agreements from the &quot;Need for Speed&quot; sprint.
+
+`3.2   Carried Forward <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 10 July 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     Status: carried forward.
+
+- Originally from November 2005, follow-up from December 2005: S. Holden is to contact a potential PSF sponsor/donor.     Status: carried forward.
+
+- Originally from November 2005, Section 8, Trademark Policy: S. Deibel to work on the PSF trademark policy, and discuss with Milind Shaw.     Status: carried forward.
+
+- Originally from March 2006, Section 4, Grants Committee: M. von L?wis agreed to draft a report on the PSF grants.     Status: carried forward.
+
+`3.3   New in July <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated in the 10 July 2006 board meeting on
+IRC.
+
+- Section 3.2, item 3: D. Goodger will update & confirm email & snail mail addresses when he receives the PSF records, with the help of M. von L?wis.     Awaiting the delivery of records.      Status: carried forward.
+
+- Section 4, New Sponsor Invoices: K. Kaiser will send sponsor member fee invoices to cPacket Networks and Tabblo.     The invoices were sent, and payment received.      Status: **done**.
+
+- Section 7, Officer Compensation: S. Deibel is tasked with reporting the result of the vote to the PSF membership.     Status: **done**.
+
+- Section 8, Trademark Agreement from Autodesk: S. Holden will inform Autodesk that we are awaiting a formal opinion from counsel, after which we will make a decision via email vote.     S. Holden informed the Autodesk contact, and spoke to our lawyer, then handed the action item back to S. Deibel.  S. Deibel then sent email to the lawyer; awaiting response.     Status: **done**.      S. Deibel to follow up with our lawyer regarding the trademark agreement from Autodesk.
+
+- Section 9, 2006 Budget & Action Plan: D. Goodger will develop the 2006 Budget & Action Plan further and take it to the PSF membership for feedback.     Status: carried forward.
+
+`4   New Sponsor Member: Microsoft <#id7>`_
+-------------------------------------------
+
+The representative would be Jim Hugunin. 
+
+    RESOLVED, that the Directors accept Microsoft as a Pending
+    Sponsor.
+
+Approved 7-0-0.
+
+`5   Python Advocacy Coordinator Proposal <#id8>`_
+--------------------------------------------------
+
+The PSF has received a proposal from Jeff Rush for a 6-month full-time
+Python Advocacy Coordinator position, to coordinate the production of
+materials and infrastructure.  Some details are yet to be resolved.
+Jeff quoted a favorable rate.  Officers or a committee could oversee
+the work.
+
+There was some reservation.  T. Peters and M. von L?wis expressed some
+concern about the cost, being high relative to the other things the
+PSF has done.  M. von L?wis: &quot;I think we can get some of it cheaper
+from volunteers.&quot;  S. Holden expressed doubts about this though, and
+D. Goodger agreed: &quot;the problem with volunteers is someone needs to
+coordinate them,&quot; and certain parts get left undone.  K. Kaiser asked
+if this position would result in offsetting revenue somehow.
+
+S. Deibel suggested that we commit to 6 months but allow either party
+to terminate with 1 month notice.  Opening up the discussion to the
+PSF membership for feedback was recommended.  S. Deibel will
+take the Advocacy Coordinator proposal to the members for a week and
+call an email vote on Monday, August 21.
+
+`6   Mission Statement Change <#id9>`_
+--------------------------------------
+
+    RESOLVED, that the PSF mission statement approved by unanimous
+    written consent on March 2, 2002, and published on the web at
+    `http://python.org/psf/mission <http://python.org/psf/mission>`_, be revised as follows, to take
+    effect on August 20, 2006.
+
+    - Revise the first paragraph, replacing:          It intends to qualify under the US Internal Revenue Code as     a tax-exempt 501(c)(3) scientific and educational public     charity, and will conduct its business according to the     rules for such organizations.     with:          It qualifies under the US Internal Revenue Code as a     tax-exempt 501(c)(3) scientific and educational public     charity, and conducts its business according to the rules     for such organizations.
+
+    - Remove the paragraph that reads:          By &quot;open source&quot; we mean freely available technology     licensed under terms compatible with Version 1.9 (or later)     of the Open Source Definition, as established by the Open     Source Initiative (see `http://www.opensource.org/ <http://www.opensource.org/>`_).
+
+    - Add the following paragraph to the end of the mission statement (after &quot;Encourages and facilitates Python-related research in the public interest.&quot;):         &quot;Open source&quot; is defined as: freely available technology     licensed under terms compatible with Version 1.9 (or later)     of the Open Source Definition, as established by the Open     Source Initiative (see `http://www.opensource.org/ <http://www.opensource.org/>`_).
+
+Approved 7-0-0.  An amended resolution (effective date corrected to
+August 31, 2006) was subsequently approved by unanimous email vote
+(8-0-0).
+
+D. Goodger also suggested adding a brief overview of the mission
+statement to the web page, which met with general approval:
+
+    The mission of the Python Software Foundation is to promote,
+    protect, and advance the Python programming language, and to
+    support and facilitate the growth of the international community
+    of Python programmers.
+
+D. Goodger will notify the members and implement the changes
+to the Mission Statement web page.
+
+`7   Funding for PSF Representative at Python Argentina <#id10>`_
+-----------------------------------------------------------------
+
+    RESOLVED that the PSF will pay expenses of up to $1000 for Anna
+    Ravenscroft to represent the Python Software Foundation at Python
+    Argentina.
+
+Approved 5-1-1.
+
+8   `http://www.cafepress.com/pydotorg <http://www.cafepress.com/pydotorg>`_
+----------------------------------------------------------------------------
+
+A. Kuchling reported that Tim Parkin set up a web store at CafePress.
+The board agreed to publicise it.  Regarding the Python
+CafePress web store: A. Kuchling will fix up the text; get the keys;
+make it public and announce it.
+
+`9   Brett's Discussion with Mark Shuttleworth <#id12>`_
+--------------------------------------------------------
+
+Background: D. Goodger introduced B. Cannon to Steve Alexander of
+Canonical at PyCon.  They set up a call between B. Cannon and Mark
+Shuttleworth to discuss Python.  There was no agenda other than to
+discuss what Shuttleworth would like to see the PSF do for him and
+other businesses.  Topics of discussion:
+
+- He wants to move towards making Python the de-facto programming language on the Linux desktop.
+
+- He is having trouble finding Python programmers who can develop &quot;in the large&quot; (large-scale, industrial applications).
+
+- He feels there is a lack of a centralized place that acts as a rallying point for the community.  For example, there is no one place people can go to find out what the community-supported web frameworks are.  Shuttleworth suggested having a place that lists the best of breed in hopes of getting developers to work on them instead of constantly reinventing the wheel.
+
+- He feels that Python's core development community is great, but we need to open it up a little bit more to get more involvement and try to rally the community regarding large-scale development.
+
+S. Deibel noted that some people strongly want python.org to showcase
+&quot;best of breed&quot; projects, and others want python.org to avoid favoring
+specific projects.
+
+M. von L?wis suggested that we get the web framework authors
+interested in python.org (offer hosting, edit content, etc.).
+
+S. Deibel suggested we set up a conference call with Shuttleworth to
+hear details of his ideas (ideas for solving the problems would be
+much more valuable than criticisms).
+
+B. Cannon will post a detailed summary of the conversation
+via email for further discussion.
+
+B. Cannon will contact Mark Shuttleworth to tell him we're
+interested in further discussion.
+
+`10   Other Business <#id13>`_
+------------------------------
+
+T. Peters will ask the advice of Larry Rosen regarding
+concerns with the contributor agreement.
+
+`11   Adjournment <#id14>`_
+---------------------------
+
+S. Deibel adjourned the meeting at 18:05 UTC.

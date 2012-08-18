@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- community/sigs/current/edu-sig -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/community/sigs/current/edu-sig">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <div class="section" id="edu-sig-python-in-education">
+<h1>EDU-SIG: Python in Education</h1>
+<p>More and more, Python is <a class="reference external" href="http://wiki.python.org/moin/SchoolsUsingPython">making inroads</a> at all levels in education.
+Python offers an interactive environment in
+which to explore procedural, functional and object oriented approaches to
+problem solving.  Its high level data structures and clear syntax make it
+an ideal first language, while the large number of existing libraries
+make it suitable to tackle almost any programming tasks.</p>
+<p>Edu-sig, through its <a class="reference external" href="http://www.python.org/mailman/listinfo/edu-sig">mailing list</a>, provides an
+informal venue for comparing notes and discussing future
+possibilities for Python in education.  Its origins trace to Guido van
+Rossum's pioneering <a class="reference external" href="/pythonorg/default/index/doc/essays/cp4e/">Computer Programming for Everybody (CP4E)</a>, a grant
+proposal accepted by DARPA, and which provided a modicum of funding in 1999.</p>
+<p>Membership includes, but is not limited to, educators using Python in their
+courses, independent developers, and authors of educational materials.
+Discussion focuses on Python use at all levels, from beginning to advanced
+applications.</p>
+</div>
+<div class="section" id="python-2-or-python-3">
+<h1>Python 2 or Python 3 ?</h1>
+<p>Recently, a new version of Python (3) was introduced.  This new version
+has some small but significant changes from the previous one.  The most
+visible change for beginners is that <strong>print</strong> which used to be a Python
+keyword</p>
+<pre class="code literal-block">
+&gt;&gt;&gt; print &quot;Hello World!&quot;   # for Python 2
+</pre>
+<p>is now a function:</p>
+<pre class="code literal-block">
+&gt;&gt;&gt; print(&quot;Hello World!&quot;)   # for Python 3
+</pre>
+<p>As a result of the changes, programs written for Python 2 are likely to
+be incompatible with Python 3 (and vice-versa).  Some of you may have
+not control over which Python version is made available to the students.
+If that is the case, you should not despair too much if you and your students
+do not have access to the best/latest version of Python: Python is a fantastic
+choice as a first language and
+the relatively minor changes between versions do not change this fact.</p>
+<p><strong>If</strong> you have some control over which version of Python is made available
+to the students, then you have a choice to make.  In this case, and
+as a <strong>very subjective opinion</strong>, we would like to offer the following:</p>
+<ul class="simple">
+<li>Use Python 3, and more specifically version 3.1, if you only plan to teach Python as an introductory language (say in a CS-1 course), making use <strong>only</strong> of modules included in the standard distribution. Alternatively, if you teach Python in languages other than English, where non-ascii characters could be put to good use in writing identifiers, then Python 3 should definitely be your choice.</li>
+<li>Use Python 2, and more specifically version 2.6, if you think you might be using third-party modules not included in the standard Python distribution, or if you are not familiar with Python (in which case you may not yet realise that you might need some third-party modules.)</li>
+<li>Consider the possibility of teaching both Python 2 and 3. If you are teaching beginners, the only significant differences are the print statement/function, the integer division and possibly the input()/raw_input() changes... which you can point out as you go along. Of course, you will have to decide on a common version to install for everyone to use.</li>
+</ul>
+</div>
+<div class="section" id="resources">
+<h1>Resources</h1>
+<ul class="simple">
+<li><a class="reference external" href="#mailing-lists">Mailing lists</a></li>
+<li><a class="reference external" href="#free-books">Free books</a></li>
+<li><a class="reference external" href="#textbooks">Textbooks</a></li>
+<li><a class="reference external" href="#learning-environments">Learning environments</a></li>
+<li><a class="reference external" href="#videos">Videos</a></li>
+<li><a class="reference external" href="#specialized-packages">Specialized packages</a></li>
+<li><a class="reference external" href="#academic-papers">Academic papers</a></li>
+<li><a class="reference external" href="#game-time">Game time!</a></li>
+<li><a class="reference external" href="#miscellaneous">Miscellaneous</a></li>
+<li><a class="reference external" href="#sig-administrivia">SIG administrivia</a></li>
+</ul>
+</div>
+<div class="section" id="mailing-lists-etc">
+<h1>Mailing lists, etc.</h1>
+<p>As mentioned above, the Edu-Sig community has its own <a class="reference external" href="http://www.python.org/mailman/listinfo/edu-sig">mailing list</a>.
+Two other mailing lists are of potential interest to educators: the
+<a class="reference external" href="http://mail.python.org/mailman/listinfo/tutor">python tutor</a> and the general <a class="reference external" href="http://mail.python.org/mailman/listinfo/python-list">python-list</a>.  All three are available
+in a <a class="reference external" href="http://aspn.activestate.com/ASPN/Python/Mail/">searchable archive</a> on
+the <a class="reference external" href="http://aspn.activestate.com">ActiveState site</a>
+which is also hosting the
+famous <a class="reference external" href="http://aspn.activestate.com/ASPN/Cookbook/Python/">Python Cookbook</a>.
+The <a class="reference external" href="http://mail.python.org/mailman/listinfo/tutor">python tutor</a> mailing list is useful to beginners learning the language
+and looking for answers to their programming problems; educators are welcome
+to join as volunteers; the <a class="reference external" href="http://www.python.org/mailman/listinfo/edu-sig">edu-sig mailing list</a> is more for discussions
+about uses of Python in educational settings.</p>
+</div>
+<div class="section" id="free-books-and-tutorials-for-educators">
+<h1>Free books and tutorials for educators</h1>
+<p>There are a number of freely available tutorials for Python.  For example,
+there is a collection of <a class="reference external" href="http://wiki.python.org/moin/BeginnersGuide/NonProgrammers">Beginner's Guide to Python</a> available on the
+Python wiki.  In addition, the following may be of particular interest
+to educators:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.ibiblio.org/obp/pyBiblio">pyBiblio</a> is a site for teachers using Python to teach computer science and/or programming skills. It includes links to the free book <em>How to Think Like a Computer Scientist Learning with Python</em> as well as links to <a class="reference external" href="http://www.openbookproject.net/pybiblio/gasp/">Gasp lessons</a> adapted from <a class="reference external" href="http://www.livewires.org.uk/python/">LiveWires</a>.   An Introduction to Programming by Eric Rollins is an example of how this open source resource may serve as a basis for a specific course.</li>
+<li><a class="reference external" href="http://www.greenteapress.com/thinkpython/thinkpython.html">Think Python</a>, by Allen B. Downey, is a substantially revised version of <em>How to Think Like a Computer Scientist Learning with Python</em>.  It is available for free in various formats; printed copies can be purchased as well.</li>
+<li><a class="reference external" href="http://www.py4inf.com/">Python for Informatics: Exploring Information</a>, by Charles Severance, is another book derived from the freely available <em>How to Think Like a Computer Scientist Learning with Python</em> mentioned above. As of January 2010, this book is only partially completed, with chapters available freely as pdf files.</li>
+<li><a class="reference external" href="http://www.briggs.net.nz/log/writing/snake-wrangling-for-kids/">Snake Wrangling for Kids</a> is a free book written by Jason R. Briggs.</li>
+<li><a class="reference external" href="http://www.rexx.com/~dkuhlman/#a-python-book">Dave Kuhlman's free book</a> and other collection of tutorials is also a very good resource for educators.</li>
+<li><a class="reference external" href="http://webpages.cs.luc.edu/~anh/python/hands-on">Andrew Harrington's hands-on tutorial</a> is suitable for high school and university-level CS-0 students. <a class="reference external" href="http://webpages.cs.luc.edu/~anh/">Dr. Harrington</a> teaches at Loyola University Chicago.</li>
+</ul>
+</div>
+<div class="section" id="textbooks-and-other-non-free-books">
+<h1>Textbooks and other non-free books</h1>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 117); <em><a href="#id3">backlink</a></em></p>
+Duplicate explicit target name: &quot;here&quot;.</div>
+<p>While there are a number of <strong>free</strong> books and tutorials available, some
+people prefer to have an actual copy on paper.
+If you are among this group, you might be surprised to learn that there are
+close to one hundred books that have been written about Python programming.
+Here, we will focus only on a subset that are of potential interest for educators
+who teach introductory courses in programming.  More books can
+be found <a class="reference external" href="http://wiki.python.org/moin/PythonBooks">here</a>
+and <a class="reference external" href="http://wiki.python.org/moin/IntroductoryBooks">here</a>, or by
+doing an internet search.</p>
+<p>For children, young and old:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.amazon.com/Python-Programming-Absolute-Beginner-Second/dp/1598631128">Python Programming for the Absolute Beginner</a> by Michael Dawson was one of the first books written for this audience and remains one of the most popular.</li>
+<li><a class="reference external" href="http://cp4k.blogspot.com/">Hello World! Computer Programming for Kids and Other Beginners</a> by Warren Sande is just like the title says.</li>
+<li><a class="reference external" href="http://www.handysoftware.com/cpif/">Computer Programming is Fun!</a> by David Handy has been written with young children in mind.</li>
+</ul>
+<p>University-level textbooks are also available:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.fbeedle.com/99-6.html">Python Programming: An Introduction to Computer Science</a> by John Zelle is a book designed for a CS-1 course. <a class="reference external" href="http://mcsp.wartburg.edu/zelle/">Dr. Zelle</a> teaches at Wartburg College.</li>
+<li><a class="reference external" href="http://www.fbeedle.com/2335.html">Data Structures and Algorithms Using Python and C++</a> by David M. Reed and John Zelle is a book designed for a CS-2 course. <a class="reference external" href="http://capital2.capital.edu/faculty/dreed/Sites/Capital/Home.html">Dr. Reed</a> teaches at Capital University and <a class="reference external" href="http://mcsp.wartburg.edu/zelle/">Dr. Zelle</a> teaches at Wartburg College.</li>
+<li><a class="reference external" href="http://prenhall.com/goldwasser/">Object-Oriented Programming in Python</a> by Michael H. Goldwasser and David Letscher is a book designed for a CS-1 course. Drs. Goldwasser and Letscher teach at Saint Louis University. They have written a free <a class="reference external" href="http://www.cs1graphics.org/">Object-Oriented Graphics Package</a> as supporting material for their textbook.</li>
+<li><a class="reference external" href="http://pragprog.com/titles/gwpy/practical-programming">Practical Programming: An Introduction to Computer Science Using Python</a> by Jennifer Campbell, Paul Gries, Jason Montojo and Greg Wilson is a textbook designed for a CS-1 course.  All four authors are associated with the University of Toronto.</li>
+<li><a class="reference external" href="http://www.jbpub.com/catalog/9780763746025/">Python Programming in Context</a> by Bradley N. Miller and David L. Ranum is a book designed for a CS-1 course. Drs. Miller and Ranum teach at Luther College.</li>
+<li><a class="reference external" href="http://studypack.com/comp/course/view.php?id=232">Python First: Introduction to Computing with Python</a> by Atanas Radenski is not a traditional textbook but rather a digital pack (textbook, lab manual, quizzes) designed for a CS-1 course. <a class="reference external" href="http://www1.chapman.edu/~radenski/">Dr. Radenski</a> teaches at Chapman University.</li>
+<li><a class="reference external" href="http://www.pearsonhighered.com/educator/product/Practice-of-Computing-using-Python-The/9780136110675.page">The Practice of Computing Using Python</a> by Bill Punch and Rich Enbody is a book that teaches the concepts of CS1 using the Python language. Educational material includes a full set of powerpoint slides, lab exercises, python projects and solutions to the more than 600 exercises in the book. Punch and Enbody are both faculty in the computer science and engineering at Michigan State University.</li>
+<li>A book with a very different approach is <a class="reference external" href="http://www.skylit.com/mathandpython.html">Mathematics for the Digital Age and Programming in Python</a> by Maria Litvin and Gary Litvin. According to the description on the website <em>It offers a unique blend of mathematics and programming, designed to give students in introductory computer science courses an appreciation for the rigorous mathematics relevant to computing, as well as practical skills for writing programs.</em></li>
+<li><a class="reference external" href="http://www.springer.com/mathematics/numerical+and+computational+mathematics/book/978-3-540-73915-9">Python Scripting for Computational Science</a> by Dr. Hans Petter Langtangen teaches tools and programming concepts that are particularly useful for doing science. The <a class="reference external" href="http://www.ifi.uio.no/~hpl/scripting/all-nosplit/">homepage</a> for the book contains an associated and rather complete set of slides.</li>
+<li>Dr. Hans Petter Langtangen wrote a second book, <a class="reference external" href="http://www.springer.com/mathematics/numerical+and+computational+mathematics/book/978-3-642-18365-2">A Primer on Scientific Programming with Python</a>. In this book, examples from mathematics, statistics, physics, biology, and finance are used. The book teaches &quot;Matlab-style&quot; and procedural programming as well as object-oriented programming. It is also available from <a class="reference external" href="http://www.amazon.com/Scientific-Programming-Computational-Science-Engineering/dp/3642024742/ref=sr_1_2?ie=UTF8&amp;s=books&amp;qid=1252223300&amp;sr=8-2">Amazon</a>.</li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h1>Learning environments</h1>
+<p>Since Python is an interpreted language, all one needs to start programming
+is a terminal window.  However, for your students, this would not be
+the friendliest environment; instead,
+we recommend that you use something like <a class="reference external" href="/pythonorg/default/index/idle/">IDLE</a> (which stands
+for Integrated DeveLopment Environment), which is included in the installation
+Python files on any platform that supports Tcl, including Windows.</p>
+<p>As for yourself, if you prefer programming directly from a terminal window,
+a better choice than the default interpreter might
+be <a class="reference external" href="http://ipython.scipy.org/">IPython</a>.</p>
+<p>In addition to IDLE, there are a number of third party tools which you can find out
+by referring to the <a class="reference external" href="http://wiki.python.org/moin/PythonEditors">Python Editors Wiki</a> and the
+<a class="reference external" href="http://wiki.python.org/moin/IntegratedDevelopmentEnvironments">Python Integrated Development Environments Wiki</a>.</p>
+<p>There are also a few other non-traditional Python learning environments that
+you may wish to consider.  First, some general purpose environments - all three
+work from a browser:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://code.google.com/p/crunchy/">Crunchy</a> is a Python program that can transform an otherwise static html tutorial into an interactive Python session within a browser.  The basic features of an early version of Crunchy are demonstrated in <a class="reference external" href="http://showmedo.com/videos/video?name=1430000&amp;fromSeriesID=143">this screencast.</a></li>
+<li>A new &quot;Mathematica-like&quot; environment for Python is <a class="reference external" href="http://codenode.org/">Codenode</a>. You may want to <a class="reference external" href="http://live.codenode.org/accounts/login/?next=/bookshelf/">try it yourself</a>.</li>
+<li><a class="reference external" href="http://pykata.org/">PyKata</a> is a new online environment designed as a teaching aid for Python.  It includes a small, but growing number of programming exercises that students can try on their own and get immediate feedback.  Educators are invited to contribute their own exercises.</li>
+</ul>
+<p>Some other notables, with more restricted goals, are the following:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://emergent.brynmawr.edu/%7Edblank/pyro/">Pyro</a> is a Python programming environment for easily exploring advanced topics in artificial intelligence and robotics.</li>
+<li><a class="reference external" href="http://gvr.sourceforge.net/">GvR</a>, or Guido van Robot, strives to emulate the original <em>Karel the Robot</em> created by Richard Pattis. It uses an indentation-based Python-like language and about 20 lessons designed to teach programming concepts. An <a class="reference external" href="http://gvr-online.appspot.com/">online demo is available.</a></li>
+<li><a class="reference external" href="http://rur-ple.sourceforge.net/">RUR-PLE</a> is a Python learning environment that includes an editor, a Python shell and, more prominently, a Karel the Robot clone that is programmable using Python syntax, using either procedural commands [e.g. move()] or an object-oriented approach [e.g. robot.move()]. It includes approximately 40 lessons. RUR-PLE was inspired from <a class="reference external" href="http://gvr.sourceforge.net/">Guido van Robot</a>.</li>
+<li>Python's <a class="reference external" href="http://docs.python.org/library/turtle.html">turtle module</a> is not a learning environment as such, but it has been completely revamped for Python 2.6 and above and is worth checking out.  Examples are included in the source distribution (along with a demoViewer program, which also serves as an example on how to embed turtle graphics into a Tkinter application.)  For those that have older version of Python installed (2.3, 2.4 or 2.5), a suitable version of the turtle module can be <a class="reference external" href="http://svn.python.org/view/python/trunk/Lib/lib-tk/">found here.</a>, with the <a class="reference external" href="http://svn.python.org/view/python/trunk/Lib/lib-tk/">examples here.</a> A <a class="reference external" href="http://blip.tv/file/1947495">video of the Pycon 2009 talk demonstrating the turtle module</a> is available.</li>
+</ul>
+</div>
+<div class="section" id="id6">
+<h1>Videos</h1>
+<p>There is a growing body of podcasts, screencasts and video presentations
+for the Python community, many of which may be of interest to educators.
+For more details, please consult the
+<a class="reference external" href="/pythonorg/default/index/doc/av/">Audio/Video Instructional Materials for Python</a></p>
+</div>
+<div class="section" id="id7">
+<h1>Specialized packages</h1>
+<p>Given the large number of <a class="reference external" href="http://docs.python.org/modindex.html">modules</a> included in the Python distribution,
+it is often said that Python comes with batteries included.  If the standard
+distribution does not include what you need, you may want to consult the
+<a class="reference external" href="http://pypi.python.org/pypi">Python Package Index</a> which is a repository that includes close to 7000
+additional packages.</p>
+<p>The following represent just a small sample of what is available.</p>
+<ul class="simple">
+<li><a class="reference external" href="http://numpy.scipy.org/">NumPy</a> is the fundamental package needed for scientific computing with Python. It contains:- a powerful N-dimensional array object  - sophisticated broadcasting functions  - basic linear algebra functions  - basic Fourier transforms  - sophisticated random number capabilities  - tools for integrating Fortran code.  - tools for integrating C/C++ code.</li>
+<li><a class="reference external" href="http://www.scipy.org/">SciPy</a> (pronounced &quot;Sigh Pie&quot;) is open-source software for mathematics, science, and engineering. The SciPy library depends on NumPy, which provides convenient and fast N-dimensional array manipulation. The SciPy library is built to work with NumPy arrays, and provides many user-friendly and efficient numerical routines such as routines for numerical integration and optimization. Together, they run on all popular operating systems, are quick to install, and are free of charge. NumPy and SciPy are easy to use, but powerful enough to be depended upon by some of the world's leading scientists and engineers. If you need to manipulate numbers on a computer and display or publish the results, give SciPy a try!</li>
+<li><a class="reference external" href="http://matplotlib.sourceforge.net/">matplotlib</a> is a python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms. matplotlib can be used in python scripts, the python and ipython shell (ala matlab or mathematica), web application servers, and six graphical user interface toolkits. matplotlib tries to make easy things easy and hard things possible. You can generate plots, histograms, power spectra, bar charts, errorcharts, scatterplots, etc, with just a few lines of code.</li>
+<li><a class="reference external" href="http://www.pythonware.com/products/pil/">PIL</a>, the Python Imaging Library adds image processing capabilities to your Python interpreter. This library supports many file formats, and provides powerful image processing and graphics capabilities.</li>
+<li><a class="reference external" href="http://openopt.org/Welcome">OpenOpt</a> is a free optimization framework which builds upon Numpy. In addition to various numerical optimization packages, it includes:- FuncDesigner - a tool to rapidly build functions over variables/arrays and get their derivatives via automatic differentiation. Also, one can perform integration, interpolation, solve systems of linear/nonlinear/ODE equations and numerical optimization problems coded in FuncDesigner by OpenOpt.  - DerApproximator - a tool to get (or check user-supplied) derivatives via finite-difference approximation.  - SpaceFuncs - a tool for 2D, 3D, N-dimensional geometric modeling with possibilities of parametrized calculations, numerical optimization and solving systems of geometrical equations.</li>
+<li><a class="reference external" href="http://vpython.org">VPython</a> makes it easy to create navigable 3D displays and animations, even for those with limited programming experience.  It includes a modified version of IDLE.</li>
+<li><a class="reference external" href="http://www.reportlab.com/">ReportLab</a> gives Python programs the power to output directly in Adobe's PDF format. The open source version is fully functional in the hands of a Python programmer.  Useful for publishing course materials.</li>
+<li><a class="reference external" href="http://code.google.com/p/sympy/">SymPy</a> is a Python library for symbolic mathematics. It aims to become a full-featured computer algebra system (CAS) while keeping the code as simple as possible in order to be comprehensible and easily extensible. SymPy is written entirely in Python and does not require any external libraries.</li>
+<li><a class="reference external" href="http://sagemath.org/">Sage</a> is not a Python package but offers an environment showcasing Python as a programming language. It is a free open-source mathematics software system licensed under the GPL. It combines the power of many existing open-source packages into a common Python-based interface. Sage's mission is to create a viable free open source alternative to Magma, Maple, Mathematica and Matlab.</li>
+<li><a class="reference external" href="http://www.blender3d.com/">Blender</a> is a cross-platform 3D modeling suite, offering modeling, animation, interactive creation and playback. Blender is not a Python package but it does use Python for scripting support.</li>
+<li>An <a class="reference external" href="http://www.cs1graphics.org/">Object-Oriented Graphics Package</a> has been written by Michael H. Goldwasser and David Letscher to use in conjuction with their textbook (referenced above).</li>
+</ul>
+</div>
+<div class="section" id="id9">
+<h1>Academic papers</h1>
+<p>A number of academic papers have been written about using Python as
+a programming language.  They include the following:</p>
+<ul class="simple">
+<li>Drs. Fotis Georgatos's MSc thesis, How applicable is Python as first computer language for teaching programming in a pre-university educational environment, from a teacher's point of view?</li>
+<li><a class="reference external" href="/pythonorg/default/index/workshops/2000-01/proceedings/papers/elkner/pyYHS.html">Using Python in a High School Computer Science Program</a> documents experiences with Python in the classroom, reported at the 8th International Python Conference. By Jeff Elkner. (See also an <a class="reference external" href="http://www.oreilly.com/frank/elkner_0300.html">interview</a> with Jeff by Frank Willison for O'Reilly.)</li>
+<li>Dr. John Zelle of Wartburg College advocates using Python as a first language, and has a few papers on that topic at his <a class="reference external" href="http://mcsp.wartburg.edu/zelle/python/">web site</a>.</li>
+<li>John Miller's PhD dissertation, <a class="reference external" href="/pythonorg/default/index/files/miller-dissertation.pdf">Promoting Computer Literacy Through Programming Python</a> (1.37 MB), looks at the issues around teaching with Python, and explores some of the threads taken up on <a class="reference external" href="http://www.python.org/mailman/listinfo/edu-sig">edu-sig</a>.</li>
+<li>Dr. Atanas Radenski has written a paper entitled &quot;Python First&quot;: A Lab-Based Digital Introduction to Computer Science which describes a positive experience when switching from Java to Python as a language for CS1 courses.</li>
+<li>Dr. Michael H. Goldwasser and Dr. David Letscher have written a paper entitled Teaching an Object-Oriented CS1 - with Python which has been published in the <em>Proceedings of the 13th Annual Conference on Innovation and Technology in Computer Science</em> (ITiCSE) in June 2008.  They have also written <a class="reference external" href="http://cs.slu.edu/~goldwasser/publications/SIGCSE2009_Abstract.html">A Graphics Package for the First Day and Beyond</a>, published in the <em>Proceedings of the 40th Annual SIGCSE Technical Symposium on Computer Science Education</em> in May 2009.  (A link to the freely available graphics package is included above.)</li>
+</ul>
+<p>And finally, while it is not an academic paper,
+<a class="reference external" href="http://www.stanford.edu/~pgbovine/python-teaching.htm">Why Python is a great language for teaching beginners in introductory programming classes</a>
+by Philip Guo is certainly worth reading.</p>
+</div>
+<div class="section" id="id10">
+<h1>Game time!</h1>
+<p>If it weren't for games, there likely would have been many fewer people
+interested in programming - and much less free software developped as
+a result.  Python has two well-known frameworks for making games:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://pygame.org">pygame</a> is the original and still very much active package for game development using Python. It allows Python to talk to <a class="reference external" href="http://www.libsdl.org/index.php">SDL</a>, a cross-platform, multimedia library. Because it needs to be compiled for each platform and each Python version, there can be a lag when a new Python version comes along.</li>
+<li><a class="reference external" href="http://pyglet.org">pyglet</a> is the newcomer, based on OpenGL.  Because it is a pure Python package, it can be used as is even when a new Python version is released (except for the Python 2 to Python 3 transition).</li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h1>Miscellaneous</h1>
+<ul class="simple">
+<li><a class="reference external" href="http://wiki.python.org/moin/PythonForSecretaries">Python for secretaries</a>: A resource site aimed at showing business users how to use a little bit of Python, focused entirely on helping them with their regular workaday duties.</li>
+<li><a class="reference external" href="http://wiki.python.org/moin/EduSig/DataResources">Freely-reusable data</a>: Instructors often have need of meanful data for constructing programming exercises.  To support this usage, many in the educational community have contributed <a class="reference external" href="http://wiki.python.org/moin/EduSig/DataResources">freely-reusable data</a> on which to build.</li>
+<li><a class="reference external" href="http://swc.scipy.org/">Software Carpentry</a> by Greg Wilson is a course on software development skills for scientists and engineers.</li>
+<li>Kirby Urner's <a class="reference external" href="http://www.4dsolutions.net/ocn/cp4e.html">CP4E resources</a> integrate Python programming with topics in mathematics.</li>
+<li><a class="reference external" href="/pythonorg/default/index/doc/essays/ppt/acm-cp4e/">Computer Programming for Everybody</a> by Guido van Rossum, is a presentation summarizing CP4E highlights.</li>
+<li><a class="reference external" href="http://www.linuxjournal.com/articles/conversations/005.html">An Interview with Guido van Rossum</a>, by Phil Hugues for the <em>Linux Journal</em>, is a conversation with the creator of Python about an effort to teach Python to non-computer science students.</li>
+<li><a class="reference external" href="http://www.oreillynet.com/pub/a/network/2000/01/31/hacktrack/index.html">Hackers and Trackers: CP4E</a> and <a class="reference external" href="http://www.onlamp.com/pub/a/python/2000/10/04/pythonnews.html">Teaching Math with Python</a>, both by Stephen Figgins, are older articles about the beginning of the Computer Programming for Everybody initiative.</li>
+</ul>
+</div>
+<div class="section" id="id13">
+<h1>SIG administrivia</h1>
+<ul class="simple">
+<li>Subscribe to the <a class="reference external" href="http://www.python.org/mailman/listinfo/edu-sig">edu-sig mailing list</a></li>
+<li>Browse the <a class="reference external" href="http://www.python.org/pipermail/edu-sig">edu-sig mailing list archives</a></li>
+<li>Send suggestions for changes to the edu-sig list or to andre.roberge at gmail.com.</li>
+</ul>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

@@ -1,0 +1,96 @@
+The Python Software Foundation 
+
+Minutes of a Special Meeting of the Board of Directors 
+
+March 14, 2008
+
+A special meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held at PyCon 2008 in Rosemont/Chicago at 18:30 CDT
+(23:30 UTC), 14 March 2008.  David Goodger prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Election of Officers <#election-of-officers>`_
+
+- `3   Motion to Dissolve the Conference Committee <#motion-to-dissolve-the-conference-committee>`_
+
+- `4   Discussion <#discussion>`_
+
+- `5   Schedule for Board Meetings on IRC <#schedule-for-board-meetings-on-irc>`_
+
+- `6   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, Stephan Deibel, David Goodger, Raymond
+Hettinger, Steve Holden, Martin von L?wis, and James Tauber.  Also in
+attendance were Neil Norwitz and Guido van Rossum.
+
+`2   Election of Officers <#id2>`_
+----------------------------------
+
+The following Officers were elected by acclamation: 
+
+- **President**:            Guido van Rossum
+
+- **Secretary**:            David Goodger
+
+- **Treasurer**:            Kurt Kaiser
+
+- **Assistant Treasurer**:  Raymond Hettinger
+
+- **Chairman**:             Steve Holden
+
+`3   Motion to Dissolve the Conference Committee <#id3>`_
+---------------------------------------------------------
+
+M. von L?wis moved: 
+
+    **WHEREAS** the role of the Conference Committee is to advise the
+    PyCon Chair and the PyCon organizing committee, and
+
+    **WHEREAS** this role is effectively being filled by the PSF Board
+    of Directors, be it
+
+    **RESOLVED**, that the Conference Committee be dissolved, and that
+    the PyCon Chair be an Officer of the Foundation.
+
+Approved unanimously (7-0-0).
+
+`4   Discussion <#id4>`_
+------------------------
+
+The following topics were discussed: 
+
+- Sponsor membership fee increase?
+
+- Non-participating members.
+
+- What should we do with the PSF's money?    - We need a budget.  - G. van Rossum: Grants to core development?  - B. Cannon: Use the money for core sprints?  Around 20 people.      G. van Rossum: Combine a sprint with EuroPython?      Regarding a possible PSF-sponsored core sprint at EuroPython, S. Holden will contact Laura Creighton for information.  - S. Holden: Have two in-person Board meetings per year? Teleconferencing/videoconferencing were discussed as options.
+
+- We should promote the Software Carpentry project.
+
+- The new PSF Board members (J. Tauber & R. Hettinger) were informed of the infrastructure (psf-board mailing list, monthly IRC meeting, etc.).
+
+- D. Goodger will inform the new members of their election, and invite them to join the psf-members list.
+
+- The Board agrees that EuroPython is worthwhile supporting.
+
+- The &quot;PyCon&quot; mark should be used as a &quot;brand&quot; for national-level conferences.
+
+`5   Schedule for Board Meetings on IRC <#id5>`_
+------------------------------------------------
+
+The Board agreed to reschedule the monthly PSF Board of Directors IRC
+meetings to 12:00 (noon) in the U.S. Eastern time zone (regardless of
+standard time or daylight saving time).  Meetings will remain on the
+second Monday of each month.
+
+`6   Adjournment <#id6>`_
+-------------------------
+
+The meeting adjourned at 19:20 CDT.

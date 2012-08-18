@@ -1,0 +1,1210 @@
+2003-09-23 17:07  theller
+
+	* Misc/NEWS (1.831.4.51): Note from Anthony about Berkely DB 4.2
+	support.  Mention which openssl version was used for the windows
+	installer.
+
+2003-09-23 15:25  fdrake
+
+	* Doc/Makefile (1.261.4.2): bump version number
+
+2003-09-23 15:23  fdrake
+
+	* Doc/texinputs/boilerplate.tex (1.84.4.2): update release info
+
+2003-09-23 15:21  fdrake
+
+	* Doc/texinputs/license.tex (1.10.10.1): add entry for 2.3.1
+
+2003-09-23 12:41  anthonybaxter
+
+	* README (1.177.4.2), LICENSE (1.26.8.1): bump version number
+
+2003-09-23 12:36  anthonybaxter
+
+	* Include/patchlevel.h (2.74.4.2): bump version macros
+
+2003-09-23 05:14  rhettinger
+
+	* Lib/test/test_winsound.py (1.6.6.1): Backport Tim's fix to
+	test_winsound.py
+	
+	PlaySoundTest.test_alias_fallback():  Disabled this test, and
+	explained why in a new comment.  My home Win98SE box is one of the
+	"real systems" alluded to (my system "default sound" appears to
+	have vanished sometime in the last month, that's certainly not a
+	Python bug, and the MS PlaySound docs are correct in their
+	explanation of what happens then).
+
+2003-09-23 01:50  rhettinger
+
+	* Doc/lib/: libcodecs.tex (1.22.8.3), libfuncs.tex (1.143.8.5),
+	libgopherlib.tex (1.12.48.1), libimgfile.tex (1.11.48.1),
+	libitertools.tex (1.12.6.5), libmultifile.tex (1.12.16.2),
+	libregex.tex (1.33.42.1): Fix doubled word errors.
+
+2003-09-23 01:35  rhettinger
+
+	* Doc/: mac/libaetypes.tex (1.2.12.1), mac/libframework.tex
+	(1.9.42.2), ref/ref3.tex (1.114.4.2), api/utilities.tex
+	(1.10.12.1): Fix doubled word errors.
+
+2003-09-23 01:06  theller
+
+	* PCbuild/python20.wse (1.133.4.1): Changes for Python 2.3.1
+	release.  - Install docs in one HTMLHelp file, no longer lots of
+	html pages - Can optionally compile Python library modules to .pyc
+	- Remove the thanks to Wise Solutions for InstallMaster 8.1, since
+	it is	no longer used to create the installer.
+
+2003-09-23 00:56  theller
+
+	* Lib/idlelib/EditorWindow.py (1.53.6.1): Let IDLE use the HTMLHelp
+	docs, if found.
+
+2003-09-23 00:54  theller
+
+	* Doc/tools/prechm.py (1.15.18.1): Support 2.3 docs in HTMLHelp
+	format.
+
+2003-09-22 22:44  doerwalter
+
+	* Lib/gopherlib.py (1.12.16.1): Backport checkin: Avoid list as a
+	variable name.
+
+2003-09-22 16:27  rhettinger
+
+	* Doc/lib/libsmtplib.tex (1.24.10.1): Clean-up example code: 
+	remove string module and backticks.
+
+2003-09-22 14:42  rhettinger
+
+	* Lib/sets.py (1.44.8.4), Misc/NEWS (1.831.4.50): Removed the
+	PendingDeprecation warning from sets.py because it adds little
+	value while introducing incompatability with the version being
+	bugfixed.
+
+2003-09-22 14:41  jhylton
+
+	* Python/compile.c (2.291.6.2): Backport fix for SF808594: leak on
+	lambda with duplicate arguments.
+
+2003-09-22 14:21  anthonybaxter
+
+	* Misc/RPM/python-2.3.spec (1.2.12.1): RPM spec file updates from
+	Sean Reifschneider.
+
+2003-09-22 11:19  greg
+
+	* setup.py (1.171.6.1): Add BerkeleyDB 4.2 library to the bsddb
+	module search path (backport 1.173)
+
+2003-09-22 09:42  greg
+
+	* Doc/whatsnew/whatsnew23.tex (1.159.4.2): minor correction. 
+	python 2.3 was released with the bsddb module 4.1.6 not 4.1.1 (port
+	of 1.161->1.162)
+
+2003-09-22 09:18  greg
+
+	* Lib/bsddb/: __init__.py (1.5.10.3), db.py (1.2.16.1), dbshelve.py
+	(1.8.10.1), dbutils.py (1.6.12.1): simplify some import statements
+	and clean up a docstring and BerkeleyDB library version check to
+	mention that we support versions 3.2 - 4.2.
+
+2003-09-22 09:10  greg
+
+	* Modules/_bsddb.c (1.17.6.2): support for compiling with
+	BerkeleyDB 4.2.x (soon to be released).  this is a partial version
+	of the 1.18->1.19 patch.  i left out the ability for the module to
+	also load as _pybsddb in addition to _bsddb as that applies more to
+	pybsddb than python.
+
+2003-09-22 09:06  greg
+
+	* Modules/_bsddb.c (1.17.6.1): port of 1.17->1.18 change.  adds
+	DBEnv.set_shm_key method.
+
+2003-09-21 14:51  rhettinger
+
+	* Lib/bsddb/__init__.py (1.5.10.2): Backport Greg's patch (1.7 to
+	1.8) for backwards code compatability.
+
+2003-09-21 14:38  rhettinger
+
+	* Lib/test/test_urllibnet.py (1.6.6.1): Backport Tim's fix to SF
+	#809915.  Creates a url that should always be invalid.
+
+2003-09-21 01:29  loewis
+
+	* configure (1.416.4.5), configure.in (1.427.4.5), pyconfig.h.in
+	(1.83.4.2): Check for declarations of fchdir and fsync. Fixes
+	#800710.
+
+2003-09-20 21:13  loewis
+
+	* Misc/NEWS (1.831.4.49), Python/thread.c (2.46.10.1),
+	Python/thread_pth.h (2.9.16.1): Patch #805613: Fix usage of the PTH
+	library.
+
+2003-09-20 21:09  loewis
+
+	* Doc/lib/libtimeit.tex (1.4.10.2), Doc/lib/libunittest.tex
+	(1.14.8.2), Lib/timeit.py (1.13.8.1): Patch #808362: Fix typos.
+
+2003-09-20 21:04  loewis
+
+	* Misc/NEWS (1.831.4.48), Tools/freeze/checkextensions_win32.py
+	(1.7.14.1): Patch #713645: Fix typo.
+
+2003-09-20 20:58  loewis
+
+	* Lib/sgmllib.py (1.45.8.1), Misc/NEWS (1.831.4.47): Patch #793559:
+	Reset __starttext_tag. Fixes #709491.
+
+2003-09-20 20:50  loewis
+
+	* Makefile.pre.in (1.136.6.1): Patch #805678: Add .so symlink
+	during make install.
+
+2003-09-20 20:47  loewis
+
+	* configure (1.416.4.4), configure.in (1.427.4.4): Patch #805604:
+	Do not check for sem_init, do not use -Kthread, if configured
+	--without-threads.
+
+2003-09-19 11:01  bcannon
+
+	* Misc/NEWS (1.831.4.46): Mention improvement of detection of
+	broken tzset() (patch #762934).
+
+2003-09-19 11:00  bcannon
+
+	* configure (1.416.4.3), configure.in (1.427.4.3), pyconfig.h.in
+	(1.83.4.1): Improve detection of broken implementations of tzset().
+
+2003-09-18 03:12  theller
+
+	* Doc/dist/dist.tex (1.56.8.1): Fix a typo found by Eric D. Moyer,
+	closes SF 807813.
+	
+	Will backport to 2.3.
+
+2003-09-17 13:22  jhylton
+
+	* Objects/unicodeobject.c (2.190.6.7): Backport Tim's portability
+	improvement and comments.
+
+2003-09-17 08:05  rhettinger
+
+	* Doc/lib/libunittest.tex (1.14.8.1): * Minor wording change *
+	Reference the doctest.DocTestSuite() conversion tool.
+
+2003-09-17 07:42  rhettinger
+
+	* Misc/NEWS (1.831.4.45), Doc/lib/libbsddb.tex (1.11.10.1),
+	Doc/lib/libdbhash.tex (1.5.36.2), Lib/bsddb/__init__.py (1.5.10.1),
+	Lib/test/test_bsddb.py (1.12.16.1): Fix documentation bugs.  Add
+	support for iterators and other mapping methods.  Convert tests to
+	unittest format and expand their coverage.
+
+2003-09-17 06:30  jhylton
+
+	* Misc/NEWS (1.831.4.44), Objects/unicodeobject.c (2.190.6.6):
+	Backport: Double-fix of crash in Unicode freelist handling.
+
+2003-09-16 17:13  rhettinger
+
+	* Misc/NEWS (1.831.4.43), Objects/classobject.c (2.170.10.1): Fix
+	leak in classobject.c.	The leak surfaced on the error exit when
+	hashing a class that does not define __hash__ but does define a
+	comparison.
+
+2003-09-16 15:29  rhettinger
+
+	* Misc/NEWS (1.831.4.42), Objects/fileobject.c (2.179.8.3):
+	Backport Neal's fix for bug #789402 -- a memory leak in
+	fileobject.c
+
+2003-09-16 14:55  rhettinger
+
+	* Lib/: unittest.py (1.24.6.2), test/test___all__.py (1.34.6.1):
+	Backport addition of the __all__ attribute for unittest.py
+
+2003-09-16 14:36  rhettinger
+
+	* Misc/NEWS (1.831.4.41), Python/compile.c (2.291.6.1): Backport
+	leak fix for new code objects.
+
+2003-09-16 04:20  rhettinger
+
+	* Doc/lib/libsha.tex (1.10.26.1): SF bug #804113:  Crypto
+	terminology for crypto hash function
+	
+	Noted that the SHA algorithm is really SHA-1.  (Contributed by
+	Ronald Rivest.)
+
+2003-09-13 12:59  rhettinger
+
+	* Lib/unittest.py (1.24.6.1): SF bug #804115:  bad argument
+	handling(unittest.py)
+
+2003-09-13 02:37  loewis
+
+	* Lib/htmllib.py (1.19.16.1), Misc/NEWS (1.831.4.40): Patch
+	#793021: Implement htmllib.HTMLParser.reset. Fixes #711632.
+
+2003-09-12 10:03  rhettinger
+
+	* Doc/lib/libstdtypes.tex (1.129.8.4): SF bug #804280:	fromkeys is
+	not listed in index
+
+2003-09-11 06:50  fdrake
+
+	* Doc/lib/libpickle.tex (1.42.10.2): - add version annotation for
+	HIGHEST_PROTOCOL - cleaned up some markup
+
+2003-09-11 04:57  rhettinger
+
+	* Doc/lib/libcsv.tex (1.7.8.2): SF bug #803679:  Missing section
+	number in csv module documentation
+
+2003-09-11 04:45  rhettinger
+
+	* Doc/lib/libre.tex (1.101.8.5): SF bug #803842:  Wrong description
+	of regexp concatenation
+
+2003-09-10 14:45  rhettinger
+
+	* Doc/lib/libdbhash.tex (1.5.36.1): SF bug #802302:  Invalid
+	documentation for dbhash.
+	
+	The documentation severely departed for the actual implementation.
+
+2003-09-10 13:55  rhettinger
+
+	* Doc/lib/libre.tex (1.101.8.4): SF patch #800899:  Making "|"
+	directive from REs a bit clearer.
+
+2003-09-10 13:31  rhettinger
+
+	* Lib/logging/config.py (1.7.10.1), Misc/NEWS (1.831.4.39): SF
+	#792649:  RESET_ERROR is not defined(logging module)
+
+2003-09-10 10:12  rhettinger
+
+	* Doc/lib/libos.tex (1.127.10.3): Fix typo.
+
+2003-09-09 11:32  rhettinger
+
+	* Doc/lib/libre.tex (1.101.8.3): SF #801306:  Bad RE in scanf
+	example
+
+2003-09-09 11:13  rhettinger
+
+	* Doc/lib/libfuncs.tex (1.143.8.4): SF bug #560286:  Add docs for
+	'basestring'
+
+2003-09-09 10:07  rhettinger
+
+	* Doc/lib/libitertools.tex (1.12.6.4): Add an example to address a
+	common question of how to split iterators.
+
+2003-09-09 05:15  rhettinger
+
+	* Lib/: random.py (1.51.8.3), sets.py (1.44.8.3): Set the warnings
+	stacklevel to two.
+
+2003-09-09 05:01  rhettinger
+
+	* Doc/ext/extending.tex (1.24.10.1): Fix spacing markup and other
+	sundries.
+
+2003-09-09 04:55  rhettinger
+
+	* Doc/lib/: libos.tex (1.127.10.2), libshlex.tex (1.16.12.1),
+	libstdtypes.tex (1.129.8.3), libtime.tex (1.60.8.1): Fix spacing
+	markup and other sundries.
+
+2003-09-09 04:43  rhettinger
+
+	* Misc/NEWS (1.831.4.38): Generalize the last change to check for
+	other markup spacing errors.
+
+2003-09-09 04:10  fdrake
+
+	* Doc/lib/libtest.tex (1.2.10.2): backport from trunk: - reorganize
+	sections - lots of markup changes
+
+2003-09-09 04:06  rhettinger
+
+	* Misc/NEWS (1.831.4.37): texcheck.py checks for double word errors
+	and \NULL markup.
+
+2003-09-09 03:36  rhettinger
+
+	* Tools/scripts/texcheck.py (1.6.8.1): Check for \NULL markup
+	errors and doubled words.
+
+2003-09-08 09:38  rhettinger
+
+	* Doc/lib/: libdl.tex (1.5.24.1), libweakref.tex (1.19.8.1): Fix
+	NULL markup.
+
+2003-09-08 06:43  loewis
+
+	* Objects/fileobject.c (2.179.8.2): Only release buffer after file
+	has been closed. Fixes #800824.
+
+2003-09-07 12:35  fdrake
+
+	* Doc/api/init.tex (1.10.8.2): fix \NULL with following space and
+	no {}
+
+2003-09-07 12:34  fdrake
+
+	* Doc/ext/newtypes.tex (1.31.8.2): fix \NULL with following space
+	and no {} (two instances)
+
+2003-09-07 12:26  fdrake
+
+	* Doc/api/abstract.tex (1.26.12.2): backport Brett's markup fix
+	from revision 1.28: add missing {} after \NULL
+
+2003-09-07 05:52  montanaro
+
+	* Misc/NEWS (1.831.4.36), Lib/csv.py (1.7.8.1),
+	Lib/test/test_csv.py (1.9.8.1): **kwds arg was missing from
+	__init__ for Dict{Reader,Writer} classes.
+
+2003-09-06 16:42  fdrake
+
+	* Doc/Makefile.deps (1.110.8.1): add missing dependency
+
+2003-09-06 15:48  rhettinger
+
+	* Doc/lib/libfuncs.tex (1.143.8.3): SF bug 799191:  fix markup
+
+2003-09-06 15:36  rhettinger
+
+	* Doc/lib/libdatetime.tex (1.49.8.3): SF bug 799367:  grammar error
+
+2003-09-06 14:40  rhettinger
+
+	* Doc/lib/libtest.tex (1.2.10.1): SF bug #801486:  Markup error.
+
+2003-09-06 13:48  fdrake
+
+	* Doc/ref/ref2.tex (1.48.10.1): Elaborate the explanation of
+	different flavors of _* identifiers.  Fixes SF bug #520325.
+
+2003-09-06 08:09  jackjansen
+
+	* Mac/OSX/Dist/: build.panther (1.1.2.2),
+	resources.panther/ReadMe.txt (1.1.2.2),
+	resources.panther/Welcome.rtf (1.1.2.2): As of 7B53 things seem to
+	work smoothly.
+
+2003-09-06 07:40  rhettinger
+
+	* Misc/NEWS (1.831.4.35), Lib/random.py (1.51.8.2),
+	Lib/test/test_random.py (1.12.8.2): SF bug #801342:  Bug
+	(documentation or real, your choice) in random.sample.
+	
+	random.sample() uses one of two algorithms depending on the ratio
+	of the sample size to the population size.  One of the algorithms
+	accepted any iterable population argument so long as it defined
+	__len__().  The other had a stronger requirement that the
+	population argument be indexable.
+	
+	While it met the documentation specifications which insisted that
+	the population argument be a sequence, it made random.sample() less
+	usable with sets.  So, the second algorithm was modified to coerce
+	non-indexable iterables and dictionaries into a tuple before
+	proceeding.
+
+2003-09-06 00:38  rhettinger
+
+	* Objects/sliceobject.c (2.21.16.1), Misc/NEWS (1.831.4.34): SF bug
+	#800796:  Difference between hash() and __hash__()
+	
+	slice(5).__hash__() now raises a TypeError.
+
+2003-09-05 05:02  loewis
+
+	* Include/fileobject.h (2.32.8.1), Misc/NEWS (1.831.4.33),
+	Objects/fileobject.c (2.179.8.1): Patch #788249: Pass an explicit
+	buffer to setvbuf in PyFile_SetBufSize().  Fixes #603724.
+
+2003-09-05 04:52  loewis
+
+	* configure (1.416.4.2), configure.in (1.427.4.2), Misc/NEWS
+	(1.831.4.32): Patch #798202: detect redhat9 Tcl/Tk in configure
+	script.
+
+2003-09-05 04:46  loewis
+
+	* Misc/NEWS (1.831.4.31), Python/importdl.c (2.70.14.1): Patch
+	#794826: Add __file__ in dynamically loaded modules for multiple
+	interpreters. Fixes #698282.
+
+2003-09-05 04:30  loewis
+
+	* Doc/lib/libdatetime.tex (1.49.8.2): Patch #792338: Correct
+	documentation for timetuple return type.
+
+2003-09-05 04:26  loewis
+
+	* Misc/NEWS (1.831.4.30), Modules/_localemodule.c (2.40.4.2): Patch
+	#798145: Return correct information from nl_langinfo(RADIXCHAR).
+
+2003-09-03 15:15  loewis
+
+	* Misc/NEWS (1.831.4.29), Lib/idlelib/IOBinding.py (1.19.8.2):
+	Catch locale.error as well. Fixes #788378.
+
+2003-09-03 14:53  loewis
+
+	* Misc/NEWS (1.831.4.28), Modules/_localemodule.c (2.40.4.1),
+	Doc/lib/liblocale.tex (1.33.10.2): Use de_DE in example, change
+	message for unknown locale. Fixes #797447.
+
+2003-09-03 14:22  bwarsaw
+
+	* Misc/NEWS (1.831.4.27): NEWS about email package 794466 patch.
+
+2003-09-03 14:22  bwarsaw
+
+	* Lib/email/test/test_email.py (1.50.10.2):
+	test_get_param_with_semis_in_quotes(): Test case for SF bug
+	#794466.
+	
+	Backport candidate.
+
+2003-09-03 14:21  bwarsaw
+
+	* Lib/email/Message.py (1.32.10.2): A fix for parsing parameters
+	when there are semicolons inside the quotes.  Fixes SF bug #794466,
+	with the essential patch provided by Stuart D. Gathman. 
+	Specifically,
+	
+	_parseparam(), _get_params_preserve(): Use the parsing function
+	that takes quotes into account, as given (essentially) in the bug
+	report's test program.
+
+2003-09-03 13:25  bwarsaw
+
+	* Misc/NEWS (1.831.4.26): Document the Pynche patch.
+
+2003-09-03 13:23  bwarsaw
+
+	* Tools/pynche/Main.py (2.22.14.1): Fix for SF bug #780996, crash
+	when no .pynche file exists and -d option is not given.  If dbfile
+	isn't given and can't be retrieved from the optionsdb, just
+	initialize it to the first element in RGB_TXT.
+	
+	(backported)
+
+2003-09-02 17:01  rhettinger
+
+	* Lib/test/test_filecmp.py (1.2.8.2): Only apply case-insensitivity
+	test on appropriate platforms.' test_filecmp.py
+
+2003-09-02 15:47  rhettinger
+
+	* Misc/NEWS (1.831.4.25), Lib/filecmp.py (1.16.10.1),
+	Lib/test/test_filecmp.py (1.2.8.1): SF bug #453515:  filecmp.dircmp
+	case sensitivity bug
+
+2003-09-02 14:24  rhettinger
+
+	* Misc/NEWS (1.831.4.24): SF patch #798534:  Windows os.popen
+	needlessly gets a reference to tuple () (Contributed by Andrew
+	Gaul.)
+	
+	Fixes a minor leak.
+
+2003-09-02 14:19  rhettinger
+
+	* Lib/test/test_itertools.py (1.15.6.3): Fix failing test
+
+2003-09-02 12:34  rhettinger
+
+	* Doc/lib/libhttplib.tex (1.34.10.1): SF patch #798255:  Document
+	httplib.HTTPResponse.read "amt" argument (Contributed by Jeff
+	Epler.)
+
+2003-09-02 12:17  rhettinger
+
+	* Misc/NEWS (1.831.4.23): SF 798269:  bug fix for doctest (sf bug
+	id: 798254 (Contributed by Alexander Belopolsky.)
+
+2003-09-02 12:10  rhettinger
+
+	* Lib/doctest.py (1.30.6.1): SF 798269:  bug fix for doctest (sf
+	bug id: 798254 (Contributed by Alexander Belopolsky.)
+	
+	Doctest would crash when encountering unbound methods:	 class A:  
+	  def f(self): pass
+	
+	  class C(A):
+	    g = A.f
+
+2003-09-02 09:31  rhettinger
+
+	* Lib/ConfigParser.py (1.58.8.1): SF patch #790443:  add
+	SafeConfigParser to __all__ (Contributed by George Yoshida.)
+
+2003-09-02 09:13  rhettinger
+
+	* Doc/lib/libcodecs.tex (1.22.8.2): Minor typo
+
+2003-09-02 08:52  rhettinger
+
+	* Doc/lib/liblogging.tex (1.12.8.1): SF patch #791153: 
+	inconsistency with implementation(logging) (Contributed by George
+	Yoshida.)
+
+2003-09-02 08:32  rhettinger
+
+	* Modules/posixmodule.c (2.300.8.2): SF patch #798534:	Windows
+	os.popen needlessly gets a reference to tuple () (Contributed by
+	Andrew Gaul.)
+	
+	Fixes a minor leak.
+
+2003-09-02 08:14  rhettinger
+
+	* Objects/: descrobject.c (2.35.10.1), dictobject.c (2.146.8.1): SF
+	patch #798467:	Update docstring of has_key for bool changes
+	(Contributed by George Yoshida.)
+
+2003-09-01 09:40  jackjansen
+
+	* Mac/OSX/Dist/resources.panther/ReadMe.txt (1.1): file ReadMe.txt
+	was initially added on branch release23-maint.
+
+2003-09-01 09:40  jackjansen
+
+	* Mac/OSX/Dist/: build.panther (1.1.2.1),
+	resources.panther/ReadMe.txt (1.1.2.1),
+	resources.panther/Welcome.rtf (1.1.2.1): First stab at build script
+	for distribution for Panther. Unfortunately at the moment it
+	crashes the kernel:-)
+
+2003-09-01 09:40  jackjansen
+
+	* Mac/OSX/Dist/build.panther (1.1): file build.panther was
+	initially added on branch release23-maint.
+
+2003-09-01 09:40  jackjansen
+
+	* Mac/OSX/Dist/resources.panther/Welcome.rtf (1.1): file
+	Welcome.rtf was initially added on branch release23-maint.
+
+2003-08-31 15:46  rhettinger
+
+	* Doc/lib/libcsv.tex (1.7.8.1): SF bug #797853:  Small problems
+	with the csv module's documentation
+
+2003-08-31 15:30  rhettinger
+
+	* Doc/lib/libre.tex (1.101.8.2): SF bug #732120:An extended
+	definition of "non-overlapping" would save time.
+	
+	Clarified the meaning of non-overlapping in patterns with zero
+	length matches.
+
+2003-08-31 15:11  rhettinger
+
+	* Doc/lib/libos.tex (1.127.10.1): SF patch #797157:  Bug 794658:
+	os.chmod docs, stat constants (Contributed by Christos Georgiou.)
+	
+	Reference the symbol definitions in the stat module.
+
+2003-08-31 14:37  rhettinger
+
+	* Lib/test/test_zlib.py (1.23.8.1): SF bug #785222:  zlib monotonic
+	test
+	
+	For smaller datasets, it is not always true the increasing the
+	compression level always results in better compression.  Removed
+	the test which made this invalid assumption.
+
+2003-08-31 14:21  rhettinger
+
+	* Doc/lib/libtimeit.tex (1.4.10.1): SF bug 798006:  Fix long option
+	markup.
+
+2003-08-31 09:58  rhettinger
+
+	* Objects/complexobject.c (2.67.8.1): Remove 'e.g.' from error
+	message
+
+2003-08-31 09:35  rhettinger
+
+	* Doc/lib/libstdtypes.tex (1.129.8.2): SF patch #797180: Bug
+	792656: slicing explained
+
+2003-08-31 09:24  rhettinger
+
+	* Doc/tut/tut.tex (1.196.8.5): SF patch #797868:  Tutorial, sec.
+	5.1.4 could contain an extra example (Revised from the original
+	patch contributed by Michal Pasternak.)
+	
+	Also, make a couple minor fixups elsewhere.
+
+2003-08-31 08:14  rhettinger
+
+	* Doc/lib/libitertools.tex (1.12.6.3), Misc/NEWS (1.831.4.22),
+	Modules/itertoolsmodule.c (1.18.6.3), Lib/test/test_itertools.py
+	(1.15.6.2): * Add news item for the previous bugfix * Backport
+	itertoolsmodule.c 1.19 to re-sync Py2.3.1 with Py2.4.
+
+2003-08-31 00:52  rhettinger
+
+	* Lib/textwrap.py (1.32.8.1), Lib/test/test_textwrap.py (1.22.8.1),
+	Misc/NEWS (1.831.4.21): SF bug 797650: Infinite loop in textwrap.py
+	
+	When the indents were set to longer than the width and long word
+	breaking was enabled, an infinite loop would result because the
+	inner loop did not assure that at least one character was stripped
+	off on every pass.
+
+2003-08-30 10:16  rhettinger
+
+	* Misc/NEWS (1.831.4.20): SF bug #793826:  using itertools.izip to
+	mutate tuples
+	
+	Avoid Armin Rigo's dastardly exercise in re-entrancy.
+
+2003-08-30 10:11  rhettinger
+
+	* Modules/itertoolsmodule.c (1.18.6.2): For safety, replace a tuple
+	entry before decreffing it.
+
+2003-08-30 09:13  rhettinger
+
+	* Lib/test/test_itertools.py (1.15.6.1), Modules/itertoolsmodule.c
+	(1.18.6.1): SF bug #793826:  using itertools.izip to mutate tuples
+	
+	Avoid Armin Rigo's dastardly exercise in re-entrancy.
+
+2003-08-30 08:46  jackjansen
+
+	* Mac/OSX/: Makefile.panther (1.1.2.1), setup.panther.py (1.1.2.1):
+	A makefile and setup script to create the bits that are part of
+	MacPython but not of Apple's Panther distribution: the waste
+	module, the IDE and BuildApplet applets.
+
+2003-08-30 08:46  jackjansen
+
+	* Mac/OSX/Makefile.panther (1.1): file Makefile.panther was
+	initially added on branch release23-maint.
+
+2003-08-30 08:46  jackjansen
+
+	* Mac/OSX/setup.panther.py (1.1): file setup.panther.py was
+	initially added on branch release23-maint.
+
+2003-08-29 12:34  bcannon
+
+	* Lib/_strptime.py (1.23.4.4), Lib/test/test_strptime.py
+	(1.19.4.4), Misc/NEWS (1.831.4.19): _strptime.srptime() escaped
+	parentheses in the format string properly.  Closes bug #796149 .
+
+2003-08-28 06:21  theller
+
+	* Lib/compileall.py (1.14.12.1): Fix typo in docstring: The switch
+	is '-x', not '-s'.
+
+2003-08-28 01:10  fdrake
+
+	* Doc/lib/liburllib.tex (1.50.8.1): remove extra word occurance;
+	reported to webmaster
+
+2003-08-27 20:49  theller
+
+	* Lib/UserString.py (1.17.10.1): Remove a typo.
+
+2003-08-27 15:08  rhettinger
+
+	* Lib/test/string_tests.py (1.32.10.1), Misc/NEWS (1.831.4.18),
+	Objects/stringobject.c (2.209.8.1), Objects/unicodeobject.c
+	(2.190.6.5): SF bug #795506:  Wrong handling of string format code
+	for float values.
+	
+	Added missing support for '%F' as had been documented.
+
+2003-08-26 21:59  jlt63
+
+	* Lib/test/test_largefile.py (1.16.16.1): test_largefile can leave
+	its temp file open if one of many tests fail. On platforms (e.g.,
+	Cygwin) that are "particular" about open files, this will cause
+	other regression tests that use the same temp file to fail:
+	
+	    $ ./python.exe -E -tt Lib/test/regrtest.py -l
+	    test_largefile test_mmap test_mutants
+	    test_largefile
+	    test test_largefile failed -- got -1794967295L, but expected
+	2500000001L
+	    test_mmap
+	    test test_mmap crashed -- exceptions.IOError: [Errno 13]
+	Permission denied: '@test'
+	    test_mutants
+	    test test_mutants crashed -- exceptions.IOError: [Errno 13]
+	Permission denied: '@test'
+	
+	This patch solves the problem by adding missing "try/finally"
+	blocks. Note that the "large" size of this patch is due to many
+	white space changes -- otherwise, the patch is small.
+	
+	I tested this patch under Red Hat Linux 8.0 too.
+
+2003-08-25 15:04  rhettinger
+
+	* Doc/lib/libitertools.tex (1.12.6.2): Make the derived tools
+	amendable to cut and paste.
+
+2003-08-25 14:44  rhettinger
+
+	* Doc/api/newtypes.tex (1.23.8.1): Fixed doubled word typos.
+
+2003-08-25 14:41  rhettinger
+
+	* Doc/ref/ref3.tex (1.114.4.1): Fixed doubled word typos.
+
+2003-08-25 14:34  rhettinger
+
+	* Doc/lib/: libcookie.tex (1.10.16.1), libfuncs.tex (1.143.8.2),
+	liblocale.tex (1.33.10.1), libmailbox.tex (1.26.10.1),
+	libmultifile.tex (1.12.16.1), libpdb.tex (1.37.8.1), libprofile.tex
+	(1.41.8.1), librfc822.tex (1.44.8.1), libuserdict.tex (1.23.16.1),
+	libzipfile.tex (1.15.16.1): Fix double word typos.
+
+2003-08-25 13:31  rhettinger
+
+	* Doc/lib/libhtmlparser.tex (1.3.12.1): SF bug #793702:  Section
+	13.1 HTMLParser documentation error
+	
+	The -- is special to TeX and was printing as just -.
+
+2003-08-23 13:47  rhettinger
+
+	* Doc/tut/tut.tex (1.196.8.4): Fix typo.
+	
+	Thou shalt not count to two unless proceeding to the number three.
+
+2003-08-23 13:39  rhettinger
+
+	* Doc/api/concrete.tex (1.25.10.1): Fix typo.
+
+2003-08-23 02:27  rhettinger
+
+	* Doc/lib/libdatetime.tex (1.49.8.1): Missing "if".
+
+2003-08-19 14:52  bwarsaw
+
+	* Lib/email/: Message.py (1.32.10.1), Utils.py (1.24.12.1),
+	__init__.py (1.29.10.1), test/test_email.py (1.50.10.1):
+	Backporting email 2.5.4 fixes from the trunk.
+
+2003-08-19 14:51  bwarsaw
+
+	* Doc/lib/emailmessage.tex (1.11.12.1): Update get_param()
+	description to reflect changes to the docstring.
+
+2003-08-19 14:50  bwarsaw
+
+	* Misc/NEWS (1.831.4.17): Describe the fix to the email package.
+
+2003-08-19 04:34  doerwalter
+
+	* Python/bltinmodule.c (2.292.10.1): Backport checkin:
+	
+	Fix a crash: when sq_item failed the code continued blindly and
+	used the NULL pointer. (Detected by Michael Hudson, patch provided
+	by Neal Norwitz).
+	
+	Fix refcounting leak in filtertuple().
+
+2003-08-19 03:54  theller
+
+	* PC/getpathp.c (1.31.12.1): Remove a stray single quote.
+
+2003-08-18 08:08  rhettinger
+
+	* Doc/lib/libsets.tex (1.11.16.1), Lib/sets.py (1.44.8.2),
+	Lib/test/test_sets.py (1.24.8.1), Misc/NEWS (1.831.4.16): Backport
+	improvements to set.py so that the interface will remain consistent
+	across versions.
+	
+	* Relaxed the argument restrictions for non-operator methods.  They
+	now   allow any iterable instead of requiring a set.  This makes
+	the module   a little easier to use and paves the way for an
+	efficient C   implementation which can take better advantage of
+	iterable arguments   while screening out immutables.
+	
+	* Added a PendingDeprecationWarning for Set.update() because it now
+	  duplicates Set.union_update()
+	
+	* Adapted the tests and docs to include the above changes.
+	
+	* Added more test coverage including testing identities and
+	checking   to make sure non-restartable generators work as
+	arguments.
+
+2003-08-18 07:29  rhettinger
+
+	* Modules/getaddrinfo.c (1.11.14.1): SF #784031:  Byte-order bug in
+	socket-module getaddrinfo.c
+
+2003-08-16 16:31  fdrake
+
+	* Doc/tut/tut.tex (1.196.8.3): Adjust some horizontal indentation
+	to be consistent with the style used throughout the documentation.
+
+2003-08-16 07:14  rhettinger
+
+	* Misc/NEWS (1.831.4.15), Lib/sets.py (1.44.8.1): Make sets.py
+	compatible with Py2.2
+
+2003-08-16 03:36  doerwalter
+
+	* Lib/test/test_builtin.py (1.21.8.1): Backport checkin: Make a
+	copy of L before appending, so the global L remains unchanged (and
+	sys.gettotalrefcount() remains constant).
+	
+	Fix a few typos.
+
+2003-08-16 02:52  doerwalter
+
+	* Objects/unicodeobject.c (2.190.6.4): Backport checkin: Fix
+	refcounting leak in charmaptranslate_lookup()
+
+2003-08-16 02:27  doerwalter
+
+	* Objects/unicodeobject.c (2.190.6.3): Backport checkin: Fix
+	another refcounting leak in PyUnicode_EncodeCharmap().
+
+2003-08-16 01:01  doerwalter
+
+	* Objects/unicodeobject.c (2.190.6.2): Backport checkin: Fix
+	another refcounting leak (in PyUnicode_DecodeUnicodeEscape()).
+
+2003-08-15 22:26  mwh
+
+	* Objects/listobject.c (2.156.8.2): Backport my fix to my fix: My
+	last fix left n used unitialized in tha a==b case.  Fix, by not
+	using n at all in that case.
+
+2003-08-15 07:00  doerwalter
+
+	* Python/exceptions.c (1.44.10.2): Backport checkin: Fix refcount
+	leak in the UnicodeError constructor: When parsing the constructor
+	arguments failed, a reference to the argument tuple was leaked.
+
+2003-08-15 06:26  doerwalter
+
+	* Objects/unicodeobject.c (2.190.6.1): Backport checkins: Fix
+	refcount leak in PyUnicode_EncodeCharmap(). The bug surfaces when
+	an encoding error occurs and the callback name is unknown, i.e.
+	when the callback has to be called. The problem was that the fact
+	that the callback has already been looked up was only recorded in a
+	local variable in charmap_encoding_error(), because
+	charmap_encoding_error() got it's own copy of the errorHandler
+	pointer instead of a pointer to the pointer in
+	PyUnicode_EncodeCharmap().
+
+2003-08-15 06:01  rhettinger
+
+	* Doc/lib/libcfgparser.tex (1.29.16.1): SF patch #787929:  reflect
+	the introduce of boolean type(libcfgparser.tex) (Contributed by
+	George Yoshida.)
+
+2003-08-15 03:25  mwh
+
+	* Objects/listobject.c (2.156.8.1): And backport-2-3-4: Fix
+	reference leak noted in test_types: Check for a[:] = a _before_
+	calling PySequence_Fast on a.
+
+2003-08-15 01:15  kbk
+
+	* Lib/idlelib/: NEWS.txt (1.23.4.1), PyShell.py (1.81.4.1): - IDLE
+	didn't start correctly when Python was installed in "Program Files"
+	  on W2K and XP.  Python Bugs 780451, 784183
+
+2003-08-13 03:38  doerwalter
+
+	* Python/exceptions.c (1.44.10.1), Lib/test/test_codeccallbacks.py
+	(1.12.8.1): Backport checkins: * Enhance message for
+	UnicodeEncodeError and UnicodeTranslateError.	 If there is only
+	one bad character it will now be printed in a	 form that is a
+	valid Python string.  * Add a unicode prefix to the characters in
+	the UnicodeEncodeError	 and UnicodeTranslateError message.
+
+2003-08-12 09:57  rhettinger
+
+	* Doc/ref/ref7.tex (1.35.16.1): SF patch#786531 'the the' typo. 
+	Contributed by George Yoshida
+
+2003-08-12 09:43  rhettinger
+
+	* Doc/: api/init.tex (1.10.8.1), ext/newtypes.tex (1.31.8.1),
+	lib/libcgi.tex (1.40.10.1), lib/libcodecs.tex (1.22.8.1),
+	lib/libcurses.tex (1.42.8.1), lib/libdoctest.tex (1.17.8.1),
+	lib/libfuncs.tex (1.143.8.1), lib/libgettext.tex (1.20.6.2),
+	lib/libpickle.tex (1.42.10.1), lib/libre.tex (1.101.8.1),
+	lib/libstdwin.tex (1.25.26.1), mac/libframework.tex (1.9.42.1),
+	tut/tut.tex (1.196.8.2): SF patch#786531 'the the' typo. 
+	Contributed by George Yoshida
+
+2003-08-11 22:21  mwh
+
+	* Python/pythonrun.c (2.195.6.2): Repeat my refcount & cut&paste
+	fixes on the branch.
+
+2003-08-11 22:13  jlt63
+
+	* Lib/test/test_netrc.py (1.5.14.1): Unconditionally opening the
+	temp file in text mode causes this test to fail under Cygwin. The
+	attached patch corrects this problem.
+	
+	I tested this patch under Red Hat Linux 8.0 too.
+
+2003-08-11 21:16  jackjansen
+
+	* Mac/OSX/Doc/setup.py (1.4.8.1): Version number was wrong (2.3b1).
+	Fixed.
+
+2003-08-11 17:21  bcannon
+
+	* Misc/NEWS (1.831.4.14): Add note of closing of bug #783952.
+
+2003-08-11 17:19  bcannon
+
+	* Lib/: _strptime.py (1.23.4.3), test/test_strptime.py (1.19.4.3):
+	Fix bug where handling issue of time.tzname[0] == time.tzname[1]
+	and time.daylight were all true.  Add an explicit test for this
+	issue.
+	
+	Closes bug #783952 .
+
+2003-08-10 04:20  rhettinger
+
+	* Lib/random.py (1.51.8.1), Lib/test/test_random.py (1.12.8.1),
+	Misc/NEWS (1.831.4.13): SF bug #778964:  bad seed in python 2.3
+	random
+	
+	The default seed is time.time().  Multiplied by 256 before
+	truncating so that fractional seconds are used.  This way, two
+	consequetive calls to random.seed() are much more likely to produce
+	different sequences.
+
+2003-08-09 19:53  loewis
+
+	* Lib/lib-tk/Tkconstants.py (1.8.42.1), Misc/NEWS (1.831.4.12): Add
+	HIDDEN. Fixes #777664.
+
+2003-08-09 19:48  loewis
+
+	* Misc/NEWS (1.831.4.11), Python/pythonrun.c (2.195.6.1),
+	Python/sysmodule.c (2.120.6.1): Move initialization of
+	sys.std{in,out}.encoding to Py_Initialize.  Verify that the
+	encoding actually exists. Fixes #775985.
+
+2003-08-09 19:07  loewis
+
+	* configure (1.416.4.1), configure.in (1.427.4.1): Patch #771998:
+	Put braces around variables.
+
+2003-08-09 14:38  rhettinger
+
+	* Doc/api/abstract.tex (1.26.12.1): SF patch #783807:  Clarify
+	PySequence_Setitem ref counting (Contributed by Jay T Miller.)
+
+2003-08-09 13:10  kbk
+
+	* Lib/idlelib/config-main.def (1.19.8.1): IDLEfork Bug 782759
+	config-main.def user configuration doc incorrect
+
+2003-08-09 09:31  rhettinger
+
+	* Doc/tut/tut.tex (1.196.8.1): Explain argument unpacking
+
+2003-08-08 22:22  rhettinger
+
+	* Lib/test/test_StringIO.py (1.16.8.1), Misc/NEWS (1.831.4.10),
+	Modules/cStringIO.c (2.40.10.1): SF bug #770485: cStringIO does not
+	set closed attr
+
+2003-08-08 21:05  rhettinger
+
+	* Doc/lib/libstdtypes.tex (1.129.8.1): SF bug #775836: change 0,1
+	to False,True in dict.has_key doc
+
+2003-08-08 12:41  rhettinger
+
+	* Doc/lib/libitertools.tex (1.12.6.1): Improve docs: * Simplify the
+	pure python examples * Add a quantify() example
+
+2003-08-08 11:52  bcannon
+
+	* Lib/_strptime.py (1.23.4.2): Fix docstring for LocaleTime.
+
+2003-08-08 02:10  fdrake
+
+	* Doc/mac/: libaepack.tex (1.3.12.1), undoc.tex (1.9.14.2): Fix
+	hyperlinks and one class reference.  Backported from trunk, but to
+	the right branch this time.
+
+2003-08-08 02:05  fdrake
+
+	* Doc/tools/push-docs.sh (1.15.18.1): control where this lands by
+	default in dev/doc/ on python.org, but check it in on the right
+	branch this time
+
+2003-08-08 01:08  mwh
+
+	* Lib/test/test_descr.py (1.196.8.1), Objects/typeobject.c
+	(2.241.6.1): As penance for forgetting to flag my last checkins as
+	bugfix candidates, just do the backport.
+	
+	These changes do not apply to release22-maint.
+
+2003-08-07 21:56  loewis
+
+	* Modules/socketmodule.c (1.271.6.2), Misc/NEWS (1.831.4.9):
+	Release host name memory. Fixes #783312.
+
+2003-08-07 15:27  bcannon
+
+	* Misc/NEWS (1.831.4.8): Fix wording of cache announcement.
+
+2003-08-07 07:17  bcannon
+
+	* Lib/_strptime.py (1.23.4.1), Lib/test/test_strptime.py
+	(1.19.4.2), Misc/NEWS (1.831.4.7): Re-introduction of caching.	Not
+	thread-safe against the changing of locale in the middle of
+	executing time.strptime .  Added new tests for caching mechanism;
+	taken from 2.4 branch and tweaked appropriately.
+
+2003-08-06 16:57  rhettinger
+
+	* Doc/lib/libexcs.tex (1.52.10.1): Backport doc update:
+	
+	Clarified that TypeErrors can be raised by any function (not just
+	builtins).
+	
+	The issue arose in a thread on comp.lang.python.
+
+2003-08-06 16:52  rhettinger
+
+	* Modules/arraymodule.c (2.90.8.1), Misc/NEWS (1.831.4.6): Backport
+	SF bug #782369:  Massive memory leak in array module
+	
+	Fixed leak caused by switching from PyList_GetItem to
+	PySequence_GetItem.  Added missing NULL check.	Clarified code by
+	converting an "if" to an "else if".
+
+2003-08-06 16:47  rhettinger
+
+	* Doc/lib/libfuture.tex (1.1.10.1): Backport typo fix
+
+2003-08-06 12:47  mhammond
+
+	* Modules/posixmodule.c (2.300.8.1), Lib/test/test_unicode_file.py
+	(1.9.10.1): Demonstrate and fix [ 783882 ] os.lstat crashes with
+	Unicode filename.
+	
+	Also checked in on trunk.
+
+2003-08-06 02:12  doerwalter
+
+	* Lib/test/test_complex.py (1.12.6.2): Remove __floordiv__ test, as
+	it's deprecated.
+
+2003-08-06 02:01  doerwalter
+
+	* Lib/test/test_complex.py (1.12.6.1): Backport: * Check both
+	__div__ and __truediv__ in division tests.    (From SF patch
+	#543867)  * Remove useless import.
+
+2003-08-05 16:26  loewis
+
+	* Misc/NEWS (1.831.4.5), Modules/socketmodule.c (1.271.6.1): Patch
+	#781722: Reject AF_INET6 if IPv6 is disabled.
+
+2003-08-05 16:20  loewis
+
+	* Lib/encodings/idna.py (1.2.12.1), Lib/test/test_unicode.py
+	(1.84.8.1), Misc/NEWS (1.831.4.4): Support trailing dots in DNS
+	names. Fixes #782510.
+
+2003-08-05 16:06  loewis
+
+	* Misc/NEWS (1.831.4.3): List recently-fixed bugs.
+
+2003-08-05 15:59  loewis
+
+	* Lib/test/test_normalization.py (1.7.8.1): Correct URL for
+	normalization file. Fixes #781065.
+
+2003-08-05 15:54  loewis
+
+	* Doc/lib/libgettext.tex (1.20.6.1): Patch #781126: Fix markup for
+	add_fallback.
+
+2003-08-05 15:52  loewis
+
+	* Lib/idlelib/IOBinding.py (1.19.8.1): Make sure eol_convention is
+	an ASCII string. Fixes #774680.
+
+2003-08-05 08:53  bwarsaw
+
+	* Misc/NEWS (1.831.4.2): Boilerplate for Python 2.3.1
+
+2003-08-05 08:52  bwarsaw
+
+	* Include/patchlevel.h (2.74.4.1): Bump version string.
+
+2003-08-05 08:49  bwarsaw
+
+	* README (1.177.4.1), Doc/ACKS (1.39.8.1), Doc/Makefile
+	(1.261.4.1), Doc/README (1.49.8.1), Doc/python-docs.txt (1.1.18.1),
+	Doc/doc/doc.tex (1.75.8.1), Doc/html/about.html (1.8.16.1),
+	Doc/html/stdabout.dat (1.6.10.1), Doc/info/README (1.4.18.1),
+	Doc/lib/libundoc.tex (1.86.10.1), Doc/mac/toolbox.tex (1.8.6.1),
+	Doc/mac/undoc.tex (1.9.14.1), Doc/texinputs/boilerplate.tex
+	(1.84.4.1), Doc/tools/getpagecounts (1.9.10.1),
+	Doc/tools/html2texi.pl (1.3.48.1), Doc/tools/mkackshtml (1.3.18.1),
+	Doc/tools/sgmlconv/README (1.6.40.1), Doc/whatsnew/whatsnew23.tex
+	(1.159.4.1), Lib/test/test_optparse.py (1.2.8.1),
+	Lib/test/test_posixpath.py (1.9.6.1), Lib/test/test_strptime.py
+	(1.19.4.1), Lib/test/test_urllib.py (1.14.8.1), Lib/test/test_uu.py
+	(1.6.8.1), Mac/ReadMe (1.48.8.1), Mac/Build/PythonCore.mcp
+	(1.44.10.1), Mac/Build/PythonInterpreter.mcp (1.23.10.1),
+	Mac/Build/PythonStandSmall.mcp (1.50.10.1),
+	Mac/Build/_CG.carbon.mcp (1.7.10.1), Mac/Contrib/osam/OSAm.prj
+	(1.4.12.1), Mac/Distributions/binary.include (1.23.12.1),
+	Mac/Distributions/dev.include (1.29.10.1),
+	Mac/Distributions/src.include (1.8.12.1),
+	Mac/Distributions/(vise)/Python 2.3.vct (1.6.12.1),
+	Mac/Include/macbuildno.h (1.27.10.1), Mac/OSX/Dist/build
+	(1.12.4.1), Mac/OSX/Dist/resources/ReadMe.txt (1.1.4.1),
+	Mac/OSX/Dist/resources/Welcome.rtf (1.1.4.1),
+	Mac/OSX/Dist/resources/Welcome.txt (1.6.4.1),
+	Mac/scripts/fixfiletypes.py (1.8.12.1), Misc/HISTORY (1.11.14.1),
+	Misc/NEWS (1.831.4.1): Merging release23-branch into the long-term
+	Python 2.3 maintenance branch
+
+2003-07-31 00:57  jackjansen
+
+	* Mac/OSX/Dist/resources/ReadMe.txt (1.1): file ReadMe.txt was
+	initially added on branch release23-branch.
+
+2003-07-31 00:57  jackjansen
+
+	* Mac/OSX/Dist/resources/Welcome.rtf (1.1): file Welcome.rtf was
+	initially added on branch release23-branch.
+

@@ -1,0 +1,75 @@
+Python 2.5.6
+------------
+
+    We are pleased to announce the release of
+    **Python 2.5.6**, a security fix release of Python 2.5, on May 26th,
+    2011.
+
+    The last binary release of Python 2.5 was `2.5.4 <../2.5.4/>`_.
+
+This is a source-only release that only includes security fixes. The
+last full bug-fix release of Python 2.5 was `Python 2.5.4 <../2.5.4/>`_. User are encouraged to upgrade to the latest release of
+Python 2.7 (which is `2.7.2 <../2.7.2/>`_ at this point). This release
+is the final release of Python 2.5; under the current release policy,
+no security issues in Python 2.5 will be fixed anymore.
+
+This releases fixes issues with the urllib, urllib2, SimpleHTTPServer,
+and audiop modules. See the `detailed release notes <NEWS.txt>`_ for
+more details.
+
+See also the `license <license>`_.
+
+Download the release
+--------------------
+
+Source code
+~~~~~~~~~~~
+
+gzip-compressed source code: `Python-2.5.6.tgz 
+</ftp/python/2.5.6/Python-2.5.6.tgz>`_ 
+
+bzip2-compressed source code: `Python-2.5.6.tar.bz2 </ftp/python/2.5.6/Python-2.5.6.tar.bz2>`_,
+the source archive.
+
+The bzip2-compressed version is considerably smaller, so get that one if
+your system has the `appropriate  tools <http://www.bzip.org/>`_ to deal
+with it.
+
+Unpack the archive with ``tar -zxvf Python-2.5.6.tgz`` (or
+``bzcat Python-2.5.6.tar.bz2 | tar -xf -``).
+Change to the Python-2.5.6 directory and run the &quot;./configure&quot;, &quot;make&quot;,
+&quot;make install&quot; commands to compile and install Python. The source archive
+is also suitable for Windows users who feel the need to build their
+own version.
+
+What's New?
+-----------
+
+- See the `highlights <../2.5/highlights>`_ of the Python 2.5 release.
+
+- Andrew Kuchling's `What's New in Python 2.5 <http://www.python.org/doc/2.5/whatsnew/whatsnew25.html>`_ describes the most visible changes since `Python 2.4 <../2.4/>`_ in more detail.
+
+- A detailed list of the changes in 2.5.6 can be found in the `release notes <NEWS.txt>`_, or the ``Misc/NEWS`` file in the source distribution.
+
+- For the full list of changes, you can poke around in `Subversion <http://svn.python.org/view/python/branches/release25-maint/>`_.
+
+Documentation
+-------------
+
+The documentation has not been updated since the 2.5.4 release: 
+
+- `Browse HTML on-line </doc/2.5.4/>`_
+
+Files, `MD5 </download/releases/2.5.4/md5sum.py>`_ checksums, signatures and sizes
+----------------------------------------------------------------------------------
+
+    ``d1d9c83928561addf11d00b22a18ca50`` `Python-2.5.6.tgz </ftp/python/2.5.6/Python-2.5.6.tgz>`_
+    (11608002 bytes, `signature <Python-2.5.6.tgz.asc>`_)
+
+    ``5d45979c5f30fb2dd5f067c6b06b88e4`` `Python-2.5.6.tar.bz2 </ftp/python/2.5.6/Python-2.5.6.tar.bz2>`_
+    (9821788 bytes, `signature <Python-2.5.6.tar.bz2.asc>`_)
+
+The signatures above were generated with
+`GnuPG <http://www.gnupg.org>`_ using release manager
+Martin v. L?wis's `public key </download#pubkeys>`_
+which has a key id of 7D9DC8D2.

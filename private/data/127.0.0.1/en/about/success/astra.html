@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/astra -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/astra">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="astrazeneca-uses-python-for-collaborative-drug-discovery">
+<h1>AstraZeneca Uses Python for Collaborative Drug Discovery</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Software Development, Business, Scientific</p>
+<p><strong>Keywords:</strong>  Product Development, Quality, Bioinformatics, Computational Chemistry, Drug Discovery, Scientific Programming, Legacy System Integration, Knowledge Management, Pharmaceuticals, Web Development</p>
+<p><strong>Title:</strong>  AstraZeneca Uses Python for Collaborative Drug Discovery</p>
+<p><strong>Author:</strong>   Scott Boyer, Andrew Dalke, and Pierre Bruneau</p>
+<p><strong>Date:</strong>   2003/01/17 15:59:01</p>
+<p><strong>Web site:</strong>  <a class="reference external" href="http://www.astrazeneca.com/">http://www.astrazeneca.com/</a></p>
+<p><strong>Summary:</strong>  AstraZeneca, one of the world's leading pharmaceutical companies, uses Python to reduce costs and increase productivity in the drug identification process.</p>
+<p><strong>Logo:</strong>  .. image:: /files/success/astra/az-logo.gif    :alt: /files/success/astra/az-logo.gif</p>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p><a class="reference external" href="http://www.astrazeneca.com/">AstraZeneca</a> is one of the world's leading pharmaceutical companies.
+With over 54,000 employees world-wide, it provides innovative,
+effective medicines designed to fight cancer, provide pain control,
+heal infection, and fight diseases of the cardiovascular, central
+nervous, gastrointestinal, and respiratory systems.</p>
+<p>Finding a new drug often takes over a decade and more than $800
+million. A big problem early in the process is identifying those
+candidates more likely to be good drugs from the vast universe of
+possible molecules.</p>
+<p>Computational chemists have developed many techniques to predict
+molecular properties. These can be used to evaluate the likelihood that
+a molecule will be stable in the stomach (for pills that are
+swallowed), and that it can travel through the blood stream, cross the
+cell membrane, and eventually be broken down and eliminated, all
+without being too toxic to the body.</p>
+<p>If these computational techniques were good enough there would be no
+need to do actual experiments. But today's computer models cannot fully
+characterize a molecule's behavior in the body, nor replace the
+intuition of a skilled pharmaceutical chemist. Real molecules must
+still be tested in the laboratory to see how they react.</p>
+<p>To save time and money on laboratory work, experimental chemists use
+computational models to narrow the field of good drug candidates, while
+also verifying that the candidates to be tested are not simple
+variations of each other's basic chemical structure.</p>
+</div>
+<div class="section" id="process-improvements-needed">
+<h2>Process Improvements Needed</h2>
+<p>Much of the work on drug identification actually takes place through
+collaboration between many research groups scattered around the world.
+As part of this process, experimental chemists send a list of compounds
+to the computational chemist, who works on the data set and sends back
+the results.</p>
+<p>Historically, experimental chemists were forced to rely on
+computational chemists and other staff to run computer predictions.
+Each prediction technique required running a separate program, some
+commercial and others developed in-house by different groups around the
+company, and each program had its own set of inputs, options,
+configurations, and failure behaviors. An experimental chemist usually
+didn't have the training to work with them, which meant that the
+computational chemists were forced to take time out of their work on
+developing new techniques to run routine models.</p>
+<p>In 2000, AstraZeneca wanted to improve this process so that experimental
+chemists could make better computational predictions on their own, and
+so that the research of the computational chemists could progress at a
+faster rate, and make its way into the lab more quickly.</p>
+<p>Pierre Bruneau, a Principal Scientist at AstraZeneca, had worked on this
+problem while at Zeneca, which merged to form AstraZeneca. He developed a
+web-based interface called H2X, named after the allied navigation systems used
+during the second world war. H2X was based on an in-house molecular property
+calculator called Drone. This system used a Perl script which computed some of
+the simpler molecular properties by calling the appropriate prediction
+program, usually through a wrapper written in Perl, csh, or a domain specific
+control language.</p>
+</div>
+<div class="section" id="python-chosen">
+<h2>Python Chosen</h2>
+<p>H2X using Drone was a successful experiment and it was used by many
+people. In 2001 AstraZeneca decided to develop it further and brought
+in Andrew Dalke as a consultant, to improve the back-end code by making
+it more robust, extensible, and maintainable. Andrew, a well-known
+advocate for Python in computational chemistry and biology, convinced
+the group that Python was the appropriate language for the next
+generation back-end, which was named PyDrone.</p>
+<p>Python was chosen for this work because it is one of the best languages
+available for physical scientists, that is, for people who do not have
+a computer science background. Many other powerful and expressive high
+level languages exist, including Perl, Lisp, Scheme, Ruby, CAML, and
+Haskell. Of all these, Python is one of the few that is based on
+research into usability and the factors that make a programming
+language easy to learn and use. Yet Python was also designed to solve
+real-world problems faced by an expert programmer. The result is a
+language that scales well from small scripts written by a chemist to
+large packages written by a software developer.</p>
+</div>
+<div class="section" id="python-s-error-handling-improves-robustness">
+<h2>Python's Error Handling Improves Robustness</h2>
+<p>The first iteration of PyDrone refactored the existing Perl code into
+more appropriate functions, classes, and modules while translating the
+code base into Python. Refactoring the Perl code without moving to
+Python would have produced comparable architectural results, but
+Python's explicit error handling and stronger type checking helped
+to considerably improve the code's robustness.</p>
+<p>The current version of PyDrone uses about 20 different external
+binaries and scripts to predict various molecular properties. When an
+external program works correctly, then the output is easy to parse into
+the desired results. However, these programs don't always work
+correctly, are not fully documented, and it's often hard to determine
+all the possible failure cases from the outside. To compensate for
+this, the PyDrone developers wrote tests to anticipate as many error
+cases as possible, but it was impossible to rule out additional
+unexpected error cases after deployment.</p>
+<p>From experience dealing with this issue first in Perl (Drone) and then
+in Python (PyDrone), we found that Python is better at catching many
+types of errors and at managing unexpected problems in a deployed
+application. This is a result of the way in which the two languages
+approach error handling in general. For example, Perl's I/O routines
+are quiet and failures must be checked explicitly, usually with the &quot;or
+die&quot; idiom. A conscientious programmer will always add those, but they
+take up space, are easy to forget, and hard to test. In contrast to
+this, Python functions are noisy and almost always raise an exception
+automatically when there is a problem in code.</p>
+<p>After rewriting in Python, we initially thought this noisy behavior was
+a nuisance because Python kept raising exceptions and stopping where the
+old Perl code had kept on going. However, we soon found that nearly
+every exception indicated a previously undetected error case for which
+we needed to add new error handling code. Python was helping us find
+problem spots and preventing us from letting silent errors into our
+data.</p>
+<p>One example of an error case that Python uncovered for us was caused by
+an external prediction program that would usually return a numerical
+error code but in some cases was found to return the string &quot;error&quot;
+instead. In Perl, strings and numbers are converted automatically, for
+example the string <tt class="docutils literal">&quot;123&quot;</tt> becomes the integer <tt class="docutils literal">123</tt>. Unfortunately, Perl
+also converts non-numerical strings, such as <tt class="docutils literal">&quot;error&quot;</tt>, to <tt class="docutils literal">0</tt>. As a result
+of this, Drone was treating &quot;error&quot; as a successful return value,
+leading to incorrect results. Python's stronger typing uncovered the
+error as soon as the rare case that caused it was executed.</p>
+<p>Another way in which Python helped us to improve our code was by its
+inclusion of a complete stack traceback with each exception report. We
+found this very useful in helping us understand the source of a problem
+without needing to run a debugger or add extra code instrumentation.
+This feature of Python was particularly helpful in remote debugging of
+rare cases. Andrew is in the United States and Pierre is in France.
+When an error occurred, Pierre's email with the traceback often
+contained enough information to pinpoint and fix the problem.</p>
+</div>
+<div class="section" id="adding-powerful-extensibility-with-python">
+<h2>Adding Powerful Extensibility with Python</h2>
+<p>The next stage in PyDrone's development was to improve its
+extensibility. Some molecular properties depend on other properties.
+For example, a molecule's mass depends on its composition. The older
+Drone code maintained these dependencies manually with a set of 'if'
+statements that specified which prediction routines should be called,
+and in which order, during execution of an analysis. In this approach,
+adding new dependencies soon led to a combinatorial nightmare.</p>
+<p>To solve this problem in Python, we developed a simple rule base which
+acts like a Python dictionary. It contains a data cache and a mapping
+from property name to prediction function. If a requested property name
+(the dictionary key) is in the cache, we reuse it. Otherwise, we find
+the associated function, call it to compute the value, store the result
+in the cache, and return it. The functions themselves are given a
+reference to the Properties manager so they can recursively request any
+additionally needed dependencies. To add a new prediction we register
+the new function in the function table -- and let the functions
+themselves handle the dependencies. The cache is needed because some
+properties are expensive to compute or are needed by many other
+properties.</p>
+<img alt="Architecture of the Property Manager" src="/pythonorg/default/index/files/success/astra/property_manager_web.gif" />
+<p><em>Architecture of the Property Manager</em> <a class="reference external" href="/pythonorg/default/index/files/success/astra/property_manager.jpg">Zoom in</a></p>
+<p>The resulting new architecture made a simple but profound difference to
+the project. We now have a single system that can accommodate all
+current and future prediction methods, that computes only the minimum
+needed to yield the requested results, and that is easy to understand
+and maintain. Before we built it in Python, several people in the
+company had argued it impossible to build such a system at all.</p>
+</div>
+<div class="section" id="the-benefits-of-python-s-type-system">
+<h2>The Benefits of Python's Type System</h2>
+<p>The PyDrone architecture could have been implemented in many languages,
+but Python's dynamic typing made it much easier to build our Property
+manager. Some molecular properties are numbers, others strings, or
+lists and dictionaries, and still others are class instances. A
+statically typed language would have required extra hassle to allow a
+mixture of return types to be inserted into the Property manager. Even
+Perl, which is also dynamically typed, would have required some way to
+distinguish between references to a <tt class="docutils literal">$scalar</tt>, <tt class="docutils literal">%hash</tt>, or <tt class="docutils literal">&#64;list</tt>. In Python
+it just worked, and we could mix the data types of the keys in the
+Property manager dictionary without any extra effort at all. Yet, as
+described above, Python does at the same time provide sufficient data
+type checking to find many kinds of common type mismatch errors.</p>
+<p>One of the factors that made our Property manager so successful was
+that Python lets user-defined types emulate the behavior of built-in
+types. Our Property manager acts very much like a lookup table that
+maps property name to value, so we designed it to emulate a Python
+dictionary. In Python, this is done by implementing specific special
+methods such as <tt class="docutils literal">__getitem__()</tt>, <tt class="docutils literal">__setitem__()</tt>, and so forth. By
+emulating a dictionary, nearly every other Python function that
+operates on a dictionary would work with our manager. It also made the
+code easier to understand and debug because the syntax and
+point-of-call usage fit naturally with what people expect.</p>
+<p>Python facilitated our Property manager implementation in other ways as
+well. One PyDrone feature that had been requested by users was the
+ability to describe a new prediction using an equation based on
+existing properties. For example, an equation might look like:</p>
+<p><tt class="docutils literal">0.34 + (0.78*CLOGP) -</tt> <tt class="docutils literal">(0.018*HBA) -</tt> <tt class="docutils literal">(0.015*HB_TOT) -</tt>
+<tt class="docutils literal">(0.11*MM_HADCA) -</tt> <tt class="docutils literal">(0.017*MM_QON) +</tt> <tt class="docutils literal">(0.012*VDW_POL_AREA)</tt></p>
+<p>where the variables are keys in the Property manager. This was quite
+easy to implement in Python, and we would be hard pressed to find a
+language that makes it any easier. Python's mathematical expressions
+are almost identical to the standard form used in the sciences, so we
+could use Python's &quot;eval&quot; statement to parse and evaluate the
+user-defined expressions. Because our Property manager acts like a
+Python dictionary, it could (at least in theory) be provided directly
+to the eval statement as the locals dictionary used for variable lookup
+during expression evaluation.</p>
+<p>As it turned out, for performance reasons, the <tt class="docutils literal">eval()</tt> implementation in
+Python accepts only built-in dictionary types and not an emulated
+mapping type, so we had to engage in some extra trickery to make our
+on-demand dependency system work with equations. Nevertheless, the
+entire implementation was quite easy.</p>
+</div>
+<div class="section" id="results">
+<h2>Results</h2>
+<p>PyDrone took about 3 months of development time, another 3 months of
+QA, and 3 weeks of documentation time to produce about 5,600 lines of
+finished Python code.</p>
+<p>Overall PyDrone has been a wonderful success for AstraZeneca. As a
+result of using Python, we were able to quickly and easily develop a
+great tool that is both very simple to use and that adapts well to new
+prediction methods.</p>
+<p>The biggest problem we've had with Python is that relatively few people
+at AstraZeneca use it for development. The IT group prefers either Perl
+(systems people) or Java (architecture people) so we occasionally get
+requests to rewrite parts of the project in one of those languages.
+Even so, we have found developers are interested in learning Python,
+especially when they see comparisons of development time and effort,
+resulting code size, and other metrics.</p>
+</div>
+<div class="section" id="about-the-authors">
+<h2>About the Authors</h2>
+<p>Scott Boyer is a Principal Scientist in the Enabling Science and
+Technology section of AstraZeneca Discovery R&amp;D, M?lndal, Sweden. Scott
+received his Ph.D. from the University of Colorado, Boulder and has
+worked at both Pfizer and AstraZeneca in experimental mass spectrometry
+and NMR associated with establishing optimal 'Drug-Like Properties'.
+About four years ago he made the transition to the 'dark side' of
+computational chemistry and now heads the internal project to bring
+more modelling tools to bench chemists on all 10 Discovery research
+sites in AstraZeneca.</p>
+<p>Andrew Dalke is the founder of Dalke Scientific Software, LLC,
+a software consulting and contract programming shop located
+in Santa Fe, New Mexico, USA.  Andrew has been developing
+computational chemistry and biology software since 1992.
+His main focus is combining usability design and software
+engineering to develop software tools that scientists both
+use and enjoy.  It's no wonder he likes Python so much.</p>
+<p>Pierre Bruneau is a Principal Scientist in the Cancer and Infection
+Research Area of AstraZeneca Discovery, Reims, France. After studying
+chemistry at the Ecole Nationale Sup?rieure de Chimie de Strasbourg, he
+initially joined Organon R&amp;D and then AstraZeneca (formerly ICI Pharma
+and then Zeneca) at Reims, France. After several years acting as a
+Medicinal Chemist, Pierre now heads the local physical chemistry and
+computer group of the French lab, while maintaining an interest in
+developing methods and tools for predicting physico-chemical properties
+and establishing structure-activity relationships of potential drug
+molecules.</p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

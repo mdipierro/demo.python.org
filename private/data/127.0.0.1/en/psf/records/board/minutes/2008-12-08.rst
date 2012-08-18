@@ -1,0 +1,341 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+December 8, 2008
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 8
+December 2008.  Steve Holden presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Actions Taken Since the Last Meeting <#actions-taken-since-the-last-meeting>`_- `3.1   Increased Compensation for the Treasurer <#increased-compensation-for-the-treasurer>`_  - `3.2   Hiring an Administrator <#hiring-an-administrator>`_  - `3.3   PyCon Chair Contract <#pycon-chair-contract>`_
+
+- `4   Status of Past Action Items <#status-of-past-action-items>`_- `4.1   Carried Forward <#carried-forward>`_  - `4.2   New from November 10 <#new-from-november-10>`_
+
+- `5   Role of Administrator <#role-of-administrator>`_
+
+- `6   Bylaws Revision Timetable <#bylaws-revision-timetable>`_
+
+- `7   Introduction & Support for OBOOE <#introduction-support-for-obooe>`_
+
+- `8   Server Replacement Proposal <#server-replacement-proposal>`_
+
+- `9   PyCon Report <#pycon-report>`_
+
+- `10   Treasurer's Report <#treasurer-s-report>`_
+
+- `11   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, Stephan Deibel, David Goodger, Raymond
+Hettinger, Steve Holden, Martin von L?wis, Tim Peters, James Tauber.
+Also in attendance were Kurt Kaiser (Treasurer) and Pat Campbell
+(Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 10 November 2008 Board meeting minutes were approved by a vote of
+8-0-0 (*in favor ? opposed ? abstentions*).
+
+`3   Actions Taken Since the Last Meeting <#id3>`_
+--------------------------------------------------
+
+The actions below were taken since the 10 November 2008 meeting. 
+
+`3.1   Increased Compensation for the Treasurer <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The increased workload for the PSF Treasurer was discussed on the
+Board mailing list (2008-11-10, subject &quot;PSF Treasurer Compensation&quot;),
+resuming an earlier discussion from June.  Most of the increased
+workload is due to the growth of PyCon.  K. Kaiser estimated 500 hours
+per year.
+
+    **RESOLVED**, that the annual pay for the Treasurer will be
+    increased to US$30,000 per year, effective November 1st 2008, to
+    reflect the increased time commitment required by this office.
+
+Approved by unanimous email vote, November 14, 2008.
+
+`3.2   Hiring an Administrator <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The backlog of administrative tasks was discussed on the Board mailing
+list (2008-11-10, subject &quot;Administrator: Draft resolution and
+discussion notes&quot;).  S. Holden outlined the duties of the
+administrator and committed to a management role.
+
+    **RESOLVED**, that the Foundation hire an administrator, at an
+    annual cost not to exceed US$35,000. The administrator's job
+    description will be developed and revised from time to time by the
+    Board of Directors.  The Chairman of the Board will be responsible
+    for ensuring that tasks delegated to the administrator are
+    completed in a timely fashion.
+
+Approved by unanimous email vote, November 14, 2008.
+
+`3.3   PyCon Chair Contract <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Goodger forwarded a message from PSF member Aahz to the Board, to
+push forward with professionalizing PyCon in light of the backlog of
+planning and preparation tasks (2008-11-10, subject &quot;PyCon
+full-time&quot;).  A discussion of details followed.
+
+    **RESOLVED**, that the PSF will contract with David Goodger for a
+    period of six months starting December 1, 2008 to act as Chairman
+    for PyCon 2009.  The total cost of this contract shall not exceed
+    US$48,000.
+
+Approved by unanimous email vote (1 abstention), November 14, 2008.
+
+`4   Status of Past Action Items <#id7>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`4.1   Carried Forward <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 10 November
+2008 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records. [Update 2008-12-08] D. Goodger will identify the records for scanning and send photocopies to P. Campbell.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: D. Goodger will write to the Jython contributors and ask them to sign contributor agreement forms, in combination with item 1 above (transferred from A. Kuchling).     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws [with S. Deibel's help].  Include an affiliation program [ref. July 2008 section 8].     S. Deibel submitted a draft to the Board on 2008-12-08.      Status: in progress.
+
+- Originally from 14 April 2008, Section 5, Treasurer's Report: S. Holden will assist K. Kaiser with accounts receivable reminders.     S. Holden and K. Kaiser reported that accounts receivables are now down to about $23K.  K. Kaiser reported that we have commitments, but payments are slow in coming.  S. Holden recommended that we get outside help with this, &quot;either a debt collector or an accountant (preferably the latter).&quot;     Status: in progress.
+
+- Originally from 14 April 2008, Section 7, PyCon Asset Record-Keeping: D. Goodger will update the assets file in PSF CVS with the details of the laptops and VGA2USB boxes purchased for PyCon 2008.     Status: in progress.
+
+- Originally from 14 April 2008, Section 12, Sponsor Membership Issues: D. Goodger will update the member information in members.xls (sponsors & nominated members) & sponsor-addrs.txt, in PSF CVS.     S. Holden: &quot;Again this is a task we should think about delegating, just to get it off your plate.&quot;     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.1, Treasurer's Report: K. Kaiser will submit an expanded report to psf-members.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.2, Treasurer's Report: D. Goodger will follow up regarding the PyCon transaction analysis.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.3, Treasurer's Report: D. Goodger will ensure that documentation for unpaid PyCon tutorials is found and provided.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.4, Treasurer's Report: D. Goodger will send all remaining PyCon checks to K. Kaiser for deposit.     Status: **done**.
+
+- Originally from 16 June 2008, Section 6.5, Treasurer's Report: D. Godoger will provide K. Kaiser with PyCon financial aid documentation.     Status: **done**.
+
+- Originally from 16 June 2008, Section 6.6, Treasurer's Report: D. Goodger will provide K. Kaiser with PyCon expense and cash reports.     K. Kaiser reported receipt of expense reports, but D. Goodger holds a balance, about $725.  D. Goodger noted that he has other receipts.     Status: in progress.
+
+- Originally from 16 June 2008, Section 6.7, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon sponsorships.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.8, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon registrations.     Status: carried forward.
+
+- Originally from 11 August 2008, Section 6.2, PyCon UK Sponsorship: R. Hettinger will propose a blanket policy for sponsorships, instead of one-off requests.     Status: carried forward.
+
+- Originally from 8 September 2008, Section 4.2, Sponsor Member Application: K. Kaiser will invoice OpenEye Scientific Software for their sponsor membership feee.     Status: **done**.
+
+- Originally from 8 September 2008, Section 5.2, Sponsor Member Application: Lucasfilm: K. Kaiser will invoice Lucasfilm for their sponsor membership fee.     Status: **done**.
+
+- Originally from 8 September 2008, Section 7, PSF Logo: D. Goodger will produce final layouts for a PSF logo.     Status: carried forward.
+
+- Originally from 13 October 2008, Section 4, PSF Community Award Certificates: S. Holden will issue PSF Community Award certificates.     Status: carried forward.
+
+- Originally from 13 October 2008, Section 5, PyCon: D. Goodger will prepare a budget for PyCon 2009.     See `PyCon Report <#pycon-report>`_ below.      Status: carried forward.
+
+- Originally from 13 October 2008, Section 6.2, Sponsor Member Application: KNMP: K. Kaiser will invoice KNMP for their sponsor membership fee.     Status: **done**.
+
+`4.2   New from November 10 <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 10 November 2008 Board meeting on IRC. 
+
+- Section 5, Trademarks Committee: J. Tauber will update the committees page with Trademarks Committee information.     D. Goodger updated the Committees of the Python Software Foundation page.     Status: **done**.
+
+- Section 7, Support Request from ZPUGDC Plone Conference: S. Holden will write to the Plone Conference organizers asking for details of attendance and finances.     Status: **done**.
+
+- Section 8, Support Request for Peruvian Python Conference: M. von L?wis will follow up on responses to the Peruvian Python Conference organizer's request for speakers.     Status: **done**.
+
+`5   Role of Administrator <#id10>`_
+------------------------------------
+
+S. Holden: 
+
+    As you all know we have hired Pat to take care of the things we
+    would like to do ourselves but lack either the time or the
+    determination, and to help us be more responsive to external
+    requests.  I anticipate that it will take a month for Pat to get
+    her feet fully under the table, so to speak. There'll probably be
+    quite a bit of information we need to give her to adequately brief
+    her for her responsibilities.  But I think there are some tasks
+    she could get on with straight away. Debt collection is one of
+    those ...
+
+S. Deibel asked if P. Campbell is on the psf-board mailing list.
+T. Peters replied that she is not; &quot;a lawyer once told us that only
+corporation officers and Board members should be on the list&quot;.  We
+will need to CC/forward messages as necessary.
+
+K. Kaiser will set up our fax service to notify P. Campbell,
+S. Holden, and D. Goodger of faxes received.
+
+Administrator tasks may be sent directly to Campbell, copied to
+Holden.  Campbell will forward new tasks to Holden, with comments.
+Campbell will also send weekly email updates (task list with
+progress/status details) to Holden.
+
+D. Goodger and P. Campbell will verify and update the member
+contact information.
+
+`6   Bylaws Revision Timetable <#id11>`_
+----------------------------------------
+
+S. Holden reported that he and S. Deibel completed their review of the
+bylaws. Deibel had just mailed the current draft to the Board list.
+
+Deibel suggested 1 week for Board comments, then review by Van
+Lindberg (our lawyer) and the members.  Others agreed.  Deibel
+indicated that the goal is to be able to vote on the final draft at
+the next Board meeting.
+
+Holden: 
+
+    Please note that Stephan and I feel it's best if these changes are
+    made by Board vote, which the current bylaws allow.
+
+Deibel: 
+
+    I do think we can vote on this as a board and not at members'
+    meeting -- it's in our rights and much easier/faster
+
+D. Goodger: 
+
+    I think we DO need a members' vote on the changes, or at least a
+    ratification (same thing).  The role of the Board & members
+    changes, so we should be sure to have member support.
+
+    Things that used to require a members' vote now don't.  It's
+    problematic at best.
+
+Holden: 
+
+    I think experience proves the members aren't thrilled about the
+    procedural stuff.
+
+Deibel: 
+
+    The old bylaws explicitly give us this right to amend -- the
+    members also have that right (to do it w/o involving the board)
+
+Goodger: 
+
+    But we're stripping the voting rights from a class of members.
+    Also, automatically [converting] non-active members [to emeritus
+    status].  It doesn't seem kosher for the board to do that without
+    a members' vote.
+
+Deibel: 
+
+    Van can tell us for sure but I think it's kosher -- there may be a
+    few sponsors that care but most actually see voting as a burden
+    they don't want.
+
+    Anyway, this is what the members discussion is for.  They may or
+    may not object and if they object then obviously we need to take
+    that into account.
+
+Further discussion was deferred to email.
+
+`7   Introduction & Support for OBOOE <#id12>`_
+---------------------------------------------------
+
+Martijn Faassen introduced Xavier Heymans (CEO, Zea Partners) to us.
+Xavier is forming `OBOOE <www.obooe.org>`_, the European Federation of
+the Open Source Industry:
+
+    Our goal is to develop collaboration with existing organizations
+    and fill the gap in business advocacy and economical issues.
+
+OBOOE seems to want to cooperate with the PSF as mutual non-fee-paying
+supporters.  We could add them as a cooperating organization once
+they're established.
+
+M. von L?wis noted that they are also offering us &quot;a seat&quot;, which we
+should take.  If the meeting is in Europe, he might be able to attend.
+
+S. Holden will reply to OBOOE that we are interested in
+cooperating with them, that we can list them as cooperating
+organization once they are set up.
+
+`8   Server Replacement Proposal <#id13>`_
+------------------------------------------
+
+A replacement was proposed for the PSF Board server, currently hosted
+by K. Kaiser.  S. Deibel:
+
+    The point is reliability increase, having backups and security
+    updates.  The issue is encrypting sensitive data.  But that's
+    solvable.
+
+S. Holden: 
+
+    In summary, there are some things we should retain on [the PSF
+    Board server] as a machine directly under an officer's control,
+    but many things can be transferred to a managed infrastructure.
+
+    **RESOLVED**, that the Treasurer be empowered to enter into an
+    agreement for computer hosting for PSF Board use at a cost not to
+    exceed $50 per month.
+
+Approved, 8-0-0.
+
+`9   PyCon Report <#id14>`_
+---------------------------
+
+D. Goodger reported that he sent a draft PyCon 2009 budget.  As the
+Board hasn't had time to examine it yet, discussion was deferred to
+email.
+
+Goodger also reported that preparations for PyCon 2009 were well
+under way, and the organizers are entering the busy time now.
+Registration is set to start in January.
+
+Goodger noted that he begins his full-time position as PyCon Chairman
+today.  S. Holden asked about documentation, noting &quot;That'll probably
+be the one that's hardest to keep on top of as your load build&quot;.
+Goodger expressed his intention to make extensive documentation, on
+the chairman's role and other positions, starting now.
+
+For 2010, Goodger reported that final venue selection for 2010 should
+happen soon.  CTE is negotiating with best candidate.
+
+`10   Treasurer's Report <#id15>`_
+----------------------------------
+
+K. Kaiser reported that we have about $410K in cash, 24K in
+receivables, and 10K in payables.  &quot;Now that I have the PyCon data,
+top of my list is financials through 3Q.&quot;  2009 sponsor fee invoices
+and PyCon preparations are next.  The taxes were done last month.
+
+S. Holden asked, &quot;Will your new time allotment give you the chance to
+produce an annual statement for the members' meeting and quarterly
+management accounts for us?&quot;  Kaiser replied that he would.
+
+When Holden asked if there is anything the new administrator could
+help with, Kaiser noted the receivable chasing.
+
+`11   Adjournment <#id16>`_
+---------------------------
+
+S. Holden adjourned the meeting at 18:05 UTC.

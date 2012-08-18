@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf/records/board/minutes/2002-03-12 -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf/records/board/minutes/2002-03-12">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>March 12th, 2002.</p>
+<p>Board meeting in session at: 18:07 GMT</p>
+<p>Present:</p>
+<p>Guido van Rossum (presiding)</p>
+<p>David Ascher</p>
+<p>Jeremy Hylton</p>
+<p>Marc-Andre Lemburg</p>
+<p>Martin von Loewis</p>
+<p>Tim Peters</p>
+<p>Thomas Wouters (minutes)</p>
+<p>No board members were absent. A quorum was present.</p>
+<div class="section" id="agenda">
+<h1>Agenda:</h1>
+<ul class="simple">
+<li>Meeting minutes of February 12th 2002</li>
+<li>Progress reports:   - 501(c)(3) application - Tax filing - Foreign charity status - Contribution forms - Public Support Committee - Treasurer</li>
+<li>Press release page</li>
+<li>Next member meeting</li>
+<li>Sponsor member payment deadline</li>
+<li>PSF Member applications received</li>
+</ul>
+</div>
+<div class="section" id="last-minutes">
+<h1>1) Last minutes</h1>
+<dl class="docutils">
+<dt>Marc-Andre notes the minutes to ASF meetings carry timestamps in</dt>
+<dd>them. Jeremy points out a few comments and omissions he feels are
+out of place in official meeting minutes. The comments are taken
+into advisement for the next minutes, and Guido will adjust the
+last minutes to suit and post them for approval to the mailing
+list.</dd>
+<dt>Several points of order were raised, on the procedure to accept the</dt>
+<dd>minutes and on the procedure to propose, second and vote on
+motions.</dd>
+</dl>
+</div>
+<div class="section" id="progress-reports">
+<h1>2) Progress reports</h1>
+<ul class="simple">
+<li>501(c)(3) application      Guido and Tim started the process of filling out Form 1023, which     should be submitted by 20 May 2002, and at least be submitted to a     legal review before that. A lot of work remains to be done, but     Guido is optimistic about the review. Tim notes they will need     Jeremy's help in answering some of the questions.</li>
+<li>Tax filing      The PSF has yet to file its US taxes over 2001. Guido has an     outstanding query at his own accountant, but hasn't heard back     yet. David notes Kevin Jacobs offered his [company's] services,     and that Kevin does a lot of accounting, including for non-profit     companies. Jeremy and Guido will contact Kevin or otherwise find     an accountant to handle the taxes.</li>
+<li>International charity status      Thomas notes Dutch tax laws seem to recognize only Dutch     institutions as (possible) charities for reasons of tax     deduction. Marc-Andre reports a similar case for German tax laws,     and notes the FSF is working on setting up offices in each EU     country for that purpose. It is generally agreed this is beyond     the PSF's reach at this moment.</li>
+<li>Contribution forms      Marc-Andre notes he has had no feedback regarding the contribution     forms, so far. The deadline for the forms is Friday March 15th,     after which they are subjected to the legal review. Martin notes     the deadline is not listed on the PSF website; Marc-Andre will     update the webpage.      Marc-Andre raises the question of the lawfirm to use for the     revew. Jeremy indicates the plan was to use Zope Corporation's     lawyer. The board agrees there is no conflict of interest in this     particular case, but it is noted the choice of lawyer may be     raised at later times, for other issues.</li>
+<li>Public Support Committee      The Public Support Committee has been formed, but no members     assigned yet. Marc-Andre is unclear on how to proceed; the exact     regulations regarding committees, and how to determine howmany and     which members to include. The board gives Marc-Andre free reign     within reasonable bounds and suggests to consult the board by mail     if there are any questions.</li>
+<li>Treasurer      Jeremy, as Treasurer, reports an expected income of $17000 in     sponsor fees this year, provided all current and prospective     sponsors pay up. A few payments and the Bank of America checking     account are being waiting on paperwork.</li>
+</ul>
+</div>
+<div class="section" id="press-release-page">
+<h1>3) Press release page</h1>
+<dl class="docutils">
+<dt>Marc-Andre suggests to split up the press release page so it is</dt>
+<dd>clear which belong to the PSF itself and which are outside
+sources. The board agrees, and Marc-Andre will update the site.</dd>
+</dl>
+</div>
+<div class="section" id="next-member-meeting">
+<h1>4) Next member meeting</h1>
+<dl class="docutils">
+<dt>Due to time constraints, it is decided to move this item to the next</dt>
+<dd>meeting or the mailing list. Guido also notes this should probably
+be handled in a small subcommittee.</dd>
+</dl>
+</div>
+<div class="section" id="sponsor-member-payment-deadline">
+<h1>5) Sponsor member payment deadline</h1>
+<dl class="docutils">
+<dt>David brings up payment deadlines: do we have them ? He suggests</dt>
+<dd>getting sponsor members to actually pay their dues might be easier
+if a fixed deadline and set consequences were established and
+clear. Jeremy points out the Bylaws are specific in the matter of
+consequences: a sponsor member who has not paid his like a member
+in all respects except he cannot vote. Removal of company link,
+logo and name from the PSF website are also suggested.</dd>
+<dt>Guido moves to set a deadline of 30 days for US companies, 60 days</dt>
+<dd>for other, starting at date of invoice. Thomas seconds the motion,
+and the motion carries with two abstentions which later turn out to
+be 'nay's.  Jeremy objects to the cavalier way motions are
+handled. Due to network problems he has trouble figuring out what
+is going on. Tim did not recognize the motion as such. The
+objections are noted. A discussion on clear IRC voting mechanisms
+is postponed to the mailing list.</dd>
+</dl>
+</div>
+<div class="section" id="psf-member-appliations">
+<h1>6) PSF Member appliations</h1>
+<dl class="docutils">
+<dt>Requests to fill out PSF Member applications were sent out to all</dt>
+<dd>PSF members nominated for acceptance at the last PSF Member
+meeting. Martin and Guido have the impression the response rate is
+low, though no exact numbers are available. Jeremy will update the
+Wiki record with applications he received. Tim notes the PSF is not
+very interesting to members yet. This is expected to improve once
+the groundwork and paperwork is underway, and the PSF can focus on
+fulfilling its mission statement.</dd>
+</dl>
+<p>Martin moves to adjourn. Tim seconds the motion. The motion carries
+with one abstention.</p>
+<p>Board meeting adjourned at: 19:15 GMT</p>
+</div>
+<div class="section" id="resolutions">
+<h1>Resolutions:</h1>
+<dl class="docutils">
+<dt>Debtors are granted a 30 (60 for non-US debtors) grace period</dt>
+<dd>after date of invoice, after which measures are taken in
+accordance with the Bylaws.</dd>
+</dl>
+</div>
+<div class="section" id="action-items">
+<h1>Action items:</h1>
+<ul class="simple">
+<li>Marc-Andre will update the website to note the deadline for the   contribution forms.</li>
+<li>Marc-Andre will restructure the Press Release webpage.</li>
+<li>Jeremy will contact Kevin Jacobs regarding accounting.</li>
+<li>Jeremy will update the Member applications Wiki with applications he   received.</li>
+</ul>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

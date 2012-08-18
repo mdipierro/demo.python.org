@@ -1,0 +1,141 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+March 11, 2003 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 7 p.m. EST. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting:
+Jeremy Hylton, Marc-Andre Lemburg, Martin v. L?wis,
+Tim Peters, Guido van Rossum, Thomas Wouters. 
+A quorum was present.  
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+Guido moved to approve the minutes of February 11th. Motion passes
+with 4 ayes and 2 abstentions.
+
+3. Treasurer report
+###################
+
+Jeremy reports that an advanced ruling from IRS for 501(c)(3) status
+was received. We must demonstrate "public support" for period from
+2001-2005
+
+The income from the conference at the time of the meeting is as
+follows: YAS registrations $15,969 (109 people), check registrations
+$2,5950 (including $250 for sprint registrations that may be refunded)
+Uncashed sponsor fees are $1,750, uncashed regular fees are $400,
+including $100 needed to refund.
+
+The expenses so far are: $9,731.25 for space fees (3 installments).
+The current cash flow gives a net of $10,714.25.
+
+Other recent income: Merlin contributed $1000 and O'Reilly $2,922.67. 
+
+Pending expenses are $100 for Delaware state taxes, $300 for the
+registered agent, and approx $750 for conference-related insurance.
+
+The checking balance from 2/28 is $15,531.89. The income since tthen
+is $20,706 for conference registrations and sponsor fees. Expenses since
+then are $350 refunds for conference registration, $400 estimated taxes
+and registration fees, $750 estimated liability insurance, $3243.75
+final installment for conference space, giving a subtotal of $4743.75.
+
+Thomas asks what the O'Reilly funds are. Jeremy confirms that they
+are the first installment of Cookbook royalties.
+
+Martin asks what further expenses are expected for the conference.
+Jeremy points to Tripp Lilley's budget at
+http://perspex.com/pycon/budget/20030310/budget.html
+
+4. Conference planning
+######################
+
+Guido asks whether Jeremy can be given advance approval of
+conference related expenses. There is discussion. Tim moves that
+it is
+
+RESOLVED, that the officers can spend PSF funds for the furtherance of the 
+Python Conference, 2003, in an amount not to exceed projected conference 
+revenue by more than US$3000.00. 
+
+The motion passes unanimously. 
+
+Thomas suggests that sprints are sponsored by the PSF. The proposal
+is discussed, and it is concluded that such a decision is supported by
+the motion just approved.
+
+5. PSC report
+#############
+
+Marc-Andre gives a report on PSC activities. Stephan Deibel
+suggested that several levels of sponsorship are offered, e.g.
+silver, gold, platinum, sorted by amount; others suggested to
+simply order sponsors by date. Marc-Andre proposes to sort
+them by level, then by date.
+
+Another suggestion was to use t-shirts and other merchandise
+to generate donations, e.g. have $2 per t-shirt go to the PSF
+and use cafepress.com for the processing.
+
+Stephan Deibel also suggested that companies buy "donations
+for bug fixes", but it was decided (in the PSC) that this is
+too much work for the organizers, so they dropped the idea.
+
+There was discussion. Jeremy suggested that the top sponsor
+category be the same as the sponsor member fee, as we should
+not accept large contributions until we have a lot of public
+support.
+
+Marc-Andre asks whether the PSC should a) go for the ordering,
+b) look into one-click-donations, or c) use t-shirts and other
+merchandise. He suggests to do all three. Tim agrees, but asks
+that b) is done first. Thomas supports that priority. Marc-Andre
+will take this recommendation back to the PSC.
+
+Jeremy points out that the members should be informed about
+the IRS pre-approval. Tim asks that setting up a one-click donation
+procedure should be implemented in the very near future. Guido
+points out a terminology confusion (people/companies sponsoring
+the PSF, and sponsor members proper), and suggests to use the
+term "sponsor" for members and "donor" for other supporters.
+
+6. Member meeting
+#################
+
+Jeremy reminds the board that PSF members must be invited to the
+member meeting at PyCon. Board candidates should step
+forward on the PSF list, and new member nominations should be posted
+there as well.
+
+7.  PSF forms
+#############
+
+Martin suggests to use Rosen's form as-is. Marc-Andre is -1
+on that proposal, asking for several forms of contribution.
+Guido says he likes fewer forms better. 
+Thomas is reluctant, saying it would mean a change of license.
+The discussion is tabled for the board list.
+
+8. Other business
+#################
+
+Jeremy says that a 2002 financial must be prepared, but he had
+no time to do that. Thomas asks whether the report must be validated
+by a third party. Nobody knows, and the issue is tabled until
+the report is done.
+
+9. Adjournment
+##############
+
+There being no further business, the meeting was adjourned 
+at 20:15pm.

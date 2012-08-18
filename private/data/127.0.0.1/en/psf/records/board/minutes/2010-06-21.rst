@@ -1,0 +1,217 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+June 21, 2010
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:03 UTC, 21
+June 2010. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Funding for Redevelopment of PyCon Website <#funding-for-redevelopment-of-pycon-website>`_
+
+- `5   Treasurer Report <#treasurer-report>`_
+
+- `6   Progress Report <#progress-report>`_
+
+- `7   Fund PyCon India 2010 <#fund-pycon-india-2010>`_
+
+- `8   Fund EuroPython 2010 <#fund-europython-2010>`_
+
+- `9   PSF New Membership Class as Honorary Associate Member (HAM)- Resolution Only <#psf-new-membership-class-as-honorary-associate-member-ham-resolution-only>`_
+
+- `10   Fund Project to Port pyOpenSSL to Python 3.x <#fund-project-to-port-pyopenssl-to-python-3-x>`_
+
+- `11   Fiscal Sponsorship of Third-Party Projects <#fiscal-sponsorship-of-third-party-projects>`_
+
+- `12   Fund Python Core Development Tasks <#fund-python-core-development-tasks>`_
+
+- `13   Reimburse Expenses for PSF Chairman to Attend EuroPython <#reimburse-expenses-for-psf-chairman-to-attend-europython>`_
+
+- `14   Other Business <#other-business>`_- `14.1   Move Monthly Board Meetings to Third Monday <#move-monthly-board-meetings-to-third-monday>`_
+
+- `15   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Steve Holden, Marc-Andre Lemburg, Doug Napoleone, Jesse
+Noller, Allison Randal, Greg Stein [left meeting at 17:04], James
+Tauber, Gloria Willadsen. Also in attendance were Kurt Kaiser
+(Treasurer), and Pat Campbell (Secretary & Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 10 May 2010 Board meeting minutes will be voted on after online
+posting.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There was one vote taken since the last Board meeting on 10 May 2010.
+
+`4   Funding for Redevelopment of PyCon Website <#id4>`_
+--------------------------------------------------------
+
+    **RESOLVED**, that the Board approves the use of up to $15,000 USD
+    of the PyCon 2010 profits to be used by the PyCon Chair (Van Lindberg)
+    to fund the rebuilding of the PyCon website and codebase, with the
+    approval to use an additional $5000 USD for continued support and bug
+    fixing of the new site for the PyCon 2011 season.
+
+Approved, 9-1-3
+
+`5   Treasurer Report <#id5>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K. Kaiser
+prior to the Board meeting. There were no changes in the PSF's financial
+position since the last Treasurer's Report a month ago.
+
+`6   Progress Report <#id6>`_
+-----------------------------
+
+The Treasurer along with board members also thanked Van Lindberg and
+conference volunteers for their hard work. It was reported that PyCon
+2010 made a 72K profit and that all of the bills generated from the
+conference have been paid.
+
+Also, board members and officers will be holding a budget planning meeting
+by telephone-conference in July 2010 to plan and review the 2011 PSF budget.
+
+`7   Fund PyCon India 2010 <#id7>`_
+-----------------------------------
+
+The board discussed funding of PyCon India 2010 and agreed to provide a USD 1,000
+grant to conference organizers.
+
+    **RESOLVED**, that the PSF offers a USD 1,000 grant to the organizers of the
+    PyCon India 2010 conference to be held September 2010, to fund the air travel
+    of one (1) foreign delegate from the U.S. or Europe to India.
+
+Approved, 7-0-1.
+
+`8   Fund EuroPython 2010 <#id8>`_
+----------------------------------
+
+Motion from M.A. Lemburg: 
+
+    **RESOLVED**, that the PSF offers a USD 2,000 grant to the organizers
+    of the EuroPython 2010 conference to be held July 2010, to fund sprint
+    costs and travel expenses for selected speakers who could not otherwise
+    attend.
+
+Approved, 7-0-1.
+
+`9   PSF New Membership Class as Honorary Associate Member (HAM)- Resolution Only <#id9>`_
+------------------------------------------------------------------------------------------
+
+Motion from M.A. Lemburg: 
+
+    **RESOLVED**, that the Board of Directors implement the creation
+    of a new membership class, called &quot;honorary associate members&quot;,
+    as requested and approved by the members at the 2010 first
+    annual PSF members meeting, as follows:
+
+    There are now four classes of members of the corporation, denoted as
+    nominated members, sponsor members, honorary associate members and
+    emeritus members. References in the bylaws to a &quot;member&quot; or to the
+    &quot;members&quot; of the corporation shall not include any honorary associate
+    member, emeritus member or sponsor member unless explicitly provided
+    otherwise.
+
+    Honorary associate members have no voting rights and are not included
+    in the membership count for purposes of establishing a quorum.
+
+    Honorary associate membership shall be granted, on a yearly basis, in
+    consideration of financial donation to the PSF, but subject to
+    revocation by the Board of Directors.
+
+    Annual donations sufficient for honorary associate membership shall
+    initially be set at US$99, and may be revised by the Board of
+    Directors from time to time.
+
+    Honorary associate members may withdraw from membership in the
+    corporation at any time upon ten (10) days' written, signed notice
+    delivered to an officer of the corporation.
+
+    The Board or Directors may, at its discretion, decide to provide
+    incidental benefits to honorary associate members, such as
+    subscription to a newsletter, Python-branded email addresses, or
+    printed promotion material such as badges, stickers, or garments.
+
+Approved, 8-0-0.
+
+`10   Fund Project to Port pyOpenSSL to Python 3.x <#id10>`_
+------------------------------------------------------------
+
+    **RESOLVED**, that the PSF offers a USD 3,000 grant to Jean-Paul Calderone
+    for a fully functional port of pyOpenSSL to Python 3.x with an API as
+    similar to the 2.x API as possible.
+
+This discussion was deferred to email to be voted on at the next board
+meeting.
+
+`11   Fiscal Sponsorship of Third-Party Projects <#id11>`_
+----------------------------------------------------------
+
+Motion from S. Holden: 
+
+    **RESOLVED**, that the PSF expend up to USD 5,000 on attorney's
+    fees to obtain instructions on how to properly operate a fiscal
+    sponsorship scheme allowing it to support third-party projects
+    compatible with the PSF's mission and accept donations on their
+    behalf (possibly retaining a small portion of the funds to cover
+    administration expenses).
+
+This discussion was deferred to email to be voted on at the next board
+meeting.
+
+`12   Fund Python Core Development Tasks <#id12>`_
+--------------------------------------------------
+
+The board discussed a proposal by Brett Cannon to work on Python core
+development tasks full-time for a period of two months: November &
+December 2010. The proposal included a grant request of USD 4,500.
+
+This discussion was deferred to email to be voted on at the next board
+meeting.
+
+`13   Reimburse Expenses for PSF Chairman to Attend EuroPython <#id13>`_
+------------------------------------------------------------------------
+
+    **RESOLVED**, that the PSF reimburse expenses not to exceed USD 1,500
+    to allow the Chairman to attend EuroPython which is holding the first
+    Members' Meeting outside the United States.
+
+Approved, 7-0-1.
+
+`14   Other Business <#id14>`_
+------------------------------
+
+`14.1   Move Monthly Board Meetings to Third Monday <#id15>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Board members agreed to move their monthly board meeting from the second (2nd)
+Monday of each month to the third (3rd) Monday of each month. The start date
+for this change will begin in July 2010.
+
+`15   Adjournment <#id16>`_
+---------------------------
+
+S. Holden adjourned the meeting at 17:06 UTC.

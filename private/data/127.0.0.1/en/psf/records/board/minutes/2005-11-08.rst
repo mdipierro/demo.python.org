@@ -1,0 +1,131 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+November 8, 2005
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:08 UTC, 8
+November 2005.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present at the
+meeting: Tim Peters, Stephan Deibel, Andrew Kuchling, David Ascher,
+and Jeremy Hylton.  Kurt B. Kaiser (Treasurer), and David Goodger
+(Assistant Secretary) were also in attendance.  D. Goodger prepared
+these minutes.
+
+2   Minutes of Past Meetings
+----------------------------
+
+The October 2005 minutes were approved by a 3-0-2 vote.
+
+3   Status of Past Action Items
+-------------------------------
+
+The following are action items carried forward from the October 2005
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from September 2005, Section 4, Donor Levels: S. Deibel will add the topic of &quot;Donor Levels&quot; to the agenda of a future meeting, and may begin discussions via email before that (carried forward).
+
+- Originally from September 2005, Section 6, Python.org Redesign: *S. Holden hopes to have a transition plan within a couple of weeks* (discussed in `Python.org Redesign <#python-org-redesign>`_ below).
+
+- Originally from September 2005, Section 7, Infrastructure Committee Status Report: *A. Kuchling will try to change the www.python.org DNS in the next day or two.*     Status: **done**.
+
+- Originally from September 2005, Section 8, Conference Committee Status Report: A. Kuchling will send a copy of the PyCon 2006 contract to the Treasurer (carried forward).
+
+- Originally from September 2005, Section 9, Grants Committee: M. von L?wis will verify whether Brian Zimmer's grant invoice is the one previously discussed (i.e. a reduced amount of work, and a reduced payment) (carried forward).
+
+- Originally from September 2005, Section 10.1, Trademarks & The .com Domain: N. Norwitz will ask the lawyer about the python.com domain (carried forward).
+
+- Originally from September 2005, Section 10.2, Open Source Foundations Meeting at EuroOSCON: *M. von L?wis will report about the event to psf-board.*     Status: **done** (discussed in Open Source Foundations Meeting at EuroOSCON below).
+
+The following action items originated with the October 2005 meeting,
+as highlighted in the minutes:
+
+- Section 4, Public Support Committee: *N. Norwitz will investigate setting up a weekly or monthly donation report via email*.     Status: **done**.
+
+- Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas (carried forward).
+
+- Section 4, Public Support Committee: *S. Deibel decided not to dissolve the PSC, but to change its membership to include S. Holden, N. Norwitz, and D. Goodger, with himself as chair.*     Status: **done**.  No other PSC action has been taken though.
+
+- Section 5, Ubuntu Development Meeting: D. Goodger will ask if Ubuntu wants to become a PSF sponsor or donor (carried forward).     D. Goodger reported that he would be meeting Mark Shuttleworth for dinner, and would ask then.
+
+- Section 5, Ubuntu Development Meeting: *D. Goodger will order a Python T-shirt for himself from CafePress*.     Status: **done**.  D. Goodger attended the community day of the &quot;Ubuntu Below Zero&quot; developers conference in Montreal, which is ongoing.  He announced PyCon and distributed PyCon flyers, while wearing his new T-shirt with the new Python logo.
+
+- Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger] (carried forward).
+
+- Section 6, Grants Committee: *A. Kuchling said he would add a Grants BoF session to the list for PyCon*.     Status: **done**.
+
+- Section 7, Reserve Funds: K. Kaiser will send a reserve fund investment proposal to the PSF-board mailing list (carried forward).     K. Kaiser has discussed the CD plan with the bank, but hasn't written it up yet.
+
+4   Python.org Redesign
+-----------------------
+
+S. Holden was unable to attend but sent a report by email.  Summary: 
+
+- S. Holden met with Tim Parkin in person, and learned how the new system works in detail.
+
+- The new production system now runs on Windows and Linux, allowing webmasters to test changes locally before committing.
+
+- To do [S. Holden]:- get the new production system to run on Mac OS X;  - detail which parts of the current content have been transformed for the new system and which parts still require conversion;  - complete the documentation so that webmaster team members can use the new system rather than the old one.
+
+- Transition strategy: intermingle new content with the old, putting in redirects to maintain the viability of existing links for a good long time after the equivalent old content is deleted from the site.
+
+- There has been some interest on c.l.py in seeing a public preview of the new look-and-feel for the site.  S. Holden thinks this would be a bad idea; the new release should be a reportable event.
+
+- Tim Parkin is keen to receive the second half of Pollenation's payment.  S. Holden believes they deserve it, but indicated that the appropriate time would be once the new site had been published. This will help to motivate the project completion and ensure a speedy handover to the webmaster team.
+
+5   Open Source Foundations Meeting at EuroOSCON
+------------------------------------------------
+
+M. von L?wis was unable to attend but sent a report by email.
+Summary:
+
+- M. von L?wis represented the PSF at the Open Source Foundations Meeting at EuroOSCON, on Oct. 21.  The foundations spoke about their day-to-day experience, organizational structures, long-term goals etc.  This was the second such summit (the first one was this July at OSCON).
+
+- There was a formal agenda with points to discuss, but the introduction of participants took all day, so the interesting questions were discussed when encountered.
+
+- Ideas that von L?wis considered of interest for the PSF were the handling of grants, and the discussion of trademark policies:- The Perl Foundation handles grants continuously: people can apply at any time, through an issue tracker, for small grants.  Every three months, grants are issued in roughly the amount of donations received, about $5000 per quarter.  Occasional requests for larger grants are deal with on a case-by-case basis.  - The KDE Foundation, the Gnome Foundation, and the Mozilla Foundation all have trademark policies.  The PSF could try to borrow ideas for our own trademark policy.
+
+- Other issues discussed:- involvement of members, and policies for membership  - legal standing of the board  - registering as a non-profit organization  - EU funding  - activities that the foundations could pay for (in particular, writing documentation)  - the Open Source Law Center  - organizational structure in the various organizations
+
+- The participants agreed that the event was a worthwhile activity, and should be repeated.
+
+6   Funding of PyCon Attendees
+------------------------------
+
+S. Deibel asked if the PSF should set aside some money to fund PyCon
+attendees.  Last year the board didn't plan ahead and the system was
+somewhat unfair.  Only Facundo Batista was funded (airfare, hotel,
+food) for PyConDC2005.  Guido van Rossum was also funded, but his case
+falls into a different category (BDFL & keynote speaker).
+
+Last year, $2500 was allocated for Guido and $3000 at the conference
+committee's discretion.  The amount to allocate this year was
+discussed without resolution.  A. Kuchling will discuss
+attendee funding with the conference committee and make a proposal to
+the board.
+
+7   Public Support Committee
+----------------------------
+
+D. Ascher will ask Bram Cohen (BitTorrent) about PSF
+sponsorship.
+
+8   Trademark Policy
+--------------------
+
+D. Ascher brought up the PSF's trademark policy.  A wide-ranging
+discussion ensued without resolution.  J. Hylton suggested that
+D. Ascher discuss a list of general concerns and allowable uses with
+Milind Shah and see what he comes up with.  D. Ascher will
+probably work with ActiveState's legal person on trademark policy.
+
+9   Adjournment
+---------------
+
+S. Deibel adjourned the meeting at 19:07 UTC.

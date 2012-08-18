@@ -1,0 +1,156 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+February 11, 2008
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:00 UTC, 11
+February 2008.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in January <#new-in-january>`_
+
+- `4   GHOP Contest Winners <#ghop-contest-winners>`_
+
+- `5   PyCon Update <#pycon-update>`_
+
+- `6   www.python.org Server <#www-python-org-server>`_
+
+- `7   Jython Bug Tracker <#jython-bug-tracker>`_
+
+- `8   Members' Meeting <#members-meeting>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Tim Peters, David Goodger, Andrew Kuchling, Stephan Deibel,
+Martin von L?wis, Steve Holden, and Brett Cannon.  Also in attendance
+was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 14 January 2008 Board meeting minutes were approved by a 7-0-0
+vote (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 14 January
+2008 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     Status: carried forward.
+
+- Originally from April 2007, Section 9, New PSF Members: D. Goodger will contact the PSF members not subscribed to the PSF-Members mailing list.     Status: **done**.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will produce a PSF logo based on the Python logo.     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: carried forward.
+
+- Originally from September 2007, Section 5, Fraud Attempts: A. Kuchling will prepare a statement on fraudulent PSF checks for the python.org website.     Status: in progress.
+
+- Originally from November 2007, Section 7, PSF Article for The Python Papers: S. Deibel will post his PSF article on python.org, but well after it is published in The Python Papers.     It has been long enough since the article was published to post it on python.org.     Status: carried forward.
+
+`3.2   New in January <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 14 January 2008 board meeting on
+IRC.
+
+- Section 4, Google Summer of Code Report: D. Goodger will post the report to the PSF blog.     Status: carried forward.
+
+- Section 5, HitFlip Sponsor Application: K. Kaiser will notify HitFlip of their pending sponsor member status and send an invoice for sponsor dues.     Status: **done**.
+
+- Section 6, Members' Meeting: D. Goodger will send all sponsor applicant's info to members.     Status: carried forward.
+
+- Section 6, Members' Meeting: D. Goodger will send out the members' meeting notices within two weeks (by snailmail and email).     This is overdue and will be done immediately.      Status: carried forward.
+
+- Section 6, Members' Meeting: D. Goodger and M. von L?wis will update the list of members' addresses.     Status: **done**.
+
+- Section 7, Awards Program: K. Kaiser will research the tax implications of an awards program (both domestic & international recipients).     Status: carried forward.
+
+- Section 7, Awards Program: S. Holden will refine the awards program proposal, for a vote at the next board meeting.     Status: carried forward.
+
+- Section 8, ILM Membership: S. Holden will write to ILM, to make them aware of the possibilities regarding their membership.     S. Holden reported that he wrote to ILM, but there was no response. He will proceed with a resolution for the members' meeting.     Status: **done**.
+
+- Section 9, Python Certification Scheme: S. Holden will report the results of the certification discussion back to Van Lindberg.     Van Lindberg and S. Holden are working on a proposal for the Board to support a certification scheme.     Status: **done**.
+
+`4   GHOP Contest Winners <#id6>`_
+----------------------------------
+
+S. Holden reported that there will be a single winner for the Google
+Highly Open Participation contest, but the mentors group had about
+five or six contenders.
+
+    RESOLVED, that Steve Holden may spend up to US$1000 to buy swag
+    items for GHOP participants.
+
+Approved 7-0-0.
+
+`5   PyCon Update <#id7>`_
+--------------------------
+
+D. Goodger reported that PyCon is doing well: 
+
+    We are approaching 300 registered, we have over $130,000 in
+    sponsorship pledged, and we have surpassed our room-night
+    obligation to the hotel.  Registration started late, but I expect
+    at least as many attendees as last year (600), probably more.
+    I will send out an early-bird reminder tonight.
+
+In light of the probable PyCon profit, a fund for thank-you gifts was
+discussed, but a resolution was deferred to a later meeting.
+
+`6   www.python.org Server <#id8>`_
+-----------------------------------
+
+M. von L?wis reported that the www.python.org server (&quot;dinsdale&quot;) is
+running out of disk space.  He intends propose to buy a new, more
+powerful host machine from XS4ALL next month, probably for about
+US$2500.
+
+`7   Jython Bug Tracker <#id9>`_
+--------------------------------
+
+A. Kuchling reported that, thanks to the importing and configuration
+work of Martin von L?wis, the Jython bug tracker is moving to the
+PSF-hosted Roundup installation.  The Board thanked Martin for his
+efforts.
+
+`8   Members' Meeting <#id10>`_
+-------------------------------
+
+D. Goodger will send out a reminder of the deadline for
+nominations and resolutions to psf-members.
+
+A. Kuchling will write up a list of PSF accomplishments for
+the member's meeting.
+
+`9   Adjournment <#id11>`_
+--------------------------
+
+S. Deibel adjourned the meeting at 18:57 UTC.

@@ -1,0 +1,314 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+April 9, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:06 UTC, 9
+April 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in March <#new-in-march>`_
+
+- `4   PyCon <#pycon>`_
+
+- `5   Assistants <#assistants>`_
+
+- `6   Python Package Index (Cheese Shop) <#python-package-index-cheese-shop>`_
+
+- `7   Penguin Day DC <#penguin-day-dc>`_
+
+- `8   EuroPython <#europython>`_
+
+- `9   New PSF Members <#new-psf-members>`_
+
+- `10   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Steve Holden, Tim Peters, Brett Cannon,
+Andrew Kuchling, and Martin von L?wis.  Also in attendance was Kurt
+Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 12 March 2007 Board meeting minutes were approved by a 6-0-0
+vote (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 12 March 2007
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: in progress.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     A. Kuchling noted that the contributor agreement records should be brought up-to-date first.     Status: carried forward.
+
+- Originally from 12 February 2007, Section 7, Treasurer Records: K. Kaiser will make the 2003, 2004, and 2005 PSF tax returns available on the web site.     Status: **done**.
+
+`3.2   New in March <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 12 March 2007 board meeting on
+IRC.
+
+- Section 4, Tasks for the Secretary: D. Goodger will update the Membership Roster web page.     Status: carried forward.
+
+- Section 4, Tasks for the Secretary: D. Goodger will update the PSF Committees wiki page, and convert the wiki page to a regular web page.     Status: carried forward.
+
+- Section 4, Tasks for the Secretary: D. Goodger will consult the PSF's lawyer to ask if the proxy forms and absentee ballots from the members' meeting should be kept or destroyed.     Status: carried forward.
+
+- Section 5, Treasurer Records: D. Goodger will publish the treasurer records produced by K. Kaiser (tax returns, 2006 financial report, 501(c)(3) ruling) on python.org.     Status: **done**.
+
+- Section 12, Awards: D. Goodger will follow up with Nathan Torkington of O'Reilly regarding the Frank Willison Award.     Status: carried forward.
+
+- Section 12, Awards: S. Holden will prepare a proposal for a PSF awards program.     Status: carried forward.
+
+- Section 14, Python.org Mirrors: S. Deibel will begin to dismantle the python.org mirrors system.  First step: mark the python.org mirrors list as unmaintained and refuse additions.     Status: **done**.
+
+- Section 16, Reviving the Grants Program: D. Goodger will send email to PSF-members about recruiting: a leader for a new grants program, an Assistant Secretary, and an Assistant Treasurer.     Status: carried forward.
+
+- Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     S. Holden reported that he has begun a review of the bylaws and should have it ready to mail out a week or so before the next Board meeting.     Status: carried forward.
+
+`4   PyCon <#id6>`_
+-------------------
+
+A. Kuchling asked if the PSF has received an invoice for PyCon from
+the Dallas/Addison Marriott Quorum hotel.  K. Kaiser reported that so
+far he has received nothing.
+
+A. Kuchling will prompt the Dallas/Addison Marriott Quorum
+hotel to send an invoice for PyCon 2007.
+
+A. Kuchling asked about the PyCon reimbursement cheques: what is
+needed?  K. Kaiser replied that he needs a list of claimed expenses
+and proper copies of the receipts faxed or mailed to the PO box.
+
+`5   Assistants <#id7>`_
+------------------------
+
+S. Deibel asked what needs to be done to get an Assistant Treasurer
+and an Assistant Secretary trained:
+
+    My thought was to perhaps &quot;advertise&quot; the job and see who
+    responds.  I'm working on the theory that it's better to have
+    overlap in the office.  The current officer gets help, and the new
+    one has more time to get up to speed.
+
+K. Kaiser agreed, noting that when he became Treasurer it was fairly
+sudden.
+
+    GNUCash experience is very important.  Really need someone who is
+    comfortable with double entry accounting.
+
+S. Deibel asked, should assistants also get some pay? 
+
+M. von L?wis asked, did K. Kaiser receive &quot;training&quot; when he became
+Treasurer?  K. Kaiser replied that Neal Norwitz wrote up a narrative
+which is in CVS and has been updated/amplified.
+
+K. Kaiser informed the Board that barring unforeseen changes, he
+should be able to continue as Treasurer for at least another year.
+
+S. Deibel will work with the Treasurer and Secretary to write
+up calls for assistants.
+
+M. von L?wis recommended that the call be posted to the psf-members
+list.  He is not comfortable with non-members in these posts.
+
+`6   Python Package Index (Cheese Shop) <#id8>`_
+------------------------------------------------
+
+S. Deibel reported that the Cheese Shop is having problems, and asked
+if the PSF should do something.  A. Kuchling provided background:
+
+    On Friday, two crawlers were going through the wiki very quickly.
+    The load average was in the 70s.  PyPI is on the same machine
+    [ximinez], and the out-of-memory process killer was killing off
+    PostgreSQL processes, I think.
+
+    Possible courses of action: 1) Fix the wiki crawler problems.  2)
+    Get more memory into the machine.  3) Move the wiki to another
+    machine.  4) Make the PyPI code more efficient.  Doubtless more
+    options, too.
+
+    Martin's looking at (4).  I temporarily fixed (1) by blocking the
+    offending IPs.  Thomas Wouters would be the person to ask about
+    (2).
+
+S. Deibel noted that the general issue of making PyPI scalable is what
+he's after -- so it doesn't make Python look bad as it gets used more
+or abused such as in cases like this.  M. von L?wis replied that PyPI *is*
+scalable; it can easily handle many many more packages.
+
+M. von L?wis noted his scepticism about the feasibility of getting new
+hardware set up quickly.  By past history, setting up new machines or
+changing hardware is an activity that takes several months.  It
+requires continuous reminders, and if nobody keeps track, it easily
+gets delayed by weeks with no action.  T. Peters noted that he'd vote
+to pay XS4ALL if it results in better hardware turnaround.
+
+A. Kuchling suggested that a sprint with Richard Jones, Thomas
+Wouters, and everyone involved, would take a morning; IRC contact
+should be good enough.  S. Holden noted that Richard is in Australia,
+Thomas is in Amsterdam/Dublin, and others are all over the USA.  Were
+a meeting to be held, the PSF would need to fund it, but that might be
+preferable to the distributed solution.
+
+B. Cannon suggested that the first thing to decide may be if we want
+to stick with XS4ALL or move if we are going to start paying for
+infrastructure.  Only then should we get the machine and do the move.
+S. Holden suggested that there is no reason why the infrastructure
+can't be distributed.  B. Cannon replied that it may be easier to
+administer if we only have to deal with one set of tech support.
+S. Deibel suggested that we put a machine wherever it's easier and go
+from there.
+
+M. von L?wis suggested that we start by asking XS4ALL for another
+machine.  A. Kuchling noted that we probably have room in the
+enclosure at XS4ALL for one more machine.  That slot is currently
+occupied by creosote, but creosote can go away now.
+
+M. von L?wis reported that Thomas Wouters keeps saying that nothing
+will change for us even though he is no longer at XS4ALL.  He left in
+good standing, and the boss in in favour of this.
+
+A. Kuchling will ask Thomas Wouters about increasing the
+memory on ximinez, and getting another machine for PyPI.
+
+`7   Penguin Day DC <#id9>`_
+----------------------------
+
+A. Kuchling attended Penguin Day DC on April 7.  He sent a report to
+psf-members.  Summary:
+
+    Penguin Day was held on the Saturday after the 3-day Nonprofit
+    Technology Conference organized by the Nonprofit Open Source
+    Initiative, which encourages the use of open source software in
+    the nonprofit sector.
+
+    The PSF may be at the wrong level for this audience; the attendees
+    were interested in using open source technology, but are not
+    developers.  Nonprofits seem to care most about two areas:
+
+    - Content management (Plone, Joomla, Drupal)
+
+    - Member management (discussion forums, mailing lists [Mailman]), member databases)
+
+    Nonprofits are concerned about: 
+
+    - cost
+
+    - ability to maintain/administer applications
+
+    - finding people to work on their applications
+
+    Reasons for not using open source include: 
+
+    - Commercial software makes it very easy to get a nonprofit price.
+
+    - Suspicion of free software (perception of untrustworthiness).
+
+    - Fear that the software or its community will vanish.  Companies are thought to be more stable.
+
+    - Lack of knowledge about the open source alternatives.
+
+    - Documentation not good enough; intermediate documentation needed (between beginner & expert level).
+
+    - Case studies are very helpful.
+
+    Case studies should: 
+
+    - Mention resulting cost.
+
+    - Mention ancillary requirements such as training.
+
+    - Cover the whole life cycle from making the decision through implementation, deployment, and lessons learned.
+
+    - Mention errors or problems that were encountered and solved.
+
+    Comments on Mailman: 
+
+    - Attendees thought it *worked* fine...
+
+    - ... but *looked* old...
+
+    - ... and the HTML wasn't easily customizable.
+
+    - Doesn't keep many admin statistics (# of posts sent, # bounced, # of domains accessed, which lists are quiet and which are busy).
+
+    - Can't delete archived posts easily, or move threads into another list.
+
+    Random ideas & action items: 
+
+    - The PSF should talk to NOSI about collaborating where appropriate.  For example, NOSI talks about using Linux and OpenOffice for desktops; perhaps the PSF could write a white paper about PyUno.
+
+    - Suggestion for python.org: write a page about the history of the software.
+
+    - Write a comparison of Python and PHP.
+
+M. von L?wis noted that one action item is Mailman, and asked if we
+should pay money to ramp it up graphically (like: paying a graphics
+designer?).  S. Deibel replied that he suspects asking community-wide
+for help with improving the look would work.  M. von L?wis: &quot;I believe
+that engineers ... are not that good in design.&quot;  S. Deibel replied
+that there are some decent designers in the community.
+
+A. Kuchling noted that engineers also probably don't manage our lists
+as intensively as nonprofits do.  &quot;The idea of moving threads bodily
+to another list is completely alien to me, for example.&quot;
+
+A. Kuchling noted that he is having lunch with Barry Warsaw next week.
+Barry is working for Canonical now, working on integrating Mailman
+with Launchpad, and they may work on a new archiver to replace
+Pipermail.  Perhaps we should fund something, but he will talk to
+Barry first and see what he thinks.
+
+`8   EuroPython <#id10>`_
+-------------------------
+
+A. Kuchling reported that he is still talking to Michael Hudson about
+EuroPython.  S. Deibel noted that we'll help where we can.
+
+`9   New PSF Members <#id11>`_
+------------------------------
+
+T. Peters reported that he compiled a list of recent PSF-Member
+subscribers, which he mailed to PSF-Board.  There aren't enough to
+account for the number of new regular and sponsor members.  He asked
+if someone could contact the missing, noting that it's a bit tricky
+since the member minutes don't record names of people for the new
+sponsor members.
+
+M. von L?wis noted that names of sponsor representatives should be on
+the application forms.  K. Kaiser noted that there is a database of
+sponsor addresses and email addresses, in PSF CVS.
+
+D. Goodger will contact the PSF members not subscribed to the
+PSF-Members mailing list.
+
+`10   Adjournment <#id12>`_
+---------------------------
+
+S. Deibel adjourned the meeting at 18:03 UTC.

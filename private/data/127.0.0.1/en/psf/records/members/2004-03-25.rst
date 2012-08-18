@@ -1,0 +1,177 @@
+Minutes of the 2004 member meeting
+==================================
+
+The members of the Python Software Foundation (the "Corporation") 
+held its annual meeting on March 25, 2004 at the George Washington
+University's Cafritz Center in Washington, D.C.
+Jeremy Hylton, secretary and treasurer, presided over the meeting.
+
+The following members attended the meeting:
+
+- David Ascher (also representing ActiveState)
+- Steve Holden
+- Jim Fulton (also representing Zope Corporation)
+- Fred Drake
+- Jeremy Hylton
+- Thomas Wouters
+- Barry Warsaw
+- Paul Prescod
+- Trent Mick
+- Brett Cannon
+- Anthony Baxter
+- Neil Schemenauer
+- Reggie Dugard representing Merfin LLC.
+- Eric Jones
+- Tim Peters
+- David Goodger
+- Laura Creighton representing AB Strakt
+- Stephan Deibel
+- Aahz
+- Michael McLay
+- Neil Norwitz
+- Paul Dubois
+- Guido van Rossum
+- Andrew Kuchling (also representing Advanced Simulation Technology Inc.)
+- Martin v. L?wis
+
+The following members were represented by proxy:
+
+**Proxy**  **for**
+
+Guido van Rossum  Michael C. Olson                           Matthew Dixon Cowles                           Thomas Heller                           Jack Jansen
+
+Neal Norwitz  Jason Tishler
+Barry Warsaw  Skip Montonaro                       Peter Schneider-Kamp                       Jason Abate (Hostway)                       Ka-Ping Yee
+Martin von Loewis  Marc-Andr? Lemburg
+Steve Holden  Alex Martelli
+David Ascher  Neil Hodgson                       Kevin Altis
+Jeremy Hylton  Vinay Sajip 		       Sam Rushing
+Tim Peters  Greg C. Ewing
+Brett Cannon  Raymond Hettinger
+
+Board Report
+============
+
+Jeremy Hylton presented the annual report of the board,
+summarizing reports from individual committees.
+
+The Python Support Committee (chaired by Marc-Andr?
+Lemburg) has focus on fund raising. The Paypal system
+was established and first donations were received. The
+website features a ranking based on priorities. To date,
+258 donations were received. The board has established
+the notion of a pending sponsor member, which is a donor
+who is likely to be voted as a sponsor member at the
+next member meeting.
+
+The python.org domain was transferred from CNRI, and work
+is on progress on selecting contributor agreement. The most
+recent suggestion from the lawyer to replace suggested three
+contributor agreements with an individual one, has been well
+received by the directors.
+
+Treasurer Report
+================
+
+Neal Norwitz gave a brief summary of the PSF's financial 
+status. The current balance are assets of $115k. He then
+responded to detailed questions from the members on specific
+numbers regarding the donations.
+
+Sponsor members
+===============
+
+Jeremy presented a list of new proposed sponsor members. 43
+ballots were collected, and all of the proposed members
+have been elected, with the following number of aye/nay votes:
+- Array BioPharma (38 ayes)
+- BizRate.com (34 ayes)
+- Enthough (39 ayes)
+- Google (43 ayes)
+- IronPort (40 ays)
+- Open Source Application Foundation (43 ayes)
+- Industrial Light & Magic (42 ayes, 1 nay)
+- Opsware (37 ayes)
+- ZeOmega (40 ayes)
+
+Member voting
+=============
+
+After discussion, all proposed nominated members have been
+elected, with the following votes:
+- Hye-Shik Chang (39 ayes)
+- Andrew Dalke (39 ayes)
+- Jeff Elkner (38 ayes, 2 nays)
+- Kurt B. Kaiser (40 ayes)
+- Gustavo Niemeyer (38 ayes)
+- Armin Rigo (43 ayes)
+- Trevor Toenjes (34 ayes, 1 nay)
+- Danny Yoo (43 ayes)
+
+Board election
+==============
+
+After discussion, the following members were elected,
+with the following number of votes:
+- David Ascher (33)
+- Stephan Deibel (24)
+- Steve Holden (24)
+- Jeremy Hylton (29)
+- Martin v. L?wis (35)
+- Tim Peters (35)
+- Guido van Rossum (26)
+
+Two candidates were not elected: Raymond Hettinger (16)
+and Marc-Andr? Lemburg (18).
+
+Discussion on Electronic votes
+==============================
+
+Marc-Andr? Lemburg has proposed that electronic voting among
+members should become possible. This involves two aspects:
+the bylaws need to be changed, and a trusted technical procedure
+must be established. The board has asked members for feedback
+whether such a change to the bylaws should be made.
+
+In general, all members who spoke up were in favour of allowing
+electronic votes. Thomas Wouters commented that a procedure must
+provide secrecy, and he is willing to help establishing such
+a procedure.
+
+Discussion on spending money
+============================
+
+The board has asked members how they would like to spend the
+funds that the PSF has available through grants, after withdrawing
+necessary funds for organizing PyCon, and paying administrative
+and legal expenses.
+
+Jeremy Hylton proposed that a grant committee should be established,
+which should then refrain from applying for their own funds.
+Michael McLay volunteered to work on this committee.
+
+Discussion on helping out
+=========================
+
+A number of members expessed willingness to help in the
+day-to-day business of the PSF. Anthony Baxter pointed out
+that most members, however, were not informed of ways in
+which they could help. Paul Dubois suggested that roundup nosy lists should
+be used to disseminate information among members. That lead
+discussion to the future of round-up. Thomas Wouters reported
+that XS4ALL will sponsor three machines for Python in the
+near future: the web server, the mail server, and a third one,
+which could run services like roundup.
+
+Andrew Kuchling asked what happened to the web committee. Jeremy
+reported that not much has happened. Barry Warsaw commented that
+the pydotorg list solves only a part of the problem. Andrew
+asked why Tim Parkin's efforts in improving the website had
+no results. Guido van Rossum commented that he was in contact 
+with Tim to resolve open issues. There was further discussion
+on organizing the website. 
+
+Adjournment
+===========
+
+There being no further business, the meeting was adjourned.

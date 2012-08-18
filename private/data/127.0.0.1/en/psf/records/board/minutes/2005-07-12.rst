@@ -1,0 +1,183 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+July 12, 2005
+
+A regular meeting of the Python Software Foundation (the &quot;PSF&quot;) Board
+of Directors was held over Internet Relay Chat at 17:00 UTC, July 12,
+2005.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Tim Peters, Martin von L?wis, Andrew
+M. Kuchling, and David Ascher.  Kurt B. Kaiser (Treasurer) and David
+Goodger (Assistant Secretary) were also in attendance.  D. Goodger
+prepared these minutes.
+
+2   Meeting minutes of past meetings
+------------------------------------
+
+The December 2004 minutes (finally!) were approved with a 3-0-2 vote. 
+
+The June 2005 minutes were approved with a 5-0-0 vote.
+
+3   SSL Certificates
+--------------------
+
+A. Kuchling reported that Barry Warsaw wants to purchase 5 SSL
+certificates for svn.python.org, www.python.org, mail.python.org,
+cheeseshop.python.org, and wiki.python.org.  They cost $49/year per
+certificate (wildcard certificates cost $449/year, which is not
+economical with fewer than 10 domain names).  The difference between
+purchased and self-signed certificates was discussed; it was agreed
+that purchased certificates were worth the expense.  It was then
+
+    RESOLVED: To allocate up to $260 to compensate Barry Warsaw for
+    purchasing 5 SSL certificates for python.org hosts.  ($260, not
+    $245, to allow for sales tax.)
+
+    Approved with a 5-0-0 vote.
+
+4   Status Reports
+------------------
+
+4.1   Grants Committee
+~~~~~~~~~~~~~~~~~~~~~~
+
+M. von L?wis reported that Greg Wilson has completed the first part of
+work for his grant, and expressed the hope that Paul Dubois would
+review it.
+
+4.2   Infrastructure Committee
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A. Kuchling reported
+that:
+
+- The python.org web pages now reside in the Subversion (SVN) repository.
+
+- SVN accounts have been created for everyone [who had CVS access].
+
+- The CVS repository on python.org has been disabled.
+
+- ``make install`` still pushes pages to creosote, not to the new machine.
+
+- Some accounts have been rsync'ed over [to the new machine].
+
+Remaining tasks: PyPI & static www service.  Kuchling is trying to
+sync with Richard Jones on PyPI, but has not succeeded yet due to
+Richard being busy and Andrew being mildly ill.  His goal is to
+complete the move before the August board meeting.
+
+4.3   Public Support Committee
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Deibel reports that not much has happened, mostly due to being busy
+with other things.  He expressed the desire to get the fund raising
+end of the PSF going better, with volunteers and people that have time
+and vision.
+
+4.4   Conference Committee
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A. Kuchling posted a status report to the psf-board mailing list.
+Summary:
+
+A site decision for PyCon 2006 has been made: Addison, Texas, a suburb
+of Dallas/Fort Worth, at the Marriott Hotel.  The winning bid was made
+by the Dallas/Fort Worth Python user group.
+
+A major issue was the high cost of wireless, which amounted to
+$30/person/day; the DFW group has gotten this down to $7/person/day.
+Jeff Rush is now working on getting a hotel contract for us to look
+at.
+
+PyCon 2006's schedule is: February 23 through March 2, 2006: 
+
+    **MISSING**
+    Wed, Feb 22   Setup
+
+    Thu, Feb 23   Tutorials
+
+    Fri, Feb 24   PyCon day 1
+
+    Sat, Feb 25   PyCon day 2
+
+    Sun, Feb 26   PyCon day 3
+
+    Mon, Feb 27   Sprints 1
+
+    Tue, Feb 28   Sprints 2
+
+    Wed, Mar  1   Sprints 3
+
+    Thu, Mar  2   Sprints 4 / teardown
+
+Room occupancy: the tentative figure is that PyCon will have an
+850-room-night block, of which 80% (= 680 room nights) will need to be
+filled.  This is OK if we assume 550 attendees.  (Figure, if everyone
+shares: 550 attendes ? 3 nights/person ? 2 people/room = 825 room
+nights.  Adding occupied nights during the sprints provides a buffer.)
+Even if we only got 400 attendees, we might reach our target (but it
+would be tight).
+
+Current actions: waiting for hotel contract; getting CFP (call for
+proposals) ready to post once the contract is signed and the dates are
+nailed down; setting up a PyCon weblog for publicity purposes.
+
+5   New Business
+----------------
+
+M. von L?wis began discussions on a &quot;Python release committee&quot;.  The
+first decision to make is whether Python releases should be a &quot;PSF
+product&quot;.  If yes, the PSF members should be asked if they agree.  For
+the PSF, the advantage would be better visibility.
+
+Anthony Baxter is Python's all-purpose release manager, with a time
+plan that he tends to follow.  T. Peters asked what a Python release
+committee would do that Anthony isn't already doing.  M. von L?wis
+said that Anthony should be asked whether he wants to chair such a
+committee.
+
+A discussion ensued, touching on the following issues: 
+
+- This should be a community decision.
+
+- What problem is trying to be solved?  Is the status quo broken?
+
+- Are Python releases a PSF product or a python-dev product?
+
+- The PSF holds the copyright on Python and sets the license.
+
+- Historically, many decisions were left to the BDFL (Benevolent Dictator for Life, Guido van Rossum).
+
+- What impact has Guido's resignation from the PSF board had?  It's likely that Guido is having less time and interest; he'd rather spend what time he has working on the language.  At some point, we may need to figure out a new governing style for Python development.
+
+The discussion then centered on the issue of migrating the Python
+codebase from CVS to SVN:
+
+- Whose decision would it be to move from [SourceForge's] CVS to SVN?
+
+- If the python-dev crew *want* to move to SVN, they should.  If they don't, they won't.  The PSF should facilitate what they need with cash or whatever, but it's about letting people do the work the way they see fit.
+
+- Nobody acted on converting from CVS to Subversion because nobody felt they had the power to do so.
+
+- SourceForge is studying SVN for possible future deployment.
+
+- We benefit greatly from SourceForge features, saving a lot of work -- perhaps more than most developers appreciate.
+
+- The biggest cost to switching is the data migration.
+
+- Those who really want it must be willing to gather the effort and do the work.
+
+The final consensus was that there were enough complications that a
+tangible plan would be a good idea.  Someone must care enough to write
+a PEP.  M. von L?wis volunteered.
+
+6   Adjournment
+---------------
+
+Stephan Deibel adjourned the meeting at 18:00 UTC.

@@ -1,0 +1,113 @@
+Python 2.3.2
+------------
+
+    *Note: See `Python 2.3.5 <../2.3.5/>`_ for a
+    patch release release which supersedes earlier releases of 2.3.*
+
+    **Important:** This release is vulnerable to the problem described in
+      `security advisory PSF-2006-001 </news/security/PSF-2006-001/>`_
+      "Buffer overrun in repr() of unicode strings in wide unicode
+      builds (UCS-4)".  This fix is included in
+      `Python 2.4.4 <../2.4.4/>`_
+      and `Python 2.5 <../2.5/>`_. If you need to remain with Python 2.3,
+      there's a patch available from the security advisory page.
+
+    **Important:
+    2.3.5 includes a security
+    fix for SimpleXMLRPCServer.py.**
+
+We're happy to announce the release of **Python 2.3.2 (final)**
+on October 3rd, 2003.
+This is a bug-fix release for Python 2.3.1 that fixes a couple of build
+errors and a couple of packaging errors in the previous release. It
+supersedes the original `Python 2.3.1 <../2.3.1/>`_ release.
+
+No new features have been added in Python 2.3.2. Instead, this
+release is to fix a couple of build errors and packaging errors. In
+particular, a workaround for a bug in autoconf on HP/UX, and an error
+in the configure script that meant os.fsync() was never available.
+
+None of the bugs in 2.3.1 affect the Windows platforms.  If you
+have previously downloaded Python 2.3.1 for Windows, there's no need
+to upgrade to 2.3.2.  (But if you're still at 2.3 or before,
+downloading 2.3.2 is a good idea.)
+
+Please see the separate `bugs page <bugs>`_ for known
+issues and the bug reporting procedure.
+
+Download the release
+~~~~~~~~~~~~~~~~~~~~
+
+**Windows** users should download the Windows installer, `Python-2.3.2-1.exe </ftp/python/2.3.2/Python-2.3.2-1.exe>`_, run
+it and follow the friendly instructions on the screen to complete the
+installation.  Windows users may also be interested in Mark Hammond's
+`win32all <http://starship.python.net/crew/mhammond/>`_, a collection of Windows-specific extensions including
+COM support and Pythonwin, an IDE built using Windows components.
+
+Please note that the original Windows installer had a problem with
+some dll files shipped with the installer. This was reported to cause
+problems on some Windows 98 and Windows NT machines. The replacement 
+installer (with a -1 extension) should address this problem. We apologise
+to anyone who was affected by this.
+
+RPMs suitable for Redhat and source RPMs for other RPM-using
+operating systems are available from `the RPMs page <rpms>`_.
+
+**All others** should download either 
+`Python-2.3.2.tgz </ftp/python/2.3.2/Python-2.3.2.tgz>`_ or
+`Python-2.3.2.tar.bz2 </ftp/python/2.3.2/Python-2.3.2.tar.bz2>`_, 
+the source archive.  The tar.bz2 is considerably smaller, so get that one if
+your system has the appropriate 
+tools to deal with it. Unpack it with 
+"tar -zxvf Python-2.3.2.tgz" (or 
+"bzcat Python-2.3.2.tar.bz2 | tar -xf -").  
+Change to the Python-2.3.2 directory
+and run the "./configure", "make", "make install" commands to compile 
+and install Python.
+
+If you're having trouble building on your system, check the top-level
+README file for platform-specific tips, or check the 
+`Build Bugs <bugs#build>`_ section on the Bugs webpage.
+
+What's New?
+~~~~~~~~~~~
+
+- See the `highlights <../2.3/highlights>`_ of the Python 2.3 release. As noted, the 2.3.2 release is a bugfix release of 2.3.1, itself a bugfix release of 2.3.
+- The Windows installer now includes the documentation in searchable  htmlhelp format, rather than individual HTML files. You can still download the `individual HTML files </ftp/python/doc/2.3.2/>`_.
+- Andrew Kuchling's What's New in Python 2.3 describes the most visible changes since `Python 2.2 <../2.2.3/>`_ in more detail.
+- A detailed list of the changes is in the `release notes <NEWS.txt>`_, or the ``Misc/NEWS`` file in the source distribution.
+- For the full list of changes, you can poke around in `CVS <http://sourceforge.net/cvs/?group_id=5470>`_.
+- The PSF's press release announcing 2.3.2.
+
+Documentation
+~~~~~~~~~~~~~
+
+The documentation has been updated too:
+
+- `Browse HTML documentation on-line </doc/2.3.2/>`_
+- Download using `HTTP </ftp/python/doc/2.3.2/>`_.
+
+The interim documentation for
+new-style classes, last seen for Python 2.2.3, is still relevant
+for Python 2.3.2.  Raymond Hettinger has also written a tutorial on
+descriptors, introduced in Python 2.2.  
+In addition, The Python 2.3 Method
+Resolution Order is a nice paper by Michele Simionato that
+explains the C3 MRO algorithm (new in Python 2.3) clearly.  (Also
+available as `reStructured Text </download/releases/2.3/mro/mro.txt>`_.  Copied with
+permission.)
+
+Files, `MD5 <md5sum.py>`_ checksums, signatures, and sizes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
+
+    f54d7a529d444994b4b33429bbb45479 `Python-2.3.2.tgz </ftp/python/2.3.2/Python-2.3.2.tgz>`_ (8459427 bytes, `signature <Python-2.3.2.tgz.asc>`_)
+    9271171d55690e5cacd692e563924305 `Python-2.3.2.tar.bz2 </ftp/python/2.3.2/Python-2.3.2.tar.bz2>`_ (7161770 bytes, `signature <Python-2.3.2.tar.bz2.asc>`_)
+    87aed0e4a79c350065b770f9a4ddfd75 `Python-2.3.2-1.exe </ftp/python/2.3.2/Python-2.3.2-1.exe>`_ (9481060 bytes, `signature <Python-2.3.2-1.exe.asc>`_)
+
+The signatures above were generated with
+`GnuPG <http://www.gnupg.org>`_ using the release manager's
+(Anthony Baxter)
+`public key </download#pubkeys>`_ 
+which has a key id of 6A45C816.

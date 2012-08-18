@@ -1,0 +1,109 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+September 9, 2003 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: David Ascher, Guido van Rossum, Martin von L?wis, Tim Peters, 
+Jeremy Hylton.  Thomas Wouters was absent.  A quorum was present. 
+Neal Norwitz and Aahz also participated in the meeting.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+Guido moved to approve the minutes of June 10. Motion passes
+with 5 ayes, 0 nays and 0 abstentions.
+
+Guido moved to approve the minutes of August 12. Motion passes
+with 4 ayes, 0 nays and 1 abstention.
+
+PyCon
+#####
+
+It was
+
+    RESOLVED, to let the treasurer immediately write a check to George
+        Washington University for up to $2500 to reserve the space for PyCon
+        2004 (the actual amount to be 10% of the estimated total price).
+
+Motion approved unanimously.
+
+PMC Clarification
+#################
+
+The Board wanted to clarify the status of two previously created
+committees.  Thus, it was 
+
+    RESOLVED, That the Public Support Committee and Python Website
+        Committee, created earlier by resolution of the board, are Project
+        Management Committees according to Section 6.3 of the Bylaws and that
+        the chairmen of these committees, Marc-Andre Lemburg and Thomas
+        Wouters, respectively, are hereby appointed Vice Presidents of the
+        corporation.
+
+Motion approved unanimously.
+
+Sponsor Members
+###############
+
+It was
+
+    RESOLVED, That the officers of the Corporation may, at their
+        discretion, recognize certain donors as pending sponsor members of the
+        corporation, when it is expected that the donor will be admitted as a
+        sponsor member at the next meeting of the members.  A pending sponsor
+        member may participate in all activities and be listed as a pending
+        sponsor member, but may not vote at meetings.
+
+Motion approved unanimously.
+
+Sponsor Member Policy
+#####################
+
+The board agreed to modify the PSF web pages to include:
+
+    Any organization is welcome to apply for
+        sponsor membership - however, approval of the membership
+        is conditional on a member vote at a member meeting, and the
+        Board may issue a recommendation to the members regarding
+        the application.
+
+    Potential applicants should know that the Board feels
+        that membership in the PSF should reflect well on all
+        sponsor members and the PSF.  To this end,
+
+    The Board encourages applications from organizations
+        with a provable and strong link to Python (e.g.
+        organizations that use Python as a key piece of
+        their software infrastructure).
+
+    The Board discourages applications from organizations
+        with unethical business practices
+        (e.g. pornography vendors or spammers).
+
+python.org domain name transfer
+###############################
+
+Thomas was waiting for CNRI's zone file which he received today.
+The rest will happen shortly.
+
+Contribution Forms
+##################
+
+David agreed to discuss MAL's questions re: the contribution forms
+with Mark Yang, and to report back to the board list.
+MvL will then take it up with Larry Rosen after telling MAL
+he's relieved from his task (unless MAL protests).
+
+Adjournment
+###########
+
+There being no further business, the meeting was adjourned.

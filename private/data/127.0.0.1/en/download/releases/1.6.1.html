@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- download/releases/1.6.1 -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/download/releases/1.6.1">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <div class="section" id="python-1-6-1">
+<h1>Python 1.6.1</h1>
+<blockquote>
+<strong>Note: See the</strong> <a class="reference external" href="/pythonorg/default/index/download/">download pages</a> <strong>for more recent releases.</strong></blockquote>
+<div class="section" id="what-s-new">
+<h2>What's new?</h2>
+<p>Python 1.6 was the last of the versions
+developed at CNRI and the only version issued by CNRI with an open
+source license.  Following the release of Python 1.6, and after Guido
+van Rossum left CNRI to work with commercial software developers, it
+became clear that the ability to use Python with software available
+under the GNU General Public License (<a class="reference external" href="http://www.gnu.org/copyleft/gpl.html">GPL</a>) was very
+desirable.  CNRI and the Free Software Foundation (<a class="reference external" href="http://www.gnu.org/">FSF</a>) interacted to develop enabling
+wording changes to the Python license.  Python 1.6.1 is essentially
+the same as Python 1.6, with a few minor bug fixes, and with a
+GPL-compatible license.</p>
+<blockquote>
+<em>Note: according to CNRI, Python 1.6.1 is GPL-compatible, but</em> <a class="reference external" href="../2.1/fsf">the FSF's lawyer</a>, <em>has said that Python 1.6.1 is not compatible with the GPL.  CNRI disagrees, and states the FSF's lawyer has told CNRI's lawyer that 1.6.1 is &quot;not incompatible&quot; with the GPL.</em></blockquote>
+</div>
+</div>
+<div class="section" id="download">
+<h1>Download</h1>
+<p>Python 1.6.1 is available for download now.  It is released under
+the CNRI Open Source GPL-Compatible License.</p>
+<ul class="simple">
+<li><a class="reference external" href="http://hdl.handle.net/1895.22/1013">view license</a></li>
+<li><a class="reference external" href="download">accept license and download source</a></li>
+<li><a class="reference external" href="download_win">accept license and download Windows installer</a></li>
+<li><a class="reference external" href="/pythonorg/default/index/doc/1.6/">browse or download documentation**</a></li>
+</ul>
+<p><strong>Notes for Windows users:</strong> Some browsers remove the &quot;.exe&quot;
+suffix of the downloaded installer file.  If this happens to you,
+simply rename the downloaded file to &quot;python16.exe&quot; before you
+double-click it to run the installer.  Also, if you have ever
+installed an older Python version (especially distributions from
+PythonWare), you may have to remove references to it from your
+autoexec.bat.  <strong>Incompatibility warning:</strong> Norton Antivirus 2000
+can cause blue screen crashes on Windows 98 when a function in the
+os.popen*() family is invoked.  To prevent this problem, disable
+Norton Antivirus when using Python.  (Confirmed on Windows 98 Second
+Edition with Norton Antivirus version 6.10.20.  The same Norton
+Antivirus version doesn't have this problem on Windows 2000.  Norton
+Antivirus version 5 on Windows 98SE doesn't have this problem either.)</p>
+</div>
+<div class="section" id="bugs-and-patches">
+<h1>Bugs and Patches</h1>
+<p>To report a bug, always use the SourceForge <a class="reference external" href="http://sourceforge.net/bugs/?group_id=5470">Bug Tracker</a>.  If
+you have a patch, please use the SourceForge <a class="reference external" href="http://sourceforge.net/patch/?group_id=5470">Patch Manager</a>.
+<strong>Be sure to indicate that this is a bug report or patch for Python
+1.6.1!</strong></p>
+</div>
+<div class="section" id="what-s-new-in-release-1-6-1">
+<h1>What's new in release 1.6.1?</h1>
+<ul class="simple">
+<li>A new license (see above).</li>
+<li>A core dump in the C API function PyList_Reverse() has been fixed.</li>
+<li>The 1.6 release accidentally contained a number of .pyc files; these have been removed.</li>
+</ul>
+</div>
+<div class="section" id="what-s-new-in-release-1-6">
+<h1>What's new in release 1.6?</h1>
+<p>Here is a list of all relevant changes since release 1.5.2.</p>
+</div>
+<div class="section" id="source-incompatibilities">
+<h1>Source Incompatibilities</h1>
+<p>Several small incompatible library changes may trip you up:</p>
+<ul class="simple">
+<li>The append() method for lists can no longer be invoked with more than one argument.  This used to append a single tuple made out of all arguments, but was undocumented.  To append a tuple, use e.g. l.append((a, b, c)).</li>
+<li>The connect(), connect_ex() and bind() methods for sockets require exactly one argument.  Previously, you could call s.connect(host, port), but this was undocumented. You must now write s.connect((host, port)).</li>
+<li>The str() and repr() functions are now different more often.  For long integers, str() no longer appends a 'L'.  Thus, str(1L) == '1', which used to be '1L'; repr(1L) is unchanged and still returns '1L'. For floats, repr() now gives 17 digits of precision, to ensure no precision is lost (on all current hardware).</li>
+<li>The -X option is gone.  Built-in exceptions are now always classes.  Many more library modules also have been converted to class-based exceptions.</li>
+</ul>
+</div>
+<div class="section" id="binary-incompatibilities">
+<h1>Binary Incompatibilities</h1>
+<p>Third party extensions built for Python 1.5.x cannot be used with
+Python 1.6; these extensions will have to be rebuilt for Python 1.6.</p>
+<p>On Windows, attempting to import a third party extension built for
+Python 1.5.x results in an immediate crash; there's not much we can do
+about this.  Check your PYTHONPATH environment variable!</p>
+</div>
+<div class="section" id="overview-of-changes-since-1-5-2">
+<h1>Overview of Changes since 1.5.2</h1>
+<p>For this overview, I have borrowed from the document &quot;What's New in
+Python 2.0&quot; by Andrew Kuchling and Moshe Zadka:
+<a class="reference external" href="http://starship.python.net/crew/amk/python/writing/new-python/">http://starship.python.net/crew/amk/python/writing/new-python/</a>.</p>
+<p>There are lots of new modules and lots of bugs have been fixed.  A
+list of all new modules is included below.</p>
+<p>Probably the most pervasive change is the addition of Unicode support.
+We've added a new fundamental datatype, the Unicode string, a new
+build-in function unicode(), an numerous C APIs to deal with Unicode
+and encodings.  See the file Misc/unicode.txt for details, or
+<a class="reference external" href="http://starship.python.net/crew/lemburg/unicode-proposal.txt">http://starship.python.net/crew/lemburg/unicode-proposal.txt</a>.</p>
+<p>Two other big changes, related to the Unicode support, are the
+addition of string methods and a new regular expression engine:</p>
+<ul class="simple">
+<li>String methods mean that you can now say s.lower() etc. instead of importing the string module and saying string.lower(s) etc.  One peculiarity is that the equivalent of string.join(sequence, delimiter) is delimiter.join(sequence).  Use &quot; &quot;.join(sequence) for the effect of string.join(sequence); to make this more readable, try space=&quot; &quot; first.  Note that the maxsplit argument defaults in split() and replace() have changed from 0 to -1.</li>
+<li>The new regular expression engine, SRE by Fredrik Lundh, is fully backwards compatible with the old engine, and is in fact invoked using the same interface (the &quot;re&quot; module).  You can explicitly invoke the old engine by import pre, or the SRE engine by importing sre.  SRE is faster than pre, and supports Unicode (which was the main reason to put effort in yet another new regular expression engine -- this is at least the fourth!).</li>
+</ul>
+</div>
+<div class="section" id="other-changes">
+<h1>Other Changes</h1>
+<p>Other changes that won't break code but are nice to know about:</p>
+<p>Deleting objects is now safe even for deeply nested data structures.</p>
+<p>Long/int unifications: long integers can be used in seek() calls, as
+slice indexes.</p>
+<p>String formatting (s % args) has a new formatting option, '%r', which
+acts like '%s' but inserts repr(arg) instead of str(arg). (Not yet in
+alpha 1.)</p>
+<p>Greg Ward's &quot;distutils&quot; package is included: this will make
+installing, building and distributing third party packages much
+simpler.</p>
+<p>There's now special syntax that you can use instead of the apply()
+function.  f(<a href="#id1"><span class="problematic" id="id2">*</span></a>args, <a href="#id3"><span class="problematic" id="id4">**</span></a>kwds) is equivalent to apply(f, args, kwds).
+You can also use variations f(a1, a2, <a href="#id5"><span class="problematic" id="id6">*</span></a>args, <a href="#id7"><span class="problematic" id="id8">**</span></a>kwds) and you can leave
+one or the other out: f(<a href="#id9"><span class="problematic" id="id10">*</span></a>args), f(<a href="#id11"><span class="problematic" id="id12">**</span></a>kwds).</p>
+<div class="system-message" id="id1">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 136); <em><a href="#id2">backlink</a></em></p>
+Inline emphasis start-string without end-string.</div>
+<div class="system-message" id="id3">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 136); <em><a href="#id4">backlink</a></em></p>
+Inline strong start-string without end-string.</div>
+<div class="system-message" id="id5">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 136); <em><a href="#id6">backlink</a></em></p>
+Inline emphasis start-string without end-string.</div>
+<div class="system-message" id="id7">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 136); <em><a href="#id8">backlink</a></em></p>
+Inline strong start-string without end-string.</div>
+<div class="system-message" id="id9">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 136); <em><a href="#id10">backlink</a></em></p>
+Inline emphasis start-string without end-string.</div>
+<div class="system-message" id="id11">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 136); <em><a href="#id12">backlink</a></em></p>
+Inline strong start-string without end-string.</div>
+<p>The built-ins int() and long() take an optional second argument to
+indicate the conversion base -- of course only if the first argument
+is a string.  This makes string.atoi() and string.atol() obsolete.
+(string.atof() was already obsolete).</p>
+<p>When a local variable is known to the compiler but undefined when
+used, a new exception UnboundLocalError is raised.  This is a class
+derived from NameError so code catching NameError should still work.
+The purpose is to provide better diagnostics in the following example:</p>
+<pre class="code literal-block">
+x = 1
+def f():
+    print x
+    x = x+1
+</pre>
+<p>This used to raise a NameError on the print statement, which confused
+even experienced Python programmers (especially if there are several
+hundreds of lines of code between the reference and the assignment to
+x :-).</p>
+<p>You can now override the 'in' operator by defining a __contains__
+method.  Note that it has its arguments backwards: x in a causes
+a.__contains__(x) to be called.  That's why the name isn't __in__.</p>
+<p>The exception AttributeError will have a more friendly error message,
+e.g.: <tt class="docutils literal">'Spam' instance has no attribute 'eggs'</tt>.  This may
+<strong>break code</strong> that expects the message to be exactly the attribute
+name.</p>
+<p>Vladimir Marangozov designed more rational C APIs for allocating
+memory.  See mymalloc.h.</p>
+</div>
+<div class="section" id="new-modules-in-1-6">
+<h1>New Modules in 1.6</h1>
+<p>UserString - base class for deriving from the string type.</p>
+<p>distutils - tools for distributing Python modules.</p>
+<p>robotparser - parse a robots.txt file, for writing web spiders.
+(Moved from Tools/webchecker/.)</p>
+<p>linuxaudiodev - audio for Linux.</p>
+<p>mmap - treat a file as a memory buffer.  (Windows and Unix.)</p>
+<p>sre - regular expressions (fast, supports unicode).  Currently, this
+code is very rough.  Eventually, the re module will be reimplemented
+using sre (without changes to the re API).</p>
+<p>filecmp - supersedes the old cmp.py and dircmp.py modules.</p>
+<p>tabnanny - check Python sources for tab-width dependance.  (Moved from
+Tools/scripts/.)</p>
+<p>urllib2 - new and improved but incompatible version of urllib (still
+experimental).</p>
+<p>zipfile - read and write zip archives.</p>
+<p>codecs - support for Unicode encoders/decoders.</p>
+<p>unicodedata - provides access to the Unicode 3.0 database.</p>
+<p>_winreg - Windows registry access.</p>
+<p>encodings - package which provides a large set of standard codecs --
+currently only for the new Unicode support. It has a drop-in extension
+mechanism which allows you to add new codecs by simply copying them
+into the encodings package directory. Asian codec support will
+probably be made available as separate distribution package built upon
+this technique and the new distutils package.</p>
+</div>
+<div class="section" id="changed-modules">
+<h1>Changed Modules</h1>
+<p>readline, ConfigParser, cgi, calendar, posix, readline, xmllib, aifc,
+chunk, wave, random, shelve, nntplib - minor enhancements.</p>
+<p>socket, httplib, urllib - optional OpenSSL support (Unix only).</p>
+<p>_tkinter - support for 8.0 up to 8.3.  Support for versions older than
+8.0 has been dropped.</p>
+<p>string - most of this module is deprecated now that strings have
+methods.  This no longer uses the built-in strop module, but takes
+advantage of the new string methods to provide transparent support for
+both Unicode and ordinary strings.</p>
+</div>
+<div class="section" id="changes-on-windows">
+<h1>Changes on Windows</h1>
+<p>The installer no longer runs a separate Tcl/Tk installer; instead, it
+installs the needed Tcl/Tk files directly in the Python directory.  If
+you already have a Tcl/Tk installation, this wastes some disk space
+(about 4 Megs) but avoids problems with conflicting Tcl/Tk
+installations, and makes it much easier for Python to ensure that
+Tcl/Tk can find all its files.  Note: the alpha installers don't
+include the documentation.</p>
+<p>The Windows installer now installs by default in Python16on the
+default volume, instead of Program FilesPython-1.6.</p>
+</div>
+<div class="section" id="changed-tools">
+<h1>Changed Tools</h1>
+<p>IDLE - complete overhaul.  See the <a class="reference external" href="/pythonorg/default/index/idle/">IDLE home page</a> for more information.  (Python 1.6 alpha 1 will come with
+IDLE 0.6.)</p>
+<p>Tools/i18n/pygettext.py - Python equivalent of xgettext(1).  A message
+text extraction tool used for internationalizing applications written
+in Python.</p>
+</div>
+<div class="section" id="obsolete-modules">
+<h1>Obsolete Modules</h1>
+<p>stdwin and everything that uses it.  (Get Python 1.5.2 if you need
+it. :-)</p>
+<p>soundex.  (Skip Montanaro has a version in Python but it won't be
+included in the Python release.)</p>
+<p>cmp, cmpcache, dircmp.  (Replaced by filecmp.)</p>
+<p>dump.  (Use pickle.)</p>
+<p>find.  (Easily coded using os.walk().)</p>
+<p>grep.  (Not very useful as a library module.)</p>
+<p>packmail.  (No longer has any use.)</p>
+<p>poly, zmod.  (These were poor examples at best.)</p>
+<p>strop.  (No longer needed by the string module.)</p>
+<p>util.  (This functionality was long ago built in elsewhere).</p>
+<p>whatsound.  (Use sndhdr.)</p>
+</div>
+<div class="section" id="detailed-changes-from-1-6b1-to-1-6">
+<h1>Detailed Changes from 1.6b1 to 1.6</h1>
+<p>Slight changes to the CNRI license.  A copyright notice has been
+added; the requirement to indicate the nature of modifications now
+applies when making a derivative work available &quot;to others&quot; instead of
+just &quot;to the public&quot;; the version and date are updated.  The new
+license has a new handle.</p>
+<p>Added the Tools/compiler package.  This is a project led by Jeremy
+Hylton to write the Python bytecode generator in Python.</p>
+<p>The function math.rint() is removed.</p>
+<p>In Python.h, &quot;#define _GNU_SOURCE 1&quot; was added.</p>
+<p>Version 0.9.1 of Greg Ward's distutils is included (instead of
+version 0.9).</p>
+<p>A new version of SRE is included.  It is more stable, and more
+compatible with the old RE module.  Non-matching ranges are indicated
+by -1, not None.  (The documentation said None, but the PRE
+implementation used -1; changing to None would break existing code.)</p>
+<p>The winreg module has been renamed to _winreg.  (There are plans for
+a higher-level API called winreg, but this has not yet materialized in
+a form that is acceptable to the experts.)</p>
+<p>The _locale module is enabled by default.</p>
+<p>Fixed the configuration line for the _curses module.</p>
+<p>A few crashes have been fixed, notably &lt;;file&gt;.writelines() with a
+list containing non-string objects would crash, and there were
+situations where a lost SyntaxError could dump core.</p>
+<p>The &lt;;list&gt;.extend() method now accepts an arbitrary sequence
+argument.</p>
+<p>If __str__() or __repr__() returns a Unicode object, this is
+converted to an 8-bit string.</p>
+<p>Unicode string comparisons is no longer aware of UTF-16
+encoding peculiarities; it's a straight 16-bit compare.</p>
+<p>The Windows installer now installs the LICENSE file and no longer
+registers the Python DLL version in the registry (this is no longer
+needed).  It now uses Tcl/Tk 8.3.2.</p>
+<p>A few portability problems have been fixed, in particular a
+compilation error involving socklen_t.</p>
+<p>The PC configuration is slightly friendlier to non-Microsoft
+compilers.</p>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

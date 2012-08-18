@@ -1,0 +1,561 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+December 19, 2011
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 19
+December 2011. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ??? opposed ???
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Reports <#progress-reports>`_- `5.1   Communication Status <#communication-status>`_  - `5.2   Honorary Associate Membership WebPages/Links <#honorary-associate-membership-webpages-links>`_  - `5.3   Marketing Material <#marketing-material>`_  - `5.4   Moving PyPI to Amazon CloudFront <#moving-pypi-to-amazon-cloudfront>`_  - `5.5   PyCon Chair <#pycon-chair>`_  - `5.6   Sprint Committee <#sprint-committee>`_  - `5.7   Trademarks Committee (TMC) <#trademarks-committee-tmc>`_
+
+- `6   2011 - Q4 Community Service Award Nominations <#q4-community-service-award-nominations>`_
+
+- `7   2012 Members Meeting & Election <#members-meeting-election>`_
+
+- `8   Sponsor Membership Application from Epom <#sponsor-membership-application-from-epom>`_
+
+- `9   Archival Storage for PyCon US Videos <#archival-storage-for-pycon-us-videos>`_
+
+- `10   Other Business <#other-business>`_- `10.1   Message of Seasonal Cheer! <#message-of-seasonal-cheer>`_
+
+- `11   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors (9 of ll) were present at
+the meeting: Raymond Hettinger, Steve Holden, Marc-Andre Lemburg [arrived
+at 12:14], Martin von L?wis, David Mertz [arrived at 1:08], Jesse Noller,
+Tim Peters, Jeff Rush, and Gloria Willadsen. Also in attendance were Kurt
+Kaiser (Treasurer) and Pat Campbell (Secretary/Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 21 November 2011 Board meeting minutes were voted on and approved. 
+
+    **RESOLVED**, the minutes at `http://mail.python.org/mailman/private/psf-board <http://mail.python.org/mailman/private/psf-board>`_
+    /2011-November/015898.html be accepted as a true and accurate record
+
+Approved, 6-0-1.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken between meetings.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K.
+Kaiser prior to the Board meeting and produced from Quickbooks Online.
+
+Here is an exerpt from the treasurer's report on a few of the activities
+the treasurer has been focused on:
+
+&quot;YTD income was down by 6K in November. 
+
+    AR is down by 58K due to PyCon 2012 Sponsor invoicing/collection
+    activity, offset by invoicing our PSF Sponsors.
+
+    Donations for the month were $1769.&quot;
+
+Kurt concluded his report with a list of financial business items he will
+be focused on, he said:
+
+&quot;My focus is on the Associate Member program and AR reduction.  I'm also
+looking into fiscal sponsorship issues and working with Python Boston.
+Restricted donations will have to be recognized in the year received
+in accordance with non-profit GAAP.&quot;
+
+Board Meeting Discussion: 
+
+- Holden: &quot;I see our net profit for the year is moving towards $200,000.&quot;
+
+- Kaiser: &quot;Well, not that high, and  won't go higher.&quot;
+
+S. Holden: &quot;It is still a very creditable performance, though. It's nice
+to see past losses being erased, and I am hoping that next year's PyCon will
+bring a boost to that revenue stream.&quot;
+
+- Kaiser: &quot;Yes, thanks to Van [Lindberg] and Jesse [Noller].&quot;
+
+`5   Progress Reports <#id5>`_
+------------------------------
+
+The following board reports were submitted to the board mailing list
+one week prior to this month's meeting. Please see a summary of each
+board report listed below and a possible board discussion at the end
+of the report(s):
+
+`5.1   Communication Status <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Hellmann, Communication Officer, reported on continued activities from
+last month. He said:
+
+    1. Send announcement email about the blog to various mailing lists
+    (c.l.py, c.l.py.announce, etc.).
+
+    *No progress.*
+
+Doug also reported on the new activities for the month. The list of activities
+included the following:
+
+    - PyCon China post by Brian Curtin
+
+        `http://pyfound.blogspot.com/2011/12/first-annual-pycon-china-hit-in.html <http://pyfound.blogspot.com/2011/12/first-annual-pycon-china-hit-in.html>`_
+
+    - Grants for Porting to Python 3 post by Mike Driscoll
+
+        `http://pyfound.blogspot.com/2011/12/psf-proffers-payment-to-port-to-python.html <http://pyfound.blogspot.com/2011/12/psf-proffers-payment-to-port-to-python.html>`_
+
+He reported the following information on the planned activities for next month: 
+
+    Nothing specific.
+
+As far as the ongoing projects for the month are concerned, he reported: 
+
+    - Boston Python Workshop Grant post by Jessica McKellar      `http://pyfound.blogspot.com/2011/11/boston-python-workshop-psf-grant.html  <http://pyfound.blogspot.com/2011/11/boston-python-workshop-psf-grant.html>`_
+
+    - Brian Curtin is working on a post about the video equipment purchased by the PSF and how it has been used to record conference talks and other events.
+
+    - Recruiting other people to help write for the blog.      A few volunteers have expressed interest, but things are getting off to a slow start.  I hope to have some more interesting topics to give them after the August Board meeting.
+
+    - Mike Driscoll is working on a retrospective post summarizing all of the funding we have provided for conferences over the last year. We will wait to publish until closer to the end of 2011.
+
+    - We have initiated a transition plan so Brian Curtin can take over as Communications Director around the time of the next Board elections after PyCon 2012.
+
+For tabled activities, D. Hellmann said: 
+
+    - PyCon video equipment loan/rental program post      There was some discussion of offering the PyCon video equipment to PUGs for their meetings, but the mechanism to do it isn't in place, yet.
+
+`5.2   Honorary Associate Membership WebPages/Links <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+P. Campbell, Honorary Associate Membership (HAM) WebPages Start-up
+Project, reported on the current issues or blockages the project may
+be faced with by saying:
+
+&quot;We have been in the technical phase of the Honorary Associate
+Membership (HAM) Project for some time now. However, we are not too
+far away from recruiting our first PSF Honorary Associate member.
+
+Many technical hurdles have been jumped in order to setup the HAM program
+and we are now beginning to see some movement toward getting the HAM website
+page prepared for membership recruitment and subscriptions.&quot;
+
+As far as the continued activities from last month are concerned, she reported: 
+
+&quot;Since Kurt Kaiser, our treasurer, has been able to devote more time to the
+HAM project implementation and setup, we should be able to set the launch date
+soon. However, Kurt is requesting help toward getting the website content
+together.
+
+Please see the message from Kurt Kaiser?s December 2011 treasurer?s report
+regarding the current status of the technical phase of the HAM program
+implementation and maintenance:
+
+    The text on HAM signup pages is preliminary and needs improvement.
+    I'm looking for help here!
+
+    Continuing work on a front page with Associate Member sign-up
+    information. Decide how to present the HAM Membership to the world,
+    probably via a python.org link.
+
+`5.3   Marketing Material <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M.A.Lemburg, Marketing Material Project Manager, provided a summary
+of his work. He said:
+
+    The project is lead by Marc-Andr? Lemburg who is in contact with
+    the people behind the Plone brochure created by the German Zope
+    User Group (DZUG): Jan Ulrich Hasecke and Armin Stro?-Radschinski.
+
+    We started working on the concept a few weeks after World Plone Day
+    in April 2010 and had several meetings and conference calls to take
+    the idea forward.
+
+    For more details, please see the brochure support site at: 
+
+        `http://brochure.getpython.info/learn-more <http://brochure.getpython.info/learn-more>`_
+
+Marc-Andr? also reported on the progress of this project when he said: 
+
+    In the last month, we ran another round of emails by our leads
+    which resulted in finally getting content from some of them.
+    Interestingly, none of the press offices responded to our
+    requests - I guess the direct approach is still the best to
+    enter larger companies.
+
+    Unfortunately, we did not manage to get content for some
+    of the high profile leads we had - both legal departments
+    and management took too long to come to a conclusion whether
+    to submit a story or not. We will follow up with them for
+    a possible second edition of the brochure.
+
+    Overall, the content collection took about 4 months longer
+    than expected. As a result, we are not going to be able to
+    meet our set deadline of shipping the first edition of the
+    brochure in time for PyCon US 2012 without putting the
+    financials, success and quality of content at risk.
+
+    Instead of shipping the final brochure, we're planing on
+    sending a teaser or flyer for inclusion in the PyCon US
+    conference bag. We hope to ramp up the number of subscription
+    sponsors that way (*).
+
+    As of now, we are working on compressing and finalizing the
+    brochure text, getting texts translated, proof read and
+    formatted for the brochure.
+
+    Armin, our designer and producer, is working on an example
+    double page based on the existing drafts to use in the
+    sponsor acquisition phase, which is due to start as soon
+    as the credit card payment system is set up.
+
+    The latter was delayed due to having to go through three levels
+    of providers/contracts, each with its own set of quirks
+    and problems. Armin expects to have this done early in
+    January.
+
+    These are the available sponsorship plans we have available: 
+
+        `http://brochure.getpython.info/sponsorship <http://brochure.getpython.info/sponsorship>`_
+
+    and here's the media data for the brochure: 
+
+        `http://brochure.getpython.info/mediadata <http://brochure.getpython.info/mediadata>`_
+
+    Esp. the reference entry sponsorships should be interesting for
+    smaller Python companies:
+
+        `http://brochure.getpython.info/mediadata/reference-entry-guidelines <http://brochure.getpython.info/mediadata/reference-entry-guidelines>`_
+
+    (*) Subscription sponsors are sponsors that order boxes of brochures
+    for their own use or to donate to interested parties such as
+    universities, schools, administration, etc. These boxes are
+    produced in addition to the original 10,000 copy edition, we
+    will be printing - due to the way printing works, adding more
+    copies to a single run is comparatively cheap, which allows
+    us to keep the per brochure price low.
+
+M.A Lemberg reported on the current issues the project is faced with.
+He said:
+
+    Even though the deadline for submission of stories for
+    the first edition has already passed, we are still accepting
+    stories. These will then be considered for a possible second
+    edition and also be published on the web site.
+
+    If you know of interesting projects or companies using Python
+    to great things, please contact us and consider signing up as
+    contact scout:
+
+        `http://brochure.getpython.info/signup/contact-scout-signup <http://brochure.getpython.info/signup/contact-scout-signup>`_
+
+    and, if you're interested in the project, please consider signing
+    up to our newsletter:
+
+        `http://brochure.getpython.info/ <http://brochure.getpython.info/>`_
+
+    Thanks !
+
+As far as future plans are concerned, he reported: 
+
+    If the project goes well, we'll follow up with a Python flyer,
+    translated versions of the brochure and also consider creating
+    marketing material more targeted at specific user groups or
+    application fields.
+
+    In the long run, we'd also like to take the idea of producing
+    marketing material beyond printed material and develop booth
+    setups, giveaways, CDs, etc. to support conference organizers and
+    local user groups wishing to promote Python at their events.
+
+`5.4   Moving PyPI to Amazon CloudFront <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The project leader, M.A. Lemburg, Moving PyPI to Amazon CloudFront,
+reported on progress for the month:
+
+&quot;The project is currently on hold, since the team members don't have
+time to put into this.&quot;
+
+In terms of having any issues surrounding his project, M. A.
+Lemburg reported no issues except one: he said, he just does not have
+enough time to devote to his Moving PyPI to Amazon CloudFront project.
+
+- - Lemburg also reported on future plans for the project:
+
+&quot;Check to see whether a trigger based approach to S3 syncing
+wouldn't be easier to implement right from the start.&quot;
+
+`5.5   PyCon Chair <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, PyCon Chair, provided us with information on when and where
+the next two PyCon US conferences will be held, in addition to the web
+location of the official PyCon 2012. Please see below:
+
+PyCon 2012: March 7th ? 15th, Santa Clara, CA
+PyCon 2013: March 11th ? 21st, Santa Clara, CA
+Official Site: `http://us.pycon.org/2012 <http://us.pycon.org/2012>`_
+
+He also provided &quot;notes&quot; for this month. He said: 
+
+    We are officially capping registration at 1500 attendees. The team feels that
+    this is beneficial to the conference as a whole, and allows us to maintain the
+    feel PyCon has grown into. We also feel this will encourage other regional
+    conferences to grow in turn.
+
+    I am working on a draft document to present to the board of directors that
+    clarifies PyCon's position as a key fundraising entity for the Foundation. As
+    the planning and execution of PyCon 2012 has continued, this has become more
+    and more true. More later; some thoughts here:
+    `http://jessenoller.com/2011/09/23/pycon-2012-sponsorship-making-the-case-for-sponsorship/ <http://jessenoller.com/2011/09/23/pycon-2012-sponsorship-making-the-case-for-sponsorship/>`_
+
+For the month of October, Jesse reported on &quot;Issues and blockages.&quot; 
+He said: 
+
+    1. We are still waiting on AV/Recording vendor responses to our request for
+    quotes. This is a concern - I'd like to lock these contracts down quickly, but
+    can not make the bidding parties move more quickly. I have seen partial initial
+    AV bids, but nothing concrete.
+
+As far as the continued activities from last month, he reported: 
+
+    1. Sponsor signup is slowing down - this is no longer a priority issue.
+    Invoicing continues thanks to Kurt's work. We have exceeded our initial
+    sponsorship goals by 200%
+
+    - Financial updates will be sent to the private board list. We now have 77 sponsors.
+
+    3. Registration for the conference and tutorials has officially launched - see:
+    `http://pycon.blogspot.com/2011/12/registration-for-pycon-2012-opened.html <http://pycon.blogspot.com/2011/12/registration-for-pycon-2012-opened.html>`_
+
+    4. Idan Gazit has been tapped to do the artwork for the Program Guide and
+    T-Shirts.
+
+    - Negotiations with Elegant Stitches are ongoing.
+
+    6. The Tutorial committee has completed it's work, and the full schedule has
+    been announced. We have an amazing line up of tutorials thanks to the hard work
+    of the team:
+    `http://pycon.blogspot.com/2011/12/announcing-pycon-2012-tutorials.html <http://pycon.blogspot.com/2011/12/announcing-pycon-2012-tutorials.html>`_
+
+    7. The program committee has wrapped up the talk selection process. The final
+    talk selection and schedule are under way. Looking to announce this ASAP.
+
+    8. We have announced a partnership with PyLadies for PyCon 2012. This means I
+    have increased the financial aid budget for this effort specifically:
+    `http://pyladies.com/blog/call-for-applications-and-sponsors-for-pyladies-pycon-us-2012/ <http://pyladies.com/blog/call-for-applications-and-sponsors-for-pyladies-pycon-us-2012/>`_
+
+    9. Financial aid is up and running as part of registration - due to the
+    increased sponsorship levels, we will be performing a lot more FA/Outreach:
+    `https://us.pycon.org/2012/assistance/ <https://us.pycon.org/2012/assistance/>`_
+
+Jesse also listed the new activities for the month. Please see below: 
+
+    - Get solid quotes on t-shirt costs. [need to follow up]
+
+    - Signed freeman contract.
+
+The last two PyCon US items reported on by Jesse were the activities &quot;planned for
+next month&quot; where he listed five (5) items and included a list of the &quot;current Heads/Staff
+for PyCon 2012.&quot;
+
+    [see above] 
+
+    1. Finalize the main track talk selection, send out acceptance notices.
+    3. Begin organizing the on-site and other volunteer staff.
+    4. Get Startup row announced and launched (call for applications)
+    7. Wrap up plenary talk selection.
+    8. Outreach to all sponsors for required marketing materials.
+
+Current Heads/Staff for PyCon 2012 
+
+    Chair: Jesse Noller
+    Co-Chair: Yannick Gingras
+
+    Accountant/Sponsors: Van Lindberg
+    Event Coordinator: Ewa Jodlowska/CTE
+    Public Relations Lead: Brian Curtin
+
+    Tech Lead: Doug Napoleone
+    Tech Co-Lead: Noah Kantrowtiz
+
+    Volunteer Lead: TBD 
+
+    Program Committee Chair: Jacob Kaplan-Moss
+    Program Committee Co-Chair: Tim Lesher
+
+    Tutorials Chair: Stuart Williams
+    Tutorials Co-Chair: TBD
+
+    Posters Chair: Vern Ceder
+    Posters Co-Chair: Zac Miller
+
+    Financial Aide Chair: Peter Kropf
+    Financial Aide Co-Chair: Gloria W.
+
+However, under &quot;tabled activities,&quot; he provided the following: 
+
+    None
+
+Board Meeting Discussion: 
+
+- Rush: &quot;Do we have AV [audio/video] bids yet?&quot;
+
+J. Noller: &quot;As it said in my report - No - although as of the end of last
+week we are zeroing in on the bids.&quot;
+
+`5.6   Sprint Committee <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, Sprint Committee Chair, provided a summary of activities for
+this month, he reported:
+
+    No new sprint activity this month outside of catching up on the
+    backlog of reimbursements.
+    We were notified that our poster proposal to the PyCon US &quot;poster
+    session&quot; was accepted.
+
+As far as the continued activities from last month, he reported: 
+
+    None
+
+On his report of the new activities for the month, J. Noller said: 
+
+    Submitted reimbursement details for the Plone Conference sprints to
+    Kurt and are awaiting fulfillment. The repayment details are slightly
+    different than we normally receive, but they seem workable.
+
+`5.7   Trademarks Committee (TMC) <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Mertz, Trademarks Committee Chair, reported on issues & blockages for
+the month. He said:
+
+    - Probably moot by now, but never a formal answer from PSF counsel several times about whether assignment of derived logos to the PSF might allow us to grant broader permission (for what would then, hypothetically) be PSF trademarks.
+
+As far as reporting on new activities, however, he provided the following
+list of items:
+
+    - Mid December: Esri Press is currently developing a manuscript, Python Scripting for ArcGIS.  They asked permission for a book cover design that I, as chair, initially thought was &quot;inspired but not derived&quot; from out logo. However, the opinion of other members was that it was a derived logo; I responded to Brian Harris <;`bharris@esri.com <mailto:bharris%40esri.com>`_> with a request that they use an alternate cover design not suggesting logo (which he indicated they had created; though we have not seen it).
+
+    - Mid December: Jack Preston <;`jackprestonuk@gmail.com <mailto:jackprestonuk%40gmail.com>`_> requested use of logo and Python code sample as design on coffee mugs for same at Zazzle.co.uk.  We authorized unmodified logo use but requested he consider donation part of proceeds to PSF.
+
+    - Late November: Approved Perry Leijten <;`perryleijten@gmail.com <mailto:perryleijten%40gmail.com>`_> to use &quot;3D&quot; version of logo to illustrate personal website illustrating Python in Maya.
+
+    - Early December: Devi thirupathi <;`tdevi5@gmail.com <mailto:tdevi5%40gmail.com>`_> requested use of Python logo and name for an academic conference on Python.  We clarified that his use was nominative.
+
+    - Late November: Continued clarification with Adam Mechtley <;`adam.mechtley@gmail.com <mailto:adam.mechtley%40gmail.com>`_> on his revised cover design for Maya Python book and website.  Modified versions maintain shape suitably.
+
+    - Late October: &quot;Dr. Markus Wirtz&quot; <;`mw@opensourcepress.de <mailto:mw%40opensourcepress.de>`_> requested use of logo on book *PyQt and PySide* and we clarified that the proposed use was fine. The logo used some coloration change, but the shape is maintained.
+
+    - Late October: Clarified for Christophe BAL <;`projetmbc@gmail.com <mailto:projetmbc%40gmail.com>`_> that the logo in isolation, apart from the word mark, was covered in our nominative use policy.
+
+    - Mid October: Clarified for ?ric Araujo <;`merwok@netwok.org <mailto:merwok%40netwok.org>`_> that use of unmodified logo in incorporation into an &quot;avatar&quot; logo is covered in nominative use.
+
+    - Early October: Clarified for John Anderson <;`sontek@gmail.com <mailto:sontek%40gmail.com>`_> of Cafe Press that unmodified use of logo in clothing items is covered in nominative use.
+
+    - Early October: Clarified for Kami Lott <;`kami@github.com <mailto:kami%40github.com>`_> on unmodified use of logo in clothing being covered in nominative use.
+
+    - Early October: Clarified for Aidan Hartman <;`aidan@datapro.net <mailto:aidan%40datapro.net>`_> that he was permitted to use &quot;Python Powered&quot; logo on personal website.
+
+    - Late September: Authorized Bruno Rocha <;`rochacbruno@gmail.com <mailto:rochacbruno%40gmail.com>`_> of www.cursodepython.com.br to use unmodified logo in clothing items.
+
+He also reported on &quot;ongoing projects.&quot; He said: 
+
+    - Need to write to `http://www.pylatte.org/ <http://www.pylatte.org/>`_ to express concern what looks like an improper modified version of the logo.
+
+    - Never really resolved preference of submitted logos for Python sponsor levels, should really finally decide this.
+
+Board Meeting Discussion: 
+
+S. Holden: &quot;We are getting more tradesmark inquiries nowadays, and they are
+being dealt with with reasonable despatch, I think. I was worried though
+whether we can have better tracking for tradesmark requests.&quot;
+
+M.v L?wis: &quot;i.e. somehow make sure that they all get responded to. Pat [Campbell,
+Administrator], is that something that you could take?&quot;
+
+S. Holden: &quot;Such as a tracking system? We could do that if David [Mertz, TMC
+Chair] will accept it into his workflow, I suppose.&quot;
+
+- Campbell: &quot;It sounds good to me.&quot;
+
+The above TMC discussion was deferred to email.
+
+`6   2011 - Q4 Community Service Award Nominations <#id13>`_
+------------------------------------------------------------
+
+The board discussed and then selected Mike M?ller and Armin Rigo
+as the recipients of the 2011-4th Quarter PSF Community Service Award.
+
+    **RESOLVED**, that Mike M?ller and Armin Rigo be given Python
+    Community Service Awards for 2011-4th Quarter.
+
+Approved, 8-0-0.
+
+`7   2012 Members Meeting & Election <#id14>`_
+--------------------------------------------------
+
+Planning is underway for the 2012 Members meeting that will take place at
+PyCon 2012 in Santa Clara, California and also the 2012 members election
+which will take place online two weeks following the members meeting.
+
+This discussion was primarily guided by the PSF secretary and was deferred
+to email.
+
+`8   Sponsor Membership Application from Epom <#id15>`_
+-------------------------------------------------------
+
+Due to an incomplete application package from Epom, the board
+decided to table this agenda item and hold-off voting until the
+2012 January board meeting. This decision was made in order to
+give Epom enough time to get the remainder of their membership
+application paperwork into the board for a timely board review
+of the company.
+
+`9   Archival Storage for PyCon US Videos <#id16>`_
+---------------------------------------------------
+
+The board discussed PyCon US need of funding for storage of their
+video archives. However, due to a lack of information about the type
+of storage needed for the project and the cost, this agenda item was
+tabled. Board members will resume this discussion and vote at a later
+date when more information is available.
+
+`10   Other Business <#id17>`_
+------------------------------
+
+`10.1   Message of Seasonal Cheer! <#id18>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Towards the end of the meeting the chairman (S. Holden) wished everyone
+a &quot;Happy Christmas and whatever other festivals you celebrate.&quot;
+
+`11   Adjournment <#id19>`_
+---------------------------
+
+- Holden adjourned the meeting at 17:10 UTC.

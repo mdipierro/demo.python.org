@@ -1,0 +1,434 @@
+The Python Software Foundation 
+
+Minutes of the 2007 Members' Meeting 
+
+February 23, 2007
+
+The Python Software Foundation (the &quot;PSF&quot;) held its annual members'
+meeting on February 23, 2007 at 19:00 CST (01:00 UTC) in the Marriott
+Quorum Hotel in Dallas/Addison, Texas, USA (PyCon TX 2007).  The
+`agenda is available here <agenda/>`_.  Stephan Deibel presided over
+the meeting.  David Goodger prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Election of Nominated Members <#election-of-nominated-members>`_
+
+- `3   Election of Sponsor Members <#election-of-sponsor-members>`_
+
+- `4   Review of the Year <#review-of-the-year>`_- `4.1   Financial Report <#financial-report>`_  - `4.2   Infrastructure Committee <#infrastructure-committee>`_  - `4.3   Conference Committee <#conference-committee>`_  - `4.4   Advocacy Coordinator <#advocacy-coordinator>`_  - `4.5   Secretary <#secretary>`_
+
+- `5   Motion to Increase the Maximum Number of Directors <#motion-to-increase-the-maximum-number-of-directors>`_
+
+- `6   Election of a New Board of Directors <#election-of-a-new-board-of-directors>`_
+
+- `7   PSF Budget and Action Plan <#psf-budget-and-action-plan>`_
+
+- `8   Google Summer of Code <#google-summer-of-code>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members were present at the meeting: 
+
+- Advanced Simulation Technology Inc., represented by Andrew Kuchling
+
+- David M. Beazley
+
+- Brett Cannon
+
+- CCP Games, represented by Kristj?n Valur J?nsson
+
+- Andrew Dalke
+
+- Stephan Deibel
+
+- Jeff Elkner
+
+- Enthought, represented by Travis Vaught
+
+- Jim Fulton
+
+- David Goodger
+
+- Raymond Hettinger
+
+- Steve Holden
+
+- Michael Hudson
+
+- Jeremy Hylton
+
+- Eric Jones
+
+- Richard Jones
+
+- Andrew Kuchling
+
+- Merfin LLC, represented by Reggie Dugard
+
+- Anna Martelli Ravenscroft
+
+- Gustavo Niemeyer
+
+- Neal Norwitz
+
+- Travis Oliphant
+
+- Guido van Rossum
+
+- Christian Tismer
+
+- Barry Warsaw
+
+- Thomas Wouters
+
+- Ka-Ping Yee
+
+- Moshe Zadka
+
+- ZeOmega, represented by Brad Allen
+
+- Zope Corporation, represented by Jim Fulton
+
+The following members were represented by proxy (in parentheses): 
+
+- ActiveState, represented by David Ascher (Brett Cannon)
+
+- David Ascher (Brett Cannon)
+
+- Anthony Baxter (Richard Jones)
+
+- Georg Brandl (Brett Cannon)
+
+- Matthew Dixon Cowles (Stephan Deibel)
+
+- Walter D?rwald (Brett Cannon)
+
+- Paul F. Dubois (Brett Cannon)
+
+- Paul Everitt (Barry Warsaw)
+
+- Google, represented by Chris DiBona (Guido van Rossum)
+
+- Thomas Heller (Michael Hudson)
+
+- Neil Hodgson (Stephan Deibel)
+
+- Hostway, represented by Jason Abate (Barry Warsaw)
+
+- Jim Hugunin (Jeremy Hylton)
+
+- Jack Jansen (Barry Warsaw)
+
+- Kurt B. Kaiser (Neal Norwitz)
+
+- Cameron Laird (Barry Warsaw)
+
+- Marc-Andr? Lemburg (David Goodger)
+
+- Martin von L?wis (Barry Warsaw)
+
+- Ken Manheimer (Barry Warsaw)
+
+- Alex Martelli (Anna Martelli Ravenscroft)
+
+- Open Source Applications Foundation, represented by Ted Leung (Stephan Deibel)
+
+- Samuele Pedroni (Michael Hudson)
+
+- Tim Peters (Barry Warsaw)
+
+- Armin Rigo (Michael Hudson)
+
+- Vinay Sajip (Richard Jones)
+
+- Peter Schneider-Kamp (Barry Warsaw)
+
+- Strakt Holdings, represented by Laura Creighton (Michael Hudson)
+
+- Jason Tishler (Neal Norwitz)
+
+The following members voted by absentee ballot: 
+
+- Neil Schemenauer
+
+- Brian Zimmer
+
+60 members were in attendance, represented by proxy, or voted by
+absentee ballot, constituting a quorum according to the Bylaws.
+
+The following were also present, initially as observers: 
+
+- Steve Alexander, representing Canonical
+
+- Steven Bethard
+
+- Catherine Devlin
+
+- Runar Petersson, representing Madison Tyler LLC
+
+- Sean Reifschneider
+
+- James Tauber
+
+`2   Election of Nominated Members <#id2>`_
+-------------------------------------------
+
+The observers were asked to leave the meeting during discussion.  The
+following topics were discussed:
+
+- What are the requirements for membership?  Past and expected future contributions to the Python codebase and to the Python community; visibility in the community; attitude toward Python's IP.     The existence of the new `Membership FAQ </psf/membership/>`_ was pointed out.     Nomination should not merely be a reflection of appreciation.
+
+- Emeritus membership.
+
+- New category of membership to show appreciation: associate member? The consensus was no; appreciation should be shown on the website.
+
+After discussion, all proposed nominated members were elected (vote
+counts in parentheses, for-against-abstain):
+
+- Steven Bethard (47-3-9)
+
+- Nick Coghlan (55-0-4)
+
+- Laura Creighton (55-3-1)
+
+- Catherine Devlin (40-3-16)
+
+- Doug Napoleone (38-3-18)
+
+- Sean Reifschneider (58-0-1)
+
+- Jeff Rush (56-0-3)
+
+After the vote, the observers were invited back into the meeting;
+Runar Petersson did not return to the meeting.  Pizza was consumed
+while the ballots were counted.  Ballots (for the remainder of the
+votes) were issued to the three new members present: Steven Bethard,
+Catherine Devlin, and Sean Reifschneider.
+
+`3   Election of Sponsor Members <#id3>`_
+-----------------------------------------
+
+The Board had already approved the pending sponsor members listed
+below.  Each candidate was discussed.  In future, candidates for
+sponsor membership should be asked for a paragraph describing their
+reasons for wanting to join the PSF.
+
+After discussion, all proposed sponsor members were elected (vote
+counts in parentheses):
+
+- Canonical (62-0-1)
+
+- cPacket Networks (48-1-14)
+
+- Madison Tyler LLC (57-0-6)
+
+- Microsoft (57-4-2)
+
+- Tabblo (57-0-6)
+
+After the vote, ballots (for the remainder of the votes) were issued
+to representatives of the two new sponsor members present: Steve
+Alexander (Canonical) and Raymond Hettinger (Madison Tyler LLC).
+
+`4   Review of the Year <#id4>`_
+--------------------------------
+
+`4.1   Financial Report <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Kurt Kaiser sent the 2006 financial report by email, which was
+reviewed.  Summary:
+
+**MISSING**
+Total Assets   $289,419
+
+Total Liabilities   $177
+
+Total Revenue   $180,188
+
+Total Expenses   $158,284
+
+Net Income   $21,904
+
+`4.2   Infrastructure Committee <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Brett Cannon summarized the choice of a new bug tracker for Python
+development (Roundup) and the current status:
+
+    The tracker is almost ready.  We can get our data out of SF
+    without issue and load it into our Roundup instance.  At this
+    point we are doing minor detail work on settings and such.  After
+    a reasonable amount of time following the release of 2.5.1 we will
+    make the transition.
+
+`4.3   Conference Committee <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Andrew Kuchling summarized PyCon 2006 and 2007: about 410 attendees in
+2006, about 590 in 2007.  We had a $19,000 profit from PyCon in 2006,
+and expect a profit for 2007 as well.  There was a $6000 travel grant
+(financial aid) supplementary budget from the PSF in 2006, $7000 in
+2007 but part of the PyCon budget.  We got to a late start with
+sponsors for 2007, but many sponsors contacted us, and we have had
+excellent results.
+
+Ideas & comments that arose during the discussion: 
+
+- Thomas Wouters: Should we have a lower fee, and take a loss?
+
+- Travis Vaught: Spend more on financial aid / scholarships?
+
+- Steve Holden: Increase sponsorship fees?
+
+- Ka-Ping Yee: Lower the student rate?
+
+- David Goodger: The financial aid program should start earlier, and end prior to the end of early-bird registration.
+
+- Neal Norwitz: We should mention financial aid in the call for proposals.
+
+- Moshe Zadka: Free registration for speakers?
+
+- Sean Reifschneider: Registration optional for speakers?  &quot;I would like to pay my registration.&quot;
+
+- Ka-Ping Yee: Encourage speakers even if they can't afford to attend.
+
+- Thomas Wouters: Volunteers could get free registration.
+
+- David Goodger: An idea from linux.conf.au: have a corporate rate (purely voluntary)?
+
+- Steve Holden: The registration form could have an option like &quot;I would like to fund another attendee's registration&quot;.
+
+`4.4   Advocacy Coordinator <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jeff Rush, the Python Advocacy Coordinator, sent a status report to
+the PSF Board, which was then forwarded to the PSF-members list.
+Andrew Kuchling summarized the status report which was then discussed:
+
+- Neal Norwitz: The PSF overviewers [himself and Stephan Deibel] didn't provide much direction.
+
+- Stephan Deibel: There was a failure of direction/supervision.
+
+- David Goodger: The result was positive & worthwhile though.
+
+- Moshe Zadka: There should be a stronger commitment for supervision.
+
+- Jeremy Hylton: I'm not interested in advocacy.  Perhaps pay for a PyCon coordinator and/or a user group coordinator instead?
+
+- Brad Allen: Emphasize infrastructure & user group support?  Send the coordinator to user groups?  That may be a better use of their time.
+
+- Michael Hudson: EuroPython could use help too.
+
+In his report Jeff Rush admits to spending an increasingly larger
+portion of his efforts on PyCon instead of on pure Python advocacy.
+As PyCon co-Chair, the temptation was too great.  However, the
+consensus was that Jeff has done a lot for PyCon and for Python
+through PyCon, and Jeff deserves significant credit for the large
+increase in attendees and the success of Pycon 2007.  The members were
+in favor of renewing Jeff's contract.
+
+`4.5   Secretary <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+David Goodger reported that he is proceeding to get the PSF's paper &
+electronic records under control.  He will be scanning all the PSF's
+paper records into a repository and filling in gaps in our records.
+
+`5   Motion to Increase the Maximum Number of Directors <#id10>`_
+-----------------------------------------------------------------
+
+From the `agenda <agenda/>`_: 
+
+    A call for nominations of PSF directors was issued, to the
+    PSF-members list, to other lists, and to `the PSF blog <http://pyfound.blogspot.com/2006/12/call-for-nominations-of-psf-directors.html>`_.
+    We had a good response, with 4 new candidates stepping forward, in
+    addition to the 8 incumbents.  We have a total of 12 candidates
+    for Director this year, but currently the Board is limited to 8
+    Directors.  As Tim Peters put it, &quot;the bigger the board, the more
+    gets done.&quot;
+
+    This motion aims to increase the limit on the number of Directors
+    going forward.  We learned in the past that it's better to expand
+    the Board than to miss out on offers of help.  This does *not*
+    mean that all candidates for Director will automatically be
+    elected; this year's Directors will be decided in the election
+    below.
+
+There was much discussion and controversy.  Guido van Rossum noted
+that the PSF's activities are not, by definition, work for the Board.
+David Goodger noted that other than the incumbent Directors, no PSF
+members stepped forward as candidates for Director.
+
+The following motion was put to a vote: 
+
+    **WHEREAS** it is recognized that it is beneficial to the
+    Foundation to have a large number of active Directors, be it
+
+    **RESOLVED**, that the PSF Board be increased to twelve (12)
+    Directors.
+
+The motion failed to pass: 27 for, 31 against, 3 abstentions.
+
+`6   Election of a New Board of Directors <#id11>`_
+---------------------------------------------------
+
+There were 12 candidates for 8 board positions.  There was some
+discussion of the voting procedures.  One idea: next year, have only
+&quot;yes&quot; votes, no &quot;no&quot; votes, and the top-voted candidates are elected.
+
+The vote results are in parentheses: 
+
+- David Turvene (2-26-34)
+
+- Andy Todd (3-26-33)
+
+- James Tauber (16-16-30)
+
+- Mark Summerfield (1-26-35)
+
+- Tim Peters * (62-0-0)
+
+- Martin von L?wis * (59-1-2)
+
+- Andrew Kuchling * (60-0-2)
+
+- Steve Holden * (61-1-0)
+
+- David Goodger * (61-0-1)
+
+- Stephan Deibel * (60-0-2)
+
+- Brett Cannon * (59-0-3)
+
+- David Ascher * (55-3-4)
+
+The 8 incumbent Directors (marked by asterisks above) were re-elected
+to the PSF Board.
+
+`7   PSF Budget and Action Plan <#id12>`_
+-----------------------------------------
+
+David Goodger briefly described the budget & action plan he sent to
+the PSF-members mailing list, but due to the late hour, he moved that
+further discussion be deferred.  The motion was enthusiastically
+received, seconded, and passed without discussion.
+
+`8   Google Summer of Code <#id13>`_
+------------------------------------
+
+There was a brief discussion on the Google Summer of Code, such as
+non-core projects being directly supported by the PSF.  Further
+discussion was deferred, including the appointment of an administrator
+for the PSF projects.
+
+`9   Adjournment <#id14>`_
+--------------------------
+
+Stephan Deibel adjourned the meeting at around 22:00 CST.

@@ -1,0 +1,1083 @@
+What's New in Python 2.1.3?
+Release date: 08-April-2002
+===========================
+
+Core
+
+- Fixed two bugs reported as SF #535905: under certain conditions,
+  deallocating a deeply nested structure could cause a segfault in the
+  garbage collector, due to interaction with the "trashcan" code;
+  access to the current frame during destruction of a local variable
+  could access a pointer to freed memory.
+
+- SF #457466: popenx() argument mangling hangs python (win9x only).
+  Under certain circumstances, using any of the popen calls on win9x
+  would cause python to hang.
+
+Library
+
+- The xml.sax.expatreader.ExpatParser class will no longer create
+  circular references by using itself as the locator that gets passed
+  to the content handler implementation.  [SF bug #535474]
+
+- A security hole ("double free") was found in zlib-1.1.3, a popular
+  third party compression library used by some Python modules.  The
+  hole was quickly plugged in zlib-1.1.4, and the Windows build of
+  Python now ships with zlib-1.1.4.
+
+Windows
+
+- The installer now installs Start menu shortcuts under (the local
+  equivalent of) "All Users" when doing an Admin install.
+
+- If you do what it takes to compile SSL support for Windows, a bug in
+  httplib.py prevented SSL from working correctly.  That bug has been
+  fixed, but note that SSL support on Windows is still not enabled in
+  this release.
+
+
+What's New in Python 2.1.2 (final)?
+===================================
+
+Changes in metadata:
+
+- Fixed the version numbers in the LICENSE, and the copyright date in
+  numerous places.
+
+- Fixed the instructions (in Doc/lib/libposix.tex) for building with
+  Large Filesystem Support (LFS).
+
+- Added GetArgv() docs in Mac UI chapter.
+
+- Some fixes to the Misc/NEWS file (e.g. the note about the new 32-bit
+  installer wasn't in the 2.1.2c1 release).
+
+One code change:
+
+- Backported a bugfix for importdl.c, SF patch #471839: Bug when
+  extensions import extensions.
+
+
+What's New in Python 2.1.2 (rc1)?
+=================================
+
+- The 32-bit Windows installer (new for 2.2) is now used for 2.1.2
+  too.  This works much better on Windows 2000 and XP, especially
+  if you don't have Administrator privileges.
+
+- The socket object gained a new method, 'sendall()'. This method
+  is guaranteed to send all data - this is not guaranteed by the
+  'send()' method. See also SF patch #474307. The standard library
+  has been updated to use this method where appropriate.
+
+Many bugs were fixed. The following is a list of some of the major or
+notable fixes:
+
+- Fix for incorrectly swapped arguments to PyFrame_BlockSetup in ceval.c.
+  This bug could cause python to crash. It was related to using a 'continue'
+  inside a 'try' block.
+
+- SF bug #422004: Py_Initialise fix that allows reload(exceptions) to
+  work - this is apparently very important for embedded python working
+  with multiple interpreters.
+
+- SF patch #500401: webbrowser: tightened up the command passed to
+  os.system() so that arbitrary shell code can't be executed because a
+  bogus URL was passed in.
+
+- The Python compiler package was updated to correctly calculate stack
+  depth in some cases. This was affecting Zope Python Scripts rather badly.
+
+- Largefile support was added (but not on by default, you'll need to follow
+  the instructions in the documentation of the posix module).
+
+- SF bug #443120: Fix a cgi.py denial-of-service attack,
+
+- socketmodule's SSL_read and SSL_write now release the global interpreter
+  lock.
+
+- threading uses the PTHREAD_SCOPE_SYSTEM attribute where available.
+  This should remove the need to add tiny sleeps at the start of threads
+  to allow other threads to be scheduled.
+
+- Lib/asyncore is now more defensive in select()
+
+- Lib/dumbdbm is now merely dumb, rather than terminally broken.
+
+- SF bug #441712: more liberal handling of ftp servers' 227 responses
+  (don't require parentheses).
+
+- SF bug #440693: make sure zip files use "/" as directory separator.
+
+- If 'unittest.py' was run from the command line with the name of a test
+  case class as a parameter, it failed with an ugly error.
+
+- SF bug #231249: cgi.py opens too many (temporary) files.
+
+- Lib/CGIHTTPServer.py supports binary data on Windows.
+
+- base64.encodestring/decodestring are much faster.
+
+- SF bug #471928: global made w/nested list comprehensions
+
+- SF patch #422106: fix segmentation fault in sys.displayhook
+
+- SF bug 476129: gc.collect sometimes hangs
+
+- SF bug #448351: select.select() puts FDs on the heap where needed.
+
+
+What's New in Python 2.1.1 (final) ?
+==============================
+
+- The following bugs were fixed:
+
+    [ #441664 ] Python crash on del of a slice of a mmap
+    [ #438050 ] configure doesn't look for poll.h in sys
+    [ #437487 ] 2.1 build on Solaris fails if CC is set
+    [ #441527 ] unixccompiler preprocessor broken
+
+
+What's New in Python 2.1.1c1 ?
+==============================
+
+- Python 2.1.1 comes with the new, GPL-compatible PSF licence.
+
+- Several insecurities in dict comparison as well as a scoping bug,
+  that could lead to the Python interpreter crashing were fixed.
+
+- Python should compile and run out of the box using the Borland C
+  compiler (under Windows), thanks to Stephen Hansen.
+
+- A large number of bugs was fixed, both in code and in the
+  documentation, including (but not limited to) the following
+  bugreports from SourceForge:
+
+    [ #416530 ] No notes for building on Mac OS X 10.0
+    [ #416573 ] makesockaddr() AF_UNIX ignores sun_len
+    [ #417030 ] print '%*s' fails for unicode string
+    [ #417093 ] Case sensitive import: dir and .py file w/ same name
+    [ #417418 ] Python 2.1 compile error on HPUX
+    [ #417587 ] compiler warnings compiling 2.1
+    [ #417845 ] Python 2.1: SocketServer.ThreadingMixIn
+    [ #417943 ] xreadlines documented twice for file obj
+    [ #418296 ] WinMain.c should use WIN32_LEAN_AND_MEAN.
+    [ #418615 ] regular expression bug in pipes.py.
+    [ #418977 ] Access Violation in PyCell_Set
+    [ #419434 ] Tutorial contains wrong sample code.
+    [ #419873 ] ThreadingTCPServer invalidating sockets
+    [ #420216 ] bad links in v2.1 docs
+    [ #420230 ] fileinput deletes backups without warnin
+    [ #420343 ] SystemError from tuple() builtin
+    [ #420399 ] wrong HTML ("trademark" symbols?)
+    [ #421999 ] wrong priority doc for ** vs unary -
+    [ #422108 ] Error in rich comparisons
+    [ #422121 ] Insecurities in dict comparison
+    [ #422702 ] dbhash.open default
+    [ #423087 ] A small typo in weakref documentation
+    [ #423429 ] very minor nit in library ref
+    [ #424776 ] SMTP Example does not work
+    [ #424951 ] ThreadingTCPServer file handle errors.
+    [ #425320 ] Typo in introduction.
+    [ #427698 ] objects with __eq__ are not hashable
+    [ #427783 ] Lang Ref section 4.1 s/is/in/
+    [ #427985 ] optional "listen" parameter in asyncore
+    [ #428419 ] include/rangeobject.h needs extern "C"
+    [ #429059 ] No docs for os.getenv()
+    [ #429070 ] Thread.getDaemon()should be isDaemon()
+    [ #429361 ] popen2.Popen3.wait() exit code
+    [ #429554 ] PyList_SET_ITEM documentation omission
+    [ #430627 ] Fixes for templates/module.tex file
+    [ #430991 ] wrong co_lnotab
+    [ #431772 ] traceback.print_exc() causes traceback
+    [ #432369 ] ConfigParser: problem w/ mixed-case opts
+    [ #433228 ] repr(list) woes when len(list) big
+    [ #433904 ] rexec: all s_* methods return None only
+    [ #434186 ] 0x80000000/2 != 0x80000000>>1
+    [ #434975 ] Typo on Posix Large File Support page
+    [ #435066 ] PyObject_ClearWeakRefs misdocumented
+    [ #436525 ] Wrong macro name
+    [ #437041 ] strfime %Z isn't an RFC 822 timezone
+    [ #437879 ] SocketServer.py related problems
+    [ #438032 ] Documentation errors in module "profile"
+    [ #439012 ] Need doc: initial state of allocs
+    [ #439104 ] Tuple richcompares has code-typo
+    [ #439798 ] Nested scopes core dump
+    [ #439823 ] poll docs should mention timeout unit
+    [ #440037 ] C API descriptions not complete/consistent
+
+
+What's New in Python 2.1 (final)?
+=================================
+
+We only changed a few things since the last release candidate, all in
+Python library code:
+
+- A bug in the locale module was fixed that affected locales which
+  define no grouping for numeric formatting.
+
+- A few bugs in the weakref module's implementations of weak
+  dictionaries (WeakValueDictionary and WeakKeyDictionary) were fixed,
+  and the test suite was updated to check for these bugs.
+
+- An old bug in the os.path.walk() function (introduced in Python
+  2.0!) was fixed: a non-existent file would cause an exception
+  instead of being ignored.
+
+- Fixed a few bugs in the new symtable module found by Neil Norwitz's
+  PyChecker.
+
+
+What's New in Python 2.1c2?
+===========================
+
+A flurry of small changes, and one showstopper fixed in the nick of
+time made it necessary to release another release candidate.  The list
+here is the *complete* list of patches (except version updates):
+
+Core
+
+- Tim discovered a nasty bug in the dictionary code, caused by
+  PyDict_Next() calling dict_resize(), and the GC code's use of
+  PyDict_Next() violating an assumption in dict_items().  This was
+  fixed with considerable amounts of band-aid, but the net effect is a
+  saner and more robust implementation.
+
+- Made a bunch of symbols static that were accidentally global.
+
+Build and Ports
+
+- The setup.py script didn't check for a new enough version of zlib
+  (1.1.3 is needed).  Now it does.
+
+- Changed "make clean" target to also remove shared libraries.
+
+- Added a more general warning about the SGI Irix optimizer to README.
+
+Library
+
+- Fix a bug in urllib.basejoin("http://host", "../file.html") which
+  omitted the slash between host and file.html.
+
+- The mailbox module's _Mailbox class contained a completely broken
+  and undocumented seek() method.  Ripped it out.
+
+- Fixed a bunch of typos in various library modules (urllib2, smtpd,
+  sgmllib, netrc, chunk) found by Neil Norwitz's PyChecker.
+
+- Fixed a few last-minute bugs in unittest.
+
+Extensions
+
+- Reverted the patch to the OpenSSL code in socketmodule.c to support
+  RAND_status() and the EGD, and the subsequent patch that tried to
+  fix it for pre-0.9.5 versions; the problem with the patch is that on
+  some systems it issues a warning whenever socket is imported, and
+  that's unacceptable.
+
+Tests
+
+- Fixed the pickle tests to work with "import test.test_pickle".
+
+- Tweaked test_locale.py to actually run the test Windows.
+
+- In distutils/archive_util.py, call zipfile.ZipFile() with mode "w",
+  not "wb" (which is not a valid mode at all).
+
+- Fix pstats browser crashes.  Import readline if it exists to make
+  the user interface nicer.
+
+- Add "import thread" to the top of test modules that import the
+  threading module (test_asynchat and test_threadedtempfile).  This
+  prevents test failures caused by a broken threading module resulting
+  from a previously caught failed import.
+
+- Changed test_asynchat.py to set the SO_REUSEADDR option; this was
+  needed on some platforms (e.g. Solaris 8) when the tests are run
+  twice in succession.
+
+- Skip rather than fail test_sunaudiodev if no audio device is found.
+
+
+What's New in Python 2.1c1?
+===========================
+
+This list was significantly updated when 2.1c2 was released; the 2.1c1
+release didn't mention most changes that were actually part of 2.1c1:
+
+Legal
+
+- Copyright was assigned to the Python Software Foundation (PSF) and a
+  PSF license (very similar to the CNRI license) was added.
+
+- The CNRI copyright notice was updated to include 2001.
+
+Core
+
+- After a public outcry, assignment to __debug__ is no longer illegal;
+  instead, a warning is issued.  It will become illegal in 2.2.
+
+- Fixed a core dump with "%#x" % 0, and changed the semantics so that
+  "%#x" now always prepends "0x", even if the value is zero.
+
+- Fixed some nits in the bytecode compiler.
+
+- Fixed core dumps when calling certain kinds of non-functions.
+
+- Fixed various core dumps caused by reference count bugs.
+
+Build and Ports
+
+- Use INSTALL_SCRIPT to install script files.
+
+- New port: SCO Unixware 7, by Billy G. Allie.
+
+- Updated RISCOS port.
+
+- Updated BeOS port and notes.
+
+- Various other porting problems resolved.
+
+Library
+
+- The TERMIOS and SOCKET modules are now truly obsolete and
+  unnecessary.  Their symbols are incorporated in the termios and
+  socket modules.
+
+- Fixed some 64-bit bugs in pickle, cPickle, and struct, and added
+  better tests for pickling.
+
+- threading: make Condition.wait() robust against KeyboardInterrupt.
+
+- zipfile: add support to zipfile to support opening an archive
+  represented by an open file rather than a file name.  Fix bug where
+  the archive was not properly closed.  Fixed a bug in this bugfix
+  where flush() was called for a read-only file.
+
+- imputil: added an uninstall() method to the ImportManager.
+
+- Canvas: fixed bugs in lower() and tkraise() methods.
+
+- SocketServer: API change (added overridable close_request() method)
+  so that the TCP server can explicitly close the request.
+
+- pstats: Eric Raymond added a simple interactive statistics browser,
+  invoked when the module is run as a script.
+
+- locale: fixed a problem in format().
+
+- webbrowser: made it work when the BROWSER environment variable has a
+  value like "/usr/bin/netscape".  Made it auto-detect Konqueror for
+  KDE 2.  Fixed some other nits.
+
+- unittest: changes to allow using a different exception than
+  AssertionError, and added a few more function aliases.  Some other
+  small changes.
+
+- urllib, urllib2: fixed redirect problems and a coupleof other nits.
+
+- asynchat: fixed a critical bug in asynchat that slipped through the
+  2.1b2 release.  Fixed another rare bug.
+
+- Fix some unqualified except: clauses (always a bad code example).
+
+XML
+
+- pyexpat: new API get_version_string().
+
+- Fixed some minidom bugs.
+
+Extensions
+
+- Fixed a core dump in _weakref.  Removed the weakref.mapping()
+  function (it adds nothing to the API).
+
+- Rationalized the use of header files in the readline module, to make
+  it compile (albeit with some warnings) with the very recent readline
+  4.2, without breaking for earlier versions.
+
+- Hopefully fixed a buffering problem in linuxaudiodev.
+
+- Attempted a fix to make the OpenSSL support in the socket module
+  work again with pre-0.9.5 versions of OpenSSL.
+
+Tests
+
+- Added a test case for asynchat and asyncore.
+
+- Removed coupling between tests where one test failing could break
+  another.
+
+Tools
+
+- Ping added an interactive help browser to pydoc, fixed some nits
+  in the rest of the pydoc code, and added some features to his
+  inspect module.
+
+- An updated python-mode.el version 4.1 which integrates Ken
+  Manheimer's pdbtrack.el.  This makes debugging Python code via pdb
+  much nicer in XEmacs and Emacs.  When stepping through your program
+  with pdb, in either the shell window or the *Python* window, the
+  source file and line will be tracked by an arrow.  Very cool!
+
+- IDLE: syntax warnings in interactive mode are changed into errors.
+
+- Some improvements to Tools/webchecker (ignore some more URL types,
+  follow some more links).
+
+- Brought the Tools/compiler package up to date.
+
+
+What's New in Python 2.1 beta 2?
+================================
+
+(Unlisted are many fixed bugs, more documentation, etc.)
+
+Core language, builtins, and interpreter
+
+- The nested scopes work (enabled by "from __future__ import
+  nested_scopes") is completed; in particular, the future now extends
+  into code executed through exec, eval() and execfile(), and into the
+  interactive interpreter.
+
+- When calling a base class method (e.g. BaseClass.__init__(self)),
+  this is now allowed even if self is not strictly spoken a class
+  instance (e.g. when using metaclasses or the Don Beaudry hook).
+
+- Slice objects are now comparable but not hashable; this prevents
+  dict[:] from being accepted but meaningless.
+
+- Complex division is now calculated using less braindead algorithms.
+  This doesn't change semantics except it's more likely to give useful
+  results in extreme cases.  Complex repr() now uses full precision
+  like float repr().
+
+- sgmllib.py now calls handle_decl() for simple <!...> declarations.
+
+- It is illegal to assign to the name __debug__, which is set when the
+  interpreter starts.  It is effectively a compile-time constant.
+
+- A warning will be issued if a global statement for a variable
+  follows a use or assignment of that variable.
+
+Standard library
+
+- unittest.py, a unit testing framework by Steve Purcell (PyUNIT,
+  inspired by JUnit), is now part of the standard library.  You now
+  have a choice of two testing frameworks: unittest requires you to
+  write testcases as separate code, doctest gathers them from
+  docstrings.  Both approaches have their advantages and
+  disadvantages.
+
+- A new module Tix was added, which wraps the Tix extension library
+  for Tk.  With that module, it is not necessary to statically link
+  Tix with _tkinter, since Tix will be loaded with Tcl's "package
+  require" command.  See Demo/tix/.
+
+- tzparse.py is now obsolete.
+
+- In gzip.py, the seek() and tell() methods are removed -- they were
+  non-functional anyway, and it's better if callers can test for their
+  existence with hasattr().
+
+Python/C API
+
+- PyDict_Next(): it is now safe to call PyDict_SetItem() with a key
+  that's already in the dictionary during a PyDict_Next() iteration.
+  This used to fail occasionally when a dictionary resize operation
+  could be triggered that would rehash all the keys.  All other
+  modifications to the dictionary are still off-limits during a
+  PyDict_Next() iteration!
+
+- New extended APIs related to passing compiler variables around.
+
+- New abstract APIs PyObject_IsInstance(), PyObject_IsSubclass()
+  implement isinstance() and issubclass().
+
+- Py_BuildValue() now has a "D" conversion to create a Python complex
+  number from a Py_complex C value.
+
+- Extensions types which support weak references must now set the
+  field allocated for the weak reference machinery to NULL themselves;
+  this is done to avoid the cost of checking each object for having a
+  weakly referencable type in PyObject_INIT(), since most types are
+  not weakly referencable.
+
+- PyFrame_FastToLocals() and PyFrame_LocalsToFast() copy bindings for
+  free variables and cell variables to and from the frame's f_locals.
+
+- Variants of several functions defined in pythonrun.h have been added
+  to support the nested_scopes future statement.  The variants all end
+  in Flags and take an extra argument, a PyCompilerFlags *; examples:
+  PyRun_AnyFileExFlags(), PyRun_InteractiveLoopFlags().  These
+  variants may be removed in Python 2.2, when nested scopes are
+  mandatory.
+
+Distutils
+
+- the sdist command now writes a PKG-INFO file, as described in PEP 241,
+  into the release tree.
+
+- several enhancements to the bdist_wininst command from Thomas Heller
+  (an uninstaller, more customization of the installer's display)
+
+- from Jack Jansen: added Mac-specific code to generate a dialog for
+  users to specify the command-line (because providing a command-line with
+  MacPython is awkward).  Jack also made various fixes for the Mac
+  and the Metrowerks compiler.
+
+- added 'platforms' and 'keywords' to the set of metadata that can be
+  specified for a distribution.
+
+- applied patches from Jason Tishler to make the compiler class work with
+  Cygwin.
+
+
+What's New in Python 2.1 beta 1?
+================================
+
+Core language, builtins, and interpreter
+
+- Following an outcry from the community about the amount of code
+  broken by the nested scopes feature introduced in 2.1a2, we decided
+  to make this feature optional, and to wait until Python 2.2 (or at
+  least 6 months) to make it standard.  The option can be enabled on a
+  per-module basis by adding "from __future__ import nested_scopes" at
+  the beginning of a module (before any other statements, but after
+  comments and an optional docstring).  See PEP 236 (Back to the
+  __future__) for a description of the __future__ statement.  PEP 227
+  (Statically Nested Scopes) has been updated to reflect this change,
+  and to clarify the semantics in a number of endcases.
+
+- The nested scopes code, when enabled, has been hardened, and most
+  bugs and memory leaks in it have been fixed.
+
+- Compile-time warnings are now generated for a number of conditions
+  that will break or change in meaning when nested scopes are enabled:
+
+  - Using "from...import *" or "exec" without in-clause in a function
+    scope that also defines a lambda or nested function with one or
+    more free (non-local) variables.  The presence of the import* or
+    bare exec makes it impossible for the compiler to determine the
+    exact set of local variables in the outer scope, which makes it
+    impossible to determine the bindings for free variables in the
+    inner scope.  To avoid the warning about import *, change it into
+    an import of explicitly name object, or move the import* statement
+    to the global scope; to avoid the warning about bare exec, use
+    exec...in... (a good idea anyway -- there's a possibility that
+    bare exec will be deprecated in the future).
+
+  - Use of a global variable in a nested scope with the same name as a
+    local variable in a surrounding scope.  This will change in
+    meaning with nested scopes: the name in the inner scope will
+    reference the variable in the outer scope rather than the global
+    of the same name.  To avoid the warning, either rename the outer
+    variable, or use a global statement in the inner function.
+
+- An optional object allocator has been included.  This allocator is
+  optimized for Python objects and should be faster and use less memory
+  than the standard system allocator.  It is not enabled by default
+  because of possible thread safety problems.  The allocator is only
+  protected by the Python interpreter lock and it is possible that some
+  extension modules require a thread safe allocator.  The object
+  allocator can be enabled by providing the "--with-pymalloc" option to
+  configure.
+
+Standard library
+
+- pyexpat now detects the expat version if expat.h defines it. A
+  number of additional handlers are provided, which are only available
+  since expat 1.95. In addition, the methods SetParamEntityParsing and
+  GetInputContext of Parser objects are available with 1.95.x
+  only. Parser objects now provide the ordered_attributes and
+  specified_attributes attributes. A new module expat.model was added,
+  which offers a number of additional constants if 1.95.x is used.
+
+- xml.dom offers the new functions registerDOMImplementation and
+  getDOMImplementation.
+
+- xml.dom.minidom offers a toprettyxml method. A number of DOM
+  conformance issues have been resolved. In particular, Element now
+  has an hasAttributes method, and the handling of namespaces was
+  improved.
+
+- Ka-Ping Yee contributed two new modules: inspect.py, a module for
+  getting information about live Python code, and pydoc.py, a module
+  for interactively converting docstrings to HTML or text.
+  Tools/scripts/pydoc, which is now automatically installed into
+  <prefix>/bin, uses pydoc.py to display documentation; try running
+  "pydoc -h" for instructions.  "pydoc -g" pops up a small GUI that
+  lets you browse the module docstrings using a web browser.
+
+- New library module difflib.py, primarily packaging the SequenceMatcher
+  class at the heart of the popular ndiff.py file-comparison tool.
+
+- doctest.py (a framework for verifying Python code examples in docstrings)
+  is now part of the std library.
+
+Windows changes
+
+- A new entry in the Start menu, "Module Docs", runs "pydoc -g" -- a
+  small GUI that lets you browse the module docstrings using your
+  default web browser.
+
+- Import is now case-sensitive.  PEP 235 (Import on Case-Insensitive
+  Platforms) is implemented.  See
+
+      http://python.sourceforge.net/peps/pep-0235.html
+
+  for full details, especially the "Current Lower-Left Semantics" section.
+  The new Windows import rules are simpler than before:
+
+  A. If the PYTHONCASEOK environment variable exists, same as
+     before:  silently accept the first case-insensitive match of any
+     kind; raise ImportError if none found.
+
+  B. Else search sys.path for the first case-sensitive match; raise
+     ImportError if none found.
+
+  The same rules have been implented on other platforms with case-
+  insensitive but case-preserving filesystems too (including Cygwin, and
+  several flavors of Macintosh operating systems).
+
+- winsound module:  Under Win9x, winsound.Beep() now attempts to simulate
+  what it's supposed to do (and does do under NT and 2000) via direct
+  port manipulation.  It's unknown whether this will work on all systems,
+  but it does work on my Win98SE systems now and was known to be useless on
+  all Win9x systems before.
+
+- Build:  Subproject _test (effectively) renamed to _testcapi.
+
+New platforms
+
+- 2.1 should compile and run out of the box under MacOS X, even using HFS+.
+  Thanks to Steven Majewski!
+
+- 2.1 should compile and run out of the box on Cygwin.  Thanks to Jason
+  Tishler!
+
+- 2.1 contains new files and patches for RISCOS, thanks to Dietmar
+  Schwertberger!  See RISCOS/README for more information -- it seems
+  that because of the bizarre filename conventions on RISCOS, no port
+  to that platform is easy.  Note that the new variable os.endsep is
+  silently supported in order to make life easier on this platform,
+  but we don't advertise it because it's not worth for most folks to
+  care about RISCOS portability.
+
+
+What's New in Python 2.1 alpha 2?
+=================================
+
+Core language, builtins, and interpreter
+
+- Scopes nest.  If a name is used in a function or class, but is not
+  local, the definition in the nearest enclosing function scope will
+  be used.  One consequence of this change is that lambda statements
+  could reference variables in the namespaces where the lambda is
+  defined.  In some unusual cases, this change will break code.
+
+  In all previous version of Python, names were resolved in exactly
+  three namespaces -- the local namespace, the global namespace, and
+  the builtin namespace.  According to this old definition, if a
+  function A is defined within a function B, the names bound in B are
+  not visible in A.  The new rules make names bound in B visible in A,
+  unless A contains a name binding that hides the binding in B.
+
+  Section 4.1 of the reference manual describes the new scoping rules
+  in detail.  The test script in Lib/test/test_scope.py demonstrates
+  some of the effects of the change.
+
+  The new rules will cause existing code to break if it defines nested
+  functions where an outer function has local variables with the same
+  name as globals or builtins used by the inner function.  Example:
+
+    def munge(str):
+        def helper(x):
+            return str(x)
+        if type(str) != type(''):
+            str = helper(str)
+        return str.strip()
+
+  Under the old rules, the name str in helper() is bound to the
+  builtin function str().  Under the new rules, it will be bound to
+  the argument named str and an error will occur when helper() is
+  called.
+
+- The compiler will report a SyntaxError if "from ... import *" occurs
+  in a function or class scope.  The language reference has documented
+  that this case is illegal, but the compiler never checked for it.
+  The recent introduction of nested scope makes the meaning of this
+  form of name binding ambiguous.  In a future release, the compiler
+  may allow this form when there is no possibility of ambiguity.
+
+- repr(string) is easier to read, now using hex escapes instead of octal,
+  and using \t, \n and \r instead of \011, \012 and \015 (respectively):
+
+  >>> "\texample \r\n" + chr(0) + chr(255)
+  '\texample \r\n\x00\xff'         # in 2.1
+  '\011example \015\012\000\377'   # in 2.0
+
+- Functions are now compared and hashed by identity, not by value, since
+  the func_code attribute is writable.
+
+- Weak references (PEP 205) have been added.  This involves a few
+  changes in the core, an extension module (_weakref), and a Python
+  module (weakref).  The weakref module is the public interface.  It
+  includes support for "explicit" weak references, proxy objects, and
+  mappings with weakly held values.
+
+- A 'continue' statement can now appear in a try block within the body
+  of a loop.  It is still not possible to use continue in a finally
+  clause.
+
+Standard library
+
+- mailbox.py now has a new class, PortableUnixMailbox which is
+  identical to UnixMailbox but uses a more portable scheme for
+  determining From_ separators.  Also, the constructors for all the
+  classes in this module have a new optional `factory' argument, which
+  is a callable used when new message classes must be instantiated by
+  the next() method.
+
+- random.py is now self-contained, and offers all the functionality of
+  the now-deprecated whrandom.py.  See the docs for details.  random.py
+  also supports new functions getstate() and setstate(), for saving
+  and restoring the internal state of the generator; and jumpahead(n),
+  for quickly forcing the internal state to be the same as if n calls to
+  random() had been made.  The latter is particularly useful for multi-
+  threaded programs, creating one instance of the random.Random() class for
+  each thread, then using .jumpahead() to force each instance to use a
+  non-overlapping segment of the full period.
+
+- random.py's seed() function is new.  For bit-for-bit compatibility with
+  prior releases, use the whseed function instead.  The new seed function
+  addresses two problems:  (1) The old function couldn't produce more than
+  about 2**24 distinct internal states; the new one about 2**45 (the best
+  that can be done in the Wichmann-Hill generator).  (2) The old function
+  sometimes produced identical internal states when passed distinct
+  integers, and there was no simple way to predict when that would happen;
+  the new one guarantees to produce distinct internal states for all
+  arguments in [0, 27814431486576L).
+
+- The socket module now supports raw packets on Linux.  The socket
+  family is AF_PACKET.
+
+- test_capi.py is a start at running tests of the Python C API.  The tests
+  are implemented by the new Modules/_testmodule.c.
+
+- A new extension module, _symtable, provides provisional access to the
+  internal symbol table used by the Python compiler.  A higher-level
+  interface will be added on top of _symtable in a future release.
+
+- Removed the obsolete soundex module.
+
+- xml.dom.minidom now uses the standard DOM exceptions. Node supports
+  the isSameNode method; NamedNodeMap the get method.
+
+- xml.sax.expatreader supports the lexical handler property; it
+  generates comment, startCDATA, and endCDATA events.
+
+Windows changes
+
+- Build procedure:  the zlib project is built in a different way that
+  ensures the zlib header files used can no longer get out of synch with
+  the zlib binary used.  See PCbuild\readme.txt for details.  Your old
+  zlib-related directories can be deleted; you'll need to download fresh
+  source for zlib and unpack it into a new directory.
+
+- Build:  New subproject _test for the benefit of test_capi.py (see above).
+
+- Build:  New subproject _symtable, for new DLL _symtable.pyd (a nascent
+  interface to some Python compiler internals).
+
+- Build:  Subproject ucnhash is gone, since the code was folded into the
+  unicodedata subproject.
+
+What's New in Python 2.1 alpha 1?
+=================================
+
+Core language, builtins, and interpreter
+
+- There is a new Unicode companion to the PyObject_Str() API
+  called PyObject_Unicode(). It behaves in the same way as the
+  former, but assures that the returned value is an Unicode object
+  (applying the usual coercion if necessary).
+
+- The comparison operators support "rich comparison overloading" (PEP
+  207).  C extension types can provide a rich comparison function in
+  the new tp_richcompare slot in the type object.  The cmp() function
+  and the C function PyObject_Compare() first try the new rich
+  comparison operators before trying the old 3-way comparison.  There
+  is also a new C API PyObject_RichCompare() (which also falls back on
+  the old 3-way comparison, but does not constrain the outcome of the
+  rich comparison to a Boolean result).
+
+  The rich comparison function takes two objects (at least one of
+  which is guaranteed to have the type that provided the function) and
+  an integer indicating the opcode, which can be Py_LT, Py_LE, Py_EQ,
+  Py_NE, Py_GT, Py_GE (for <, <=, ==, !=, >, >=), and returns a Python
+  object, which may be NotImplemented (in which case the tp_compare
+  slot function is used as a fallback, if defined).
+
+  Classes can overload individual comparison operators by defining one
+  or more of the methods__lt__, __le__, __eq__, __ne__, __gt__,
+  __ge__.  There are no explicit "reflected argument" versions of
+  these; instead, __lt__ and __gt__ are each other's reflection,
+  likewise for__le__ and __ge__; __eq__ and __ne__ are their own
+  reflection (similar at the C level).  No other implications are
+  made; in particular, Python does not assume that == is the Boolean
+  inverse of !=, or that < is the Boolean inverse of >=.  This makes
+  it possible to define types with partial orderings.
+
+  Classes or types that want to implement (in)equality tests but not
+  the ordering operators (i.e. unordered types) should implement ==
+  and !=, and raise an error for the ordering operators.
+
+  It is possible to define types whose rich comparison results are not
+  Boolean; e.g. a matrix type might want to return a matrix of bits
+  for A < B, giving elementwise comparisons.  Such types should ensure
+  that any interpretation of their value in a Boolean context raises
+  an exception, e.g. by defining __nonzero__ (or the tp_nonzero slot
+  at the C level) to always raise an exception.
+
+- Complex numbers use rich comparisons to define == and != but raise
+  an exception for <, <=, > and >=.  Unfortunately, this also means
+  that cmp() of two complex numbers raises an exception when the two
+  numbers differ.  Since it is not mathematically meaningful to compare
+  complex numbers except for equality, I hope that this doesn't break
+  too much code.
+
+- The outcome of comparing non-numeric objects of different types is
+  not defined by the language, other than that it's arbitrary but
+  consistent (see the Reference Manual).  An implementation detail changed
+  in 2.1a1 such that None now compares less than any other object.  Code
+  relying on this new behavior (like code that relied on the previous
+  behavior) does so at its own risk.
+
+- Functions and methods now support getting and setting arbitrarily
+  named attributes (PEP 232).  Functions have a new __dict__
+  (a.k.a. func_dict) which hold the function attributes.  Methods get
+  and set attributes on their underlying im_func.  It is a TypeError
+  to set an attribute on a bound method.
+
+- The xrange() object implementation has been improved so that
+  xrange(sys.maxint) can be used on 64-bit platforms.  There's still a
+  limitation that in this case len(xrange(sys.maxint)) can't be
+  calculated, but the common idiom "for i in xrange(sys.maxint)" will
+  work fine as long as the index i doesn't actually reach 2**31.
+  (Python uses regular ints for sequence and string indices; fixing
+  that is much more work.)
+
+- Two changes to from...import:
+
+  1) "from M import X" now works even if (after loading module M)
+     sys.modules['M'] is not a real module; it's basically a getattr()
+     operation with AttributeError exceptions changed into ImportError.
+
+  2) "from M import *" now looks for M.__all__ to decide which names to
+     import; if M.__all__ doesn't exist, it uses M.__dict__.keys() but
+     filters out names starting with '_' as before.  Whether or not
+     __all__ exists, there's no restriction on the type of M.
+
+- File objects have a new method, xreadlines().  This is the fastest
+  way to iterate over all lines in a file:
+
+  for line in file.xreadlines():
+      ...do something to line...
+
+  See the xreadlines module (mentioned below) for how to do this for
+  other file-like objects.
+
+- Even if you don't use file.xreadlines(), you may expect a speedup on
+  line-by-line input.  The file.readline() method has been optimized
+  quite a bit in platform-specific ways:  on systems (like Linux) that
+  support flockfile(), getc_unlocked(), and funlockfile(), those are
+  used by default.  On systems (like Windows) without getc_unlocked(),
+  a complicated (but still thread-safe) method using fgets() is used by
+  default.
+
+  You can force use of the fgets() method by #define'ing
+  USE_FGETS_IN_GETLINE at build time (it may be faster than
+  getc_unlocked()).
+
+  You can force fgets() not to be used by #define'ing
+  DONT_USE_FGETS_IN_GETLINE (this is the first thing to try if std test
+  test_bufio.py fails -- and let us know if it does!).
+
+- In addition, the fileinput module, while still slower than the other
+  methods on most platforms, has been sped up too, by using
+  file.readlines(sizehint).
+
+- Support for run-time warnings has been added, including a new
+  command line option (-W) to specify the disposition of warnings.
+  See the description of the warnings module below.
+
+- Extensive changes have been made to the coercion code.  This mostly
+  affects extension modules (which can now implement mixed-type
+  numerical operators without having to use coercion), but
+  occasionally, in boundary cases the coercion semantics have changed
+  subtly.  Since this was a terrible gray area of the language, this
+  is considered an improvement.  Also note that __rcmp__ is no longer
+  supported -- instead of calling __rcmp__, __cmp__ is called with
+  reflected arguments.
+
+- In connection with the coercion changes, a new built-in singleton
+  object, NotImplemented is defined.  This can be returned for
+  operations that wish to indicate they are not implemented for a
+  particular combination of arguments.  From C, this is
+  Py_NotImplemented.
+
+- The interpreter accepts now bytecode files on the command line even
+  if they do not have a .pyc or .pyo extension. On Linux, after executing
+
+import imp,sys,string
+magic = string.join(["\\x%.2x" % ord(c) for c in imp.get_magic()],"")
+reg = ':pyc:M::%s::%s:' % (magic, sys.executable)
+open("/proc/sys/fs/binfmt_misc/register","wb").write(reg)
+
+  any byte code file can be used as an executable (i.e. as an argument
+  to execve(2)).
+
+- %[xXo] formats of negative Python longs now produce a sign
+  character.  In 1.6 and earlier, they never produced a sign,
+  and raised an error if the value of the long was too large
+  to fit in a Python int.  In 2.0, they produced a sign if and
+  only if too large to fit in an int.  This was inconsistent
+  across platforms (because the size of an int varies across
+  platforms), and inconsistent with hex() and oct().  Example:
+
+  >>> "%x" % -0x42L
+  '-42'      # in 2.1
+  'ffffffbe' # in 2.0 and before, on 32-bit machines
+  >>> hex(-0x42L)
+  '-0x42L'   # in all versions of Python
+
+  The behavior of %d formats for negative Python longs remains
+  the same as in 2.0 (although in 1.6 and before, they raised
+  an error if the long didn't fit in a Python int).
+
+  %u formats don't make sense for Python longs, but are allowed
+  and treated the same as %d in 2.1.  In 2.0, a negative long
+  formatted via %u produced a sign if and only if too large to
+  fit in an int.  In 1.6 and earlier, a negative long formatted
+  via %u raised an error if it was too big to fit in an int.
+
+- Dictionary objects have an odd new method, popitem().  This removes
+  an arbitrary item from the dictionary and returns it (in the form of
+  a (key, value) pair).  This can be useful for algorithms that use a
+  dictionary as a bag of "to do" items and repeatedly need to pick one
+  item.  Such algorithms normally end up running in quadratic time;
+  using popitem() they can usually be made to run in linear time.
+
+Standard library
+
+- In the time module, the time argument to the functions strftime,
+  localtime, gmtime, asctime and ctime is now optional, defaulting to
+  the current time (in the local timezone).
+
+- The ftplib module now defaults to passive mode, which is deemed a
+  more useful default given that clients are often inside firewalls
+  these days.  Note that this could break if ftplib is used to connect
+  to a *server* that is inside a firewall, from outside; this is
+  expected to be a very rare situation.  To fix that, you can call
+  ftp.set_pasv(0).
+
+- The module site now treats .pth files not only for path configuration,
+  but also supports extensions to the initialization code: Lines starting
+  with import are executed.
+
+- There's a new module, warnings, which implements a mechanism for
+  issuing and filtering warnings.  There are some new built-in
+  exceptions that serve as warning categories, and a new command line
+  option, -W, to control warnings (e.g. -Wi ignores all warnings, -We
+  turns warnings into errors).  warnings.warn(message[, category])
+  issues a warning message; this can also be called from C as
+  PyErr_Warn(category, message).
+
+- A new module xreadlines was added.  This exports a single factory
+  function, xreadlines().  The intention is that this code is the
+  absolutely fastest way to iterate over all lines in an open
+  file(-like) object:
+
+  import xreadlines
+  for line in xreadlines.xreadlines(file):
+      ...do something to line...
+
+  This is equivalent to the previous the speed record holder using
+  file.readlines(sizehint).  Note that if file is a real file object
+  (as opposed to a file-like object), this is equivalent:
+
+  for line in file.xreadlines():
+      ...do something to line...
+
+- The bisect module has new functions bisect_left, insort_left,
+  bisect_right and insort_right.  The old names bisect and insort
+  are now aliases for bisect_right and insort_right.  XXX_right
+  and XXX_left methods differ in what happens when the new element
+  compares equal to one or more elements already in the list:  the
+  XXX_left methods insert to the left, the XXX_right methods to the
+  right.  Code that doesn't care where equal elements end up should
+  continue to use the old, short names ("bisect" and "insort").
+
+- The new curses.panel module wraps the panel library that forms part
+  of SYSV curses and ncurses.  Contributed by Thomas Gellekum.
+
+- The SocketServer module now sets the allow_reuse_address flag by
+  default in the TCPServer class.
+
+- A new function, sys._getframe(), returns the stack frame pointer of
+  the caller.  This is intended only as a building block for
+  higher-level mechanisms such as string interpolation.
+
+- The pyexpat module supports a number of new handlers, which are
+  available only in expat 1.2. If invocation of a callback fails, it
+  will report an additional frame in the traceback. Parser objects
+  participate now in garbage collection. If expat reports an unknown
+  encoding, pyexpat will try to use a Python codec; that works only
+  for single-byte charsets. The parser type objects is exposed as
+  XMLParserObject.
+
+- xml.dom now offers standard definitions for symbolic node type and
+  exception code constants, and a hierarchy of DOM exceptions. minidom
+  was adjusted to use them.
+
+- The conformance of xml.dom.minidom to the DOM specification was
+  improved. It detects a number of additional error cases; the
+  previous/next relationship works even when the tree is modified;
+  Node supports the normalize() method; NamedNodeMap, DocumentType and
+  DOMImplementation classes were added; Element supports the
+  hasAttribute and hasAttributeNS methods; and Text supports the splitText
+  method.
+
+Build issues
+
+- For Unix (and Unix-compatible) builds, configuration and building of
+  extension modules is now greatly automated.  Rather than having to
+  edit the Modules/Setup file to indicate which modules should be
+  built and where their include files and libraries are, a
+  distutils-based setup.py script now takes care of building most
+  extension modules.  All extension modules built this way are built
+  as shared libraries.  Only a few modules that must be linked
+  statically are still listed in the Setup file; you won't need to
+  edit their configuration.
+
+- Python should now build out of the box on Cygwin.  If it doesn't,
+  mail to Jason Tishler (jlt63 at users.sourceforge.net).
+
+- Python now always uses its own (renamed) implementation of getopt()
+  -- there's too much variation among C library getopt()
+  implementations.
+
+- C++ compilers are better supported; the CXX macro is always set to a
+  C++ compiler if one is found.
+
+Windows changes
+
+- select module:  By default under Windows, a select() call
+  can specify no more than 64 sockets.  Python now boosts
+  this Microsoft default to 512.  If you need even more than
+  that, see the MS docs (you'll need to #define FD_SETSIZE
+  and recompile Python from source).
+
+- Support for Windows 3.1, DOS and OS/2 is gone.  The Lib/dos-8x3
+  subdirectory is no more!

@@ -1,0 +1,54 @@
+PSF-2006-001 - Buffer overrun in repr() for UCS-4 encoded unicode strings
+
+--------------------------------------------------------------------------
+
+Python Security Advisory
+
+Advisory ID:  PSF-2006-001
+Issue Date:   October 12, 2006
+Product:      Python
+Versions:     2.2, 2.3, 2.4 prior to 2.4.4, wide unicode (UCS-4) builds only
+CVE Names:    CAN-2006-4980
+
+--------------------------------------------------------------------------
+
+Python is an interpreted, interactive, object-oriented programming
+language. It is often compared to Tcl, Perl, Scheme or Java.
+
+The Python development team has discovered a flaw in the repr()
+implementation of Unicode string objects which can lead to execution of
+arbitrary code due to an overflow in a buffer allocated with insufficient
+size.
+
+The flaw only manifests itself in Python builds configured to support
+UCS-4 Unicode strings (using the --enable-unicode=ucs4 configure flag).
+This is still not the default, which is why the vulnerability should not
+be present in most Python builds out there, especially not the builds for
+the Windows or Mac OS X platform provided by www.python.org.
+
+You can find out whether you are running a UCS-4 enabled build by looking
+at the sys.maxunicode attribute: it is 65535 in a UCS-2 build and 1114111
+in a UCS-4 build.
+
+More information can be found in this posting to the python-dev mailing
+list:
+http://mail.python.org/pipermail/python-dev/2006-October/069260.html
+
+The Common Vulnerabilities and Exposures project (cve.mitre.org) has
+assigned the name CAN-2006-4980 to this issue.
+
+Python 2.4.4 will be released from www.python.org next week
+containing a fix for this issue. A release candidate of 2.4.4 is
+already available containing the fix. Python 2.5 also already contains
+the fix and is not vulnerable.
+
+Patches for Python 2.2, 2.3 and 2.4 are also immediately available:
+
+ * http://python.org/files/news/security/PSF-2006-001/patch-2.3.txt
+   (Python 2.2, 2.3)
+ * http://python.org/files/news/security/PSF-2006-001/patch-2.4.txt
+   (Python 2.4)
+
+Acknowledgement: thanks to Benjamin C. Wiley Sittler for discovering this
+issue.
+

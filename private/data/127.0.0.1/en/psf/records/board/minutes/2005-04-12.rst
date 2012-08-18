@@ -1,0 +1,101 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+April 12, 2005 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: David Ascher, Stephan Deibel, Tim Peters, Andrew Kuchling,
+Jeremy Hylton, and Martin v. L?wis.
+Kurt Kaiser and David G. also attended the meeting.  von L?wis took minutes.
+
+2. Meeting minutes of past meetings
+###################################
+
+The March minutes were approved with a 5-0-1 vote.
+The minutes of the PyCon board meeting (on March 24) were approved with a 6-0-0
+vote.
+
+The December minutes were still missing. Goodger volunteered
+to help with creating them from the IRC log.
+
+3. Dissolving Committees
+########################
+
+Deibel moved that it is
+
+    RESOLVED, that the Public Relations Committee is dissolved.
+
+The motion passed with a 6-0-0 vote.
+
+Deibel then asked whether the conference committee should also
+be dissolved. Ascher said that it hasn't done much, but that it
+would be good to have such a committee. Kuchling asked what
+it is supposed to do. Hylton said it was there to make decisions,
+instead of the conference chair, but that Steve Holden did not
+like to operate that way. Deibel asked Kuchling whether he
+wanted a committee, Ascher said that this isn't a question
+that the conference chair should decide. Kuchling said that
+he would be happy with  committee, for discussion that cannot
+be resolved in a larger group. von L?wis said he would prefer
+if the board made the decisions that the conference chair
+cannot make.
+
+von L?wis proposed to dissolve the current committee, because
+he did not want that committee to have power over the conference.
+
+Kuchling proposed to reform the committee with himself,
+Nick Bastin, Mark Hertel, and Steve Holden as the members.
+There was discussion as to whether committee members need
+to be PSF members; the bylaws say that this is a requirement.
+
+The discussion concluded with an ACTION ITEM for
+Ascher to propose a motion to reform the committee.
+
+5. Vacant Director's Position
+#############################
+
+Deibel asked whether the vacant slot (after Guido van Rossum
+resigned as a director) should be filled. He said that the
+plan was to find somebody non-US, possibly non-male. There
+was discussion, which concluded with no action at the moment.
+If somebody showed a strong interest, the issue should be
+reconsidered.
+
+6. Trademarks
+#############
+
+Ascher asked what action is taken wrt. defending the corporation's
+trade marks, specifically, whether input from Google or MSFT
+lawyers was available. He said he volunteers to follow up with
+Jim Hugunin and Chris DiBono if nobody can propose a better
+strategy. He will educate himself about the subject and then
+bring a proposal to the board.
+
+7. Infrastructure
+#################
+
+Kuchling reported that XS4ALL has offered two new machines to
+host python.org, and that Thomas Wouters has brought them
+online. He will talk within the infrastructure committee what
+the usage of these machines should be and how the current
+services can migrate to the new hardware. Several board
+members congratulated about this progress.
+
+von L?wis asked whether the Python CVS would move to
+these machines, and become Subversion in the process. Kuchling
+said that it was out of the scope of this committee. Hylton
+suggested that a Python development committee should be formed,
+which would decide such questions. There was discussion about
+this option, but no action was taken.
+
+8. Adjournment.
+###############
+
+The meeting was adjourned at 18:07 GMT.

@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf/records/board/minutes/2006-02-14 -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf/records/board/minutes/2006-02-14">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>The Python Software Foundation</p>
+<p>Minutes of a Regular Meeting of the Board of Directors</p>
+<p>February 14, 2006</p>
+<p>A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:00 UTC, 14
+February 2006.  Stephan Deibel presided at the meeting.</p>
+<div class="section" id="attendance">
+<h1>1   Attendance</h1>
+<p>The following members of the Board of Directors were present at the
+meeting: Tim Peters, Stephan Deibel, Martin von L?wis, Jeremy Hylton,
+and Andrew Kuchling.  Also in attendance were Kurt B. Kaiser
+(Treasurer), Neal Norwitz (Assistant Treasurer), and David Goodger
+(Assistant Secretary).  D. Goodger prepared these minutes.</p>
+</div>
+<div class="section" id="minutes-of-past-meetings">
+<h1>2   Minutes of Past Meetings</h1>
+<p>The January 2006 minutes were approved by a 4-0-1 vote.</p>
+</div>
+<div class="section" id="status-of-past-action-items">
+<h1>3   Status of Past Action Items</h1>
+<div class="section" id="follow-up-required">
+<h2>3.1   Follow-Up Required</h2>
+<ul class="simple">
+<li>Originally from November 2005, follow-up from December 2005: Mark Shuttleworth (Ubuntu/Canonical) on PSF sponsorship or donation.     Status: follow-up required.</li>
+<li>Originally from November 2005, follow-up from December 2005: Bram Cohen (BitTorrent) on PSF sponsorship or donation.     Status: follow-up required.</li>
+</ul>
+<p>S. Deibel noted that all the directors, officers, and members should
+keep in mind approaching eligible people to extract donations and/or
+sponsorship from them,at PyCon, and in general.</p>
+</div>
+<div class="section" id="in-progress">
+<h2>3.2   In Progress</h2>
+<ul class="simple">
+<li>Originally from September 2005, Section 10.1, Trademarks &amp; The .com Domain: N. Norwitz will ask the lawyer about the python.com domain.     Status: in progress.</li>
+<li>Originally from November 2005, Section 4, Python.org Redesign (S. Holden):   - get the new production system to run on Mac OS X;  - detail which parts of the current content have been transformed for the new system and which parts still require conversion;  - complete the documentation so that webmaster team members can use the new system rather than the old one.    Status: in progress.      S. Deibel mentioned the possibility of a Python.org sprint at PyCon.  It would require a list of what is needed; Tim Parkin won't be there and he wasn't sure who else has the knowledge.</li>
+<li>Originally from December 2005, Section 6, PSF Member Meeting: M. von L?wis volunteered to ensure that the necessary steps are taken for the member meeting.     Status: in progress.  M. von L?wis reports that he created the various forms, and posted an email invitation.</li>
+</ul>
+</div>
+<div class="section" id="carried-forward">
+<h2>3.3   Carried Forward</h2>
+<p>The following are action items carried forward from the January 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):</p>
+<ul class="simple">
+<li>Originally from September 2005, Section 4, Donor Levels: S. Deibel will add the topic of &quot;Donor Levels&quot; to the agenda of a future meeting, and may begin discussions via email before that.     Status: carried forward.</li>
+<li>Originally from September 2005, Section 9, Grants Committee: M. von L?wis will verify whether Brian Zimmer's grant invoice is the one previously discussed (i.e. a reduced amount of work, and a reduced payment).     Status: <strong>done</strong>.      M. von L?wis reported that the committee approved the split, and Frank Wierzbicki has provided a schedule.  There have been two contracts, as Frank had last-minute revisions to the schedule; the treasurer has the latest revision.  A new invoice from Brian Zimmer is required.  M. von L?wis will ask Brian Zimmer to send an invoice for the part of the Jython grant that goes to him.</li>
+<li>Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.</li>
+<li>Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.</li>
+<li>Originally from October 2005, Section 7, Reserve Funds: K. Kaiser will send a reserve fund investment proposal to the PSF-board mailing list.     K. Kaiser reported that SunTrust is announcing very attractive new rates today, around 5%; he hoped to have them before the meeting but no luck.  There is a long-term manager's special at 5%, probably for 15 months.  There is no great penalty in the unlikely event we make an early withdrawl.     K. Kaiser will prepare a proposal and send it to the PSF-board mailing list before PyCon.  M. von L?wis and K. Kaiser noted that a resolution was not required (from the October 2005 minutes: ?it is within the power of the Treasurer to make this decision, and that a formal resolution was not required?).     Status: carried forward.</li>
+<li>Originally from November 2005, Section 8, Trademark Policy: D. Ascher will probably work with ActiveState's legal person on trademark policy.     Status: carried forward.</li>
+<li>Originally from December 2005, Section 4, Python.org Redesign: S. Holden said that he would be responsible for making sure that documentation is available for the new python.org system.     Status: carried forward.</li>
+<li>Originally from December 2005, Section 6, PSF Member Meeting: J. Hylton took on the task of finding someone to send out member meeting notices &amp; proxy forms.     Status: <strong>done</strong>.  Notices have been sent.</li>
+<li>Originally from December 2005, Section 6, PSF Member Meeting: J. Hylton pledged to complete the minutes for the 2005 PSF member meeting.     Status: carried forward.</li>
+<li>Originally from December 2005, Section 7, PSF BoF Sessions: A. Kuchling promised to write to Chris DiBona and Greg Stein and ask about their attendance at PyCon and possible BoF participation.     Status: carried forward.</li>
+<li>Originally from December 2005, Section 7, PSF BoF Sessions: M. von L?wis agreed to see if the grant recipients (Greg Wilson, Brian Zimmer, and/or Ilya Etingof) will be at PyCon, and ask them to report on what they've done.     Status: <strong>done</strong>.  M. von L?wis reported that all of the grant recipients were asked, and all said they would be unable to attend PyCon.     A post to the PSF blog was suggested, and discussion was deferred to email.</li>
+</ul>
+</div>
+<div class="section" id="new-in-january">
+<h2>3.4   New in January</h2>
+<p>The following action items originated with the January 2006 meeting,
+as highlighted in the minutes:</p>
+<ul class="simple">
+<li>Section 3.4, item 5, New in December (PSF Member Meeting): [M. von L?wis] We should set a deadline for closing the absentee ballot.     Status: <strong>done</strong>.  The absentee ballot was closed on February 14.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="financials">
+<h1>4   Financials</h1>
+<p>The initial ruling period on the PSF's 501(c)(3) status has ended.  We
+have surpassed the 1/3 public support ratio needed.</p>
+<p>K. Kaiser will ping the sponsor members who have not yet paid
+their 2006 PSF sponsor fees.</p>
+<p>K. Kaiser reported that he has rewritten all the transaction
+processing and processed everything to date.  The 2005 books are
+reconciled with credit cards and bank statements.  The remaining
+things to do are to reclassify the PyCon travel grants and to
+reclassify &quot;other income&quot; left over from the last PyCon.</p>
+<p>S. Deibel asked if there is a list somewhere of which tax/etc forms we
+need to file at what times of year?  K. Kaiser replied that N. Norwitz
+wrote such a list, &quot;recurring.txt&quot; in the PSF repository.  There
+aren't many: the yearly Federal filing, the DE payment, and the 8734
+Support Schedule, &quot;which is a bit of a project&quot;.  Also, K. Kaiser
+needs to check if anything is needed for Massachussetts.</p>
+</div>
+<div class="section" id="use-of-pycon-by-other-conferences">
+<h1>5   Use of &quot;PyCon&quot; by Other Conferences</h1>
+<p>M. von L?wis proposed that the PSF should register &quot;PyCon&quot; as a
+trademark, and then approve it for at most one conference (organizer)
+per country.  Discussion was deferred to email.</p>
+</div>
+<div class="section" id="adjournment">
+<h1>6   Adjournment</h1>
+<ol class="upperalpha simple" start="19">
+<li>Deibel adjourned the meeting at 19:00 UTC.</li>
+</ol>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

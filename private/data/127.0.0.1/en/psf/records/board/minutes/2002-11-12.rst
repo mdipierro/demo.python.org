@@ -1,0 +1,103 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+November 12, 2002. 
+
+A regular meeting of the Python Software Foundation (the
+"PSF") Board of Directors was held over Internet Relay Chat at 10:09 pm
+PST.  Guido van Rossum, president of the Foundation and chairman of
+the Board, presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+     meeting: David Ascher, Jeremy Hylton, Tim Peters, Guido van Rossum,
+     Thomas Wouters. A quorum was present.
+
+2. Meeting minutes of past IRC meetings.
+########################################
+
+Guido moves to approve the meeting minutes of October 8th. Motion
+     passes unanimously.
+
+3. Secretary/Treasurer's report
+###############################
+
+Some tasks to be done:
+
+- register python with BXA for crypto issues
+- put Delaware state taxes in the mail
+- cash AS membership check
+- send payment to Zope for legal representation (> $1000)
+
+Current status:
+
+- Invoices sent to Strakt Holdings and Merfin LLC, $1000 each.
+- Current cash on hand in bank account is $11,963.52.
+- Rough net worth including accounts receivable is $14,500.
+
+Jeremy asked when the PSF should expect Python Cookbook royalties.
+     David said he would check with ActiveState accounting staff
+     regarding the status of any royalty checks AS may have received.
+
+Jeremy asked whether we should remind the sponsors that they can
+     change the membership fee if they so wanted.  There was general
+     agreement that that would be the right thing to do.
+
+4. IRS status report
+####################
+
+We haven't heard from them.  Jeremy said he'd call them.
+
+5. Conference status report
+###########################
+
+We received a contract for the space.  Adam Turoff is mostly out of
+     the loop.  We have until Nov 14 (this Thursday) to sign it.  The total
+     costs for the space are $12975; 10% of that is due with the contract.
+     This does not include catering, and it doesn't include all A/V
+     equipment -- those things are extra.  The contract requires us to get
+     insurance for a million dollars before we are allowed in the space.  Guido
+     plans to talk to Shawn O'Donnell (Zope Corp's CFO) to see if we do this
+     via Zope Corp's insurance.
+
+Guido has asked the GWU representative some questions about the contract;
+     she hasn't sent the replies yet (she's promised Guido an email).  He's
+     also received a helpful commentary on the contract from Tony Stanco,
+     the lawyer who runs the Cyber Policy Institute at GWU; Adam Turoff has
+     worked with him on other conferences in the same space; the CPI has
+     made space available for local Python and Perl user groups.  The only
+     worrysome thing he saw was a phrase at the very end that appeared to
+     suggest that Guido would be personally liable for the contract; he
+     suggested to sign as "president of the PSF".
+
+YAS (Kurt DeMaagd) will do registration and online payment for us, in
+     return for a mention as a sponsor.  They expect that the costs (bank
+     fees on credit card transactions etc.) will be approximately 5%.  They
+     won't charge us extra above the actual costs.
+
+Steve Holden is conference chair and will send out a conference
+     announcement as soon as we've signed the contract.  We've created
+     mailing lists for the conference, and a handful of volunteers have
+     signed up already.  We plan to put the conference website up at
+     www.python.org/pycon/.
+
+The conference has a name.  It's Python Programmers Conference,
+     abbreviated as PyCon.
+
+6. Contribution forms status report
+###################################
+
+Nothing to report.
+
+7. Python Support Committee status report [4]
+#############################################
+
+Nothing to report.
+
+8. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 10:48
+    PM PST.

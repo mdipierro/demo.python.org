@@ -1,0 +1,154 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+October 9, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:05 UTC, 9
+October 2006.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in September <#new-in-september>`_
+
+- `4   Advocacy Coordinator <#advocacy-coordinator>`_
+
+- `5   Infrastructure Committee <#infrastructure-committee>`_
+
+- `6   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Tim Peters, David Goodger, Stephan Deibel, Andrew Kuchling,
+Martin von L?wis, and Brett Cannon.  Also in attendance were Kurt
+Kaiser (Treasurer) and Neal Norwitz (Assistant Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 18 September 2006 minutes were approved by a 3-0-3 vote.
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 18 September 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     The potential sponsor's representative has secured senior management agreement and continues to work on a sponsor application.     Status: follow-up required.
+
+- Originally from November 2005, follow-up from December 2005: S. Holden is to contact a potential PSF sponsor/donor.     S. Holden reported by email that there has been no response to his enquiries yet.     Status: follow-up required.
+
+- Originally from November 2005, Section 8, Trademark Policy: S. Deibel to work on the PSF trademark policy, and discuss with Heather Meeker.  (Note, name changed to new lawyer.)     S. Deibel reports that we have a reviewed draft but need another revision.  He will follow up with Heather Meeker.     Status: follow-up required.
+
+- Originally from March 2006, Section 4, Grants Committee: M. von L?wis agreed to draft a report on the PSF grants.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: in progress.
+
+- Originally from July 2006, Section 3.2, item 3: D. Goodger will update & confirm email & snail mail addresses when he receives the PSF records, with the help of M. von L?wis.     Status: carried forward.
+
+- Originally from July 2006, Section 9, 2006 Budget & Action Plan: D. Goodger will develop the 2006 Budget & Action Plan further and take it to the PSF membership for feedback.     Status: carried forward.
+
+- Originally from August 2006, Section 3.3, item 4: S. Deibel to follow up with our lawyer regarding the trademark agreement from Autodesk.     Status: **done**.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     T. Peters asked whether the board still wants him to talk with Larry Rosen about this, or switch to Heather Meeker.  The board agreed that we should ask Larry Rosen first.     Status: carried forward.
+
+`3.2   New in September <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated in the 18 September 2006 board meeting
+on IRC.
+
+- Section 3.1, item 7: D. Goodger will telephone Jeremy Hylton to ask for PSF records to be sent.     Status: carried forward.
+
+- Section 3.2, item 1: S. Holden will forward the contributor agreements from the &quot;Need for Speed&quot; sprint to D. Goodger, who will scan them.     Status: carried forward.
+
+- Section 3.2, item 3: K. Kaiser will follow up with Jeff Rush regarding the Advocacy Coordinator contract, a contribution form, and invoices.     K. Kaiser reported that the contributor's form and contract were received, and the first payment made.     Status: **done**.
+
+- Section 3.2, item 7: S. Deibel and B. Cannon will follow up regarding further discussion with Mark Shuttleworth.     Status: carried forward.
+
+- Section 4, Legal Counsel: D. Ascher will follow up regarding potential new legal counsel for the PSF.     The PSF has retained Heather Meeker as new legal counsel.      Status: **done**.
+
+`4   Advocacy Coordinator <#id6>`_
+----------------------------------
+
+Jeff Rush has set up a wiki page to report progress:
+`http://wiki.python.org/moin/AdvocacyAccomplishments <http://wiki.python.org/moin/AdvocacyAccomplishments>`_.
+
+S. Deibel noted that he wants to encourage Jeff to get past the
+initial setup and announcement.  D. Goodger agreed, remarking: &quot;I'd
+like to see more details about what's being done, like deliverables
+being worked on.&quot;
+
+`5   Infrastructure Committee <#id7>`_
+--------------------------------------
+
+B. Cannon reported that four bug trackers were submitted for
+consideration: Trac, LaunchPad, Roundup, and JIRA.  B. Cannon
+continued:
+
+    The Infrastructure Committee got together and came to a tie
+    between Roundup and JIRA in terms of tracker abilities.  But
+    Atlassian sweetened the deal by offering us very good, free
+    hosting; this tipped the scales in JIRA's favour.
+
+    We announced this, but said Roundup could become our
+    recommendation if enough people volunteered.  While
+    comp.lang.python had a flame war, several people volunteered.
+    With A. Kuchling's and M. von L?wis' confirmation I am happy to
+    say we have enough Roundup volunteers to go with it.
+
+    We have also had an offer for professional Roundup hosting [from
+    Upfront Systems, free of charge].  Either way I am going to
+    announce on my blog that Roundup has been accepted, but wait until
+    we decided between the pro hosting and us hosting it for an
+    official announcement.  Also waiting for last-minute volunteers to
+    roll in.
+
+S. Deibel asked what the volunteers need to do.  B. Cannon replied
+that volunteers are needed to help setup and maintain the
+installation.  M. von L?wis elaborated:
+
+    I expect that users will complain about Roundup, and that many of
+    these complaints can be responded to with little effort.  You just
+    need some experienced Python hacker to add a button here and
+    change the color there.
+
+    Later, we will need people to look after it when it goes down
+    (which it will, one day or another).
+
+    Eventually, some of the volunteers will run away; those left will
+    hopefully train their successors.
+
+D. Goodger asked if professional hosting was even worth considering;
+&quot;won't that just start another flame war?&quot;  B. Cannon: &quot;I really don't
+think the pro hosting will be an issue; the flame war was over using a
+closed source solution.&quot;
+
+B. Cannon will be posting details of the hosting offer to the
+infrastructure mailing list when he gets it.
+
+B. Cannon: &quot;And I have to say I have been quite happy with the
+community mostly sticking up for the committee.&quot;
+
+`6   Adjournment <#id8>`_
+-------------------------
+
+S. Deibel adjourned the meeting at 17:35 UTC.

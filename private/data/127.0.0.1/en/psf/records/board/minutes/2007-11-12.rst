@@ -1,0 +1,169 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+November 12, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:04 UTC, 12
+November 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in October <#new-in-october>`_
+
+- `4   Credit Card Payment System <#credit-card-payment-system>`_
+
+- `5   New Sponsor Application <#new-sponsor-application>`_
+
+- `6   PyCon 2007 Audio <#pycon-2007-audio>`_
+
+- `7   PSF Article for The Python Papers <#psf-article-for-the-python-papers>`_
+
+- `8   PyCon 2008 <#pycon-2008>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Tim Peters, Stephan Deibel, David Goodger, Martin von L?wis,
+Steve Holden, Brett Cannon, and Andrew Kuchling.  Also in attendance
+was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 8 October 2007 Board meeting minutes were approved by a 7-0-0 vote
+(*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 8 October 2007
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from March 2007, Section 12, Awards: S. Holden will prepare a proposal for a PSF awards program.     The benefit of an awards program was briefly discussed, and S. Holden agreed to prepare something for the next meeting.     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     Status: carried forward.
+
+- Originally from April 2007, Section 6, Python Package Index (Cheese Shop): A. Kuchling will ask Thomas Wouters about increasing the memory on ximinez, and getting another machine for PyPI.     M. von L?wis reported that Thomas Wouters spoke with XS4ALL, who assigned us a contact and made a proposal for a hardware upgrade which the Infrastructure Committee shall discuss.  Eventually, the board will probably need to vote to approve the upgrade.     Status: **done**.
+
+- Originally from April 2007, Section 9, New PSF Members: D. Goodger will contact the PSF members not subscribed to the PSF-Members mailing list.     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will produce a PSF logo based on the Python logo.     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: carried forward.
+
+- Originally from September 2007, Section 4, Tracker Thank-you Gifts: B. Cannon will prepare a concrete proposal for tracker thank-you gifts, for a Board vote.     Status: carried forward.
+
+- Originally from September 2007, Section 5, Fraud Attempts: A. Kuchling will prepare a statement on fraudulent PSF checks for the python.org website.     Status: in progress.
+
+`3.2   New in October <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 8 October 2007 board meeting on
+IRC.
+
+- Section 6, Use of Python Logo on Business Cards: S. Deibel will respond to the request to use the Python logo on business cards, allowing use of the unaltered logo, but making it clear that it can't be used in a misleading way to imply connection with the PSF or being a developer of Python.  He will also request a sample for final approval.     Status: **done**.
+
+- Section 7, EuroPython Travel Funding: S. Holden will write to Laura Creighton and to the EuroPython organizers with a summary of our position, to request a concrete proposal for EuroPython travel funding and a justification of need (EuroPython financial position).     S. Holden reported that we are awaiting a response.  The Board agreed that there is no need for any further reminders.     Status: **done**.
+
+- Section 8, Google Summer of Code Mentor Summit Report: D. Goodger will coordinate with James Tauber to write a summary of the results of the PSF projects in the Google Summer of Code.     D. Goodger reported that James Tauber is currently collecting feedback.     Status: in progress.
+
+`4   Credit Card Payment System <#id6>`_
+----------------------------------------
+
+The credit card payment system is broken: it always declines payments
+(code 23 &quot;bad card number&quot;) from known-good cards.  K. Kaiser reported
+that we have missed two donations, but that they are probably
+recoverable.  Kaiser has been in contact with the service provider
+(PayFlow) and has a case number.  They aren't sure what the problem
+is.
+
+K. Kaiser will follow up with the credit card service
+provider to fix the payment system.
+
+`5   New Sponsor Application <#id7>`_
+-------------------------------------
+
+A new sponsor application has been received, but the organization is
+not known to any of the directors.  D. Goodger noted that this
+situation often arises and suggested that a question (like &quot;how does
+your organization benefit from Python, and why do you want to become a
+PSF sponsor member?&quot;) should be added to the application form.  The
+Board agreed that it's reasonable to ask after the application is
+received.
+
+S. Deibel will ask the prospective sponsor member for further
+information.
+
+`6   PyCon 2007 Audio <#id8>`_
+------------------------------
+
+A. Kuchling reported that the first PyCon 2007 audio is now up:
+Michelle Levesque's censorship talk.  The feeds are linked from
+`http://advocacy.python.org/podcasts <http://advocacy.python.org/podcasts>`_.
+
+A. Kuchling will announce the PyCon 2007 audio on the
+python.org front page (news) and on the PSF & PyCon blogs.
+
+`7   PSF Article for The Python Papers <#id9>`_
+-----------------------------------------------
+
+S. Deibel reported that his article on the PSF will probably be in the
+next issue of The Python Papers.
+
+S. Deibel will post his PSF article on python.org, but well
+after it is published in The Python Papers.
+
+`8   PyCon 2008 <#id10>`_
+-------------------------
+
+D. Goodger reported that things are going smoothly.  The proposal
+deadline is Friday November 16, and hopefully there will be enough
+proposals submitted by then.
+
+There is a PSF members' meeting to plan at PyCon.  Last time, the
+meeting dragged on.  D. Goodger suggested that we aim to make the
+meeting just a series of votes, and minimize discussion.  Face-to-face
+discussion time and social time can be useful though; S. Deibel
+suggested a short formal meeting and a longer informal get-together,
+and others agreed.  S. Deibel noted that the discussions never result
+in a vote.  A. Kuchling suggested that more discussion be held on the
+psf-members list before the meeting.  It was agreed that the list is
+under-used.  T. Peters suggested that we spell out the agenda well in
+advance on the list.
+
+D. Goodger noted that the lunch breaks may be 90 minutes long, and
+suggested the PSF members' meeting be held at lunch.
+
+D. Goodger will put out a call for new member nominations,
+board candidates, and meeting topics & resolutions for the PSF
+members' meeting to be held at PyCon.  On-list discussions will be
+encouraged so we can keep the meeting short.
+
+`9   Adjournment <#id11>`_
+--------------------------
+
+S. Deibel adjourned the meeting at 18:50 UTC.

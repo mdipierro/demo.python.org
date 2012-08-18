@@ -1,0 +1,49 @@
+Python 3.1.5
+------------
+
+    **Python 3.1.5** is a security-fix source-only release for Python `3.1.4 <../3.1.4/>`_, fixing several reported security issues: `issue 13703 <http://bugs.python.org/issue13703>`_
+    (oCERT-2011-003, hash collision denial of service), `issue 14234 <http://bugs.python.org/issue14234>`_
+    (CVE-2012-0876, hash table collisions CPU usage DoS in the expat library),
+    `issue 14001 <http://bugs.python.org/issue14001>`_ (CVE-2012-0845, SimpleXMLRPCServer denial of service), and
+    `issue 13885 <http://bugs.python.org/issue13885>`_ (CVE-2011-3389, disabling of the CBC IV attack countermeasure
+    in the _ssl module).  Python 3.1.5 was released on April 9, 2012.
+
+    The last binary release of Python 3.1 was `3.1.4 <../3.1.4/>`_.
+
+Python 3.1 is now in security-fix-only mode; no new features are being added,
+and no new bug fix releases are planned.  We intend to provide source-only
+security fixes for the Python 3.1 series until June 2014 (five years after
+the 2.6 final release).  For ongoing maintenance releases, please see the Python
+`3.2 <../3.2/>`_ series.
+
+    - `What's New in Python 3.1 <http://docs.python.org/3.1/whatsnew/3.1.html>`_.
+
+    - Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+    - Read the `Python license <license>`_.
+
+Help fund Python and its community by `donating to the Python Software 
+Foundation </psf/donations/>`_.
+
+Download
+--------
+
+This is a production release. we currently support these formats: 
+
+    - `Gzipped source tar ball (3.1.5) </ftp/python/3.1.5/Python-3.1.5.tgz>`_ `(sig) </ftp/python/3.1.5/Python-3.1.5.tgz.asc>`_
+
+    - `XZ compressed source tar ball (3.1.5) </ftp/python/3.1.5/Python-3.1.5.tar.xz>`_ `(sig) </ftp/python/3.1.5/Python-3.1.5.tar.xz.asc>`_
+
+    - `Bzipped source tar ball (3.1.5) </ftp/python/3.1.5/Python-3.1.5.tar.bz2>`_ `(sig) </ftp/python/3.1.5/Python-3.1.5.tar.bz2.asc>`_
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    02196d3fc7bc76bdda68aa36b0dd16ab  11798798  Python-3.1.5.tgz
+    dc8a7a96c12880d2e61e9f4add9d3dc7   9889191  Python-3.1.5.tar.bz2
+    20dd2b7f801dc97db948dd168df4dd52   8189536  Python-3.1.5.tar.xz
+
+The signatures for the source tarballs above were generated with `GnuPG 
+<http://www.gnupg.org>`_ using release manager Benjamin Peterson's `public key 
+</download#pubkeys>`_ which has a key id of A4135B38.

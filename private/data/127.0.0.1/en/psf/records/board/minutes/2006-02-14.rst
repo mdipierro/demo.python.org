@@ -1,0 +1,117 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+February 14, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:00 UTC, 14
+February 2006.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present at the
+meeting: Tim Peters, Stephan Deibel, Martin von L?wis, Jeremy Hylton,
+and Andrew Kuchling.  Also in attendance were Kurt B. Kaiser
+(Treasurer), Neal Norwitz (Assistant Treasurer), and David Goodger
+(Assistant Secretary).  D. Goodger prepared these minutes.
+
+2   Minutes of Past Meetings
+----------------------------
+
+The January 2006 minutes were approved by a 4-0-1 vote.
+
+3   Status of Past Action Items
+-------------------------------
+
+3.1   Follow-Up Required
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Originally from November 2005, follow-up from December 2005: Mark Shuttleworth (Ubuntu/Canonical) on PSF sponsorship or donation.     Status: follow-up required.
+
+- Originally from November 2005, follow-up from December 2005: Bram Cohen (BitTorrent) on PSF sponsorship or donation.     Status: follow-up required.
+
+S. Deibel noted that all the directors, officers, and members should
+keep in mind approaching eligible people to extract donations and/or
+sponsorship from them,at PyCon, and in general.
+
+3.2   In Progress
+~~~~~~~~~~~~~~~~~
+
+- Originally from September 2005, Section 10.1, Trademarks & The .com Domain: N. Norwitz will ask the lawyer about the python.com domain.     Status: in progress.
+
+- Originally from November 2005, Section 4, Python.org Redesign (S. Holden):   - get the new production system to run on Mac OS X;  - detail which parts of the current content have been transformed for the new system and which parts still require conversion;  - complete the documentation so that webmaster team members can use the new system rather than the old one.    Status: in progress.      S. Deibel mentioned the possibility of a Python.org sprint at PyCon.  It would require a list of what is needed; Tim Parkin won't be there and he wasn't sure who else has the knowledge.
+
+- Originally from December 2005, Section 6, PSF Member Meeting: M. von L?wis volunteered to ensure that the necessary steps are taken for the member meeting.     Status: in progress.  M. von L?wis reports that he created the various forms, and posted an email invitation.
+
+3.3   Carried Forward
+~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the January 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from September 2005, Section 4, Donor Levels: S. Deibel will add the topic of &quot;Donor Levels&quot; to the agenda of a future meeting, and may begin discussions via email before that.     Status: carried forward.
+
+- Originally from September 2005, Section 9, Grants Committee: M. von L?wis will verify whether Brian Zimmer's grant invoice is the one previously discussed (i.e. a reduced amount of work, and a reduced payment).     Status: **done**.      M. von L?wis reported that the committee approved the split, and Frank Wierzbicki has provided a schedule.  There have been two contracts, as Frank had last-minute revisions to the schedule; the treasurer has the latest revision.  A new invoice from Brian Zimmer is required.  M. von L?wis will ask Brian Zimmer to send an invoice for the part of the Jython grant that goes to him.
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.
+
+- Originally from October 2005, Section 7, Reserve Funds: K. Kaiser will send a reserve fund investment proposal to the PSF-board mailing list.     K. Kaiser reported that SunTrust is announcing very attractive new rates today, around 5%; he hoped to have them before the meeting but no luck.  There is a long-term manager's special at 5%, probably for 15 months.  There is no great penalty in the unlikely event we make an early withdrawl.     K. Kaiser will prepare a proposal and send it to the PSF-board mailing list before PyCon.  M. von L?wis and K. Kaiser noted that a resolution was not required (from the October 2005 minutes: ?it is within the power of the Treasurer to make this decision, and that a formal resolution was not required?).     Status: carried forward.
+
+- Originally from November 2005, Section 8, Trademark Policy: D. Ascher will probably work with ActiveState's legal person on trademark policy.     Status: carried forward.
+
+- Originally from December 2005, Section 4, Python.org Redesign: S. Holden said that he would be responsible for making sure that documentation is available for the new python.org system.     Status: carried forward.
+
+- Originally from December 2005, Section 6, PSF Member Meeting: J. Hylton took on the task of finding someone to send out member meeting notices & proxy forms.     Status: **done**.  Notices have been sent.
+
+- Originally from December 2005, Section 6, PSF Member Meeting: J. Hylton pledged to complete the minutes for the 2005 PSF member meeting.     Status: carried forward.
+
+- Originally from December 2005, Section 7, PSF BoF Sessions: A. Kuchling promised to write to Chris DiBona and Greg Stein and ask about their attendance at PyCon and possible BoF participation.     Status: carried forward.
+
+- Originally from December 2005, Section 7, PSF BoF Sessions: M. von L?wis agreed to see if the grant recipients (Greg Wilson, Brian Zimmer, and/or Ilya Etingof) will be at PyCon, and ask them to report on what they've done.     Status: **done**.  M. von L?wis reported that all of the grant recipients were asked, and all said they would be unable to attend PyCon.     A post to the PSF blog was suggested, and discussion was deferred to email.
+
+3.4   New in January
+~~~~~~~~~~~~~~~~~~~~
+
+The following action items originated with the January 2006 meeting,
+as highlighted in the minutes:
+
+- Section 3.4, item 5, New in December (PSF Member Meeting): [M. von L?wis] We should set a deadline for closing the absentee ballot.     Status: **done**.  The absentee ballot was closed on February 14.
+
+4   Financials
+--------------
+
+The initial ruling period on the PSF's 501(c)(3) status has ended.  We
+have surpassed the 1/3 public support ratio needed.
+
+K. Kaiser will ping the sponsor members who have not yet paid
+their 2006 PSF sponsor fees.
+
+K. Kaiser reported that he has rewritten all the transaction
+processing and processed everything to date.  The 2005 books are
+reconciled with credit cards and bank statements.  The remaining
+things to do are to reclassify the PyCon travel grants and to
+reclassify &quot;other income&quot; left over from the last PyCon.
+
+S. Deibel asked if there is a list somewhere of which tax/etc forms we
+need to file at what times of year?  K. Kaiser replied that N. Norwitz
+wrote such a list, &quot;recurring.txt&quot; in the PSF repository.  There
+aren't many: the yearly Federal filing, the DE payment, and the 8734
+Support Schedule, &quot;which is a bit of a project&quot;.  Also, K. Kaiser
+needs to check if anything is needed for Massachussetts.
+
+5   Use of &quot;PyCon&quot; by Other Conferences
+-------------------------------------------------
+
+M. von L?wis proposed that the PSF should register &quot;PyCon&quot; as a
+trademark, and then approve it for at most one conference (organizer)
+per country.  Discussion was deferred to email.
+
+6   Adjournment
+---------------
+
+S. Deibel adjourned the meeting at 19:00 UTC.

@@ -1,0 +1,146 @@
+The Python Software Foundation Minutes of the 1st Annual Meeting
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The members of the Python Software Foundation (the "Corporation") held
+its first annual meeting on March 5, 2001 at the Hilton Long Beach in
+Long Beach, Calif.  Greg Stein, chairman of the Board of Directors,
+presided over the meeting.
+
+The following members, constituting a quorum of the members according
+to the Bylaws, attended the meeting:
+
+- David Ascher
+- Fred L. Drake, Jr.
+- Paul Everitt (Digital Creations representative)
+- Mark Hammond
+- Dick Hardt (ActiveState representative)
+- Jeremy Hylton
+- Marc-Andre Lemburg
+- Fredrik Lundh
+- Trent Mick
+- Tim Peters
+- Paul Prescod
+- Eric Raymond
+- Guido van Rossum
+- Greg Stein
+- Christian Tismer
+- Barry Warsaw
+- Thomas Wouters
+- Moshe Zadka
+
+**Directors** 
+
+The first order of business was the election of a new Board of
+Directors, as required under the Bylaws.  The following members were
+elected to the Board of Directors:
+
+- David Ascher
+- Paul Everitt
+- Fredrik Lundh
+- Tim Peters
+- Guido van Rossum
+- Greg Stein
+- Thomas Wouters
+
+**Members** 
+
+Greg Stein present a list of new members for admission to the
+Corporation, consisting of developers who were members of the Python
+project at SourceForge but not present at the meeting.  Upon motion by
+Stein, seconded by Eric Raymond, it was unanimously
+
+RESOLVED, that the following people be and hereby are elected
+nominated members of the Corporation:
+
+    Finn Bock
+
+    Denmark
+
+    James (Jim) L. Fulton
+
+    Digital Creations
+
+    Fredericksburg, VA 22401
+
+    USA
+
+    Lars Marius Garshol
+
+     Oslo, Norway
+
+    Thomas Heller
+
+    Senden, Germany
+
+    Jack Jansen
+
+    Amsterdam
+
+    The Netherlands
+
+    Martin von L?wis of Menar
+
+    Berlin
+
+    Germany
+
+    Ken Manheimer
+
+    Digital Creations, Inc.
+
+    Fredericksburg, VA
+
+    USA
+
+    George David (Skip) Montanaro
+
+    Evanston, IL 
+
+    USA
+
+    K. Sjoerd Mullender
+
+    BJ Amsterdam
+
+    The Netherlands
+
+    Samuele Pedroni
+
+    Z?rich
+
+    Switzerland
+
+    Neil Anthony Schemenauer
+
+    Reston, VA
+
+    USA
+
+    Jan Peter Schneider-Kamp
+
+    Kempen
+
+    Germany
+
+    Charles G. Waldman
+
+    Chicago, IL
+
+    USA
+
+    Gregory P. Ward
+
+    Montreal QC
+
+    Canada
+
+    Ka-Ping Yee
+
+    Berkeley, CA
+
+    USA
+
+**Adjournment** 
+
+Since there was no further business, the meeting, on motion by Greg
+Stein and seconded by David Ascher, was adjorned by unanimous vote.

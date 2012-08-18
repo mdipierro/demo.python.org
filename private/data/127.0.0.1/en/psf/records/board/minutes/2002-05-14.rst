@@ -1,0 +1,130 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+May 14, 2002. 
+
+Present:
+
+David Ascher
+
+Marc-Andre Lemburg
+
+Martin v. L?wis
+
+Jeremy Hylton
+
+Tim Peters
+
+Guido van Rossum
+
+Thomas Wouters was absent; the Board had quorum. The meeting starts at
+17:00 UTC.
+
+Agenda:
+#######
+
+1. Minutes from two previous IRC board meetings still need to be
+   approved.
+
+2. Reports.
+
+3. How are we doing on new members that were approved in February?  Is
+   everybody now sworn in?
+
+4. 501(c)(3) application status.
+
+5. 2001 tax filing.
+
+6. Next member meeting.
+
+7. Python conferences in 2003
+
+1. Last minutes
+###############
+
+The minutes from February 12th are approved with 4 ayes and two
+   abstentions (Guido moves, Martin seconds). Approval of other
+   minutes is deferred for a month.
+
+2. Reports
+##########
+
+There were no reports.
+
+3. New members
+##############
+
+Martin explains the Wiki page recording the application status, and
+   reports that Barry Warsaw requested that new members subscribe
+   themselves to the psf mailing list. Guido suggests that new members
+   are added automatically to the mailing list. Martin volunteers to
+   do so. There is discussion on the status of members who have been
+   invited, but haven't sent their application form; Jeremy volunteers
+   to remind Andy Robinson; Martin volunteers to remind the other
+   potential members.
+
+There is discussion on the number of members. Guido reports that we
+   currently have 42 individual and 6 sponsor members; Jeremy reports
+   that were 45 nominated members, and one pending sponsor member
+   (STSI). Marc-Andre suggest that member meetings on IRC should
+   allowed. There is agreement that this would be good, but would
+   require changes to the bylaws. The board will discuss this next
+   month.
+
+4. 501(c)(3)
+############
+
+   Guido reports that little progress has been made, so that there is
+   nothing to discuss.
+
+5. Tax Filing
+#############
+
+Guido ask whether the PSF should file for 2001. Tim speaks in
+   favour of doing so, since it shows we're responsible. Guido reports
+   that the accountant said we are not required to file. David says
+   it's a matter of CYA, and good for audits. Guido points out that it
+   has to be done within two days; David offers help in filling the
+   form out. Tim, Jeremy, and Guido will do a "paperwork sprint"
+   today, and Jeremy will then check the draft against his records.
+
+6. Member meeting
+#################
+
+Guido proposes to meet at OSCON. Marc-Andre suggest to have a
+   meeting at EuroPython. There is discussion on the potential number
+   of participants, the quorum, and the potential agenda. There is
+   agreement that the meeting should be at OSCON.
+
+The Board also discusses the status of the AB Strakt membership;
+   Guido expresses concerns that the status of paperwork is often
+   unclear in the PSF. Jeremy promises to send an email message to the
+   board list for every piece of paper received, at the time of
+   reception.
+
+7. Next year's conferences
+##########################
+
+Guido asks whether Gina Blaber of O'Reilly can be told that we'll
+   gladly have Python11 at OSCON2003. There is much agreement, Martin
+   disagrees and proposes that the conference at OSCON should not be
+   called Python11. There is discussion. Guido moves to tell O'Reilly
+   to organize Python11 at OSCON 2003. Marc-Andre seconds. The motion
+   is approved with 4 ayes, 1 nay, and 1 abstention.
+
+There is also discussion about the conference organized by Yet
+   Another Society (YAS). Guido reports that Adam Turoff has not
+   responded to Email in this matter, and that the status of the
+   conference is uncertain.
+
+The board discusses conference committees. Guido volunteers to head
+   a Python11 committee, David volunteers for the YAS
+   conference. Jeremy suggest that there should be a single conference
+   committee. There is discussion, then agreement to continue
+   discussion next month.
+
+8. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 18:00
+   UTC.

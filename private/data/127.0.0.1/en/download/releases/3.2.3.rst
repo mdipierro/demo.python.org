@@ -1,0 +1,110 @@
+Python 3.2.3
+------------
+
+Python 3.2.3 was released on April 10, 2012.  It includes fixes for several
+reported security issues: `issue 13703 <http://bugs.python.org/issue13703>`_ (CVE-2012-1150, hash collision denial
+of service), `issue 14234 <http://bugs.python.org/issue14234>`_ (CVE-2012-0876, Expat hash collision denial of
+service), `issue 14001 <http://bugs.python.org/issue14001>`_ (CVE-2012-0845, SimpleXMLRPCServer denial of service),
+and `issue 13885 <http://bugs.python.org/issue13885>`_ (CVE-2011-3389, disabling of the CBC IV attack countermeasure
+in the _ssl module).
+
+Python 3.2 is a continuation of the efforts to improve and stabilize the Python
+3.x line.  Since the final release of Python 2.7, the 2.x line will only receive
+bugfixes, and new features are developed for 3.x only.
+
+Since `PEP 3003 <http://www.python.org/dev/peps/pep-3003>`_, the Moratorium on Language Changes, is in effect, there are
+no changes in Python's syntax and only few changes to built-in types in Python
+3.2.  Development efforts concentrated on the standard library and support for
+porting code to Python 3.  Highlights are:
+
+- numerous improvements to the unittest module
+
+- `PEP 3147 <http://www.python.org/dev/peps/pep-3147>`_, support for .pyc repository directories
+
+- `PEP 3149 <http://www.python.org/dev/peps/pep-3149>`_, support for version tagged dynamic libraries
+
+- `PEP 3148 <http://www.python.org/dev/peps/pep-3148>`_, a new futures library for concurrent programming
+
+- `PEP 384 <http://www.python.org/dev/peps/pep-0384>`_, a stable ABI for extension modules
+
+- `PEP 391 <http://www.python.org/dev/peps/pep-0391>`_, dictionary-based logging configuration
+
+- an overhauled GIL implementation that reduces contention
+
+- an extended email package that handles bytes messages
+
+- a much improved ssl module with support for SSL contexts and certificate hostname matching
+
+- a sysconfig module to access configuration information
+
+- additions to the shutil module, among them archive file support
+
+- many enhancements to configparser, among them mapping protocol support
+
+- improvements to pdb, the Python debugger
+
+- countless fixes regarding bytes/string issues; among them full support for a bytes environment (filenames, environment variables)
+
+- many consistency and behavior fixes for numeric operations
+
+See these resources for further information: 
+
+- `What's new in 3.2? <http://docs.python.org/dev/whatsnew/3.2.html>`_
+
+- `Change log for this release <http://hg.python.org/cpython/file/v3.2.3/Misc/NEWS>`_.
+
+- `Online Documentation <http://docs.python.org/3.2/>`_
+
+- Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+- `Help fund Python and its community </psf/donations/>`_.
+
+Download
+--------
+
+This is a production release.  Please `report any bugs 
+<http://bugs.python.org>`_ you encounter. 
+
+We currently support these formats for download: 
+
+- `Bzipped source tar ball (3.2.3) </ftp/python/3.2.3/Python-3.2.3.tar.bz2>`_ `(sig) </ftp/python/3.2.3/Python-3.2.3.tar.bz2.asc>`_, ~ 11 MB
+
+- `XZ compressed source tar ball (3.2.3) </ftp/python/3.2.3/Python-3.2.3.tar.xz>`_ `(sig) </ftp/python/3.2.3/Python-3.2.3.tar.xz.asc>`_, ~ 8.5 MB
+
+- `Gzipped source tar ball (3.2.3) </ftp/python/3.2.3/Python-3.2.3.tgz>`_ `(sig) </ftp/python/3.2.3/Python-3.2.3.tgz.asc>`_, ~ 13 MB
+
+- `Windows x86 MSI Installer (3.2.3) </ftp/python/3.2.3/python-3.2.3.msi>`_ `(sig) </ftp/python/3.2.3/python-3.2.3.msi.asc>`_ and Visual Studio debug information files `(sig) </ftp/python/3.2.3/python-3.2.3-pdb.zip.asc>`_
+
+- `Windows X86-64 MSI Installer (3.2.3) </ftp/python/3.2.3/python-3.2.3.amd64.msi>`_ `[1] <#id4>`_ `(sig) </ftp/python/3.2.3/python-3.2.3.amd64.msi.asc>`_ and Visual Studio debug information files `(sig) </ftp/python/3.2.3/python-3.2.3.amd64-pdb.zip.asc>`_
+
+- `Windows help file </ftp/python/3.2.3/python323.chm>`_ `(sig) </ftp/python/3.2.3/python323.chm.asc>`_
+
+- `Mac OS X 64-bit/32-bit Installer (3.2.3) for Mac OS X 10.6 and 10.7 </ftp/python/3.2.3/python-3.2.3-macosx10.6.dmg>`_ `[2] <#id5>`_ `(sig) </ftp/python/3.2.3/python-3.2.3-macosx10.6.dmg.asc>`_. [You may need an updated Tcl/Tk install to run IDLE or use Tkinter, see note 2 for instructions.]
+
+- `Mac OS X 32-bit i386/PPC Installer (3.2.3) for OS X 10.3 through 10.6 </ftp/python/3.2.3/python-3.2.3-macosx10.3.dmg>`_ `[2] <#id5>`_ `(sig) </ftp/python/3.2.3/python-3.2.3-macosx10.3.dmg.asc>`_
+
+The source tarballs are signed with Georg Brandl's key, which has a key id of
+36580288; the fingerprint is ``26DE A9D4 6133 91EF 3E25 C9FF 0A5B 1018 3658 0288``. The Windows installer was signed by Martin von L?wis' public key, which
+has a key id of 7D9DC8D2.  The Mac installers were signed with Ned Deily's key,
+which has a key id of 6F5E1540.  The public keys are located on the download
+page.
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    dcf3a738e7028f1deb41b180bf0e2cbc  12787688  Python-3.2.3.tgz
+    cea34079aeb2e21e7b60ee82a0ac286b  10743046  Python-3.2.3.tar.bz2
+    187564726f2c1473d301c586acc24847   8970368  Python-3.2.3.tar.xz
+    389836f8b9d39e1366cb05e6ae302bd7  19550807  python-3.2.3-macosx10.3.dmg
+    778b4038cbd4471e409942d4148effea  16229112  python-3.2.3-macosx10.6.dmg
+    d8ef37dc27ca7f8625327c4696aa5942  18307042  python-3.2.3-pdb.zip
+    a8199051a911466ee5585ede15893acd  20063304  python-3.2.3.amd64-pdb.zip
+    01aae7d96fa1c5a585f596b20233c6eb  18554880  python-3.2.3.amd64.msi
+    c176c60e6d780773e3085ee824b3078b  17829888  python-3.2.3.msi
+    caaeaaa161de6819c10a5a8b0b208e40   5769675  python323.chm
+
+**MISSING**
+`[1] <#id1>`_  The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).
+**MISSING**
+[2]  *(`1 <#id2>`_, `2 <#id3>`_)* There is important information about IDLE, Tkinter, and Tcl/Tk on Mac OS X here.  Also, on Mac OS X 10.6, if you need to build C extension modules with the 32-bit-only Python installed, you will need Apple Xcode 3, not 4.  The 64-bit/32-bit Python can use either Xcode 3 or Xcode 4.

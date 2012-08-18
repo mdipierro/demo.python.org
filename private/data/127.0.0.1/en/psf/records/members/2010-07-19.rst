@@ -1,0 +1,247 @@
+The Python Software Foundation 
+
+Minutes of the July 2010 Members' Meeting 
+
+July 19, 2010
+
+The Python Software Foundation (the &quot;PSF&quot;) held a semi-annual
+members' meeting on July 19, 2010 19:00 CEST at
+EuroPython, Birmingham, UK. Steve Holden presided over
+the meeting. Marc-Andr? Lemburg and Pat Campbell prepared
+these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Greetings & Roll Call <#greetings-roll-call>`_
+
+- `3   Reports <#reports>`_
+
+- `4   New Business <#new-business>`_
+
+- `5   Community Service Award - 2010-Q2 <#community-service-award-2010-q2>`_
+
+- `6   Frank Willison Award - 2010 <#frank-willison-award-2010>`_
+
+- `7   Email Voting <#email-voting>`_- `7.1   Election Results <#election-results>`_- `7.1.1   Election of Nominated Members <#election-of-nominated-members>`_  - `7.1.2   Election of Sponsor Members <#election-of-sponsor-members>`_
+
+- `8   Any Other Business <#any-other-business>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+29 nominated members were present at the meeting: 
+
+    - Steven Bethard
+
+    - Paul Boddie
+
+    - Georg Brandl
+
+    - Brett Cannon
+
+    - Dr.Tim Couper
+
+    - Laura Creighton
+
+    - Mark Dickinson
+
+    - Michael Foord
+
+    - Amaury Forgeot d'Arc
+
+    - Zeth Green
+
+    - Tim Golden
+
+    - Jacob Hall?n
+
+    - Raymond Hettinger
+
+    - Steve Holden
+
+    - Richard Jones
+
+    - Holger Krekel
+
+    - Marc-Andr? Lemburg
+
+    - Martin von L?wis
+
+    - Harald Armin Massa
+
+    - John Pinner
+
+    - Armin Rigo
+
+    - Guido van Rossum
+
+    - Christian Scholz
+
+    - Michael Sparks
+
+    - Phil Thompson
+
+    - Dino Viehland
+
+    - Thomas Waldmann
+
+    - Alex Willmer
+
+    - Quentin Wright
+
+1 representative of sponsor members were present: 
+
+    - Strakt Holdings, represented by Laura Creighton
+
+8 Non-members were present: 
+
+    - Floris Bruynooghe
+
+    - Rob Collins
+
+    - Clive Darke
+
+    - Mark Fink
+
+    - Thomas Heschenr?der
+
+    - Valentin Janiaot
+
+    - Joe Metcalfe
+
+    - Lennart Regebro
+
+`2   Greetings & Roll Call <#id2>`_
+---------------------------------------
+
+On July 19, 2010 the EuroPython Conference held its first PSF members'
+meeting outside of the US in Birmingham, UK where Steve Holden, PSF
+member and chairman of the board called the PSF Members' Meeting to
+order.
+
+PSF members (nominated and sponsor) and non-membered guest were greeted
+and welcomed.
+
+After the greeting, members and guests participated in the members'
+meeting roll call by stating their names for the meeting attendance
+records.
+
+`3   Reports <#id3>`_
+---------------------
+
+There were no board or treasurer's report for this members' meeting.
+
+`4   New Business <#id4>`_
+--------------------------
+
+New business discussions during the members' meeting revolved around
+the following subject matter:
+
+    - Interest in having regular PSF member meetings at EuroPython
+
+    There was definitively interest in having PSF member meetings
+    at EuroPython, so we will try to have regular meetings in the
+    future.
+
+    - Increasing awareness for the PSF in Europe
+
+    This was briefly discussed. I mentioned the project for creation
+    of Python marketing material, a project that is still in the
+    preparation phase.
+
+    - Discuss setting up a European PSF branch
+
+    Several aspects of such a move were discussed, but since the whole
+    project is rather complex, we will follow up on the ideas in a
+    special interest group.
+
+    - Discuss promotion of the new Honorary Associate Memberships
+
+    The current state of the new membership form was discussed. The
+    legal state has been setup by the board, the marketing texts have
+    been prepared by Pat Campbell. Next to follow are: getting
+    the payment system ready and then putting the marketing information
+    up on the website.
+
+    - Discuss setting up a PSF partner network
+
+    This idea was regarded as better short-term alternative to the
+    European PSF branch.
+
+    The board will prepare a set of requirements a partner organization
+    would have to fulfill and then invite organizations to the network.
+
+    - Gathering networking information from the meeting attendees
+
+    This was not discussed. We'll likely setup a wiki page for that
+    information.
+
+`5   Community Service Award - 2010-Q2 <#id5>`_
+-----------------------------------------------
+
+John Pinner was selected as the 2010 - 2nd quarter PSF Community
+Service Award winner. The award was announced and presented by S.
+Holden at the EuroPython Conference.
+
+`6   Frank Willison Award - 2010 <#id6>`_
+-----------------------------------------
+
+Christian Tismer was proposed by the Board and selected
+by O'Reilly as winner of the Frank Willison Award 2010.
+The award was announced and presented by S. Holden at
+the EuroPython Conference.
+
+`7   Email Voting <#id7>`_
+--------------------------
+
+The July 2010 members' election took place after the members'
+meeting held at the EuroPython Conference. Votes were cast
+electronically via email during the voting period which began on
+2010-08-10 and ended on 2010-08-23.
+
+`7.1   Election Results <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+`7.1.1   Election of Nominated Members <#id9>`_
+###############################################
+
+The individual nominations and summaries/recommendations were made on
+the psf-members mailing list and recorded in the PSF private wiki.
+
+All proposed nominated members were elected (vote counts in
+parentheses, yes-no-abstain):
+
+- Noah Gift (49-6-24)
+
+- Laurens Van Houtven (44-2-33)
+
+- Terry Peppers (44-2-33)
+
+- Stephen Thorne (45-1-33)
+
+`7.1.2   Election of Sponsor Members <#id10>`_
+##############################################
+
+One company applied for sponsor membership. The Board had
+already recommended the applicant as a pending sponsor member.
+
+The nominated sponsor member was elected (vote counts in
+parentheses, yes-no-abstain):
+
+- Exoweb Ltd. (62-0-17)
+
+`8   Any Other Business <#id11>`_
+---------------------------------
+
+None.
+
+`9   Adjournment <#id12>`_
+--------------------------
+
+Steve Holden thanked everyone for attending and adjourned the
+informal members' meeting at approximately 20:30 (CEST),
+local time.

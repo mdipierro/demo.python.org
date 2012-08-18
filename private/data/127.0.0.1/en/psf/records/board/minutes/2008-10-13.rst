@@ -1,0 +1,213 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+October 13, 2008
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 13
+October 2008.  Steve Holden presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New from September 8 <#new-from-september-8>`_
+
+- `4   PSF Community Award Certificates <#psf-community-award-certificates>`_
+
+- `5   PyCon <#pycon>`_
+
+- `6   Sponsor Member Application: KNMP <#sponsor-member-application-knmp>`_
+
+- `7   Accounts Receivable <#accounts-receivable>`_
+
+- `8   The Python African Tour Request <#the-python-african-tour-request>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, Stephan Deibel, David Goodger, Raymond
+Hettinger, Steve Holden, Martin von L?wis, Tim Peters, James Tauber.
+Also in attendance was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 8 September 2008 Board meeting minutes were approved by a vote of
+6-0-2 (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 8 September 2008
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: D. Goodger will write to the Jython contributors and ask them to sign contributor agreement forms, in combination with item 2 above (transferred from A. Kuchling).     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws [with S. Deibel's help].  Include an affiliation program [ref. July 2008 section 8].     S. Deibel and S. Holden reported that they are working on a draft.      Status: in progress.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: carried forward.
+
+- Originally from 14 April 2008, Section 5, Treasurer's Report: S. Holden will assist K. Kaiser with accounts receivable reminders.     K. Kaiser reported that OSAF paid their outstanding 2007 PSF sponsor invoice.     Status: in progress.
+
+- Originally from 14 April 2008, Section 7, PyCon Asset Record-Keeping: D. Goodger will update the assets file in PSF CVS with the details of the laptops and VGA2USB boxes purchased for PyCon 2008.     Status: carried forward.
+
+- Originally from 14 April 2008, Section 12, Sponsor Membership Issues: D. Goodger will update the member information in members.xls (sponsors & nominated members) & sponsor-addrs.txt, in PSF CVS.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.1, Treasurer's Report: K. Kaiser will submit an expanded report to psf-members.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.2, Treasurer's Report: D. Goodger will follow up regarding the PyCon transaction analysis.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.3, Treasurer's Report: D. Goodger will ensure that documentation for unpaid PyCon tutorials is found and provided.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.4, Treasurer's Report: D. Goodger will send all remaining PyCon checks to K. Kaiser for deposit.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.5, Treasurer's Report: D. Godoger will provide K. Kaiser with PyCon financial aid documentation.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.6, Treasurer's Report: D. Goodger will provide K. Kaiser with PyCon expense and cash reports.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.7, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon sponsorships.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.8, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon registrations.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 10, Formalizing the Trademarks Committee: J. Tauber and D. Goodger will formulate a resolution for the formation of a Trademarks Committee.     J. Tauber reported that a mailing list has been set up (`http://mail.python.org/mailman/listinfo/psf-trademarks <http://mail.python.org/mailman/listinfo/psf-trademarks>`_) and interested members have subscribed.  The committee establishment resolution is not yet formulated.     Status: in progress.
+
+- Originally from 14 July 2008, Section 8, ZEUUX Cooperation: M. von L?wis will ask the python.org maintainers to add a page (&quot;informally affiliated&quot; or equivalent), and will suggest the wording.     M. von L?wis reported the addition of `http://www.python.org/psf/cooperations/ <http://www.python.org/psf/cooperations/>`_.     Status: **done**.
+
+- Originally from 11 August 2008, Section 4, Sponsor Membership Policy: D. Goodger will add a description of the updated policy to the sponsor membership description page.     See `http://www.python.org/psf/sponsorship/  <http://www.python.org/psf/sponsorship/>`_, under &quot;Board policy&quot;.      Status: **done**.
+
+- Originally from 11 August 2008, Section 6.1, PyCon UK Sponsorship: S. Holden will inform PyCon UK of their sponsorship grant, and request an invoice.     K. Kaiser reported that we received an invoice for PyCon UK, and he wired the funds on 15 September.     Status: **done**.
+
+- Originally from 11 August 2008, Section 6.2, PyCon UK Sponsorship: R. Hettinger will propose a blanket policy for sponsorships, instead of one-off requests.     Status: carried forward.
+
+- Originally from 11 August 2008, Section 7, Funding pyArkansas: S. Holden will inform PyArkansas of their sponsorship grant, and request an invoice.     No invoice has been received yet.      Status: in progress.
+
+- Originally from 11 August 2008, Section 9, Staffing: D. Goodger will follow up on-list regarding staffing.     Status: carried forward.
+
+`3.2   New from September 8 <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 8 September 2008 Board meeting on IRC. 
+
+- Section 4.1, Sponsor Member Application: OpenEye Scientific Software: D. Goodger will inform OpenEye Scientific Software of their pending sponsor membership status, and will request a logo for the web site.     S. Deibel informed OpenEye Scientific Software.      Status: **done**.
+
+- Section 4.2, Sponsor Member Application: K. Kaiser will invoice OpenEye Scientific Software for their sponsor membership feee.     Status: carried forward.
+
+- Section 5.1, Sponsor Member Application: Lucasfilm: S. Holden will inform Lucasfilm of their pending sponsor membership status, will confirm the change of name from Industrial Light & Magic, and will request a logo for the web site.     Status: **done**.
+
+- Section 5.2, Sponsor Member Application: Lucasfilm: K. Kaiser will invoice Lucasfilm for their sponsor membership fee.     Status: carried forward.
+
+- Section 6, Python en Santa Fe Sponsorship Request: D. Goodger will inform PyAr of the PSF's sponsorship grant for Python en Santa Fe 2008.     Status: **done**.
+
+- Section 7, PSF Logo: D. Goodger will produce final layouts for a PSF logo.     Status: carried forward.
+
+`4   PSF Community Award Certificates <#id6>`_
+----------------------------------------------
+
+S. Holden will issue PSF Community Award certificates.
+
+`5   PyCon <#id7>`_
+-------------------
+
+D. Goodger reported that Atlanta has been chosen as the city for
+PyCon 2010. There are two venues in the running, and CTE is in
+negotiations.  CTE recommended that he go to check out the venues in
+person.  The hotel would be covered but we'd have to pay airfare.
+S. Holden noted that he would be visiting Atlanta shortly, and could
+visit the venues while there.
+
+PyCon 2009 progress was also discussed. 
+
+D. Goodger will prepare a budget for PyCon 2009.
+
+`6   Sponsor Member Application: KNMP <#id8>`_
+----------------------------------------------
+
+A sponsor membership application was received from NKMP, the &quot;Royal
+Dutch Pharmaceutical Society&quot;.  Excerpts:
+
+    Some years ago, my employer (`http://www.knmp.nl <http://www.knmp.nl>`_) made the decision
+    to standardize on Python and Zope. Practically all our developers
+    now develop full-time in Python on Ubuntu desktops. ...
+
+    As we don't contribute much code back to the open source
+    community, we would like to at least sponsor it financially. Our
+    motivation is simply to do something back for the community that
+    provides us with all this great software. We chose the PSF, as
+    Python has become of central importance to us, and the
+    organisations behind Ubuntu and MySQL have an easier time making
+    money (e.g. through support contracts). Hereby, we apply for
+    sponsor membership.
+
+    My employer, the KNMP (&quot;Royal Dutch Pharmaceutical Society&quot;), is a
+    member organisation itself, with about 1500 out of 1800 Dutch
+    pharmacies as its members. Our software department develops
+    solutions for pharmacists, researchers, medical organisations and
+    government departments to monitor or query medicine usage in their
+    respective environments.
+
+    Although, as a company, we don't contribute much back to the
+    community, several of our developers do so in their spare time.
+
+Mark Dufour will represent KNMP. 
+
+    **RESOLVED**, that the Board of Directors recommends KNMP to the
+    membership, as a future sponsor member of the PSF.
+
+Approved 7-0-1. 
+
+- S. Holden will inform KNMP of their pending sponsor membership status, and will request a logo for the web site.
+
+- K. Kaiser will invoice KNMP for their sponsor membership fee.
+
+`7   Accounts Receivable <#id9>`_
+---------------------------------
+
+S. Holden noted that &quot;there's still nearly $30,000 floating that we
+need to get a grip on, most of it is now almost a year old and some of
+it almost 2 years old.&quot;  R. Hettinger indicated that he could help.
+
+`8   The Python African Tour Request <#id10>`_
+----------------------------------------------
+
+S. Deibel noted that we received email on October 10 from Kamon Ayeva
+about &quot;The Python African Tour project&quot;
+(`http://www.openplans.org/projects/python-african-tour <http://www.openplans.org/projects/python-african-tour>`_), to discuss
+the PSF's possible association and support.
+
+S. Holden: 
+
+    First, they asked to use the PSF's name (probably also asking for
+    promotion on the web site).  We should grant that quickly.
+
+The Board agreed to take a skeptical approach.  Before we commit any
+funds we should have more details, a concrete plan.  Also, there
+should be a non-profit or other accountable entity.
+
+S. Holden will respond to the Python African Tour request: we
+will add them to our list of cooperators, and would like further
+information about their governance before considering sponsorship.
+
+`9   Adjournment <#id11>`_
+--------------------------
+
+S. Holden adjourned the meeting at 17:00 UTC.

@@ -1,0 +1,77 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+October 8, 2002. 
+
+A regular regular meeting of the Python Software Foundation (the
+"PSF") Board of Directors was held over Internet Relay Chat at 1:05 pm
+EST.  Guido van Rossum, president of the Foundation and chairman of
+the Board, presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+   meeting: Jeremy Hylton, Tim Peters, Guido van Rossum, Martin von
+   Loewis, Thomas Wouters, Marc-Andre Lemburg. A quorum was
+   present. David Ascher arrived half-way through the meeting.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+Guido moves to approve the meeting minutes of July 16th. Motion
+   passes with five ayes and one abstention. Guido moves to approve
+   the meeting minutes of September 10th. Motion passes with four ayes
+   and two abstentions.
+
+3. Spending discretion for Officers
+###################################
+
+Guido proposes to allow the Chair and Secretary to spend up to a
+   small amount without prior board approval, to give more flexibility
+   in dealing with minor issues. A short discussion follows about
+   whether it should be a small amount per occurance or a running total
+   that needs to be ratified by the board, and how ratification or
+   notification is handled. In the end, the board votes on the following
+   motion:
+
+    RESOLVED, that until further notice, the Officers of the Board
+    	can spend up to USD 500 per expense without prior board
+    	approval, but subject to prompt reporting to the Board.
+
+The motion is approved unanimously.
+
+4. Public Support Committee
+###########################
+
+Marc-Andre reports on the progress of the PSC. A number of issues
+   have come up that require board discussion:
+
+- Whether or not the requirement for fundraising institutions to       register themselves in all of the United States applies to the       PSF. The registration itself costs in excess of USD 10.000       intially and yearly, much more than the fundraising hopes to       collect. The concensus is that we can not worry about this at       this time, the requirement for registration certainly can't       apply to small-time fundraising like the PSF, and to let a tax       lawyer look at it when the time comes.
+- Which payment methods to consider. The PSC is currently looking       at payment via checks by mail, third-party credit-card payment       methods like PayPal and ShareIT, setting up a separate       credit-card site and handling the payment via Yet Another       Society. The latter has some legal implications, and setting up       a separate credit-card site is too much work. The PSC is still       discussing the other options internally.
+- The lawyer review of the contribution and rights-assignment       documents. Marc-Andre has posted some comments on the initial       review by Chris Rourk. Thomas also has some comments he will       send in. Marc-Andre will assemble the comments and take them up       with Chris Rourk.
+
+5. Conference status
+####################
+
+Guido has met with Steven Holden and suggests him as the Chair for
+   the conference. Adam Turoff declined the offers of having the PSF
+   taking the financial responsibility of the conference instead of
+   YAS, and of the PSF taking over the contract with GWU. Adam will
+   contact Guido later today for a status update. Guido remarks that
+   there is only five and a half months left until the conference, so
+   it is time to start moving. Martin asks when cancelling the
+   conference should be considered; Guido will start doing that when
+   there is less than four months left.
+
+A short discussion follows about adding a sponsor fee of about $15
+   to the conference ticket, to jump-start the public support
+   building. Thomas and David are of the opinion that it can't be
+   considered a sponsor fee if it's mandatory. Guido will take it up
+   with Adam Turoff.
+
+6. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 2:05
+   PM EST.

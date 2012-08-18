@@ -1,0 +1,119 @@
+The Python Software Foundation   Treasurer's Report
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+December 2003
+
+Outstanding Issues
+~~~~~~~~~~~~~~~~~~
+
+- Need to update address & fax number on all PSF forms
+- All Directors and Officers should verify their address       is correct in the PSF CVS repository:  psf/bod-addresses.txt        This information is required for our yearly corporate filings.
+- Vote on BizRate.com becoming pending sponsor as of Jan 1 (or Oct 1)
+- Vote on ILM becoming pending sponsor as of Jan 1 (or Oct 1)
+
+Since the email vote for a resolution did not receive enough votes,
+  I ask that two separate resolutions be voted on at the board meeting.
+  One resolution for BizRate.com and one for ILM.
+
+Treasurer Actions Completed Since Last Report:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Received sponsor membership application for BizRate.com and ILM
+- Started process to get Merchant Rate at PayPal
+- Supported implementation of PyCon registration which is up and running     	(8 paid registrations through paypal - 2 are students)
+- Sent invoices to Sponsors and Pending Sponsors         invoice #s: 205-215, excluding #208 (BizRate) and #210 (ILM)
+
+TODO:
+~~~~~
+
+- Finish getting Merchant Rate at PayPal         - this will reduce transaction costs by 0.7%
+- Send letter to STSI requesting they convert to an Emeritus Member
+- Find an accountant familiar with the public support test
+- DC sales tax exemption/becoming foreign corp in dc
+
+I have found out the following about receiving a sales tax exemption
+  in DC.  I haven't been able to verify the information.  Once I
+  get more information I will report back.
+
+I received a response from my original application.  In order 
+  to receive the exemption, we must register as a foreign
+  corporation in DC.  (see http://www.dcra.dc.gov)  We may also
+  need to have an actual office in DC (not just a registered agent).
+  I will need to clarify this with DC.
+
+In order to register as a foreign corp, we must have an address.
+  CT Corp (our resident agent in Delaware) can also act as in DC.
+  I have asked CT Corp for more information, but I don't expect much.
+  Also in order to register, we must provide a certified copy
+  of our articles of incorp.
+
+To fill out the DC forms, requires signatures from the Pres
+  or a VP and the Secretary or Asst. Secretary.  The form
+  apparently also requires our corporate seal.
+
+Here is the cost breakdown from the current info I have:
+
+.. code-block::
+
+    Initial Costs:
+            DC              Foreign Corp            $ 70
+            DC              Business Licenses       $???
+            Delaware        Cerfiticate             $109? (required to apply)
+
+        Recurring:
+            CT Corp         Resident Agent          $219
+            DC              Foreign Corp            $ 25
+            DC              Business Licenses       $???
+    						----
+    			Minimum Yearly Expense	$244
+
+It is unclear to me if we require a business license or not. 
+
+Here are some references in case anybody wants to do some research. :-)
+
+	`http://www.state.de.us/corp/ <http://www.state.de.us/corp/>`_	(info about cert for Art. of Incorp)
+
+  The expected savings for PyCon is over $1,000.
+
+Financial position of the PSF as of 30-Nov-2003
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
+
+    Current Assets:             $ 44,418.11
+        Current Liabilities:               0.00
+
+Balance sheet and expense report for last month are attached. 
+
+Note:  Bank Service Charges are the PayPal credit card processing fees.
+
+Public Support Information as of 30-Nov-2003
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In future reports, I will no longer include this section
+    unless there is a substantial change.  The PSF now meets
+    the one-third test for public support.  To calculate the
+    public support ratio, run public_support_test.py.
+
+.. code-block::
+
+    Initial test period ends: Dec 31, 2005 (over 2 years from now)
+        Current projected* ratio:   35.84%
+
+- Projections include 12 sponsors paying $2,000.00 per year,
+- Sponsors include 5 pending memberships:               OSAF, Array BioPharma, Google, ILM, BizRate.com
+- OSAF and Array BioPharma starting membership Oct 1, 2003             (received applications and checks from both)
+- Google, ILM, and BizRate.com starting membership Jan 1, 2004             (received applications from ILM and BizRate.com)
+- I was told by the IRS that STSI is a public charity.             STSI is actually AURA (http://aura-astronomy.org/)             EIN: 86-0138043 based in Tucson, AZ         This information still must be confirmed, but it seems         to be correct based on this information:             http://www.guidestar.org/controller/searchResults.gs?action_gsReport=1&npoId;=289616             http://www.guidestar.org/networkforgood/controller/searchResults.gs?action_gsReport=1&npoId;=289616
+- We exceed the one-third ration regardless of whether         STSI is exempt from the 2% limit.
+
+The public support test calculation is based on my understanding
+    of the rules which may not be correct.  For example, the cookbook
+    donations are included in total support, but are limited to 2%.
+
+More sponsors will increase the percentage because each donor
+    is limited to 2% of the gross income.
+
+Neal Norwitz,
+
+Treasurer

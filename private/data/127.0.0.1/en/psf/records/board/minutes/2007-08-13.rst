@@ -1,0 +1,159 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+August 13, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 13
+August 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in July <#new-in-july>`_
+
+- `4   PyCon UK Sponsorship Request <#pycon-uk-sponsorship-request>`_
+
+- `5   New Sponsor Member: EarnMyDegree.com <#new-sponsor-member-earnmydegree-com>`_
+
+- `6   Copyright Transfers <#copyright-transfers>`_
+
+- `7   Advocacy Coordinator <#advocacy-coordinator>`_
+
+- `8   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: David Goodger, Tim Peters, Martin von L?wis, Steve Holden,
+Stephan Deibel, and Andrew Kuchling.  Also in attendance was Kurt
+Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 9 July 2007 Board meeting minutes were approved by a 5-0-1
+vote (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 9 July 2007
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: in progress.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from March 2007, Section 12, Awards: S. Holden will prepare a proposal for a PSF awards program.     The benefits of PSF awards were discussed.  S. Holden will propose an award next month, with nomination and voting suggestions.     Status: carried forward.
+
+- Originally from March 2007, Section 16, Reviving the Grants Program: D. Goodger will send email to PSF-members about recruiting: a leader for a new grants program, an Assistant Secretary, and an Assistant Treasurer.     D. Goodger sent a call for new Grants Committee leadership on August 3, and Laura Creighton stepped forward.  A call for assistants was sent August 13, with no responses yet.     Status: **done**.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     Status: carried forward.
+
+- Originally from April 2007, Section 5, Assistants: S. Deibel will work with the Treasurer and Secretary to write up calls for assistants.     Status: **dropped** (see item 6).
+
+- Originally from April 2007, Section 6, Python Package Index (Cheese Shop): A. Kuchling will ask Thomas Wouters about increasing the memory on ximinez, and getting another machine for PyPI.     Status: carried forward.
+
+- Originally from April 2007, Section 9, New PSF Members: D. Goodger will contact the PSF members not subscribed to the PSF-Members mailing list.     Status: carried forward.
+
+- Originally from May 2007, Section 4, Frank Willison Award: D. Goodger will coordinate the selection of the 2007 recipient of the Frank Willison Award.     Status: **done**.
+
+- Originally from May 2007, Section 4, Frank Willison Award: D. Goodger will set up a page on www.python.org to list the recipients of the Frank Willison Award.     Status: in progress.
+
+- Originally from May 2007, Section 6, EuroPython Sponsorship: A. Kuchling will contact the EuroPython organizers to arrange for the PSF's sponsorship.     Status: in progress.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will produce a PSF logo based on the Python logo.     Status: in progress.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: carried forward.
+
+`3.2   New in July <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 9 July 2007 board meeting on IRC. 
+
+- Section 4, Trademark Watch: S. Deibel will update the trademark policy and announce it to the community.     Status: **done**.
+
+- Section 5, Frank Willison Award: D. Goodger will inform O'Reilly of the Board's decision to name Steve Holden as the winner of the 2007 Frank Willison Award.     Status: **done**.
+
+- Section 6, Potential New Sponsor Member: K. Kaiser will ask the organization applying for sponsor membership for information about themselves, and will inform them of other support options.     Status: **done**.
+
+- Section 6, Potential New Sponsor Member: K. Kaiser will send the Board details of a recently-received sponsor member application.     Status: **done**.
+
+`4   PyCon UK Sponsorship Request <#id6>`_
+------------------------------------------
+
+S. Deibel reported a request from John Pinner on behalf of the PyCon
+UK Society (organizers of the PyCon UK conference), for PSF
+sponsorship to fund: an additional room, A/V equipment rental, the
+travel expenses of some attendees, printing costs, and insurance.
+
+    RESOLVED, that the PSF will become a sponsor of PyCon UK 2007 and
+    will donate US $2,500 to The PyCon UK Society for its use in
+    running the conference.
+
+Approved 6-0-0. 
+
+S. Deibel will inform the PyCon UK Society of the PSF's
+sponsorship, and will request an invoice, payment information, and
+sponsorship details.
+
+`5   New Sponsor Member: EarnMyDegree.com <#id7>`_
+--------------------------------------------------
+
+EarnMyDegree.com is a company/website whose goal is to connect
+prospective students to quality education options.  They use Python
+for many projects.  Nik Papic of EarnMyDegree.com wrote: &quot;We're
+pleased with what we've seen and would like to show our support by
+giving back to the Python community.&quot;
+
+    RESOLVED, that the board of directors recommends EarnMyDegree.com
+    to the membership, as a future sponsor member of the PSF.
+
+Approved 6-0-0. 
+
+K. Kaiser will notify EarnMyDegree.com of their pending
+sponsor member status and send an invoice for sponsor dues.
+
+`6   Copyright Transfers <#id8>`_
+---------------------------------
+
+S. Deibel reported that K. Kaiser sent out copyright transfer
+agreements and nominal payments to Tim Parkin for the python.org
+design (css, etc.) and for the Python logo, and also to Michael
+Bernstein for the PyCon logo.  The transfer agreements are to be
+returned to the Secretary, D. Goodger.
+
+`7   Advocacy Coordinator <#id9>`_
+----------------------------------
+
+S. Deibel reported that Jeff Rush, the Advocacy Coordinator, has
+updated `http://wiki.python.org/moin/AdvocacyAccomplishments <http://wiki.python.org/moin/AdvocacyAccomplishments>`_.  Jeff has
+some more screencasts almost ready.
+
+M. von L?wis asked if the screencasts are properly linked into the
+website where appropriate.  Deibel replied that the main A/V page is
+`http://www.python.org/doc/av/ <http://www.python.org/doc/av/>`_ but he didn't think the 5 minute series
+is linked in yet.  &quot;When ready I think it should also get some sort of
+place on the home page.&quot;  von L?wis suggested the &quot;topic guides&quot; also.
+
+`8   Adjournment <#id10>`_
+--------------------------
+
+S. Deibel adjourned the meeting at 17:47 UTC.

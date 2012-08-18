@@ -1,0 +1,487 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+May 12, 2008
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 12
+May 2008.  Steve Holden presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New from April 14 <#new-from-april-14>`_
+
+- `4   Outstanding Receivables <#outstanding-receivables>`_
+
+- `5   Hostway Sponsor Membership Termination <#hostway-sponsor-membership-termination>`_
+
+- `6   PyCon 2009 Venue Update <#pycon-2009-venue-update>`_
+
+- `7   PyCon 2010 Bids Summary <#pycon-2010-bids-summary>`_
+
+- `8   2008 Frank Willison Award <#frank-willison-award>`_
+
+- `9   2008/2009 Budgeting <#budgeting>`_
+
+- `10   Sponsor Member Application: Propertysold.ca <#sponsor-member-application-propertysold-ca>`_
+
+- `11   Developer Documentation Project/Bounty <#developer-documentation-project-bounty>`_
+
+- `12   Choice of PSF Logo <#choice-of-psf-logo>`_
+
+- `13   Trademark Issues <#trademark-issues>`_- `13.1   Repository of Approved Logos & Dates <#repository-of-approved-logos-dates>`_  - `13.2   Copying Correspondence <#copying-correspondence>`_  - `13.3   Registration of PyCon Trademark and Logo <#registration-of-pycon-trademark-and-logo>`_
+
+- `14   PSF Employee <#psf-employee>`_
+
+- `15   Renewal of the PSF Board Server Domain <#renewal-of-the-psf-board-server-domain>`_
+
+- `16   PyCon Singapore Support <#pycon-singapore-support>`_
+
+- `17   License Simplification <#license-simplification>`_
+
+- `18   Infrastructure Committee Report <#infrastructure-committee-report>`_
+
+- `19   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, Stephan Deibel, David Goodger, Raymond
+Hettinger, Steve Holden, Martin von L?wis, Tim Peters, and James
+Tauber.  Also in attendance was Kurt Kaiser (Treasurer; arrived
+16:58).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 14 April 2008 Board meeting minutes were approved by a vote of
+8-0-0 (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 14 April 2008
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: D. Goodger will write to the Jython contributors and ask them to sign contributor agreement forms, in combination with item 2 above (transferred from A. Kuchling).     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws [with S. Deibel's help].     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: carried forward.
+
+- Originally from January 2008, Section 7, Awards Program: K. Kaiser will research the tax implications of an awards program (both domestic & international recipients).     Status: carried forward.
+
+- Originally from 10 March 2008, Section 10, Python Certification: S. Holden will rework the proposal with Van Lindberg and Tennessee Leeuwenburg as a discussion document to be posted to the members' list, as the Board considers the members' views essential.     Status: carried forward.
+
+`3.2   New from April 14 <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 14 April 2008 Board meeting on
+IRC.
+
+- Section 4, PSF Logo: D. Goodger will send the candidate PSF logos (from Marc-Andr? Lemburg and himself) to the members for comment, noting that the Board intends to choose one at the next meeting.     See `Choice of PSF Logo <#choice-of-psf-logo>`_ below.      Status: **done**.
+
+- Section 5, Treasurer's Report: S. Holden will assist K. Kaiser with accounts receivable reminders.     See `Outstanding Receivables <#outstanding-receivables>`_ below.      Status: in progress.
+
+- Section 7, PyCon Asset Record-Keeping: D. Goodger will update the assets file in PSF CVS with the details of the laptops and VGA2USB boxes purchased for PyCon 2008.     Status: in progress.
+
+- Section 8, PSF Awards Program: S. Holden will have PSF Community Award certificates designed.     S. Holden: &quot;I have contacted a designer, and hope to have a design for the next meeting.  The idea is to mail framed copies to the recipients.&quot;     Status: in progress.
+
+- Section 9, PyCon FR Sponsorship: S. Holden will publicize PyCon FR 2008 on the PSF blog.     Status: **done**.
+
+- Section 9, PyCon FR Sponsorship: D. Goodger will publicize PyCon FR 2008 on the PyCon blog.     Status: **done**.
+
+- Section 9, PyCon FR Sponsorship: S. Holden will inform Tarek Ziad? of PyCon FR that they may use the PSF logo on the sponsor list, that the PSF will provide some publicity, and that the PSF may be able to assist by funding the travel for one invited speaker.     Status: **done**.
+
+- Section 9, PyCon FR Sponsorship: S. Holden will ask the French Python Association to revise their logo, which uses a derivative of the obsolete Python graphic.     Status: **done**.
+
+- Section 10, 2008 Frank Willison Award: D. Goodger will ask Guido van Rossum for his input on the 2008 Frank Willison Award. Assuming Guido delegates the decision to the Board, David will ask previous recipients and the PSF membership at large for nominations, to be submitted no later than Friday May 9.     See `2008 Frank Willison Award <#frank-willison-award>`_ below.      Status: **done**.
+
+- Section 12, Sponsor Membership Issues: S. Holden will contact ILM to request a new sponsor membership application.     Status: carried forward.
+
+- Section 12, Sponsor Membership Issues: S. Holden will contact AT Battery to inform them of the results of their sponsor membership application (election at members' meeting).     Status: **done**.
+
+- Section 12, Sponsor Membership Issues: D. Goodger will update the member information in members.xls (sponsors & nominated members) & sponsor-addrs.txt, in PSF CVS.     Status: in progress.
+
+- Section 12, Sponsor Membership Issues: D. Goodger will inquire with sponsor Hostway about the unsubscribed PSF representative.     See `Hostway Sponsor Membership Termination  <#hostway-sponsor-membership-termination>`_ below.      Status: **dropped**.
+
+- Section 12, Sponsor Membership Issues: S. Holden will contact OSAF and inquire about their outstanding 2007 PSF sponsor invoice.     Status: carried forward.
+
+`4   Outstanding Receivables <#id6>`_
+-------------------------------------
+
+K. Kaiser was not present at the beginning, but he sent a report on
+accounts receivable to the Board list: $14K outstanding for 2007 dues,
+$6K for PyCon 2007, $12K for 2008 dues, $63K for PyCon 2008.
+
+S. Holden: 
+
+    This does not substitute for a Treasurer's report, but it's of
+    great concern.  We can't claim to be fiscally responsible with a
+    receivables situation like this.  We need to get this in order
+    quickly if we are going to be soliciting increased contributions
+    from sponsor members as a part of the general bylaws
+    reorganization.
+
+    I have put a lot of time into it.  But we also need to be more
+    systematic, so it doesn't recur.
+
+D. Goodger noted that &quot;having regular reports from the Treasurer is
+important.&quot;
+
+S. Holden: &quot;So far everything's been done by email.  Next job is
+'phone calls and letters.&quot;  M. von L?wis volunteered to help with
+letters, and R. Hettinger volunteered to help with phone calls.
+
+[Later, after K. Kaiser joined the meeting:] 
+
+R. Hettinger reminded K. Kaiser that he (Hettinger) is now the
+Assistant Treasurer and stands ready to help.
+
+`5   Hostway Sponsor Membership Termination <#id7>`_
+----------------------------------------------------
+
+S. Holden reported that Hostway has dropped out of PSF membership. 
+
+    They were valuable early PyCon sponsors, but the interest has
+    dropped with the departure of the individuals concerned.  I think
+    no further action is required, unless someone feels they should be
+    emeritus?
+
+S. Deibel: 
+
+    In general I'd prefer to use emeritus only for individuals.  For
+    example, Archaeopteryx is emeritus for no reason I can think of.
+    Note that there is a &quot;Former Members&quot; section on
+    `http://www.python.org/psf/members/ <http://www.python.org/psf/members/>`_.
+
+`6   PyCon 2009 Venue Update <#id8>`_
+-------------------------------------
+
+D. Goodger: 
+
+    We've chosen the Hyatt as the venue.  It has advantages over the
+    conference center: all in one place, most people will stay there.
+    It's more expensive than the Crowne ($135/night vs. $109 at the
+    Crowne).  We still have an obligation for rooms at Crowne, which
+    is still the budget option.  Also catering: we'll have one
+    reception there, which will cover the $65K obligation.  The bottom
+    line is that we'll need some growth to meet the room obligation.
+
+There are two contracts to sign: 
+
+    **RESOLVED**, that the PyCon Chairman be authorized to sign
+    the necessary contracts for PyCon 2009.
+
+Approved 7-0-1.
+
+`7   PyCon 2010 Bids Summary <#id9>`_
+-------------------------------------
+
+D. Goodger: 
+
+    We have 3 bids: San Francisco Bay area, Atlanta Georgia, and
+    Cleveland Ohio.  The next step is to get CTE's input on rates,
+    venues, etc.  That's ongoing.  There's no decision yet.
+
+    We should be getting info in a few days to a couple of weeks from
+    CTE.  Then RFP's go out.  We're scheduled to make a decision by
+    August 1st.
+
+The bid process is described here:
+`http://wiki.python.org/moin/PyConPlanning/BidRequirements <http://wiki.python.org/moin/PyConPlanning/BidRequirements>`_
+
+The PyCon organizing committee, led by the PyCon Chair, will prepare a
+recommendation for the Board, who will make the final decision.
+
+D. Goodger will inform the members of the bids for PyCon 2010
+as well as the bid process.
+
+`8   2008 Frank Willison Award <#id10>`_
+----------------------------------------
+
+The Board reviewed the nominations solicited from past winners and
+from the PSF members.  A winner for the 2008 Frank Willison Award for
+Contributions to the Python Community was decided.
+
+    **RESOLVED**, that the Board recommend Martin von L?wis as the
+    2008 Frank Willison Award recipient.
+
+Approved 6-0-2. 
+
+It was noted that last year another PSF Director was chosen, and &quot;we
+may not want to give the idea of always patting ourselves on the
+back&quot;.  However it was felt that Martin is clearly overdue for
+recognition of his well-known and wide-ranging contributions,
+including recent infrastructure work.
+
+[Decision details were initially omitted, and restored after OSCON 2008.] 
+
+D. Goodger will inform Guido van Rossum, O'Reilly Media, and
+the PSF members of the Board's recommendaion for the winner of the
+2008 Frank Willison Award.
+
+`9   2008/2009 Budgeting <#id11>`_
+----------------------------------
+
+S. Holden: 
+
+    Directors present last year will remember David [Goodger]'s
+    attempt to budget.  This is becoming increasingly important.  As a
+    first step, I would like you all to consider what you feel the
+    Foundation should be spending money on through the end of 2009.
+
+R. Hettinger asked &quot;How can you budget 2009 when you have [accounts
+receivable] from 2007? ;-)&quot; S. Holden replied, &quot;Agreed, but that issue
+*is* being addressed&quot;.
+
+S. Deibel noted &quot;I'm *much* more concerned about failure to track down
+unpaid dues than our lack of budget.&quot;  S. Holden: &quot;Which is why the
+unpaid dues are taking priority.  But we can't suspend the budget
+process in the interim.&quot;
+
+M. von L?wis: &quot;I think we should plan for one permanent employee. I
+think everything else follows from that (e.g. the amount of donations
+needed).&quot;  R. Hettinger: &quot;A permanent employee is going to become a
+must-have.&quot;  See `PSF Employee <#psf-employee>`_ below.
+
+S. Deibel: 
+
+    One note from another non-profit I'm on the board of: major donors
+    tend to *not* give to foundations that are entirely volunteer run;
+    in general having employees is seen as the only way to be
+    effective as an organization (and they're probably right).
+
+S. Holden will write to the members asking for input on a
+budget for 2008-2009.
+
+`10   Sponsor Member Application: Propertysold.ca <#id12>`_
+-----------------------------------------------------------
+
+The PSF received an application for sponsor membership from
+Propertysold.ca.  On 24 April 2008, Boris Michailov of Propertysold.ca
+wrote:
+
+    We began our business in early 2004 with the goal of saving people
+    money by creating a website and home marketing system that people
+    could use to sell their homes for themselves.
+
+    We thought this was a great business idea but as a start up we
+    were looking for ways to keep costs down while we developed our
+    business model and website functionality.
+
+    Naturally, we turned to the Open Source community for help running
+    all of our development on inexpensive Dell laptops with RedHat
+    Linux, Apache, MySql, PHP and Python software.
+
+    Challenged to produce a system quickly and at a low cost we turned
+    to Python to develop and test features and functionality for our
+    website.  Our programming team was already familiar with it and
+    explained that Python had a reputation for being powerful while
+    getting the job done quickly.  They suggested we develop our first
+    models using Python and so that's the route we decided on.
+
+    After 6 months of hard work in our basement we launched our
+    business online in no small part to Python and the ease with which
+    we were able to get our ideas from our head into actual functional
+    modules.  Three years later our programmers are still using Python
+    as our development platform of choice.  Thank you for being an
+    integral part of our success making it a pleasure for us to give
+    back to the Open Source community whose hours of hard work have
+    helped make our business possible and will continue to make it
+    possible moving forward in partnership.
+
+It was 
+
+    **RESOLVED**, that the Board of Directors recommends
+    PropertySold.ca to the membership, as a future sponsor member of
+    the PSF.
+
+Approved 7-0-1.
+
+`11   Developer Documentation Project/Bounty <#id13>`_
+------------------------------------------------------
+
+S. Holden reported that there were suggestions that we might
+incentivize development of better documentation.  Essentially, pay for
+documentation.
+
+B. Cannon: &quot;Problem with this is you will need a core developer to
+write those docs.&quot;
+
+R. Hettinger: &quot;I don't see the point.  We're getting more and more doc
+patches.  Georg made it pretty easy to update.&quot;
+
+S. Deibel: &quot;Maybe the goal should be to eventually be able to hire a
+few core developers full time.&quot;
+
+Further discussion was deferred.
+
+`12   Choice of PSF Logo <#id14>`_
+----------------------------------
+
+A logo for the PSF was discussed on the PSF-members list recently.
+The two options discussed were: a candidate logo derived from the
+Python logo with added human figures (from Marc-Andr? Lemburg), and
+the Python logo itself (but with PSF-specific text).  The discussion
+did not result in a clear consensus either way.
+
+S. Deibel: 
+
+    The message (in my mind) is that the idea of expressing
+    &quot;community&quot; in a logo graphic is good but it needs more thought
+    and until we can do it in a compelling way we [should] just use
+    the existing logo and text.
+
+The Board decided to adopt the existing Python logo with the words
+&quot;Python Software Foundation&quot;.  However the Board is open to
+considering other designs.
+
+- S. Holden will write to the members to describe the Board's decision regarding the PSF logo.
+
+- D. Goodger will prepare logos for the PSF, based on the Python logo graphic with the text &quot;Python Software Foundation&quot;.
+
+`13   Trademark Issues <#id15>`_
+--------------------------------
+
+S. Holden reported that Van Lindberg has raised serious concerns about
+non-approved logo usage, about EuroPython and especially PyCon UK.
+
+`13.1   Repository of Approved Logos & Dates <#id16>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Holden recommended that we should establish a list of approved uses
+of the logos.  Every time the Board approves a derived logo it should
+be logged along with the date.
+
+S. Holden: &quot;We originally meant to approve commercial uses for a
+limited time, I believe.&quot;  D. Goodger: &quot;We haven't been specifying
+1-year limits on approvals.&quot;
+
+D. Goodger recommended that the trademark policy be modified to
+clearly require approval for ALL derived logos, no matter the purpose
+(commercial or not).
+
+`13.2   Copying Correspondence <#id17>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Holden: 
+
+    We MUST copy Van Lindberg on all trademark correspondence.
+    Best if we copy the Board list too.
+
+D. Goodger: &quot;Van isn't on the Board list.  Perhaps he should be
+invited?&quot;
+
+The PSF Board mailing list is restricted to directors, officers, and
+official counsel.  The official counsel status of Van Lindberg was
+unclear; if he isn't already official counsel, he should be so
+engaged.
+
+S. Holden: &quot;My intention was that Counsel become an officer 
+position.&quot; 
+
+K. Kaiser: 
+
+    [There] might be an issue about him being an officer and
+    compensated but not an employee.  There is an IRS determination
+    about not considering officers contractors.
+
+S. Holden will investigate the appointment of Van Lindberg as
+official PSF counsel, perhaps as an officer (for further discussion
+via email).
+
+`13.3   Registration of PyCon Trademark and Logo <#id18>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Holden asked, &quot;Do we think we should register the PyCon trademark
+and logo?&quot;  S. Deibel: &quot;Yes, we should register all trademarks
+eventually, though use and enforcement are the most important things.&quot;
+
+Further discussion was deferred.
+
+`14   PSF Employee <#id19>`_
+----------------------------
+
+D. Goodger reported that he has begun working on a rough job
+description.  S. Holden has also collected a few tasks such a person
+could do.  Also see `2008/2009 Budgeting <#budgeting>`_ above.
+
+S. Deibel: 
+
+    What made ... (the other group whose Board I sit on) work was the
+    first employee they hired was this woman who is just amazing.  Her
+    vision and effectiveness has turned them into a very successful
+    non-profit with a budget in the millions from being very tiny at
+    the time.  So ... I'm not interested in ... task lists [but] the
+    opportunity to hire someone with vision.
+
+D. Goodger will send the PSF employee job description (work
+in progress) to the Board list for further discussion.
+
+`15   Renewal of the PSF Board Server Domain <#id20>`_
+------------------------------------------------------
+
+K. Kaiser reported that this is being done.  DNS is renewed, and the
+domain transfer is in progress.  The domain is owned by &quot;Kurt Kaiser
+for the PSF&quot;.
+
+`16   PyCon Singapore Support <#id21>`_
+---------------------------------------
+
+The PSF was contacted by Dr. Liew Beng Keat of the Republic
+Polytechnic school, who is interested in holding a Python conference
+in Sinapore, possibly in August 2009.  There is no action to take at
+this time.  The Board encourages and supports the formation of PyCon
+Singapore.
+
+`17   License Simplification <#id22>`_
+--------------------------------------
+
+S. Holden: 
+
+    Van [Lindberg] is attempting to track down relevant people to
+    allow us to remove various oddities like the BeOpen license from
+    the stack.  He is keen to see it as untrammelled as possible.
+
+    Van also has some interesting ideas about how tactial rewrites
+    might remove license restrictions.
+
+The Board agreed that this is worthwhile to try, though the results of
+previous efforts do not leave it hopeful.
+
+S. Holden will have Van Lindberg report on Python license
+issues to the Board mailing list.
+
+`18   Infrastructure Committee Report <#id23>`_
+-----------------------------------------------
+
+B. Cannon: 
+
+    XS4ALL is moving a machine to another rack.  [We're] understaffed
+    as always in terms of volunteers.  If MvL fell off the face of the
+    earth we would be screwed.
+
+`19   Adjournment <#id24>`_
+---------------------------
+
+S. Holden adjourned the meeting at 17:24 UTC.

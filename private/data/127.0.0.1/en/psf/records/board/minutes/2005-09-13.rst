@@ -1,0 +1,224 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+September 13, 2005
+
+A regular meeting of the Python Software Foundation (the &quot;PSF&quot;) Board
+of Directors was held over Internet Relay Chat at 17:00 UTC, September
+13, 2005.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present from the
+start of the meeting: Stephan Deibel, Martin von L?wis, Andrew
+Kuchling, Steve Holden.  Board members Tim Peters and David Ascher
+joined at 17:40 UTC.  Neil Norwitz (Treasurer), Kurt B. Kaiser
+(Assistant Treasurer), and David Goodger (Assistant Secretary) were
+also in attendance.  D. Goodger prepared these minutes.
+
+2   Minutes of Past Meetings
+----------------------------
+
+The August 2005 minutes were approved by a 3-0-1 vote.
+
+3   New Sponsor Member Application
+----------------------------------
+
+CCP Games has applied for sponsor membership of the PSF.  From their
+application:
+
+    Our motivations for joining the PSF is mainly to show our support
+    for Python and do what we can to help advancing it.  Although we
+    have not done much with regards to contributing directly to the
+    programming of Python, we feel that your extensive use of Python
+    over the past 6 years might be of some use to the PSF.
+
+M. van L?wis asked if they were aware that support can also be shown
+by donating.  Sponsor membership is not required to support the PSF,
+and members are expected to come to member meetings.  But the PSF home
+page has clearly distinct &quot;donation&quot; & &quot;sponsor membership&quot; links, and
+S. Deibel reported that he had sent email to CCP Games stating that
+
+    Sponsors have voting rights and participate in making PSF-level
+    decisions about Python.
+
+It was then 
+
+    RESOLVED, that the Board of Directors recommends CCP Games as a
+    new Sponsor of the PSF.
+
+Approved 4-0-0. 
+
+K. Kaiser then asked if a partial year invoice should be issued, and
+if so, effective when.  N. Norwitz replied that such invoices have
+been issued in the past.  The date membership is to take effect is
+indicated by the applicant on the membership form.
+
+4   Donor Levels
+----------------
+
+S. Deibel noted that M. von L?wis' concern is valid; the PSF bylaws
+&quot;are a bit odd in who ends up having voting rights&quot;.  Companies want
+to be sponsors and listed as such for their money.  But &quot;many of them
+may not really care that much about voting, or even shouldn't really
+be part of the voting core of the PSF.&quot;  All donors are listed
+together; there's no clear distinction (no logo displayed, for
+example) between $20,000 donors and $10 donors.
+
+After some discussion, the issue was tabled for now.  S. Deibel
+will add to the agenda of a future meeting, and may begin discussions
+via email before that.
+
+5   PyCon 2006 Sponsorship
+--------------------------
+
+S. Holden asked for support in seeking larger sponsorship
+contributions this year.  PyCon is likely to lose last year's platinum
+sponsor, a DC company.  S. Holden is taking sponsorship as his primary
+task for PyCon 2006.
+
+S. Deibel reported that the Public Support Committee (PSC) is still
+stalled.  He intends to take the opportunity of the PyCon 2006
+sponsorship work to make some changes, to the membership and
+structure.  The first change is to add S. Holden to the PSC
+(S. Deibel).
+
+6   Python.org Redesign
+-----------------------
+
+S. Deibel is concerned that the gap between Tim Parkin's design work
+and the actual deployment may be hard to bridge.  M. von L?wis asked
+if more money would help, but it seems to be a matter of time, will,
+and knowledge -- somebody who knows the inner workings of the web
+site.
+
+S. Holden reported that he has exchanged telephone calls and email
+with Tim Parkin on this subject, and Tim has sent an outline of his
+approach.  Tim is proposing to work out a deployment plan, starting by
+identifying all dynamic portions of the site.  Originally the plan was
+to use mod_rewrite to map old URLs onto new pages as they came
+onstream, but it seems this may not be a practical approach.  Now Tim
+plans to flag existing pages with a specific header, pointing to the
+new content.  Later they can be replaced with 301 redirects.
+
+M. von L?wis asked if we should we try to find volunteers to help Tim,
+or do we just wait until he's done it all by himself?  S. Holden
+replied that we want to recruit as many of the existing
+pydotorg-maintainers as possible, and he plans to write some
+documentation to help newbie members of the team.  A. Kuchling noted
+that the pydotorg list is seeing little action lately.
+
+M. von L?wis asked if we can identify fixed-deadline tasks for which
+we need volunteers, so they can drop out when they are done with
+specific tasks.  S. Holden replied that the plan isn't that detailed
+yet, but it needs to be before we start, so Martin's approach is
+sound.  S. Deibel suggested that if would help if the plan could
+define the areas that need work and essentially have slots for people
+to sign up.  S. Holden will encourage Tim to proceed in that
+way.  A transition plan will be drafted and sent to the psf-board
+mailing list.
+
+D. Goodger asked if the new server, dinsdale, could be used for
+deploying the new site.  A. Kuchling replied that the current web site
+will probably be moved over to the new machine befor the transition
+plan is ready.
+
+7   Infrastructure Committee Status Report
+------------------------------------------
+
+A. Kuchling reported: 
+
+- A Subversion post-commit hook has been completed, that automatically updates the live site (on dinsdale) when changes are committed.
+
+- docs.python.org is now being served from dinsdale.
+
+- The PyCon 2006 submission system is running on ximinez.
+
+- Only www.python.org (the big one!) remains to be done. A. Kuchling is targeting the move within the next month, possibly within the next two weeks.
+
+- He believes dinsdale.python.org contains all the useful content of www; but would like someone with root access on both machines to check it.  Once that's done, perhaps we can turn off creosote (if it's not doing anything any more).
+
+- Max Khesin has assembled a podcast of PyCon 2005 material.  He has found hosting for the audio at python-hosting.com.  Kuchling will be working on that (and possibly setting up audio.python.org also).
+
+8   Conference Committee Status Report
+--------------------------------------
+
+A. Kuchling reported: 
+
+- The contract is signed.  He has a copy; does anyone else need a copy?  (S. Holden mentioned that the Treasurer should have a copy [A. Kuchling], since it affects the balance sheet.)
+
+- The Call For Proposals is posted: `http://www.python.org/2006/cfp <http://www.python.org/2006/cfp>`_. &quot;Please publicize it wherever you like, and please think about making your own proposals.&quot;
+
+- The proposal submission system is in beta: ``http://submit.amk.ca``, at the moment.  Feel free to play with it, submitting fake proposals, reviewing proposals, etc.  It will be live today or (more likely) tomorrow (`http://submit.pycon.org <http://submit.pycon.org>`_).
+
+- A draft schedule is now in the main Python wiki: `http://wiki.python.org/moin/PyCon2006/ScheduleDraft <http://wiki.python.org/moin/PyCon2006/ScheduleDraft>`_     Any comments on the schedule (especially the PSF member meeting)? Any thoughts on another PSF event?
+
+- We should set the registration prices soon.
+
+9   Grants Committee
+--------------------
+
+M. von L?wis reported: 
+
+- Greg Wilson's project is progressing well.
+
+- Not sure whether we have received Ilya Etingof's signed contract yet.  (K. Kaiser reported that it hasn't been received yet, but email has been exchanged.)  The work is actually mostly done.
+
+- No word from Brian Zimmer on setting up a partial contract; M. von L?wis will have to contact him again.
+
+10   Miscellaneous Discussions
+------------------------------
+
+10.1   Trademarks & The .com Domain
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Ascher reported that he hasn't forgotten about trademarks.
+N. Norwitz mentioned that he never heard much response about being
+more aggressive in trying to get python.com.  He asked if the board
+cares, and is it worth the effort and cost of asking the lawyer to
+try.  T. Peters recalled that CNRI tried pushing for python.com
+before, with no luck.  S. Holden remarked that the PSF either has to
+pursue this aggressively (which will need deep pockets) or forget it.
+He'd like to see the current occupants moved off Python.com, but
+doesn't know what the realities are.
+
+M. von L?wis asked if the PSF lawyer should be asked what he thinks
+the chances are?  S. Holden thought it well worth spending a few
+dollars on an opinion; specifically, whether failing to pursue them
+weakens our hold on the Python trademark, and what the likely costs
+and probable outcomes of a range of possible actions would be.
+N. Norwitz said he would ask the lawyer.
+
+10.2   Open Source Foundations Meeting at EuroOSCON
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Ascher mentioned that he has been involved in a group of open
+source & related foundations who had a meeting before OSCON.  There's
+another meeting coming up at EuroOSCON, in Amsterdam, October 21 & 22.
+He asked if any of the board members would attend on behalf of the
+PSF.  M. von L?wis said he would check his availability.
+
+10.3   PSF Post Office Box Forwarding
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M. von L?wis also expressed concern that mail sent to the PSF post
+office box may be lost.  K. Kaiser hasn't seen any problems; he sees
+lots of mail forwarded from the mailbox.  S. Holden suggested a test
+mailing to confirm.
+
+10.4   SSL Certificates
+~~~~~~~~~~~~~~~~~~~~~~~
+
+T. Peters asked if there was any progress on getting Barry Warsaw a
+bill with the PSF address, to obtain SSL certificates.  K. Kaiser
+replied that Barry has valid concerns regarding an ephemeral address,
+but K. Kaiser suspects the PSF official address could be used.
+K. Kaiser will check whether he has something with that address
+that could be sent to Barry.
+
+11   Adjournment
+----------------
+
+Stephan Deibel adjourned the meeting at 18:03 UTC.

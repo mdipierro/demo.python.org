@@ -1,0 +1,72 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+January 14, 2003. 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 13:08 EST. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Tim Peters, Guido van Rossum, Thomas Wouters,
+Marc-Andre Lemburg, Martin von Loewis, David Ascher. A quorum was present.
+Steve Holden, chair of the PyCon, was also present to give a report.
+
+2. Meeting minutes of past IRC meetings.
+########################################
+
+Guido moved to approve the meeting minutes of December 10th. Motion
+passes with 1 abstention and 6 ayes.
+
+3. Secretary/Treasurer's report
+###############################
+
+We're still having a hard time getting the funds from AB Strakt
+because of international banking transfer issues.
+
+Notices about upcoming members meetings at PyCon and OSCON will be
+sent through email, as postal mail takes too long to reach non-US
+members (motion approved 7/0/0).
+
+4. Report from Marc Andre Lemburg on the PSC
+############################################
+
+Nothing to report.  MAL plans to setup a web page explaining check
+donations.
+
+5. Report from Marc Andre Lemburg  on the forms committee
+#########################################################
+
+Marc Andre sent questions to Chris Rourk.  Nothing else to report.
+
+6. Jeremy's lack of time to act as Treasurer/Secretary.
+#######################################################
+
+Jeremy Hylton has expressed that he doesn't have the time to
+continue as Secretary/Treasurer.  The board is sorry to hear it but
+understands it.  Jeremy will ask on the PSF-members list for a
+volunteer to take over his duties.
+
+7. PyCon conference status
+##########################
+
+Steve Holden reported that there were 27 submissions at this point,
+most credible.  There is a lack of "buzz" around PyCon planning.
+
+There was general agreement that the price structure should be:
+
+- $150 for early bird registration (at least 4 weeks before the conference)
+- $200 for regular registration (up to 1 day before the conference)
+- $250 for on-site registration
+
+Steve Holden was glad to learn that the PSF has some reserves, so
+that a slight loss would be ok.
+
+8. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 14:06 EST.

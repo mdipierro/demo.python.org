@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/wordstream -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/wordstream">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="wordstream-uses-python-as-their-platform-of-choice">
+<h1>WordStream Uses Python as Their Platform of Choice</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Business</p>
+<p><strong>Keywords:</strong>  Internet Marketing, Keyword Tools</p>
+<p><strong>Title:</strong>  WordStream Uses Python as Their Platform of Choice</p>
+<p><strong>Authors:</strong>   Gerard Escalante and Philip Stefou</p>
+<p><strong>Date:</strong>   2009/06/29 16:01:00</p>
+<p><strong>Web site:</strong>  <a class="reference external" href="http://www.wordstream.com/">http://www.wordstream.com/</a></p>
+<p><strong>Blog:</strong>  <a class="reference external" href="http://www.wordstream.com/blog">http://www.wordstream.com/blog</a></p>
+<p><strong>Summary:</strong>  WordStream provides keyword management solutions for search marketers worldwide and uses Python as the basis of their product technology.  Python's increased productivity, reliability and extensibility has enabled WordStream to gain a strategic advantage over its competition.</p>
+<p><strong>Logo:</strong>  .. image:: /files/success/wordstream/wordstream-logo.png    :alt: /files/success/wordstream/wordstream-logo.png</p>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p><a class="reference external" href="http://www.wordstream.com/">WordStream</a> is a provider of keyword
+management solutions for continuously optimizing and expanding PPC and SEO
+efforts, involving large numbers of keywords.  WordStream provides a scalable,
+private, online keyword workbench, for conducting keyword discovery, keyword
+suggestion, <a class="reference external" href="http://www.wordstream.com/keyword-research">keyword research</a>,
+keyword grouping, keyword organization, search marketing workflow, and for
+turning research into action.</p>
+<p>WordStream has been in development since 2007, and is developed and supported
+by an eight person engineering team. The server system is approximately 25,000
+lines of Python. The software is deployed to our servers and supports
+thousands of users worldwide.</p>
+</div>
+<div class="section" id="the-architecture">
+<h2>The Architecture</h2>
+<p>From a software perspective, WordStream is a high-availability, massively
+scalable, distributed, multi-tier client/server database application. The
+product is composed of three separate modules:</p>
+<ul class="simple">
+<li>The server backend is written in Python, and provides data storage and processing facilities.</li>
+<li>The Graphical User Interface front-end is written in Adobe Flex, and provides aid to the functionality exposed by the server.  It requires a live connection to the server in order to function.</li>
+<li>A JavaScript 'tracking code' is installed on client web pages and provides the server with active web analytics.</li>
+</ul>
+<p>Some of the other technologies we're using at the moment for WordStream are
+Adobe Flex, Linux, Apache, and C/C++. As for development process tools, we're
+using PyDev Extensions, Trac, Buildbot, Review Board, and Git.</p>
+</div>
+<div class="section" id="the-decision-to-use-python">
+<h2>The Decision to Use Python</h2>
+<p>Python was used from the start of this project. It was a bit difficult to
+recruit new developers with prior experience in Python, however our experience
+so far has been that Python has been a very easy language to pick up. Once you
+learn Python, it's hard to go back to using other languages like C/C++.</p>
+<p>There were several reasons we decided to user Python as the platform of choice
+for WordStream.</p>
+<p>First, Python code is extremely and universally readable. Developers from any
+language background can read and understand code without having to resort to
+much documentation.</p>
+<p>Second, Python is a very mature platform, with a wealth of third party
+libraries and tools. The Python suite of debugging tools are easy to find and
+work extremely well.</p>
+<p>Thirdly, Python works seamlessly across platform boundaries, which frees up
+our developers so they can use any platform to do their day-to-day
+development. It is also very easy to deploy in production, with wide support
+from all major Linux distributions.</p>
+<p>In addition, Python is suitable for rapid prototyping and development due to
+the dynamic type system, native support for common data structures (e.g., hash
+maps, sets, and lists), the &quot;batteries-included&quot; standard library, and sane
+error handling.</p>
+<p>Another reason we chose Python is that it is an excellent language for parsing
+as well as operating on collections with ease (iterating, concatenating,
+intersecting, etc.).</p>
+<p>Last but not least, if performance ever becomes an issue, it is easy to write
+extensions using the Python/C API.</p>
+<p>Understand that we did evaluate other solutions, which included Ruby and Java.
+But our impression of Ruby was that it was too immature at the time and Java
+can often be unpleasant to work with.</p>
+</div>
+<div class="section" id="project-results">
+<h2>Project Results</h2>
+<p>It is imperative that we provide 24/7/365 availability to our clients, as
+WordStream is an online Software as a Service solution used by people all
+around the world. Given that prerequisite, Python has performed magnificently.</p>
+<p>Python has proven to be a very powerful and flexible language in terms of both
+parsing and data manipulation. There are a host of favorable reviews and kudos
+online that praise Python and the product definitely delivers.</p>
+<p>Being an early stage start-up, it is always a challenge to convince talented
+engineers to leave their current positions and sign on with our development
+team. One of our most productive engineering hires had a C/C++ programming
+background with no prior experience with Python, yet was able to quickly learn
+and be productive using the language. In fact, he cited the productivity of
+Python language as being one of the reasons for signing on with us!</p>
+<p>Python does have some minor shortcomings in the areas of raw processing
+performance, and its operation in multi-threaded environments. However, these
+concerns are easily addressable using C extensions, or by building on a
+multi-process execution model.</p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>In summary, we believe the choice to base our product technology on Python
+provides WordStream with a strategic, technological advantage over our
+competitors because of the increased productivity, reliability and
+extensibility that it enables.</p>
+</div>
+<div class="section" id="about-the-authors">
+<h2>About the Authors</h2>
+<p><a class="reference external" href="http://www.wordstream.com/gerard-escalante">Gerard Escalante</a> is Vice
+President of Engineering at WordStream. He has a Bachelor of Applied Science
+degree in Computer Engineering at the University of Waterloo in Canada.</p>
+<p>Philip Stefou is a Sr. Software Engineer at WordStream.</p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

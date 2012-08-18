@@ -1,0 +1,143 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+August 16, 2010
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:09 UTC, 16
+August 2010. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Funding of PyTexas 2010 <#funding-of-pytexas-2010>`_
+
+- `5   Treasurer Report <#treasurer-report>`_
+
+- `6   Progress Report <#progress-report>`_
+
+- `7   Fund PyCon PL 2010 <#fund-pycon-pl-2010>`_
+
+- `8   Employee Healthcare <#employee-healthcare>`_
+
+- `9   New Sponsor Membership Application <#new-sponsor-membership-application>`_
+
+- `10   Fund Static PyPI Mirror on Amazon Cloudfront <#fund-static-pypi-mirror-on-amazon-cloudfront>`_
+
+- `11   Other Business <#other-business>`_
+
+- `12   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Steve Holden, Marc-Andre Lemburg, David Mertz, Doug Napoleone,
+Jesse Noller, Tim Peters, Jeff Rush, Greg Stein, James Tauber, Also in
+attendance were Kurt Kaiser (Treasurer), and Pat Campbell (Secretary &
+Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 26 July 2010 Board meeting minutes were voted on and approved. 
+
+Approved, 8-0-1.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There was one vote taken since the last Board meeting on 26 July 2010.
+
+`4   Funding of PyTexas 2010 <#id4>`_
+-------------------------------------
+
+The original Motion from J. Rush was amended: 
+
+    **RESOLVED**, that the PSF support PyTexas 2010 with a grant of $750.
+
+Approved, 12-0-1.
+
+`5   Treasurer Report <#id5>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K. Kaiser
+prior to the Board meeting. There were only a few changes in the PSF's
+financial position since the last Treasurer's Report a month ago.
+
+`6   Progress Report <#id6>`_
+-----------------------------
+
+D. Napoleone will provide an email report to the board on the new PyCon
+software.
+
+The board also discussed and recommended that all reports (committee
+reports, project reports, etc.) be submitted to the board mailing list
+at least one week before the monthly board meeting.
+
+`7   Fund PyCon PL 2010 <#id7>`_
+--------------------------------
+
+The board discussed funding of PyCon PL 2010 and agreed to provide a USD
+750 grant to conference organizers to aid with conference needs.
+
+    **RESOLVED**, that the PSF offers a USD 750 grant to the organizers of
+    the    PyCon PL 2010 conference.
+
+Approved, 8-0-1.
+
+`8   Employee Healthcare <#id8>`_
+---------------------------------
+
+The original Motion from S. Holden was amended: 
+
+    **RESOLVED**, that subject to the President's approval the PSF will
+    increase    the administrator's reimbursement by USD 400 per month.
+
+Approved, 9-0-0.
+
+`9   New Sponsor Membership Application <#id9>`_
+------------------------------------------------
+
+The board recommended Werbeagentur Berlin - Eventelligence
+ltd. as a new pending sponsor member of the PSF. The new
+member recommendation will be voted on at the next members'
+meeting.
+
+    **RESOLVED**, that the board recommends Werbeagentur Berlin
+    - Eventelligence ltd. as a pending sponsor member.
+
+Approved, 9-0-0.
+
+`10   Fund Static PyPI Mirror on Amazon Cloudfront <#id10>`_
+------------------------------------------------------------
+
+    **RESOLVED**, that the PSF will direct an initial $500 towards exploring
+    the feasability of a static PyPI (`http://pypi.python.org/ <http://pypi.python.org/>`_) mirror on a
+    cloud delivery network (CDN), setup as outlined in the proposal
+    `http://mail.python.org/mailman/private/psf-board/2010-August/013056.html <http://mail.python.org/mailman/private/psf-board/2010-August/013056.html>`_.
+    Anticipated ongoing costs will be $1944/year, subject to approval in
+    subsequent Board motions.
+
+Approved, 9-0-0.
+
+`11   Other Business <#id11>`_
+------------------------------
+
+No other business reported on at this board meeting.
+
+`12   Adjournment <#id12>`_
+---------------------------
+
+S. Holden adjourned the meeting at 17:02 UTC.

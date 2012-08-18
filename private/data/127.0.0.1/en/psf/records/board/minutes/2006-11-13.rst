@@ -1,0 +1,181 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+November 13, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:02 UTC, 13
+November 2006.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in October <#new-in-october>`_
+
+- `4   Grants Committee <#grants-committee>`_
+
+- `5   Payroll Service <#payroll-service>`_
+
+- `6   Trademark Policy <#trademark-policy>`_
+
+- `7   PyCon <#pycon>`_
+
+- `8   Advocacy Coordinator Status <#advocacy-coordinator-status>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Tim Peters, Stephan Deibel, Martin von L?wis, David Goodger,
+and Andrew Kuchling.  Also in attendance were Kurt Kaiser (Treasurer)
+and Neal Norwitz (Assistant Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 9 October 2006 minutes were approved by a 5-0-0 vote.
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 9 October 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     Status: in progress.
+
+- Originally from November 2005, follow-up from December 2005: S. Holden is to contact a potential PSF sponsor/donor.     S. Holden reported by email that there has been no response to his email or snailmail enquiries.     Status: **dropped**.
+
+- Originally from November 2005, Section 8, Trademark Policy: S. Deibel to work on the PSF trademark policy, and discuss with Heather Meeker.     See `Trademark Policy <#trademark-policy>`_ below.      Status: **done**.
+
+- Originally from March 2006, Section 4, Grants Committee: M. von L?wis agreed to draft a report on the PSF grants.     M. von L?wis posted a report to the PSF-members mailing list.  See `Grants Committee <#grants-committee>`_ below.     Status: **done**.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: in progress.
+
+- Originally from July 2006, Section 3.2, item 3: D. Goodger will update & confirm email & snail mail addresses when he receives the PSF records, with the help of M. von L?wis.     Status: carried forward.
+
+- Originally from July 2006, Section 9, 2006 Budget & Action Plan: D. Goodger will develop the 2006 Budget & Action Plan further and take it to the PSF membership for feedback.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from September 2006, Section 3.1, item 7: D. Goodger will telephone Jeremy Hylton to ask for PSF records to be sent.     Status: carried forward.
+
+- Originally from September 2006, Section 3.2, item 1: S. Holden will forward the contributor agreements from the &quot;Need for Speed&quot; sprint to D. Goodger, who will scan them.     D. Goodger reported that the &quot;Need for Speed&quot; contributor agreements were received from S. Holden.     Status: **done**.
+
+- Originally from September 2006, Section 3.2, item 7: S. Deibel and B. Cannon will follow up regarding further discussion with Mark Shuttleworth.     Status: carried forward.
+
+`3.2   New in October <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No new action items originated in the 9 October 2006 board meeting on
+IRC.
+
+`4   Grants Committee <#id6>`_
+------------------------------
+
+D. Goodger will add MvL's Grants Committee report to the web
+site.
+
+M. von L?wis will clarify the status of the Jython grant and
+provide a new figure for the outstanding grants commitment.
+
+`5   Payroll Service <#id7>`_
+-----------------------------
+
+K. Kaiser investigated using a payroll service to handle the two PSF
+employees (as an alternative to becoming a payroll tax expert).  The
+best solution he found was PayChex.  They will do all the processing
+for us: write the employee checks, make withholding deposits to the
+state and federal revenue services (debiting our account), file all
+the necessary registrations, send out W-2s, and send us periodic
+reports and copies of the various filings.  They are a well-known
+national organization and are bonded to do this service.
+
+The cost is $380 per year, based on quarterly payments.  Adding
+additional employees at a future date would not add significant cost,
+should the PSF find the need.
+
+    RESOLVED that the Treasurer is authorized to select a payroll
+    processing service for payment of PSF employees with a budget of
+    up to $500 per year.
+
+Approved 5-0-0.
+
+`6   Trademark Policy <#id8>`_
+------------------------------
+
+    RESOLVED, that the PSF adopt the trademark policy version 1.2.2,
+    available at `http://python.org/psf/trademarks <http://python.org/psf/trademarks>`_.  Any updates
+    require prior approval of the PSF board.
+
+Approved 4-0-1. 
+
+D. Goodger will add a note to the trademark policy page with
+the board resolution details.
+
+A. Kuchling will post a PSF weblog entry about the trademark
+policy.
+
+`7   PyCon <#id9>`_
+-------------------
+
+A. Kuchling provided a PyCon status report: 
+
+    104 talk proposals were submitted.  This is a significant increase
+    over last year; for 2006 we received ~80 proposals.  The final
+    accept/reject decisions still need to be made; we'll try to do
+    that this week.  A lot of the proposals look really interesting;
+    I'm quite pleased and think the refereed tracks will be very good.
+    The schedule has enough space to accept 50-60 proposals, so we'll
+    have about 50% acceptance; sadly, we'll have to reject some good
+    ones.
+
+    Confirmed keynote: Ivan Krstic of the One Laptop Per Child
+    Project.  Probable keynote: Adele Goldberg (I don't know her topic
+    yet).
+
+    A PSF members' meeting is still scheduled for the Friday; we should
+    begin preparing for that.  (Post a call for new member nominees,
+    business from members, etc.)
+
+The board discussed allocating funds for attendance costs for
+individuals attending PyCon, but decided to include this into an
+overall PyCon budget, to be prepared.  A. Kuchling will
+prepare a budget for PyCon to be discussed by email or at the next
+meeting.
+
+D. Goodger will prepare for the PSF members' meeting at
+PyCon.
+
+`8   Advocacy Coordinator Status <#id10>`_
+------------------------------------------
+
+S. Deibel reported on the status of the Advocacy Coordinator grant.
+The board discussed the progress so far and the direction for the
+future.  S. Deibel will summarize the board's discussion and
+communicate it with the Advocacy Coordinator.
+
+The Advocacy Coordinator has a wiki page
+(`http://wiki.python.org/moin/PythonAdvocacyCoordinator <http://wiki.python.org/moin/PythonAdvocacyCoordinator>`_) and a blog
+(`http://python-advocacy.blogspot.com/ <http://python-advocacy.blogspot.com/>`_).
+
+`9   Adjournment <#id11>`_
+--------------------------
+
+S. Deibel adjourned the meeting at 18:57 UTC.

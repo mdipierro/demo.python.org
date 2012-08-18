@@ -1,0 +1,108 @@
+Python 3.3.0
+------------
+
+Python 3.3.0 alpha 4 was released on May 31st, 2012. 
+
+Python 3.3 includes a range of improvements of the 3.x series, as well as easier
+porting between 2.x and 3.x.  Major new features in the 3.3 release series are:
+
+- `PEP 380 <http://www.python.org/dev/peps/pep-0380>`_, syntax for delegating to a subgenerator (``yield from``)
+
+- `PEP 393 <http://www.python.org/dev/peps/pep-0393>`_, flexible string representation (doing away with the distinction between &quot;wide&quot; and &quot;narrow&quot; Unicode builds)
+
+- A C implementation of the &quot;decimal&quot; module, with up to 80x speedup for decimal-heavy applications
+
+- The import system (__import__) is based on importlib by default
+
+- The new &quot;packaging&quot; module (also known as distutils2, and released standalone under this name), implementing the new packaging formats and deprecating &quot;distutils&quot;
+
+- The new &quot;lzma&quot; module with LZMA/XZ support
+
+- `PEP 405 <http://www.python.org/dev/peps/pep-0405>`_, virtual environment support in core
+
+- `PEP 420 <http://www.python.org/dev/peps/pep-0420>`_  , namespace package support
+
+- `PEP 3151 <http://www.python.org/dev/peps/pep-3151>`_, reworking the OS and IO exception hierarchy
+
+- `PEP 3155 <http://www.python.org/dev/peps/pep-3155>`_, qualified name for classes and functions
+
+- `PEP 409 <http://www.python.org/dev/peps/pep-0409>`_, suppressing exception context
+
+- `PEP 414 <http://www.python.org/dev/peps/pep-0414>`_, explicit Unicode literals to help with porting
+
+- `PEP 418 <http://www.python.org/dev/peps/pep-0418>`_, extended platform-independent clocks in the &quot;time&quot; module
+
+- `PEP 412 <http://www.python.org/dev/peps/pep-0412>`_, a new key-sharing dictionary implementation that significantly saves memory for object-oriented code
+
+- The new &quot;faulthandler&quot; module that helps diagnosing crashes
+
+- The new &quot;unittest.mock&quot; module
+
+- The new &quot;ipaddress&quot; module
+
+- A &quot;collections.ChainMap&quot; class for linking mappings to a single unit
+
+- Wrappers for many more POSIX functions in the &quot;os&quot; and &quot;signal&quot; modules, as well as other useful functions such as &quot;sendfile()&quot;
+
+- Hash randomization, introduced in earlier bugfix releases, is now switched on by default
+
+See these resources for further information: 
+
+- `What's new in 3.3? <http://docs.python.org/3.3/whatsnew/3.3.html>`_
+
+- `3.3 Release Schedule <http://python.org/dev/peps/pep-0398/>`_
+
+- `Change log for this release <http://hg.python.org/cpython/file/v3.3.0a4/Misc/NEWS>`_.
+
+- `Online Documentation <http://docs.python.org/3.3/>`_
+
+- Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+- `Help fund Python and its community </psf/donations/>`_.
+
+Download
+--------
+
+This is a preview release, and its use is not recommended in production
+settings.
+
+We currently support these formats for download: 
+
+- `Bzipped source tar ball (3.3.0a4) </ftp/python/3.3.0/Python-3.3.0a4.tar.bz2>`_ `(sig) </ftp/python/3.3.0/Python-3.3.0a4.tar.bz2.asc>`_, ~ 14 MB
+
+- `XZ compressed source tar ball (3.3.0a4) </ftp/python/3.3.0/Python-3.3.0a4.tar.xz>`_ `(sig) </ftp/python/3.3.0/Python-3.3.0a4.tar.xz.asc>`_, ~ 11 MB
+
+- `Gzipped source tar ball (3.3.0a4) </ftp/python/3.3.0/Python-3.3.0a4.tgz>`_ `(sig) </ftp/python/3.3.0/Python-3.3.0a4.tgz.asc>`_, ~ 16 MB
+
+- `Windows x86 MSI Installer (3.3.0a4) </ftp/python/3.3.0/python-3.3.0a4.msi>`_ `(sig) </ftp/python/3.3.0/python-3.3.0a4.msi.asc>`_ and Visual Studio debug information files `(sig) </ftp/python/3.3.0/python-3.3.0a4-pdb.zip.asc>`_
+
+- `Windows X86-64 MSI Installer (3.3.0a4) </ftp/python/3.3.0/python-3.3.0a4.amd64.msi>`_ `[1] <#id4>`_ `(sig) </ftp/python/3.3.0/python-3.3.0a4.amd64.msi.asc>`_ and Visual Studio debug information files `(sig) </ftp/python/3.3.0/python-3.3.0a4.amd64-pdb.zip.asc>`_
+
+- `Mac OS X 64-bit/32-bit Installer (3.3.0a4) for Mac OS X 10.6 and 10.7 </ftp/python/3.3.0/python-3.3.0a4-macosx10.6.dmg>`_ `[2] <#id5>`_ `(sig) </ftp/python/3.3.0/python-3.3.0a4-macosx10.6.dmg.asc>`_. [You may need an updated Tcl/Tk install to run IDLE or use Tkinter, see note 2 for instructions.]
+
+- `Mac OS X 32-bit i386/PPC Installer (3.3.0a4) for OS X 10.3 through 10.6 </ftp/python/3.3.0/python-3.3.0a4-macosx10.3.dmg>`_ `[2] <#id5>`_ `(sig) </ftp/python/3.3.0/python-3.3.0a4-macosx10.3.dmg.asc>`_
+
+The source tarballs are signed with Georg Brandl's key, which has a key id of
+36580288; the fingerprint is ``26DE A9D4 6133 91EF 3E25 C9FF 0A5B 1018 3658 0288``. The Windows installer was signed by Martin von L?wis' public key, which
+has a key id of 7D9DC8D2.  The Mac installers were signed with Ned Deily's key,
+which has a key id of 6F5E1540.  The public keys are located on the download
+page.
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    335838cab2dcaaed38740e012cc7c7d6  16913333  Python-3.3.0a4.tgz
+    4645310bd028df0dd4334022fba7caa4  14232398  Python-3.3.0a4.tar.bz2
+    4d80173b6832fad4ca0f8c4433ae3435  11669656  Python-3.3.0a4.tar.xz
+    c89344405ba2443f48948ac225090a07  22463707  python-3.3.0a4-macosx10.3.dmg
+    b4a7959f39e67ea9a9f40194a9307b34  19283955  python-3.3.0a4-macosx10.6.dmg
+    6ea606f05cc0d6836fb148888be5c424  20885504  python-3.3.0a4.amd64.msi
+    5d1f5f6ff27f75a08acc0289964fa123  20480000  python-3.3.0a4.msi
+    d592413a096ab76d0c709b93c453eeca  21350774  python-3.3.0a4-pdb.zip
+    dfd22cac7863dfc39dec980663ac3257  18406672  python-3.3.0a4.amd64-pdb.zip
+
+**MISSING**
+`[1] <#id1>`_  The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).
+**MISSING**
+[2]  *(`1 <#id2>`_, `2 <#id3>`_)* There is important information about IDLE, Tkinter, and Tcl/Tk on Mac OS X here.  Also, on Mac OS X 10.6, if you need to build C extension modules with the 32-bit-only Python installed, you will need Apple Xcode 3, not 4.  The 64-bit/32-bit Python can use either Xcode 3 or Xcode 4.

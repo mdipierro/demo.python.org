@@ -1,0 +1,118 @@
+Creators of Python Sponsor PyCon 2003, First Annual Developers Conference in March
+==================================================================================
+
+*FREDERICKSBURG, VA, February 13, 2003*
+
+No, it's not a snake or the name of a British comedy group. `Python <http://python.org/>`_ is one of the most useful, compelling and
+intelligently designed programming platforms to have emerged into the computer
+industry mainstream in recent years. It is rapidly gaining wide acceptance and
+being deployed in major IT shops around the world.
+
+Software developers now have an opportunity to learn more about this exciting
+platform from the people who created it in the first place. The Python
+Software Foundation's first annual Python conference for developers, `PyCon 2003 <http://python.org/pycon>`_, is a community-oriented event
+that targets programmers working with the language -- and on the language
+itself. It provides opportunities to learn about significant advances in
+Python development, to participate in a programming sprint with some of the
+leading minds in the Python community, and to meet fellow developers from
+around the world.
+
+Python was originally created in the early '90s by Guido van Rossum as a
+language that could be used to teach the most advanced concepts of programming
+to non-programmers. Over the past decade, Python has grown world-wide into a
+programming language that is used in mission-critical applications by major
+players such as Google, Philips, Nasa, AstraZeneca, Industrial Light and
+Magic, and Rackspace. Python is also used extensively in universities and by
+many research groups.
+
+Python stresses readability, simplicity and elegance. Says van Rossum: "As an
+object-oriented language, Python aims to encourage the creation of reusable
+code. Even if we all wrote perfect documentation all of the time, code can
+hardly be considered reusable if it's not readable." Python is also extremely
+portable. There are currently identical versions available for nearly every
+computing platform, major and obscure, from PDAs to mainframes. Python is also
+an open-source platform, which encourages sharing of ideas and code. These
+characteristics make Python an excellent choice for enterprise application
+integration, large-scale web development, Web services, XML processing,
+application scripting, and even GUI development.
+
+"We're constantly amazed at the depth and breadth of our customer base," says
+Stephan Deibel, co-Founder of Archaeopteryx
+Software, a leading vendor of Python development tools. "Python is being
+used in just about every imaginable domain, quite literally from soup
+factories to shipyards. Python is a solution that every programmer should at
+least be aware of."
+
+The first PyCon will be held 26-28 March, 2003, at George Washington
+University's Cafritz Conference Center in Washington DC. For those who want to
+get a hands-on opportunity to work on the language itself with the core Python
+development group, there is also a coding sprint before the conference, on
+Monday and Tuesday, March 24-25.
+
+Early-bird registration for the conference (until February 28, 2003) has been
+set at US $150. Subsequent pre-conference registration will cost US $200; and
+the fee to register at the conference itself will be US $250.
+
+For more information or to register, please visit the PyCon 2003 website:
+`http://python.org/pycon <http://python.org/pycon>`_.
+
+Interested would-be contributors can still contact the conference organizers
+at to suggest a presentation or other activities of interest to Python users
+and developers: `pycondc-2003@python.org <mailto:pycondc-2003@python.org>`_.
+
+In addition to the Python Software Foundation, other sponsors of the event are
+software companies involved in the Python community, including `Active State <http://www.activestate.com/>`_, `Zeomega <http://www.zeomega.com/>`_, `Archaeopteryx Software <http://wingide.com/>`_, and `Zoteca <http://www.zoteca.com/>`_.
+
+**About Python** 
+
+Python is a powerful object oriented programming language that is developed
+and maintained by a global community of Open Source contributors, under the
+oversight of the Python Software Foundation (PSF). Python's unique blend of
+simplicity and power excels in a wide range of business and research
+development tasks, including the construction of web applications, complex
+business solutions, and large desktop applications.
+
+Python significantly increases programmer productivity over languages such as
+C, C++, Java, and Visual Basic. The language's global user base is estimated
+in the hundreds of thousands and is growing rapidly. Python runs on Microsoft
+Windows, Macintosh, Linux, Unix, OS/2, WinCE, and many other operating
+systems. Full source code is available for the language and associated
+standard libraries.
+
+Key features of Python include: 
+
+- Object orientation, modular name spaces, exceptions, and multi-threading
+- High-level dynamic data typing and very late binding
+- Tight integration with C, C++, and Java modules
+- May be compiled to Java byte code for use in any JVM
+- String and regular expression processing
+- Extensive XML and web services support
+- HTTP, FTP, SMTP, POP, IMAP, NNTP, telnet, and other IP protocols
+- HTML, MIME, base64, binhex, uuencode, and other internet data handling
+- GUI development and multimedia services
+- Unit testing, profiling, and documentation generation
+- Restricted execution security option
+- Available third party modules for database access, math, 3D modeling,  image processing, LDAP, WebDAV, jabber, MIDI, and much more
+
+More information and downloads are available at `http://python.org <http://python.org/>`_.
+
+**About the PSF** 
+
+The Python Software Foundation (PSF) is a non-profit organization devoted to
+advancing Open Source technology related to the Python programming language.
+The PSF holds the intellectual property rights to Python. Additional
+information is available at `http://python.org/psf <http://python.org/psf>`_.
+
+**Press Contact** 
+
+Aron Trauring, Zoteca
+
+2472 Broadway, Suite 195
+
+New York, NY 10025
+
+1 866 968-3221
+
+aronst@zoteca.com
+
+`http://www.zoteca.com/ <http://www.zoteca.com/>`_

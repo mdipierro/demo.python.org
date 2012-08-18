@@ -1,0 +1,155 @@
+The Python Software Foundation 
+
+Minutes of a Special Meeting of the Board of Directors 
+
+February 25, 2007
+
+A special meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held at PyCon 2007 in Dallas at 12:30 CST (18:30 UTC),
+25 February 2007.  Stephan Deibel presided at the meeting.  David
+Goodger prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Election of Officers <#election-of-officers>`_
+
+- `3   Motion to Dissolve the Grants Committee <#motion-to-dissolve-the-grants-committee>`_
+
+- `4   Motion to Dissolve the Public Support Committee <#motion-to-dissolve-the-public-support-committee>`_
+
+- `5   Discussion of the &quot;Twisted Foundation&quot; <#discussion-of-the-twisted-foundation>`_
+
+- `6   Conference Committee <#conference-committee>`_
+
+- `7   Budget & Action Plan <#budget-action-plan>`_
+
+- `8   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Andrew Kuchling, Brett Cannon, Steve Holden,
+and David Goodger.  Also in attendance was Guido van Rossum
+(President).
+
+`2   Election of Officers <#id2>`_
+----------------------------------
+
+The following officers were elected by acclamation: 
+
+**MISSING**
+**MISSING**
+**President:**  Guido van Rossum
+
+**Chairman:**  Stephan Deibel
+
+**Vice Chairman:**  Steve Holden
+
+**Secretary:**  David Goodger
+
+**Treasurer:**  Kurt Kaiser
+
+**Assistant Treasurer:**
+
+Neal Norwitz
+
+**Executive Vice President:**
+
+Brett Cannon
+
+**Vice President:**  Andrew Kuchling
+
+`3   Motion to Dissolve the Grants Committee <#id3>`_
+-----------------------------------------------------
+
+As the Grants Program begun in 2004 has concluded, 
+
+    **RESOLVED**, that the Grants Committee is dissolved.
+
+Approved by a 5-0-0 vote (*in favor ? opposed ? abstentions*). 
+
+A new Grants Committee may be formed in the future for a new Grants
+Program.
+
+`4   Motion to Dissolve the Public Support Committee <#id4>`_
+-------------------------------------------------------------
+
+As the Public Support Committee (PSC) has been inactive for some time, 
+
+    **RESOLVED**, that the Public Support Committee is dissolved.
+
+Approved by a 5-0-0 vote.
+
+`5   Discussion of the &quot;Twisted Foundation&quot; <#id5>`_
+--------------------------------------------------------------
+
+The Twisted project is actively working toward establishing a
+foundation, and have informally approached the PSF for sponsorship.
+After discussion, it was decided to take no action at present.  The
+idea of the PSF as an umbrella organization was revisited.
+
+`6   Conference Committee <#id6>`_
+----------------------------------
+
+D. Goodger summarized the PyCon 2008 bids presented at morning
+meetings during the conference (Saturday February 24 & Sunday February
+25).
+
+**Chicago**: Ted Pollari presented a bid from ChiPy (the Chicago
+Python User Group) for Chicago at the Crowne Plaza Chicago O'Hare
+hotel, with talk days on March 14-16 (Friday-Sunday), a tutorial day
+before, and sprints after.  The hotel's meeting space is much larger
+than that of the Marriott in Dallas: a ballroom almost triple the
+size, and many more rooms for tutorials and break-out sessions.  The
+hotel has more sleeping rooms as well.  The hotel's room rate is
+$99/night (+ tax), with a 10% commission to PyCon.  The Chicago bid
+includes provision for hiring the meeting planner they have been
+working with; the meeting planner will handle hotel negotiations and
+many logistical tasks.
+
+**San Francisco Bay Area**: Alvin Wang presented a bid for PyCon 2008
+& 2009 at the San Mateo Marriott, with talk days February 22-24 2008
+and February 20-23 2009, a tutorial day before, and sprints after.
+The attraction of the Bay area is the proximity to so many high-tech
+companies, and the warmer weather.  The room rate is $119 (+ tax),
+non-commissionable.  The meeting space is comparable to that of the
+Dallas Marriott, with more small & medium-sized rooms but a slightly
+smaller main ballroom.
+
+After some discussion, considering the potential for growth of PyCon
+in 2008 and considering the room rate,
+
+    **RESOLVED**, that the Chicago bid be accepted for PyCon 2008.
+
+Approved by a 5-0-0 vote. 
+
+The San Francisco Bay Area may be revisited for a future PyCon.  The
+Board thanks Alvin Wang for his efforts.
+
+The Conference Committee should decide on venues with a lead time of
+at least 18 months.  The venue for PyCon 2009 should be decided well
+before PyCon 2008 is underway.
+
+Regarding PyCon 2007, the experiment of piping sound into the hall for
+the lunchtime presentations was deemed less than successful.  Perhaps
+presentations during lunch should be rethought.
+
+`7   Budget & Action Plan <#id7>`_
+--------------------------------------
+
+S. Holden suggested that a focus on travel grants and sprints may be
+the most effective use of our funds.
+
+The concept of a target asset balance or reserve, and the $150,000
+figure for a target asset balance, were both approved informally.
+
+Idea: establish funding guidelines (bright-line rules) and/or a
+funding FAQ.
+
+`8   Adjournment <#id8>`_
+-------------------------
+
+S. Deibel adjourned the meeting at 13:45 CST (19:45 UTC).

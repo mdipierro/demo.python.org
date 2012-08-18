@@ -1,0 +1,387 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+June 8, 2009
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 8
+June 2009.  Steve Holden presided at the meeting.  Pat Campbell
+and David Goodger prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_- `3.1   Support MSU/Snakebite Funding Application to Mellon Foundation <#support-msu-snakebite-funding-application-to-mellon-foundation>`_  - `3.2   $800 Grant to GNOME Foundation <#grant-to-gnome-foundation>`_
+
+- `4   Status of Past Action Items <#status-of-past-action-items>`_- `4.1   Carried Forward <#carried-forward>`_  - `4.2   New On 11 May <#new-on-11-may>`_  - `4.3   New Between Meetings <#new-between-meetings>`_
+
+- `5   Grant Funding for SciPy 2009 Student Sponsorship <#grant-funding-for-scipy-2009-student-sponsorship>`_
+
+- `6   Domain Name Management <#domain-name-management>`_
+
+- `7   Funding for PyCon Talk Recording Process Improvement <#funding-for-pycon-talk-recording-process-improvement>`_
+
+- `8   Licensing of PSF Trademark Policy <#licensing-of-psf-trademark-policy>`_
+
+- `9   PSF funding of PyCon 2010 Conference Planning <#psf-funding-of-pycon-2010-conference-planning>`_
+
+- `10   PyCon 2011 Venue <#pycon-2011-venue>`_
+
+- `11   CTE Contracts for PyCon 2010 <#cte-contracts-for-pycon-2010>`_
+
+- `12   PSF Community Award Nominations (2nd Quarter) <#psf-community-award-nominations-2nd-quarter>`_
+
+- `13   Frank Willison Award Nominations <#frank-willison-award-nominations>`_
+
+- `14   Progress Reports <#progress-reports>`_
+
+- `15   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, David Goodger, Raymond Hettinger, Steve Holden,
+Andrew Kuchling, Martin von L?wis , David Mertz, Tim Peters, Jeff
+Rush, and James Tauber.  Also in attendance were Kurt Kaiser
+(Treasurer) and Pat Campbell (Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 11 May 2009 Board meeting minutes were approved by a vote of
+10-0-0.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+Two votes were taken since the last Board meeting on 11 May. 
+
+`3.1   Support MSU/Snakebite Funding Application to Mellon Foundation <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    **RESOLVED**, that in the event of the &quot;Python Bildhaus&quot; proposal
+    receiving funding from the Mellon Award for Technology Collaboration,
+    the PSF will contribute complimentary PyCon registration and hotel
+    accommodations for two students involved each year for the duration
+    of the project.
+
+Approved by unanimous email vote, May 14, 2009.
+
+`3.2   $800 Grant to GNOME Foundation <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    **RESOLVED**, that the PSF support Libre Graphics Meeting 2009
+    through an $800 grant to the GNOME Foundation.
+
+Approved by unanimous email vote, May 16, 2009.
+
+`4   Status of Past Action Items <#id6>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+Action items are tracked in `the private PSF wiki <http://wiki.python.org/psf/Action_Items>`_ and their status is
+recorded in the regular minutes.  The numbers in square brackets (like
+&quot;[0]&quot;) refer to the action item ID on the wiki.
+
+`4.1   Carried Forward <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 11 May
+2009 meeting, as highlighted in the minutes (Section 4, Status of Past
+Action Items).  Numbers in [brackets] represent the item ID in the PSF
+private wiki.
+
+- [11] Originally from June 2006, Section 6, PSF Records: **MISSING**      Item updated on 2009-06-08.      Status: active.
+
+- [30] Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: pending.
+
+- [23] Originally from 14 April 2008, Section 5, Treasurer's Report: S. Holden will assist K. Kaiser with accounts receivable reminders.     Item passed from S. Holden to  P. Campbell on 2008-12-08.      Status: active.
+
+- [15] Originally from 14 April 2008, Section 7, PyCon Asset Record-Keeping: D. Goodger will update the assets file in PSF CVS with the details of the laptops and VGA2USB boxes purchased for PyCon 2008.     Status: pending.
+
+- [16] Originally from 14 April 2008, Section 12, Sponsor Membership Issues: D. Goodger and P. Campbell will update the member information in members.xls (sponsors & nominated members) & sponsor-addrs.txt, in PSF CVS.     Status: active.
+
+- [22] Originally from 16 June 2008, Section 6.1, Treasurer's Report: K. Kaiser will submit an expanded report to psf-members.     Status: active.
+
+- [4] Originally from 16 June 2008, Section 6.2, Treasurer's Report: D. Goodger will follow up regarding the PyCon transaction analysis.     Status: pending.
+
+- [5] Originally from 16 June 2008, Section 6.3, Treasurer's Report: D. Goodger will ensure that documentation for unpaid PyCon tutorials is found and provided.     Status: **done**.
+
+- [9] Originally from 16 June 2008, Section 6.7, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon sponsorships.     Status: **done**.
+
+- [10] Originally from 16 June 2008, Section 6.8, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon registrations.     Status: pending.
+
+- [25] Originally from 11 August 2008, Section 6.2, PyCon UK Sponsorship: R. Hettinger will propose a blanket policy for sponsorships, instead of one-off requests.     Status: pending.
+
+- [17] Originally from 8 September 2008, Section 7, PSF Logo: D. Goodger will produce final layouts for a PSF logo.     Status: pending.
+
+- [34] Originally from 8 December 2008, Section 5, Role of Administrator: D. Goodger and P. Campbell will verify and update the member contact information.     Status: active.
+
+- [38] Originally from 12 January 2009, Section 7.2, Trademarks Committee (TMC): J. Tauber will work with the Trademarks Committee on establishing voting procedures.     Status: pending.
+
+- [39] Originally from 12 January 2009, Section 7.3, Trademarks Committee (TMC): J. Tauber will document the Trademarks Committee procedure as discussed at the Board meeting.     Status: pending.
+
+- [40] Originally from 12 January 2009, Section 7.4, Trademarks Committee (TMC): J. Tauber will work with counsel on a proposal to register Python trademarks.     Status: pending.
+
+- [42] Originally from 12 January 2009, Section 10, Legal Issues: K. Kaiser will look into acquiring errors and omissions insurance for the Board of Directors.     Status: pending.
+
+- [43] Originally from 9 February 2009, Section 9, Internet Domain Management: S. Holden will frame a motion regarding the management of the PSF's Internet domains.     Status: **done**.
+
+- [44] Originally from 9 February 2009, Section 12, PSF Community Awards: D. Goodger will ask the members for nominations for the PSF Community Awards.     Status: **done**.
+
+- [46] Originally from 12 March 2009, Section 5, Internet Domain Management: S. Holden will ask Sean Reifschneider about domain management services.     Status: **done**.
+
+- [50] Originally from 12 March 2009, Section 8, Account Signature Authority: K. Kaiser will obtain signature cards from the PSF's bank and coordinate their signing.     Status: pending.
+
+- [51] Originally from 27 March 2009, Section 4, New Members: D.  Goodger and P. Campbell will inform the new members of their election, invite them to join the psf-members list, and will update the membership records.     Email sent to new sponsor members on 2009-06-08.      Status: active.
+
+- [52] Originally from 27 March 2009, Section 5, PSF Community Awards: P. Campbell will add &quot;PSF Community Award nominations&quot; to the Board agenda quarterly.     Status: active.
+
+- [45] Added 2009-05-08: A. Kuchling will design, write, and deploy a Python for Beginners site. (Discussion/notes in public wiki).     Status: active.
+
+- [57] Added 2009-05-08: A. Kuchling will analyze how much 'coverage' we have in contributor agreements and if there are any high-profile contributors who haven't signed agreements. Go after people to improve our coverage. (Transferred from #13, Dec 2006 ?4.)     Status: active.
+
+`4.2   New On 11 May <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 11 May 2009 Board meeting on IRC. 
+
+- [58] Section 5, New Memory for PSF Computer: M. von L?wis will purchase new memory to replace faulty memory on a PSF computer.
+
+- [59] Section 6, PyCon Funding for GSoC Administrator: S. Holden will notify Titus Brown and Arc Riley about the PyCon funding for the GSoC Administrator.
+
+- [60] Section 7, &quot;NiceTime&quot; Grant Application: S. Holden will ask Ian Benson for an updated &quot;NiceTime&quot; proposal with a detailed budget.
+
+- [61] Section 10, Funding Application for EuroPython: S. Holden will inform the EuroPython organizers of the PSF's funding and will ask for an invoice.
+
+- [62] Section 11, Nominations for Frank Willison Award: D. Goodger will confirm the Frank Willison Award selection process with Guido van Rossum, and will communicate the Board's feelings as discussed at the 11 May Board meeting.
+
+- [63] Section 11, Nominations for Frank Willison Award: D. Goodger will coordinate the gathering of nominations for the 2009 Frank Willison Award.
+
+- [64] Section 12, Quarterly Nominations for PSF Community Awards: P. Campbell will mail out awards to first quarter recipients of the PSF Community Awards.
+
+- [65] Section 13, Board Email List and Repository Access to PSF Administrator: S. Holden will initiate further discussion via email about adding the PSF Administrator to the Board email list and granting access to the repository.
+
+- [66] Section 14, Contract Renewal for Conference Coordinator: S. Holden will draw up a formal renewal contract for D. Goodger, with the assistance of V. Lindberg.
+
+- [67] Section 14, Contract Renewal for Conference Coordinator: S. Holden will make a formal written offer of employment as Conference Coordinator to D. Goodger once the contract is agreed.
+
+- [68] Section 15, PyCon Report: D. Goodger will update the Board by email as soon as the PyCon 2009 financial information is available.
+
+`4.3   New Between Meetings <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No action items were added since the last Board meeting on 11 May.
+
+`5   Grant Funding for SciPy 2009 Student Sponsorship <#id10>`_
+---------------------------------------------------------------
+
+The Board discussed a $10K funding request for the SciPy 2009
+conference to sponsor student attendance.
+
+T. Peters: &quot;I like the SciPy proposal. It was clear and nicely
+justified.&quot;
+
+M. v. L?wis: &quot;I'm a bit skeptical about funding
+registration. Otherwise it looks fine to me.&quot;
+
+D. Goodger: &quot;Last year's SciPy grant was $7500.&quot; 
+
+T. Peters: &quot;This year it works out to $1K for each of 10 &quot;involved&quot;
+students, which seems an investment to me.&quot;
+
+    **RESOLVED**, that SciPy 2009 be offered grant funding of $10,000.
+
+Approved, 10-0-0. 
+
+[71] S. Holden will inform the SciPy 2009 organizers of the
+PSF's funding for student attendance and will ask for an invoice.
+
+`6   Domain Name Management <#id11>`_
+-------------------------------------
+
+The Board agreed that it was reasonable to put PSF-owned domains under
+external management.  S. Holden: &quot;Basically I am just trying to ensure
+continuity without action by directors/staff.&quot;
+
+    **RESOLVED**, that all domains under PSF control should be managed
+    by tummy.com ltd, at an annual cost of $25 per domain.
+
+Approved, 10-0-0. 
+
+The pycon.org domain was discussed.  While there is a strong desire to
+bring the domain under the PSF's control, the domain's owner
+(Marc-Andr? Lemburg) is reliably and responsively managing it.
+
+A. Kuchling noted that &quot;we do need to document how new domains will be
+brought to tummy's attention&quot;.
+
+S. Holden: &quot;Good point. I imagine they'll brief us on procedures. We
+need to keep Pat in the loop there.&quot;
+
+`7   Funding for PyCon Talk Recording Process Improvement <#id12>`_
+-------------------------------------------------------------------
+
+S. Holden: 
+
+    Carl's point is that we need to train video volunteers for PyCon
+    2010, and that we will also get some user group content.  I feel
+    this would be helpful. He will also improve the documentation.
+
+    Mostly he wants to fine-tune his system so that user groups can
+    eventually get a kit and record their own meetings.
+
+    If we could get to the stage where the equipment we have bought
+    can be used to help user groups produce better recordings, I think
+    that would be very worthwhile.
+
+Aspects of the proposal were discussed: the money is for compensation
+for time spent; concerns about Carl's ability to do documentation; the
+link to recruitment of A/V volunteers.
+
+    **RESOLVED**, that Carl Karsten be funded with a grant of $2,000
+    for approximately 40 hours of experimentation and documentation
+    work to improve the video recording process.
+
+Approved, 9-1-0.
+
+`8   Licensing of PSF Trademark Policy <#id13>`_
+------------------------------------------------
+
+S. Holden: &quot;Do we want to license the policy, or simply declare that
+anyone who wishes to is free to derive their own policies from it?&quot;
+
+The Board discussed adding a Creative Commons license the trademark
+policy text.  It was proposed to release the policy text to the public
+domain.  T. Peters noted that &quot;our last lawyer (Larry Rosen) insisted
+that it was legally meaningless for us to try to put anything in the
+'public domain'&quot;.  D. Goodger mentioned the CC0 license as a
+possibility.
+
+    **RESOLVED**, that the Trademark Policy be published under the
+    Creative Commons 3.0 Attribution license at
+    `http://creativecommons.org/licenses/by/3.0/us/ <http://creativecommons.org/licenses/by/3.0/us/>`_.
+
+Defeated, 4-5-1. 
+
+After further discussion the initial vote was defeated and the Board
+agreed to consult with V. Lindberg on licensing. His advice was
+forthcoming by email during the meeting and a further vote was taken
+on an amended motion.
+
+    **RESOLVED**, that the Trademark Policy be published under the
+    Creative Commons CC0 license
+    (`http://creativecommons.org/about/cc0 <http://creativecommons.org/about/cc0>`_).
+
+Approved, 9-0-1. 
+
+- [73] S. Holden will inform the original inquirer of the trademark policy licensing under the Creative Commons CC0 license at http://creativecommons.org/about/cc0.
+
+- [74] D. Goodger will edit the trademark policy web page to reflect its Creative Commons CC0 licensing.
+
+`9   PSF funding of PyCon 2010 Conference Planning <#id14>`_
+------------------------------------------------------------
+
+The Board discussed PSF funding be provided for a business trip to
+Atlanta by Sean Reifschneider and David Goodger to plan for the PyCon
+2010 Conference, discuss PyCon internet, and survey the venue.
+
+    **RESOLVED**, that the PSF fund travel expenses including meals
+    for David Goodger and Sean Reifschneider to visit Atlanta and plan
+    PyCon 2010.
+
+Approved, 9-0-1.
+
+`10   PyCon 2011 Venue <#id15>`_
+--------------------------------
+
+D. Goodger requested the Board's approval to hold PyCon 2011 in
+Atlanta at the same venue as PyCon 2010.  The Board agreed.
+
+D. Goodger noted that the venue contract would be coming soon, and
+that an email vote will be required.
+
+`11   CTE Contracts for PyCon 2010 <#id16>`_
+--------------------------------------------
+
+    **RESOLVED**, that David Goodger is authorized to obligate the PSF
+    under the Conference Technology Enhancements, Inc. (CTE) Housing &
+    Meeting Planning contracts ([1], [2]) for PyCon 2010.
+
+    [1] pycon/2010/CTE-housing.pdf in PSF CVS 
+
+    [2] pycon/2010/CTE-meeting-planning.pdf in PSF CVS
+
+Approved, 9-0-1. 
+
+A. Kuchling: 
+
+    Housing will use CTE's registration system.  Could we contemplate
+    using CTE's system for online registration, too?  Should we?
+
+D. Goodger: &quot;Our needs are so odd that [CTE's] system doesn't apply.&quot; 
+
+[75] D. Goodger will sign and fax the CTE contracts for PyCon
+2010.
+
+`12   PSF Community Award Nominations (2nd Quarter) <#id17>`_
+-------------------------------------------------------------
+
+S. Holden noted that the Board had already decided to grant Stephan
+Deibel a PSF Community Award.
+
+    **RESOLVED**, that Sean Reifschneider (of tummy.com, ltd) be
+    awarded the PSF Community Award for long-term assistance with
+    PyCon networking.
+
+Approved, 10-0-0. 
+
+D. Goodger recommended that those attending EuroPython look for
+deserving people there.
+
+- [69] P. Campbell will mail out awards to second quarter recipients of the PSF Community Awards.
+
+- [76] S. Holden will write PSF blog entry about second quarter recipients of the PSF Community Awards and send email to PSF members.
+
+`13   Frank Willison Award Nominations <#id18>`_
+------------------------------------------------
+
+The Board took some time to decide on a recommendation, since everyone
+nominated is worthy of the award.
+
+*[Details temporarily omitted from the public minutes, to be restored
+after OSCON 2009.]*
+
+[78] S. Holden will communicate the results of the Frank
+Willison Award nomination to G. v. Rossum and O'Reilly.
+
+`14   Progress Reports <#id19>`_
+--------------------------------
+
+A. Kuchling: &quot;Still working on Python introductory micro-site. ... I'm
+increasingly thinking we need to pick up the budget task again.&quot;
+
+D. Goodger: &quot;Nothing new on PyCon since my email reports last week.
+... I have some forms to send to Pat [Campbell] for scanning.&quot;
+
+R. Hettinger: &quot;I'm still working on contributor agreements. Several
+more people have replied.&quot;
+
+- [70] A. Kuchling will draw up a PSF budget plan.
+
+- [77] S. Holden will write to CTE Housing Staff to thank them for the excellent results involving PyCon and the hotel attrition charges.
+
+`15   Adjournment <#id20>`_
+---------------------------
+
+S. Holden adjourned the meeting at 17:05 UTC.

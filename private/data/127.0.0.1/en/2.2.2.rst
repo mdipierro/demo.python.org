@@ -1,0 +1,81 @@
+Python 2.2.2
+------------
+
+    *Note:   See `Python 2.2.3 <../2.2.3/>`_ for a patch
+    release which supersedes 2.2.2.*
+
+    **Important:** This release is vulnerable to the problem described in
+      `security advisory PSF-2006-001 </news/security/PSF-2006-001/>`_
+      "Buffer overrun in repr() of unicode strings in wide unicode
+      builds (UCS-4)".  This fix is included in
+      `Python 2.4.4 <../2.4.4/>`_
+      and `Python 2.5 <../2.5/>`_. If you need to remain with Python 2.2,
+      there's a patch available from the security advisory page.
+
+We are pleased to announce the release of **Python 2.2.2**, on
+October 14, 2002.  This is a bug-fix release for Python
+2.2 and supersedes the previous bugfix release,
+`Python 2.2.1 <../2.2.1/>`_.
+
+Download the release
+~~~~~~~~~~~~~~~~~~~~
+
+**Windows** users should download the Windows installer, `Python-2.2.2.exe </ftp/python/2.2.2/Python-2.2.2.exe>`_,
+run it and follow the friendly instructions on the screen to complete
+the installation.
+Windows users may also be interested in Mark
+Hammond's `win32all <http://starship.python.net/crew/mhammond/>`_, a collection of Windows-specific extensions including
+COM support and Pythonwin, an IDE built using Windows components.
+
+**Linux users** may find source and some binary RPMs on the
+`RPM page <rpms>`_. Debian packages are available
+directly from the Debian project, under interpreters (new
+releases initially appear in unstable).
+
+**Macintosh** users can find binaries and source on 
+
+Jack Jansen's `MacPython page <http://www.cwi.nl/~jack/macpython.html>`_.
+(MacOS X users who have a C compiler can also build from the source
+tarball below.)
+
+**All others** should download `Python-2.2.2.tgz </ftp/python/2.2.2/Python-2.2.2.tgz>`_, the
+source tarball, and do the usual "gunzip; tar; configure; make" dance.
+
+What's New?
+~~~~~~~~~~~
+
+This being a bug-fix release, there have been no exciting new features
+implemented since 2.2.1 -- just heaps of fixes.
+
+With special dispensation from the "bugfixes only" rule, a brand
+new version of the email
+package (nee mimelib) is also included: email 2.4.3.
+
+For a partial list of these fixes, please see the `release notes <NEWS.txt>`_, or the ``Misc/NEWS`` file in
+the source distribution.
+
+For the full list of changes, you can poke around CVS.
+
+Other sources of information on 2.2
+###################################
+
+- Unifying types and classes in Python 2.2 by Guido van Rossum -- a tutorial on the material covered by PEPs 252 and 253.
+- What's New in Python 2.2 by Andrew Kuchling describes the most visible changes since `Python 2.1 <../2.1/>`_.
+- Guido gave a talk on what's new in 2.2 at the ZPUG-DC meeting on September 26, 2001; here are his `powerpoint slides <http://zpug.org/dc/>`_.
+- `Charming Python: Iterators and simple generators <http://www-106.ibm.com/developerworks/library/l-pycon.html?n-l-9271>`_ by David Mertz on IBM developerWorks.
+
+Documentation
+~~~~~~~~~~~~~
+
+The documentation has been updated too:
+
+- `Browse HTML on-line </doc/2.2.2>`_
+- Download using `HTTP </ftp/python/doc/2.2.2/>`_.
+
+Files, `MD5 <md5sum.py>`_ checksums and sizes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
+
+    9914cd4fc203008decf9ca7fb5aa1252 `Python-2.2.2.exe </ftp/python/2.2.2/Python-2.2.2.exe>`_ (7282997 bytes)
+        1c1067396e5aa0299978486eb5bd1a5c `Python-2.2.2.tgz </ftp/python/2.2.2/Python-2.2.2.tgz>`_ (6669400 bytes)

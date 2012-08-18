@@ -1,0 +1,192 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+June 11, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:07 UTC, 11
+June 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in May <#new-in-may>`_
+
+- `4   Search for Assistant Treasurer <#search-for-assistant-treasurer>`_
+
+- `5   Reports <#reports>`_- `5.1   Bug Tracker <#bug-tracker>`_  - `5.2   PyCon <#pycon>`_  - `5.3   Advocacy <#advocacy>`_  - `5.4   EuroPython <#europython>`_
+
+- `6   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, David Goodger, Andrew Kuchling, Martin von
+L?wis, and Brett Cannon.  Also in attendance was Kurt Kaiser
+(Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 15 May 2007 Board meeting minutes were approved by a 4-0-1
+vote (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 14 May 2007
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: in progress.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from March 2007, Section 12, Awards: S. Holden will prepare a proposal for a PSF awards program.     Status: carried forward.
+
+- Originally from March 2007, Section 16, Reviving the Grants Program: D. Goodger will send email to PSF-members about recruiting: a leader for a new grants program, an Assistant Secretary, and an Assistant Treasurer.     See item 8.      Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     Status: carried forward.
+
+- Originally from April 2007, Section 5, Assistants: S. Deibel will work with the Treasurer and Secretary to write up calls for assistants.     S. Deibel sent out a call by email for an assistant treasurer with no responses.  See `Search for Assistant Treasurer <#search-for-assistant-treasurer>`_ below.     Status: carried forward.
+
+- Originally from April 2007, Section 6, Python Package Index (Cheese Shop): A. Kuchling will ask Thomas Wouters about increasing the memory on ximinez, and getting another machine for PyPI.     Status: carried forward.
+
+- Originally from April 2007, Section 9, New PSF Members: D. Goodger will contact the PSF members not subscribed to the PSF-Members mailing list.     Status: carried forward.
+
+`3.2   New in May <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 15 May 2007 board meeting on
+IRC.
+
+- Section 4, Frank Willison Award: D. Goodger will coordinate the selection of the 2007 recipient of the Frank Willison Award.     D. Goodger reported that he is currently gathering candidates; several have been nominated.  He will discuss them over email this week.     Status: in progress.
+
+- Section 4, Frank Willison Award: D. Goodger will set up a page on www.python.org to list the recipients of the Frank Willison Award.     Status: in progress.
+
+- Section 5, Funding for Jornada Python en Santa Fe (Argentina): S. Deibel will notify Facundo Batista about the PSF's grant for the Jornada Python en Santa Fe (Argentina).     K. Kaiser sent the grant money on June 4.      Status: **done**.
+
+- Section 6, EuroPython Sponsorship: A. Kuchling will contact the EuroPython organizers to arrange for the PSF's sponsorship.     The EuroPython Society has been informed of the PSF's sponsorship. A. Kuchling will get them to send an invoice with their bank wire information.     Status: in progress.
+
+- Section 7, PyCon Uno (Italy): S. Deibel will ask PyCon Italia to correct their usage of the Python logo.     Status: **done**.
+
+- Section 7, PyCon Uno (Italy): D. Goodger will produce a PSF logo based on the Python logo.     D. Goodger reported that he made an initial PSF &quot;web badge&quot; logo, and will put it on the web soon.  He still has a banner-style logo to make.     Status: in progress.
+
+- Section 7, PyCon Uno (Italy): S. Deibel will notify Valentino Volonghi about the PSF's sponsorship of PyCon Uno (Italy).     S. Deibel reported that Neal Norwitz sent the PyCon Italia sponsorship money.     Status: **done**.
+
+- Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     D. Goodger reported that he looked into producing banners, and it's not too expensive.  It wasn't done in time for PyCon Italia, but maybe for EuroPython.     Status: carried forward.
+
+- Section 7, PyCon Uno (Italy): S. Deibel will notify the PSF members about the availability of passes to PyCon Uno (Italy).     All three passes were given.  S. Deibel will send details by email.      Status: **done**.
+
+- Section 8, Request to Change python.org Home Page: S. Deibel will refer Jeff Rush to the pydotorg mailing list for changes to python.org.     Status: **done**.
+
+`4   Search for Assistant Treasurer <#id6>`_
+--------------------------------------------
+
+S. Deibel emailed psf-members to recruit a new Assistant Treasurer but
+got no response.  M. von L?wis suggested that we should approach
+individuals that we consider trustworthy.  S. Deibel asked, who?
+
+K. Kaiser noted that there are specific requirements: double entry
+book keeping and ability to code in Python are key.  M. von L?wis
+suggested the candidate should be based in the US; K. Kaiser agreed,
+but said Canada would probably be OK too.
+
+K. Kaiser also suggested that there should be a separation of control
+in accounting:
+
+    Right now the key officers can review the books and accounts.  But
+    usually there is more than one person involved in receiving and
+    issuing checks.  That's easy in a normal business or non-profit,
+    but harder for us.  For instance, one person opens the mail, and
+    another processes the checks.
+
+B. Cannon and D. Goodger noted that cashing US checks in Canada incurs
+a delay of several weeks.  K. Kaiser replied that the accounts should
+stay in the US; the Treasurers need only send checks by mail.
+
+B. Cannon asked what the Assistant Treasurer's responsibilities would
+be.  S. Deibel and K. Kaiser listed the Treasurer's responsibilities,
+which are shared with the Assistant Treasurer:
+
+- make payments
+
+- receive payments by check and deposit
+
+- deal with credit cards (fraud, refunds, making sure records update)
+
+- update records
+
+- issue reports
+
+- do taxes
+
+S. Deibel suggested that the Assistant Treasurer could take over bits
+at a time to help out, until they know how to do everything.  M. von
+L?wis suggested that starting with a specific activity would be best.
+
+`5   Reports <#id7>`_
+---------------------
+
+`5.1   Bug Tracker <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+B. Cannon reported that the bug tracker transition will move forward
+once SourceForge fixes a bug in their systems.  They say they are
+working on it.
+
+`5.2   PyCon <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~
+
+D. Goodger reported that he will be visiting Chicago on July 20 & 21,
+to meet with hotel staff.
+
+K. Kaiser asked about the status of PyCon equipment storage in Dallas.
+D. Goodger summarized a recent message from Jeff Rush: the self-storage
+room is empty and closed, and there is no need for further payments.
+
+`5.3   Advocacy <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Deibel reported that the Advocacy Coordinator status is at
+`http://wiki.python.org/moin/AdvocacyAccomplishments <http://wiki.python.org/moin/AdvocacyAccomplishments>`_
+
+`5.4   EuroPython <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A. Kuchling informed the Board that Laura Creighton has been elected
+the chairman of the EuroPython Society, replacing Michael Hudson, the
+previous chairman.
+
+Kuchling also reported that Laura Creighton asked him two questions: 
+
+    - Is the $5000 PSF sponsorship for travel funding?
+
+    - Can she book travel for several people and ask for the PSF to reimburse her, or do we have to reimburse the actual attendee?
+
+Kuchling informed Creighton that the $5000 is a sponsorship, not
+earmarked for travel funding, and that EuroPython could submit a
+further proposal for the PSF to fund travel.  The Board agreed.  If
+such a funding proposal is approved, S. Deibel strongly suggested (and
+others agreed) that we also make just a single payment and not pay the
+recipients directly.
+
+`6   Adjournment <#id12>`_
+--------------------------
+
+S. Deibel adjourned the meeting at 17:52 UTC.

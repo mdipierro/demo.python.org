@@ -1,0 +1,91 @@
+The Python Software Foundation 
+
+Minutes of a Special Meeting of the Board of Directors 
+
+March 27, 2009
+
+A special meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held at PyCon 2009 in Rosemont/Chicago at 18:30 CDT
+(23:30 UTC), 27 March 2009.  David Goodger prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Election of Officers <#election-of-officers>`_
+
+- `3   Committees <#committees>`_
+
+- `4   New Members <#new-members>`_
+
+- `5   PSF Community Awards <#psf-community-awards>`_
+
+- `6   Discussion <#discussion>`_
+
+- `7   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, David Goodger, Raymond Hettinger, Steve Holden,
+Andrew Kuchling, Martin von L?wis, David Mertz, Jeff Rush, and James
+Tauber.  Also in attendance were Kurt Kaiser (Treasurer), Van Lindberg
+(Counsel), and Pat Campbell (Administrator).
+
+`2   Election of Officers <#id2>`_
+----------------------------------
+
+The following Officers were elected by acclamation: 
+
+- **President**: Guido van Rossum
+
+- **Chairman**: Steve Holden
+
+- **Executive Vice President**: Brett Cannon
+
+- **Secretary**: David Goodger
+
+- **Treasurer**: Kurt Kaiser
+
+- **Assistant Treasurer**: Raymond Hettinger
+
+`3   Committees <#id3>`_
+------------------------
+
+The charters of the currently active committees, the Infrastructure
+Committee (IC) and the Trademarks Committee (TMC), were renewed.
+
+`4   New Members <#id4>`_
+-------------------------
+
+[51] D. Goodger and P. Campbell will inform the new members
+of their election, invite them to join the psf-members list, and will
+update the membership records.
+
+`5   PSF Community Awards <#id5>`_
+----------------------------------
+
+The Board agreed to present Mary Rush and Carl Karsten with PSF
+Community Awards, to be announced during a plenary session at PyCon.
+
+Two other nominations were noted for future awards. 
+
+[52] P. Campbell will add &quot;PSF Community Award nominations&quot;
+to the Board agenda quarterly.
+
+`6   Discussion <#id6>`_
+------------------------
+
+- D. Goodger noted that the Board should start thinking about nominations for the Frank Willison Award (awarded by O'Reilly annually at OSCON).
+
+- The possibility of PSF meetings at EuroPython should be explored.
+
+- The PSF's response to a case of abuse of the Python trademarks was discussed.
+
+- R. Hettinger asked that PyCon costs be discussed in the near future.
+
+`7   Adjournment <#id7>`_
+-------------------------
+
+The meeting adjourned at 19:00 CDT.

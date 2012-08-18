@@ -1,0 +1,148 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Apr. 9, 2002 
+
+A regular regular meeting of the Python Software Foundation (the
+"PSF") Board of Directors was held over Internet Relay Chat at 17:00
+UTC.  Guido van Rossum, president of the Foundation and chairman of
+the Board, presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Tim Peters, Guido van Rossum, Marc-Andre
+Lemburg, Martin von Loewis.  The following members were absent:
+Thomas Wouters, David Ascher.
+
+A quorum was present.
+
+2. Meeting minutes of the last IRC meeting on 2002-03-12
+########################################################
+
+Guido van Rossum didn't have these, so no motion to accept the
+minutes was resolved.
+
+3. Treasurer's report
+#####################
+
+Jeremy Hylton reported that he has opened a bank account and
+deposited checks from ActiveState (for 2001), Space Telescope,
+O'Reilly, Hostway, & ASTi.  Guido van Rossum mentioned that
+Archaeopteryx has also sent in their check.
+
+AB Stakt is interested in becoming a sponsor member.  They may have
+faxed that application already and will wire the money as soon as
+we give them the routing number.  Hylton is going to approve them
+as a "sponsor" ala Space Telescope until the next PSF membership
+meeting.
+
+Hylton found a CPA in Va. to help with the PSF taxes, which he will
+contact.
+
+As part of his work as PSF Treasurer, Hylton reported that he has
+incurred a few personal expenses that he'll need to be reimbursed
+for: purchase of supplies (notebook, etc.), Quicken Pro 2002, a
+couple of books on non-profits, and the initial deposit to open the
+PSF checking account.  Hylton will work out some policy for
+reimbursement and submit the request to Guido.
+
+As final note, Hylton mentioned that the PSF has to order a
+coporate seal and some checks, so that it can start paying its
+bills.
+
+Marc-Andre Lemburg asked about the current balance of the bank
+account (including the yet-to-be deposited checks and the money
+transfer from AB Strakt). Hylton didn't have the exact numbers, but
+gave an estimate of a total of $15,000 income and $600 expenses.
+
+Estimates for the upcoming expenses are:
+- up to $2000 for the CPA
+- legal review at $180/hr
+- $500 Form 1023 application fee
+
+4. Public Support Committee (PSC) creation report
+#################################################
+
+Lemburg reported on the PSC developments: 
+
+The following people have volunteered to be on the PS committee:
+
+- Stephan Deibel
+- Jeremy Hylton
+- Tim Peters
+- Aahz
+- Alex Martelli
+- Neil Norwitz
+- Greg Ward
+- Marc-Andre Lemburg
+
+Lemburg will prepare a motion about the PSC membership and post it
+to the board mailing list within the next few days. His intention
+is to make all volunteers members of the PSC and propose myself as
+chairman.
+
+Work on the URS filing can start the week following the IRC
+meeting.
+
+Lemburg reported that Barry has kindly setup a mailing list for
+the PSC to use: psc@python.org. The PSC will probably also need a
+bit of web-space on python.org, preferably under
+python.org/psf/psc.
+
+5. PSF Contributions Documents discussion report
+################################################
+
+Lemburg reported on the discussion process for the PSF contribution
+documents:
+
+The discussion about the PSF contribution documents was finished
+successfully.
+
+All comments and concerns about the documents were edited into the
+documents as editor's comments. Most of these will have to be
+submitted to legal review. Lemburg proposed to accept the
+contribution documents for legal review and to pass them on to the
+lawyer(s).
+
+The final documents are available online at: 
+
+`http://www.python.org/psf/psf-contributor-agreement.html <http://www.python.org/psf/psf-contributor-agreement.html>`_
+(Revision 1.2)
+
+Hylton proposed that the officers of the PSF seek legal review
+of the contributor agreement to resolve the issues listed in the
+document at a cost of no more than $3,000. The motion was approved
+unanimously.
+
+Van Rossum and Hylton will organize the legal review of the
+documents.
+
+4. U.S. Bureau of Export Administration (BXA) filing
+####################################################
+
+Martin von Loewis proposed to that the PSF registers its
+cryptographic code as required by the BXA and that the PSF
+secretary should be responsible for filing with the BXA for all PSF
+software as needed.  The motion was approved unanimously.
+
+Hylton will take care of the BXA filing.
+
+5. Membership meeting at the O'Reilly Open Source Convention (OSCON)
+####################################################################
+
+Van Rossum mentioned the need for a PSF member meeting at the
+upcoming OSCON convention (July 22-26, 2002, San Diego, CA) and
+proposed to have a committee to arrange and announce it.  David
+Ascher and Guido van Rossum will run this committee.  Hylton
+requested to announce the meeting soon. Von Loewis proposed to set
+a deadline. Van Rossum will try for end of April, after having
+posted an unofficial announcement to the PSF membership list after
+the meeting.
+
+6. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 17:48
+UTC.

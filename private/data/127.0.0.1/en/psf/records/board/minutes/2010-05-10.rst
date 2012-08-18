@@ -1,0 +1,320 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+May 10, 2010
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:05 UTC, 10
+May 2010.  Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Report <#progress-report>`_
+
+- `6   Election of Additional Officers <#election-of-additional-officers>`_
+
+- `7   Infrastructure Committee (IC) Conflict of Interest Motion <#infrastructure-committee-ic-conflict-of-interest-motion>`_
+
+- `8   Funding of PyCamp 2010 <#funding-of-pycamp-2010>`_
+
+- `9   Funding of SciPy 2010 <#funding-of-scipy-2010>`_
+
+- `10   Simplify Processing of Expense Receipts <#simplify-processing-of-expense-receipts>`_
+
+- `11   Exoweb, Ltd. Sponsor Membership Application <#exoweb-ltd-sponsor-membership-application>`_
+
+- `12   Late Filing of Non-USD PyCon 2009 Expenses <#late-filing-of-non-usd-pycon-2009-expenses>`_
+
+- `13   PSF Community Service Award Nominations for 2010 - 2nd Quarter <#psf-community-service-award-nominations-for-2010-2nd-quarter>`_
+
+- `14   PSF New Membership Class as Honorary Associate Member (HAM)- Bylaws Change <#psf-new-membership-class-as-honorary-associate-member-ham-bylaws-change>`_
+
+- `15   PSF New Membership Class as Honorary Associate Member (HAM)- Board Resolution <#psf-new-membership-class-as-honorary-associate-member-ham-board-resolution>`_
+
+- `16   New Sprint Committee & Community-Based Sprints Funding <#new-sprint-committee-community-based-sprints-funding>`_
+
+- `17   Funding for Redevelopment of PyCon Website <#funding-for-redevelopment-of-pycon-website>`_
+
+- `18   Other Business <#other-business>`_- `18.1   Budget Planning <#budget-planning>`_  - `18.2   Creating Marketing Material for Python <#creating-marketing-material-for-python>`_
+
+- `19   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Steve Holden, Marc-Andre Lemburg, David Mertz, Doug Napoleone
+[joined meeting at 16:12], Jesse Noller, Tim Peters, Jeff Rush, Greg
+Stein, Martin v. L?wis, Gloria Willadsen. Also in attendance were
+Kurt Kaiser (Treasurer), and Pat Campbell (Secretary & Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 12 April 2010 Board meeting minutes were approved during this
+month's meeting session.
+
+Approved, 9-0-0
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting on 12 April 2010.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K. Kaiser
+prior to the Board meeting.
+
+The board also discussed a variety of strategies to use in order to get a more
+timely report on current financials as well as on a budget plan for periodic
+review and planning.
+
+`5   Progress Report <#id5>`_
+-----------------------------
+
+V. Lindberg provided the board with an update on PyCon 2010 financials with a
+preliminary budget report.
+
+The board also discussed and was provide information from our treasurer on the
+status of how far away we are from transitioning the accounting to our new accounts.
+
+`6   Election of Additional Officers <#id6>`_
+---------------------------------------------
+
+The following officer position was added to the corporation: 
+
+Communications Officer 
+
+The following Officer was nominated and elected: 
+
+- **Communications**: Doug Hellmann          **RESOLVED**, that we create a new officer position &quot;Communications     Officer&quot; to oversee the PSF communication between board, members     and community. Doug Hellmann is appointed as first PSF Communications     Officer.
+
+Approved, 10-0-0.
+
+`7   Infrastructure Committee (IC) Conflict of Interest Motion <#id7>`_
+-----------------------------------------------------------------------
+
+Motion from M.A. Lemburg: 
+
+    **RESOLVED**, that the Infrastructure Committee may contract companies
+    affiliated with IC members under the condition that:
+
+    - these affiliations are publicized,
+
+    - the respective IC member abstains from any vote regarding a contract with an affiliated company,
+
+    - the IC gets at least one quote from a non-affiliated company, in case the expected costs exceed USD 1000 for one-time or USD 1000 per year for periodically billed expenditures.
+
+    - the IC reports a summary of the decision process to the board for each such decision.
+
+Approved, 10-0-0.
+
+`8   Funding of PyCamp 2010 <#id8>`_
+------------------------------------
+
+The board discussed the funding of PyCamp 2010 and decided to provide a
+USD 750 grant to the organizers of the PyCon Ukraine Conference.
+
+    **RESOLVED**, that the PSF offers a USD 750 grant to the organizers of
+    the PyCon Ukraine conference to be held in Kyiv, Ukraine, later this
+    year, for funding speaker travel expenses.
+
+Approved, 10-0-0
+
+`9   Funding of SciPy 2010 <#id9>`_
+-----------------------------------
+
+The board discussed funding of SciPy 2010 and agreed to provide a USD 1,000
+grant to conference organizers. Motion from S. Holden.
+
+    **RESOLVED**, that the PSF offers a USD 1,000 grant to the organizers
+    of the SciPy 2010 Conference to be held in Austin, Texas on June 28
+    through July 3, 2010, for students travel expenses.
+
+Approved, 8-0-1.
+
+`10   Simplify Processing of Expense Receipts <#id10>`_
+-------------------------------------------------------
+
+Motion from M.A. Lemburg: 
+
+    **RESOLVED**, that expense receipts and invoices for any PSF funded
+    activity or equipment must be sent to the PSF Treasurer within 90
+    days of date of receipt or invoice. Late filings will not be
+    processed or refunded, unless prior arrangements have been
+    made with the PSF Board, with a summary sent to `psf@python.org <mailto:psf%40python.org>`_.
+    Expenses in non-USD currencies will be refunded in USD at the
+    representative exchange rate as published by the International
+    Monetary Fund (IMF) as-of the date on the receipt/invoice
+    (`http://www.imf.org/external/np/fin/data/param_rms_mth.aspx <http://www.imf.org/external/np/fin/data/param_rms_mth.aspx>`_).
+
+Approved, 10-0-0.
+
+`11   Exoweb, Ltd. Sponsor Membership Application <#id11>`_
+-----------------------------------------------------------
+
+The board reached a consensus after a discussion on rather to
+recommend the PSF sponsor membership application of Exoweb, Ltd., an
+international software development company.
+
+    **RESOLVED**, that the board recommends Exoweb Ltd., Bejing, China,
+    as a pending sponsor member.
+
+Approved, 10-0-0.
+
+`12   Late Filing of Non-USD PyCon 2009 Expenses <#id12>`_
+----------------------------------------------------------
+
+Motion from M.A. Lemburg: 
+
+    **RESOLVED**, that all non-USD expenses incurred by officers or
+    directors of the PSF for PyCon 2009 be reimbursed in USD based on
+    the representative exchange rate as published by the
+    International Monetary Fund as-of May 22 2009
+    (`http://www.imf.org/external/np/fin/data/param_rms_mth.aspx <http://www.imf.org/external/np/fin/data/param_rms_mth.aspx>`_).
+
+Approved, 8-0-2.
+
+`13   PSF Community Service Award Nominations for 2010 - 2nd Quarter <#id13>`_
+------------------------------------------------------------------------------
+
+One Nominee for the 2010 - 2nd quarter PSF Community Service Award was 
+selected. 
+
+*[Details temporarily omitted from the public minutes, to be restored after the
+announcement of the prospective award recipient at the EuroPython Conference to
+be held in Birmingham UK in July 2010.]*
+
+`14   PSF New Membership Class as Honorary Associate Member (HAM)- Bylaws Change <#id14>`_
+------------------------------------------------------------------------------------------
+
+Motion from M.A. Lemburg: 
+
+    **RESOLVED**, that the Board of Directors implement the creation
+    of a new membership class, called &quot;honorary associate members&quot;,
+    as requested and approved by the members at the 2010 first
+    annual PSF members meeting, by updating the bylaws as follows:
+
+    - Section 3.10, first paragraph, is updated to include the honorary associate members as non-voting member class:     Section 3.10. Voting. Each nominated member shall be entitled to one vote on each matter submitted to a vote at a meeting of the members, except as may otherwise be provided in the General Corporation Law of the State of Delaware. Sponsor members that have appointed a representative, as described in Section 4.3, are also entitled to one such vote. Emeritus members and honorary associate members are not entitled to vote at members' meetings.
+
+    - Section 4.1 is updated to include the new member class:      Section 4.1. Member Classes. There are four classes of members of the corporation, denoted as nominated members, sponsor members, honorary associate members and emeritus members. References in these Bylaws to a &quot;member&quot; or to the &quot;members&quot; of the corporation shall not include any honorary associate member, emeritus member or sponsor member unless explicitly provided otherwise.
+
+    - Section 4.9 is updated to include the possibility to have honorary associate members withdraw their membership:     Section 4.9. Voluntary Withdrawal from Membership. Members (including honorary associate members and emeritus members) may withdraw from membership in the corporation at any time upon ten (10) days' written, signed notice delivered to an officer of the corporation.
+
+    - a new Section 4.12 is added to defined the new membership class:      Section 4.12. Honorary Associate Members. Honorary associate members have no voting rights and are not included in the membership count for purposes of establishing a quorum. Honorary associate membership shall be granted, on a yearly basis, in consideration of financial donation to the PSF, but subject to revocation by the Board of Directors. Annual donations sufficient for honorary associate membership shall initially be set at US$99, and may be revised by the Board of Directors from time to time. The Board or Directors may, at its discretion, decide to provide incidental benefits to honorary associate members, such as subscription to a newsletter, Python-branded email addresses, or printed promotion material such as badges, stickers, or garments.
+
+Denied, 2-8-0.
+
+`15   PSF New Membership Class as Honorary Associate Member (HAM)- Board Resolution <#id15>`_
+---------------------------------------------------------------------------------------------
+
+Motion from M.A. Lemburg: 
+
+    **RESOLVED**, that the Board of Directors implement the creation
+    of a new membership class, called &quot;honorary associate members&quot;,
+    as requested and approved by the members at the 2010 first
+    annual PSF members meeting, as follows:
+
+    There are now four classes of members of the corporation, denoted as
+    nominated members, sponsor members, honorary associate members and
+    emeritus members. References in the bylaws to a &quot;member&quot; or to the
+    &quot;members&quot; of the corporation shall not include any honorary associate
+    member, emeritus member or sponsor member unless explicitly provided
+    otherwise.
+
+    Honorary associate members have no voting rights and are not included
+    in the membership count for purposes of establishing a quorum.
+
+    Honorary associate membership shall be granted, on a yearly basis, in
+    consideration of financial donation to the PSF, but subject to
+    revocation by the Board of Directors.
+
+    Annual donations sufficient for honorary associate membership shall
+    initially be set at US$99, and may be revised by the Board of
+    Directors from time to time.
+
+    Honorary associate members may withdraw from membership in the
+    corporation at any time upon ten (10) days' written, signed notice
+    delivered to an officer of the corporation.
+
+    The Board or Directors may, at its discretion, decide to provide
+    incidental benefits to honorary associate members, such as
+    subscription to a newsletter, Python-branded email addresses, or
+    printed promotion material such as badges, stickers, or garments.
+
+This board discussion was deferred to email and will be voted on
+during the next board meeting to be held in June 2010.
+
+`16   New Sprint Committee & Community-Based Sprints Funding <#id16>`_
+--------------------------------------------------------------------------
+
+Motion from J. Noller: 
+
+    **RESOLVED**, that the Board approves the creation of a specific
+    &quot;Targeted Sprint Committee&quot; and allocates a yearly budget of 5000
+    USD for the funding of targeted, community based sprints with Jesse
+    Noller as the initial Chairman, and additional members as needed
+    per project requirements and approved by the board.
+
+Approved, 9-0-1
+
+`17   Funding for Redevelopment of PyCon Website <#id17>`_
+----------------------------------------------------------
+
+The board discussed V. Lindberg's, PyCon 2011 Chairman, request of USD 15,000
+for &quot;redevelopment of the PyCon website using Django and Pinax, with the
+funds going toward the hiring of Eldarion for initial development and any
+necessary data porting from the old sites.&quot;
+
+This discussion was deferred to email.
+
+`18   Other Business <#id18>`_
+------------------------------
+
+`18.1   Budget Planning <#id19>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M.A. Lemburg suggested that &quot;the PSF should start to work based on budgets
+rather than just having the treasurer chase after our expenses. This will
+reduce the fluctuation we have in the financials figures and make the whole
+operation more predictable.&quot;
+
+This discussion was deferred to email.
+
+`18.2   Creating Marketing Material for Python <#id20>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The board also discussed the use of a Plone model to design a brochure and
+flyer as marketing material for Python as suggested by M.A. Lemburg.
+
+M.A. Lemburg: &quot;MarcAndreLemburg has been in touch with a texter and a designer in
+Germany who have prepared a professional quality brochure and flyer for Plone.
+Should we put more energy and money into this to create a similar set for Python?
+The idea then is to have the PSF send out this marketing material to conferences and
+other similar events in order to help spread the word about the Python.&quot;
+
+G. Stein: &quot;I'd suggest making this the responsibility of the Communications
+Officer.&quot;
+
+This discussion was deferred to email.
+
+`19   Adjournment <#id21>`_
+---------------------------
+
+S. Holden adjourned the meeting at 17:28 UTC.

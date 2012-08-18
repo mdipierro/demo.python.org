@@ -1,0 +1,162 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+February 12, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:12 UTC, 12
+February 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in January <#new-in-january>`_
+
+- `4   Jython License Change <#jython-license-change>`_
+
+- `5   PyCon Status <#pycon-status>`_
+
+- `6   Advice on the &quot;PyCamp&quot; Name <#advice-on-the-pycamp-name>`_
+
+- `7   Treasurer Records <#treasurer-records>`_
+
+- `8   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: David Goodger, Tim Peters, Brett Cannon, Stephan Deibel, and
+Andrew Kuchling.  Also in attendance was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 8 January 2007 minutes were approved by a 5-0-0 vote (*in favor ?
+opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 8 January 2007
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Still awaiting records from Jeremy Hylton.      Status: in progress.
+
+- Originally from July 2006, Section 3.2, item 3: D. Goodger will update & confirm email & snail mail addresses when he receives the PSF records, with the help of M. von L?wis.     D. Goodger and M. von L?wis confirmed the last few members addresses.  There may be couple of people who have not responded.     Status: **done**.
+
+- Originally from July 2006, Section 9, 2006 Budget & Action Plan: D. Goodger will develop the 2006 Budget & Action Plan further and take it to the PSF membership for feedback.     A revised 2007 Budget & Action Plan was sent to the psf-members list for discussion.     Status: **done**.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from September 2006, Section 3.1, item 7: D. Goodger will telephone Jeremy Hylton to ask for PSF records to be sent.     Although D. Goodger has sent Jeremy Hylton multiple requests for the PSF records, by email and telephone over several months, there has been no progress.  S. Deibel noted that &quot;this is a significant problem for the PSF, undermining its protection of the IP. ... I'm starting to see this as the single most important thing on the PSF agenda and quite serious.&quot;  D. Goodger asked for the help of the other Directors & Officers in getting Jeremy Hylton to send the records.     Status: follow-up required.
+
+- Originally from November 2006, Section 7, PyCon: D. Goodger will prepare for the PSF members' meeting at PyCon.     D. Goodger reported that everything is done for the members' meeting except catering (another action item) and the ballots.     Status: in progress.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from December 2006, Section 5, Jython License: A. Kuchling will write up a summary of the license discussion, post it to jython-dev, and the current developers can decide what to do.     Status: carried forward.
+
+- Originally from December 2006, Section 9, Catering the Members' Meeting: D. Goodger will coordinate food for the 2007 PSF Members' Meeting with the conference committee & members.     D. Goodger will send out menu choices in the next few days.      Status: in progress.
+
+`3.2   New in January <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 8 January 2007 board meeting on
+IRC.
+
+- Section 4, Grants Committee: M. von L?wis will inform Frank Wierzbicki and the PSF members of the decision to terminate the Jython grant.     Status: **done**.
+
+- Section 4, Grants Committee: D. Goodger will convert the Jython grant termination message from M. von L?wis into a PSF weblog post.     Posted to `http://pyfound.blogspot.com/2007/02/grants-update-jython-project.html <http://pyfound.blogspot.com/2007/02/grants-update-jython-project.html>`_, and also added to python.org as a status report (`http://www.python.org/psf/grants/report-2007-02/ <http://www.python.org/psf/grants/report-2007-02/>`_).     Status: **done**.
+
+- Section 5, New Sponsor Member: Canonical: K. Kaiser will issue an invoice for sponsor dues to Canonical.     Status: carried forward.
+
+- Section 8, Planning for the Members' Meeting: D. Goodger will send out notices of a deadline for nominations of January 15, 2007.     Status: **done**.
+
+`4   Jython License Change <#id6>`_
+-----------------------------------
+
+A. Kuchling reported that Jython 2.2beta1 was released in the past
+week.  Charles Groves, who's steering the 2.2 release, would like to
+change the license to be the PSF license, removing the 2.0/2.1 part of
+the license that says &quot;Copyright Jython developers&quot;.  The push toward
+2.2beta/final is increasing the pressure a bit.
+
+A. Kuchling asked if everyone looked at his proposed e-mail to
+jython-dev; some changes were suggested.  T. Peters noted that
+removing the CNRI license would not be possible.  A. Kuchling will
+advise Charles Groves to put the PSF license on top of the stack for
+Jython 2.2.  &quot;We can then work on getting more contributor agreements
+and hopefully remove the 2.0/2.1 license someday.  But that won't get
+done before Jython 2.2 final is ready.&quot;
+
+A. Kuchling noted that some Jython contributors think they have signed
+contributor agreements, but they aren't listed.  These may be part of
+the PSF records being held by Jeremy Hylton.
+
+`5   PyCon Status <#id7>`_
+--------------------------
+
+A. Kuchling reported that 508 people were registered so far, and online
+registration closes on Friday February 16.  Everything seems to be
+well in hand: T-shirts done, tote bags done, publications ready for
+printing, open space items being added.  D. Goodger reported that
+PyCon is doing well financially: we're looking at a profit instead of
+a loss.
+
+D. Goodger also reported that there are two probable bids for 2008
+(nothing formal yet): Chicago & San Francisco.
+
+`6   Advice on the &quot;PyCamp&quot; Name <#id8>`_
+---------------------------------------------------
+
+Jeff Rush sent the Board email asking for advice regarding the
+&quot;PyCamp&quot; name.  He had begun to use it for a Python version of the
+BarCamp regional &quot;unconferences&quot;, and the idea has proven popular.
+However, TriZPUG have adopted the PyCamp name for their training
+seminars, formerly called &quot;Python Bootcamp&quot; (this name seems to have
+been dropped though).
+
+S. Deibel will reply, suggesting the non-exclusive use of &quot;Python
+Bootcamp&quot; as long as it includes a qualifier (region or organization
+name).  We don't have jurisdiction over Py* names though.  It's
+probably unrealistic for anyone to try to use &quot;PyCamp&quot; exclusively,
+but it's not for us to say.
+
+`7   Treasurer Records <#id9>`_
+-------------------------------
+
+D. Goodger noted that `http://www.python.org/psf/records/ <http://www.python.org/psf/records/>`_ lists tax
+returns (IRS 990) for 2001-2003, but nothing since.  K. Kaiser has the
+2005 return, but is holding off on the 2003 & 2004 returns because he
+is refiling them to make them consistent with our other filings.
+K. Kaiser will make the 2003, 2004, and 2005 PSF tax returns
+available on the web site.
+
+K. Kaiser will produce the 2006 PSF financials for the
+members' meeting.
+
+T. Peters asked about a final ruling from the IRS on the PSF's
+501(c)(3) status.  K. Kaiser noted that we do have the final ruling.
+K. Kaiser will make the PSF's final 501(c)(3) ruling
+available on python.org.
+
+D. Goodger volunteered to help put these documents on the web.
+
+`8   Adjournment <#id10>`_
+--------------------------
+
+S. Deibel adjourned the meeting at 19:02 UTC.

@@ -1,0 +1,342 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+February 9, 2009
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 9
+February 2009.  Steve Holden presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_- `3.1   PyCon 2010 Contract <#pycon-2010-contract>`_
+
+- `4   Status of Past Action Items <#status-of-past-action-items>`_- `4.1   Carried Forward <#carried-forward>`_  - `4.2   New On 12 January <#new-on-12-january>`_  - `4.3   New Between Meetings <#new-between-meetings>`_
+
+- `5   Treasurer's Report <#treasurer-s-report>`_
+
+- `6   Changes to the Bylaws <#changes-to-the-bylaws>`_
+
+- `7   International Trademark Registration <#international-trademark-registration>`_
+
+- `8   Computer for PSF Administrator <#computer-for-psf-administrator>`_
+
+- `9   Internet Domain Management <#internet-domain-management>`_
+
+- `10   Membership Nominations <#membership-nominations>`_
+
+- `11   Members' Meeting <#members-meeting>`_
+
+- `12   PSF Community Awards <#psf-community-awards>`_
+
+- `13   PyCon 2009 <#pycon-2009>`_
+
+- `14   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, Stephan Deibel, David Goodger, Raymond
+Hettinger, Steve Holden, Martin von L?wis, Tim Peters, and James
+Tauber.  Also in attendance were Kurt Kaiser (Treasurer), Pat Campbell
+(Administrator), and Van Lindberg (PSF legal counsel; joined at
+17:34).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 12 January 2009 Board meeting minutes were not ready.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+`3.1   PyCon 2010 Contract <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    **RESOLVED**, that the PyCon Chairman is authorized to obligate the
+    PSF under the PyCon 2010 contract (pycon/2010/venue_contract.pdf in
+    PSF CVS), to be held in Atlanta, Georgia. The contract may be changed
+    before signing but any changes must be reported to the PSF board and
+    may not increase the financial obligation assumed by the PSF.
+
+Approved by unanimous email vote (1 abstention), January 26, 2009.
+
+`4   Status of Past Action Items <#id5>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+Action items are tracked in `the private PSF wiki <http://wiki.python.org/psf/Action_Items>`_ and their status is
+recorded in the regular minutes.  The numbers in square brackets (like
+&quot;[0]&quot;) refer to the action item ID on the wiki.
+
+`4.1   Carried Forward <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 12 January
+2009 meeting, as highlighted in the minutes (Section 4, Status of Past
+Action Items).  Numbers in [brackets] represent the item ID in the PSF
+private wiki.
+
+- [11] Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records. [Update 2008-12-08] D. Goodger will identify the records for scanning and send photocopies to P. Campbell.     Status: carried forward.
+
+- [30] Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- [13] Originally from December 2006, Section 4, Jython Contributor Agreements: D. Goodger will write to the Jython contributors and ask them to sign contributor agreement forms, in combination with item 1 [11] above (transferred from A. Kuchling).     Status: carried forward.
+
+- [29] Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws [with S. Deibel's help].  Include an affiliation program [ref. July 2008 section 8].     Status: in progress.
+
+- [23] Originally from 14 April 2008, Section 5, Treasurer's Report: S. Holden will assist K. Kaiser with accounts receivable reminders.     See `Treasurer's Report <#treasurer-s-report>`_ below.      Status: in progress.
+
+- [15] Originally from 14 April 2008, Section 7, PyCon Asset Record-Keeping: D. Goodger will update the assets file in PSF CVS with the details of the laptops and VGA2USB boxes purchased for PyCon 2008.     Status: in progress.
+
+- [16] Originally from 14 April 2008, Section 12, Sponsor Membership Issues: D. Goodger will update the member information in members.xls (sponsors & nominated members) & sponsor-addrs.txt, in PSF CVS.     Status: carried forward.
+
+- [22] Originally from 16 June 2008, Section 6.1, Treasurer's Report: K. Kaiser will submit an expanded report to psf-members.     Status: carried forward.
+
+- [4] Originally from 16 June 2008, Section 6.2, Treasurer's Report: D. Goodger will follow up regarding the PyCon transaction analysis.     Status: carried forward.
+
+- [5] Originally from 16 June 2008, Section 6.3, Treasurer's Report: D. Goodger will ensure that documentation for unpaid PyCon tutorials is found and provided.     Status: carried forward.
+
+- [9] Originally from 16 June 2008, Section 6.7, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon sponsorships.     Status: carried forward.
+
+- [10] Originally from 16 June 2008, Section 6.8, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon registrations.     Status: carried forward.
+
+- [25] Originally from 11 August 2008, Section 6.2, PyCon UK Sponsorship: R. Hettinger will propose a blanket policy for sponsorships, instead of one-off requests.     Status: carried forward.
+
+- [17] Originally from 8 September 2008, Section 7, PSF Logo: D. Goodger will produce final layouts for a PSF logo.     Status: carried forward.
+
+- [26] Originally from 13 October 2008, Section 4, PSF Community Award Certificates: S. Holden will issue PSF Community Award certificates.     Status: **done**.
+
+- [34] Originally from 8 December 2008, Section 5, Role of Administrator: D. Goodger and P. Campbell will verify and update the member contact information.     Status: carried forward.
+
+- [36] Originally from 8 December 2008, Section 7, Introduction & Support for OBOOE: S. Holden will reply to OBOOE that we are interested in cooperating with them, that we can list them as cooperating organization once they are set up.     Status: **done**.
+
+- [35] Added 2009-01-12: S. Holden will write a PSF blog entry thanking 2008 donors.     Status: **done**.
+
+`4.2   New On 12 January <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 12 January 2009 Board meeting on
+IRC.
+
+- [37] Section 7.1, Trademarks Committee (TMC): J. Tauber will set up the PSF private wiki for the Trademarks Committee to record decisions and salient points of discussion.     A set of `Trademarks Committee pages <http://wiki.python.org/psf/TrademarksCommittee>`_ was set up on the `PSF private wiki <http://wiki.python.org/psf/>`_ on 2009-01-28.     Status: **done**.
+
+- [38] Section 7.2, Trademarks Committee (TMC): J. Tauber will work with the Trademarks Committee on establishing voting procedures.     Status: carried forward.
+
+- [39] Section 7.3, Trademarks Committee (TMC): J. Tauber will document the Trademarks Committee procedure as discussed at the Board meeting.     Status: carried forward.
+
+- [40] Section 7.4, Trademarks Committee (TMC): J. Tauber will work with counsel on a proposal to register Python trademarks.     Status: carried forward.
+
+- [41] Section 9, Members' Meeting: D. Goodger will issue a call for membership and Board nominations.     Status: carried forward.
+
+- [42] Section 10, Legal Issues: K. Kaiser will look into acquiring errors and omissions insurance for the Board of Directors.     Status: carried forward.
+
+`4.3   New Between Meetings <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No action items were added since the last Board meeting on
+12 January.
+
+`5   Treasurer's Report <#id9>`_
+--------------------------------
+
+K. Kaiser sent a report to the Board mailing list. 
+
+S. Holden noted that our accounts receivable total is now under
+$20,000.  K. Kaiser: &quot;The AR status has the open invoices for 2007 and
+2008 dues.  It's too early to start chasing 2009.  They will be on the
+next AR report.&quot;
+
+S. Holden: &quot;A polite 'phone call asking when payment is scheduled will
+detect problems early and avoid the issues we've had in the past.&quot;
+
+`6   Changes to the Bylaws <#id10>`_
+------------------------------------
+
+S. Holden noted that we haven't heard from counsel regarding the legal
+review of the proposed bylaws changes.  &quot;If we don't vote on the
+changes today this means we will be bound by the old bylaws&quot; for the
+members' meeting (e.g. notice requirements).
+
+M. von L?wis: &quot;I think we do need legal review.&quot;  The Board agreed,
+and noted that we need to approve the exact text.
+
+D. Goodger reported that V. Lindberg (PSF counsel) stated via IM: 
+
+    I see nothing problematic about the proposed changes. There is a
+    fair amount of leeway given to corps on how to best approach their
+    business. I don't see anything that looks objectionable.
+
+    As long as these changes are made in accordance with the *old*
+    bylaws, these should be fine.
+
+V. Lindberg joined the meeting to suggest some amendments to the
+proposed revisions.
+
+The Board agreed to defer voting until the proposed new bylaws changes
+have been finalized.
+
+`7   International Trademark Registration <#id11>`_
+---------------------------------------------------
+
+S. Holden reported that PSF counsel suggests that we could register
+the &quot;Python&quot; mark in major markets (the EU, Brazil, Japan, Australia,
+India, Argentina) for a total of about $20,000.  The cost for
+registration in China is unknown.
+
+Discussion of the need for trademark registration and the
+ramifications followed.
+
+S. Holden: &quot;Do we want to protect the 'Python' trademark as an
+international brand?&quot;
+
+J. Tauber: &quot;I think it's one of our primary mandates.&quot;  The Board
+agreed.
+
+D. Goodger: &quot;Someone mentioned registering in countries where there is
+a Python presence.  This could be an ongoing thing.  A new conference
+in country X, then we register there.&quot;
+
+J. Tauber asked which trademark classes should be registered.
+S. Holden replied, &quot;computer software&quot;.
+
+    **RESOLVED**, that Haynes and Boone be commissioned to register
+    the &quot;Python&quot; trademark in the EU, Australia, India, China, Japan,
+    Brazil and Argentina.
+
+Approved, 7-0-1.
+
+`8   Computer for PSF Administrator <#id12>`_
+---------------------------------------------
+
+    **RESOLVED**, that the Treasurer be authorized to fund a laptop
+    purchase for the PSF Administrator's use at a cost not to exceed
+    $1,000.
+
+Approved, 8-0-0.
+
+`9   Internet Domain Management <#id13>`_
+-----------------------------------------
+
+S. Holden asked who formally takes care of the PSF's domain
+registrations.  K. Kaiser replied that we have a listing of domains in
+the Board's CVS repository.
+
+S. Holden: 
+
+    I was wondering if we need to formally delegate this, either to
+    trademarks or to some new committee? Or perhaps to an officer?
+
+    We need to ensure that's properly (and proactively) taken care of,
+    I think.  Every year the pycon.org registration notice comes up
+    just before the conference and everyone screams, even though MAL
+    has it on auto-renew.
+
+S. Deibel: &quot;There are some sort of emailed reminders from a script
+someone wrote.&quot;  K. Kaiser: &quot;That script should run on [the PSF
+Board's server].&quot;  D. Goodger reported that Anthony Baxter runs that
+script.
+
+Further discussion was deferred. 
+
+[43] S. Holden will frame a motion regarding the management
+of the PSF's Internet domains.
+
+`10   Membership Nominations <#id14>`_
+--------------------------------------
+
+Criteria for new member nominations was discussed.  R. Hettinger
+thought that the mix of members has become skewed, with too many
+non-core-contributors.  &quot;Too many people with voting rights over the
+IP who have not had a hand in creating it.&quot;
+
+S. Deibel: &quot;It's valid to ask why non-contributors should have a hand
+in managing the IP they don't own.&quot;
+
+D. Goodger: &quot;The PSF is not solely about Python's IP.  The community
+is a large part too.&quot;
+
+R. Hettinger: &quot;There seems to be no unified notion of what makes for a
+PSF member.&quot;
+
+D. Goodger noted that `there are documented criteria 
+<http://www.python.org/psf/membership/#how-does-one-become-a-member-of-the-psf>`_. 
+
+S. Holden: &quot;The IP needs protection, but creation and protection are
+two entirely separate issues. I see one of the purposes of the
+Foundation as removing crap from developers' lives so they can get on
+with the task of creating the IP ...&quot;
+
+R. Hettinger: &quot;The criteria seems to be anyone can nominate anyone and
+it seems to just get approved.&quot;
+
+M. von L?wis: &quot;I think it's not the nomination that is the problem,
+but the automatic approval.&quot;
+
+T. Peters: &quot;Members /have/ voted down nominations, just not often.&quot; 
+
+Several Directors suggested that this was a topic suitable for
+discussion on the PSF-members mailing list.  R. Hettinger agreed to
+move the discussion there.
+
+`11   Members' Meeting <#id15>`_
+--------------------------------
+
+D. Goodger reported that the next PSF members' meeting is set for
+the Friday of PyCon, March 27, during lunch.
+
+`12   PSF Community Awards <#id16>`_
+------------------------------------
+
+- Holden asked everyone to consider candidates for nomination.
+
+[44] D. Goodger will ask the members for nominations for the
+PSF Community Awards.
+
+`13   PyCon 2009 <#id17>`_
+--------------------------
+
+Regarding A/V recording, D. Goodger reported: 
+
+    The professional quote was ~$44K, for the core 3 days only. For
+    tutorials also, the cost would double, making it too expensive
+    in my opinion.
+
+    We have a proposal for 5 days (tutorials & conference), run by A/V
+    volunteers (not recruited from PyCon attendees) and supervised by
+    people who ran DebConf. They've done some test runs, and the
+    results look very good.
+
+    Are there any objections to going with that?
+
+J. Tauber: &quot;Does that include encoding and putting online?&quot;
+D. Goodger: yes.
+
+S. Holden: &quot;David: I think we have to take your advice here and give
+the volunteers one more chance to provide professional quality video.&quot;
+
+K. Kaiser asked about paid registrations.  D. Goodger: 
+
+    212 people are registered so far. There's always a slow ramp up
+    followed by lots of activity by the end of early-bird
+    registration, February 21. I'm not worried about attendance.
+
+    The new registration system is working smoothly, no significant
+    problems reported. (This is in contrast to last year, when there
+    were huge problems with PayPal.) Kurt has fully verified our
+    Google Checkout account.&quot;
+
+- Kaiser noted that we have collected $50K at this point.
+
+`14   Adjournment <#id18>`_
+---------------------------
+
+S. Holden adjourned the meeting at 18:13 UTC.

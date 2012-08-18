@@ -1,0 +1,259 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+October 12, 2009
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 12
+October 2009.  Steve Holden presided at the meeting.  Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Status of Past Action Items <#status-of-past-action-items>`_- `4.1   Carried Forward <#carried-forward>`_  - `4.2   New On 14 September <#new-on-14-september>`_  - `4.3   New Between Meetings <#new-between-meetings>`_
+
+- `5   Progress with MatrixMaxx Setup <#progress-with-matrixmaxx-setup>`_
+
+- `6   Sponsor Membership Levels <#sponsor-membership-levels>`_
+
+- `7   PSF Community Award Nominations for 2009 - 3rd Quarter <#psf-community-award-nominations-for-2009-3rd-quarter>`_
+
+- `8   Motion to Adopt a Diversity Statement <#motion-to-adopt-a-diversity-statement>`_
+
+- `9   Treasurer Report <#treasurer-report>`_
+
+- `10   Infrastructure Committee <#infrastructure-committee>`_
+
+- `11   Action Items <#action-items>`_
+
+- `12   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, Raymond Hettinger, Steve Holden, Andrew
+Kuchling [joined meeting at 16:15], David Mertz, Tim Peters, Jeff
+Rush, and James Tauber.  Also in attendance were David Goodger
+(Secretary), Kurt Kaiser (Treasurer), Pat Campbell (Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 14 September 2009 Board meeting minutes were approved by a vote of
+6-0-1.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting on 14 September.
+
+`4   Status of Past Action Items <#id4>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+Action items are tracked in `the private PSF wiki <http://wiki.python.org/psf/Action_Items>`_ and their status is
+recorded in the regular minutes.  The numbers in square brackets (like
+&quot;[0]&quot;) refer to the action item ID on the wiki.
+
+`4.1   Carried Forward <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 10 August
+2009 meeting, as highlighted in the minutes (Section 4, Status of Past
+Action Items).  Numbers in [brackets] represent the item ID in the PSF
+private wiki.
+
+- [11] Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository.  D. Goodger will coordinate this work and maintain the records.  [Update 2008-12-08] D. Goodger will identify the records for scanning and send photocopies to P. Campbell.  [Update 2009-03-10] Copies received by P. Campbell [Update 2009-06-08] D. Goodger to send more copies to P. Campbell for scanning.     Status: active.
+
+- [15] Originally from 14 April 2008, Section 7, PyCon Asset Record-Keeping: D. Goodger will update the assets file in PSF CVS with the details of the laptops and VGA2USB boxes purchased for PyCon 2008.     Status: pending.
+
+- [16] Originally from 14 April 2008, Section 12, Sponsor Membership Issues: D. Goodger and P. Campbell will update the member information in members.xls (sponsors & nominated members) & sponsor-addrs.txt, in PSF CVS. [Update 2009-06-19 & 2009-06-25] P. Campbell updated sponsor-addrs.txt & sent to K. Kaiser on 2009-06-19 & updated members.xls & sent to D. Goodger to post on PSF CVS on 2009-06-25.     Status: active.
+
+- [22] Originally from 16 June 2008, Section 6.1, Treasurer's Report: K. Kaiser will submit an expanded report to psf-members.     Status: **done**.
+
+- [4] Originally from 16 June 2008, Section 6.2, Treasurer's Report: D. Goodger will follow up regarding the PyCon transaction analysis.     Status: pending.
+
+- [10] Originally from 16 June 2008, Section 6.8, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon registrations.     Status: pending.
+
+- [25] Originally from 11 August 2008, Section 6.2, PyCon UK Sponsorship:R. Hettinger will propose a blanket policy for sponsorships, instead of one-off requests.     Status: pending.
+
+- [17] Originally from 8 September 2008, Section 7, PSF Logo: D. Goodger will produce final layouts for a PSF logo.     Status: pending.
+
+- [39] Originally from 12 January 2009, Section 7.3, Trademarks Committee (TMC): J. Tauber will document the Trademarks Committee procedure as discussed at the Board meeting.     Status: active.
+
+- [42] Originally from 12 January 2009, Section 10, Legal Issues: K. Kaiser will look into acquiring errors and omissions insurance for the Board of Directors.     Status: pending.
+
+- [50] Originally from 12 March 2009, Section 8, Account Signature Authority: K. Kaiser will obtain signature cards from the PSF's bank and coordinate their signing.     Status: pending.
+
+- [51] Originally from 27 March 2009, Section 4, New Members: D.  Goodger and P. Campbell will inform the new members of their election, invite them to join the psf-members list, and will update the membership records. [Update 2009-04-16/DG: Email sent to new nominated members.] [Update 2009-06-01/DG: Membership roster updated.] [Update 2009-06-08/DG: Email sent to new sponsor members.]     Status: active.
+
+- [45] Added 2009-05-08: A. Kuchling will design, write, and deploy a Python for Beginners site. (Discussion/notes in public wiki).     Status: active.
+
+- [57] Added 2009-05-08: A. Kuchling will analyze how much 'coverage' we have in contributor agreements and if there are any high-profile contributors who haven't signed agreements. Go after people to improve our coverage. (Transferred from #13, Dec 2006 ?4.)     Status: active.
+
+- [58] Originally from 11 May 2009, Section 5, New Memory for PSF Computer: M. von L?wis will purchase new memory to replace faulty memory on a PSF computer.     Status: pending.
+
+- [65] Originally from 11 May 2009, Section 13, Board Email List and Repository Access to PSF Administrator: S. Holden will initiate further discussion via email about adding the PSF Administrator to the Board email list and granting access to the repository.  [Update 2009-06-08: Email access done.]     Status: pending.
+
+- [68] Originally from 11 May 2009, Section 15, PyCon Report: D. Goodger will update the Board by email as soon as the PyCon 2009 financial information is available.     Status: active.
+
+- [70] Originally from 8 June 2009, Section 14.1, Progress Report: A. Kuchling will draw up a PSF budget plan.     Status: active.
+
+- [86] Originally from 13 July 2009, Section 15, Association-Management Software Use: A. Kuchling will provide an overview of the software, MatrixMaxx 9.2 and provide an on-line demo to PSF board members, officers, & staff.     Status: pending.
+
+- [87] Originally from 13 July 2009, Section 16.1, Financial Report: D. Goodger will work with V. Lindberg on a budget plan for PyCon 2010 & 2011.     Status: pending.
+
+- [88] Originally from 13 July 2009, Section 16.1, Financial Report: K. Kaiser will provide a financial report to board members monthly.     Status: **done**.
+
+- [89] Originally from 13 July 2009, Section 16.1, Financial Report: D. Goodger will inform the board of the 10% commission amount received from hotel room charges at the Crowne Plaza Hotel stay during PyCon 2009 when the information becomes available.     Status: pending.
+
+- [90] Added 2009-08-02: Pat Campbell to assist Treasurer in collecting all outstanding receivables.  Outstanding total currently $6,000 (KBK - please correct amount).     Status: active.
+
+- [95] Originally from 10 August 2009, Section 10, Discussion of Adopting MatrixMaxx: A. Kuchling will begin writing a MatrixMaxx CMS implementation plan for the PSF.     Status: pending.
+
+- [96] Added 2009-08-31: S. Holden will inform Trevor Toenjes of the board's decision to obtain the services he will provide the PSF to solicit sponsorship for PyCon 2010.     Status: pending.
+
+`4.2   New On 14 September <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 14 September 2009 Board meeting on IRC. 
+
+- [97] Section 5, PyCon 2010 Budget: V. Lindberg will visit Atlanta to review and place some constraints on the menu, cost of catering, networking, etc. for PyCon 2010.     Status: pending.
+
+- [98] Section 9, Modify PSF Opening Mission Statement: D. Goodger will update the web page: `http://www.python.org/psf/mission/ <http://www.python.org/psf/mission/>`_ to reflect the PSF Mission Statement change.     Status: **done**.
+
+`4.3   New Between Meetings <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There were no action items added since the last Board meeting on 14 September.
+
+`5   Progress with MatrixMaxx Setup <#id8>`_
+--------------------------------------------
+
+The board briefly discussed the progress of the implementation stages
+of the new PSF content management system with MatrixGroup. A beta system
+was introduced for review before the program becomes available for PSF use
+which has been scheduled to be up and running by November 2009.
+
+S. Holden: &quot;Let's aim for a November deployment...&quot;
+
+`6   Sponsor Membership Levels <#id9>`_
+---------------------------------------
+
+D. Mertz: &quot;At the last board meeting, S. Holden mentioned V. Lindberg's
+proposal: Benefactor: $20,000, Patron: $10,000, Principal: $5,000, and
+Member: $2,000.&quot;
+
+S. Holden: &quot;Are we going to let the sponsors choose their [annual fee] level?
+And, are we going to give higher levels more prominence?&quot;
+
+J. Rush: &quot;What 'four levels' of prominence could we give them, other than
+listing in a different section?&quot;
+
+T. Peters: &quot;Unclear what more prominence could mean. Certainly we could,
+e.g., list Benefactors highest on the web page, etc.&quot;
+
+S. Holden: &quot;We could consider offering free advertising if we start to mail
+a magazine to associate members.&quot;
+
+K. Kaiser: &quot;Privately, we could suggest appropriate levels based on company
+size, but let them decide.&quot;
+
+D. Mertz: &quot;I think we should publish a 'Guideline for Choosing
+Sponsorship Level'.&quot;
+
+    **RESOLVED**, that the sponsor member fees for 2010 and subsequent
+    years be set at Benefactor: $20,000; Patron: $10,000; Principal:
+    $5,000; Member: $2,000.
+
+Approved, 8-0-0. 
+
+[99] D. Mertz will develop guidelines for the new 2010 Sponsor
+Member fee levels.
+
+`7   PSF Community Award Nominations for 2009 - 3rd Quarter <#id10>`_
+---------------------------------------------------------------------
+
+Two Nominees for the 2009 - 3rd quarter PSF Community Service Award
+were selected; Noufal Ibrahim for his services in organizing the
+inaugural PyCon India conference and Barry Warsaw for his long-term
+leadership of the Mailman Project and contributions as Python Release
+Manager.
+
+    **RESOLVED**, that Noufal Ibrahim and Barry Warsaw receive PSF
+    Community Service Awards.
+
+Approved, 8-0-0. 
+
+[100] P. Campbell will mail out awards to 3rd quarter
+recipients of the PSF Community Service Award.
+
+[101] S. Holden will write a congratulatory letter to the 3rd
+quarter PSF Community Service Award recipients and write a PSF blog
+entry about their contributions to the community.
+
+`8   Motion to Adopt a Diversity Statement <#id11>`_
+----------------------------------------------------
+
+The board discussed the adoption of a diversity statement. 
+
+D. Mertz: &quot;I believe that the Diversity List and the PSF membership
+would feel that this was moving forward in a positive way with our
+adoption of a concrete statement.&quot;
+
+    **RESOLVED**, that the PSF adopt the following diversity statement,
+    and publish it with links to ancillary materials maintained by
+    members of the diversity list:
+
+        The Python Software Foundation and the global Python Community
+        welcome and encourage participation by everyone.  Our community
+        is based on mutual respect, tolerance, and encouragement, and
+        we are working to help each other live up to these principles.
+        We want our community to be more diverse: whoever you are, and
+        whatever your background, we welcome you.
+
+Approved, 8-0-0. 
+
+[102] D. Mertz will inform PSF members and the Diversity list
+of the new diversity statement and will consult with Diversity list
+members on a website location to publish the diversity statement.
+
+`9   Treasurer Report <#id12>`_
+-------------------------------
+
+The monthly Treasurer's Report was provided to board members by
+K. Kaiser prior to the board meeting for the board members to
+review and then comment on during the meeting.
+
+`10   Infrastructure Committee <#id13>`_
+----------------------------------------
+
+S. Holden asked about the status of the Python repository migration
+from Subversion to Mercurial.  B. Cannon replied that the migration
+was delayed pending resolution of technical issues, specifically
+cross-platform line ending conversion.
+
+`11   Action Items <#id14>`_
+----------------------------
+
+S. Holden expressed concern that action items are not being dealt
+with, and asked, &quot;Will you all PLEASE check for outsttanding actions,
+and start (or complete) work on them?&quot;
+
+`12   Adjournment <#id15>`_
+---------------------------
+
+S. Holden adjourned the meeting at 17:12 UTC.

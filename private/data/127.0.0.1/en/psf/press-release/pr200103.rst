@@ -1,0 +1,61 @@
+**Python Software Foundation Launched**
+
+*New Organization to Promote Open Source Programming
+Language*
+
+LONG BEACH, CA March 6, 2001 - At the ninth Python Conference, Guido van
+Rossum announced the launch of the Python Software Foundation (PSF).
+Modeled after the successful Apache Software Foundation, the PSF's mandate
+is to provide educational, legal and financial resources to the Python
+community.  Responsible for holding Python's intellectual property, the PSF
+will also act as an educational resource, maintain the Python website, and
+foster Python user groups.
+
+The fastest growing programming language, Python is open source,
+cross-platform and easy to use.  An elegant, highly readable language,
+Python's strength is object-oriented scripting.  It is used for cutting-edge
+applications by leading technology and research institutions such as:
+Carnegie Mellon University, Lawrence Livermore National Laboratory, Los
+Alamos National Laboratory, and NASA, to name a few.  Hundreds of thousands
+of programmers are using Python around the world today, and the number is
+growing steadily.  More information is available at `Python.org <http://www.python.org>`_.
+
+"The community enthusiastically supports the creation of a single,
+focused organization to help further Python's development and adoption,"
+said Guido van Rossum, creator of Python speaking at the Ninth International
+Python Conference.  "For example, the PSF will be involved in encouraging
+Python as a beginner programming language in secondary and post-secondary
+institutions."
+
+"We're committed to the support of Python and to its use within the
+business community," said Dick Hardt, CEO & Founder, ActiveState and the
+newly elected President of the PSF.  "The PSF will enable Python's growth
+within commercial and educational organizations and provide a great resource
+for Python programmers of all levels."
+
+"The `Apache Software Foundation <http://www.apache.org>`_
+showed that an independent, non-profit organization can be a catalyst for an
+entire community.  We think the PSF will do the same thing for Python by
+facilitating contributions of intellectual property and funds on a sound
+basis," said Greg Stein, core Python & Apache developer and member of both
+software foundations.  "The PSF puts control of Python in the hands of the
+community that develops it."
+
+The Board of Directors are: David Ascher, Paul Everitt, Fredrik Lundh,
+Tim Peters, Greg Stein, Guido van Rossum, Thomas Wouters.
+
+Founding sponsors are ActiveState and Digital Creations. 
+
+The PSF is a non-profit corporation whose membership is composed of core
+Python code contributors and sponsors.  The PSF exists to promote and
+protect Python interests.  Organizations and individuals interested in
+contributing please contact the PSF President, `Dick Hardt <mailto:Dick@ActiveState.com>`_.
+
+Media & Analysts Contact:
+`Lori Pike <mailto:LoriP@ActiveState.com>`_, ActiveState
+
+(C) Python Software Foundation 2001.
+
+The Python Software Foundation is a trademark of the Python Software
+Foundation Corp.  All other company names herein may be trademarks of their
+respective owners.

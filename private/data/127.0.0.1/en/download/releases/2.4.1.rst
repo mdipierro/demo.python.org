@@ -1,0 +1,119 @@
+Python 2.4.1
+------------
+
+    **Python 2.4.1 has been replaced by a newer bugfix
+    release.**  Please see the `releases page <../>`_ to select a more
+    recent release.
+
+We are pleased to announce the release of **Python 2.4.1 (final)**
+on March 30, 2005.
+
+    **Important:** This release is vulnerable to the problem described in
+    `security advisory PSF-2006-001 </news/security/PSF-2006-001/>`_
+    &quot;Buffer overrun in repr() of unicode strings in wide unicode
+    builds (UCS-4)&quot;.  This fix is included in `Python 2.4.4 <../2.4.4/>`_
+
+    **Note: there's a** `security fix </news/security/PSF-2005-001/>`_
+    **for SimpleXMLRPCServer.py - this fix is included in 2.4.1**
+
+Python 2.4.1 is a bugfix release of Python 2.4 - Python 2.4 is now
+in bugfix-only mode, no new features are being added. Several dozen
+bugs were squashed since Python 2.4, including the SimpleXMLRPCServer
+security fix. See the `detailed release notes <notes/>`_ for more,
+
+For more information on the new features of
+`Python 2.4 </2.4/index.html>`_ see the
+`2.4 highlights </2.4/highlights.html>`_ or consult Andrew
+Kuchling's `What's New In Python </doc/2.4/whatsnew/whatsnew24.html>`_
+for a more detailed view.
+
+Please see the separate `bugs page <bugs>`_ for known
+issues and the bug reporting procedure.
+
+Download the release
+--------------------
+
+Starting with the Python 2.4 releases the **Windows** Python
+installer is being distributed as a Microsoft Installer (.msi) file.
+To use this, the Windows system must support Microsoft Installer
+2.0. Just save the installer file
+`python-2.4.1.msi </ftp/python/2.4.1/python-2.4.1.msi>`_
+to your local machine, then double-click python-2.4.1.msi to find
+out if your machine supports MSI. If it doesn't, you'll need to
+install Microsoft Installer first. Many other packages (such as
+Word and Office) also include MSI, so you
+may already have it on your system. If not, you can download it freely
+from Microsoft for `Windows  95, 98 and Me <http://www.microsoft.com/downloads/details.aspx?FamilyID=cebbacd8-c094-4255-b702-de3bb768148f&displaylang=en>`_ and for `Windows  NT 4.0 and 2000 <http://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f&DisplayLang=en>`_. Windows XP and later already have MSI; many
+older machines will already have MSI installed.
+
+The new format installer allows for `automated installation </download/releases/2.4/msi/#automated>`_ and `many other  shiny new features </2.4/msi.html>`_. There is also a separate installer
+`python-2.4.1.ia64.msi </ftp/python/2.4.1/python-2.4.1.ia64.msi>`_
+for Win64-Itanium users.
+
+Windows users may also be
+interested in Mark Hammond's `win32all <http://starship.python.net/crew/mhammond/win32/>`_ package, available from `Sourceforge <http://sourceforge.net/project/showfiles.php?group_id=78018>`_. win32all adds a number of Windows-specific
+extensions to Python, including COM support and the Pythonwin IDE.
+
+Bob Ippolito has created an installer for Mac OS X 10.3 and
+later - you can fetch this from `his site <http://undefined.org/python/#python>`_, or directly from `here </ftp/python/2.4.1/MacPython-OSX-2.4.1-1.dmg>`_.
+
+**All others** should download either
+`Python-2.4.1.tgz </ftp/python/2.4.1/Python-2.4.1.tgz>`_ or
+`Python-2.4.1.tar.bz2 </ftp/python/2.4.1/Python-2.4.1.tar.bz2>`_,
+the source archive.  The tar.bz2 is considerably smaller, so get that one if
+your system has the `appropriate  tools <http://sources.redhat.com/bzip2/>`_ to deal with it. Unpack it with
+``tar -zxvf Python-2.4.1.tgz`` (or
+``bzcat Python-2.4.1.tar.bz2 | tar -xf -``).
+Change to the Python-2.4.1 directory
+and run the &quot;./configure&quot;, &quot;make&quot;, &quot;make install&quot; commands to compile
+and install Python. The source archive is also suitable for Windows users
+who feel the need to build their own version.
+
+What's New?
+-----------
+
+- See the `highlights </2.4/highlights.html>`_ of the Python 2.4 release.
+
+- Andrew Kuchling's `What's New in Python 2.4 </doc/2.4/whatsnew/whatsnew24.html>`_ describes the most visible changes since `Python 2.3 </2.3/>`_ in more detail.
+
+- A detailed list of the changes in 2.4.1 is in the `release notes <NEWS.html>`_, or the ``Misc/NEWS`` file in the source distribution.
+
+- For the full list of changes, you can poke around in `CVS <http://sourceforge.net/cvs/?group_id=5470>`_.
+
+Documentation
+-------------
+
+The documentation has also been updated: 
+
+- `Browse HTML on-line </doc/2.4.1/>`_
+
+- Download using `HTTP </ftp/python/doc/2.4.1/>`_.
+
+Files, `MD5 <md5sum.py>`_ checksums, signatures and sizes
+---------------------------------------------------------
+
+    ``7bb2416a4f421c3452d306694d3efbba`` `Python-2.4.1.tgz 
+    </ftp/python/2.4.1/Python-2.4.1.tgz>`_ (9219882 bytes, `sig 
+    <Python-2.4.1.tgz.asc>`_) 
+
+    ``de3e9a8836fab6df7c7ce545331afeb3`` `Python-2.4.1.tar.bz2 
+    </ftp/python/2.4.1/Python-2.4.1.tar.bz2>`_ (7847025 bytes, `sig 
+    <Python-2.4.1.tar.bz2.asc>`_) 
+
+    ``5de61a8f3a20a0cc8d0ec82e9901aa6b`` `python-2.4.1.msi 
+    </ftp/python/2.4.1/python-2.4.1.msi>`_ (10970624 bytes, `sig 
+    <python-2.4.1.msi.asc>`_) 
+
+    ``e639f4554a5dadf4da7a04ae64c8f85a`` `python-2.4.1.ia64.msi 
+    </ftp/python/2.4.1/python-2.4.1.ia64.msi>`_ (8930816 bytes, `sig 
+    <python-2.4.1.ia64.msi.asc>`_) 
+
+    ``1db4d575a2c5d6ab24be10c38154551a`` `MacPython-OSX-2.4.1-1.dmg 
+    </ftp/python/2.4.1/MacPython-OSX-2.4.1-1.dmg>`_ (7918391 bytes, `sig 
+    <MacPython-OSX-2.4.1-1.dmg.asc>`_)
+
+The signatures above were generated with
+`GnuPG <http://www.gnupg.org>`_ using release manager
+Anthony Baxter's
+`public key </download/#pubkeys>`_
+which has a key id of 6A45C816.

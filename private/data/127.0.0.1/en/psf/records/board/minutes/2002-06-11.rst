@@ -1,0 +1,84 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Jun. 11, 2002 
+
+A regular regular meeting of the Python Software Foundation (the
+"PSF") Board of Directors was held over Internet Relay Chat at 1:09 pm
+EST.  Guido van Rossum, president of the Foundation and chairman of
+the Board, presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+   meeting: Jeremy Hylton, Tim Peters, Guido van Rossum, David Ascher,
+   Martin von Loewis, Thomas Wouters.  The following members were absent:
+   Marc-Andre Lemburg.
+
+A quorum was present.
+
+2. Meeting minutes of past IRC meetings.
+########################################
+
+Guido moves to approve the meeting minutes of the previous three IRC
+   meetings, on March 12 2002, April 9 2002 and May 14 2002.  The motion
+   passes unanimously.
+
+3. Reports.
+###########
+
+Thomas reports that he may have found a way to allow donations to the PSF
+   to be tax-deductible in Dutch tax law. Investigation is ongoing.
+
+Martin has processed the new PSF members who finished their applications,
+   and sent out reminders to the pending members who have not.
+
+Jeremy has received a bill from Carton Fields, for the review of the 1023
+   tax form. It is for 8.3 hours for a total of $1577, but it seems to
+   include a courtesy deduction intended for Zope Corporation. Jeremy wants
+   to make sure the couresy deduction does not apply to the PSF hours. 
+   Jeremy also points out that the filing of the 1023 form means the PSF is
+   officially a charity and donations from the USA are now tax-deductible
+   under the normal charity rules.
+
+3. Bylaw changes for member meetings on IRC.
+############################################
+
+Since Marc-Andre proposed this agenda item but is absent, it was
+   postponed until the next meeting.
+
+4. Member meeting at OSCON2002
+##############################
+
+O'Reilly is making arrangements for a room at the Open Source conference,
+   from 7 to 11 PM on July 24th. Announcements can go out as soon as the
+   room number is available. Initial projections of the attendance indicate
+   a quorum will not be present unless sufficient proxy forms are sent in.
+   Jeremy will provide proxy form templates on the meeting notice.
+
+Several suggestions were made for the membership meeting agenda, asside
+   from the membership approval for STScI and AB Strakt:
+
+- Progress report of 501(c)(3) application.
+- Statistics/progress regarding (sponsor) membership applications
+- Income and how to spend it
+- Future Python conferences
+
+5. Conference committee
+#######################
+
+Jeremy proposed a comittee to deal with the planning of official Python
+   conferences, to allow for coordination between them. David offers to
+   chair the committee and wil start preparing its formation.
+
+6. Next board meeting
+#####################
+
+Guido is on vacation from June 21 to July 8, and proposes to hold the
+   next meeting on July 16th rather than the 9th. There are no objections.
+
+7. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 1:48 pm EST.

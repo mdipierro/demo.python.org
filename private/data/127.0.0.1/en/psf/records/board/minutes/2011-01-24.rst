@@ -1,0 +1,299 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+January 24, 2011
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 24
+January 2011. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Report <#progress-report>`_- `5.1   Communication Status <#communication-status>`_  - `5.2   Core Development Tasks <#core-development-tasks>`_  - `5.3   HAM WebPages/Links <#ham-webpages-links>`_  - `5.4   Infrastructure Committee <#infrastructure-committee>`_  - `5.5   Marketing Material <#marketing-material>`_  - `5.6   Moving PyPI to Amazon CloudFront <#moving-pypi-to-amazon-cloudfront>`_  - `5.7   PyCon US Website <#pycon-us-website>`_  - `5.8   Sprint Committee <#sprint-committee>`_
+
+- `6   10,000 Grant Awarded to the PyPy Project <#grant-awarded-to-the-pypy-project>`_
+
+- `7   2011-Q1 Community Service Award Nominations <#q1-community-service-award-nominations>`_
+
+- `8   Other Business <#other-business>`_- `8.1   PSF-board-public Mailing List <#psf-board-public-mailing-list>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Raymond Hettinger, Steve Holden, Marc-Andre Lemburg, Martin
+v. L?wis, David Mertz, Doug Napoleone, Jesse Noller, Tim Peters,
+Allison Randal, Jeff Rush, Greg Stein, James Tauber, and Gloria
+Willadsen. Also in attendance were Kurt Kaiser (Treasurer), and Pat
+Campbell (Secretary & Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 20 December 2010 Board meeting minutes were voted on and approved. 
+
+Approved, 12-0-1.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting held on 20
+December 2010.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K.
+Kaiser prior to the Board meeting and produced from Quickbooks Online.
+
+Here is an exerpt from the treasurer's report on a few of the activities
+the treasurer will be focused on:
+
+&quot;My focus is currently on IRS year-end 1099 filing (tutorial honoraria),
+AR and AP reduction, PyCon sponsor invoicing, and implementation of the
+Associate Member program.&quot;
+
+`5   Progress Report <#id5>`_
+-----------------------------
+
+The following board reports were submitted to the board mailing list
+one week prior to this month's meeting. Please see a summary of each
+board report listed below and a possible board discussion to follow:
+
+`5.1   Communication Status <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Hellmann, Communication Officer, reported continued activities from
+last month, by saying:
+
+    - Paulo Nuin is working on a post about the PyPI mirroring project.
+
+    2. Engelbert Gruber is working on interview questions for a post about
+    the new PyCon web site.
+
+As far as new activities for the month are concerned, he reported: 
+
+    - Summer pyGames post, by Paulo Nuin      `http://pyfound.blogspot.com/2010/12/summer-pygames.html  <http://pyfound.blogspot.com/2010/12/summer-pygames.html>`_
+
+    - Post about Vern Ceder's programming class, by Doug Hellmann      `http://pyfound.blogspot.com/2010/12/high-school-students-program-robots.html  <http://pyfound.blogspot.com/2010/12/high-school-students-program-robots.html>`_
+
+    - PSF Community awards posts, by Paulo Nuin    - `http://pyfound.blogspot.com/2011/01/andrew-kuchling-receives-psf-community.html <http://pyfound.blogspot.com/2011/01/andrew-kuchling-receives-psf-community.html>`_  - `http://pyfound.blogspot.com/2011/01/doug-hellmann-receives-psf-community.html <http://pyfound.blogspot.com/2011/01/doug-hellmann-receives-psf-community.html>`_
+
+For items planned for next month and ongoing projects, D. Hellmann reported on
+respectively:
+
+    - Assist with publicity for PyCon.
+
+    Facebook stats for 9 Dec - 7 Jan 
+
+    13,0962 monthly active users 
+
+    1,559 new likes 
+
+    247,533 post views 
+
+    549 post feedback
+
+`5.2   Core Development Tasks <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+B. Cannon, Core Development Tasks Project, reported new activities
+for the month of January by saying:
+
+&quot;Devguide has been started (`http://docs.python.org/devguide/ <http://docs.python.org/devguide/>`_). As of
+this moment the pages related to getting someone set up to becoming a
+core developer are now done.&quot;
+
+As far as plans for next month's activities, Brett goes on to say: 
+
+&quot;The guides on how to make changes to the stdlib and the language will
+be done. There is also some doc cleanup in terms of moving things out
+of various PEPs and the Misc directory in Python's repo and over to
+the devguide.
+
+After that I will start the Python 2->3 porting guide.&quot;
+
+`5.3   HAM WebPages/Links <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+P. Campbell, Honorary Associate Membership (HAM) WebPages Start-up
+Project, reported issues/blockages for the month by saying:
+
+&quot;The issue is that we are in need of another Content Management System (CMS)
+like MatrixMaxx because we will no longer be utilizing the MatrixMaxx Group
+service. Our primary contact and advocate will be leaving the company.
+
+Therefore, we are currently shopping around for a replacement service as well
+as looking into a Customer Relationship Management (CRM) setup like CiviCRM
+SugarCRM, or Salesforce just to name a few.&quot;
+
+Board Discussion: 
+
+- Willadsen: &quot;Will CiviCRM be hosted elsewhere, or will we have to do so?&quot;
+
+K. Kaiser: &quot;Not decided -- not a major issue compared to the web page
+development. My view is that CiviCRM is very similar to MatrixMaxx. What is
+missing is the web page where the Honarary Associate Membership (HAM) signup.
+Payment is relatively a minor issue.&quot;
+
+- Holden: &quot;What I would like to emphasize are the priorities:- The system should include membership management that will handle our current and anticipated needs.  - It should provide all necessary financial information in a form easily entered into QBO.  - It should be easy for Pat to operate and train others in the operation of.&quot;
+
+`5.4   Infrastructure Committee <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Reifschneider, Infrastructure Committee Chair, reported the following
+work initiated for the month:
+
+    1.Martin set up DNS for the Polish Python Coders group.They were
+    losing access to their previous domain at www.python.org.pl because
+    the domain owner wanted to commercialize it. COMPLETED.
+
+`5.5   Marketing Material <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M.A.Lemburg, Marketing Material Project Manager, reported progress
+on the project:
+
+&quot;The proposal for the project was accepted by the PSF board in the
+December 2010 meeting. It was a close call, but I'm glad that
+such projects can finally be undertaken with the PSF.
+
+We are currently preparing the paperwork to get the contractual side
+setup and have in parallel started work on the content.&quot;
+
+As far as future plans are concerned for his marketing materials
+project, he reported:
+
+&quot;If the project goes well, we'll follow up with a Python flyer,
+translated versions of the brochure and also consider creating
+marketing material more targeted at specific user groups or
+application fields.
+
+In the long run, we'd also like to take the idea of producing
+marketing material beyond printed material and develop booth
+setups, giveaways, CDs, etc. to support conference organizers and
+local user groups wishing to promote Python at their events.&quot;
+
+`5.6   Moving PyPI to Amazon CloudFront <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The project leader, M.A. Lemburg, Moving PyPI to Amazon CloudFront,
+reported progress on this project for the month:
+
+&quot;We have setup the Amazon account for Amazon Web Services (AWS)
+and enabled S3 and CloudFront.
+
+Since we don't want to get into issues with respect to the PyPI
+content being subject to US regulations, we will be using the
+European facilities of Amazon in Ireland for hosting the data.
+The current PyPI production server is located in The Netherlands.
+
+The next step is to create a development environment for working
+out the integration details. This will require getting access to
+the PyPI server, database and then creating a private installation
+of the PyPI software.&quot;
+
+- - Lemburg also reported on future plans for the project:
+
+&quot;Van Lindbergh mentioned RackSpace's cloud system on the board list.
+We may proceed with integrating that as well, if the Amazon setup
+turns out to work according to plan.&quot;
+
+`5.7   PyCon US Website <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Napoleone, PyCon US Website Project, reported on issues/
+blockages:
+
+    - Schedule application delayed.
+
+    - Website overloaded      The 2011 website hosted by Eldarion became overloaded the evening the talks were announced. More cloud servers have been brought online to prevent this from happening in the future. We were handling >6 Meg/sec traffic and >20M hits/sec for ~5min before we buckled under the load.
+
+He also reported on continued activities from last month by saying: 
+
+- Registration continues with only two known minor one-time problems.
+
+For new activities, items planned for next month, and ongoing projects,
+D. Napoleone reported respectively:
+
+    - Talks and Tutorials announced.
+
+    - New schedule system from Eldarion
+
+    - Bug fixes and feature requests.
+
+    - Archival of old PyCon websites.      We will end of life the Tummy.com dedicated server within 6 months. All the previous years sites will be archived to static content, checked into the python.org PyCon svn repository and cheaply hosted.
+
+`5.8   Sprint Committee <#id13>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, Sprint Committee Chair, reported continued activities from last month
+with:
+
+&quot;- Announced lax requirements on blog, need to update CFP.&quot; 
+
+As far as new activities for the month are concerned, J. Noller reported: 
+
+**MISSING**
+
+`6   10,000 Grant Awarded to the PyPy Project <#id14>`_
+-------------------------------------------------------
+
+A motion was passed granting an award of $10,000 to the PyPy project to
+be announced at PyCon 2011.
+
+    **RESOLVED**, that the PSF make a grant of $10,000 to the PyPy
+    project via the Software Freedom Conservancy in recognition of
+    the past and current work they have done on their PyPy Python
+    implementation, including JIT and C extension support and in
+    moving their Python implementation forward towards the 2.7
+    standard. The PSF recognizes the hard work and dedication the PyPy
+    team has continually exhibited, and looks forward to supporting
+    them in the future.
+
+Aproved, 9-2-2.
+
+`7   2011-Q1 Community Service Award Nominations <#id15>`_
+----------------------------------------------------------
+
+Two Nominees for the 2011 - 1st Quarter PSF Community Service Award were
+selected and the winners were announced at the 2011 PyCon Conference.
+
+    **RESOLVED**, that the 2011-Q1 PSF Community Service Award be made to
+    Van Lindberg and Benjamin Peterson and announcement of the prospective
+    award recipients will take place at the PyCon Conference held in
+    Atlanta, Georgia in March 2011.
+
+Approved, 13-0-0.
+
+`8   Other Business <#id16>`_
+-----------------------------
+
+`8.1   PSF-board-public Mailing List <#id17>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The board discussed the need to add a new public board mailing list
+in addition to the private one that is currently being used by
+board members.The new public board mailing list will be utilized by
+both board directors and PSF members on a trial basis.
+
+`9   Adjournment <#id18>`_
+--------------------------
+
+- Holden adjourned the meeting at 17:06 UTC.

@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- topics/tkinter -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/topics/tkinter">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>Tkinter is Python's de-facto standard GUI (Graphical User Interface) package.
+It is a thin object-oriented layer on top of <a class="reference external" href="http://tcl.sourceforge.net/">Tcl/Tk</a>.</p>
+<p>Tkinter is not the only <a class="reference external" href="/pythonorg/default/index/moin/GuiProgramming">GuiProgramming</a> toolkit for
+Python. It is however the most commonly used one. <a class="reference external" href="/pythonorg/default/index/moin/CameronLaird">CameronLaird</a> calls the yearly decision to keep TkInter &quot;one of the
+minor traditions of the Python world.&quot;</p>
+<p>The Tkinter wiki: <a class="reference external" href="http://tkinter.unpythonic.net/wiki/">http://tkinter.unpythonic.net/wiki/</a></p>
+<div class="section" id="tkinter-documentation">
+<h1>Tkinter Documentation</h1>
+<ul class="simple">
+<li><a class="reference external" href="http://www.pythonware.com/library/tkinter/introduction/">An Introduction To Tkinter</a> (online) by  <a class="reference external" href="/pythonorg/default/index/moin/FredrikLundh">FredrikLundh</a></li>
+<li><a class="reference external" href="http://infohost.nmt.edu/tcc/help/pubs/tkinter/">Tkinter reference: a GUI for Python</a> (online or <a class="reference external" href="http://infohost.nmt.edu/tcc/help/pubs/tkinter/tkinter.pdf">pdf</a>) by John W.  Shipman, New Mexico Tech Computer Center</li>
+<li><a class="reference external" href="http://www.amazon.com/exec/obidos/ISBN=1884777813">Python and Tkinter Programming</a> by John Grayson (see also  <a class="reference external" href="/pythonorg/default/index/moin/GuiBooks">GuiBooks</a>). This book just recently came back into print on  demand, see the publisher's website <a class="reference external" href="http://www.manning.com/grayson">http://www.manning.com/grayson</a></li>
+<li><a class="reference external" href="http://modcopy.sourceforge.net/tips.html">Tips for Python/Tk</a> by Andreas  Balogh (about useful documentation, GUI builders and tips using Grid and HList  widgets)</li>
+<li><a class="reference external" href="http://www.astro.washington.edu/users/rowen/TkinterSummary.html">Tkinter Summary</a></li>
+<li><a class="reference external" href="http://www.astro.washington.edu/users/rowen/ROTKFolklore.html">Tkinter Folklore</a></li>
+</ul>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 14); <em><a href="#id1">backlink</a></em></p>
+Duplicate explicit target name: &quot;pdf&quot;.</div>
+<p>David <a class="reference external" href="/pythonorg/default/index/moin/McNab">McNab</a> recommended the latter two as particularly &quot;pythonic&quot; in not insisting that readers think in Tcl. - <a class="reference external" href="http://www.ferg.org/thinking_in_tkinter/index.html">Thinking in Tkinter</a> is  an introduction to some basic Tkinter programming concepts.
+- <a class="reference external" href="http://docs.python.org/lib/tkinter.html">Graphical User Interfaces with Tk</a>,  a chapter from the <a class="reference external" href="http://docs.python.org/lib/lib.html">Python Library Reference</a>..
+- <a class="reference external" href="http://www.tcl.tk/man/">Online Tcl/Tk Manual Pages</a> - the official man pages  at the Tcl Developer Xchange.
+- The New Mexico Institute of Mining and Technology created its own Tkinter  manual. It is available in <a class="reference external" href="http://www.nmt.edu/tcc/help/pubs/tkinter/">HTML</a>  and <a class="reference external" href="http://www.nmt.edu/tcc/help/pubs/tkinter.pdf">PDF</a>.
+- <a class="reference external" href="http://www.tkdocs.com/tutorial/index.html">TkDocs Tutorial</a>, covers Python  3+ and Tk8.5, with easy to follow examples.
+- The <em>Tkinter Life Preserver</em>, by Matt Conway is still useful, though way out of  date. It's the only document that explains how to read the Tcl/Tk manuals and  translate the information there to Tkinter calls. <a class="reference external" href="http://www6.uniovi.es/python/doc/life-preserver/index.html">HTML version</a>, converted by  Ken Manheimer.
+- The source: when all else fails: Read The Source, Luke! - <em>Demo/tkinter/</em> in the Python source distribution. - This contains many helpful  examples, including updated versions of Matt Conway's examples. - <em>Lib/lib-tk/Tkinter.py</em> in any Python distribution.
+- Other prominent Tcl/Tk sites: - <a class="reference external" href="http://www.tcl.tk">Tcl Developer Xchange</a> - <a class="reference external" href="http://sourceforge.net/projects/tcl">Tcl project at SourceForge</a> - <a class="reference external" href="http://pypi.python.org/pypi/pytkgen">Tcl foundry at SourceForge  &lt;http://sourceforge.net/foundry/tcl-foundry&gt;`_(2008/09/07 lost link?)
+- Other Tcl/Tk related links: - `Simple toolsuite to create Tkinter GUIs on the fly from JSON files</a></p>
+</div>
+<div class="section" id="tkinter-extensions">
+<h1>Tkinter Extensions</h1>
+<ul class="simple">
+<li><a class="reference external" href="/pythonorg/default/index/moin/Pmw">Pmw</a> (<a class="reference external" href="http://pmw.sourceforge.net">http://pmw.sourceforge.net</a>)</li>
+<li><a class="reference external" href="/pythonorg/default/index/moin/Tix">Tix</a> (<a class="reference external" href="http://www.python.org/doc/current/lib/module-Tix.html">http://www.python.org/doc/current/lib/module-Tix.html</a>)</li>
+<li><a class="reference external" href="/pythonorg/default/index/moin/TkZinc">TkZinc</a> (<a class="reference external" href="http://www.tkzinc.org">http://www.tkzinc.org</a>)</li>
+<li><a class="reference external" href="/pythonorg/default/index/moin/Tkinter3000">Tkinter3000</a> (<a class="reference external" href="http://tkinter.effbot.org">http://tkinter.effbot.org</a>)</li>
+<li><a class="reference external" href="/pythonorg/default/index/moin/How%20Tkinter%20can%20exploit%20Tcl/Tk%20extensions">How Tkinter can exploit Tcl/Tk extensions</a></li>
+</ul>
+</div>
+<div class="section" id="comments">
+<h1>Comments</h1>
+<p><a class="reference external" href="/pythonorg/default/index/moin/MythDebunking">MythDebunking</a>: <em>TkInter is ugly on Windows</em>
+(<a class="reference external" href="http://wiki.tcl.tk/8646">http://wiki.tcl.tk/8646</a>)</p>
+</div>
+<div class="section" id="checking-your-tkinter-support">
+<h1>Checking your Tkinter support</h1>
+<p>A good way to systematically check whether your Tkinter support is working is
+the following.</p>
+<p>Enter an interactive Python interpreter in a shell on an X console.</p>
+<div class="section" id="step-1-can-tkinter-be-imported">
+<h2>Step 1 - can _tkinter be imported?</h2>
+<p>Try the following command at the Python prompt:</p>
+<p><tt class="docutils literal">&gt;&gt;&gt; import _tkinter # with underscore, and lowercase 't'</tt> - If it works, go to step 2.
+- If it fails with &quot;No module named _tkinter&quot;, your Python configuration needs to be modified to include this module (which is an extension module implemented in C). Do <strong>not</strong> edit Modules/Setup (it is out of date). You may have to install Tcl and Tk (when using RPM, install the -devel RPMs as well) and/or edit the setup.py script to point to the right locations where Tcl/Tk is installed. If you install Tcl/Tk in the default locations, simply rerunning &quot;make&quot; should build the _tkinter extension.
+- If it fails with an error from the dynamic linker, see above (for Unix, check for a header/library file mismatch; for Windows, check that the TCL/TK DLLs can be found).</p>
+</div>
+<div class="section" id="step-2-can-tkinter-be-imported">
+<h2>Step 2 - can Tkinter be imported?</h2>
+<p>Try the correct command for your version at the Python prompt:</p>
+<p><tt class="docutils literal">&gt;&gt;&gt; import Tkinter # no underscore, uppercase 'T' for versions prior
+to V3.0</tt></p>
+<p><tt class="docutils literal">&gt;&gt;&gt; import tkinter # no underscore, lowercase 't' for V3.0 and later</tt> - If it works, go to step 3.
+- If it fails with &quot;No module named Tkinter&quot;, your Python configuration need to be changed to include the directory that contains Tkinter.py in its default module search path. You have probably forgotten to define TKPATH in the Modules/Setup file. A temporary workaround would be to find that directory and add it to your PYTHONPATH environment variable. It is the subdirectory named &quot;lib-tk&quot; of the Python library directory (when using Python 1.4 or before, it is named &quot;tkinter&quot;).</p>
+</div>
+<div class="section" id="step-3-does-tkinter-work">
+<h2>Step 3 - does Tkinter work?</h2>
+<p>Try the correct command for your Python version at the Python prompt:</p>
+<p><tt class="docutils literal">&gt;&gt;&gt; Tkinter._test() # note underscore in _test and uppercase 'T' for
+versions prior to V3.0</tt></p>
+<p><tt class="docutils literal">&gt;&gt;&gt; tkinter._test() # note underscore in _test and lowercase 'T' for V3.0 and later</tt> - This should pop up a small window with two buttons. Clicking the &quot;Quit&quot; button makes it go away and the command return. If this works, you're all set. (When running this test on Windows, from Python run in a MS-DOS console, the new window somehow often pops up <em>under</em> the console window. Move it aside or locate the Tk window in the Taskbar.)
+- If this doesn't work, study the error message you get; if you can't see how to  fix the problem, <a class="reference external" href="news:comp.lang.python">ask for help</a>.</p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

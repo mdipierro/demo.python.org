@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/usa -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/usa">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="python-streamlines-space-shuttle-mission-design">
+<h1>Python Streamlines Space Shuttle Mission Design</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Software Development, Business, Science</p>
+<p><strong>Keywords:</strong>  Rapid Application Development, User Interface, ROI Case Study, Scientifcic Programming</p>
+<p><strong>Title:</strong>  Python Streamlines Space Shuttle Mission Design</p>
+<p><strong>Author:</strong>   Daniel G. Shafer</p>
+<p><strong>Summary:</strong>  The United Space Alliance (USA) uses Python to deliver quality just-in-time engineering solutions at low cost.</p>
+<p><strong>Date:</strong>   2003/01/17 04:44:29</p>
+<p><strong>Logo:</strong>  .. image:: /files/success/usa/usa-logo.gif    :alt: /files/success/usa/usa-logo.gif</p>
+<p>This article was previously published on <a class="reference external" href="http://www.builder.com/">Builder.com</a></p>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p>Software engineers have long told their bosses and clients that they
+can have software &quot;fast, cheap, or right,&quot; as long as they pick any two
+of those factors. Getting all three? Forget about it!</p>
+<p>But <a class="reference external" href="http://www.unitedspacealliance.com/">United Space Alliance (USA)</a>, NASA's main shuttle support
+contractor, had a mandate to provide software that meets all three
+criteria. Their experience with Python told them NASA's demands were
+within reach. Less than a year later, USA is nearing deployment of a
+Workflow Automation System (WAS) that meets or exceeds all of NASA's
+specifications.</p>
+<p>&quot;Python allows us to tackle the complexity of programs like the WAS
+without getting bogged down in the language,&quot; says Robin Friedrich,
+USA's Senior Project Engineer. Friedrich conceived of the WAS project
+in response to a significant gap in the way shuttle mission planning
+was handling data management. &quot;Historically,&quot; Friedrich says, &quot;this
+data has been communicated using paper and, more recently, data file
+exchange. But both of these approaches are error-prone. Catching and
+fixing errors as well as responding to frequent change requests can bog
+such a system down.&quot; Complicating the issue was the challenge of
+finding money to improve the flight design process in an era of
+declining budgets for space activities.</p>
+</div>
+<div class="section" id="just-in-time-provides-a-solution-and-more-problems">
+<h2>&quot;Just in time&quot; provides a solution--and more problems</h2>
+<p>USA decided they needed a way to &quot;minimize data changes and the
+resulting rework.&quot; The shortest route to that goal would be to shift
+the design work to the end of the process so that flight
+characteristics would have a good chance of already being finalized. In
+other words, as Friedrich says, &quot;We decided we needed to do this data
+management work 'just in time'.&quot;</p>
+<p>A just-in-time solution, however, generally puts more stress on both
+people and systems to get things right the first time because
+postponing these activities to the end of the process means a loss of
+scheduling elasticity.</p>
+<p>&quot;The obvious answer,&quot; according to Friedrich, &quot;was to create a central
+database repository to help guarantee consistency and to provide
+historical tracking of data changes.&quot; An Oracle database was designed
+to store the information, but a graphical front end to manage the
+process of workflow automation was clearly an essential component of an
+effective solution. &quot;We knew from experience--we do a good bit of Java
+coding in our group--that using C++ or Java would have added to the
+problem, not the solution,&quot; Friedrich maintains.</p>
+</div>
+<div class="section" id="python-a-mainstay-since-1994">
+<h2>Python a mainstay since 1994</h2>
+<p>Enter Python. &quot;We'd been using Python since 1994,&quot; says Friedrich,
+&quot;when I literally stumbled across Python as I was searching the pre-Web
+Gopher FTP space for some help with a C++ project we were doing.&quot; Being
+an inveterate systems engineer, Friedrich &quot;just had to investigate it.&quot;
+He was stunned by what he discovered.</p>
+<p>&quot;Twenty minutes after my first encounter with Python, I had downloaded
+it, compiled it, and installed it on my SPARCstation. It actually
+worked out of the box!&quot;</p>
+<p>As if that weren't enough, further investigation revealed that Python
+has a number of strengths, not the least of which is the fact that
+&quot;things just work the first time. No other language exhibits that trait
+like Python,&quot; says Friedrich.</p>
+<p>He attributes this characteristic to three primary language features:</p>
+<blockquote>
+<ul class="simple">
+<li>Dynamic typing</li>
+<li>Pseudocode-like syntax</li>
+<li>The Python interpreter</li>
+</ul>
+</blockquote>
+<p>The result? &quot;We achieve immediate functioning code so much faster in
+Python than in any other language that it's staggering,&quot; says
+Friedrich. &quot;Java and C++, for example, have much more baggage you have
+to understand just to get a functioning piece of software.</p>
+<p>&quot;Python also shines when it comes to code maintenance,&quot; according to
+Friedrich. &quot;Without a lot of documentation, it is hard to grasp what is
+going on in Java and C++ programs and even with a lot of documentation,
+Perl is just hard to read and maintain.&quot; Before adopting Python,
+Friedrich's team was doing a good bit of Perl scripting and C++ coding.
+&quot;Python's ease of maintenance is a huge deal for any company that has
+any significant amount of staff turnover at all,&quot; says Friedrich.</p>
+<p>The team had already developed a moderately large number of C++
+libraries. Because of Python's easy interface to the outside world, USA
+was able to retain these libraries. &quot;We wrote a grammar-based tool that
+automatically interfaced all of our C++ libraries,&quot; says Friedrich.</p>
+<p>Another aspect of Python that Friedrich found eminently significant is
+its shallow learning curve. &quot;We are always under the gun on software
+projects, like everyone else,&quot; he says. &quot;But for any programmer,
+picking up Python is a one-week deal because things just behave as you
+expect them to, so there's less chasing your tail and far more
+productivity.&quot; He contrasts that with C++ and Java, which he says takes
+a good programmer weeks to grasp and months to become proficient.</p>
+<p>Friedrich says that even the non-programming engineers at USA learned
+to do Python coding quickly. &quot;We wanted to draft the coding energy of
+the engineering staff, but we didn't want them to have to learn C++.
+Python made the perfect 4GL programming layer for the existing C++
+classes.&quot;</p>
+</div>
+<div class="section" id="one-coder-and-17-000-lines-of-code-later">
+<h2>One coder and 17,000 lines of code later</h2>
+<p>The WAS project, which has required somewhat less than a man-year of
+effort, has been coded by a single Senior Software Engineer, Charlie
+Fly, who has cranked out some 17,000 source lines of code (SLOC).
+Python plays the central role, managing data interactions and the task
+network, as shown in Figure A.</p>
+<img alt="Figure A: Python plays a central role in data interaction" src="/pythonorg/default/index/files/success/usa/fig_a.gif" />
+<p><em>Figure A: Python plays a central role in data interaction.</em></p>
+<p>In the system, user tasks communicate with a Python data server, which
+in turn connects to an Oracle server via DCOracle. Using Oracle's
+built-in trigger mechanism to send a message to WAS as data records are
+updated, the WAS calculates which tasks are now data-ready and notifies
+the appropriate user.</p>
+<p>At the core of the design is the Task object, which stores all
+information relevant to a single task in the workflow network. The end
+user can view the network in a PERT-style chart layout (Figure B),
+where color coding reveals at a glance which tasks are finished, which
+are in process, and which have not yet been started.</p>
+<img alt="Figure B: PERT-style layout" src="/pythonorg/default/index/files/success/usa/fig_b.gif" />
+<p><em>Figure B: PERT-style layout</em></p>
+<p>Two other graphical interface windows allow the user to manage the
+dependencies among data items in the network (Figure C) and to view and
+edit individual task details (Figure D).</p>
+<img alt="Figure C: Interface 1" src="/pythonorg/default/index/files/success/usa/fig_c.gif" />
+<p><em>Figure C: Interface 1</em></p>
+<img alt="Figure D: Interface 2" src="/pythonorg/default/index/files/success/usa/fig_d.gif" />
+<p><em>Figure D: Interface 2</em></p>
+<p>All of the code for the UIs was also done in Python, using the popular
+Tkinter library along with an open source package of supporting
+modules. Tkinter is included in all standard Python installations.</p>
+<p>&quot;USA is pleasantly surprised by how much quality software we can
+deliver,&quot; Friedrich says. &quot;And each time we demonstrate success with
+Python, we add a few more believers to my growing list!&quot;</p>
+</div>
+<div class="section" id="about-the-author">
+<h2>About the Author</h2>
+<p><em>Dan Shafer is a freelance author and sometime Python coder who hangs
+out on California's central coast. He is a member of the PythonCard
+Open Source development team creating a GUI-building framework for
+Python applications. He makes his living as a writer and a product
+development consultant. A founder and former editorial director of
+Builder.com, Shafer has been part of the Web development community
+almost from its inception.</em></p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

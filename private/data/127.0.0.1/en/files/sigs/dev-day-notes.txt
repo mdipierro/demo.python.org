@@ -1,0 +1,210 @@
+(compiled by Ka-Ping Yee <ping@lfw.org>)
+
+Compilers and Code Analysis
+===========================
+
+Jeremy: possible future goal: build Python in Python
+
+currently three compilers are distributed:
+    - CPython:
+        - parser via pgen
+        - compiler in C makes Python VM bytecode
+
+    - JPython:
+        - JavaCC parser (perhaps should/will be ANTLR?)
+        - interpreter compiles to JVM
+        - jpythonc has a separate compiler
+
+other compilation projects:
+    - Py2C (Bill Tutt, Greg Stein)
+        - keep most of Python's flexibility; avoid breaking code
+        - handles most of Python (incl. lambdas, classes)
+        - translated pystone is about 30% faster
+        - current Python2C not too good with OO programs because
+            method dispatch isn't optimized yet
+        - optimizes simple case of integer for-loop
+        - future work:
+            - use limited constant propagation technique to reduce
+                some of the overhead of integer arithmetic overflow checking
+            - try to reduce the cost of calling an instance method
+            - try to avoid PyArg_Parse overhead
+                - one Python function -> one C function (extension method
+                    style, so uses PyObjects and PyArg_Parse a lot)
+            - try to use optional static type information
+        - would it be easier to do for C++?  probably.
+        - Guido: sounds like PyFront.  how does quality of C code compare?
+            - global function calls just call C function directly, so faster
+                (but still has to do PyArg_ParseTuple)
+            - turn parse tree into more useful AST
+            - the C code isn't that bad; the most hairy part is dynamically
+                binding default arguments for keyword argument support (need
+                to make callable object containing pointers to default args)
+            - exception handling is also pretty bizarre
+        - when executed on itself (100k) becomes 90k lines of C code
+        - maybe optional type info + type inferencing could turn a Python
+            class into a C struct or a C++ class?
+        - no data flow analysis at all; just a straight translation right now
+        - ESR: the LISP people have been working on this for a long time
+        - ref. Dylan: reduce LISP to something which can be compiled
+            (e.g. "sealing" in Dylan is like declaring classes final)
+        - Guido: this is an important example; glad it has been carried far
+            enough to provide hard data
+
+    - Paths (Jonathan Riehl)
+        - GRAD -> GRAD/Paths -> Basil -> PyFront
+        - Grammar-based Rapid Application Development
+            - non-intrusive way of binding to other languages
+            - acquire other language grammars
+            - have parser emit intermediate representation that could be
+                translated into Python bindings (like SWIG with no .i)
+        - created coverage/testing tools to instrument Python -> Paths
+        - generate data-flow graphs with data from GRAD;
+            examine code slices to get full test coverage
+        - realized that GRAD wasn't just about applications; more about
+            philosophy of "language-transcendent development": mix and
+            match frontends and backends
+        - Basil: my version of a space potato (vapour with a good name)
+        - PyFront: take data-flow graph from Python, generate C
+        - source -> ast -> sdg: control flow graph of Python bytecodes ->
+            vdg: value dependency graph
+        - went sdg -> C code instead of vdg -> C
+        - see paper in LANL repository
+        - modest improvement: control flow in C, but still calling Python API
+            and manipulating PyObjects
+        - lots of C code, quite redundant
+        - would be better if it was generated from vdg
+        - language-transcendent programming
+            - ye olde programming map
+            - front-end development environment: create language grammar
+                - integrate with Bison/YACC: LALR(1); pgen: LL(1);
+                    ANTLR: LL(n); Spark
+            - what's the intermediate format?  XML
+            - back-end development environment: metamodel, semantic bindings
+                - walks abstract syntax tree, generates linear stream of data
+            - can then generate: object models (like GRAD), test vectors,
+                optimized code, unoptimized code, fries, etc.
+            "this is all theoretical... unlike the vapourware over there"
+            "keep the impossible from being too daunting"
+        - Martijn: what is this for? i just don't get it
+
+    - Rattlesnake (Skip Montanaro)
+        - experimental optimizer
+        - tools for manipulating bytecode blocks
+        - modify VM to use 3-address opcodes (register-based)
+
+    - Viper (Max Skaller)
+        - Python compiler & interpreter in Ocaml
+        - emphasis on optimization
+        - semantics are up for grabs, highly experimental
+
+new compiler requirements:
+    - types-sig has a serious implementation challenge
+        - changes to language grammar
+        - needs to implement type checker (some checking in runtime)
+    - optimization efforts
+        - e.g. faster global name lookup
+        - generate native code (target to JVM?)
+    - want warnings framework (optional lint-like checking)
+
+do interpreter in Python for experimentation too?
+    - Guido: more effort than building a compiler
+    - ESR: possibly enrich bytecode to make it more amenable to
+        compilation to native code
+
+Guido, Greg, Ping, etc.: use abstract syntax trees as intermediate level
+    - actually bytecode does partition easily into basic blocks;
+        but indeed, ASTs better for global analysis
+
+Jeremy: stuff like peephole optimization best to do after generating bytecode
+
+Guido: stuff like register assignments, CSE, choosing where a local variable
+    should live best done before bytecode
+
+ESR: suggest it's good to go source -> ast -> bytecode -> native
+    rather than source -> ast -> native; can optimize in
+    platform-indepedent step ast -> bytecode
+
+strawman approach:
+    - keep current parser approach
+        - JPython may move to ANTLR
+    - develop AST to insulate compiler from changes to grammar
+        - Guido: would be nice to have a standard Python AST
+    - common compiler framework for all Python distributions
+    - appropriate intermediate representation?
+        - bytecode like now?
+
+John Aycock
+    1. have tools that may be relevant
+        - package "spark" supports development of languages
+        - can be applied to Python
+        - can handle grammar as big as Python's; a little slow
+    2. starting a project
+        - type inferencing work showed that it's very hard
+        - seems even more painful to add runtime checks on top
+        - much easier to do type inference dynamically in the interpreter
+        - a bit like Self although Self was more aimed at optimizing
+            dynamically dispatched method calls & attempting to inline
+
+ESR: have a hard time seeing how optional type decls can handle hard cases
+Moshe: want to optimize the common case; may be able to optimize 90% of
+    the code even though 10% runs just like today
+Guido: tools may help speed freaks who can check out the bytecode and
+    add type information appropriately
+Guido: like John, would like to aim for a point far off (programmers would
+    love not having to express type declarations)
+Greg: point in favour of optional type declarations: readability/documentation
+Ping: doesn't Guido want it for the warnings rather than the speed?
+Guido: i want it all!
+
+----
+
+Guido: what's the goal?
+Jeremy: go to a SIG?
+what's the real usage?
+
+Jon: JIT compilation of JVM bytecode can yield 2-3 orders of magnitude
+    faster than CPython; JPython was then about 5-10x slower, so the
+    result is still faster
+ESR: we're all working way too hard; no strategy yet sounds better than
+    translating to Scheme and letting the Scheme compiler do work
+
+Guido: more interested in front-end and program analysis stuff than
+    just speed; recently experimented with parser for Python that has
+    very different properties
+    - the existing parser starts at the top and parses as quick as it
+        can to give you a parse tree to work with
+    - imagine modifying a function in IDLE and incrementally parsing a line,
+        and tell you whether there was an obvious grammar error in the line
+        and highlight the error
+    - need to have a parser that's incremental; also need a parser that is
+        resilient in the face of incidental typos; e.g. if function #2 of 4
+        has a minor grammar error, should not stop the parser from recovering
+        and parsing the rest of the functions
+    - want to go in phases looking at the code like a human reads it
+        - first look at indentation structure and block out the code
+        - (begin with tokenizing to separate out docstrings)
+        - do parenthesis matching to catch newlines that continue statements
+            - can recover by noticing statement keywords inside parentheses
+        - then look at logical lines
+        - can gradually build parse tree until all the expressions are parsed
+        - look at each line: start with keyword, assignment, or expression
+    - this method of parsing makes it easier to parse incrementally
+        - most of the time you only have to parse one or two lines
+    - would be nice to have a standard form of parse tree
+        (tuple of tuples?  instances of node classes?  nodes of all the
+        same class with an attribute specifying parse node type?)
+
+Jeremy:
+    - possible first goal: determine why version-0 ASTs are not sufficient
+    - possible second goal: write a simple compiler
+Guido: if your only goal is to generate bytecode, you may throw away
+    too much information
+ESR: want to seriously look into Scheme translation
+Jeremy: try mzScheme at Rice -- already has class representation
+Ken: in older LISPs you inserted directives into the code to help
+ESR: in the mid-80s you stopped having to do this because data-flow
+    analysis got good enough
+Jeremy: could we use Jonathan's code to do analysis?
+Jon: would be a low-hanging fruit to generate something like Scheme
+    since representation is pretty functional
+Jeremy: we should keep an eye on work in Ocaml and Moby

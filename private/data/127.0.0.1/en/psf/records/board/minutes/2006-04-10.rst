@@ -1,0 +1,179 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+April 10, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 10
+April 2006.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Follow-Up Required <#follow-up-required>`_  - `3.2   Carried Forward <#carried-forward>`_  - `3.3   New in February/PyCon <#new-in-february-pycon>`_  - `3.4   New in March <#new-in-march>`_
+
+- `4   New Sponsor: Tabblo <#new-sponsor-tabblo>`_
+
+- `5   Notifying New Members <#notifying-new-members>`_
+
+- `6   Trademark Policy Plan <#trademark-policy-plan>`_
+
+- `7   Appointment of Vice Chairman <#appointment-of-vice-chairman>`_
+
+- `8   Python.net <#python-net>`_
+
+- `9   Sponsor Fee Change <#sponsor-fee-change>`_
+
+- `10   Adjournment <#adjournment>`_
+
+(Color legend: action items; follow-up required;
+in progress)
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Tim Peters, David Goodger, Martin v. L?wis,
+Andrew Kuchling, Steve Holden, and David Ascher.  Also in attendance
+were Kurt Kaiser (Treasurer) and Neal Norwitz (Assistant Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 25 February 2006 minutes (board meeting at PyCon) were approved by
+a 7-0-0 vote.
+
+The 13 March 2006 minutes were approved by a 7-0-0 vote.  It was
+agreed to omit public mention of potential sponsors from these and
+future minutes.
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+`3.1   Follow-Up Required <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     Status: follow-up required.
+
+- Originally from November 2005, follow-up from December 2005: S. Holden is to contact a potential PSF sponsor/donor.     Status: follow-up required.  (Task transferred from D. Ascher.)
+
+`3.2   Carried Forward <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 13 March 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.
+
+- Originally from November 2005, Section 8, Trademark Policy: S. Deibel to work on the PSF trademark policy, and discuss with Milind Shaw.     Status: carried forward.  (Transferred from D. Ascher.)
+
+- Originally from December 2005, Section 6, PSF Member Meeting: D. Goodger to complete the minutes for the 2005 PSF member meeting.     Status: **in progress**.
+
+- Originally from 14 February 2005, Section 4, Financials: K. Kaiser will ping the sponsor members who have not yet paid their 2006 PSF sponsor fees.     Status: carried forward.
+
+`3.3   New in February/PyCon <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated in the 25 February 2006 special board
+meeting at PyCon 2006 in Dallas/Addison Texas.
+
+- Section 4, Other Business: David Ascher proposed to register PyCon as a trademark for the PSF; he will contact Milind Shaw about that.     D. Ascher: &quot;given the PyCon domain name ownership issues, and the reluctance on the part of some of the members re: TMs in general, I don't really think we should register more trademarks until we have a better idea what the membership wants to do about them.&quot;     Status: **dropped**.
+
+- Section 4, Other Business: Steve Holden will contact Brian Fitzpatrick, VP of public relations for the Apache Software Foundation.     Status: carried forward.
+
+- Section 4, Other Business: David Goodger will create a calendar of recurring PSF business events to remember.     Status: carried forward.
+
+- Section 4, Other Business: Martin v. L?wis will update the list of email addresses of PSF members.     Status: carried forward.
+
+- Section 4, Other Business: Stephan Deibel will approach the sponsor members about potential changes to sponsorship fees, such as the introduction of sponsorship levels.     Status: **in progress**.
+
+`3.4   New in March <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated in the 13 March 2006 board meeting on
+IRC.
+
+- Section 4, Grants Committee: M. von L?wis agreed to draft a report on the PSF grants.     Status: carried forward.
+
+- Section 7, Paying the Treasurer or Offload Tasks to Paid Service: Kurt Kaiser is to propose compensation for the treasurer.     K. Kaiser provided information (2006-03-13, PSF-Board list, &quot;written invitation to PSF General Assembly&quot; thread) on what it takes to do the treasurer's job regarding possible compensation. The board discussed the issues briefly and deferred further discussion.     Status: **replaced**. S. Deibel to develop a compensation policy.
+
+`4   New Sponsor: Tabblo <#id8>`_
+---------------------------------
+
+We have received an application for sponsor membership from Antonio
+Rodriguez, CEO of Tabblo (`http://theonda.org/pages/antonio <http://theonda.org/pages/antonio>`_).
+
+    RESOLVED that the board recommends Tabblo as a new sponsor member,
+    for future approval by the membership.
+
+Approved 7-0-0.
+
+`5   Notifying New Members <#id9>`_
+-----------------------------------
+
+M. v. L?wis will contact the new PSF members elected at
+PyCon.
+
+`6   Trademark Policy Plan <#id10>`_
+------------------------------------
+
+`http://wiki.python.org/moin/PythonSoftwareFoundationTrademarkPolicy 
+<http://wiki.python.org/moin/PythonSoftwareFoundationTrademarkPolicy>`_ 
+
+S. Deibel's plan for the trademark policy is some more refinement,
+then take it to the PSF members, and later to our lawyer.  M. v. L?wis
+proposed contacting our lawyer even before getting consensus, to
+ensure that we have a meaningful trademark policy.  S. Holden
+suggested a deadline of April 30 to pass it to the members, and the
+June board meeting to round up member discussions and pass the policy
+to the lawyer.
+
+T. Peters noted that we're writing very detailed pseudo-legalese now.
+S. Deibel suggested that instead we should be writing English that
+conveys to people (including lawyers) what we want, and they can turn
+that into legalese if necessary.  But we'll still want an English
+language version or FAQ.
+
+S. Deibel to ask the PSF members for input regarding the
+trademark policy by April 30, then incorporate their input and pass
+the policy to our lawyer.
+
+`7   Appointment of Vice Chairman <#id11>`_
+-------------------------------------------
+
+    RESOLVED that Steve Holden is appointed to the office of Vice
+    Chairman.
+
+Approved 4-1-2.
+
+`8   Python.net <#id12>`_
+-------------------------
+
+Deferred due to the lack of a concrete proposal.
+
+`9   Sponsor Fee Change <#id13>`_
+---------------------------------
+
+S. Deibel noted that there are issues he wants to look into; it may be
+that we aren't ready for sponsor levels.  D. Goodger: &quot;I think we have
+to get a better, more solid record of *doing* good things with our
+money before we ask for a lot more.&quot;
+
+M. v. L?wis asked if any of the sponsors had voiced an opinion yet.
+S. Deibel replied: &quot;No, but there's no point in bringing it to them if
+it can't work for our current support level.&quot;
+
+Further discussion was deferred.
+
+`10   Adjournment <#id14>`_
+---------------------------
+
+S. Deibel adjourned the meeting at 18:00 UTC.

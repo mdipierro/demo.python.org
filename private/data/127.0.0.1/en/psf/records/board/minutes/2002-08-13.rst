@@ -1,0 +1,111 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+August 13, 2002. 
+
+A regular regular meeting of the Python Software Foundation (the
+"PSF") Board of Directors was held over Internet Relay Chat at 1:05 pm
+EST.  Guido van Rossum, president of the Foundation and chairman of
+the Board, presided at the meeting.
+
+1. Attendance
+#############
+
+The following Board members were present: Tim Peters, Guido van
+   Rossum, David Ascher, Martin von Loewis, Marc-Andre Lemburg, Thomas
+   Wouters.  The following members were absent: Jeremy Hylton.
+   The Board had quorum.
+
+2. Agenda
+#########
+
+- Minutes of the previous meeting where not available yet, so       they could not be reviewed.
+- Python Support Committee.
+- New members.
+- Affero.com.
+- Lawyer review of the contribution forms.
+- python.com and trademarking Python Powered.
+
+Python Support Committee
+########################
+
+Marc-Andre Lemburg moves that it is 
+
+RESOLVED, That the Public Support Committee (PSC) be made up of the
+following initial members: Stephan Deibel, Jeremy Hylton, Marc-Andre
+Lemburg, Tim Peters, Aahz, Alex Martelli, Neil Norwitz and Greg Ward,
+that the committee follows rules analog to those set forth in the PSF
+bylaws for the PSF board with respect to voting and meetings, and that
+Marc-Andre Lemburg will be the initial chairman of the PSC.  I move to
+approve this motion.
+
+The motion passes unanimously. 
+
+Marc-Andre expect that the PSC will start working in September,
+after the vaction time is over.
+
+New Members
+###########
+
+Guido asks whether the new members that were voted in at the OSCON
+meeting know about their membership. Martin says that this hasn't
+happened, and that he will inform them.
+
+Affero.com
+##########
+
+Affero has requested that the python.org mailman installation is
+integrated with the link inserter software. The Board discusses the
+question whether this should be done.
+
+Thomas is not fond of that idea; David agrees. Marc-Andre asks what
+precisely Affero is requesting; Thomas explains that people put Affero
+links in their signatures, to indicate what organizations should be
+funded, and that Affero requests that Python can be one of the funded
+organizations. Marc-Andre says he can agree with that.
+
+Thomas says he won't mind being one of the funds, but would not
+like to promote Affero. Guido explains that Affero wants us (the PSF)
+to put Affero's links into our mailing lists, and says this is a no-go
+for him. David and Thomas agree; Marc-Andre is in favour of being one
+of the beneficiaries, but does not want to see further steps. Thomas
+adds that he misunderstood Affero's plan, and suggests that each list
+owners can decide on his own. Guido says that list owner will likely
+come to the same conclusion, making it a subscriber choice. So the PSF
+does not need to act.
+
+David says that we are already one of the Affero's funds. Tim
+reports that he cannot find the PSF in
+http://www.affero.com/cform2.html. Guido says he we ask Affero about
+this, and tell them our position.
+
+Lawyer review of contribution forms
+###################################
+
+Chris Rourk has sent an informal opinion on the forms. The meeting
+agrees that his comments are better discussed on the board mailing
+list.
+
+python.com and trademarking Python Powered
+##########################################
+
+Guido reports that python.com uses the the slogan "powered by
+python". It is not clear whether trademarking the slogan "Python
+Powered" would help to protect the PSF from trademarking problems with
+python.com.
+
+Thomas observes that the python.com logo looks similar to the Zope
+logo, but Guido thinks that the similiarity is not close enough to
+worry about.
+
+Thomas offers to ask his company's lawyer what the best approach
+would, especially as he is located in the Netherlands, as is
+python.com. He promises an answer by the next board meeting.
+
+Guido says he would not like to spend money on the registration if
+that can be avoided.
+
+Adjournment
+###########
+
+There being no further business, the meeting was adjourned.

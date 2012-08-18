@@ -1,0 +1,238 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+January 14, 2008
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:03 UTC, 14
+January 2008.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in December <#new-in-december>`_
+
+- `4   Google Summer of Code Report <#google-summer-of-code-report>`_
+
+- `5   HitFlip Sponsor Application <#hitflip-sponsor-application>`_
+
+- `6   Members' Meeting <#members-meeting>`_
+
+- `7   Awards Program <#awards-program>`_
+
+- `8   ILM Membership <#ilm-membership>`_
+
+- `9   Python Certification Scheme <#python-certification-scheme>`_
+
+- `10   PyCon Update <#pycon-update>`_
+
+- `11   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: David Goodger, Stephan Deibel, Tim Peters, Andrew Kuchling,
+Brett Cannon, Steve Holden, and Martin von L?wis.  Also in attendance
+was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 10 December 2007 Board meeting minutes were approved by a 6-0-1
+vote (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 10 December
+2007 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from March 2007, Section 12, Awards: S. Holden will prepare a proposal for a PSF awards program.     See `Awards Program <#awards-program>`_, below.      Status: **done**.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     Status: carried forward.
+
+- Originally from April 2007, Section 9, New PSF Members: D. Goodger will contact the PSF members not subscribed to the PSF-Members mailing list.     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will produce a PSF logo based on the Python logo.     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: carried forward.
+
+- Originally from September 2007, Section 5, Fraud Attempts: A. Kuchling will prepare a statement on fraudulent PSF checks for the python.org website.     Status: in progress.
+
+- Originally from October 2007, Section 8, Google Summer of Code Mentor Summit Report: D. Goodger will coordinate with James Tauber to write a summary of the results of the PSF projects in the Google Summer of Code.     See `Google Summer of Code Report <#google-summer-of-code-report>`_, below.      Status: **done**.
+
+- Originally from November 2007, Section 5, New Sponsor Application: S. Deibel will ask the prospective sponsor member for further information.     See `HitFlip Sponsor Application <#hitflip-sponsor-application>`_, below.      Status: **done**.
+
+- Originally from November 2007, Section 7, PSF Article for The Python Papers: S. Deibel will post his PSF article on python.org, but well after it is published in The Python Papers.     The article had been published, but it's too early to post it on python.org.     Status: carried forward.
+
+- Originally from November 2007, Section 8, PyCon 2008: D. Goodger will put out a call for new member nominations, board candidates, and meeting topics & resolutions for the PSF members' meeting to be held at PyCon.  On-list discussions will be encouraged so we can keep the meeting short.     D. Goodger posted a call to the psf-members list.  See Members' Meeting, below.     Status: **done**.
+
+`3.2   New in December <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No new action items originated at the 10 December 2007 board meeting.
+
+`4   Google Summer of Code Report <#id6>`_
+------------------------------------------
+
+D. Goodger reported that James Tauber completed a report. 
+
+D. Goodger will post the report to the PSF blog.
+
+`5   HitFlip Sponsor Application <#id7>`_
+-----------------------------------------
+
+There was some concern that HitFlip does not yet have the investment
+in Python that is a prerequisite for taking on part of the stewardship
+role.
+
+    RESOLVED, that the board of directors recommends HitFlip to the
+    membership, as a future sponsor member of the PSF.
+
+Approved, 5-2-0. 
+
+K. Kaiser will notify HitFlip of their pending sponsor member
+status and send an invoice for sponsor dues.
+
+`6   Members' Meeting <#id8>`_
+------------------------------
+
+D. Goodger will send all sponsor applicant's info to
+members.
+
+D. Goodger will send out the members' meeting notices within
+two weeks (by snailmail and email). These notices will not contain
+the meeting agenda or proxy/absentee forms.  Instead, the notices will
+provide URLs, a final call for nominations & resolutions, and a
+deadline date.  D. Goodger asked that the Board set a deadline date
+for nominations & agenda items, and suggested February 11, the date of
+the next Board meeting.  The Directors agreed.
+
+D. Goodger and M. von L?wis will update the list of members'
+addresses.
+
+`7   Awards Program <#id9>`_
+----------------------------
+
+S. Holden sent email to the Board with a proposal for a &quot;Python
+Software Foundation Awards Program&quot;.  Summary of the proposal and the
+ensuing email discussion:
+
+- Not regular awards.  Instead, have an ad-hoc scheme, which we publicize to the members.  Members make nominations.
+
+- Award to consist of one or more of: 1. a blog entry; 2. a cash or gift certificate award, not more than $1,000; 3. free registration at PyCon, plus optional contribution of up to $500 towards expenses.
+
+- Awards are considered at PSF Board meetings.  If no nominations are received for four months, the Board should consider making its own nominations.
+
+- There should be an annual budget, and a set frequency of awards.
+
+- Awards are a formal way for the Board to offer recognition of work which significantly aids the Foundation's mission.  The intention is not to provide a direct incentive to contributors.
+
+K. Kaiser noted (in email) that while grants for PyCon registration &
+travel are a compensatable expense with no tax due, awards may be
+taxable and the situation gets complex if the recipient isn't a US
+taxpayer.
+
+Points raised during the meeting: 
+
+- K. Kaiser: Grants are income, but whether they are USA taxable depends on where they are performed.     Re awards: &quot;Since the recipient didn't do anything to get the award, it might not be income.  Consider the rules for gifts and also the rules for lottery winnings.&quot;     We can pay US taxpayers up to $600 per year without withholding or a W-9 form.  But there's no lower limit on reporting & withholding for non-US taxpayers.
+
+- S. Holden suggested 4 awards per year.
+
+- S. Holden: &quot;S. Deibel has already identified several worthy potential recipients.  We could perhaps start with several awards at PyCon before establishing a regular schedule.&quot;
+
+- M. von L?wis: &quot;I would see some policy encoded on repeated awards. They should be possible, to acknowledge ongoing contributions.&quot;
+
+- S. Deibel: We should try to establish this program by PyCon.      &quot;We need to be flexible how we pay and with what.&quot;
+
+The Board agreed to the proposal in principle, but details have to be
+worked out.
+
+K. Kaiser will research the tax implications of an awards
+program (both domestic & international recipients).
+
+S. Holden will refine the awards program proposal, for a vote
+at the next board meeting.
+
+`8   ILM Membership <#id10>`_
+-----------------------------
+
+Regarding emeritus member Industrial Light & Magic, who applied for
+sponsor membership and were elected, but never paid their sponsor
+dues, S. Holden:
+
+    I have been thinking of moving that ILM's membership be terminated
+    (subject to the required vote of members yielding a 2/3 majority).
+
+    We could write to them first suggesting that should they wish,
+    [they could] reactivate their never-used sponsor membership.
+
+    Frankly it offends me that an organisation of that size won't find
+    the budget to support us, and I don't feel they deserve whatever
+    recognition an emeritus membership bestows on them.
+
+D. Goodger noted that it needs a member's vote, so Holden could add it
+as a resolution for the members' meeting.
+
+S. Deibel suggested that we should change the bylaws to avoid another
+ILM situation.
+
+S. Holden will write to ILM, to make them aware of the
+possibilities regarding their membership.
+
+`9   Python Certification Scheme <#id11>`_
+------------------------------------------
+
+S. Holden reported: 
+
+    Van Lindberg and I have been discussing Python certification
+    schemes.  Van strongly felt that such a scheme would be much less
+    valuable if not sponsored by the PSF.  He feels it could be &quot;a
+    major story for Python&quot;.
+
+    I see it as partly marketing, but mostly giving people a way to
+    provide some documentation of their level of Python expertise.
+
+Some directors were in favor of certification, others don't think it's
+worthwhile.  The consensus was that the PSF doesn't have the resources
+to do this ourselves, and that we defer any specific action until some
+company comes along with a proposal.
+
+S. Holden will report the results of the certification
+discussion back to Van Lindberg.
+
+`10   PyCon Update <#id12>`_
+----------------------------
+
+D. Goodger reported: 
+
+    We're heading into the home stretch.  Registration should be
+    opening very shortly.  We are approaching $100K of sponsorship
+    money, so we'll probably be profitable again.
+
+    Things are late, but we'll get it done.
+
+`11   Adjournment <#id13>`_
+---------------------------
+
+S. Deibel adjourned the meeting at 18:58 UTC.

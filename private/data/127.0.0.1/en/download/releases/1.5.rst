@@ -1,0 +1,27 @@
+Python 1.5.2
+------------
+
+    **Do yourself a favor** and get a `more recent version </download/>`_!
+
+On 13 April 1999, the final version of Python 1.5.2 was released: 
+
+- `Python 1.5.2 sources </ftp/python/src/py152.tgz>`_ (2.5 MB)
+
+- `Python 1.5.2 installer for Windows </ftp/python/win32/py152.exe>`_ (5.0 MB)
+
+- `What's new in 1.5.2? <whatsnew>`_
+
+- `Documentation </doc/1.5.2p2/>`_ (both online and downloadable)
+
+Note: the Python installer for Windows includes the Tcl/Tk 8.0.5
+installer.  See the `Tkinter resource guide </topics/tkinter/trouble.html#win>`_
+for troubleshooting the Tcl/Tk installation.
+
+Windows users may also be interested in Mark Hammond's `win32all <http://starship.python.net/crew/mhammond/>`_, a collection of Windows-specific extensions including
+COM support and Pythonwin, an IDE built using Windows components.
+
+If You Find a Bug
+-----------------
+
+It was probably already fixed in a later version.  Please try the
+`latest version </download/>`_ before `reporting bugs <http://sourceforge.net/bugs/?group_id=5470>`_.

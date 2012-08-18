@@ -1,0 +1,74 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+June 10, 2003 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: David Ascher, Guido van Rossum, Marc-Andre Lemburg, Martin
+von L?wis, Tim Peters, Jeremy Hylton.  Thomas Wouters was absent.  A
+quorum was present. Neal Norwitz also participated in the meeting.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+Guido moved to approve the minutes of May 2003. Motion passes
+with 4 ayes and 2 abstentions.
+
+3. Hosting Python development
+#############################
+
+Martin Dalum from SunSITE offered free hosting of Python
+development at their new site `http://dotsrc.org <http://dotsrc.org>`_.  Martin von L?wis
+reported on subsequent discussion with Dalum: Services offered are
+ssh-based CVS access, backups, and developer access to the CVS
+machine.  Dalum also expressed interest in a Roundup installation.
+
+After some discussion, the board agreed that it should be responsible
+for deciding whether to accept the offer.  Von L?wis agreed to draft a
+migration strategy and come back to the board when it is complete.
+
+4. Federal tax return
+#####################
+
+Norwitz reported that we failed to file a federal tax return, IRS
+Form 990, by the May 15 deadline.  There is a $20/day late fee.  We
+are not required to file a tax return, but we can choose to file one.
+Next year, we will be required to file because of the amount of
+revenue from PyCon.  Last year, we filed the return late, because we
+wanted to have a return on file when we submitted our application for
+charity status.
+
+The board recommended that Norwitz prepare a return and make it
+available from python.org but not file it with the IRS.
+
+5. Spending money
+#################
+
+Norwitz reported that we have more than $22,000 in the bank.  He
+and Hylton asked whether the PSF should start spending some of the
+money.  There was brief discussion of the question.  Van Rossum
+suggested that we not spend any money until legal issues have been
+settled. 
+
+5. Legal issues
+###############
+
+Lemburg agreed to send email to Cristin A. Conley at Carlton Field to
+ask for review of the contribor agreements.  He has a specific list of
+questions to ask.
+
+Van Rossum reported that Doug McDonald from Carlton Fields will review
+the agreement with CNRI to transfer the python.org domain.
+
+6. Adjournment
+##############
+
+There being no further business, the meeting was adjourned.

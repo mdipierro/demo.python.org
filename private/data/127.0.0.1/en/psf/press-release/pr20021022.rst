@@ -1,0 +1,108 @@
+Python Software Foundation (PSF) Announces Python Version 2.2.2
+===============================================================
+
+New release enhances powerful programming language
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+FREDERICKSBURG, Va., October 22 /PRNewswire/ 
+
+The Python Software Foundation announces the release of version
+2.2.2 of the Python programming language.  This Maintenance Release
+introduces a number of enhancements to the language core and its
+standard libraries.
+
+"This release is an invaluable upgrade for all Python and Zope
+users, offering increased stability and robustness.  I am grateful to
+the Python and Zope community for contributing literally hundreds of
+bug fixes to Python 2.2.2," said Guido van Rossum, creator of Python,
+president of the Python Software Foundation, and Director of
+PythonLabs at Zope Corporation.
+
+"Python has been an integral part of Google since the beginning,
+and remains so as the system grows and evolves. Dozens of Google
+engineers use Python, and we're looking for more people with skills in
+this language," said Peter Norvig, director of search quality at
+Google, Inc.
+
+Python significantly increases programmer productivity over
+languages such as C, C++, Java, and Visual Basic. The language's
+global user base is estimated in the hundreds of thousands and is
+growing rapidly.  Python runs on Microsoft Windows, Macintosh, Linux,
+Unix, OS/2, WinCE, and many other operating systems. Full source code
+is available for the language and associated standard libraries.
+
+"Python continues to be Zope's *Secret Weapon*," said
+Rob Page, CEO of Zope Corporation. "Zope is Python's *Killer
+App* because it showcases Python's power and flexibility in
+building world-class Content Management Solutions."
+
+Key features of Python include: 
+
+- Object orientation, modular name spaces, exceptions, and multi-threading 
+- High-level dynamic data typing and very late binding
+
+- Tight integration with C, C++, and Java modules
+
+- May be compiled to Java byte code for use in any JVM
+
+- String and regular expression processing
+
+- Extensive XML and web services support
+
+- HTTP, FTP, SMTP, POP, IMAP, NNTP, telnet, and other IP protocols
+
+- HTML, MIME, base64, binhex, uuencode, and other internet data handling
+
+- GUI development and multimedia services
+
+- Unit testing, profiling, and documentation generation
+
+- Restricted execution security option
+
+- Available third party modules for database access, math, 3D modeling,   image processing, LDAP, WebDAV, jabber, MIDI, and much more
+
+About the PSF
+~~~~~~~~~~~~~
+
+The Python Software Foundation (PSF) is a non-profit organization
+devoted to advancing Open Source technology related to the Python
+programming language.  The PSF holds the intellectual property rights
+to Python.  Additional information and downloads are available at
+www.python.org.
+
+About Python
+~~~~~~~~~~~~
+
+Python is a powerful object oriented programming language that is
+developed and maintained by a global community of Open Source
+contributors, under the oversight of the Python Software Foundation.
+Python's unique blend of simplicity and power excels in a wide range
+of business and research development tasks, including the construction
+of web applications, complex business solutions, and large desktop
+applications.
+
+About Zope Corporation
+~~~~~~~~~~~~~~~~~~~~~~
+
+Zope Corporation is the leading provider of enterprise content
+management solutions based on the open source Zope application server
+and its new Content Management Framework (CMF). Zope Corporation
+rapidly creates and deploys high-performance content management
+solutions that are scalable, reliable, and easily maintained. Source
+code is delivered with their systems, so clients have complete control
+over their software. Customers include Fortune 1000 companies,
+newspapers and other media, telecommunications firms, government
+agencies, the military, educational institutions and Internet
+businesses. Zope Corporation is backed by Opticality Ventures
+www.opticality.com. The company is headquartered in Virginia. For more
+on Zope Corporation and Zope visit www.zope.com.
+
+**MISSING** 
+
+Lois Snitkoff
+
+Zope Corporation
+
+540-361-1720
+
+lois@zope.com

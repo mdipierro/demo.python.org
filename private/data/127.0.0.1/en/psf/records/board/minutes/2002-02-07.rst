@@ -1,0 +1,70 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Feb. 7, 2002
+
+Alexandria, VA, USA
+
+A regular meeting of the Python Software Foundation (the "PSF")
+Board of Directors was held at Clyde's in Alexandria, VA.  Guido van
+Rossum presided at the meeting.
+
+**1. Attendance** 
+
+The following members of the Board of Directors were present at the
+Meeting: Jeremy Hylton, Martin von Loewis, Tim Peters, Guido van
+Rossum.  The following members were absent: Marc-Andre Lemburg, Thomas
+Wouters, David Ascher.
+
+A quorum was present. 
+
+**2. Address** 
+
+The principal office of the PSF was located at the Zope
+Corp. PythonLabs office in Falls Church, VA.  The office was closed in
+December, so a new principal office was selected.  The board chose the
+Zope Corp. office in Fredericksburg, VA.  It is convenient for three
+of seven board members, and the business people there can accept mail
+and faxes on normal business days.
+
+    **RESOLVED**, the the principal office of the PSF shall be
+
+    The Python Software Foundation
+
+    c/o Zope Corp.
+
+    Lafayette Technology Center
+
+    513 Prince Edward St.
+
+    Fredericksburg VA 22401
+
+    USA
+
+    *The motion passed by white ballot.*
+
+**3. Public discussion** 
+
+Following up on discussion at the member meeting the previous
+night, we decided to create two mailing lists open for discussion
+to non-PSF members: one to discuss the future of the conference,
+one to discuss the contribution forms.  The discussion period on
+contribution forms will end on April 15, when we will seek legal
+review of the forms.  Van Rossum will ask Barry Warsaw to create the
+lists.
+
+**4. Officers** 
+
+Guido van Rossum was appointed chairman of the board.  Jeremy Hylton
+was appointed secretary and treasurer.  Both appointments were by
+unanimous vote.
+
+**5. New members** 
+
+Van Rossum will contact potential new sponsor members, except one
+prospect that Hylton will contact.  Hylton will also contact potential
+new regular members via email.
+
+**6. Adjournment** 
+
+There being no further business, the meeting was adjourned.

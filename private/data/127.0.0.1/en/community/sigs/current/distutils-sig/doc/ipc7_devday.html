@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- community/sigs/current/distutils-sig/doc/ipc7_devday -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/community/sigs/current/distutils-sig/doc/ipc7_devday">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>by Greg Ward</p>
+<dl class="docutils">
+<dt>The &quot;Extension Building Considered Painful&quot; session at IPC7 was</dt>
+<dd>very productive, and there was a good consensus in the room as to
+what's needed, what will work for various classes of users, and what
+ideas to steal from other related systems (the closest being Red
+Hat's RPM and Perl's MakeMaker).</dd>
+</dl>
+<div class="section" id="decisions-made">
+<h1>Decisions made</h1>
+<dl class="docutils">
+<dt>Everyone seemed to agree with my proposed mode of operation: the</dt>
+<dd>user downloads a package, unpacks it, and runs a Python script
+tentatively called setup.py (the fact that this name
+overlaps somewhat with the module description file in the Python
+distribution and in many large module distributions is deliberate,
+and may be construed as a bug or a feature).  See below for
+arguments to setup.py and what happens when it's run.</dd>
+<dt>Also, nobody disagreed with my contention that the system should</dt>
+<dd>work on &quot;extensions&quot; (ie. modules written in C) or plain ol'
+&quot;modules&quot; (written in Python) with no difference in the user
+interface.  People also seemed to accept the idea of &quot;building&quot;
+everything -- C modules, Python modules, eventually documentation --
+to a temporary &quot;build library&quot; directory, tentatively called
+blib/.  (This is one of the few implementation details
+of Perl's MakeMaker that survived the session.)  The
+blib/directory serves (at least) two purposes: it makes
+installation near-trivial, and it provides a realistic-looking
+pseudo-installation tree for running test scripts.  The actual
+structure of the blib/ tree has yet to be decided
+(although I have definite ideas of how it should look!)</dd>
+<dt>We talked about terminology a bit.  This is going to be a sticky</dt>
+<dd>issue, and will have to be one of the first things we thrash out on
+a SIG.  First, <em>module</em>, <em>extension module</em>
+(<em>extension</em> for short), and <em>package</em> will keep their
+conventional Pythonic meanings: a single .py file meant
+to be imported by other modules or scripts, a module written in C,
+and a collection of modules grouped under a directory containing an
+__init__.py file.</dd>
+<dt>I proposed <em>distribution</em> (or <em>module distribution</em></dt>
+<dd>when absolute clarity is needed) as a stand-in for <em>package</em>,
+which is already taken.  A module distribution contains one or more
+modules (including extension modules), their documentation, test
+suites, and a setup.py file.  (The documentation and
+test suites are optional but strongly recommended, especially if
+anybody ever comes up with a standard way of documenting Python
+modules.  But a distribution <em>must</em> have at least one module
+and a setup.py).  A single distribution will present
+many faces to the world: the developer's source tree, a source
+distribution, various binary distributions, the final installed
+product, etc.  (As I understand things, the source and binary
+distributions are what Trove will call <em>resources</em>.)</dd>
+<dt>One thing we didn't have time to decide on was a name for the</dt>
+<dd>silly thing.  For a long and formal name, my vote is <strong>Module
+Distribution Utilities</strong>, or <strong>distutils</strong> for
+short.  The short name will be needed to group all the various
+modules into a package: for instance, we plan to have
+distutils.build, distutils.install,
+distutils.gen_make, and so forth.</dd>
+</dl>
+</div>
+<div class="section" id="roles-of-setup-py">
+<h1>Roles of setup.py</h1>
+<dl class="docutils">
+<dt>The planned interface to and tasks for setup.py</dt>
+<dd>evolved rapidly throughout the session, mainly driven by the
+division of labour identified by Eric Raymond and clearly written
+down by Greg Stein, and the workflow diagram drawn by ??? and
+expanded upon by me (see below).</dd>
+<dt>It's clear that setup.py has to contain 1) metadata</dt>
+<dd>about the package, and 2) any custom code needed to configure the
+distribution for the current machine.  It's not yet clear how these
+should be expressed.  The first idea is to steal
+MakeMaker's idea of calling a function with a bunch of
+named arguments, which then does all the work behind the scenes.  An
+example setup.py using this scheme might be:</dd>
+</dl>
+<pre class="code literal-block">
+#!/usr/bin/env python
+
+    import distutils
+
+    distutils.setup (name = 'mymod',
+                     version_from = 'mymod.py',
+                     pyfiles = ['mymod.py', 'othermod.py'],
+                     cfiles = ['myext.c'])
+
+Obviously, custom configuration code would just be written in Python
+before or after the call to distutils.setup; it's not
+clear how to make this code interact with everything that lies
+behind distutils.setup.
+</pre>
+<dl class="docutils">
+<dt>The main competing idea is to do things in a more OO manner, by</dt>
+<dd>defining a subclass and overriding various attributes and methods.
+Here's an off-the-cuff illustration of the concept:</dd>
+</dl>
+<pre class="code literal-block">
+#!/usr/bin/env python
+
+    from distutils import Setup
+
+    class MySetup (Setup):
+        name = 'mydist
+        version_from = 'mymod.py'
+        pyfiles = ['mymod.py', 'othermod.py']
+        cfiles = ['myext.c']
+
+In this case, it's a bit clearer how to override specific behaviour
+of all the **distutils** classes: just subclass and
+override as needed.  Obviously, all of the classes would then
+have to be well-documented!
+</pre>
+</div>
+<div class="section" id="workflow-for-module-distribution">
+<h1>Workflow for module distribution</h1>
+<dl class="docutils">
+<dt>The figure below illustrates the workflow involved in developing,</dt>
+<dd>packaging, building, and installing a module distribution (but not
+testing or documenting it, which ultimately should also be part of
+the plan).</dd>
+</dl>
+<img alt="Diagram of module distribution workflow" src="workflow.gif" style="width: 610px; height: 642px;" />
+<dl class="docutils">
+<dt>Note the three kinds of people present in the diagram:</dt>
+<dd><strong>MISSING</strong>
+(These are the divisions of labour identified by Eric Raymond and
+Greg Stein.)  Note also that the developer, packager(s), and user(s)
+are all smiling.  This feature is planned, but not yet implemented.</dd>
+</dl>
+<div class="section" id="developer-utilities">
+<h2>Developer utilities</h2>
+<dl class="docutils">
+<dt>Obviously, the workflow starts at the top, with the developer's</dt>
+<dd>source tree.  While the developer is toiling away, he will probably
+want a Makefile that knows about building Python
+modules and extension modules (especially the latter).  Rather than
+writing his own, he can ask setup.py to generate one
+for him (presumably using the distutils.gen_make
+module):</dd>
+</dl>
+<pre class="code literal-block">
+./setup.py gen_make
+
+Then the developer can run make, make
+test, and so forth, just as he's probably used to doing
+(assuming he's an old-fashioned Unix weenie!).  If he doesn't like
+Makefiles, or doesn't need one because this is a tiny little
+project, he can just ask setup.py to build, test,
+etc. directly:
+</pre>
+<pre class="code literal-block">
+./setup.py build
+    ./setup.py test
+
+(The idea is that setup.py will support &quot;commands&quot; --
+build, test, etc. -- that correspond to
+Makefile targets.  That way, nobody ever has to depend
+on a Makefile, but one can be generated for the
+developer's convenience and efficiency (especially when working on
+large distributions with lots of extension modules to be compiled).)
+</pre>
+</div>
+<div class="section" id="packager-utilities">
+<h2>Packager utilities</h2>
+<dl class="docutils">
+<dt>When the developer is happy with the current state of his</dt>
+<dd>module(s) and it's time for a release, he puts on his &quot;packager&quot; hat
+and creates a source release:</dd>
+</dl>
+<pre class="code literal-block">
+make dist
+    # or, equivalently
+    ./setup.py dist
+
+This will bundle up all the files in the distribution (as listed in
+a MANIFEST file) into an archive file of some sort --
+perhaps .tar.gz under Unix, .zip under
+Windows, etc.  The name of the archive file would be derived from
+the name and version of the module distribution:
+mydist-1.2.3.tar.gz, for instance.
+</pre>
+<dl class="docutils">
+<dt>If he wishes, the developer can stop there and upload his source</dt>
+<dd>release to an archive.  Or, he can create <em>built
+distributions</em> for all the architectures to which he has access.
+(Note that I'm explicitly avoiding use of the more familiar term
+<em>binary distribution</em>.  That is because a module
+distribution might well contain nothing more than .py
+files and their associated documentation.  Even in those cases,
+though, there are reasons for a downloadable resource that can be
+immediately installed.  The main reason is consistency: it's nice if
+naive users only have to deal with one kind of file for Python
+module distributions (eg. Red Hat Linux users can just download and
+install a bunch of RPMs; whether those RPMs contain .py
+or .so files or both is immaterial).  Second, there
+might be non-binary files that are generated from files in the
+source release, such as man pages generated from SGML source.  The
+built distribution for a Unix platform might include man pages ready
+for installation, so no documentation processing would be
+necessary.)</dd>
+<dt>It is important to underscore the concept of packager as a</dt>
+<dd>person separate from the developer.  This is necessary to support
+built distributions for multiple platforms, since not many developers
+have access to a couple of Unix variants, Windows, and Mac --
+they'll presumably need some help to make built distributions for
+one or more platforms.  This help may come in the form of a friend
+(down the hall or around the world) who does have access to a
+particular platform; it might come in the form of someone who
+volunteers to keep certain distributions up-to-date for certain
+platforms; or it might take the form of an archive robot that
+automates the procedure.  Security concerns become increasingly more
+relevant traversing that list.</dd>
+<dt>I have in mind a couple of possible interfaces for creating built</dt>
+<dd>distributions; furthermore, the idea of &quot;dumb&quot; vs &quot;smart&quot; built
+distributions has been forming in my head since Developer's Day.
+(Thus it probably doesn't really belong here, since this is meant to
+be a summary of the Developer's Day session.  So sue me.)  First,
+consider the creation of a traditional Unix built distribution: a
+.tar.gz file to be unpacked under
+/usr/local (or, more likely in the Python library
+context, /usr/local/lib/python1.x).  This could be
+accomplished with:</dd>
+</dl>
+<pre class="code literal-block">
+./setup.py bdist
+
+which would do a build (to put a mock installation tree into
+./blib/) and package the build tree to an archive file
+named after the distribution name and version number, and the
+current platform, e.g. mydist-1.2.3-sunos5.tar.gz
+or mydist-1.2.3-win32.zip.
+</pre>
+<dl class="docutils">
+<dt>However, there's a lot of interest in &quot;smart&quot; installers like Red</dt>
+<dd>Hat's RPM (and I got the impression that there are a couple of
+competing possibilities for the Windows world -- someone from the
+dark side will have to fill me in on that).  My current thinking is
+that there should be a separate command (or Makefile
+target) for each of these, so you might run</dd>
+</dl>
+<pre class="code literal-block">
+make rpm
+
+on a Red Hat Linux box, and
+</pre>
+<pre class="code literal-block">
+setup.py *xxx*
+
+on a Windows machine (where *xxx* is the abbreviated name of
+some smart installer for Windows).  Supporting the old-fashioned
+&quot;dumb&quot; built distribution model is important, though -- not everyone
+will have that fancy new installer (or they might have a different
+smart installer).
+</pre>
+</div>
+<div class="section" id="user-utilities">
+<h2>User utilities</h2>
+<dl class="docutils">
+<dt>Finally, and perhaps most importantly, we most consider the lucky</dt>
+<dd>user who wishes to install a Python module distribution on his
+computer.  Users come in all shapes and sizes, but we're mainly
+concerned with two distinctions:
+- built distribution users: anyone on a popular platform for           which a built distribution is available (or necessary:            many Mac and Windows people won't have a compiler)</dd>
+</dl>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 279)</p>
+Definition list ends without a blank line; unexpected unindent.</div>
+<ul>
+<li><p class="first">source distribution users: people on less-popular platforms           for which a compiler (and other possibly necessary tools)           will most likely be available</p>
+<blockquote>
+<p>Obviously, things should be utterly painless and simple for naive
+users who just want to install some modules (possibly pure Python,
+possibly extensions -- it shouldn't matter!) to get something else
+working.  Smart installers like RPM will help here, but it should be
+almost as easy to start with a &quot;dumb&quot; built distribution or a source
+distribution.  We must also keep in mind that there will be many
+people who have to use source distributions who are not necessarily
+programmers, and just want to get this silly thing installed and
+working -- so using a source distribution should be just as easy
+(although it will require more machine time and a few more commands)
+as using a built distribution.  Even experienced hackers who
+<em>could</em> dive into the source and mess around with it, or
+fiddle with Makefiles, or supply the locations of
+needed libraries, rarely <em>want</em> to do such things.</p>
+</blockquote>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="where-to-go-next">
+<h1>Where to go next</h1>
+<dl class="docutils">
+<dt>First, I think this topic is big enough to warrant a new sig,</dt>
+<dd>which I'm tentatively calling the distutils-sig.  The proposed
+charter for that {will be|has been} posted to the meta-sig, so run
+over there if you think the whole concept is hopeless and you want
+to shoot me down in flames before this even gets started (or if you
+think the name sucks).</dd>
+<dt>Once the sig is created, I'd like to spend <em>some</em> time</dt>
+<dd>discussing meta-issues: does anyone violently disagree with the
+whole idea? is 'distutils' a good enough name? what functionality
+should be present in the first pass, and what's needed for a full
+release?  Then we can dive into nitty-gritty design and
+implementation issues.</dd>
+</dl>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

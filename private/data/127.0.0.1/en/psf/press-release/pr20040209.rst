@@ -1,0 +1,127 @@
+February 9, 2004
+
+Press Release
+
+SOURCE: Python Software Foundation
+
+**PyCon 2004 - Second Annual Python Developers Conference**
+
+*Keynote Speech by Mitchell Kapor, founder of Lotus*
+
+*FREDERICKSBURG, Va., February 9, 2004* -- `PyCon 2004 <http://pycon.org/>`_, the second annual Python
+developers conference, will be held at George Washington University's
+Cafritz Conference Center in Washington DC on March 24-26, 2004. `Mitchell Kapor <http://www.kapor.com/homepages/mkapor/>`_, founder
+of Lotus Development Corporation and the Open Source Applications
+Foundation, will be the keynote speaker.
+
+PyCon is a community-oriented conference targeting developers interested
+in `Python <http://python.org/>`_, a powerful open source
+programming language. PyCon provides opportunities to learn about
+significant advances in the Python development community, and to meet
+fellow developers from around the world. The conference program includes
+peer-reviewed presentations, the annual Python state of the union
+address, and open space for informal talks and meetings.
+
+"PyCon brings together Python users of all types, from newbies to
+veterans, to exchange ideas, work on code, discuss future directions for
+the language, and in general to foster the continued success and growth
+of the Python technology base. This is a community-oriented conference
+and the Python community includes everyone, from grade schoolers just
+learning about computer science, to renowned scientists interested in
+using the best tools, to business people looking for a secret weapon,"
+said Guido van Rossum, creator of Python.
+
+PyCon 2004 is organized by members of the Python community, and made
+possible by the Python Software Foundation and the conference sponsors
+`Hostway <http://www.hostway.com/>`_, 
+`ActiveState <http://www.ActiveState.com/>`_, 
+`White Oak Technologies Inc <http://www.woti.com/jobs>`_, 
+`Tummy.com <http://www.tummy.com/>`_, 
+`ZeOmega <http://www.zeomega.com/>`_, 
+and 
+`Wing IDE for Python <http://wingide.com/>`_.
+
+Early bird conference registration costs $175 US ($125 for students) 
+through February 22nd.  Regular per-registration after that date will 
+cost $250 ($175 for students), and $300 ($225 for students) at the 
+conference.
+
+For more information or to register, please visit the PyCon 2004 website:
+`http://pycon.org/ <http://pycon.org/>`_
+
+**Coding Sprints** 
+
+The conference will be preceded by 4 days of coding sprints, March 20-23,
+which offers developers an XP-style environment to advance the Python
+code base and popular Python-based modules such as the Zope application
+server, Plone content management system, Twisted framework for
+asynchronous programming, Docutils structured text processing system,
+and the Chandler personal information manager.
+
+Participation in sprints is free of charge and open to all. 
+
+Planning for the sprints is taking place on the Python wiki at 
+`http://www.python.org/cgi-bin/moinmoin/SprintPlan2004 <http://www.python.org/cgi-bin/moinmoin/SprintPlan2004>`_.
+
+**About Python** 
+
+Python is a powerful object-oriented programming language that is
+developed and maintained by a global community of open source developers,
+under the oversight of the Python Software Foundation.
+
+Python is very easy to learn for programmers of other languages such as
+C, C++, Java, and Visual Basic, and can significantly increase programmer
+productivity.  It is often characterized as an agile language that
+promotes speedy development and includes a unit-testing framework for
+building more robust applications. Python is often used in large system 
+development to decrease software costs, mitigate risk, and meet aggressive 
+schedules. The language is the basis of applications used by tens of 
+thousands of companies and organizations worldwide, and its user base 
+is growing rapidly.
+
+Key features of Python include: 
+
+- Object orientation, modular name spaces, exceptions, and multi-threading
+- High-level dynamic data typing and very late binding
+- Tight integration with C, C++, and Java modules
+- May be compiled to Java byte code for use in any JVM
+- String and regular expression processing
+- Extensive XML and web services support
+- HTTP, FTP, SMTP, POP, IMAP, NNTP, telnet, and other IP protocols
+- HTML, MIME, base64, binhex, uuencode, and other internet data handling
+- GUI development and multimedia services
+- Unit testing, profiling, and documentation generation
+- Available third party modules for database access, scientific computation, visualization, 3D modeling, image processing, LDAP, WebDAV, jabber,  MIDI, game development, and much more.
+
+Python runs on Microsoft Windows, Mac OS X, Linux, Unix, OS/2, WinCE,
+and many other operating systems. Full source code is available for the
+language and associated standard libraries.
+
+Additional information and downloads are available at `www.python.org 
+<http://www.python.org/>`_. 
+
+**About the PSF** 
+
+The Python Software Foundation (PSF) is a non-profit organization devoted
+to advancing Open Source technology related to the Python programming
+language. The PSF holds the intellectual property rights to Python and
+plans to fund portions of future development of the language. Additional
+information on the PSF is available at `http://www.python.org/psf <http://www.python.org/psf/>`_. To make
+a tax-deductible donation, please visit `http://www.python.org/psf/donations/ <http://www.python.org/psf/donations/>`_. 
+Company sponsorships are also being accepted.
+
+**Press Contact** 
+
+Stephan Deibel
+
+Archaeopteryx Software, Inc.
+
+PO Box 1937
+
+Brookline, MA 02446
+
+617-232-0059
+
+sdeibel@wingide.com
+
+`www.wingide.com <http://www.wingide.com>`_

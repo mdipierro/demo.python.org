@@ -1,0 +1,91 @@
+Python 2.7
+----------
+
+Note: A bugfix release, 2.7.2, is currently `available 
+</download/releases/2.7.2/>`_.  Its use is recommended. 
+
+Python 2.7 was released on July 3rd, 2010. 
+
+Python 2.7 is scheduled to be the last major version in the 2.x series before it
+moves into an extended maintenance period.  This release contains many of the
+features that were first released in Python 3.1.  Improvements in this release
+include:
+
+- An ordered dictionary type
+
+- New unittest features including test skipping, new assert methods, and test discovery
+
+- A much faster io module
+
+- Automatic numbering of fields in the str.format() method
+
+- Float repr improvements backported from 3.x
+
+- Tile support for Tkinter
+
+- A backport of the memoryview object from 3.x
+
+- Set literals
+
+- Set and dictionary comprehensions
+
+- Dictionary views
+
+- New syntax for nested with statements
+
+- The sysconfig module
+
+See these resources for further information: 
+
+- `What's new in 2.7? <http://docs.python.org/dev/whatsnew/2.7.html>`_
+
+- `Change log for this release <http://svn.python.org/projects/python/tags/r27/Misc/NEWS>`_.
+
+- `Online Documentation <http://docs.python.org/2.7/>`_
+
+- Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+- `Help fund Python and its community </psf/donations/>`_.
+
+Download
+--------
+
+This is a production release.  Please `report any bugs 
+<http://bugs.python.org>`_ you encounter. 
+
+We currently support these formats for download: 
+
+- `Gzipped source tar ball (2.7) </ftp/python/2.7/Python-2.7.tgz>`_ `(sig) <Python-2.7.tgz.asc>`_
+
+- `Bzipped source tar ball (2.7) </ftp/python/2.7/Python-2.7.tar.bz2>`_ `(sig) <Python-2.7.tar.bz2.asc>`_
+
+- `Windows x86 MSI Installer (2.7) </ftp/python/2.7/python-2.7.msi>`_ `(sig) <python-2.7.msi.asc>`_
+
+- `Windows X86-64 MSI Installer (2.7) </ftp/python/2.7/python-2.7.amd64.msi>`_ `[1] <#id2>`_ `(sig) <python-2.7.amd64.msi.asc>`_
+
+- `Mac Installer disk image (2.7) for OS X 10.5 and later </ftp/python/2.7/python-2.7-macosx10.5.dmg>`_ `(sig) <python-2.7-macosx10.5.dmg.asc>`_.  It contains code for PPC, i386, and x86-64.
+
+- `32-bit Mac Installer disk image (2.7) for OS X 10.3 and later </ftp/python/2.7/python-2.7-macosx10.3.dmg>`_ `(sig) <python-2.7-macosx10.3.dmg.asc>`_.
+
+- `Windows help file </ftp/python/2.7/python27.chm>`_ `(sig) <python27.chm.asc>`_
+
+The source tarballs are signed with Benjamin Peterson's key (fingerprint: 12EF
+3DC3 8047 DA38 2D18 A5B9 99CD EA9D A413 5B38). The Windows installer was signed
+by Martin von L?wis' public key, which has a key id of 7D9DC8D2.  The Mac
+installers were signed with Ronald Oussoren's key, which has a key id of
+E6DF025C.  The public keys are located on the `download page </download#pubkeys>`_.
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    35f56b092ecf39a6bd59d64f142aae0f  14026384  Python-2.7.tgz
+    0e8c9ec32abf5b732bea7d91b38c3339  11735195  Python-2.7.tar.bz2
+    bd0dc174cbefbc37064ea81db1f669b7  16247296  python-2.7.amd64.msi
+    1719febcbc0e0af3a6d3a47ba5fbf851  15913472  python-2.7.msi
+    759077d3763134b3272f0e04ea082bd9  21420655  python-2.7-macosx10.3.dmg
+    bb3d6f1e300da7fbc2730f1af9317d99  21509961  python-2.7-macosx10.5.dmg
+    575156d33dc71b6581865a374f5c7ad2   5754439  python27.chm
+
+**MISSING**
+`[1] <#id1>`_  The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).

@@ -1,0 +1,105 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+August 10, 2004 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Steve Holden, Tim Peters, Stephan Deibel,
+Martin v. L?wis. David Ascher joined after the first agenda item. Neal
+Norwitz also attended the meeting. Martin was taking minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The July minutes where approved with 4/0/1.
+
+3. Reports
+##########
+
+Neal sent the treasurer report by email before the meeting. Martin
+asked why rotormodule was announced to BXA when it is going to be
+removed; Neal explained that it is just deprecated at the moment.
+
+Martin reported that the Grants Committee has published the call, and
+that first proposals have been received. Also, a number of questions
+from potential submitters have been received; some of these still need
+to be answered. Jeremy volunteered to write additional guidelines for
+submitters. David wondered whether a mailing list for potential submitters
+should be created where they can discuss issues with the committee;
+*Martin will create such a list*.
+
+Stephan reported that the PSC that credit card acceptance is still in
+the works, but progressing slowly.
+
+Steve reported for the PRC that the Web redesign is well underway, put
+stalled due to Tim Parkin being busy with paid work. The PRC will also
+need to work out channels for information such as the grants news.
+
+Jeremy reported that he is still trying to contact the lawyer he was
+approaching for corporate law issues of the PSF. David asked whether
+he should contact Heather Meeker for IP issues. The board agreed that
+it would be a good idea to have specialists for either case.  *David will ask Heather for a letter of engagement,
+to be sent to Jeremy.*
+
+4. New Python License
+#####################
+
+Tim asked for comments on the proposed version 2 of the PSF license,
+in the `Wiki <http://www.python.org/cgi-bin/moinmoin/PythonSoftwareFoundationLicenseV2Revised>`_. There
+has been little feedback so far. *David will
+ask the AS lawyer for comments.*
+
+5. Insurance
+############
+
+Per email, Neal indicated that insurance cost have increased, so his
+budget for that needs to be increased. Stephan moves that it is
+
+    RESOLVED, that the treasurer is authorized to pay up to $750 per
+      year for insurance.
+
+The motion passed unanimously (6/0/0).
+
+6. PyCon
+########
+
+Per email, Neal had proposed a budget for PyCon. Guido van Rossum
+had remarked that this only predicted expenses, not income, and that
+he would prefer a more detailed budget plan for PyCon. At the IRC
+meeting, Steve said he had no formal budget drawn up yet, but that
+the resolution is adopted in its current form; he would present
+the budget to the next board meeting. Martin said he did not like
+this, because Guido already had objected and is not present at the
+meeting. He asked what the initial expenses would be, and at what
+time they would be due. Steve answered a 10% deposit would be required,
+roughly $2,500. Stephan then moved that it is
+
+    RESOLVED that the conference committee is authorized to spend $3000 for room reservations for PyCon 2005.
+
+The motion passed unanimously (6/0/0).
+
+7. Other business
+#################
+
+Tim nagged Jeremy about 1023 progress. 
+*Jeremy volunteered to scan the documents
+sometime during this week.*
+
+Martin asked how the grant committee should deal with the potential
+of projects that get half-completed; in particular, what should be
+done about funds that already have been paid? The board agreed that
+the projects should have milestones which should be prerequisites
+to payments; then it would be no problem if only partial results
+are achieved.
+
+8. Adjournment
+##############
+
+Their being no further business, Stephan adjourned the meeting at 18:00.

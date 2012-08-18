@@ -1,0 +1,73 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Draft**
+
+February 10, 2004 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 18:00 GMT. Martin
+von L?wis presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Guido van Rossum, Martin von L?wis, Tim Peters, Jeremy
+Hylton, Marc-Andre Lemburg, Thomas Wouters. Neal Norwitz also
+participated in the meeting. A quorum was present. Martin was taking
+minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The December minutes where not available yet. The January minutes
+were approved with 4 ayes and 2 abstentions.
+
+3. Member meeting
+#################
+
+Martin asked for the procedure for electing the new board. The
+ballot could either be a ranked list (by preference), or just a
+list of names. The board agreed that the ballot should not imply
+a preference.
+
+Marc-Andre reported concerns about the proposed change to
+the bylaws; in particular, Jeremy raised concerns that a lawyer
+should review such changes. He withdrew the motion, and the board
+agreed that the issue should be discussed at the member meeting.
+
+4. Extension of early-bird fee deadline for PyCon
+#################################################
+
+Marc-Andre asked why the deadline for the early-bird fee was
+extended, and who made this decision. Jeremy answered it was a stealth
+decision, as neither the conference committee nor the pycon-organizers
+list were involved. Guido said there never was a clear decision
+point. People discussed it as a good idea, them somebody got confused
+and Steve Holden reported it suddenly as decided. Marc-Andre pointed
+out that he agrees with the decision itself, but doesn't like the
+way it was handled.
+
+5. PyCon report
+###############
+
+Neal reported there were 204 confirmed registrations, and about
+$44700 income. Jeremy reported that the program committee selected 49
+proposals, 8 60-minutes talks, and the rest 30 minutes talks. They
+invited Bruce Eckel to give a third keynote speach. The schedule was
+not decided, but Jeremy expected to have only two parallel sessions
+most of the time.
+
+Marc-Andre asked whether we are on target wrt. the budget. Neal
+answered that he believes we will stay within budget, but he had no
+estimates for food cost yet (and assumed they will be $95/person).
+
+Jeremy asked to compare the registration numbers with last year.
+Neal reported there were 235 attendees, 186 of which registered
+before the early-bird deadline (which ended March 1).
+
+5. Adjournment
+##############
+
+There being no further business, the meeting was adjourned.

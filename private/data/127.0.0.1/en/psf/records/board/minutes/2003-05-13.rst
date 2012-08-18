@@ -1,0 +1,65 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+May 13, 2003 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:05 GMT. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting:
+Thomas Wouters, Guido van Rossum, Martin von L?wis, Tim Peters, Jeremy Hylton. 
+A quorum was present. Neal Norwitz also participated in the meeting. 
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+Guido moved to approve the minutes of April 8th. Motion passes
+with 5 ayes.
+
+3. Treasurer Report
+###################
+
+Jeremy reminded the Board that tax filing is due on May 15. Neal
+Norwitz does not have the necessary information, so Jeremy would
+file one more time.
+
+The books have not been transferred to Neal, yet. Jeremy will
+get together with him in the next couple of weeks.
+
+Jeremy reports the following cash flow: Greg Ward donated $50,
+Kevin Altis donated $100, Matthew Dixon Cowles donated $50. We
+also received a $500 check from ActiveState for conference sponsorship,
+a $10,416 check from Yet Another Society for registration fees,
+and a check from O'Reilly for $100 for sponshorship.
+The bill for insurance came and it is $500.
+Kurt DeMaagd from YAS reported on the total collected and the 
+actual bank expenses.  We need to double-check his math, but he 
+says he owes us 7825.90.
+The last three numbers mean we made a net profit on the conference
+of of 3782.46.
+
+Guido reports that we were supposed to have gotten $3600 in
+sponsor money, but only got $3100. The missing $500 is from
+sams publishing.
+
+4. Conference planning
+######################
+
+Thomas suggest that we should look into the next PyCon, and
+suggests that Steve Holden is invited to chair organization
+of that conference again. Thomas will contact him about that.
+
+5. Sunsite DK
+#############
+
+Guido reports that Martin Dalum has offered to host the Python
+development on Sunsite, which will be named ".src", to indicate
+they have new sponsors now. In the discussion, it became apparent
+that many details of that proposal were still vague. Martin
+will contact Martin Dalum to find out further details.

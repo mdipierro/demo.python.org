@@ -1,0 +1,171 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+September 20, 2010 
+
+Draft
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 20
+September 2010. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Report <#progress-report>`_- `5.1   Communication Status <#communication-status>`_  - `5.2   Core Development Tasks <#core-development-tasks>`_  - `5.3   HAM WebPages/Links <#ham-webpages-links>`_  - `5.4   Marketing Material <#marketing-material>`_  - `5.5   PyCon US Website <#pycon-us-website>`_  - `5.6   pyOpenSSL Status <#pyopenssl-status>`_  - `5.7   Sprint Committee <#sprint-committee>`_  - `5.8   Trac Hosting <#trac-hosting>`_  - `5.9   Trademarks Committee <#trademarks-committee>`_
+
+- `6   PyCon US 2011 Budget <#pycon-us-2011-budget>`_
+
+- `7   New Sponsor Membership Application <#new-sponsor-membership-application>`_
+
+- `8   Other Business <#other-business>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Raymond Hettinger, Steve Holden, Marc-Andre Lemburg, David
+Mertz, Doug Napoleone [arrived at 16:18], Jesse Noller, Tim Peters,
+Greg Stein, and Gloria Willadsen. Also in attendance were Kurt Kaiser
+(Treasurer), and Pat Campbell (Secretary & Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 16 August 2010 Board meeting minutes were voted on and approved. 
+
+Approved, 7-0-1.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting held on 16
+August 2010.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K. Kaiser
+prior to the Board meeting. There were no major changes in the PSF's
+financial position since the last Treasurer's Report a month ago.
+
+`5   Progress Report <#id5>`_
+-----------------------------
+
+The following board reports were submitted to the board mailing list
+one week prior to this month's meeting:
+
+`5.1   Communication Status <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Hellmann, Communication Officer, is continuing his efforts to
+recruit and find volunteers to help write for the blog found at
+`http://pyfound.blogspot.com/ <http://pyfound.blogspot.com/>`_.
+
+`5.2   Core Development Tasks <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+B. Cannon, Core Development Tasks Project, will begin working
+on this 2-month project in January 2011.
+
+`5.3   HAM WebPages/Links <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+P. Campbell, Honorary Associate Membership (HAM) WebPages Start-up
+Project, currently working on providing new web pages & links to the
+official Python web site regarding the new Honorary Associate
+Membership to provide the webpage reader with some insights into how
+to go about gaining their HAM membership into the PSF organization.
+
+`5.4   Marketing Material <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M.A. Lemburg, Marketing Material Project, is meeting with contacts,
+working on writing a proposal for board consideration...
+
+`5.5   PyCon US Website <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Napoleone, PyCon US Website Project, will be launching the new
+website to the public. &quot;Working with committee heads and Eldarion
+to finalize proposal system for Talks, Tutorials, and Posters.&quot;
+
+`5.6   pyOpenSSL Status <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J.P. Calderone, pyOpenSSL Project, has been working to improve the
+coverage provided by pyOpenSSl's test suite.
+
+`5.7   Sprint Committee <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, Sprint Committee Chair, is looking to revitalize the
+sprints volunteer mailing list.
+
+`5.8   Trac Hosting <#id13>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Reifschneider, Trac Hosting Project, is currently coordinating the
+installation of an issue tracking tool to be utilized by the PSF to
+help organize the day-to-day PSF administrative activities.
+
+`5.9   Trademarks Committee <#id14>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Mertz, Trademarks Committee Chair, A few words from the TMC chair:
+&quot;In general summary, the Trademarks Committee has continued to receive
+requests for usage of the Python wordmark and/or logo.  Many of these
+are originally sent to the Board, and I forward them to the committee
+as needed.&quot;
+
+The board members agreed to also provide PSF members with copies of
+the board reports per month.
+
+`6   PyCon US 2011 Budget <#id15>`_
+-----------------------------------
+
+The board discussed and approved the proposed budget for PyCon 2011. 
+
+    **RESOLVED**, that the PSF approve the proposed PyCon 2011 budget
+    presented by Van Lindberg.
+
+Approved, 8-0-2.
+
+`7   New Sponsor Membership Application <#id16>`_
+-------------------------------------------------
+
+The board recommended Zimbio Inc. as a new pending sponsor member of
+the PSF. The new sponsor member recommendation will be voted on at
+the next members' election.
+
+    **RESOLVED**, that the board recommends Zimbio Inc. as a pending
+    sponsor member.
+
+Approved, 8-0-0.
+
+`8   Other Business <#id17>`_
+-----------------------------
+
+The board briefly discussed and is considering modifying the members
+election calendar time-slot from once or twice a year to holding
+quarterly member elections.
+
+`9   Adjournment <#id18>`_
+--------------------------
+
+S. Holden adjourned the meeting at 16:57 UTC.

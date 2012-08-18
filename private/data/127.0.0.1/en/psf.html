@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <blockquote>
+<p>The mission of the Python Software Foundation is to promote, protect,
+and advance the Python programming language, and to support and
+facilitate the growth of a
+<a class="reference external" href="diversity/">diverse</a>
+and international community of Python programmers.</p>
+<p class="attribution">&mdash;from the <a class="reference external" href="/pythonorg/default/index/psf/mission/">Mission Statement page</a></p>
+</blockquote>
+<p>The Python Software Foundation (PSF) is a 501(c)(3) non-profit corporation that
+holds the intellectual property rights
+behind the Python programming language. We manage the open source licensing
+for Python version 2.1 and later and own and protect the trademarks associated
+with Python. We also run the North American <a class="reference external" href="http://us.pycon.org/">PyCon</a>
+conference annually, support other Python conferences around the world, and
+fund Python related development with our <a class="reference external" href="grants/">grants program</a> and by
+funding special projects.</p>
+<p>For a quick overview of the PSF's activities, please read the
+<a class="reference external" href="/pythonorg/default/index/psf/summary/">Executive Summary</a>. For regular updates, see our
+blog.</p>
+<p>Contents</p>
+<ul class="simple">
+<li><a class="reference external" href="#psf-details-contacting-the-psf">PSF Details &amp; Contacting the PSF</a></li>
+<li><a class="reference external" href="#psf-sponsor-members">PSF Sponsor Members</a></li>
+<li><a class="reference external" href="#psf-donors-and-donated-infrastructure">PSF Donors and Donated Infrastructure</a></li>
+<li><a class="reference external" href="#feedback">Feedback</a></li>
+</ul>
+<div class="section" id="id2">
+<h1><a class="reference external" href="#id1">PSF Details &amp; Contacting the PSF</a></h1>
+<p>Please see <a class="reference external" href="about/#how-do-i-reach-the-psf">About the Python Software Foundation</a>.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id1">backlink</a></em></p>
+Duplicate explicit target name: &quot;psf details &amp; contacting the psf&quot;.</div>
+<div class="section" id="id4">
+<h1><a class="reference external" href="#id2">PSF Sponsor Members</a></h1>
+<p>The PSF would not be possible without the generous financial help of
+the following <a class="reference external" href="sponsorship/">sponsor members</a>:</p>
+<img alt="ActiveState logo `ActiveState &lt;http://www.activestate.com&gt;`_ *(founding sponsor)*" src="/pythonorg/default/index/images/activestate_logo.gif" />
+<img alt="ASTi logo `Advanced Simulation Technology Inc. (ASTi) &lt;http://www.asti-usa.com&gt;`_" src="/pythonorg/default/index/images/astilogo.gif" />
+<img alt="Array BioPharma logo `Array BioPharma, Inc. &lt;http://www.arraybiopharma.com&gt;`_" src="/pythonorg/default/index/images/arraylogo.jpg" />
+<img alt="BizRate.com logo `BizRate.com &lt;http://www.bizrate.com&gt;`_" src="/pythonorg/default/index/images/bizrate.gif" />
+<img alt="Canonical Ltd. Logo `Canonical &lt;http://www.canonical.com&gt;`_" src="/pythonorg/default/index/images/canonical-logo.png" />
+<img alt="CCP Games Logo `CCP Games. &lt;http://www.ccpgames.com&gt;`_" src="/pythonorg/default/index/images/CCP.jpg" />
+<img alt="cPacket Networks Logo `cPacket Networks &lt;http://www.cpacket.com&gt;`_" src="/pythonorg/default/index/images/cpacket_logo.jpg" />
+<img alt="EarnMyDegree.com logo `EarnMyDegree.com &lt;http://www.earnmydegree.com&gt;`_" src="/pythonorg/default/index/images/emd_logo.gif" />
+<img alt="Enthought logo `Enthought, Inc. &lt;http://www.enthought.com&gt;`_" src="/pythonorg/default/index/images/enthought.png" />
+<img alt="Exoweb logo `Exoweb, Ltd. &lt;http://www.exoweb.net/&gt;`_" src="/pythonorg/default/index/images/ExowebGlossyLogo.png" />
+<img alt="Google logo `Google &lt;http://www.google.com&gt;`_" src="/pythonorg/default/index/images/google.gif" />
+<img alt="HitMeister logo `HitMeister Inc. &lt;http://www.hitmeister.de&gt;`_" src="/pythonorg/default/index/images/hitmeister_logo.gif" />
+<img alt="IronPort logo `IronPort Systems &lt;http://www.ironport.com&gt;`_" src="/pythonorg/default/index/images/ironport.gif" />
+<img alt="KNMP logo `KNMP &lt;http://www.knmp.nl&gt;`_" src="/pythonorg/default/index/images/knmp-logo.png" />
+<img alt="Lincoln Loop logo `Lincoln Loop &lt;http://lincolnloop.com&gt;`_" src="/pythonorg/default/index/images/logo_lincoln_loop.png" />
+<img alt="Lucasfilm logo `Lucasfilm &lt;http://lucasfilm.com&gt;`_" src="/pythonorg/default/index/images/Lucasfilm_logo.png" />
+<img alt="Madison Tyler logo `Madison Tyler LLC &lt;http://www.ewtcareers.com&gt;`_" src="/pythonorg/default/index/images/mtlogo.jpg" />
+<p>Merfin, LLC.</p>
+<p><a class="reference external" href="http://www.microsoft.com">Microsoft</a></p>
+<img alt="Online Degree Reviews logo `Online Degree Reviews &lt;http://www.onlinedegreereviews.org/&gt;`_" src="/pythonorg/default/index/images/OnlineDegreeReviews-Logo.png" />
+<img alt="Open End AB `Open End AB &lt;http://www.eutaxia.eu/&gt;`_" src="/pythonorg/default/index/images/open_end_ab_logo.png" />
+<img alt="OpenEye Scientific Software logo `OpenEye Scientific Software &lt;http://www.eyesopen.com&gt;`_" src="/pythonorg/default/index/images/openeye-logo.gif" />
+<img alt="Opsware logo `Opsware, Inc. &lt;http://www.opsware.com&gt;`_" src="/pythonorg/default/index/images/opsware.gif" />
+<img alt="O'Reilly logo `O'Reilly &amp; Associates, Inc. &lt;http://www.oreilly.com&gt;`_" src="/pythonorg/default/index/images/oreilly_logo.gif" />
+<img alt="PropertySold.ca logo `PropertySold.ca &lt;http://www.propertysold.ca/&gt;`_" src="/pythonorg/default/index/images/propertysold.jpg" />
+<img alt="Rogue Wave logo `Rogue Wave &lt;http://www.vni.com/products/imsl/pyimslstudio/overview.php&gt;`_" src="/pythonorg/default/index/images/RogueWaveLogo.jpg" />
+<img alt="SEO Moves logo `SEO Moves &lt;http://www.seomoves.org&gt;`_" src="/pythonorg/default/index/images/seo_moves.jpg" />
+<img alt="Sun Microsystems logo `Sun Microsystems &lt;http://www.sun.com/&gt;`_" src="/pythonorg/default/index/images/sun_logo.png" />
+<img alt="Tabblo logo `Tabblo &lt;http://www.tabblo.com&gt;`_" src="/pythonorg/default/index/images/tabblo.png" />
+<img alt="Uniblue Systems Ltd. logo `Uniblue Systems Ltd. &lt;http://www.uniblue.com&gt;`_" src="/pythonorg/default/index/images/uniblue-logo.jpg" />
+<img alt="ZeOmega logo `ZeOmega, LLC. &lt;http://www.zeomega.com&gt;`_" src="/pythonorg/default/index/images/zeomega.gif" />
+<img alt="Zimbio logo `Zimbio &lt;http://www.zimbio.com&gt;`_" src="/pythonorg/default/index/images/zimbio_corp_logo.gif" />
+<img alt="Zope Corporation logo `Zope Corporation &lt;http://www.zope.com&gt;`_ *(founding sponsor)*" src="/pythonorg/default/index/images/zope_logo.gif" />
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id3">backlink</a></em></p>
+Duplicate explicit target name: &quot;psf sponsor members&quot;.</div>
+<div class="section" id="id6">
+<h1><a class="reference external" href="#id3">PSF Donors and Donated Infrastructure</a></h1>
+<p>Additional funding is provided by our <a class="reference external" href="donations">donors</a>. This web site and related
+services run mostly on <a class="reference external" href="league">donated infrastructure</a>.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id5">backlink</a></em></p>
+Duplicate explicit target name: &quot;psf donors and donated infrastructure&quot;.</div>
+<div class="section" id="id8">
+<h1><a class="reference external" href="#id4">Feedback</a></h1>
+<p>For questions about the PSF, or for comments on the PSF web pages,
+please write to <a class="reference external" href="mailto:psf%40python.org">psf&#64;python.org</a>.</p>
+<p>For questions about Python, please write to <a class="reference external" href="mailto:help%40python.org">help&#64;python.org</a>.</p>
+<p>For comments on the python.org web pages, please write to <a class="reference external" href="mailto:webmaster%40python.org">webmaster&#64;python.org</a>.</p>
+<p>If you have received a suspicious check claiming to be from the
+Python Software Foundation, it may be fraudulent.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id7">backlink</a></em></p>
+Duplicate explicit target name: &quot;feedback&quot;.</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

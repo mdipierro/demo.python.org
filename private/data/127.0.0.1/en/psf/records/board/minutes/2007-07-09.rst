@@ -1,0 +1,167 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+July 9, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:02 UTC, 9
+July 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in June <#new-in-june>`_
+
+- `4   Trademark Watch <#trademark-watch>`_
+
+- `5   Frank Willison Award <#frank-willison-award>`_
+
+- `6   Potential New Sponsor Member <#potential-new-sponsor-member>`_
+
+- `7   PyCon <#pycon>`_
+
+- `8   Advocacy Coordinator <#advocacy-coordinator>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Tim Peters, David Goodger, Martin von L?wis, Andrew Kuchling,
+and Stephan Deibel.  Also in attendance was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 11 June 2007 Board meeting minutes were approved by a 4-0-1
+vote (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 11 June 2007
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: in progress.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from March 2007, Section 12, Awards: S. Holden will prepare a proposal for a PSF awards program.     Status: carried forward.
+
+- Originally from March 2007, Section 16, Reviving the Grants Program: D. Goodger will send email to PSF-members about recruiting: a leader for a new grants program, an Assistant Secretary, and an Assistant Treasurer.     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     Steve Holden sent his suggestions to the PSF-Board mailing list, but nobody had time to digest them yet.  Discussion was deferred.     Status: carried forward.
+
+- Originally from April 2007, Section 5, Assistants: S. Deibel will work with the Treasurer and Secretary to write up calls for assistants.     Status: carried forward.
+
+- Originally from April 2007, Section 6, Python Package Index (Cheese Shop): A. Kuchling will ask Thomas Wouters about increasing the memory on ximinez, and getting another machine for PyPI.     Status: carried forward.
+
+- Originally from April 2007, Section 9, New PSF Members: D. Goodger will contact the PSF members not subscribed to the PSF-Members mailing list.     Status: carried forward.
+
+- Originally from May 2007, Section 4, Frank Willison Award: D. Goodger will coordinate the selection of the 2007 recipient of the Frank Willison Award.     See `Frank Willison Award <#frank-willison-award>`_ below.      Status: in progress.
+
+- Originally from May 2007, Section 4, Frank Willison Award: D. Goodger will set up a page on www.python.org to list the recipients of the Frank Willison Award.     Status: in progress.
+
+- Originally from May 2007, Section 6, EuroPython Sponsorship: A. Kuchling will contact the EuroPython organizers to arrange for the PSF's sponsorship.     Status: in progress.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will produce a PSF logo based on the Python logo.     Status: in progress.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     D. Goodger reported no progress on banners.  The Board agreed to keep this as a low-priority action item.     Status: carried forward.
+
+`3.2   New in June <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No new action items originated at the 11 June 2007 board meeting.
+
+`4   Trademark Watch <#id6>`_
+-----------------------------
+
+S. Deibel asked if the Python community should self-police our
+trademarks, or should we pay for a trademark monitoring service?  He
+expressed his scepticism as to the efficacy of a service.  T. Peters
+suggested that paying a service may be a legal necessity: a question
+for a lawyer.
+
+Deibel reported that he asked our lawyer, who said we could
+self-police.  The tools for self-policing are search engines and
+something like namedroppers.com (which just matches domain names with
+a keyword).  Deibel noted that we can also educate the community to
+keep an eye out.  D. Goodger suggested that simple instructions be
+added to the trademark page.
+
+The Board agreed that PSF members and the Python community at large
+should monitor and police our trademarks.
+
+S. Deibel will update the trademark policy and announce it to
+the community.
+
+`5   Frank Willison Award <#id7>`_
+----------------------------------
+
+D. Goodger collected nominations solicited from past winners and from
+Guido, as well as unsolicited nominations from the community.  The
+purpose of the award was reviewed (the full title is &quot;The Frank
+Willison Award for Contributions to the Python Community&quot;),
+recognizing the emphasis on community contributions over code.  The
+nominations were discussed and a winner decided: Steve Holden.
+
+D. Goodger will inform O'Reilly of the Board's decision to
+name Steve Holden as the winner of the 2007 Frank Willison Award.
+
+`6   Potential New Sponsor Member <#id8>`_
+------------------------------------------
+
+K. Kaiser reported that a sponsor member application was received, but
+nobody was aware of the organization.  S. Deibel suggested that we ask
+them for more info, which they need to submit that anyway for the
+members to vote on later.
+
+K. Kaiser will ask the organization applying for sponsor
+membership for information about themselves, and will inform them of
+other support options.
+
+K. Kaiser will send the Board details of a recently-received
+sponsor member application.
+
+`7   PyCon <#id9>`_
+-------------------
+
+D. Goodger reported that Sean Reifschneider has found a good deal for
+PyCon's internet bandwidth: approximately $2500 for a DS-3 (45Mbps)
+for one month.  This is ten times the bandwidth we had in Dallas, and
+the hotel is OK with us handling it.
+
+    RESOLVED, that David Goodger is authorized to negotiate a contract
+    for PyCon 2008 network bandwith, up to $3000.
+
+Approved 5-0-0. 
+
+Goodger informed the Board of his plan to hold an online meeting for
+PyCon planning, on Tuesday July 17 at 2pm EST.
+
+`8   Advocacy Coordinator <#id10>`_
+-----------------------------------
+
+S. Deibel reported good progress by the Advocacy Coordinator, written
+up at `http://wiki.python.org/moin/AdvocacyAccomplishments <http://wiki.python.org/moin/AdvocacyAccomplishments>`_.
+
+`9   Adjournment <#id11>`_
+--------------------------
+
+S. Deibel adjourned the meeting at 17:46 UTC.

@@ -1,0 +1,69 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Feb. 12, 2002 
+
+A regular regular meeting of the Python Software Foundation (the
+"PSF") Board of Directors was held over Internet Relay Chat at 1:00 pm
+EST.  Guido van Rossum, president of the Foundation and chairman of
+the Board, presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Tim Peters, Guido van Rossum, Marc-Andre
+Lemburg, David Ascher.  The following members were absent: Thomas
+Wouters, Martin von Loewis.  Thomas was logged in to capture the
+conversation.
+
+A quorum was present.
+
+2. Administrative items
+#######################
+
+- Member meeting minutes.  Jeremy Hylton promised to send out the   (draft) minutes of the recent member meeting today.
+- Invoices.  Jeremy Hylton will send out invoices to current and new   sponsors; for new sponsors, he commits to sending out the invoice   within a week of receiving he application form.  It is noted that   sponsorship fees are prorated over the calendar year, so a sponsor   joining on February 1 pays 11/12th of the sponsorship fee for that   year.
+- Application forms.  Jeremy Hylton will create application forms for   regular members and for sponsor members.  These will be posted on   the PSF website.  The forms will be of the "print-and-mail-or-fax"   variety since real wet signatures are required.  Hylton will mail   these forms to the board today and the board will comment by   tomorrow 2pm EST.
+- Inviting new members.  This action must wait pending the application   form.  Jeremy Hylton will invite all new members as soon as the form   is approved and put up on the website.
+- Tax filing.  Jeremy Hylton will do this.
+- 501(c)(3) application.  Guido van Rossum volunteered to chair the   501(c)(3) application committee, and Tim Peters, Marc-Andre Lemburg   and Jeremy Hylton volunteered to serve on the committee.  The   committee has to wait until a mission statement is approved, see   agenda item 5.
+
+3. Meet the new board
+#####################
+
+Every director present greeted every other director present.
+
+4. PSF website
+##############
+
+Guido van Rossum proposed to convert the website from Zope to CVS, and
+henceforth maintain it using the same CVS setup as the rest of
+python.org.  This was approved unanimously.  Van Rossum will try to do
+this today or tomorrow.  He will also get Barry Warsaw and/or Thomas
+Wouters to give David Ascher a login.
+
+David Ascher will write a webpage about how & why to become a PSF
+sponsor.
+
+5. Mission statement
+####################
+
+The PSF needs a mission statement so it can be used in our application
+for 501(c)(3) charity status with the IRS.  The application needs to
+be filed at the latest in May 2002 (within 15 months of
+incorporation).
+
+All present except Guido van Rossum volunteered to help write the
+mission statement.  This discussion will take place on the PSF-board
+mailing list.
+
+David Ascher volunteered to ask Greg Stein (ASF) and his connections
+at Yet Another Society for examples of their (successful) 501(c)(3)
+status application.
+
+6. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 2:00 pm
+EST.

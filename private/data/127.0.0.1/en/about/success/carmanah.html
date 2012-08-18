@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/carmanah -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/carmanah">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="carmanah-lights-the-way-with-python">
+<h1>Carmanah Lights the Way with Python</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Software Development, Business</p>
+<p><strong>Keywords:</strong>  Embedded Systems, Functional Testing, Product Development, Unit Testing, Energy Efficiency, Quality, Traffic Control, Simulation, Lighting, Marine</p>
+<p><strong>Title:</strong>  Carmanah Lights the Way with Python</p>
+<p><strong>Authors:</strong>   George Belotsky and Thomas Major</p>
+<p><strong>Date:</strong>   2004-06-29</p>
+<p><strong>Website:</strong>  <a class="reference external" href="http://www.carmanah.com/">http://www.carmanah.com/</a></p>
+<p><strong>Summary:</strong>  Carmanah Technologies uses Python to help build its rugged self-maintaining solar-powered LED lights.</p>
+<p><strong>Logo:</strong>  .. image:: /files/success/carmanah/carmanah-logo.png    :alt: /files/success/carmanah/carmanah-logo.png</p>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p>This is a story about how Python's elegant design can make the
+language useful in an unexpected way.</p>
+<p>Carmanah Technologies Inc. (<a class="reference external" href="http://www.carmanah.com/">http://www.carmanah.com/</a>) was conceived
+in the middle of the Pacific Ocean.  The founder, David Green, was
+sailing his boat from Fiji, bound for Victoria, British Columbia.  He
+was running low on battery power for his navigation lights, and had an
+insight.</p>
+<p>The eventual result of that mid-ocean idea was the world's first
+self-contained, fully autonomous marine navigation light.  During the
+day, each device uses solar power to recharge its integrated
+batteries.  The light then operates from the stored charge at night.
+In place of conventional bulbs, Carmanah's systems use long lasting,
+high-efficiency LEDs. The overall result is an exceptionally rugged
+device, sealed against the elements and requiring no maintenance.</p>
+<p>On occasion, lost Carmanah lights have drifted for thousands of miles
+upon the ocean currents, only to be recovered later -- in full working
+order.  This sort of reliability has made them famous amongst waterway
+authorities, sailors and the coast guards of various countries.</p>
+<p>The technology born of the harsh marine environment has proven useful in many
+other areas, and today Carmanah is the world leader in solar-powered LED
+lighting. The company manufactures a whole line of such lights for a variety
+of different uses, including transit, roadway, railway, industrial markers and
+airfield illumination as well as the original marine application. The lights
+are sold all over the world, and must often with stand extreme conditions (the
+open ocean, desert climates, the far north, urban vandals, etc.). Carmanah's
+lights have even been the subject of a documentary on national television.</p>
+<img alt="Closeup of one crosswalk traffic beacon." src="/pythonorg/default/index/files/success/carmanah/xwalk-closeup-web.jpg" />
+<p><em>Closeup of a Carmanah crosswalk traffic beacon, a recent product in
+which Python has played a significant role.  The enclosure at the top
+of the pole is oriented towards the sun, to better expose the solar
+panels that it carries on the front. The antenna for the wireless link
+to a similar unit on the other side of the street is visible at the
+left side of the enclosure.</em> <a class="reference external" href="/pythonorg/default/index/files/success/carmanah/xwalk-closeup-zoom.jpg">Zoom in</a></p>
+<p>Electric lighting has become so commonplace, it seems like a simple
+idea.  An autonomous, self-contained light, however, turns out to be a
+complicated thing indeed.  The amount of usable solar radiation varies
+with the weather, the seasons, one's position on the earth, and the
+orientation of the solar panel.  The battery state of charge must be
+carefully managed to ensure long life and correct operation.
+Available power has to be monitored, and possibly rationed through the
+night.</p>
+<p>Depending on the application, the light may also have to be
+programmable to emit internationally recognized flash codes, react to
+user input, etc.  In even more complex situations, wireless networking
+is required to allow the lights to communicate with each other, or
+with a central base station.</p>
+<p>A great deal of mechanical, electrical, electronic and optical design
+is required to create these lights.  As is typical of modern complex
+devices, an embedded software program running on a microcontroller
+operates each unit, making it come to life.  Like a miniature version
+of the Monolith from <em>2001: A Space Odyssey</em>, each light maintains
+itself, ready to perform its function whenever the need arises.</p>
+</div>
+<div class="section" id="the-future-of-practical-computing">
+<h2>The Future of Practical Computing</h2>
+<p>Current practical computer applications are dominated by the PC.  Yet,
+just like the mainframe before it, the PC will lose its central place
+in the use and deployment of computer technology.  Embedded systems --
+computers that are part of other devices -- will be the most prevalent
+in the future.</p>
+<p>The mainframe is far from being obsolete today, and the PC will
+likewise remain important.  Most computers, however, will be
+incorporated into something else, rather than standing alone.  This
+process has already begun.  Automobiles employ multiple embedded
+systems, some of which communicate with each other.  Embedded systems
+also operate many household appliances.  Such systems are likewise
+very important in industry, where they form a crucial element of many
+instruments and tools.</p>
+<p>The catalyst for the future expansion of embedded systems is the rapid
+advance of network technology.  As the hardware becomes less
+expensive, smaller, faster and more efficient in the use of electrical
+power, networks of embedded devices will proliferate and grow.  Such
+devices -- in collaboration with one another -- will control homes,
+offices and industrial facilities.  Preparations for this new world of
+computing are underway now, as evidenced by the Cambridge-MIT
+Institute's <em>Pervasive Computing</em> initiative (see <a class="reference external" href="http://oxygen.lcs.mit.edu/">http://oxygen.lcs.mit.edu/</a>).
+The initiative has also been covered in a BBC story (see
+<a class="reference external" href="http://news.bbc.co.uk/1/hi/technology/3583479.stm">http://news.bbc.co.uk/1/hi/technology/3583479.stm</a>).</p>
+<p>The emergence of Pervasive Computing will make it necessary for each
+system to be very low maintenance.  When every user requires hundreds
+of devices, it is simply not feasible to service them all on a regular
+basis.  Of course, fully self-contained systems that manage their own
+power would be ideal, because changing batteries or attaching wires is
+a serious challenge if it needs to be done on a large scale.  Thus,
+the miniature Monolith becomes a swarm.</p>
+</div>
+<div class="section" id="the-importance-of-python">
+<h2>The Importance of Python</h2>
+<p>Large scale deployment of embedded systems demands inexpensive
+components.  Considerations such as small size, high reliability and
+low power consumption are also very important.  Specialized processor
+chips, called microcontrollers, have been developed to meet these
+goals.  Combining CPU, memory and peripherals (such as UARTs) on a
+single chip, modern microcontrollers are marvelous devices.  These
+features, however, come at a significant price.  A typical
+microcontroller has only a few hundred bytes of RAM, several K of ROM
+(to store the program) and orders of magnitude less processing
+capability than a conventional desktop microprocessor.  Hardly an
+environment for running Python!</p>
+<p>There are projects to adapt Python for embedded applications, but they
+require significant resources on the microcontroller, and are still in
+the very early stages.  Surprisingly, however, it turns out that
+standard Python is of tremendous value throughout an embedded system's
+lifecycle.  This is because the highly resource-constrained nature of
+embedded devices make them dependent on standard PCs for many tasks --
+both during development and during deployment.</p>
+<p>For example, embedded software is compiled on conventional desktop
+systems, and the resulting object code is then loaded onto the target
+microcontroller.  Another example is troubleshooting a device in the
+field, which usually requires additional hardware to run a diagnostic
+utility.  Ordinary laptops are a very attractive platform for this
+application, due to their ready availability and relatively high level
+of standardization.</p>
+<p>Thus, a major part of any embedded software development effort is
+writing the required support code, to run on a standard PC.  There are
+quite a few languages available for this task, but the advantages of
+Python are many.  Python is quite easily learned by people from
+various programming backgrounds, such as Java, C or Visual Basic.
+After becoming familiar with Python, development proceeds very quickly
+-- perhaps faster than with any other language.  At the same time,
+Python lends itself to the creation of highly readable, compact and
+well structured code.</p>
+<p>Python's particular mix of features also helps embedded developers be
+more effective when programming a PC.  While these developers are well
+familiar with C (by far the most popular high level language for
+embedded systems) a C program written for a standard desktop or server
+is quite different in style from one for a microcontroller.</p>
+<p>The compactness of Python programs is especially important, because
+embedded developers have, by necessity, learned to express their
+designs in a very small amount of code.  Python's automated memory
+management also helps, because many embedded developers have little
+experience with dynamic memory allocation -- a technique that is not
+practical in most embedded environments.  In addition, the
+Object-Oriented facilities of Python are simple, powerful yet not
+coercive.  This allows embedded developers (who are often less
+familiar with OOP) to gradually adopt the Object-Oriented paradigm in
+their work.</p>
+<p>As embedded systems grow in complexity, the advantage of using Python to
+augment traditional techniques becomes more and more important. At Carmanah,
+Python adoption (which began with the crosswalk traffic beacon, a
+sophisticated device that includes wireless networking) has spread to several
+key areas of the embedded system's lifecycle.</p>
+<p>A Python program controls the software build process, allowing firmware for
+different products to be put together from a large number of shared
+components. The build system is simple yet a lot more flexible than makefiles,
+as well as easier to customize, configure and extend. Unlike the build tools
+supplied by compiler vendors, the Python-based build system can work with
+different compilers.</p>
+<p>Python is also used for stress tests and unit testing -- an aspect of
+development particularly vital in embedded systems, due to the
+inherent difficulty of upgrading devices once they are in the field.
+Additional uses of Python, such as for control panels and code
+generation, are being considered as well.</p>
+<p>One very exciting application of Python at Carmanah is in the role of
+a device simulator.  A simulator can act as a node in an embedded
+network, while displaying the internal system state via animated
+images on the screen.  Simulators are very valuable during the early
+stages of an embedded project, when little actual hardware is
+available.  By taking the place of missing devices, simulators can
+allow software development to continue even before the hardware design
+is completed.</p>
+<img alt="Prototype of Carmanah's crosswalk traffic beacon attached to a device simulator written in Python." src="/pythonorg/default/index/files/success/carmanah/xwalk-proto-web.jpg" />
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 5); <em><a href="#id2">backlink</a></em></p>
+Duplicate explicit target name: &quot;zoom in&quot;.</div>
+<p><em>Here is an illustration of the usefulness of Python in embedded
+development.  A prototype of Carmanah's crosswalk traffic beacon
+interacts with a Python-based simulator running on an ordinary PC.
+The simulator effectively completes the system, because two traffic
+beacons (one for each side of the street) are required in a crosswalk
+installation.  In addition to significantly accelerating development,
+a Python-based simulator can easily animate drawings, as shown.  This
+allows meaningful demonstrations of the system much earlier than would
+otherwise have been possible.</em> <a class="reference external" href="/pythonorg/default/index/files/success/carmanah/xwalk-proto-zoom.jpg">Zoom in</a></p>
+<p>At Carmanah, Python has been used not only by experienced engineers,
+but by student interns as well.  Even interns with little prior
+programming experience can accomplish quite a lot with Python, while
+requiring less supervision than other languages demand.</p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>The exciting work of creating self-contained, autonomous devices
+continues at Carmanah.  As the swarm of micro-Monoliths becomes reality,
+the importance (and complexity) of the embedded software grows.  By
+making such software much easier to develop, test, control and deploy,
+Python is really lighting the way to the future of computing.</p>
+</div>
+<div class="section" id="about-the-authors">
+<h2>About the Authors</h2>
+<p><em>George Belotsky is a software architect who has done extensive work on
+high performance Internet servers as well as hard real time and
+embedded systems. His technology interests include C++, Python and
+Linux.  George Belotsky has written a number of articles (see</em>
+<a class="reference external" href="http://www.oreillynet.com/pub/au/1204">http://www.oreillynet.com/pub/au/1204</a> <em>) including a series on Python
+and Network I/O.  He is also the author of the Flightdeck-UI open
+source project (</em> <a class="reference external" href="http://openlight.com/fdui/">http://openlight.com/fdui/</a> <em>).  You can reach him by
+email at questions at openlight.com.</em></p>
+<p><em>Thomas Major is the Product Development Manager at Carmanah, an electrical
+engineer by schooling with broad product design experience acquired at
+Visteon and Philips Electronics.  His interest started in analog circuit
+design, later embracing digital, software, and embedded design.</em></p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

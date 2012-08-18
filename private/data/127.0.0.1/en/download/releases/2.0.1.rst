@@ -1,0 +1,73 @@
+Python 2.0.1 - a bugfix release for Python 2.0
+----------------------------------------------
+
+    **Note: This is no longer the most current Python release.  See the** `download page </download/>`_ **for more recent releases.**
+
+We're releasing **Python 2.0.1** - the final bugfix release for
+Python 2.0.
+
+Why would we come with a bugfix release now (June 2001), when `Python 2.0 <../2.0/>`_ was released in October 2000 and `Python 2.1 <../2.1/>`_ has been released for months (April
+2001)?  Two very good reasons!
+
+- **We've fixed the license: Python 2.0.1 is GPL-compatible**. We took the `Python 2.1 license <../2.1/license>`_ and applied the required change to section 7 that the FSF `told us <../2.1/fsf>`_ would suffice to make it GPL-compatible.  The result (after changing the version number) is the new `Python 2.0.1 license <license>`_.  The FSF was quick to `approve <fsf>`_ it!
+
+- Some people still prefer Python 2.0 over Python 2.1; they can now benefit from many bugfixes that we've applied since 2.0 was released, without any of the feature changes.
+
+Note that Python 2.1 is still not GPL-compatible, but we're
+planning a bugfix release there too, Python 2.1.1, with the same
+GPL-compatible license.
+
+What's New?
+-----------
+
+- We've been very careful to fix only bugs and not add new features.  (Thanks to Moshe Zadka for taking care of the thankless chore of poring over the CVS logs and SourceForge bug reports and re-applying selected patches!)
+
+- One exception: the SRE package (regular expression matching, used by the &quot;re&quot; module) was brought in line with the version distributed with Python 2.1; this is stable feature-wise but much improved bug-wise.
+
+- For the full scoop, see the `release notes <NEWS.txt>`_.
+
+Download the release
+--------------------
+
+**Windows** users should download Python-2.0.1.exe, the Windows
+installer, from one of the `download locations <#locations>`_
+below, run it, and follow the friendly instructions on the screen to
+complete the installation.  (Python-2.0.1-Debug.zip is a set of DLLs
+for Windows developers compiled in debug mode; it contains nothing of
+value for regular Python users.)  Windows users may also be interested
+in Mark Hammond's `win32all <http://starship.python.net/crew/mhammond/>`_, a collection of Windows-specific extensions including
+COM support and Pythonwin, an IDE built using Windows components.
+
+**All others** should download Python-2.0.1.tgz, the source
+tarball, from one of the download locations below, and do the usual &quot;gunzip; tar; configure; make&quot; dance.
+
+Download locations
+~~~~~~~~~~~~~~~~~~
+
+- Python.org: `HTTP </ftp/python/2.0.1/>`_.
+
+`MD5 <md5sum.py>`_ checksums
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    ``8aa10dcf062723001b852d96e905af79`` `Python-2.0.1.tgz 
+    </ftp/python/2.0.1/Python-2.0.1.tgz>`_ 
+
+    ``5940b6eea8972136f8e365346f1b1313`` `Python-2.0.1.exe 
+    </ftp/python/2.0.1/Python-2.0.1.exe>`_ 
+
+    ``0a8506c7379a2efdc95759ecbc8f16a0`` `Python-2.0.1-Debug.zip 
+    </ftp/python/2.0.1/Python-2.0.1-Debug.zip>`_
+
+Documentation
+-------------
+
+The documentation has been changed minimally: 
+
+- `Browse </doc/2.0.1/>`_ HTML on-line
+
+Bugs and Patches
+----------------
+
+To report a bug, always use the SourceForge `Bug Tracker <http://sourceforge.net/bugs/?group_id=5470>`_.  If
+you have a patch, please use the SourceForge `Patch Manager <http://sourceforge.net/patch/?group_id=5470>`_.
+Please mention that you are reporting a bug in 2.0.1!

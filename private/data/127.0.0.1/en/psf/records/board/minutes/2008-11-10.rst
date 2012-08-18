@@ -1,0 +1,216 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+November 10, 2008
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:00 UTC, 10
+November 2008.  Steve Holden presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New from October 13 <#new-from-october-13>`_
+
+- `4   Hiring of Administrator and Accountant <#hiring-of-administrator-and-accountant>`_
+
+- `5   Trademarks Committee <#trademarks-committee>`_
+
+- `6   PyCon <#pycon>`_
+
+- `7   Support Request from ZPUGDC Plone Conference <#support-request-from-zpugdc-plone-conference>`_
+
+- `8   Support Request for Peruvian Python Conference <#support-request-for-peruvian-python-conference>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon (arrived at 17:08), Stephan Deibel, David
+Goodger, Steve Holden, Martin von L?wis, Tim Peters, James Tauber.
+Also in attendance was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 13 October 2008 Board meeting minutes were approved by a vote of
+6-0-0 (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 13 October
+2008 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: **dropped**.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     S. Holden asked who had the paper records.  D. Goodger replied that he has a box & binder of paper, received from Jeremy, plus additions received over time.  With little effort, it can be shipped for processing.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: D. Goodger will write to the Jython contributors and ask them to sign contributor agreement forms, in combination with item 2 above (transferred from A. Kuchling).     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws [with S. Deibel's help].  Include an affiliation program [ref. July 2008 section 8].     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: **dropped**.
+
+- Originally from 14 April 2008, Section 5, Treasurer's Report: S. Holden will assist K. Kaiser with accounts receivable reminders.     S. Holden and K. Kaiser reported that accounts receivables are now down to about $23K.  K. Kaiser reported that we have commitments, but payments are slow in coming.  S. Holden recommended that we get outside help with this, &quot;either a debt collector or an accountant (preferably the latter).&quot;     Status: in progress.
+
+- Originally from 14 April 2008, Section 7, PyCon Asset Record-Keeping: D. Goodger will update the assets file in PSF CVS with the details of the laptops and VGA2USB boxes purchased for PyCon 2008.     Status: carried forward.
+
+- Originally from 14 April 2008, Section 12, Sponsor Membership Issues: D. Goodger will update the member information in members.xls (sponsors & nominated members) & sponsor-addrs.txt, in PSF CVS.     S. Holden: &quot;Again this is a task we should think about delegating, just to get it off your plate.&quot;     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.1, Treasurer's Report: K. Kaiser will submit an expanded report to psf-members.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.2, Treasurer's Report: D. Goodger will follow up regarding the PyCon transaction analysis.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.3, Treasurer's Report: D. Goodger will ensure that documentation for unpaid PyCon tutorials is found and provided.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.4, Treasurer's Report: D. Goodger will send all remaining PyCon checks to K. Kaiser for deposit.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.5, Treasurer's Report: D. Goodger will provide K. Kaiser with PyCon financial aid documentation.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.6, Treasurer's Report: D. Goodger will provide K. Kaiser with PyCon expense and cash reports.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.7, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon sponsorships.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 6.8, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon registrations.     Status: carried forward.
+
+- Originally from 16 June 2008, Section 10, Formalizing the Trademarks Committee: J. Tauber and D. Goodger will formulate a resolution for the formation of a Trademarks Committee.     See `Trademarks Committee <#trademarks-committee>`_ below.      Status: **done**.
+
+- Originally from 11 August 2008, Section 6.2, PyCon UK Sponsorship: R. Hettinger will propose a blanket policy for sponsorships, instead of one-off requests.     Status: carried forward.
+
+- Originally from 11 August 2008, Section 7, Funding pyArkansas: S. Holden will inform PyArkansas of their sponsorship grant, and request an invoice.     PyAr declined the PSF's offer of funding.      Status: **done**.
+
+- Originally from 11 August 2008, Section 9, Staffing: D. Goodger will follow up on-list regarding staffing.     Status: **dropped**.
+
+- Originally from 8 September 2008, Section 4.2, Sponsor Member Application: K. Kaiser will invoice OpenEye Scientific Software for their sponsor membership fee.     Status: carried forward.
+
+- Originally from 8 September 2008, Section 5.2, Sponsor Member Application: Lucasfilm: K. Kaiser will invoice Lucasfilm for their sponsor membership fee.     Status: carried forward.
+
+- Originally from 8 September 2008, Section 7, PSF Logo: D. Goodger will produce final layouts for a PSF logo.     Status: carried forward.
+
+`3.2   New from October 13 <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 13 October 2008 Board meeting on IRC. 
+
+- Section 4, PSF Community Award Certificates: S. Holden will issue PSF Community Award certificates.     Status: carried forward.
+
+- Section 5, PyCon: D. Goodger will prepare a budget for PyCon 2009.     Status: carried forward.
+
+- Section 6.1, Sponsor Member Application: KNMP: S. Holden will inform KNMP of their pending sponsor membership status, and will request a logo for the web site.     S. Holden noted that S. Deibel informed KNMP.      Status: **done**.
+
+- Section 6.2, Sponsor Member Application: KNMP: K. Kaiser will invoice KNMP for their sponsor membership fee.     Status: carried forward.
+
+- Section 8, The Python African Tour Request: S. Holden will respond to the Python African Tour request: we will add them to our list of cooperators, and would like further information about their governance before considering sponsorship.     S. Holden noted that this project is looking for an existing organization to act as their umbrella.     Status: **done**.
+
+`4   Hiring of Administrator and Accountant <#id6>`_
+----------------------------------------------------
+
+S. Deibel: 
+
+    I've tried to stress that both [K. Kaiser] and [D. Goodger] are
+    doing *lots* of work and need help, so it's clear (I hope) that
+    it's not that you're lazing around but that the load is just
+    overwhelming.
+
+S. Holden: 
+
+    Seconded. I am worried that Goodger won't have time for PyCon.
+
+Others agreed. 
+
+K. Kaiser: 
+
+    Briefly, I can do the accountant job.  It's pretty specialized, as
+    I described some months ago.  However, I think the Treasurer
+    position is undercompensated.
+
+Others agreed.  The expected time commitment is 500 hours this year. 
+
+S. Deibel: 
+
+    I think it was some time this year that I became aware of just how
+    much time you put in.  I feel bad that we've not done something to
+    solve this earlier.
+
+S. Holden encouraged D. Goodger to think about PyCon staff as well. 
+
+K. Kaiser noted that the PSF already has a payroll service. 
+
+Details were discussed, and the consensus was that the PSF should
+better compensate the work being done and hire as necessary.  Action
+was deferred to email.
+
+The snailmail receiving/scanning/forwarding service Earth Class Mail
+was briefly discussed.  They also provide a check depositing service.
+S. Deibel: &quot;I'd think we need something like this if we hire an admin,
+and as a distributed org we really need to get away from paper.&quot;
+Further discussion was deferred to email.
+
+`5   Trademarks Committee <#id7>`_
+----------------------------------
+
+    **RESOLVED**, that a Project Management Committee designated the
+    &quot;Trademarks Committee&quot; (TMC) be formed with David Goodger,
+    Marc-Andre Lemburg, Van Lindberg, David Mertz, Doug Napoleone,
+    James Tauber and Trevor Toenjes as initial members, and James
+    Tauber as the initial chairman, and that the Trademarks Committee
+    shall, when so instructed by the PSF Board, assess trademarks for
+    compliance with the current PSF Trademark Usage Policy and advise
+    the PSF Board on what action, if any, to take.
+
+Approved 7-0-0. 
+
+J. Tauber will update the PSF committees page with Trademarks
+Committee information.
+
+`6   PyCon <#id8>`_
+-------------------
+
+S. Holden: &quot;I spent a day looking at sites in Atlanta and have
+reported back to David.&quot;  D. Goodger will forward the report to the
+pycon-select mailing list.
+
+`7   Support Request from ZPUGDC Plone Conference <#id9>`_
+----------------------------------------------------------
+
+The PSF received a request for support for the Plone Conference, held
+in October, after the fact.  The timing and the wording of the request
+struck some Directors as strange.  It wasn't clear that there was a
+real need, and no evidence was provided, such as a balance sheet
+showing a deficit.  The conference had were many sponsors.
+
+S. Holden will write to the Plone Conference organizers
+asking for details of attendance and finances.
+
+We will reconsider next month if we receive new information.
+
+`8   Support Request for Peruvian Python Conference <#id10>`_
+-------------------------------------------------------------
+
+The PSF received a request from the organizer of a Python conference
+in Peru, looking for speaker recommendations.  M. von L?wis wrote to
+the PSF members' members list, passing on the request.
+
+M. von L?wis will follow up on responses to the Peruvian
+Python Conference organizer's request for speakers.
+
+`9   Adjournment <#id11>`_
+--------------------------
+
+S. Holden adjourned the meeting at 18:17 UTC.

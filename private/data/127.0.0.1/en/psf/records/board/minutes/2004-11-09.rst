@@ -1,0 +1,90 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+November 9, 2004 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 18:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Stephan Deibel, David Ascher, Tim Peters,
+Martin v. L?wis. Steve Holden joined later. Neal Norwitz was also
+present. Martin was taking minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The October minutes where approved with 4/0/1.
+
+3.Usage of Python License
+#########################
+
+Stephan reported that 118 projects on SourceForge use the
+Python license, which might be legally confusing. He volunteered
+to write an FAQ about using the Python license in other projects,
+and suggested to contact the more prominent projects directly.
+
+4. Contrib forms
+################
+
+Martin reported about the discussions with Larry Rosen about
+the contributor forms. The open issue was the list of initial
+licenses, for which the patent licensing was of primary concern.
+If we would require a patent grant from the contributors, a
+number of common licenses would be ruled out. Tim proposed that
+we only offer contributors such licenses, and wait for somebody
+to complain. Stephan was in favor of requiring a patent license
+for patents the contributor holds, but opposed to requiring
+contributors to claim that there are no patents on their 
+contribution. Martin explained that, as a result of that, only
+the Apache License, and the Academic Free License are real
+candidates for an initial license. He suggested that contributors
+might be surprised that they cannot contribute under the Python
+License, and proposed that this should be explained to 
+contributors.*Martin will circulate
+a draft motion to adopt the forms to the PSF members*
+
+5. Grants Committee
+###################
+
+Martin reported that Jeremy located 3 more proposals that had mistakenly
+been ignored, they were now also being reviewed. One issue that the
+committee needed board help with is the proposal by Tim Parkins, to
+design a Python promotion website. Jeremy suggested that this should
+be dealt with in the public relations committee, and that we should
+avoid giving the impression of insider funding.
+
+Stephan asked how board members would like to proceed with this
+question. Martin commented he would like to see the project executed
+either way: through the grants process, or explicit board
+decision. Jeremy said he would like to see the PRC propose the
+project. Tim Peters commented that Tim Parkins should not be
+considered an insider. Also, if the grants committee funded it, it
+should also control it.
+
+Steve Holden joined the discussion. He reported that he proposed Tim
+Parkins to submit the grants proposal, and did not really consider the
+PRC to directly apply for funding for this activity. Tim Peters said
+that if the work is really about redesigning pydotorg, it should be a
+PRC project. *Steve will talk to Tim Parkins
+about the issue, and propose a motion to run this within the PRC (or a
+new committee replacing the PRC).*
+
+6. Python Support Committee
+###########################
+
+Stephan reported that the PSC is dormant until there is need
+for funding. Neal reported that our current public support
+ratio is 54.5%. Jeremy asked whether the PSC could find funding
+for specific projects if there was a need; Stephan answered
+that he believed this to be the case, and that he was able
+to raise funding for the docutils sprint easily.
+
+7. Adjournment
+##############
+
+Their being no further business, Stephan adjourned the meeting at 19:01.

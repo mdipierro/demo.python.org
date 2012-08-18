@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/strakt -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/strakt">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="rapid-application-development-with-python">
+<h1>Rapid Application Development with Python</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Software Development, Business</p>
+<p><strong>Keywords:</strong>  Groupware, Rapid Application Development, Collaboration Support, Quality</p>
+<p><strong>Title:</strong>  Rapid Application Development with Python</p>
+<p><strong>Authors:</strong>   Laura Creighton and Alex Martelli</p>
+<p><strong>Date:</strong>   2003/01/17 15:59:01</p>
+<p><strong>Web site:</strong>  <a class="reference external" href="http://www.strakt.com/">http://www.strakt.com/</a></p>
+<p><strong>Summary:</strong>  Strakt uses Python to develop the next generation collaborative environment for the workflow intensive workplace.</p>
+<p><strong>Logo:</strong>  .. image:: /files/success/strakt/strakt_logo.gif    :alt: /files/success/strakt/strakt_logo.gif</p>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p><a class="reference external" href="http://www.strakt.com/">Strakt</a> is a Swedish company which specializes in developing scalable and
+secure products for collaboration in workflow intensive workplaces. Our
+vision is to empower professionals to collaborate in an enjoyable,
+intuitive, and efficient way that is tailored to their and their
+organisations' needs, while simultaneously developing and maintaining
+digitally stored organisational memory.</p>
+<p>In 2001, AB Strakt embarked on a large software development project
+aimed at providing modular collaboration and workflow solutions to
+improve case handling, bug tracking, project management, customer or
+employee relationship management, asset management, and many other
+types of workflow intensive applications. With insights from research
+in Library and Information Sciences, the four founders of AB Strakt
+believed they could create a product which would greatly improve the
+way large organizations collaborate and share information.</p>
+<p>The basis for this effort was CAPS, the Collaborative Approach to
+Problem Solving, which is a framework for a completely general,
+extensible, scalable case handling system that provides instantaneous
+real-time updates, general autonomous event handling, and improved
+security at the attribute (as opposed to file, or case) level.</p>
+</div>
+<div class="section" id="architecture">
+<h2>Architecture</h2>
+<p>CAPS is divided into three parts: (1) the Infinite Filing Cabinet, (2)
+the Business Logic, and (3) several client packages.</p>
+<img alt="The CAPS Architecture" src="/pythonorg/default/index/files/success/strakt/CAPS_figure_web.gif" />
+<p><em>The CAPS Architecture</em> <a class="reference external" href="/pythonorg/default/index/files/success/strakt/CAPS_figure.gif">Zoom in</a></p>
+<p>The Infinite Filing Cabinet (IFC) is a general Object Relational
+database engine with a Python API. The IFC is built on top of Postgres,
+with an Oracle version in the works, but it is possible to use any
+full-function RDBMS, as we took care to avoid non-standard SQL
+functionality and isolated the DB-specific idioms into a separate
+portability layer. Production IFCs currently run only under Linux, with
+others planned.</p>
+<p>The Business Logic is a layer of rules which handle data validation,
+access control, and customizable business-specific knowledge held by
+the customer organization. The Business Logic Modules are designed to
+be changed to quickly develop applications on top of the CAPS
+framework.</p>
+<p>The various clients are front-ends which talk to the Business Logic,
+which mediates all client communication with the IFC. Our customizable
+GUI-client, written using <a class="reference external" href="http://www.riverbankcomputing.co.uk/pyqt/">PyQt</a>, currently runs under Linux, Windows,
+and Solaris. Our web-client uses WebWare and Apache and supports
+Mozilla, Lynx, and Internet Explorer, with Opera, Galeon and Konqueror
+support planned. There are also Python scripting front-ends, and an
+SMTP Mail client which permits users to communicate with the system
+using their favorite email reader.</p>
+<p>Our subsystems communicate securely, thanks to <a class="reference external" href="http://www.openssl.org/">OpenSSL</a>. We wrote our own
+python wrapper, called it <a class="reference external" href="http://pyopenssl.sourceforge.net/">PyOpenSSL</a> and released it under the GNU Lesser
+General Public License. We also use an asynchronous architecture based on
+<a class="reference external" href="http://www.twistedmatrix.com/">Twisted</a> to achieve high scalability and responsiveness. Brett Cannon's
+<tt class="docutils literal"><span class="pre">`strptime()`</span></tt> module, scheduled for inclusion in the language for Python
+2.3, made BSD style date-handling work portably across architectures.</p>
+<p>Existing applications based on CAPS, developed in-house, include a
+help-desk case-handling system and a bug-tracking system.
+Additional applications will be developed in the future, through
+partnerships with companies that are interested in developing specific
+capabilities and marketing them to end-user customers.</p>
+<img alt="CAPScase, a CAPS-based case handling application" src="/pythonorg/default/index/files/success/strakt/GUI_capscase_web.gif" />
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 5); <em><a href="#id1">backlink</a></em></p>
+Duplicate explicit target name: &quot;zoom in&quot;.</div>
+<p><em>CAPScase, a CAPS-based case handling application</em> <a class="reference external" href="/pythonorg/default/index/files/success/strakt/GUI_capscase.gif">Zoom in</a></p>
+</div>
+<div class="section" id="why-python">
+<h2>Why Python?</h2>
+<p>Python was chosen for this project for a number of carefully considered
+reasons:</p>
+<ul class="simple">
+<li><strong>Portability:</strong> We knew that we needed an extremely portable language - and Python runs everywhere.</li>
+<li><strong>Access to Source:</strong> We knew that we wanted the source code for whatever language we chose. Forming a startup is risky enough without having to worry about being completely dependent upon somebody else to fix bugs in your tool set. Python is open source with an unrestrictive license.</li>
+<li><strong>Ability to Integrate:</strong> We had no desire to reinvent the wheel. We needed a language that would play nicely with existing programs, such as relational databases, web software, and whatever other existing applications we might need to integrate into our applications in the future. Python is well suited for this.</li>
+<li><strong>Rapid Development:</strong> We knew that we were going to have to do a lot of prototyping before we were satisfied with our design, so we wanted an interpreted, dynamically typed language. For expressive power, we wanted a high-level object-oriented language. Speed of development, not application runtime speed, was most critical for us. Python is a very productive way to write code.</li>
+<li><strong>Support for Selective Optimization:</strong> We knew there was a chance that profiling would later reveal that small portions of our application <em>were</em> time-critical, and therefore might need to be re-coded in C or C++. Python integrates seamlessly with these languages, so you truly can &quot;have your cake and eat it too&quot; by coding only small profiler-identified portions of your code in C or C++, and using the built-in higher-level abstractions of Python for rapid development of the rest of your application.</li>
+<li><strong>Scriptability:</strong> Since our intention was to have our partners develop their own applications by writing their own Business Logic Modules, we wanted our language choice to provide scriptability for our solution. Python is already well suited to scripting.</li>
+</ul>
+</div>
+<div class="section" id="experiences-with-python">
+<h2>Experiences with Python</h2>
+<p>Although many of us had never used Python before, our technical
+analysis of the language convinced us that it was the right choice. As
+we started to work with it, we found that Python is extremely easy to
+learn. We were actually able to become productive with it almost
+immediately at a level comparable to the development speeds we were
+used to in each of our most familiar languages. It took us somewhat
+longer to become familiar with Python's unique approach, much of which
+is important to understand in order to use the language to its fullest
+potential. But there was never a period of painful adjustment, and we
+never felt we needed to fight the syntax or fumble for ways to
+implement our algorithms.</p>
+<p>More pleasant surprises were in store for us. Until we used Python, we
+were not aware of what a difference programming in such a readable
+language would make. Some of us already had extensive experience
+programming in other interpreted dynamically typed languages. We
+believed, at the time, that Python's reputation as a good language
+for rapid development rested solely on the fact that it is intepreted
+and dynamically typed. But by programming in Python we became more
+productive than with those other languages. We now believe part of the
+elegance of Python can be attributed to the fact that it lies in the
+&quot;sweet spot&quot; between tediously verbose and arcanely terse languages.
+This and perhaps other factors that we haven't consciously identified
+make for a language that indeed &quot;fits your brain&quot;.</p>
+<p>We soon discovered that even our approach to design was altered and
+facilitated by Python. Because code is so fast to develop, and
+relatively easy to change once written, fewer design decisions needed
+to be made based on general principles, and more could be made
+empirically, on the basis of how well the code actually performs. This
+resulted for us in lower risk of committing to or perpetuating an
+inferior design. Sometimes the only way to find out if approach A is
+better than approach B is to code them both and see. Python more often
+gives you the time to try both, or at least the flexibility to switch
+if trying the first one doesn't work out.</p>
+<p>The fact that Python impacts the entire development process was also
+illustrated for us in our policy of performing periodic code reviews.
+Because of the development speeds we were seeing, our code base could
+change a <em>lot</em> in a week, and we had to change our code reviews to
+a more frequent schedule.  On the other hand, since Python code tends
+to be very uniform and readable, we found that reviews were better able
+to concentrate on the substance of changes made and were generally more
+efficient.</p>
+<p>Another positive but unexpected experience came in our use of the
+Python standard library. Our initial analysis of the language had not
+revealed to us just how rich it was, and we were delighted to discover
+that third party Python bindings already existed for many convenient
+library packages written in other languages.</p>
+<p>Perhaps the greatest pleasant surprise of all was the Python user
+community itself, which is rich in knowledgeable and helpful people who
+go out of their way to answer questions about Python and its use at all
+levels of expertise. The level of technical support we have received
+for free from this resource has been quite astounding.</p>
+<p>We develop using CVS and <a class="reference external" href="http://www.tortoisecvs.org/">tortoiseCVS</a>, a plug-in for Windows Explorer, and a
+mix of editors and development environments, including emacs, vim, sam, and
+<a class="reference external" href="http://wingide.com/">Wing IDE</a>.</p>
+</div>
+<div class="section" id="results">
+<h2>Results</h2>
+<p>The CAPS project has been very successful. Four of us were able to
+design and write a prototype of the system over the period of about a
+year. Once the prototype had been written, we expanded our company to 8
+full-time developers and 4 part-time developers. Strakt currently
+supports a total of 18 people.</p>
+<p>As of October 2002, we have deployed our software to our first beta
+customer, a major Swedish university, where it has been running for
+three months. Other organizations have expressed interest in becoming
+reference customers. We could not have done it without Python.</p>
+</div>
+<div class="section" id="about-the-authors">
+<h2>About the Authors</h2>
+<p>Laura Creighton has 20 years experience in software training, and Human
+Factors Engineering. She is a founder of AB Strakt, and a founder and
+Treasurer of The Python Business Forum, an international non-profit trade
+association for businesses which develop in Python.</p>
+<p>Alex Martelli has a Laurea degree in Electronic Engineering and a quarter
+century of professional experience in SW development -- as Systems Analyst for
+IBM Research, Senior Software Consultant for think3 Inc, Senior System
+Developer for AB Strakt, and now as Uber Technical Lead for Google Inc. Alex
+is a co-editor of the &quot;Python Cookbook&quot;, and the author of &quot;Python in a
+Nutshell&quot;, published by <a class="reference external" href="http://www.oreilly.com/">O'Reilly Associates</a>. He's a member of the Python
+Software Foundation, and also serves on the board of The Python Business
+Forum.</p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

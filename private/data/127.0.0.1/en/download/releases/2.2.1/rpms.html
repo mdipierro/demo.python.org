@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- download/releases/2.2.1/rpms -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/download/releases/2.2.1/rpms">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>Except where noted, these RPMs are made
+available by Sean Reifschneider
+(<a class="reference external" href="mailto:jafo-rpms&#64;tummy.com">jafo-rpms&#64;tummy.com</a>).</p>
+<div class="section" id="having-problems">
+<h1>Having Problems?</h1>
+<p>If you are having problems, please see the RPM Frequently
+Asked Questions section at the end of this document for possible
+solutions.</p>
+</div>
+<div class="section" id="new-in-version-2-2-1-2">
+<h1>New in version 2.2.1-2</h1>
+<ul class="simple">
+<li>The -devel package includes a Makefile.pre.in, for building Zope.</li>
+<li>Installs &quot;python2.2&quot; as well as &quot;python2.2&quot;.  This should allow it       to interoperate better with the Red Hat provided Python 2.2 package       in 7.3.</li>
+<li>Available as source and binaries for Red Hat 7.3.</li>
+</ul>
+<p><strong>Warning:</strong> These packages install as &quot;/usr/bin/python2&quot;.  This is
+because many of the Red Hat tools rely on &quot;/usr/bin/python&quot; being 1.5.
+For Python code which requires 2.2, they should probably change to use
+&quot;/usr/bin/python2&quot;.  The SRPM can be modified to build packages which
+install as &quot;/usr/bin/python&quot; -- count on things breaking if you do this.</p>
+</div>
+<div class="section" id="download">
+<h1>Download</h1>
+<ul>
+<li><p class="first">Signature:  - The following packages were signed with the GPG key in <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/KRUD-GPG-KEY">KRUD-GPG-KEY</a></p>
+</li>
+<li><p class="first">Source:  - The base Python tar-file can be used to build binary RPMs using the command &quot;rpm -ta Python-2.2.1.tgz&quot;.   <strong>Note:</strong> the tar file includes the 2.2.1-1 .spec file, use the next link for 2.2.1-2. - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/python2-2.2.1-2.src.rpm">python2-2.2.1-2.src.rpm</a> - (optional) <a class="reference external" href="/pythonorg/default/index/ftp/python/2.1/expat-1.1-4tummy.src.rpm">expat-1.1-4tummy.src.rpm</a>  (Needed for building Python SRPM, for systems that don't provide expat-devel)</p>
+</li>
+<li><p class="first">Red Hat 7.3 Binaries:   <strong>RH 7.3 Note:</strong> Red Hat 7.3 ships with a copy of Python 2.2 (not 2.2.1).  - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.3/python2-2.2.1-2.i386.rpm">python2-2.2.1-2.i386.rpm</a> (RedHat-based 7.3 base RPM) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.3/python2-tkinter-2.2.1-2.i386.rpm">python2-tkinter-2.2.1-2.i386.rpm</a> (RedHat-based 7.3 tkinter RPM) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.3/python2-devel-2.2.1-2.i386.rpm">python2-devel-2.2.1-2.i386.rpm</a> (RedHat-based 7.3 development RPM) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.3/python2-tools-2.2.1-2.i386.rpm">python2-tools-2.2.1-2.i386.rpm</a> (RedHat-based 7.3 Tools RPM, including IDLE) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.3/python2-docs-2.2.1-2.i386.rpm">python2-docs-2.2.1-2.i386.rpm</a> (Documentation in HTML and info formats)</p>
+</li>
+<li><p class="first">Red Hat 7.2 Binaries:  - <strong>Note:</strong> These RPMs are built from the 2.2.1-1 release.  Use the src.rpm above to create 2.2.1-2 RPMs. - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.2/python2-2.2.1-1.i386.rpm">python2-2.2.1-1.i386.rpm</a> (RedHat-based 7.2 base RPM) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.2/python2-tkinter-2.2.1-1.i386.rpm">python2-tkinter-2.2.1-1.i386.rpm</a> (RedHat-based 7.2 tkinter RPM) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.2/python2-devel-2.2.1-1.i386.rpm">python2-devel-2.2.1-1.i386.rpm</a> (RedHat-based 7.2 development RPM) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.2/python2-tools-2.2.1-1.i386.rpm">python2-tools-2.2.1-1.i386.rpm</a> (RedHat-based 7.2 Tools RPM, including IDLE) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh7.2/python2-docs-2.2.1-1.i386.rpm">python2-docs-2.2.1-1.i386.rpm</a> (Documentation in HTML and info formats)</p>
+</li>
+<li><div class="first system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id1">backlink</a></em></p>
+<p>Duplicate explicit target name: &quot;python2-2.2.1-1.i386.rpm&quot;.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id2">backlink</a></em></p>
+<p>Duplicate explicit target name: &quot;python2-tkinter-2.2.1-1.i386.rpm&quot;.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id3">backlink</a></em></p>
+<p>Duplicate explicit target name: &quot;python2-devel-2.2.1-1.i386.rpm&quot;.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id4">backlink</a></em></p>
+<p>Duplicate explicit target name: &quot;python2-tools-2.2.1-1.i386.rpm&quot;.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 2); <em><a href="#id5">backlink</a></em></p>
+<p>Duplicate explicit target name: &quot;python2-docs-2.2.1-1.i386.rpm&quot;.</p>
+</div>
+<p>Red Hat 6.2 Binaries:  - <strong>Note:</strong> These RPMs are built from the 2.2.1-1 release.  Use the src.rpm above to create 2.2.1-2 RPMs. - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh6.2/python2-2.2.1-1.i386.rpm">python2-2.2.1-1.i386.rpm</a> (RedHat-based 6.2 base RPM) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh6.2/python2-tkinter-2.2.1-1.i386.rpm">python2-tkinter-2.2.1-1.i386.rpm</a> (RedHat-based 6.2 tkinter RPM) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh6.2/python2-devel-2.2.1-1.i386.rpm">python2-devel-2.2.1-1.i386.rpm</a> (RedHat-based 6.2 development RPM) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh6.2/python2-tools-2.2.1-1.i386.rpm">python2-tools-2.2.1-1.i386.rpm</a> (RedHat-based 6.2 Tools RPM, including IDLE) - <a class="reference external" href="/pythonorg/default/index/ftp/python/2.2.1/rpms/rh6.2/python2-docs-2.2.1-1.i386.rpm">python2-docs-2.2.1-1.i386.rpm</a> (Documentation in HTML and info formats)</p>
+</li>
+</ul>
+</div>
+<div class="section" id="files-md5-checksums-and-sizes">
+<h1>Files, <a class="reference external" href="../md5sum.py">MD5</a> checksums and sizes</h1>
+<pre class="code literal-block">
+**Source**
+    d14a188a9d4ccfae2ad53920d2d4b4af `python2-2.2.1-2.src.rpm &lt;/ftp/python/2.2.1/rpms/python2-2.2.1-2.src.rpm&gt;`_ (7477437 bytes)
+
+  **Redhat 7.3**
+    414340f193bf0c0d20bd9846bdd075d4 `python2-2.2.1-2.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.3/python2-2.2.1-1.i386.rpm&gt;`_ (5670565 bytes)
+    5eeffb528beb2e3e668e46fbd5665598 `python2-devel-2.2.1-2.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.3/python2-devel-2.2.1-1.i386.rpm&gt;`_ (1926741 bytes)
+    35d220cf9fa530d93092cb1848dfb574 `python2-docs-2.2.1-2.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.3/python2-docs-2.2.1-1.i386.rpm&gt;`_ (1438713 bytes)
+    3b392145289a33c88383e9d66ad9fcc2 `python2-tkinter-2.2.1-2.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.3/python2-tkinter-2.2.1-1.i386.rpm&gt;`_ (320522 bytes)
+    f336b3193c3eac67b939c063a7872b18 `python2-tools-2.2.1-2.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.3/python2-tools-2.2.1-1.i386.rpm&gt;`_ (343483 bytes)
+
+  **Redhat 7.2**
+    fe04c9397155a952174150c81452327c `python2-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.2/python2-2.2.1-1.i386.rpm&gt;`_ (5694849 bytes)
+    4ada9feaf97521140909c843f7d97ef1 `python2-devel-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.2/python2-devel-2.2.1-1.i386.rpm&gt;`_ (1951519 bytes)
+    9ae59f01ef3c7741faa4abf5feaad221 `python2-docs-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.2/python2-docs-2.2.1-1.i386.rpm&gt;`_ (1438488 bytes)
+    22f11a28dfe540f3e4fa69e335629d94 `python2-tkinter-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.2/python2-tkinter-2.2.1-1.i386.rpm&gt;`_ (320522 bytes)
+    c0909fd8880059acf17c1a92402244bc `python2-tools-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh7.2/python2-tools-2.2.1-1.i386.rpm&gt;`_ (343471 bytes)
+
+  **Redhat 6.2**
+    b0f333d0676580d872454d5b56d06db6 `python2-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh6.2/python2-2.2.1-1.i386.rpm&gt;`_ (5975575 bytes)
+    41b8aa98b31e8b7a7182bb0c0d67a8b5 `python2-devel-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh6.2/python2-devel-2.2.1-1.i386.rpm&gt;`_ (1808627 bytes)
+    ba5f6b36bb8df9d9ca249448a1d07b25 `python2-docs-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh6.2/python2-docs-2.2.1-1.i386.rpm&gt;`_ (1460393 bytes)
+    067d782d8d1416ad7082ab9b6673d5d1 `python2-tkinter-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh6.2/python2-tkinter-2.2.1-1.i386.rpm&gt;`_ (295078 bytes)
+    caa4e92783fbab5bb548f6c1b480950d `python2-tools-2.2.1-1.i386.rpm &lt;/ftp/python/2.2.1/rpms/rh6.2/python2-tools-2.2.1-1.i386.rpm&gt;`_ (349253 bytes)
+</pre>
+<p>The following SRPMs are available for the &quot;SME Server&quot; distribution
+of Linux (what was formerly known as &quot;e-smith&quot; before its acquisition
+by Mitel Networks).  They are maintained by
+<a class="reference external" href="mailto:dan_york&#64;mitel.com">Dan York</a>.
+The RPMs themselves are in:</p>
+<p><a class="reference external" href="ftp://ftp.e-smith.org/pub/e-smith/contrib/DanYork/RPMS/i386/">ftp://ftp.e-smith.org/pub/e-smith/contrib/DanYork/RPMS/i386/</a></p>
+<p>and a simple HOWTO for installing them is at:</p>
+<p><a class="reference external" href="http://www.lodestar2.com/software/howto/python2-sme-howto.html">http://www.lodestar2.com/software/howto/python2-sme-howto.html</a></p>
+</div>
+<div class="section" id="rpm-frequently-asked-questions">
+<h1>RPM Frequently Asked Questions</h1>
+<ul class="simple">
+<li><ol class="first upperalpha" start="17">
+<li><strong>What are the benefits of building my own binary RPM?  I want to          just download binary RPMs and install them.</strong></li>
+</ol>
+</li>
+<li><ol class="first upperalpha">
+<li>If the provided binary RPMs work on your system, fantastic.          You may experience problems if you are running an older or newer          version of the operating system or any of the libraries, or an          RPM-based system which doesn't have binary RPMs available above.            Source RPMs (SRPMs) are the solution to this problem.  A benefit          of an SRPM is that it includes <em>ALL</em> of the instructions required to          build the binary from the source.  Building an SRPM is extremely          easy, everything happens automatically...    See the related question on how to build binary          RPMs.</li>
+</ol>
+</li>
+<li><ol class="first upperalpha" start="17">
+<li><strong>How do I build binary RPMs on my system?</strong></li>
+</ol>
+</li>
+<li><ol class="first upperalpha">
+<li>To build a binary tailored to your system, download the source          RPM and run:             .. code-block::      rpm --rebuild &lt;;packagename&gt;.src.rpm             or download the original tar file and run:             .. code-block::      rpm -ta &lt;;packagename&gt;.tgz             Note: this does not actually install &lt;;packagename&gt;.          The resulting binary RPMs are written to a system-dependent          location, but can be found by looking toward the end of          the output of the above commands for lines starting with          &quot;<strong>Wrote:</strong>&quot;.  For example:   .. code-block::      [...]        Finding  Provides: (using /usr/lib/rpm/find-provides)...        Finding  Requires: (using /usr/lib/rpm/find-requires)...        PreReq: rpmlib(PayloadFilesHavePrefix) &lt;;= 4.0-1           rpmlib(CompressedFileNames) &lt;;= 3.0.4-1        Requires(rpmlib): rpmlib(PayloadFilesHavePrefix) &lt;;= 4.0-1           rpmlib(CompressedFileNames) &lt;;= 3.0.4-1        <strong>Wrote: /home/jafo/rpm/SRPMS/python2-2.2.1-2.src.rpm</strong>        <strong>Wrote: /home/jafo/rpm/RPMS/i386/python2-2.2.1-2.i386.rpm</strong>        <strong>Wrote: /home/jafo/rpm/RPMS/i386/python2-devel-2.2.1-2.i386.rpm</strong>        <strong>Wrote: /home/jafo/rpm/RPMS/i386/python2-tkinter-2.2.1-2.i386.rpm</strong>        <strong>Wrote: /home/jafo/rpm/RPMS/i386/python2-tools-2.2.1-2.i386.rpm</strong>        <strong>Wrote: /home/jafo/rpm/RPMS/i386/python2-docs-2.2.1-2.i386.rpm</strong>        Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.73606        [...]     These RPMs must then be installed with 'rpm -U' or the equivalent.</li>
+</ol>
+</li>
+<li><ol class="first upperalpha" start="17">
+<li><strong>Why do I get &quot;--rebuild: unknown option&quot; or          &quot;-ta: unknown option&quot; when building from source?</strong></li>
+</ol>
+</li>
+<li><ol class="first upperalpha">
+<li>Some distributions (notably, Red Hat 8.x) running the latest        versions of rpm have removed the building functionality from    the 'rpm' command.  If you see complaints such as the above,    simply use the 'rpmbuild' command instead.</li>
+</ol>
+</li>
+<li><ol class="first upperalpha" start="17">
+<li><strong>Why do I get &quot;failed dependency&quot; errors such as:</strong>   .. code-block::      error: failed dependencies:              libcrypto.so.2   is needed by python2-2.2.1-1              libdb-3.2.so   is needed by python2-2.2.1-1              libreadline.so.4   is needed by python2-2.2.1-1              libssl.so.2   is needed by python2-2.2.1-1</li>
+</ol>
+</li>
+<li><ol class="first upperalpha">
+<li>The short answer is that you are running a system which is          sufficiently different from the machine that the RPMs were built          on.  For example, if you are running Red Hat 7.1 and download the          packages built on Red Hat 7.3, your system has different sets of          libraries.            Don't panic!  Unlike some systems which blindly continue          along, hoping that the libraries are &quot;close enough&quot; to work          (or worse yet, install their own copies of those libraries), the          RPM system will track this and warn you of a possible problem.    The best solution to this is to build a set of binary RPMs which          are custom tailored to your system...  It's easy.  See the          related question on how to build binary          RPMs.</li>
+</ol>
+</li>
+</ul>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

@@ -1,0 +1,99 @@
+Python 2.7.2
+------------
+
+Note: A newer bugfix release, 2.7.3, is currently `available 
+</download/releases/2.7.3/>`_.  Its use is recommended over Python 2.7.2. 
+
+Python 2.7.2 was released on June 11th, 2011. 
+
+The Python 2.7 series is scheduled to be the last major version in the 2.x
+series before 2.x moves into an extended maintenance period.  The 2.7 series
+contains many of the features that were first released in Python 3.1.
+Improvements in this release include:
+
+- An ordered dictionary type
+
+- New unittest features including test skipping, new assert methods, and test discovery
+
+- A much faster io module
+
+- Automatic numbering of fields in the str.format() method
+
+- Float repr improvements backported from 3.x
+
+- Tile support for Tkinter
+
+- A backport of the memoryview object from 3.x
+
+- Set literals
+
+- Set and dictionary comprehensions
+
+- Dictionary views
+
+- New syntax for nested with statements
+
+- The sysconfig module
+
+See these resources for further information: 
+
+- `What's new in 2.7? <http://docs.python.org/dev/whatsnew/2.7.html>`_
+
+- `Change log for this release <http://hg.python.org/cpython/raw-file/eb3c9b74884c/Misc/NEWS>`_.
+
+- `Online Documentation <http://docs.python.org/2.7/>`_
+
+- Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+- `Help fund Python and its community </psf/donations/>`_.
+
+Download
+--------
+
+This is a production release.  Please
+`report any bugs <http://bugs.python.org>`_ you encounter.
+
+We currently support these formats for download: 
+
+- `Gzipped source tar ball (2.7.2) </ftp/python/2.7.2/Python-2.7.2.tgz>`_ `(sig) <Python-2.7.2.tgz.asc>`_
+
+- `Bzipped source tar ball (2.7.2) </ftp/python/2.7.2/Python-2.7.2.tar.bz2>`_ `(sig) <Python-2.7.2.tar.bz2.asc>`_
+
+- `XZ source tar ball (2.7.2) </ftp/python/2.7.2/Python-2.7.2.tar.xz>`_ `(sig) <Python-2.7.2.tar.xz.asc>`_
+
+- `Windows x86 MSI Installer (2.7.2) </ftp/python/2.7.2/python-2.7.2.msi>`_ `(sig) <python-2.7.2.msi.asc>`_
+
+- `Windows x86 MSI program database (2.7.2) </ftp/python/2.7.2/python-2.7.2-pdb.zip>`_ `(sig) <python-2.7.2-pdb.zip.asc>`_
+
+- `Windows X86-64 MSI Installer (2.7.2) </ftp/python/2.7.2/python-2.7.2.amd64.msi>`_ `[1] <#id5>`_ `(sig) <python-2.7.2.amd64.msi.asc>`_
+
+- `Windows X86-64 program database (2.7.2) </ftp/python/2.7.2/python-2.7.2.amd64-pdb.zip>`_ `[1] <#id5>`_ `(sig) <python-2.7.2.amd64-pdb.zip.asc>`_
+
+- `Mac OS X 64-bit/32-bit x86-64/i386 Installer (2.7.2) for Mac OS X 10.6 and 10.7 </ftp/python/2.7.2/python-2.7.2-macosx10.6.dmg>`_ `[2] <#id6>`_ `(sig) <python-2.7.2-macosx10.6.dmg.asc>`_. [You may need an updated Tcl/Tk install to run IDLE or use Tkinter, see note 2 for instructions.]
+
+- `Mac OS X 32-bit i386/PPC Installer (2.7.2) for Mac OS X 10.3 through 10.6 </ftp/python/2.7.2/python-2.7.2-macosx10.3.dmg>`_ `[2] <#id6>`_ `(sig) <python-2.7.2-macosx10.3.dmg.asc>`_.
+
+The source tarballs are signed with Benjamin Peterson's key (fingerprint: 12EF
+3DC3 8047 DA38 2D18 A5B9 99CD EA9D A413 5B38). The Windows installer was signed
+by Martin von L?wis' public key, which has a key id of 7D9DC8D2. The Mac
+installers were signed with Ned Deily's key, which has a key id of 6F5E1540.
+The public keys are located on the `download page </download#pubkeys>`_.
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    0ddfe265f1b3d0a8c2459f5bf66894c7  14091337  Python-2.7.2.tgz
+    ba7b2f11ffdbf195ee0d111b9455a5bd  11754834  Python-2.7.2.tar.bz2
+    75c87a80c6ddb0b785a57ea3583e04fa   9936152  Python-2.7.2.tar.xz
+    348bf509e778ed2e193d08d02eee5566  22041602  python-2.7.2-macosx10.3.dmg
+    92bc7480a840182aac486b2afd5c4181  18632739  python-2.7.2-macosx10.6.dmg
+    e78e8520765af3cbb1cddbef891830bf  16122946  python-2.7.2-pdb.zip
+    89954c70f9eff948f43964ab5d1d5f8c  17204290  python-2.7.2.amd64-pdb.zip
+    937e2551a5d1c37a13a5958c83a05e3f  16334848  python-2.7.2.amd64.msi
+    44c8bbe92b644d78dd49e18df354386f  15970304  python-2.7.2.msi
+
+**MISSING**
+[1]  *(`1 <#id1>`_, `2 <#id2>`_)* The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).
+**MISSING**
+[2]  *(`1 <#id3>`_, `2 <#id4>`_)* There is important information about IDLE, Tkinter, and Tcl/Tk on Mac OS X here.  Also, on Mac OS X 10.6, if you need to build C extension modules with the 32-bit-only Python installed, you will need Apple Xcode 3, not 4.  The 64-bit/32-bit Python can use either Xcode 3 or Xcode 4.

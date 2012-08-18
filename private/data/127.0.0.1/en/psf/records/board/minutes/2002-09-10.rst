@@ -1,0 +1,87 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+September 10, 2002. 
+
+A regular regular meeting of the Python Software Foundation (the
+"PSF") Board of Directors was held over Internet Relay Chat at 1:10 pm
+EST.  Guido van Rossum, president of the Foundation and chairman of
+the Board, presided at the meeting.
+
+1. Attendance
+#############
+
+The following Board members were present: Tim Peters, Guido van
+Rossum, David Ascher (late), Martin von Loewis, Thomas Wouters.  The
+following members were absent: Marc-Andre Lemburg, Jeremy Hylton.  The
+Board had quorum.
+
+2. Agenda
+#########
+
+- Minutes of previous meetings.
+- Python Support Committee.
+- Contribution Forms.
+- New members.
+- Python Conference.
+
+Minutes of previous meetings
+############################
+
+The minutes of the August 13 meeting, written by Martin von Loewis,
+were approved unanimously (before David Ascher showed up).
+
+The minutes of the July meeting have not yet been written by Jeremy
+Hylton.
+
+Python Support Committee
+########################
+
+This item was skipped because Marc-Andre Lemburg was not present.
+
+Contribution Forms
+##################
+
+This item was skipped because Marc-Andre Lemburg was not present.
+
+New Members
+###########
+
+Martin von Loewis has mailed Robin Dunn and Eric Jones, and they
+have mailed me back that they sent the forms.  He has not received
+confirmation from Jeremy.
+
+It is noted that the board has not seen any recent emails from Jeremy
+Hylton on incoming paperwork.  It is unclear if this is because there
+was no incoming paperwork or because Jeremy has not had time for his
+responsibilities as PSF secretary.
+
+Python Conference
+#################
+
+Guido van Rossum gave an overview of a proposal on the table for a
+Python Conference to be organized by Yet Another Society (YAS) in
+March 2003 at GWU in Washington, DC.  A summary of this proposal is in
+the `conferences-discuss archives <http://mail.python.org/pipermail/conferences-discuss/2002-August/000161.html>`_.
+
+YAS hasn't signed the contract with GWU yet, at least in part
+because the YAS board feels uncomfortable with the price point of
+$125/attendee.  The budget is approximately $30,000, 10% of which is
+due immediately.
+
+At Guido's request, the board voted on the following motion:
+
+    RESOLVED, that Guido van Rossum can offer Adam Turoff that
+    the PSF will take full financial responsibility for the conference if
+    YAS is unwilling to run the conference at a $125/attendee fee.
+
+The motion was approved with four ayes, and one abstention, from Tim
+Peters, who feels he doesn't understand the issues enough to put the
+entire PSF's finances at risk.  Guido is confident that we can get
+enough attendees, and offers to take this offline with Tim.
+
+Adjournment
+###########
+
+There being no further business, the meeting was adjourned at 1:45
+pm EST.

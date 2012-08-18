@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/esr -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/esr">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="why-python">
+<h1>Why Python?</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Software Development</p>
+<p><strong>Keywords:</strong>  Network Development, Email, Unix/Linux Developers</p>
+<p><strong>Title:</strong>  Why Python?</p>
+<p><strong>Author:</strong>   Eric S. Raymond</p>
+<p><strong>Contact:</strong>   <a class="reference external" href="mailto:esr%40thyrsus.com">esr&#64;thyrsus.com</a></p>
+<p><strong>Date:</strong>   2003/01/17 15:59:01</p>
+<p><strong>Summary:</strong>  Eric Raymond, open source advocate and author of The Cathedral &amp; The Bazaar, describes how he came to Python and why it is now his favorite language.</p>
+<p><em>First published in Linux Journal, May 2000.</em></p>
+<p><em>Copyright 2000 Specialized Systems Consultants, Inc.  All rights reserved.</em></p>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p>My first look at Python was an accident, and I didn't much like what I
+saw at the time. It was early 1997, and Mark Lutz's book <em>Programming
+Python</em> from O'Reilly &amp; Associates had recently come out. O'Reilly books
+occasionally land on my doorstep, selected from among the new releases
+by some mysterious benefactor inside the organization using a random
+process I've given up trying to understand.</p>
+<p>One of them was <em>Programming Python</em> . I found this somewhat interesting,
+as I collect computer languages. I know over two dozen general-purpose
+languages, write compilers and interpreters for fun, and have designed
+any number of special-purpose languages and markup formalisms myself.
+My most recently completed project, as I write this, is a
+special-purpose language called SNG for manipulating PNG (Portable
+Network Graphics) images. Interested readers can surf to the SNG home
+page at <a class="reference external" href="http://www.tuxedo.org/~esr/sng/">http://www.tuxedo.org/~esr/sng/</a>. I have also written
+implementations of several odd general-purpose languages on my
+Retrocomputing Museum page, <a class="reference external" href="http://www.tuxedo.org/retro/">http://www.tuxedo.org/retro/</a>.</p>
+<p>I had already heard just enough about Python to know that it is what is
+nowadays called a &quot;scripting language&quot;, an interpretive language with
+its own built-in memory management and good facilities for calling and
+cooperating with other programs. So I dived into <em>Programming Python</em>
+with one question uppermost in my mind: what has this got that Perl
+does not?</p>
+<p>Perl, of course, is the 800-pound gorilla of modern scripting
+languages. It has largely replaced shell as the scripting language of
+choice for system administrators, thanks partly to its comprehensive
+set of UNIX library and system calls, and partly to the huge collection
+of Perl modules built by a very active Perl community. The language is
+commonly estimated to be the CGI language behind about 85% of the
+&quot;live&quot; content on the Net. Larry Wall, its creator, is rightly
+considered one of the most important leaders in the Open Source
+community, and often ranks third behind Linus Torvalds and Richard
+Stallman in the current pantheon of hacker demigods.</p>
+<p>At that time, I had used Perl for a number of small projects. I'd found
+it quite powerful, even if the syntax and some other aspects of the
+language seemed rather ad hoc and prone to bite one if not used with
+care. It seemed to me that Python would have quite a hill to climb as
+yet another scripting language, so as I read, I looked first for what
+seemed to set it apart from Perl.</p>
+<p>I immediately tripped over the first odd feature of Python that
+everyone notices: the fact that whitespace (indentation) is actually
+significant in the language syntax. The language has no analog of the C
+and Perl brace syntax; instead, changes in indentation delimit
+statement groups. And, like most hackers on first realizing this fact,
+I recoiled in reflexive disgust.</p>
+<p>I am just barely old enough to have programmed in batch FORTRAN for a
+few months back in the 1970s. Most hackers aren't these days, but
+somehow our culture seems to have retained a pretty accurate folk
+memory of how nasty those old-style fixed-field languages were. Indeed,
+the term &quot;free format&quot;, used back then to describe the newer style of
+token-oriented syntax in Pascal and C, has almost been forgotten; all
+languages have been designed that way for decades now. Or almost all,
+anyway. It's hard to blame anyone, on seeing this Python feature, for
+initially reacting as though they had unexpectedly stepped in a
+steaming pile of dinosaur dung.</p>
+<p>That's certainly how I felt. I skimmed through the rest of the language
+description without much interest. I didn't see much else to recommend
+Python, except maybe that the syntax seemed rather cleaner than Perl's
+and the facilities for doing basic GUI elements like buttons and menus
+looked fairly good.</p>
+<p>I put the book back on the shelf, making a mental note that I should
+code some kind of small GUI-centered project in Python sometime, just
+to make sure I really understood the language. But I didn't believe
+what I'd seen would ever compete effectively with Perl.</p>
+</div>
+<div class="section" id="perl-wears-thin">
+<h2>Perl Wears Thin</h2>
+<p>A lot of other things conspired to keep that note way down on my
+priority list for many months. The rest of 1997 was eventful for me; it
+was, among other things, the year I wrote and published the original
+version of &quot;The Cathedral and the Bazaar&quot;. But I did find time to
+write several Perl programs, including two of significant size and
+complexity. One of them, <strong>keeper</strong>, is the assistant still used to file
+incoming submissions at the Metalab software archive. It generates the
+web pages you see at <a class="reference external" href="http://metalab.unc.edu/pub/Linux/!INDEX.html">http://metalab.unc.edu/pub/Linux/!INDEX.html</a>. The
+other, <strong>anthologize</strong>, was used to automatically generate the PostScript
+for the sixth edition of Linux from the Linux Documentation Project's
+archive of HOWTOs. Both programs are available at Metalab.</p>
+<p>Writing these programs left me progressively less satisfied with Perl.
+Larger project size seemed to magnify some of Perl's annoyances into
+serious, continuing problems. The syntax that had seemed merely
+eccentric at a hundred lines began to seem like a nigh-impenetrable
+hedge of thorns at a thousand. &quot;More than one way to do it&quot; lent
+flavor and expressiveness at a small scale, but made it significantly
+harder to maintain consistent style across a wider code base. And many
+of the features that were later patched into Perl to address the
+complexity-control needs of bigger programs (objects, lexical scoping,
+&quot;use strict&quot;, etc.) had a fragile, jerry-rigged feel about them.</p>
+<p>These problems combined to make large volumes of Perl code seem
+unreasonably difficult to read and grasp as a whole after only a few
+days' absence. Also, I found I was spending more and more time
+wrestling with artifacts of the language rather than my application
+problems. And, most damning of all, the resulting code was ugly -- this
+matters. Ugly programs are like ugly suspension bridges: they're much
+more liable to collapse than pretty ones, because the way humans
+(especially engineer-humans) perceive beauty is intimately related to
+our ability to process and understand complexity. A language that makes
+it hard to write elegant code makes it hard to write good code.</p>
+<p>With a baseline of two dozen languages under my belt, I could detect
+all the telltale signs of a language design that had been pushed to the
+edge of its functional envelope. By mid-1997, I was thinking &quot;there
+has to be a better way&quot; and began casting about for a more elegant
+scripting language.</p>
+<p>One course I did not consider was going back to C as a default
+language. The days when it made sense to do your own memory management
+in a new program are long over, outside of a few specialty areas like
+kernel hacking, scientific computing and 3-D graphics -- places where you
+absolutely must get maximum speed and tight control of memory usage,
+because you need to push the hardware as hard as possible.</p>
+<p>For most other situations, accepting the debugging overhead of buffer
+overruns, pointer-aliasing problems, <strong>malloc/free</strong> memory leaks and all
+the other associated ills is just crazy on today's machines. Far better
+to trade a few cycles and a few kilobytes of memory for the overhead of
+a scripting language's memory manager and economize on far more
+valuable human time. Indeed, the advantages of this strategy are
+precisely what has driven the explosive growth of Perl since the
+mid-1990s.</p>
+<p>I flirted with Tcl, only to discover quickly that it scales up even
+more poorly than Perl. Old LISPer that I am, I also looked at various
+current dialects of Lisp and Scheme -- but, as is historically usual for
+Lisp, lots of clever design was rendered almost useless by scanty or
+nonexistent documentation, incomplete access to POSIX/UNIX facilities,
+and a small but nevertheless deeply fragmented user community. Perl's
+popularity is not an accident; most of its competitors are either worse
+than Perl for large projects or somehow nowhere near as useful as their
+theoretically superior designs ought to make them.</p>
+</div>
+<div class="section" id="python-reconsidered">
+<h2>Python Reconsidered</h2>
+<p>My second look at Python was almost as accidental as my first. In
+October 1997, a series of questions on the fetchmail-friends mailing
+list made it clear that end users were having increasing trouble
+generating configuration files for my <strong>fetchmail</strong> utility. The file uses
+a simple, classically UNIX free-format syntax, but can become
+forbiddingly complicated when a user has POP3 and IMAP accounts at
+multiple sites. As an example, see Listing 1 for a somewhat simplified
+version of mine.</p>
+<pre class="code literal-block">
+set postmaster &quot;esr&quot;
+set daemon 300
+poll imap.ccil.org with proto IMAP and options no dns
+    aka snark.thyrsus.com locke.ccil.org ccil.org
+       user esr there is esr here options fetchall dropstatus warnings 3600
+poll imap.netaxs.com with proto IMAP
+       user &quot;esr&quot; there is esr here options dropstatus warnings 3600
+skip imap.21cn.com with proto IMAP
+       user esr here is tranxww there options fetchall
+skip pop.tems.com with proto POP3:
+       user esr here is ed there options fetchall
+skip mail.frequentis.com with proto IMAP:
+       user esr here is imaptest there with options fetchall
+</pre>
+<p><em>Listing 1</em></p>
+<p>I decided to attack the problem by writing an end-user-friendly
+configuration editor, <strong>fetchmailconf</strong>. The design objective of
+fetchmailconf was clear: to completely hide the control file syntax
+behind a fashionable, ergonomically correct GUI interface replete with
+selection buttons, slider bars and fill-out forms.</p>
+<p>The thought of implementing this in Perl did not thrill me. I had seen
+GUI code in Perl, and it was a spiky mixture of Perl and Tcl that
+looked even uglier than my own pure-Perl code. It was at this point I
+remembered the bit I had set more than six months earlier. This could
+be an opportunity to get some hands-on experience with Python.</p>
+<p>Of course, this brought me face to face once again with Python's <em>pons
+asinorum</em>, the significance of whitespace. This time, however, I charged
+ahead and roughed out some code for a handful of sample GUI elements.
+Oddly enough, Python's use of whitespace stopped feeling unnatural
+after about twenty minutes. I just indented code, pretty much as I
+would have done in a C program anyway, and it worked.</p>
+<p>That was my first surprise. My second came a couple of hours into the
+project, when I noticed (allowing for pauses needed to look up new
+features in <em>Programming Python</em>) I was generating <em>working</em> code nearly as
+fast as I could type. When I realized this, I was quite startled. An
+important measure of effort in coding is the frequency with which you
+write something that doesn't actually match your mental representation
+of the problem, and have to backtrack on realizing that what you just
+typed won't actually tell the language to do what you're thinking. An
+important measure of good language design is how rapidly the percentage
+of missteps of this kind falls as you gain experience with the
+language.</p>
+<p>When you're writing working code nearly as fast as you can type and
+your misstep rate is near zero, it generally means you've achieved
+mastery of the language. But that didn't make sense, because it was
+still day one and I was regularly pausing to look up new language and
+library features!</p>
+<p>This was my first clue that, in Python, I was actually dealing with an
+exceptionally good design. Most languages have so much friction and
+awkwardness built into their design that you learn most of their
+feature set long before your misstep rate drops anywhere near zero.
+Python was the first general-purpose language I'd ever used that
+reversed this process.</p>
+<p>Not that it took me very long to learn the feature set. I wrote a
+working, usable fetchmailconf, with GUI, in six working days, of which
+perhaps the equivalent of two days were spent learning Python itself.
+This reflects another useful property of the language: it is
+<em>compact</em> -- you can hold its entire feature set (and at least a concept
+index of its libraries) in your head. C is a famously compact language.
+Perl is notoriously not; one of the things the notion &quot;There's more
+than one way to do it!&quot; costs Perl is the possibility of compactness.</p>
+</div>
+<div class="section" id="delving-deeper">
+<h2>Delving Deeper</h2>
+<p>But my most dramatic moment of discovery lay ahead. My design had a
+problem: I could easily generate configuration files from the user's
+GUI actions, but editing them was a much harder problem. Or, rather,
+reading them into an editable form was a problem.</p>
+<p>The parser for fetchmail's configuration file syntax is rather
+elaborate. It's actually written in YACC and Lex, two classic UNIX
+tools for generating language-parsing code in C. In order for
+fetchmailconf to be able to edit existing configuration files, I
+thought it would have to replicate that elaborate parser in Python. I
+was very reluctant to do this, partly because of the amount of work
+involved and partly because I wasn't sure how to ascertain that two
+parsers in two different languages accept the same. The last thing I
+needed was the extra labor of keeping the two parsers in
+synchronization as the configuration language evolved!</p>
+<p>This problem stumped me for a while. Then I had an inspiration: I'd let
+fetchmailconf use fetchmail's own parser! I added a <em>--configdump</em> option
+to fetchmail that would parse .fetchmailrc and dump the result to
+standard output in the format of a Python initializer. For the file
+above, the result would look roughly like Listing 2 (to save space,
+some data not relevant to the example is omitted).</p>
+<pre class="code literal-block">
+fetchmailrc = {
+    'poll_interval':300,
+    &quot;logfile&quot;:None,
+    &quot;postmaster&quot;:&quot;esr&quot;,
+    'bouncemail':TRUE,
+    &quot;properties&quot;:None,
+    'invisible':FALSE,
+    'syslog':FALSE,
+    # List of server entries begins here
+    'servers': [
+    # Entry for site `imap.ccil.org' begins:
+    {
+        &quot;pollname&quot;:&quot;imap.ccil.org&quot;,
+        'active':TRUE,
+        &quot;via&quot;:None,
+        &quot;protocol&quot;:&quot;IMAP&quot;,
+        'port':0,
+        'timeout':300,
+        'dns':FALSE,
+        &quot;aka&quot;:[&quot;snark.thyrsus.com&quot;, &quot;locke.ccil.org&quot;, &quot;ccil.org&quot;],
+        'users': [
+        {
+            &quot;remote&quot;:&quot;esr&quot;,
+            &quot;password&quot;:&quot;Malvern&quot;,
+            'localnames':[&quot;esr&quot;],
+            'fetchall':TRUE,
+            'keep':FALSE,
+            'flush':FALSE,
+            &quot;mda&quot;:None,
+            'limit':0,
+            'warnings':3600,
+        }
+        ,        ]
+    }
+    ,
+    # Entry for site `imap.netaxs.com' begins:
+    {
+        &quot;pollname&quot;:&quot;imap.netaxs.com&quot;,
+        'active':TRUE,
+        &quot;via&quot;:None,
+        &quot;protocol&quot;:&quot;IMAP&quot;,
+        'port':0,
+        'timeout':300,
+        'dns':TRUE,
+        &quot;aka&quot;:None,
+        'users': [
+        {
+            &quot;remote&quot;:&quot;esr&quot;,
+            &quot;password&quot;:&quot;d0wnthere&quot;,
+            'localnames':[&quot;esr&quot;],
+            'fetchall':FALSE,
+            'keep':FALSE,
+            'flush':FALSE,
+            &quot;mda&quot;:None,
+            'limit':0,
+            'warnings':3600,
+        }
+        ,        ]
+    }
+    ,
+    # Entry for site `imap.21cn.com' begins:
+    {
+        &quot;pollname&quot;:&quot;imap.21cn.com&quot;,
+        'active':FALSE,
+        &quot;via&quot;:None,
+        &quot;protocol&quot;:&quot;IMAP&quot;,
+        'port':0,
+        'timeout':300,
+        'dns':TRUE,
+        &quot;aka&quot;:None,
+        'users': [
+        {
+            &quot;remote&quot;:&quot;tranxww&quot;,
+            &quot;password&quot;:None,
+            'localnames':[&quot;esr&quot;],
+            'fetchall':TRUE,
+            'keep':FALSE,
+            'flush':FALSE,
+            &quot;mda&quot;:None,
+            'limit':0,
+            'warnings':3600,
+        }
+        ,        ]
+    }
+    ,
+    # Entry for site `pop.tems.com' begins:
+    {
+        &quot;pollname&quot;:&quot;pop.tems.com&quot;,
+        'active':FALSE,
+        &quot;via&quot;:None,
+        &quot;protocol&quot;:&quot;POP3&quot;,
+        'port':0,
+        'timeout':300,
+        'dns':TRUE,
+        'uidl':FALSE,
+        &quot;aka&quot;:None,
+        'users': [
+        {
+            &quot;remote&quot;:&quot;ed&quot;,
+            &quot;password&quot;:None,
+            'localnames':[&quot;esr&quot;],
+            'fetchall':TRUE,
+            'keep':FALSE,
+            'flush':FALSE,
+            &quot;mda&quot;:None,
+            'limit':0,
+            'warnings':3600,
+        }
+        ,        ]
+    }
+    ,
+    # Entry for site `mail.frequentis.com' begins:
+    {
+        &quot;pollname&quot;:&quot;mail.frequentis.com&quot;,
+        'active':FALSE,
+        &quot;via&quot;:None,
+        &quot;protocol&quot;:&quot;IMAP&quot;,
+        'port':0,
+        'timeout':300,
+        'dns':TRUE,
+        &quot;aka&quot;:None,
+        'users': [
+        {
+            &quot;remote&quot;:&quot;imaptest&quot;,
+            &quot;password&quot;:None,
+            'localnames':[&quot;esr&quot;],
+            'fetchall':TRUE,
+            'keep':FALSE,
+            'flush':FALSE,
+            &quot;mda&quot;:None,
+            'limit':0,
+            'warnings':3600,
+        }
+        ,        ]
+    }
+    ]
+}
+</pre>
+<p><em>Listing 2</em></p>
+<p>Python could then evaluate the fetchmail <em>--configdump</em> output and have
+the configuration available as the value of the variable &quot;fetchmail&quot;.</p>
+<p>This wasn't quite the last step in the dance. What I really wanted
+wasn't just for fetchmailconf to have the existing configuration, but
+to turn it into a linked tree of live objects. There would be three
+kinds of objects in this tree: <strong>Configuration</strong> (the top-level object
+representing the entire configuration), <strong>Site</strong> (representing one of the
+sites to be polled) and <strong>User</strong> (representing user data attached to a
+site). The example file describes five site objects, each with one user
+object attached to it.</p>
+<p>I had already designed and written the three object classes (that's
+what took four days, most of it spent getting the layout of the widgets
+just right). Each had a method that caused it to pop up a GUI edit
+panel to modify its instance data. My last remaining problem was
+somehow to transform the dead data in this Python initializer into live
+objects.</p>
+<p>I considered writing code that would explicitly know about the
+structure of all three classes and use that knowledge to grovel through
+the initializer creating matching objects, but rejected that idea
+because new class members were likely to be added over time as the
+configuration language grew new features. If I wrote the
+object-creation code in the obvious way, it would be fragile and tend
+to fall out of sync when either the class definitions or the
+initializer structure changed.</p>
+<p>What I really wanted was code that would analyze the shape and members
+of the initializer, query the class definitions themselves about their
+members, and then adjust itself to impedance-match the two sets.</p>
+<p>This kind of thing is called <em>metaclass hacking</em> and is generally
+considered fearsomely esoteric -- deep black magic. Most object-oriented
+languages don't support it at all; in those that do (Perl being one),
+it tends to be a complicated and fragile undertaking. I had been
+impressed by Python's low coefficient of friction so far, but here was
+a <em>real</em> test. How hard would I have to wrestle with the language to get
+it to do this? I knew from previous experience that the bout was likely
+to be painful, even assuming I won, but I dived into the book and read
+up on Python's metaclass facilities. The resulting function is shown in
+Listing 3, and the code that calls it is in Listing 4.</p>
+<pre class="code literal-block">
+def copy_instance(toclass, fromdict):
+# Initialize a class object of given type from a conformant dictionary.
+    class_sig = toclass.__dict__.keys(); class_sig.sort()
+    dict_keys = fromdict.keys(); dict_keys.sort()
+    common = intersect(class_sig, dict_keys)
+    if 'typemap' in class_sig:
+        class_sig.remove('typemap')
+    if tuple(class_sig) != tuple(dict_keys):
+        print &quot;Conformability error&quot;
+#       print &quot;Class signature: &quot; + `class_sig`
+#       print &quot;Dictionary keys: &quot; + `dict_keys`
+        print &quot;Not matched in class signature: &quot; + `setdiff(class_sig, common)`
+        print &quot;Not matched in dictionary keys: &quot; + `setdiff(dict_keys, common)`
+        sys.exit(1)
+    else:
+        for x in dict_keys:
+            setattr(toclass, x, fromdict[x])
+</pre>
+<p><em>Listing 3</em></p>
+<pre class="code literal-block">
+# The tricky part -- initializing objects from the configuration global
+# `Configuration' is the top level of the object tree we're going
+# to mung
+
+Configuration = Controls()
+copy_instance(Configuration, configuration)
+Configuration.servers = [];
+for server in configuration[`servers']:
+    Newsite = Server()
+    copy_instance(Newsite, server)
+    Configuration.servers.append(Newsite)
+    Newsite.users = [];
+    for user in server['users']:
+        Newuser = User()
+        copy_instance(Newuser, user)
+        Newsite.users.append(Newuser)
+</pre>
+<p><em>Listing 4</em></p>
+<p>That doesn't look too bad for deep black magic, does it? Thirty-two
+lines, counting comments. Just from knowing what I've said about the
+class structure, the calling code is even readable. But the size of
+this code isn't the real shocker. Brace yourself: this code only took
+me about ninety minutes to write -- and it worked correctly <em>the first
+time I ran it</em>.</p>
+<p>To say I was astonished would have been positively wallowing in
+understatement. It's remarkable enough when implementations of <em>simple</em>
+techniques work exactly as expected the first time; but my first
+metaclass hack in a new language, six days from a cold standing start?
+Even if we stipulate that I am a fairly talented hacker, this is an
+amazing testament to Python's clarity and elegance of design.</p>
+<p>There was simply no way I could have pulled off a coup like this in
+Perl, even with my vastly greater experience level in that language. It
+was at this point I realized I was probably leaving Perl behind.</p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>This was my most dramatic Python moment. But, when all is said and
+done, it was just a clever hack. The long-term usefulness of a language
+comes not in its ability to support clever hacks, but from how well and
+how unobtrusively it supports the day-to-day work of programming. The
+day-to-day work of programming consists not of writing new programs,
+but mostly reading and modifying existing ones.</p>
+<p>So the real punchline of the story is this: weeks and months after
+writing fetchmailconf, I could still read the fetchmailconf code and
+grok what it was doing without serious mental effort. And the true
+reason I no longer write Perl for anything but tiny projects is that
+was never true when I was writing large masses of Perl code. I fear the
+prospect of ever having to modify keeper or anthologize again -- but
+fetchmailconf gives me no qualms at all.</p>
+<p>Perl still has its uses. For tiny projects (100 lines or fewer) that
+involve a lot of text pattern matching, I am still more likely to
+tinker up a Perl-regexp-based solution than to reach for Python. For
+good recent examples of such things, see the <strong>timeseries</strong> and <strong>growthplot</strong>
+scripts in the fetchmail distribution. Actually, these are much like
+the things Perl did in its original role as a sort of combination
+awk/sed/grep/sh, before it had functions and direct access to the
+operating system API. For anything larger or more complex, I have come
+to prefer the subtle virtues of Python -- and I think you will, too.</p>
+<p>All listings referred to in this article are available by anonymous
+download in the file <a class="reference external" href="ftp://ftp.linuxjournal.com/pub/lj/listings/issue73/3882.tgz">ftp://ftp.linuxjournal.com/pub/lj/listings/issue73/3882.tgz</a></p>
+</div>
+<div class="section" id="about-the-author">
+<h2>About the Author</h2>
+<p><em>Eric Raymond is a Linux advocate and the author of The Cathedral &amp; The
+Bazaar.  He can be reached via e-mail at esr&#64;thyrsus.com.</em></p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

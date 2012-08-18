@@ -1,0 +1,71 @@
+Python 3.1
+----------
+
+**Python 3.1 has been superseded by 3.1.1.** You can download `3.1.1 
+</download/releases/3.1.1>`_. 
+
+Python 3.1 final was released on June 27th, 2009. 
+
+Python 3.1 is a continuation of the work started by Python 3.0, the new
+backwards-incompatible series of Python.  Improvements in this release include:
+
+- An ordered dictionary type
+
+- Various optimizations to the int type
+
+- New unittest features including test skipping and new assert methods.
+
+- A much faster io module
+
+- Tile support for Tkinter
+
+- A pure Python reference implementation of the import statement
+
+- New syntax for nested with statements
+
+See these resources for further information: 
+
+- `What's new in 3.1? <http://docs.python.org/3.1/whatsnew/3.1.html>`_
+
+- `Python 3.1 change log <http://svn.python.org/projects/python/tags/r31/Misc/NEWS>`_.
+
+- `Online Documentation <http://docs.python.org/3.1/>`_
+
+- Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+- `Help fund Python and its community </psf/donations/>`_.
+
+Download
+--------
+
+This is a production release. 
+
+We currently support these formats for download: 
+
+- `Gzipped source tar ball (3.1) </ftp/python/3.1/Python-3.1.tgz>`_ `(sig) <Python-3.1.tgz.asc>`_
+
+- `Bzipped source tar ball (3.1) </ftp/python/3.1/Python-3.1.tar.bz2>`_ `(sig) <Python-3.1.tar.bz2.asc>`_
+
+- `Windows x86 MSI Installer (3.1) </ftp/python/3.1/python-3.1.msi>`_ `(sig) <python-3.1.msi.asc>`_
+
+- `Windows X86-64 MSI Installer (3.1) </ftp/python/3.1/python-3.1.amd64.msi>`_ `[1] <#id3>`_ `(sig) <python-3.1.amd64.msi.asc>`_
+
+- `Mac Installer disk image (3.1) </ftp/python/3.1/python-3.1.dmg>`_ `(sig) <python-3.1.dmg.asc>`_
+
+The source tarballs and Mac installer are signed with Benjamin Peterson's key
+(fingerprint: 12EF 3DC3 8047 DA38 2D18 A5B9 99CD EA9D A413 5B38). The Windows
+installers are signed with Martin von L?wis' public key which has a key id of
+7D9DC8D2.  The public keys are located on the `download page </download#pubkeys>`_.
+
+SHA1 checksums and sizes of the released files: 
+
+.. code-block::
+
+    8590b685654367e3eba70dc00df7e45e88c21da4  11359455  python-3.1.tgz
+    f8c610f47e6c9420314e48871b9c697a93ed2e42   9510460  python-3.1.tar.bz2
+    2a0dc4829e5d3842d363a16594e077b8d7e2df88  14094336  python-3.1.amd64.msi
+    4b499d3e4ba47f8c7f814ef379cb24c89f9b43c1  13814272  python-3.1.msi
+    02ceddc7d2b65b7d378ca9f333e43f9b0bec7bb1  17119035  python-3.1.dmg
+
+**MISSING**
+`[1] <#id2>`_  The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).

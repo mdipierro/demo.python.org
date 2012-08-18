@@ -1,0 +1,75 @@
+The Python Software Foundation   Python Conference Committee Report
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+December 2003 
+
+David Ascher reports that he and Steve Holden had a phone call, and
+Ascher, Holden, Jeremy Hylton, Neal Norwitz, and Itamar
+Shtull-Trauring met on IRC.
+
+Deadlines
+~~~~~~~~~
+
+- Jan 15th is the deadline for paper submission.
+- Dec 15th is the deadline for the paper submission site to be up and running
+- Feb 1 is the deadline for the PC to have decided on the accepted/rejected papers
+
+Action items: Jeremy should make sure the websites get updated w/
+this info, and Steve should probably send out an update to the lists.
+
+Paper Submission process
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Andrew Kuchling has a Quixote-based system which is up and running on
+pycon.amk.ca.  It is currently being tweaked, but should be operational
+before the end of the week.
+
+Things that Andrew needs to do before Dec 15.  Action items:
+- paper download (upload may work or not, it's hard to tell!)
+- minor tweaks
+- setting up backup
+- linking w/ other relevant sites
+
+NOTE: we'll be using the "Identify the
+Champion" method for running the paper selection process.
+
+Program committee so far:
+- Christopher Blunck [blunck _at_ gst.com]
+- David Ascher
+- Jeremy Hylton
+- Brett Cannon
+- Aahz
+- Steve Holden
+- Garry Hodgson [garry _at_ sage.att.com]
+- Pat Miller [patmiller _at_ llnl.gov]
+- Sylvia Candelaria de Ram [cognite _at_ zianet.com]
+- George Belotsky [questions _at_ openlight.com]
+- Itamar Shtull-Trauring [itamar _at_ itamarst.org]
+
+Action item: Steve Holden will setup a mailing list for the PC.
+
+Sponsorship
+~~~~~~~~~~~
+
+David is in charge of sponsorship.  David has received lists of
+contacts from various folks.  Action item: David will come up with a
+sponsorship 'menu' and contact possible sponsors before Dec 15.
+
+PR
+~~
+
+Nothing to report -- not seen as a priority given the conference. 
+Nobody owns this AFAIK (Dan Arico has expressed interest though).
+
+Website
+~~~~~~~
+
+Jeremy 'owns' the web and will coordinate the efforts of various folks
+(Aahz, Trevor, pydotorg).
+
+Sprints
+~~~~~~~
+
+Jeremy reports:
+- Strong commitments for Zope 2, Zope 3, PyPy, and Twisted.
+- Interest for C++ integration, .NET, Chandler, Mac Python, xml-sig and spambayes

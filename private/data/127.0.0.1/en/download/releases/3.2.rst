@@ -1,0 +1,110 @@
+Python 3.2
+----------
+
+Note: A newer bugfix release, 3.2.3, is currently `available 
+</download/releases/3.2.3/>`_.  Its use is recommended. 
+
+Python 3.2 was released on February 20th, 2011. 
+
+Python 3.2 is a continuation of the efforts to improve and stabilize the Python
+3.x line.  Since the final release of Python 2.7, the 2.x line will only receive
+bugfixes, and new features are developed for 3.x only.
+
+Since `PEP 3003 <http://www.python.org/dev/peps/pep-3003>`_, the Moratorium on Language Changes, is in effect, there are
+no changes in Python's syntax and only few changes to built-in types in Python
+3.2.  Development efforts concentrated on the standard library and support for
+porting code to Python 3.  Highlights are:
+
+- numerous improvements to the unittest module
+
+- `PEP 3147 <http://www.python.org/dev/peps/pep-3147>`_, support for .pyc repository directories
+
+- `PEP 3149 <http://www.python.org/dev/peps/pep-3149>`_, support for version tagged dynamic libraries
+
+- `PEP 3148 <http://www.python.org/dev/peps/pep-3148>`_, a new futures library for concurrent programming
+
+- `PEP 384 <http://www.python.org/dev/peps/pep-0384>`_, a stable ABI for extension modules
+
+- `PEP 391 <http://www.python.org/dev/peps/pep-0391>`_, dictionary-based logging configuration
+
+- an overhauled GIL implementation that reduces contention
+
+- an extended email package that handles bytes messages
+
+- a much improved ssl module with support for SSL contexts and certificate hostname matching
+
+- a sysconfig module to access configuration information
+
+- additions to the shutil module, among them archive file support
+
+- many enhancements to configparser, among them mapping protocol support
+
+- improvements to pdb, the Python debugger
+
+- countless fixes regarding bytes/string issues; among them full support for a bytes environment (filenames, environment variables)
+
+- many consistency and behavior fixes for numeric operations
+
+See these resources for further information: 
+
+- `What's new in 3.2? <http://docs.python.org/dev/whatsnew/3.2.html>`_
+
+- `3.2 Release Schedule <http://python.org/dev/peps/pep-0392/>`_
+
+- `Change log for this release <http://svn.python.org/projects/python/tags/r32/Misc/NEWS>`_.
+
+- `Online Documentation <http://docs.python.org/3.2/>`_
+
+- Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+- `Help fund Python and its community </psf/donations/>`_.
+
+Download
+--------
+
+This is a production release.  Please `report any bugs 
+<http://bugs.python.org>`_ you encounter. 
+
+We currently support these formats for download: 
+
+- `Bzipped source tar ball (3.2) </ftp/python/3.2/Python-3.2.tar.bz2>`_ `(sig) </ftp/python/3.2/Python-3.2.tar.bz2.asc>`_, ~ 11 MB
+
+- `XZ compressed source tar ball (3.2) </ftp/python/3.2/Python-3.2.tar.xz>`_ `(sig) </ftp/python/3.2/Python-3.2.tar.xz.asc>`_, ~ 8.5 MB
+
+- `Gzipped source tar ball (3.2) </ftp/python/3.2/Python-3.2.tgz>`_ `(sig) </ftp/python/3.2/Python-3.2.tgz.asc>`_, ~ 13 MB
+
+- `Windows x86 MSI Installer (3.2) </ftp/python/3.2/python-3.2.msi>`_ `(sig) </ftp/python/3.2/python-3.2.msi.asc>`_ and Visual Studio debug information files `(sig) </ftp/python/3.2/python-3.2-pdb.zip.asc>`_
+
+- `Windows X86-64 MSI Installer (3.2) </ftp/python/3.2/python-3.2.amd64.msi>`_ `[1] <#id4>`_ `(sig) </ftp/python/3.2/python-3.2.amd64.msi.asc>`_ and Visual Studio debug information files `(sig) </ftp/python/3.2/python-3.2.amd64-pdb.zip.asc>`_
+
+- `Windows help file </ftp/python/3.2/python32.chm>`_ `(sig) </ftp/python/3.2/python32.chm.asc>`_
+
+- `Mac OS X 32-bit i386/PPC Installer (3.2) for OS X 10.3 through 10.6 </ftp/python/3.2/python-3.2-macosx10.3.dmg>`_ `[2] <#id5>`_ `(sig) </ftp/python/3.2/python-3.2-macosx10.3.dmg.asc>`_
+
+- `Mac OS X 64-bit/32-bit Installer (3.2) for Mac OS X 10.6 </ftp/python/3.2/python-3.2-macosx10.6.dmg>`_ `[2] <#id5>`_ `(sig) </ftp/python/3.2/python-3.2-macosx10.6.dmg.asc>`_. [You may need an updated Tcl/Tk install to run IDLE or use Tkinter, see note 2 for instructions.]
+
+The source tarballs are signed with Georg Brandl's key, which has a key id of
+36580288; the fingerprint is ``26DE A9D4 6133 91EF 3E25 C9FF 0A5B 1018 3658 0288``. The Windows installer was signed by Martin von L?wis' public key, which
+has a key id of 7D9DC8D2.  The Mac installers were signed with Ned Deily's key,
+which has a key id of 6F5E1540.  The public keys are located on the download
+page.
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    5efe838a7878b170f6728d7e5d7517af  12673043  Python-3.2.tgz
+    92e94b5b6652b96349d6362b8337811d  10592958  Python-3.2.tar.bz2
+    563c0b4b8c8596e332cc076c4f013971   8877208  Python-3.2.tar.xz
+    9086f91f5cb7c252752566dc8358a790  19495255  python-3.2-macosx10.3.dmg
+    f827c26555e69847c63c9e350ea443c0  16199254  python-3.2-macosx10.6.dmg
+    e7eb9ca03fa05131d4b6edcee050ceec  18364386  python-3.2-pdb.zip
+    18d17934e72251fd2dcaeec2040418a1  20046920  python-3.2.amd64-pdb.zip
+    2edc738a0445edc24c7e2039a269aaea  18558464  python-3.2.amd64.msi
+    5860e37c5ff15cea4cda3698a756c81a  18041344  python-3.2.msi
+    82300eb392f4f06b743d713cb2a66f11   5790291  python32.chm
+
+**MISSING**
+`[1] <#id1>`_  The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).
+**MISSING**
+[2]  *(`1 <#id2>`_, `2 <#id3>`_)* There is important information about IDLE, Tkinter, and Tcl/Tk on Mac OS X here.  Also, on Mac OS X 10.6, if you need to build C extension modules with the 32-bit-only Python installed, you will need Apple Xcode 3, not 4.  The 64-bit/32-bit Python can use either Xcode 3 or Xcode 4.

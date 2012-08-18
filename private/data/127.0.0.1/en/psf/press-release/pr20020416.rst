@@ -1,0 +1,69 @@
+Python Software Foundation Announces Python Version 2.2.1
+=========================================================
+
+Over 100 enhancements made to powerful programming language
+###########################################################
+
+Fredericksburg, VA -- April 10th, 2002 -- The Python Software Foundation
+announced today the release of version 2.2.1 of the Python programming
+language and standard libraries.
+
+This release includes over 100 enhancements for users of version 2.2 of
+Python.
+
+"We're pleased to offer this release to the Python users community. As we
+move towards the next major release of Python, we remain committed to
+supporting users with incremental enhancements such as those found in
+this release," said Guido van Rossum, creator of Python and president 
+of the Python Software Foundation.
+
+About Python
+############
+
+Python is a powerful object oriented programming language that is
+developed and maintained by a global community of Open Source
+contributors, under the oversight of the Python Software Foundation.
+
+Python's unique blend of simplicity and power excels in a wide range of
+business and research development tasks, including the construction of
+web applications, complex business solutions, and large desktop
+applications.
+
+"Python is everywhere at ILM. It's used to extend the capabilities of our
+applications, as well as providing the glue between them. Every CG image
+we create has involved Python somewhere in the process," said Philip
+Peterson, Principal Engineer, Research & Development, `Industrial Light & Magic <http://www.ilm.com>`_.
+
+Python significantly increases programmer productivity over languages
+such as C, C++, Java, and Visual Basic. The language's global user base
+is estimated in the hundreds of thousands and is growing rapidly.
+
+Key features of Python include:
+###############################
+
+- Object orientation, modular name spaces, exceptions, and multi-threading
+- High-level dynamic data typing and very late binding
+- Tight integration with C, C++, and Java modules
+- May be compiled to Java byte code for use in any JVM
+- String and regular expression processing
+- Extensive XML and web services support
+- HTTP, FTP, SMTP, POP, IMAP, NNTP, telnet, and other IP protocols
+- HTML, MIME, base64, binhex, uuencode, and other internet data handling
+- GUI development and multimedia services
+- Unit testing, profiling, and documentation generation
+- Restricted execution security option
+- Available third party modules for database access, math, 3D modeling,  image processing, LDAP, WebDAV, jabber, MIDI, and much more
+
+Python runs on Microsoft Windows, Macintosh, Linux, Unix, OS/2, WinCE,
+and many other operating systems. Full source code is available for the
+language and associated standard libraries.
+
+About the PSF
+#############
+
+The Python Software Foundation (PSF) is a non-profit organization devoted
+to advancing Open Source technology related to the Python programming
+language.  The PSF holds the intellectual property rights to Python.
+
+Additional information and downloads are available at `www.python.org 
+<http://www.python.org>`_.

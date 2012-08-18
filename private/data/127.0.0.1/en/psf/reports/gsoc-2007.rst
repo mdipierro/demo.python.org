@@ -1,0 +1,105 @@
+Report on the Python Software Foundation's participation in the 2007 Google Summer of Code
+==========================================================================================
+
+James Tauber, PSF Administrator for the 2007 Google Summer of Code 
+
+2007-12-12
+
+SUMMARY
+-------
+
+2007 was another successful year for the PSF's participation in the
+Google Summer of Code. We received 67 valid applications and were
+allocated 34 slots by Google. 51 people signed up to be mentors and 30
+of those ended up mentoring a student. We approved 32 applications of
+which 25 were successful. At least a third of the students continue to
+have some involvement in their projects.
+
+DETAIL
+------
+
+Based on past experience, we decided that: 
+
+- We would only allow applications that entailed involvement in existing projects, rather than new projects entirely from scratch where the student would not have the opportunity to interact with other developers.
+
+- The PSF would continue to act as an umbrella organization for Python-related projects as long as:- a certain number of slots were dedicated to Python core / library development  - the projects, in some way, promoted Python and helped the Python community (rather than &quot;simply being written in Python&quot;)
+
+In hindsight, I do think this led to a reduction in the number of
+applications we received. Other organizations reported a high rate of
+success on projects initiated by the student and so it may be worth
+revisiting 1 above.
+
+51 people signed up to be mentors. The majority of these were lead
+developers from Python-related projects although there were a number
+of core developers that signed up as well.
+
+We received 71 student applications of which 4 were rejected outright
+as invalid. Based on application quality and availability of suitable
+mentors we requested a maximum 34 slots. Google allocated us the
+full 34. It should be noted that this is greatly disproportional to
+the total number of applicants when compared with other
+organizations. This was due in part to the success of the PSF as a
+mentoring organization in the past as well as an obvious indication of
+Google's commitment to Python.
+
+We ended up accepting 32 of the applications. Only one was failed
+mid-term and then another six were failed at the end term. While some
+of the remaining 25 were only marginally successful there were some
+true success stories.
+
+Google has stated a number of times that one of the major goals of the
+program is to help organizations recruit new committers. While I don't
+have an accurate account of how many students have stayed with their
+projects, more that 80% of the mentors who responded last month to the
+question said their students had contributed to the code beyond the
+time frame of the Summer of Code. This represents at least a third of
+the total successful students. In some cases, the students continue to
+be highly active.
+
+A number of mentors expressed that their own effort had not been
+sufficient. More than half the mentors whose students only &quot;just
+passed&quot; put the blame, in part, on themselves. I propose that next
+year, the organization administrator *not* be a mentor so that he or
+she can be focused on facilitating other mentoring, checking in how
+each project is going on a regular basis.
+
+Myself and two of the mentors, including PSF director David Goodger,
+attended a mentor summit at Google in October. Included below is a
+summary of my own notes from the event:
+
+- Some projects had a standard code test they gave all applicants. While I didn't hear any PSF mentors complain about the coding ability of their students, I thought it might be worth trying next year. It also provides a first test of how dedicated the applicant is.
+
+- Some projects did Skype or IRC interviews to assess the student's communication ability. Again, I'm not sure PSF projects had issues that this would have solved but I still liked it as an idea.
+
+- Next year, if I'm admin, I'd really like not to be a mentor. I think there would be value in me being solely focused on admin (in part to implement some of the ideas listed here).
+
+- Some projects had students create profile pages in a central location.  I think this is a great idea.
+
+- Some projects got all their students to make screencasts demoing their projects.  I think this is an awesome idea.
+
+- Many people felt that the most successful topics were the ones the students came up with.  I'm still thinking how to balance that with my view that the student needs to work with existing code and coders and not just do something standalone and in isolation.
+
+- Google really emphasized that their goal is for the students to stay with the projects beyond GSoC.- So we should do post-mortems to see how many students are still working on the projects months after GSoC.  - It also means you pick the student more than the project they'll be doing over the summer.
+
+- Any mentors planning on failing a student should probably talk to the admin first (although PSF had no problems this year AFAIK).
+
+- There should probably be mentor training, or at least some better communication to mentors of what's expected of them.
+
+To help mentors better communicate expectations to the students, Will
+Guaraldi started a wiki page at
+`http://wiki.python.org/moin/SummerOfCode/Expectations <http://wiki.python.org/moin/SummerOfCode/Expectations>`_
+
+While there is clearly room for improvement, this should not detract
+from the fact that it was another very successful Summer of Code for
+PSF and the Python community as a whole.
+
+It's worth noting that there was substantial Python-related work under
+the administration of other, project-specific organizations. For
+example, Zope, Plone, wxPython, Django, Bazaar, SCons and MoinMoin all
+participated outside of the PSF umbrella. There were undoubtedly other
+projects that involved coding in Python as well.
+
+I thank the PSF for the opportunity to be the organization
+administrator and hope I will be considered for the same next year.
+
+James

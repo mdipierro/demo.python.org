@@ -1,0 +1,268 @@
+The Python Software Foundation 
+
+Minutes of the 2005 Members Meeting 
+
+March 24, 2005
+
+The members of the Python Software Foundation (the &quot;PSF&quot;) held its
+annual meeting on March 24, 2005 at 17:15 EST (22:15 UTC) in the
+George Washington University's Cafritz Center in Washington, DC, USA
+(PyCon DC 2005).  Stephan Deibel presided over the meeting.  Jeremy
+Hylton and David Goodger prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Review of the Year <#review-of-the-year>`_- `2.1   Financial Review <#financial-review>`_  - `2.2   Grants Committee <#grants-committee>`_
+
+- `3   Elections <#elections>`_- `3.1   New Nominated Members <#new-nominated-members>`_  - `3.2   New Sponsor Member <#new-sponsor-member>`_  - `3.3   New Board of Directors <#new-board-of-directors>`_
+
+- `4   Other Business <#other-business>`_- `4.1   Contributor Agreement <#contributor-agreement>`_  - `4.2   Trademarks <#trademarks>`_  - `4.3   Members Meeting <#members-meeting>`_  - `4.4   U.S.-Centric? <#u-s-centric>`_
+
+- `5   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members were present at the meeting: 
+
+- ActiveState (represented by David Ascher)
+
+- Advanced Simulation Technology Inc. (represented by Andrew Kuchling)
+
+- Kevin Altis
+
+- David Ascher
+
+- David Beazley
+
+- Brett Cannon
+
+- Andrew Dalke
+
+- Stephan Diebel
+
+- Fred L. Drake, Jr.
+
+- Jeff Elkner
+
+- Enthought (represented by Eric Jones)
+
+- Raymond Hettinger
+
+- David Goodger
+
+- Google (represented by Chris DiBona)
+
+- Steve Holden
+
+- Jeremy Hylton
+
+- Eric Jones
+
+- Richard Jones
+
+- Andrew Kuchling
+
+- Cameron Laird
+
+- Martin von L?wis
+
+- Alex Martelli
+
+- Michael McLay
+
+- Merfin LLC (represented by Reggie Dugard)
+
+- Neal Norwitz
+
+- Open Source Applications Foundation (represented by Ted Leung)
+
+- Samuele Pedroni
+
+- Tim Peters
+
+- Armin Rigo
+
+- Guido van Rossum
+
+- Greg Stein
+
+- Strakt Holdings (represented by Jacob Hallen)
+
+- Christian Tismer
+
+- Barry Warsaw
+
+- Ka-Ping Yee
+
+The following members sent in absentee ballots: 
+
+- Hye-Shik Chang
+
+- Walter D?rwald
+
+- Neil Hodgson
+
+- Trent Mick
+
+- Neil Schemenauer
+
+- Jason Tishler
+
+The following members were represented by proxy (in parentheses): 
+
+- Aahz (Andrew Kuchling)
+
+- Anthony Baxter (Richard Jones)
+
+- Matthew Dixon Cowles (Tim Peters)
+
+- Paul Dubois (Guido van Rossum)
+
+- Jim Fulton (Tim Peters)
+
+- Thomas Heller (Martin von L?wis)
+
+- Zope (Tim Peters)
+
+48 members were in attendance, represented by proxy, or sent in
+absentee ballots, constituting a quorum according to the Bylaws.
+
+The following non-members were also present: 
+
+- Matt Drew
+
+- Robin Friedrich
+
+- Robert Page (Zope)
+
+- Brian Zimmer (nominated as member)
+
+`2   Review of the Year <#id2>`_
+--------------------------------
+
+`2.1   Financial Review <#id3>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Neal Norwitz presented the treasurer's report.
+
+`2.2   Grants Committee <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Martin von Loewis gave a presentation on the grants commitee.  The
+four committee members reviewed 66 proposals and selected three
+proposals to fund:
+
+    - Ilya Etinghof, developing SNMP code.      Has already started work.
+
+    - Greg Wilson, course material for engineering computing in Python.      Will start work after the contract is signed, expects to finish by end of year.
+
+    - Brian Zimmer, work on Jython.      Has already finished some of the work items.  He will revise the proposal based on the work that needs to be done.  Will complete by the end of the year.
+
+There was some discussion about how to run a better grant selection
+process, if we decide to do it again.  Martin observed it may be
+better to wait a while and see how these grants work out.
+
+Andrew Kuchling offered to write a press release about the PSF grant
+awards.
+
+`3   Elections <#id5>`_
+-----------------------
+
+Stephan Deibel introduced a motion to increase the board to 8
+directors; Raymond Hettinger seconded.  No votes against, two
+abstentions.
+
+Charles Waldman and Lars Marius Garshol were converted to emeritus
+status.
+
+`3.1   New Nominated Members <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+After discussion, all proposed nominated members have been elected
+(vote counts not available):
+
+- Facundo Batista
+
+- Brian Zimmer
+
+Richard Jones suggested hiring someone to manage the python.org
+servers and paying someone to manage them.  Several members suggested
+paying for managed hosting so that volunteers have time for more
+important things.  Rob Page suggested RFPing yet.
+
+Ka-Ping Yee observed that the PSF has few female members.  This may be
+the least gender balanced conference that he has attended.  Maybe the
+board can do more to promote diversity in Python activities.  Andrew
+Kuchling would like to see a more diverse set of organizers for PyCon.
+Kevin Altis was explicitly asked to include a woman in the Python
+OSCON committee.
+
+`3.2   New Sponsor Member <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The board had already approved ActiveGrid as a pending sponsor member.
+ActiveGrid was approved by the members (vote count not available).
+
+`3.3   New Board of Directors <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All eight candidates were elected for the eight board positions (vote
+counts not available):
+
+- David Ascher
+
+- Stephan Deibel
+
+- Steve Holden
+
+- Jeremy Hylton
+
+- Andrew Kuchling
+
+- Martin von Loewis
+
+- Tim Peters
+
+- Guido van Rossum
+
+`4   Other Business <#id9>`_
+----------------------------
+
+`4.1   Contributor Agreement <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+An action item is to capture the discussion the board had with its
+lawyer to develop the contributor agreement in a document that can be
+shared with the members and the public.  Rob Page was concerned that
+the agreement did not ask the contributor to warrant, represent, or
+indemnify and about the risk that users were exposed to as a result.
+
+`4.2   Trademarks <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Chris DiBona offered to advise us on the issue.  Questions to address
+are whether we want a trademark, what guidelines we want, and whether
+python.com is a problem.
+
+`4.3   Members Meeting <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Discussed: whether the members meeting is productive enough.
+
+`4.4   U.S.-Centric? <#id13>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Is the PSF too US-centric?  The proxy ballots were made available too
+late this year.  Hallen said it did not make sense to work more
+closely with EuroPython Society right now to organize EuroPython.
+David Ascher asked whether we should do more to internationalize the
+python.org site.
+
+`5   Adjournment <#id14>`_
+--------------------------
+
+There being no further business, S. Deibel adjourned the meeting at
+19:00 EST.

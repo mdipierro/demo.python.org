@@ -1,0 +1,164 @@
+The Python Software Foundation Minutes of the Feb. 2002 Member Meeting
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The members of the Python Software Foundation (the "Corporation") held
+its second annual meeting on Feb. 6, 2002 at the Hilton Alexandria
+Mark Center in Alexandria, Virginia.  Jeremy Hylton, secretary and
+treasurer, presided over the meeting.
+
+The following members attended the meeting:
+
+- David Ascher
+- Fred L. Drake Jr.
+- Paul Everitt (representing Zope Corp.)
+- Jeremy Hylton
+- Martin von Loewis
+- Skip Montanaro
+- Tim Peters
+- Paul Prescod
+- Guido van Rossum
+- Greg Ward
+- Barry Warsaw
+- Ka-Ping Yee
+- Moshe Zadka
+
+The following members were represented by proxy, according to written
+requests received by the secretary:
+
+- ActiveState proxy to David Ascher
+- Thomas Heller proxy to Guido van Rossum
+- Marc-Andre Lemburg proxy to Guido van Rossum
+- Fredrik Lundh proxy to Tim Peters
+- Trent Mick proxy to David Ascher
+
+The members in attendance and represented by proxy consisted a quorum
+according to the Bylaws.
+
+The following non-members were also present at the meeting:
+
+- David Abrahams
+- Dan Connolly
+- Robin Friedrich
+- Jonathan Riehl
+
+**Reports** 
+
+The first order of business was a report on the Corporations
+activities and finances in 2001 by Jeremy Hylton.  He reported that
+very little activity took place during 2001.
+
+The only significant expense was a donation of $2,000 to Jeff Elkner
+and his students to finish production of their video aimed at students
+and educators, titled "Introducing Python."  It is available online
+at: 
+`http://www.ibiblio.org/obp/pyBiblio/pythonvideo.php <http://www.ibiblio.org/obp/pyBiblio/pythonvideo.php>`_
+
+Zope Corp. gave Elkner $2,000 in lieu of paying a sponsorship fee to
+the Corporation.  ActiveState has not yet paid its sponsorship fee for
+2001, but expects to soon.
+
+The only other expenses incurred to date are a yearly retainer for the
+law firm of Carlton Fields ($275) and a yearly fee to Delaware to
+maintain our incorporation status ($20).
+
+Paul Everitt described the background of Andrew Greenberg, an attorney
+at Carleton Fields.  Greenberg has extensive software experience; he
+contributed to a recent book on Squeak and developed computer games
+like Wizardry.
+
+**Members** 
+
+Guido van Rossum present a list of new members for admission to the
+Corporation, consisting primarily of members of the Python project at
+SourceForge.  The potential new members have not filled out membership
+applications, which is required by the Bylaws.  Therefore, the new
+members were admitted contingent upon receipt of completed application.
+
+Upon motion by Tim Peters, seconded by Paul Everitt, it was
+unanimously
+
+RESOLVED, that the following people be admitted as regular members of
+    the Python Software Foundation contingent upon receiving a membership
+    application from them in 2002:
+
+- Aahz
+- David Abrahams
+- Anthony Baxter
+- Don Beaudry
+- David Beazley
+- Paul Dubois
+- Greg Ewing
+- Neil Hodgson
+- Michael Hudson
+- Andrew Kuchling
+- Cameron Laird
+- Mark Lutz
+- Alex Martelli
+- Michael McLay
+- Neal Norwitz
+- Uche Ogbuji
+- Mike Olson
+- Andy Robinson
+- Just van Rossum
+- Sam Rushing
+- Charles Waldman
+
+David Abrahams was present and presented an application to the
+secretary at the meeting.
+
+(Note that Charles Waldman is already a PSF member, a point that was
+overlooked at the meeting.)
+
+Upon further discussion, several corporations were invited to be
+sponsor members of the Corporation.  Upon motion by Guido van Rossum,
+seconded by Ka-Ping Yee, it was unanimously
+
+RESOLVED, that the following corporations be admitted as sponsor
+    members of the Python Software Foundation contingent upon
+    receiving a membership application from them in 2002:
+
+- Archaeoptryx
+- ASTi
+- Hostway
+- O'Reilly
+
+**Elections** 
+
+The next order of business was the election of a new board of
+directors, in accordance with Section 5.5 of the Bylaws.  The
+following members were elect to the the Board of Directors:
+
+- David Ascher
+- Jeremy Hylton
+- Marc-Andre Lemburg
+- Martin von Loewis
+- Tim Peters
+- Guido van Rossum
+- Thomas Wouters
+
+**Discussion** 
+
+Marc-Andre Lemburg circulated a draft contributor agreement in
+January.  The PSF intends to have each contributor to the Python CVS
+repository sign the agreement and have it apply to all checkins.
+
+The agreement was discussed at length, and compared the the Zope and
+Mozilla agreements.  Paul Everitt described the Zope agreement as a
+joint ownership model:  The committer and the PSF each receive
+one-half interest of the copyright and intellectual property of any
+checkin.
+
+The members decided to circulate the draft agreement publicly for
+review by potential contributors.  The public review period will end
+by April 15.  At that time, the board will get legal review of the
+agreement.
+
+The members discussed plans for future Python conferences.  It was
+agreed that a separate mailing list would be created for discussing
+conference issues with the larger Python community.
+
+**Adjournment** 
+
+Since there was no further business, the meeting, on motion by David
+Ascher and seconded by Guido van Rossum, was adjourned by unanimous
+vote.

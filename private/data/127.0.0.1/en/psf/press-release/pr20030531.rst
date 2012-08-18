@@ -1,0 +1,74 @@
+May 31, 2003
+
+Press Release
+
+SOURCE: Python Software Foundation
+
+**PYTHON SOFTWARE FOUNDATION (PSF) ANNOUNCES PYTHON VERSION 2.2.3**
+
+*New release enhances powerful programming language*
+
+*FREDERICKSBURG, Va., [May 31, 2003]* -- The `Python Software Foundation <http://www.python.org/psf>`_ announces the
+release of version 2.2.3 of the Python
+programming language. This maintenance release introduces over 120
+enhancements to the language and its extensive standard libraries.
+
+"This new minor release of Python provides users with a collection of
+carefully selected improvements. It is an important part of our commitment to
+maintaining widely used stable versions of Python," said Guido van Rossum,
+creator of Python and president of the Python Software Foundation.
+
+Python is a uniquely agile programming language that significantly increases
+programmer productivity over languages such as C, C++, Java, and Visual Basic.
+The language is used in mission-critical applications by hundreds of thousands
+of companies and organizations worldwide, and its user base is growing rapidly.
+
+"RealNetworks uses Python extensively for the infrastructure of the Helix
+Community (`www.helixcommunity.org <http://www.helixcommunity.org/>`_), including
+our Python-based build system Ribosome (`ribosome.helixcommunity.org <http://ribosome.helixcommunity.org/>`_)
+and our Python driven test player (`pyplayer.helixcommunity.org <http://pyplayer.helixcommunity.org/>`_).
+Python has been a great choice for us; it has offered us flexibility and
+robustness and has made it possible for us to write modular, easily-maintained
+tools. We're very happy with the results," said Rob Lanphier, Helix Community
+Coordinator.
+
+Other companies using Python include The New York Stock Exchange, Google,
+Philips, Hewlett Packard, Rackspace, Industrial Light and Magic, NASA, Disney,
+Compaq, and AstraZeneca.
+
+**About Python** 
+
+Python is a powerful object oriented programming language that is developed
+and maintained by a global community of Open Source contributors, under the
+oversight of the Python Software Foundation. Python's unique blend of
+simplicity and power excels in a wide range of software development tasks,
+including the construction of web applications, complex integrated business
+solutions, and large desktop applications.
+
+Key features of Python include: 
+
+- Object orientation, modular name spaces, exceptions, and multi-threading
+- High-level dynamic data typing and very late binding
+- Tight integration with C, C++, and Java modules
+- May be compiled to Java byte code for use in any JVM
+- String and regular expression processing
+- Extensive XML and web services support
+- HTTP, FTP, SMTP, POP, IMAP, NNTP, telnet, and other IP protocols
+- HTML, MIME, base64, binhex, uuencode, and other internet data handling
+- GUI development and multimedia services
+- Unit testing, profiling, and documentation generation
+- Available third party modules for database access, math, 3D modeling, image processing, LDAP, WebDAV, jabber, MIDI, and much more
+
+Python runs on Microsoft Windows, Macintosh, Linux, Unix, OS/2, WinCE, and
+many other operating systems. Full source code is available for the language
+and associated standard libraries.
+
+Additional information and downloads are available at `www.python.org 
+<http://www.python.org/>`_. 
+
+**About the PSF** 
+
+The Python Software Foundation (PSF) is a non-profit organization devoted to
+advancing Open Source technology related to the Python programming language.
+The PSF holds the intellectual property rights to Python. Additional
+information on the PSF is available at `http://www.python.org/psf <http://www.python.org/psf>`_.

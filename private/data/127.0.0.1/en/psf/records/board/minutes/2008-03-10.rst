@@ -1,0 +1,226 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+March 10, 2008
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:03 UTC, 10
+March 2008.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in February <#new-in-february>`_
+
+- `4   www.python.org Server <#www-python-org-server>`_
+
+- `5   GHOP Participants <#ghop-participants>`_
+
+- `6   PyCon Thank-You Fund <#pycon-thank-you-fund>`_
+
+- `7   PyCon Italia Due Sponsorship <#pycon-italia-due-sponsorship>`_
+
+- `8   New Sponsor Member Applications <#new-sponsor-member-applications>`_
+
+- `9   Awards Program <#awards-program>`_
+
+- `10   Python Certification <#python-certification>`_
+
+- `11   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, Stephan Deibel, David Goodger, Steve Holden,
+Andrew Kuchling, Martin von L?wis, and Tim Peters.  Also in attendance
+was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 11 February 2008 Board meeting minutes were approved by a 7-0-0
+vote (*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 11 February
+2008 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will produce a PSF logo based on the Python logo.     D. Goodger reported that Marc-Andr? Lemburg has been working on a logo.  Goodger's earlier efforts were simply text arrangements. The Board agreed that Lemburg's efforts are a reasonable start.     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: carried forward.
+
+- Originally from September 2007, Section 5, Fraud Attempts: A. Kuchling will prepare a statement on fraudulent PSF checks for the python.org website.     `http://www.python.org/psf/fraud/ <http://www.python.org/psf/fraud/>`_      Status: **done**.
+
+- Originally from November 2007, Section 7, PSF Article for The Python Papers: S. Deibel will post his PSF article on python.org, but well after it is published in The Python Papers.     `http://www.python.org/psf/summary/ <http://www.python.org/psf/summary/>`_      Status: **done**.
+
+- Originally from January 2008, Section 4, Google Summer of Code Report: D. Goodger will post the report to the PSF blog.   - Posted to the PSF blog: `http://pyfound.blogspot.com/2008/03/2007-google-summer-of-code-report.html <http://pyfound.blogspot.com/2008/03/2007-google-summer-of-code-report.html>`_  - Full report on python.org: `http://www.python.org/psf/reports/gsoc-2007/ <http://www.python.org/psf/reports/gsoc-2007/>`_    Status: **done**.
+
+- Originally from January 2008, Section 6, Members' Meeting: D. Goodger will send all sponsor applicant's info to members.     Status: **done**.
+
+- Originally from January 2008, Section 6, Members' Meeting: D. Goodger will send out the members' meeting notices within two weeks (by snailmail and email).     Status: **done**.
+
+- Originally from January 2008, Section 7, Awards Program: K. Kaiser will research the tax implications of an awards program (both domestic & international recipients).     Status: carried forward.
+
+- Originally from January 2008, Section 7, Awards Program: S. Holden will refine the awards program proposal, for a vote at the next board meeting.     See `Awards Program <#awards-program>`_ below.      Status: **done**.
+
+`3.2   New in February <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 11 February 2008 board meeting on
+IRC.
+
+- Section 8, Members' Meeting: D. Goodger will send out a reminder of the deadline for nominations and resolutions to psf-members.     Status: **done**.
+
+- Section 8, Members' Meeting: A. Kuchling will write up a list of PSF accomplishments for the member's meeting.     A. Kuchling sent a draft to the Board, and will send it to the members' list immediately.  Posted to the PSF blog: `http://pyfound.blogspot.com/2008/03/2007-psf-accomplishments.html <http://pyfound.blogspot.com/2008/03/2007-psf-accomplishments.html>`_     Status: **done**.
+
+`4   www.python.org Server <#id6>`_
+-----------------------------------
+
+Regarding the purchase of a new server (see the `2008-02-11 minutes <../2008-02-11/>`_), M. von L?wis reported that he mailed XS4ALL, got
+no response, and didn't yet mail again.
+
+`5   GHOP Participants <#id7>`_
+-------------------------------
+
+S. Holden discussed possible gifts for Google Highly Open
+Participation contest participants.  To be discussed further at PyCon.
+
+`6   PyCon Thank-You Fund <#id8>`_
+----------------------------------
+
+D. Goodger reported that the PyCon profit estimate was somewhere
+around $70K, and that he would like to use a portion of that to
+express thanks to major contributors.  Some computers are neeeded for
+recording A/V during the conference (Macs for video/firewire, and PCs
+for audio & VGA capture); these can be dual-purposed.  The PSF will
+own the computers, which will be on loan to the recipients for
+PSF-related work.
+
+M. von L?wis: &quot;I'm fine with dual-purposing the equipment, but that
+means we need to buy new ones next year, right?&quot;  Goodger confirmed,
+and noted that we'll be able to plan ahead for next year; but the need
+is urgent for this year.
+
+    RESOLVED, that David Goodger is authorized to purchase three
+    PSF-owned laptops, spending up to $10,000, for use by David
+    Goodger, Doug Napoleone, and Van Lindberg.
+
+Approved 6-0-1. 
+
+    RESOLVED, that the PyCon 2008 Chair (David Goodger) is authorized
+    to spend up to $5000 on thank-you gifts for significant PyCon
+    contributors.
+
+Approved 7-0-0.
+
+`7   PyCon Italia Due Sponsorship <#id9>`_
+------------------------------------------
+
+The second Italian Python conference, `PyCon Italia Due <http://www.pycon.it/pycon2/sponsor>`_, asked the PSF to be a sponsor.
+The PSF was a gold sponsor last year.
+
+    RESOLVED, that the PSF will become a gold sponsor for PyCon Italia
+    Due, at a cost of 1,500 Euros.
+
+Approved 7-0-0.
+
+`8   New Sponsor Member Applications <#id10>`_
+----------------------------------------------
+
+The PSF has received two new sponsor membership applications.  With
+the members' meeting only four days away, it was agreed that Board
+recommendations and pending sponsor membership status were not
+necessary.
+
+S. Deibel will add the requirement for a rationale to the
+sponsor member application form.
+
+`9   Awards Program <#id11>`_
+-----------------------------
+
+S. Holden posted a description of a PSF awards program to the Board
+list
+
+M. von L?wis noted that somebody should be &quot;in charge&quot; of the program:
+&quot;keeping track of the list of people being proposed for awards,
+soliciting proposals from a the membership or wider audience, etc.&quot;
+D. Goodger nominated Steve Holden, who accepted.
+
+    RESOLVED: that the Foundation institute an awards program to
+    provide recognition for services which further the Foundation's
+    mission.  Nominations for awards can be made by any member.
+    Awards must be unanimously approved by the Board, and may take the
+    form of either:
+
+    - A cash award of up to $600, allowing a single award to a US taxpayer to be made without requiring any formalties; or
+
+    - Free registration at PyCon, with optionally a contribution of up to $500 towards the recipient's travel and accommodation expenses;
+
+    the amounts to be determined by the Board at the time the award is
+    approved.
+
+Approved 7-0-0. 
+
+S. Deibel noted: &quot;What we really need is a commitee with a budget,
+then the Board doesn't need to do more voting on this.&quot;  S. Holden
+suggested that we call for committee members at the upcoming members'
+meeting.  M. von L?wis agreed, noting &quot;we need to get the members
+involved in that activity in particular.&quot;
+
+    RESOLVED, that $2000 will be made available for issuing awards to
+    the following Python community members for their dedication to
+    Python through volunteerism:
+
+    - Peter Kropf, for work on job board & website conversion,
+
+    - Martin Thomas, for work on job board & website conversion,
+
+    - Brad Knowles, for helping with python.org postmaster duties, and
+
+    - Mathew Dixon Cowles, for replying to python-help requests.
+
+Approved 7-0-0.
+
+`10   Python Certification <#id12>`_
+------------------------------------
+
+Van Lindberg sent a draft proposal (by himself, Tennessee Leeuwenburg,
+and Steve Holden) to the Board mailing list.  As the meeting was
+running over time, S. Holden requested that all present send emailed
+responses ASAP to the Board list.  It was agreed that the idea should
+then be put to the members for discussion.
+
+- von L?wis noted:          The schedule for [the certification program] is *way* too     aggressive.  Members will need a month or two to discuss, and we     shouldn't do anything before June or so.
+
+S. Holden will rework the proposal with Van Lindberg and
+Tennessee Leeuwenburg as a discussion document to be posted to the
+members' list, as the Board considers the members' views essential.
+
+`11   Adjournment <#id13>`_
+---------------------------
+
+S. Deibel adjourned the meeting at 18:17 UTC.

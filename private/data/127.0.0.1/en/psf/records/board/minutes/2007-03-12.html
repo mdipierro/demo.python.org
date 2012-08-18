@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf/records/board/minutes/2007-03-12 -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf/records/board/minutes/2007-03-12">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>The Python Software Foundation</p>
+<p>Minutes of a Regular Meeting of the Board of Directors</p>
+<p>March 12, 2007</p>
+<p>A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:02 UTC, 12
+March 2007.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.</p>
+<p>Contents</p>
+<ul class="simple">
+<li><a class="reference external" href="#attendance">1   Attendance</a></li>
+<li><a class="reference external" href="#minutes-of-past-meetings">2   Minutes of Past Meetings</a></li>
+<li><a class="reference external" href="#status-of-past-action-items">3   Status of Past Action Items</a>- <a class="reference external" href="#carried-forward">3.1   Carried Forward</a>  - <a class="reference external" href="#new-in-february">3.2   New in February</a></li>
+<li><a class="reference external" href="#tasks-for-the-secretary">4   Tasks for the Secretary</a></li>
+<li><a class="reference external" href="#treasurer-records">5   Treasurer Records</a></li>
+<li><a class="reference external" href="#java-package-name-for-jython">6   Java Package name for Jython</a></li>
+<li><a class="reference external" href="#renewing-the-advocacy-coordinator-position">7   Renewing the Advocacy Coordinator Position</a></li>
+<li><a class="reference external" href="#psf-support-for-europython">8   PSF Support for EuroPython</a></li>
+<li><a class="reference external" href="#psf-mailing-address">9   PSF Mailing Address</a></li>
+<li><a class="reference external" href="#pycon-2008">10   PyCon 2008</a></li>
+<li><a class="reference external" href="#minimum-board-size">11   Minimum Board Size</a></li>
+<li><a class="reference external" href="#awards">12   Awards</a></li>
+<li><a class="reference external" href="#google-summer-of-code">13   Google Summer of Code</a></li>
+<li><a class="reference external" href="#python-org-mirrors">14   Python.org Mirrors</a></li>
+<li><a class="reference external" href="#status-of-member-inventory">15   Status of Member Inventory</a></li>
+<li><a class="reference external" href="#reviving-the-grants-program">16   Reviving the Grants Program</a></li>
+<li><a class="reference external" href="#psf-funded-buildbots">17   PSF-Funded BuildBots</a></li>
+<li><a class="reference external" href="#bylaw-change-survey">18   Bylaw Change Survey</a></li>
+<li><a class="reference external" href="#adjournment">19   Adjournment</a></li>
+</ul>
+<div class="section" id="id2">
+<h1><a class="reference external" href="#id1">1   Attendance</a></h1>
+<p>The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, David Goodger, Andrew Kuchling, Martin von
+L?wis, David Ascher, Tim Peters, and Steve Holden.  Also in attendance
+was Kurt Kaiser (Treasurer) and Neal Norwitz (Assistant Treasurer).</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 53); <em><a href="#id1">backlink</a></em></p>
+Duplicate explicit target name: &quot;1 attendance&quot;.</div>
+<div class="section" id="id4">
+<h1><a class="reference external" href="#id2">2   Minutes of Past Meetings</a></h1>
+<p>The 12 February 2007 Board meeting minutes were approved by a 5-0-2
+vote (<em>in favor ? opposed ? abstentions</em>).</p>
+<p>The 23 February 2007 members' meeting minutes were approved by a 4-0-3
+vote.</p>
+<p>The 25 February 2007 Board meeting minutes were approved by a 4-0-3
+vote.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 61); <em><a href="#id3">backlink</a></em></p>
+Duplicate explicit target name: &quot;2 minutes of past meetings&quot;.</div>
+<div class="section" id="id6">
+<h1><a class="reference external" href="#id3">3   Status of Past Action Items</a></h1>
+<p>(Pending action items appear like this.)</p>
+<div class="section" id="id8">
+<h2><a class="reference external" href="#id4">3.1   Carried Forward</a></h2>
+<p>The following are action items carried forward from the 12 February
+2007 meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):</p>
+<ul class="simple">
+<li>Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.</li>
+<li>Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     D. Goodger reported that the records were received from Jeremy Hylton.     Status: in progress.</li>
+<li>Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.</li>
+<li>Originally from September 2006, Section 3.1, item 7: D. Goodger will telephone Jeremy Hylton to ask for PSF records to be sent.     The records were received.      Status: <strong>done</strong>.</li>
+<li>Originally from November 2006, Section 7, PyCon: D. Goodger will prepare for the PSF members' meeting at PyCon.     Status: <strong>done</strong>.</li>
+<li>Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.</li>
+<li>Originally from December 2006, Section 5, Jython License: A. Kuchling will write up a summary of the license discussion, post it to jython-dev, and the current developers can decide what to do.     Status: <strong>done</strong>.</li>
+<li>Originally from December 2006, Section 9, Catering the Members' Meeting: D. Goodger will coordinate food for the 2007 PSF Members' Meeting with the conference committee &amp; members.     S. Deibel placed a last-minute pizza order.      Status: <strong>done</strong>.</li>
+<li>Originally from 8 January 2007, Section 5, New Sponsor Member: Canonical: K. Kaiser will issue an invoice for sponsor dues to Canonical.     Canonical has been invoiced and has responded.      Status: <strong>done</strong>.</li>
+</ul>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 73); <em><a href="#id7">backlink</a></em></p>
+Duplicate explicit target name: &quot;3.1 carried forward&quot;.</div>
+<div class="section" id="id10">
+<h2><a class="reference external" href="#id5">3.2   New in February</a></h2>
+<p>These action items originated at the 12 February 2007 board meeting on
+IRC.</p>
+<ul class="simple">
+<li>Section 7, Treasurer Records: K. Kaiser will make the 2003, 2004, and 2005 PSF tax returns available on the web site.     K. Kaiser has added scans of current 2003 &amp; 2004 form 990's to the PSF CVS repository.  2005 is pending.     Status: in progress.</li>
+<li>Section 7, Treasurer Records: K. Kaiser will produce the 2006 PSF financials for the members' meeting.     Status: <strong>done</strong>.</li>
+<li>Section 7, Treasurer Records: K. Kaiser will make the PSF's final 501(c)(3) ruling available on python.org.     Status: <strong>done</strong>.</li>
+</ul>
+<p>For the three items above, see <a class="reference external" href="#treasurer-records">Treasurer Records</a> below.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 73); <em><a href="#id9">backlink</a></em></p>
+Duplicate explicit target name: &quot;3.2 new in february&quot;.</div>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 73); <em><a href="#id5">backlink</a></em></p>
+Duplicate explicit target name: &quot;3 status of past action items&quot;.</div>
+<div class="section" id="id13">
+<h1><a class="reference external" href="#id6">4   Tasks for the Secretary</a></h1>
+<ol class="upperalpha simple" start="4">
+<li>Goodger will update the Membership Roster web page.</li>
+</ol>
+<p>D. Goodger will update the PSF Committees wiki page, and
+convert the wiki page to a regular web page.</p>
+<p>D. Goodger will consult the PSF's lawyer to ask if the proxy
+forms and absentee ballots from the members' meeting should be kept or
+destroyed.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 117); <em><a href="#id12">backlink</a></em></p>
+Duplicate explicit target name: &quot;4 tasks for the secretary&quot;.</div>
+<div class="section" id="id15">
+<h1><a class="reference external" href="#id7">5   Treasurer Records</a></h1>
+<p>D. Goodger will publish the treasurer records produced by
+K. Kaiser (tax returns, 2006 financial report, 501(c)(3) ruling) on
+python.org.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 129); <em><a href="#id14">backlink</a></em></p>
+Duplicate explicit target name: &quot;5 treasurer records&quot;.</div>
+<div class="section" id="id17">
+<h1><a class="reference external" href="#id8">6   Java Package name for Jython</a></h1>
+<blockquote>
+<strong>RESOLVED</strong>, that the <tt class="docutils literal">org.python.*</tt> Java package name be
+reserved for use by the Jython project.</blockquote>
+<p>Approved 7-0-0.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 136); <em><a href="#id16">backlink</a></em></p>
+Duplicate explicit target name: &quot;6 java package name for jython&quot;.</div>
+<div class="section" id="id19">
+<h1><a class="reference external" href="#id9">7   Renewing the Advocacy Coordinator Position</a></h1>
+<p>As the Board has not yet received a proposal, a decision was deferred
+until a proposal (or contract or work plan) has been received.</p>
+<p>Discussion:</p>
+<p><em>D. Ascher:</em> I guess I feel like it's not a great relationship -- we
+asked for X, and really got Y.  Whether Y is good or not isn't
+really the issue.</p>
+<p><em>S. Deibel:</em> Various people agree with that point but consensus
+seemed to be that we should continue.</p>
+<p><em>D. Goodger:</em> The Advocate was also PyCon co-Chair, a situation we
+should avoid in future.</p>
+<p><em>T. Peters:</em> I sure don't mind paying someone to work on PyCon.</p>
+<p><em>D. Ascher:</em> It also feels like he's (like all of us) more tempted
+by the idea of writing software than documents. ... I'm just trying
+to figure out there's a way to get X next time.</p>
+<p><em>D. Goodger:</em> I think the key is the supervision.  That's us.</p>
+<p><em>D. Ascher:</em> Agreed, and I think [the problem is that] &quot;us&quot; doesn't
+work in practice.</p>
+<p><em>A. Kuchling:</em> I think several people suggested that helping user
+groups is a good strategy for advocacy.</p>
+<p><em>K. Kaiser:</em> Note that the cost of the AC would be about equal to
+our income last year.  I repeat my comment that the position should
+be self funding in that advocacy should result in more sponsors and
+donors.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 144); <em><a href="#id18">backlink</a></em></p>
+Duplicate explicit target name: &quot;7 renewing the advocacy coordinator position&quot;.</div>
+<div class="section" id="id21">
+<h1><a class="reference external" href="#id10">8   PSF Support for EuroPython</a></h1>
+<p>N. Norwitz reported a rumor that EuroPython may need help.  The nature
+(and existence) of any problem wasn't known, but it was thought to be
+a lack of organizers.  The Board agreed that money probably isn't the
+solution.</p>
+<p>D. Goodger asked if the PSF has ever offered help for EuroPython; the
+PSF is a stable legal entity that can offer financial underwriting,
+with directors and members who can offer advice and help.  A. Kuchling
+replied that he didn't think the PSF has ever helped with EuroPython,
+but that it is certainly within the PSF's mandate.  D. Goodger noted
+that this would require a separate EuroPython Chair &amp; organizers, and
+that helping EuroPython could remove the US-centric perception of the
+PSF.</p>
+<p>K. Kaiser asked if EuroPython is a foundation or some other organized
+entity.  No one was certain.</p>
+<p>S. Deibel pointed out that this was just speculation; we need to talk
+to someone to find out what the problem really is, see if there's
+something the PSF could do, then bring that back to the Board.
+T. Peters noted that this may be a good job for the Advocacy
+Coordinator (AC).  S. Deibel agreed, with the condition that the AC
+shouldn't commit more than a day or two of outreach.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 181); <em><a href="#id20">backlink</a></em></p>
+Duplicate explicit target name: &quot;8 psf support for europython&quot;.</div>
+<div class="section" id="id23">
+<h1><a class="reference external" href="#id11">9   PSF Mailing Address</a></h1>
+<p>D. Goodger noted that the PSF's &quot;current&quot; mailing address, according
+to the resolutions, was out of date.</p>
+<blockquote>
+<p><strong>RESOLVED</strong>, that the mailing address of the PSF shall be:</p>
+<p>Python Software Foundation</p>
+<p>c/o Kurt Kaiser</p>
+<p>P.O. Box 653</p>
+<p>8 Bayview Road</p>
+<p>Ipswich, MA 01938</p>
+<p>USA</p>
+</blockquote>
+<p>Approved 7-0-0.</p>
+<p>K. Kaiser noted that he will be moving at the end of March.
+D. Goodger asked him to &quot;keep us advised, we can change it again&quot;.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 208); <em><a href="#id22">backlink</a></em></p>
+Duplicate explicit target name: &quot;9 psf mailing address&quot;.</div>
+<div class="section" id="id25">
+<h1><a class="reference external" href="#id12">10   PyCon 2008</a></h1>
+<p>D. Goodger reported that he had a conference call on March 8 with
+Larry Skaja &amp; Tim Costello of CTE, and Ted Pollari &amp; Carl Karsten of
+ChiPy.  They went over the requested changes to the draft contract
+(&quot;CTE Technical Conference Revised Feb 6.doc&quot;), sent to the Board by
+email on March 7.  Most of the requested changes will be put into the
+contract.  There will be a contract ready to sign within a week or
+two.</p>
+<p>Highlights of the requested changes were presented and discussed.
+D. Goodger: &quot;I feel very comfortable working with CTE.&quot;</p>
+<blockquote>
+<strong>RESOLVED</strong>, that Kurt Kaiser and David Goodger are authorized to
+obligate the PSF under the previously emailed contract for PyCon
+2008 to be held at the Crowne Plaza Chicago O'Hare in Rosemont,
+Illinois.  The contract may be changed before signing but any
+changes will be reported to the PSF board and may not increase the
+financial obligation assumed by the PSF.</blockquote>
+<p>Approved 7-0-0.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 233); <em><a href="#id24">backlink</a></em></p>
+Duplicate explicit target name: &quot;10 pycon 2008&quot;.</div>
+<div class="section" id="id27">
+<h1><a class="reference external" href="#id13">11   Minimum Board Size</a></h1>
+<p>D. Goodger: &quot;While discussing the motion to increase the size of the
+Board (at PyCon), I was asked what the minimum number of Directors
+was.  There is nothing in the bylaws or in the resolutions about a
+minimum.  Should there be?&quot;</p>
+<p>The Board agreed that there was no need to set a minimum.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 256); <em><a href="#id26">backlink</a></em></p>
+Duplicate explicit target name: &quot;11 minimum board size&quot;.</div>
+<div class="section" id="id29">
+<h1><a class="reference external" href="#id14">12   Awards</a></h1>
+<p>On January 18 Guido van Rossum forwarded a message from Nathan
+Torkington of O'Reilly reminding us about the &quot;PSF awards&quot;.  As the
+PSF doesn't have an awards program yet, and considering the confusion
+last year, it was assumed that Torkington meant the Frank Willison
+Award.  D. Goodger sent email to Torkington on March 8, to clarify the
+roles and responsibilities involved.  There has been no response yet.</p>
+<p>Alex Martelli, recipient of the Frank Willison Award last year, never
+received a certificate.  There should be a certificate presentation
+for him.</p>
+<p>D. Goodger will follow up with Nathan Torkington of O'Reilly
+regarding the Frank Willison Award.</p>
+<p>T. Peters noted that the Frank Willison Award was O'Reilly's idea, and
+&quot;they should carry the ball&quot;.  S. Holden suggested that if O'Reilly
+won't administer the award, we should honour Willison's memory by
+having it as a PSF award.</p>
+<p>There has been some discussion about the PSF establishing an awards
+program.  S. Holden volunteered to lead this effort.</p>
+<ol class="upperalpha simple" start="19">
+<li>Holden will prepare a proposal for a PSF awards program.</li>
+</ol>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 266); <em><a href="#id28">backlink</a></em></p>
+Duplicate explicit target name: &quot;12 awards&quot;.</div>
+<div class="section" id="id31">
+<h1><a class="reference external" href="#id15">13   Google Summer of Code</a></h1>
+<p>D. Goodger reported that at PyCon James Tauber volunteered to act as
+administrator for PSF projects in Google's Summer of Code program, and
+Brett Cannon and Neal Norwitz agreed.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 293); <em><a href="#id30">backlink</a></em></p>
+Duplicate explicit target name: &quot;13 google summer of code&quot;.</div>
+<div class="section" id="id33">
+<h1><a class="reference external" href="#id16">14   Python.org Mirrors</a></h1>
+<p>S. Deibel asked: &quot;Can we drop the mirrors list from python.org, or
+officially say it's unmaintained?&quot;  The Board agreed that the era for
+mirrors is largely past.</p>
+<p>S. Deibel will begin to dismantle the python.org mirrors
+system.  First step: mark the python.org mirrors list as unmaintained
+and refuse additions.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 300); <em><a href="#id32">backlink</a></em></p>
+Duplicate explicit target name: &quot;14 python.org mirrors&quot;.</div>
+<div class="section" id="id35">
+<h1><a class="reference external" href="#id17">15   Status of Member Inventory</a></h1>
+<p>S. Deibel asked about the status of the member roster: check email
+list, update addresses, etc.  D. Goodger replied that M. von L?wis and
+he updated the records prior to PyCon.  Most members could be reached;
+those who couldn't, if still unreachable by next year, should convert
+to emeritus membership status.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 311); <em><a href="#id34">backlink</a></em></p>
+Duplicate explicit target name: &quot;15 status of member inventory&quot;.</div>
+<div class="section" id="id37">
+<h1><a class="reference external" href="#id18">16   Reviving the Grants Program</a></h1>
+<p>S. Deibel asked if we should look for someone to sign up to lead a new
+grants program.  S. Holden asked if &quot;grants&quot; and &quot;awards&quot; should be
+distinct (S. Deibel: probably yes).  M. von L?wis proposed that this
+discussion be deferred: &quot;It's not clear that members want the PSF to
+engage in grants.&quot;</p>
+<p>D. Goodger will send email to PSF-members about recruiting: a
+leader for a new grants program, an Assistant Secretary, and an
+Assistant Treasurer.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 320); <em><a href="#id36">backlink</a></em></p>
+Duplicate explicit target name: &quot;16 reviving the grants program&quot;.</div>
+<div class="section" id="id39">
+<h1><a class="reference external" href="#id19">17   PSF-Funded BuildBots</a></h1>
+<p>S. Holden reported that he spoke with Grig Gheorghiu briefly about
+providing buildbots: &quot;The intention should be to provide facilities
+for third-party extensions and modules to be able to create tested
+Windows builds with reasonably short version lag.  We will discuss
+further, and I'll try to rope in some support from Microsoft.&quot;</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 333); <em><a href="#id38">backlink</a></em></p>
+Duplicate explicit target name: &quot;17 psf-funded buildbots&quot;.</div>
+<div class="section" id="id41">
+<h1><a class="reference external" href="#id20">18   Bylaw Change Survey</a></h1>
+<p>S. Holden reported that he considers the current PSF bylaws deficient,
+and asked if anyone had specific changes to propose.</p>
+<p>T. Peters would like to make it possible to do more electronically (by
+email, IRC, etc.): &quot;I think that's actually allowed now, but it takes
+creative reading to support that view ;-)&quot;.</p>
+<p>D. Goodger asked if we are limited by Delaware's corporation laws.
+S. Deibel responded that there are very few limits from there.</p>
+<p>Since it will probably be very involved and time-consuming,
+S. Holden will call for a separate discussion of changes to
+the bylaws.</p>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 342); <em><a href="#id40">backlink</a></em></p>
+Duplicate explicit target name: &quot;18 bylaw change survey&quot;.</div>
+<div class="section" id="id43">
+<h1><a class="reference external" href="#id21">19   Adjournment</a></h1>
+<ol class="upperalpha simple" start="19">
+<li>Deibel adjourned the meeting at 18:03 UTC.</li>
+</ol>
+</div>
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 359); <em><a href="#id42">backlink</a></em></p>
+Duplicate explicit target name: &quot;19 adjournment&quot;.</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

@@ -1,0 +1,71 @@
+Python 2.1.3 - a bugfix release for Python 2.1
+----------------------------------------------
+
+    *Note: This is not the most current Python version.  See the `download page </download>`_ for a more recent version.*
+
+On April 8 2002, we're releasing **Python 2.1.3** - a bugfix
+release of `Python 2.1 <../2.1/>`_.  This release has a
+small number of critical bug fixes.
+
+This is the final release of **Python 2.1.3**. 
+
+While the most recent release of Python is 2.2, there are a couple of
+bugs that have come up since 2.1.2 was released, in particular one bug
+that caused `Zope <http://www.zope.org/>`_ to crash.
+
+What's New?
+~~~~~~~~~~~
+
+- This release has only a couple of bug fixes. This is hopefully  because the 2.1.x line is now stable enough that there are very few bugs still lurking. Unlike the 2.1.2 release, there has not been a  wholesale attempt to port most bug fixes from the current python code  to this release - only critical bugs are being fixed.
+- For the full scoop about this bugfix release, see the `release notes <NEWS.txt>`_.
+- If you're interested in learning what's new in Python 2.1 relative to Python 2.0, see Andrew Kuchling's article `What's New in Python 2.1 <http://www.amk.ca/python/2.1/>`_.  If you're coming from Python 1.5.2, you might also want to review Andrew's What's New in Python 2.0.  Also see the Misc/NEWS file in the source release for an exhaustive list of almost every little detail that changed.
+
+Download the release
+~~~~~~~~~~~~~~~~~~~~
+
+**Windows** users should download Python-2.1.3.exe, the Windows
+installer, from one of the `download locations <#locations>`_
+below, run it, and follow the friendly instructions on the screen to
+complete the installation.  Windows users may also be interested
+in Mark Hammond's `win32all <http://starship.python.net/crew/mhammond/>`_, a collection of Windows-specific extensions including
+COM support and Pythonwin, an IDE built using Windows components.
+
+**Update (2002/04/23):** Windows users should download a new `UNWISE.EXE </ftp/python/2.1.3/UNWISE.EXE>`_ from Wise that
+fixes a bug which could cause the uninstaller to disappear in some
+circumstances.  Just drop it over the old uninstaller, which will be
+at ``C:\Python21\UNWISE.EXE`` unless you chose a different
+directory at install time.
+
+Users on **other platforms** should download the 
+source tarball. You can download Python-2.1.3.tgz, from one 
+of the `download locations <#locations>`_ below, and do 
+the usual "gunzip; tar; configure; make" dance.
+
+Download locations
+##################
+
+- Python.org: `HTTP </ftp/python/2.1.3/>`_.
+
+`MD5 </download/releases/2.1.2/md5sum.py>`_ checksums
+#####################################################
+
+.. code-block::
+
+    a8b04cdc822a6fc833ed9b99c7fba589 `Python-2.1.3.tgz </ftp/python/2.1.3/Python-2.1.3.tgz>`_ (6194432 bytes)
+        fc8020b2be17c098b69368543c5589a9 `Python-2.1.3.exe </ftp/python/2.1.3/Python-2.1.3.exe>`_ (6418289 bytes)
+        9ae1d572cbd2bfd4e0c4b92ac11387c6 `UNWISE.EXE </ftp/python/2.1.3/UNWISE.EXE>`_ (162304 bytes)
+
+Documentation
+~~~~~~~~~~~~~
+
+The documentation has been updated too.  You can:
+
+- `Browse HTML </doc/2.1.3/>`_ on-line, or
+- `Download the HTML documentation </ftp/python/doc/2.1.3/>`_.
+
+Bugs and Patches
+~~~~~~~~~~~~~~~~
+
+To report a bug, always use the SourceForge `Bug Tracker <http://sourceforge.net/bugs/?group_id=5470>`_.  If
+you have a patch, please use the SourceForge `Patch Manager <http://sourceforge.net/patch/?group_id=5470>`_.
+Please mention that you are reporting a bug in 2.1.3!

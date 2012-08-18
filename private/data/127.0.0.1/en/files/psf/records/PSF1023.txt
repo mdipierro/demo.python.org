@@ -1,0 +1,242 @@
+Python Software Foundation
+c/o Zope Corporation
+513 Prince Edward St. 
+Fredericksburg VA 22401-5742
+Phone: 540-361-1915
+EIN: 04-359-4598
+
+Statements accompanying Form 1023
+
+PART II - Activities and Operational Information
+
+1. Description of all the activities of the organization
+
+Python is a widely used computer programming language.  It is made available to the 
+public free of charge by the volunteers who created and maintain it.  Python has been 
+adopted by users throughout the world.  It has been adopted by many individuals and 
+organizations because it costs nothing and has many technical merits; Python's users 
+include educators in high schools and universities, and many government organizations, 
+including NASA and national laboratories such as LANL and LLNL.
+The purpose of the Python Software Foundation (PSF) is to guarantee that Python 
+remains freely available to the public and that the public has access to educational 
+materials and scientific literature that furthers their use of Python.
+The PSF has an educational and scientific mission.  It will, for example, organize 
+conferences and produce and distribute training materials.  And it will conduct research 
+in computer programming that will ensure that Python remains a valuable language for 
+programmers of all sorts—from students writing their first programs to scientists 
+studying global warming.
+Because there is no charge for obtaining Python, and no registration required, it is 
+difficult to estimate the number of users worldwide.  There are at least hundreds of 
+thousands, from individuals to government agencies, universities, and private industry.  
+More than 500 individuals have contributed code and documentation improvements back 
+to the Python project.
+The Python Software Foundation serves as the home for continued Python development 
+under the open source model.  As Python's popularity has grown, the scope of Python-
+related needs has also grown.  For example,
+
+?	Because Python is well-suited as a teaching language, there is increasing demand for 
+educational materials.  The PSF will work with educators to produce such materials, 
+under the open source distribution model.
+
+?	Because Python is aimed more at being friendly to humans than to machines, making 
+Python run quickly on current machines benefits from research in several areas of 
+computer science.  The practical problems faced by Python here are common to many 
+"highly dynamic" languages and software systems, and we expect such systems to 
+become increasingly important as computer applications become more human-
+centric.  The PSF will fund and conduct public-interest research in these areas.
+
+The PSF plans these specific activities:
+Software Releases (40%)
+Since its inception, the PSF has produced the core Python software distribution, made 
+available to the public free of charge primarily via the Python website.  Mirrors of the 
+Python website are maintained by volunteers around the world, and Python is also 
+available without charge from them.  The Python license also allows free redistribtion of 
+Python, and of derivative works, and some book publishers include copies of the Python 
+distribution in CD-ROMs sold with their books.  The Python distribution includes the 
+Python language itself, its standard libraries and documentation, installers, full source 
+code, educational materials, and assorted tools and applications.  All materials are made 
+available as open source.  The PSF solicits and manages contributions to the Python code 
+base, and may perform these services on behalf of other open source Python-related code 
+bases.  The work is done mostly by the PSF members, but there are also many non-
+member contributors.
+Conferences (15%)
+The PSF intends to organize conferences for Python users and developers, in furtherance 
+of the foundation's educational mission.  These conferences will consist of technical 
+sessions for discussion of current research and technical work, tutorials, and so on.
+We intend to hold two yearly conferences:  one low-cost conference, starting in January 
+2003, and a more expensive one, co-located and in cooperation with the O'Reilly Open 
+Source Convention (OSCON), starting July 2003.  The second conference will be run by 
+O'Reilly and only require a minor PSF effort: PSF members will serve on the program 
+committee.
+The first conference will be run in association with YAS (Yet Another Society, who 
+organize similar conferences for the Perl community), and require the PSF to take a 
+significant financial risk.  Tentative plans are to hold the conference at a university that 
+makes facilities available at low cost.  Volunteers to run this conference would come 
+from the PSF membership, from YAS, and from the larger Python community.
+Because the cost of attending the OSCON conference is generally out of reach of all save 
+professional programmers and researchers, a low-cost conference is important to serve 
+the foundation's educational mission to the general public.
+Web site (15%)
+Since its inception, the PSF has maintained a website (http://www.python.org) in the 
+public interest for current and prospective users of Python.  The website provides 
+downloads, documentation, educational information, news, email forums, and so on, all 
+for free.  The work is done mostly by PSF members; there are also some non-member 
+volunteers.
+Scholarships (5%)
+Starting in 2003, the PSF intends to provide scholarships to university students who do 
+research or teaching related to Python, or want to develop teaching materials that use 
+Python, in furtherance of the scientific and educational goals of the foundation.  The 
+board will form a scholarship committee to solicit and review scholarship proposals.
+Grants (5%)
+Starting in 2003, the PSF intends to provide grants to Python-related projects that would 
+benefit the general public.  The board will form a grant committee to solicit and review 
+grant proposals.
+Research (5%)
+Starting in the second half of 2003, the PSF intends to engage in research that advances 
+understanding of programming language implementation and design, as well as research 
+into programming education and tools for such education.  The board will form a 
+research committee to identify areas where the PSF could make a difference and apply 
+for government grants to carry out the research.  The research will be carried out by 
+qualified PSF members or other qualified researchers.
+One potential area of interest is computer literacy.  Research would develop a new 
+programming curriculum and programming tools that enable non-programmers to 
+effectively create and modify computer software.  A previous effort in this area was lead 
+by Guido van Rossum, PSF president, and supported by a grant from the U.S. Defense 
+Advanced Research Projects Agency (DARPA).
+Education (5%)
+The PSF has worked together with educators to produce educational materials.  Python is 
+well-suited for teaching in secondary schools and universities, and a few entry-level 
+textbooks have been written.  The PSF will work with educators to develop and enhance 
+a curriculum, textbooks, and example programs, and provide support for educators who 
+want to adopt them.
+As an example, in spring 2001 the PSF provided funding for a video project executed by 
+students at Yorktown High School in Arlington 
+(http://www.ibiblio.org/obp/pyBiblio/pythonvideo.php).  The board will work with 
+educators and volunteers in the community as opportunities present themselves.
+Intellectual Property Management (5%)
+The PSF is negotiating with prior holders of intellectual property (IP) rights (copyrights, 
+trademarks) related to Python for transfer of those rights to the PSF.  In particular, we are 
+interested in acquiring the rights in Python owned by CNRI and BeOpen.  The PSF is 
+also in the process of creating legal agreements with contributors to the Python code 
+base.  The goal of these activities is to hold the IP of Python in the public interest, so that 
+it will always be freely available as open source to the general public.  The negotiations 
+started in March 2002, and are carried out by the previous and the current president of the 
+PSF.  The work on contributor agreements started in early 2002 and is being carried out 
+by a committee consisting of PSF directors.
+Fundraising (5%)
+The PSF intends to solicit contributions from individuals and organizations to fund the 
+activities of the PSF.  The fundraising activities have just started, and are carried out by a 
+Public Support Committee formed by a board member and volunteers from the PSF 
+membership.
+
+2. Sources of financial support
+
+The PSF has three sources of financial support:
+
+(a) Sponsor membership fees
+See Part II, question 11, for more about sponsor members.  Sponsors have 
+supplied 100% of PSF funding to date.  When our public support campaign 
+begins, we expect that to fall to 20-30%.
+
+(b) Individual donations
+Many (hundreds) in the Python community have expressed willingness to 
+contribute money to the PSF, at approximately a $50 per person per year level.  
+We expect this to become the major source of PSF funding, 40-60%.
+
+(c) Grants
+The PSF has neither applied for nor received grants to date.  We expect grants to 
+become 20-30% of PSF funding.
+
+In addition to cash contributions, Python benefits from many hundreds of individual 
+contributions of code and documentation, which the PSF organizes and releases back to 
+the general public as part of the Python distribution.  In most cases an individual 
+programmer solves a relatively small problem, and contributes a small amount of code 
+back to the Python project.  In some cases a team of programmers solves a major problem 
+for their employer, and they and their employer agree to donate the code back to the 
+Python project.  Such "in-kind contributions" are very common in open source projects, 
+and it is difficult to place a monetary value on them.  They are vital to the health of an 
+open source project, as what the PSF is able to distribute is what people have freely 
+given.
+
+3. Organization's fundraising program
+
+To date, the PSF has solicited sponsors from contacts in the Python community known to 
+the PSF members, directors and officers.  The PSF has formed a Public Support 
+Committee (PSC) to solicit broad public support.  The PSC has not yet prepared written 
+materials, and is currently in the process of trying to understand how to comply with 
+relevant national and international laws.  The PSC intends to set up a web page with a 
+web-based "click here to contribute" button, and will publicize this page via email to 
+mailing lists and newsgroups for Python users.  The PSF does not intend to engage 
+professional fundraisers.
+
+4a. Names, addresses and titles of directors and officers 
+Board of Directors
+
+    Guido van Rossum, 11318 Dockside Circle, Reston, VA 20191
+
+    Jeremy Hylton, c/o Zope Corporation,
+    513 Prince Edward St., Fredericksburg, VA 22401
+
+    Tim Peters, c/o Zope Corporation,
+    513 Prince Edward St., Fredericksburg, VA 22401
+
+    Martin von Löwis, Wassermannstr. 71, D-12489 Berlin, Germany
+
+    Marc-Andre Lemburg, Duesselstr. 25, D-40219 Duesseldorf, Germany
+
+    David Ascher, 3020 West 5th Ave, Vancouver, BC, Canada, V6K 1T9
+
+    Thomas Wouters, Kantershof 5, 1104 GA  Amsterdam, The Netherlands
+Officers
+    Chairman and President: Guido van Rossum, see above
+    Secretary and Treasurer: Jeremy Hylton, see above
+
+8. Assets
+
+The PSF does not hold title to any physical assets.  The PSF owns the primary copyright 
+on Python work for the years 2001 and beyond, however parts of Python are copyrighted 
+by several other parties before those years.  One of the goals of the foundation is to obtain 
+those rights, to hold in the public interest.
+
+11. Membership organization
+11a. Membership requirements
+The PSF has two classes of  membership.  Regular members pay no fees or dues, and are 
+nominated and elected by the existing members in recognition of their contributions to 
+the Python community.  Sponsor members pay a yearly sponsorship fee, and are also 
+nominated and elected by the membership.  The sponsor fee is decided by the sponsors 
+themselves, collectively, in accordance with the bylaws, and is currently $2000 per year.
+11b. Fundraising efforts
+The PSF does not actively try to grow the regular membership. PSF members, officers 
+and directors use their personal contacts to attract additional sponsors.
+11c. Member benefits
+Regular members do not have benefits (apart from having their name listed on the 
+website). Sponsor members have their name and logo listed on the website, with a link to 
+the sponsor's website.
+
+
+
+Python Software Foundation
+c/o Zope Corporation
+513 Prince Edward St. 
+Fredericksburg VA 22401-5742
+Phone: 540-361-1915
+EIN: 04-359-4598
+
+Schedules accompanying Form 1023
+
+Schedule for Part IV, line 15, 2001
+
+Arlington (VA) Public Schools    
+produce student video   
+$2000.00
+
+Schedule for Part IV, line 22, 2002
+
+Professional fees 
+$295.00
+
+Schedule for Part IV, line 22, 2001
+
+Professional fees 
+$1343.28
+

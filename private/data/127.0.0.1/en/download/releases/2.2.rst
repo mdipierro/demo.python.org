@@ -1,0 +1,97 @@
+Python 2.2
+----------
+
+    *Note:   See `Python 2.2.3 <../2.2.3/>`_ for a patch
+    release which supersedes 2.2.*
+
+    **Important:** This release is vulnerable to the problem described in
+      `security advisory PSF-2006-001 </news/security/PSF-2006-001/>`_
+      "Buffer overrun in repr() of unicode strings in wide unicode
+      builds (UCS-4)".  This fix is included in
+      `Python 2.4.4 <../2.4.4/>`_
+      and `Python 2.5 <../2.5/>`_. If you need to remain with Python 2.2,
+      there's a patch available from the security advisory page.
+
+We are extremely pleased to announce the release of **Python
+2.2** (final), on December 21, 2001.  Our thanks to everyone who has
+contributed to the Python 2.2 development cycle, our CVS committers,
+PEP authors, alpha and beta testers, bug and patch submitters, etc.
+You know who you are! :)
+
+Please see the separate `bugs page <bugs>`_ for known
+bugs in Python 2.2 final, and the bug reporting procedure.
+
+Download the release
+~~~~~~~~~~~~~~~~~~~~
+
+**Windows** users should download *Python-2.2.exe*, the
+Windows installer, from one of the *download locations* below,
+run it, and follow the friendly instructions on the screen to complete
+the installation.
+Windows users may also be interested in Mark
+Hammond's `win32all <http://starship.python.net/crew/mhammond/>`_, a collection of Windows-specific extensions including
+COM support and Pythonwin, an IDE built using Windows components.
+
+**Update (2002/04/23):** Windows users should download a new `UNWISE.EXE </ftp/python/2.2/UNWISE.EXE>`_ from Wise that
+fixes a bug which could cause the uninstaller to disappear in some
+circumstances.  Just drop it over the old uninstaller, which will be
+at ``C:\Python22\UNWISE.EXE`` unless you chose a different
+directory at install time.
+
+**Macintosh** users can find Python 2.2 prereleases on Jack
+Jansen's MacPython
+page (after following the link, scroll towards the bottom).  This
+is sometimes one or two releases behind, so be patient.  (MacOS X
+users who have a C compiler can also build from the source tarball
+below.)
+
+**All others** should download *Python-2.2.tgz*, the
+source tarball, from one of the *download locations* below, and
+do the usual "gunzip; tar; configure; make" dance.
+
+Download locations
+##################
+
+- Python.org: `HTTP </ftp/python/2.2/>`_. >
+
+`MD5 <md5sum.py>`_ checksums and sizes
+######################################
+
+.. code-block::
+
+    568cf638ef5fc4edfdb4cc878d661129 `Python-2.2.exe </ftp/python/2.2/Python-2.2.exe>`_ (7074248 bytes)
+        87febf0780c8e18454022d34b2ca70a0 `Python-2.2.tgz </ftp/python/2.2/Python-2.2.tgz>`_ (6542443 bytes)
+        9ae1d572cbd2bfd4e0c4b92ac11387c6 `UNWISE.EXE </ftp/python/2.2/UNWISE.EXE>`_ (162304 bytes)
+
+What's New?
+~~~~~~~~~~~
+
+Highlights
+##########
+
+- Tim Peters developed a brand new Windows installer using Wise 8.1, generously donated to us by  `Wise Solutions <http://www.wisesolutions.com/>`_.
+- Type/Class Unification: A new way of introspecting instances of built-in types (PEP 252) and the ability to subclass built-in types (`PEP 253 </dev/peps/pep-0253.html>`_) have been added.  Here is a `tutorial <descrintro>`_ on these features.
+- Iterators (`PEP 234 </dev/peps/pep-0234.html>`_) and generators (PEP 255) were added.  The second PEP adds a new reserved word, "yield", which must be enabled by adding "from __future__ import generators" to the top of every module that uses it.  Without that, "yield" is treated as an identifier but a warning is issued.
+- The floor division operator // has been added as outlined in  PEP 238.  The / operator still provides classic division (and will until Python 3.0) unless "from __future__ import division" is included, in which case the / operator will provide true division.
+- Integer overflow is now a thing of the past; when small integer operations have a result that's too large to represent as a small integer, a long integer is now returned.  See `PEP 237 </dev/peps/pep-0237.html>`_.
+- Barry Warsaw's `mimelib <http://mimelib.sf.net/>`_ package is now part of the standard library. It has been renamed to the `email <http://python.sourceforge.net/devel-docs/lib/module-email.html>`_ package, and there have been some API changes.
+- Fredrik Lundh's `xmlrpclib <http://python.sourceforge.net/devel-docs/lib/module-xmlrpclib.html>`_ is now a standard library module. This provides full client-side XML-RPC support.  A server class is also provided (module SimpleXMLRPCServer).
+- Large file support is now enabled on Win32 and Win64 platforms, and automatically configured (at least on Linux and Solaris).
+
+Other sources of information on 2.2
+###################################
+
+- Unifying types and classes in Python 2.2 by Guido van Rossum -- a tutorial on the material covered by PEPs 252 and 253.
+- What's New in Python 2.2 by Andrew Kuchling describes the most visible changes since `Python 2.1 <../2.1/>`_.
+- Guido gave a talk on what's new in 2.2 at the ZPUG-DC meeting on September 26, 2001; here are his `powerpoint slides <http://zpug.org/dc/>`_.
+- `Charming Python: Iterators and simple generators <http://www-106.ibm.com/developerworks/library/l-pycon.html?n-l-9271>`_ by David Mertz on IBM developerWorks.
+- For a detailed list of all but the most trivial changes, see the `release notes <NEWS.txt>`_.
+- In the source distribution, the file Misc/NEWS has all the news.
+
+Documentation
+~~~~~~~~~~~~~
+
+The documentation has been updated too:
+
+- `Browse </doc/2.2/>`_ HTML on-line
+- Download using `HTTP </ftp/python/doc/2.2/>`_.

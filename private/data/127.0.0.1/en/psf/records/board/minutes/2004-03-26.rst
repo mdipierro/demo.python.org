@@ -1,0 +1,74 @@
+The Python Software Foundation   Minutes of Special Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Draft**
+
+March 26, 2004 
+
+A special meeting of the Python Software Foundation (the "PSF")
+Board of Directors (the "Board") was held during PyCon, at the George
+Washington University Cafritz Center, at noon.  Jeremy Hylton,
+secretary of the PSF, presided.
+
+1. Attendance
+#############
+
+This was the first meeting of the Board with the newly elected
+members present.  The following members of the Board of Directors were
+present at the meeting: David Ascher, Stephan Deibel, Steven Holden,
+Hylton, Martin von L?wis, Tim Peters and Guido van Rossum.  A
+quorum was present.  Hylton took minutes.
+
+2. Appointment of officers
+##########################
+
+In earlier years, the Board appointed a president but not a
+chairman of the board.  The Board elected to do both this year, but to
+treat the position of president as a more honorific office than an
+active one.
+
+Stephan Deibel was appointed chairman of the board.  Guido van
+Rossum was appointed president.  Neal Norwitz was appointed
+treasurer.  Jeremy Hylton was appointed secretary.  All appointments
+were unanimous.
+
+The treasurer and secretary are both looking for help with their
+work.  The Board expressed interest in appointing an assistant
+treasurer or assistant secretary to involve more people in these
+tasks.
+
+3. Committee charters
+#####################
+
+The Board voted unanimously to re-appoint the Python Conference
+Committee and the Public Support Committee.  (There was some
+discussion about whether any action was necessary; regardless of the
+need, it seemed appropriate.)  Marc-Andre Lemburg resigned as chair of
+the Public Support Committee earlier, and Deibel was appointed chair
+to replace him.
+
+The Python Website Committee was dissolved by unanimous vote.  The
+Board intends to create a new committee to manage the web site at its
+next meeting.  The Board discussed creating a public relations
+committee to replace the Python Website committee, but decided not to
+create such a committee immediately.  One question was the distinction
+between a public relations committee and the Public Support Committee.
+
+Von L?wis volunteered to chair a new grant committee.  He will
+present a motion for its creation at the next board meeting.
+
+4. Corporate address
+####################
+
+The Board agreed that its official address should be changed from
+its current address care-of Zope Corporation.  Deibel said he would
+contact our registered agent to see if we can use them for our
+official address.
+
+5. Other action items
+#####################
+
+Von L?wis agreed to continue his work on the contributor
+agreements.  Peters agreed to finish Lemburg's work on the bylaws; the
+goal is to revise the bylaws to allow for electronic communications
+and meetings.

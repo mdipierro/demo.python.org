@@ -1,0 +1,92 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+January 11, 2005 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 18:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Stephan Deibel, David Ascher, Tim Peters,
+Martin v. L?wis and Steve Holden. Neal Norwitz was also
+present. Steve was taking minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+No minutes were available for approval.
+
+3.Reports
+#########
+
+Neal informed the Board that Kurt Kaiser had volunteered to act as
+Assistant Treasurer. It was agreed Kurt should be added to the
+psf-board mailing list.
+
+Neal further informed the Board that a contribution of stock in a
+public company had been received. The general feeling of the Board
+was that speculative investments were not appropriate at this time,
+and so Neal will investigate disposing of the stock. No
+resolution is necessary for this sale.
+
+4. PyCon PSF Q&A; Session
+#########################
+
+Stephan reminded everyone that there was to be a "PSF Question
+and Answer" sessions at PyCon, probably of 15 or 30 minutes duration,
+and asked for volunteers to represent the Foundation. All agreed
+they would be happy to do so, and so it was decided that this
+should be a plenary session, possibly around lunch time.
+
+5. Sponsor Member Application: Active Grid
+##########################################
+
+Stephan reported that Active Grid wished to be considered for
+Sponsor Membership at the next Members Meeting. It was
+
+    RESOLVED that ActiveGrid is accepted as a pending Sponsor
+     Member for approval by the PSF Membership at the next PSF member meeting
+     (in March 2005).  Approved 7-0-0.
+
+6. PyCon Attendance: Travel and Accommodation Support
+#####################################################
+
+Steve reported that Guido had requested funding to attend PyCon,
+as his employer would not fund the necessary travel and accommodation.
+Given Guido's special position in the Python community it was
+
+    RESOLVED that the PSF will pay for Guido van Rossum's expenses to attend
+     PyCon 2005, up to $2,500 total. Approved 6-0-1.
+
+A discussion followed about similar support for individuals 
+whose presence the Board
+felt would enhance the conference. While it was too late for this year the
+Board as a whole felt that this should really be the subject of policy in
+future years to avoid the appearance of favoritism. It was
+
+    RESOLVED that the Python Conference Committee is given additional funds
+     of up to $3,000 to pay attendance costs for individuals attending PyCon
+     2005 , at the discretion of the Conference Committee. Approved 7-0-0.
+
+7. Web Site Redesign
+####################
+
+Steve reported that a proposal had been received from Tim Parkin of
+Pollenation Internet to revise the www.python.org web site's structure
+and means of content management. It was
+
+    RESOLVED, that the board approves payment of a total of 4,000 GBP to Tim
+     Parkin for redevelopment of the python.org website as described in his
+     proposal.  Payment will take place in two installments of 2,000 GBP, at
+     the prevailing exchange rate of up to US $2/GBP), one payment before the
+     work commences and one after the deliverables described in the proposal
+     have been provided.  Approved 6-1-0.
+
+6. Adjournment
+##############
+
+There being no further business, Stephan adjourned the meeting at 19:03.

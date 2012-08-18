@@ -1,0 +1,92 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+June 15, 2004 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Guido van Rossum, Martin v. L?wis, Stephan Deibel,
+Tim Peters. Neal Norwitz also attended the meeting. Martin was taking minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The April minutes where approved with 5/0/0. The May minutes were
+approved with 4/0/1.
+
+3. Reports
+##########
+
+The treasurer report was emailed. Martin reported no progress on contributor
+agreements, and *will summarize the status of 
+affairs to the board list.*
+Tim reported no progress on bylaw changes for electronic voting.
+
+4. Committee reports to the members
+###################################
+
+Marc-Andre Lemburg requested that committees give regular
+reports. The board agreed that committees report atleast quarterly,
+and *the PSF chairman will remind committee 
+chairs of their reporting duties.*
+
+The board also agreed to create a PSF wiki; this has been created
+at `http://www.python.org/cgi-bin/moinmoin/PythonSoftwareFoundation <http://www.python.org/cgi-bin/moinmoin/PythonSoftwareFoundation>`_.
+These wiki pages shall be used for communication within the committees.
+
+David Ascher joined the meeting for the remaining agenda items.
+
+5. Preferred License
+####################
+
+Aahz requested that the board suggests an official PSF policy on
+a license Python applications and packages should use, so that they
+better integrate with Python, and can be potentially included with
+Python in the future. The board has discussed this question. Martin
+summarized earlier discussion concluding that packages should *not*
+use the Python license. Tim suggested that the board recommends a 
+"no-hassle" license, such as BSD or MIT.
+
+Guido suggested to recommend
+one of Larry Rosen's licenses, e.g. the Academic Free License, instead.
+
+David commented that this license is loaded. It is an interesting license,
+and he likes it, but he doesn't think it is right for Python.
+
+Jeremy asked whether the board needs to make a specific recommendation.
+Martin said that if we cannot agree, we cannot make a recommendation.
+David argued that we were doing so well: the board should show leadership,
+and we know more about licenses than 99% of the contributors. Stephan
+asked whether it would be sufficient just to recommend not using the GPL.
+Guido said that general proliferation of licenses is a problem, as
+many are mutually incompatible. Jeremy pointed out that Python "stood"
+for something in the licensing world, for specifically not being GPL.
+
+After further discussion, there was a general consensus that the board
+would recommend MIT/BSD as a license for Pythonic software. 
+*David will
+draft a motion in this direction after the meeting.*
+
+6. Budget for the treasurer
+###########################
+
+Neal Norwitz requested funds for a computer and a scanner, for 
+processing PSF paperwork. The board agreed that it would be better
+to grant a budget to the treasurer from which such expenses could
+be paid. Stephan moved that it is
+
+    RESOLVED, that we give Neal a budget for $2k for expenses as
+      a treasurer.
+
+The motion passed 6/0/0.
+
+7. Adjournment
+##############
+
+Their being no further business, Stephan adjourned the meeting at 18:00GMT.

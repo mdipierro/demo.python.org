@@ -1,0 +1,106 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+August 9, 2005
+
+A regular meeting of the Python Software Foundation (the &quot;PSF&quot;) Board
+of Directors was held over Internet Relay Chat at 17:00 UTC, August 9,
+2005.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, Tim Peters, Martin von L?wis, Andrew
+Kuchling, and Jeremy Hylton.  Kurt B. Kaiser (Assistant Treasurer),
+David Goodger (Assistant Secretary), Jeff Rush, and Ralph Green were
+also in attendance.  D. Goodger prepared these minutes.
+
+2   Meeting minutes of past meetings
+------------------------------------
+
+The July 2005 minutes were approved with a 5-0-0 vote.
+
+3   PyCon Contract
+------------------
+
+A &quot;Group Sales Agreement&quot; contract was received via Jeff Rush of the
+Dallas-Fort Worth Pythoneers, for a two-year (2006 & 2007) commitment
+to hold PyCon at the Marriott Quorum hotel in Addison, Texas (a suburb
+of Dallas).  In brief:
+
+- The PSF commits to filling a block of hotel rooms, at a reduced rate for delegates ($79/night for single/double, $89/night for triple/quads, plus taxes).
+
+- The hotel provides conference space for up to 600 delegates at no charge, for 1 tutorial day, 3 conference days, and 4 days of sprints.
+
+- The PSF pays for hotel-provided catering services ($42 per delegate per conference or tutorial day).
+
+- The PSF pays for hotel-provided wireless networking ($11000 per conference).
+
+Points of discussion: 
+
+- Why a two year contract?  We offered a two year commitment so that 1) the hotel is more willing to make concessions, and 2) we don't need to go through the site selection process again right away.
+
+- Worst case scenario: a penalty of approximately $77000 if we cancel either conference.  (Symetrically, the hotel must pay the PSF $77000 if it cancels on us.)
+
+- If everyone hates Dallas and no one comes to 2006, we can't move in 2007 without paying the penalty.  This was deemed unlikely. Conference locations are pretty generic.
+
+- If 2006 attendance is low, the expected 2007 attendance figures can be reduced to 80% of 2006 before requiring renegotiation.
+
+- The loss of DC-area delegates (28% at PyCon DC 2005) will probably be made up by new delegates from the Dallas area.  Dallas is a high-tech haven (telecomm corridor, Addison getting metro-wide wi-fi this fall, etc.).
+
+- A 100-delegate conference would incur a $58000 loss.
+
+- The break-even point (after projected sponsor donations) is 375 delegates.
+
+- PyCon DC 2006 saw about 430 delegates.
+
+- Payment for hotel-provided services is due after each conference.
+
+- There are clauses for force majeure
+
+- The PSF's liability insurance covers conferences.
+
+- There are no other realistic alternatives at this point.
+
+- There is a possibility of a 1%-7% rebate from the city on the hotel prices.  The conference committee will be applying for it after the contract is signed.
+
+- The 2007 dates are to be determined and will remain negotiable.
+
+The Conference Committee Chair (A. Kuchling) and the Dallas-Fort Worth
+Pythoneers representative (J. Rush) both felt the contract is
+reasonable and are satisfied with the hotel's commitment.  The board
+deemed the risks and potential losses acceptable.  The board then
+
+    RESOLVED, that Kurt Kaiser and Andrew Kuchling are authorized to
+    obligate the PSF under the previously emailed 2-year contract for
+    PyCon 2006/2007 to be held at the Marriot Quorum in Dallas, Texas.
+    The contract may be changed before signing but any changes will be
+    reported to the PSF board and may not increase the financial
+    obligation assumed by the PSF.
+
+Approved 5-0-0. 
+
+The board also expressed its thanks to Jeff Rush, Ralph Green, and the
+Dallas-Fort Worth Pythoneers for their excellent work.
+
+4   Infrastructure Committee Status Report
+------------------------------------------
+
+A. Kuchling reported that PyPI was moved over to one of the new
+machines, and seems to be running fine.  It's running under the name
+cheeseshop.python.org, chosen by Richard Jones.  www.python.org now
+proxies for cheeseshop.
+
+Moving the static web service is the final piece, and is now being
+thought out.
+
+There was an issue with proving our identity to the SSL certificate
+issuing company.  Kuchling said he would ask Barry about the status of
+the SSL certificates.
+
+5   Adjournment
+---------------
+
+Stephan Deibel adjourned the meeting at 18:00 UTC.

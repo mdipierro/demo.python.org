@@ -1,0 +1,307 @@
+The Python Software Foundation 
+
+Minutes of the 2008 Members' Meeting 
+
+March 14, 2008
+
+The Python Software Foundation (the &quot;PSF&quot;) held its annual members'
+meeting on March 14, 2008 at 12:40 CDT (17:40 UTC) at the Crowne Plaza
+Chicago O'Hare hotel in Rosemont, Illinois, USA (PyCon 2008 Chicago).
+The `agenda is available here <agenda/>`_.  Stephan Deibel presided
+over the meeting.  David Goodger prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Election of Nominated Members <#election-of-nominated-members>`_
+
+- `3   Election of Sponsor Members <#election-of-sponsor-members>`_
+
+- `4   Election of a New Board of Directors <#election-of-a-new-board-of-directors>`_
+
+- `5   ILM membership termination <#ilm-membership-termination>`_
+
+- `6   Recognition of Stephan Deibel <#recognition-of-stephan-deibel>`_
+
+- `7   Adjournment of Formal Meeting <#adjournment-of-formal-meeting>`_
+
+- `8   Good of the Order <#good-of-the-order>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+33 members were present at the meeting: 
+
+- ASTi, represented by David Ripton for Patrick Gaffney
+
+- Array Biopharma, represented by Ian Kelley for Daniel Weaver
+
+- Facundo Batista
+
+- David M. Beazley
+
+- Steven Bethard
+
+- Brett Cannon
+
+- CCP Games, represented by Kristj?n Valur J?nsson
+
+- Andrew Dalke
+
+- Stephan Deibel
+
+- Catherine Devlin
+
+- Jeff Elkner
+
+- David Goodger
+
+- Mark Hammond
+
+- Raymond Hettinger
+
+- Steve Holden
+
+- Jim Hugunin
+
+- Andrew Kuchling
+
+- Martin von L?wis
+
+- Alex Martelli
+
+- Mike McLay
+
+- Merfin LLC, represented by Reggie Dugard
+
+- Microsoft, represented by Jim Hugunin
+
+- Doug Napoleone
+
+- Neal Norwitz
+
+- Travis Oliphant
+
+- Anna Ravenscroft
+
+- Guido van Rossum
+
+- Jeff Rush
+
+- Barry Warsaw
+
+- Thomas Wouters
+
+- Ka-Ping Yee
+
+- ZeOmega, represented by Brad Allen for Sam Rangaswamy
+
+- Brian Zimmer
+
+35 members were represented by proxy (in parentheses): 
+
+- Aahz (Anna Ravenscroft)
+
+- David Ascher (Mark Hammond)
+
+- Georg Brandl (Thomas Wouters in lieu of Richard Jones, absent)
+
+- Hye-Shik Chang (Barry Warsaw)
+
+- Nick Coghlan (Brett Cannon)
+
+- Matthew Dixon Cowles (Alex Martelli)
+
+- Laura Creighton (Andrew Dalke)
+
+- Walter D?rwald (Barry Warsaw)
+
+- Fred L. Drake, Jr. (Barry Warsaw)
+
+- Paul Everitt (Barry Warsaw)
+
+- Greg Ewing (Barry Warsaw)
+
+- Google, represented by Chris DiBona (Guido van Rossum)
+
+- Thomas Heller (Mark Hammond)
+
+- Neil Hodgson (Stephan Deibel)
+
+- Jack Jansen (Mark Hammond)
+
+- Kurt B. Kaiser (Neal Norwitz)
+
+- Cameron Laird (Barry Warsaw)
+
+- Marc-Andr? Lemburg (Mark Hammond)
+
+- Ken Manheimer (Barry Warsaw)
+
+- Sjoerd Mullender (Mark Hammond)
+
+- Gustavo Niemeyer (Barry Warsaw)
+
+- Uche Ogbuji (Mark Hammond)
+
+- Opsware, represented by Ray Suorsa (Mark Hammond)
+
+- George Paci (Jeff Elkner)
+
+- Samuele Pedroni (Anna Ravenscroft)
+
+- Tim Peters (Barry Warsaw)
+
+- Paul Prescod (Brett Cannon)
+
+- Armin Rigo (Steve Holden)
+
+- Neil Schemenauer (Andrew Kuchling)
+
+- Peter Schneider-Kamp (Barry Warsaw)
+
+- Greg Stein (Guido van Rossum)
+
+- Strakt Holdings, represented by Laura Creighton (Andrew Dalke)
+
+- Jason Tishler (Neal Norwitz)
+
+- Christian Tismer (Raymond Hettinger)
+
+- Trevor Toenjes (Steve Holden)
+
+3 members voted by absentee ballot: 
+
+- ActiveState, represented by Trent Mick
+
+- Robin Dunn
+
+- Trent Mick
+
+The PSF had a total membership of 100 (sponsor members & active
+nominated members) before the meeting.  71 members (71%) were in
+attendance, represented by proxy, or voted by absentee ballot,
+constituting a quorum according to the Bylaws.
+
+Two nominees were also present, initially as observers: 
+
+- Van Lindberg
+
+- James Tauber
+
+`2   Election of Nominated Members <#id2>`_
+-------------------------------------------
+
+The individual summaries/recommendations was sent to the psf-members
+mailing list on February 15, and were not reviewed.  The observers
+(Van Lindberg & James Tauber) were asked to introduce themselves.
+
+After discussion, all proposed nominated members were elected (vote
+counts in parentheses, for-against-abstain):
+
+- Titus Brown (61-0-10)
+
+- Mark Dickinson (52-0-19)
+
+- Amaury Forgeot d'Arc (60-0-11)
+
+- Christian Heimes (62-0-9)
+
+- Van Lindberg (59-0-12)
+
+- David Mertz (63-0-8)
+
+- John Pinner (50-0-21)
+
+- James Tauber (61-0-10)
+
+`3   Election of Sponsor Members <#id3>`_
+-----------------------------------------
+
+Four companies have applied for sponsor membership.  The candidates
+were discussed.  The Board had already recommended EarnMyDegree.com
+and HitFlip as pending sponsor members.  AT Battery and Sun
+Microsystems were late additions.  AT Battery sent a check with their
+membership application but had not replied to requests for their
+reasons for seeking membership.  Sun Microsystems did reply.
+
+After the discussion, the following sponsor members were elected (vote
+counts in parentheses):
+
+- EarnMyDegree.com (52-0-19)
+
+- HitFlip (53-0-18)
+
+- Sun Microsystems (63-0-8)
+
+Not elected: AT Battery (3-17-51)
+
+`4   Election of a New Board of Directors <#id4>`_
+--------------------------------------------------
+
+There were 8 candidates for 8 board positions.  All were elected (vote
+results in parentheses):
+
+- Brett Cannon (68-0-3)
+
+- Stephan Deibel (68-0-3)
+
+- David Goodger (67-0-4)
+
+- Raymond Hettinger (66-0-5)
+
+- Steve Holden (69-0-2)
+
+- Martin von L?wis (68-0-3)
+
+- Tim Peters (68-0-3)
+
+- James Tauber (59-1-11)
+
+`5   ILM membership termination <#id5>`_
+----------------------------------------
+
+Steve Holden reported that he had contacted representatives of
+Industrial Light & Magic, who expressed a strong desire to become full
+members again.  Therefore Steve moved to withdraw the motion to
+terminate ILM's membership.  The motion was seconded and approved in a
+visual vote.
+
+`6   Recognition of Stephan Deibel <#id6>`_
+-------------------------------------------
+
+Steve Holden moved to recognize the contributions of the outgoing
+Chairman of the PSF Board of Directors, Stephan Deibel.  The motion
+passed enthusiastically.
+
+`7   Adjournment of Formal Meeting <#id7>`_
+-------------------------------------------
+
+Stephan Deibel adjourned the formal part of the meeting at 13:25 CST.
+Informal discussion followed.
+
+`8   Good of the Order <#id8>`_
+-------------------------------
+
+Topics discussed: 
+
+- Andrew Kuchling reported on PyCon 2007.
+
+- Mike McLay asked about the expanding role of Python as a replacement for Java.
+
+- David Goodger reminded the members of his PyCon 2008 pre-conference report sent to the psf-members list.  Specifically, the proposal for establishing a paid position for PSF and PyCon work.  Some members had not read the proposal.  David will re-post the proposal.
+
+- Facundo Batista asked permission to use the name &quot;PyCon&quot; for a conference in Argentina.  The consensus was that Python Argentina is free to use the term.  The name &quot;PyCon&quot; is not a registered trademark.
+
+- Van Lindberg briefly explained trademark law, including this sentence from the `PSF Trademark Usage Policy </psf/trademarks/>`_:         Always use any trademark as an adjective only, followed by a     generic noun.     Van recommended that the PSF register the Python & PyCon logos.
+
+- Facundo Batista asked about the threshold above which contributor agreements were necessary.  Van Lindberg replied &quot;it depends&quot;; the interpretation of trivial versus significant changes is open to interpretation.     Andrew Kuchling asked what we should do if there's no contributor form.  It was pointed out that the Google Summer of Code required participants to submit PSF contributor forms.     Martin von L?wis noted that it's best to be covered.  Guido van Rossum noted that contributor forms are really for the reassurance of companies who use Python.     Facundo Batista suggested that contributor form information be integrated with the issue tracker (bug/patch tracker).  This was welcomed as a good idea.     Doug Napoleone reported that there's a company that checks open source codebases against its clients' proprietary code.
+
+- Steve Holden read the unofficial results of the elections, which corresponded to the official results above.
+
+- Steve Holden raised the issue of certification.  As time was getting short, discussion was deferred to the mailing list.
+
+- The members of the new Board of Directors agreed to have their first meeting that evening at 18:30 CDT.
+
+The informal discussion adjourned at 13:10 CDT.

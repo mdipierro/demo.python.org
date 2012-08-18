@@ -1,0 +1,1895 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- psf/donations -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/psf/donations">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p>&#64;&#64;FORM&#64;&#64;</p>
+<div class="section" id="donate-to-the-psf">
+<h1>Donate to the PSF!</h1>
+<div class="section" id="what-does-the-python-software-foundation-do">
+<h2>What does the Python Software Foundation do?</h2>
+<p>The <a class="reference external" href="/pythonorg/default/index/psf/">Python Software Foundation</a>:</p>
+<ul class="simple">
+<li>Holds and defends the copyright and other intellectual property rights for the Python programming language.</li>
+<li>Holds and defends the copyright and trademark for the Jython implementation of Python.</li>
+<li>Awards grants and provides resources for furthering the development and adoption of Python.</li>
+<li>Organizes the annual <a class="reference external" href="http://us.pycon.org">PyCon</a> conference.</li>
+<li>Pays for hardware and other costs for hosting the python.org servers.</li>
+<li>Supports other conferences, meetings, and community activities.</li>
+<li>Recognizes individuals who have contributed to the Python community with <a class="reference external" href="/pythonorg/default/index/community/awards/psf-awards/">Community Awards</a>.</li>
+</ul>
+<p>To learn about recent PSF activities,
+visit <a class="reference external" href="http://pyfound.blogspot.com/">the Python Software Foundation's weblog</a>.</p>
+</div>
+<div class="section" id="how-can-i-donate">
+<h2>How can I donate?</h2>
+<p>We welcome contributions from both organizations and individuals.</p>
+<ul class="simple">
+<li><strong>Donate by credit card</strong> using the form at upper right.      We accept MasterCard, Visa, and American Express. Note: For amounts greater than US$1,300.00, paying by wire transfer or check will get more of your donation to the PSF.</li>
+<li><strong>Donate through PayPal</strong> by clicking on the button below.</li>
+</ul>
+<p>&#64;&#64;FORM&#64;&#64;</p>
+<ul class="simple">
+<li><strong>Mail a personal check, money order, or bank check</strong>      Address checks to <a class="reference external" href="/pythonorg/default/index/psf/about#how-do-i-reach-the-psf">the PSF headquarters</a>.      If you would like a receipt emailed to you, please include your email address along with your check.     Checks in US currency are preferred.  We can accept other currencies for donations valued US$20 or more, but fees on conversions are significant.</li>
+<li><strong>Electronic wire transfers</strong>      Please see <a class="reference external" href="/pythonorg/default/index/psf/wirexfer">Wire Transfer Info</a> for details.      The transaction fees are substantial, so please only use transfers for donations valued at US$50 or more.</li>
+</ul>
+<p>For US taxpayers, contributions to the PSF are tax-deductible.  The
+PSF has been recognized as a public charity under section 501(c)(3) of
+the Internal Revenue Code.  (See <a class="reference external" href="/pythonorg/default/index/files/psf/records/tax-exempt.txt">the exemption letter</a> for details.)  You should
+consult your tax adviser for rules as they apply to your situation.</p>
+<p>Donations to the PSF are currently not tax-deductible in most other
+countries; most countries require an organisation to be incorporated
+in that country (or in the EU, for EU member states), and the PSF does
+currently not have the resources to do so.</p>
+<p>If you have a question about donations, please write to the PSF at
+<a class="reference external" href="mailto:psf%40python.org">(psf&#64;python.org)</a>.</p>
+</div>
+</div>
+<div class="section" id="donors">
+<h1>Donors</h1>
+<p>The PSF would like to thank the following donors for their
+contributions.  Donors are listed in descending order using an algorithm
+that takes into account both the amount of donation and the age of the
+donation.</p>
+<p>This list is current as of June 15, 2012:</p>
+<ul class="simple">
+<li><strong>Vanguard Charitable Endowment</strong></li>
+<li><strong>Nate Lawson</strong></li>
+<li>Bernard De Serres</li>
+<li>Anonymous</li>
+<li>Tarek Ziade</li>
+<li>Travis Oliphant</li>
+<li>Noah Kantrowitz</li>
+<li>James Bennett</li>
+<li>PyCon Donation</li>
+<li>Kitware, Inc.</li>
+<li>Gruschow Foundation</li>
+<li>Melissa Cirtain</li>
+<li><strong>Google, Inc.</strong></li>
+<li>Regina Dowdell</li>
+<li>EuroPython 2011 Sponsored Massage</li>
+<li>PyCon Ireland</li>
+<li>Yoav Shapira</li>
+<li>EuroPython 2010 Sponsored Massage</li>
+<li>Kenneth Stox</li>
+<li>Jodi Havranek</li>
+<li>Jeremy Kelley</li>
+<li>Stephen Spector</li>
+<li>Shannon Hook</li>
+<li>Potato</li>
+<li>Shashwat Anand</li>
+<li>anatoly techtonik</li>
+<li>Nick Coghlan</li>
+<li>Handojo Goenadi</li>
+<li>WebReply Inc</li>
+<li>Grigoriy Krimer</li>
+<li>Kyle Scarmardo</li>
+<li>Robert Kluin</li>
+<li>John Morrissey</li>
+<li>Intevation GmbH</li>
+<li>Network Theory Ltd</li>
+<li>Max Lekomcev</li>
+<li>Justin Hugon</li>
+<li>Pat Benson</li>
+<li>Chris Shenton</li>
+<li>Francisco Gracia</li>
+<li>Stefan Drees</li>
+<li>Doug Philips</li>
+<li>Christina Long</li>
+<li>Wingware</li>
+<li>Richard Weldon</li>
+<li>FreshBooks</li>
+<li>John M. Camara</li>
+<li>Andrew Kuchling</li>
+<li>Blitware Technology Inc.</li>
+<li>Mark Eichin</li>
+<li>Blaise Laflamme</li>
+<li>Yury Yurevich</li>
+<li>Nathan Miller</li>
+<li>Michael Kallay</li>
+<li>Henry Haugland</li>
+<li>Florian N?ding</li>
+<li>Jeff Self</li>
+<li>Young Lee</li>
+<li>Christopher Roach</li>
+<li>KenTyde</li>
+<li>Accense Technology, Inc.</li>
+<li>Doug Hellmann</li>
+<li>Zaber Technologies Inc</li>
+<li>Exoweb</li>
+<li>Dan Silvers</li>
+<li>Timothy Murphy</li>
+<li>Jannis Leidel</li>
+<li>Allan Saddi</li>
+<li>Google Matching Gifts</li>
+<li>Eigenvalue Corporation</li>
+<li>SRAM</li>
+<li>Memset Ltd</li>
+<li>tell-k</li>
+<li>Mark Lee</li>
+<li>Gary Kahn</li>
+<li>Daniel</li>
+<li>takakuwakeisoku</li>
+<li>Atsuo Ishimoto</li>
+<li>Tom Bajoras, Art &amp; Logic</li>
+<li>Foote Family Fund</li>
+<li>BMC Atrium</li>
+<li>Richard House</li>
+<li>Aron Ahmadia</li>
+<li>Morten Lind Petersen</li>
+<li>Ben Dickson</li>
+<li>Andrew Aylward</li>
+<li>Evgeniya Larina</li>
+<li>Aaron Robson</li>
+<li>Anna Ravenscroft</li>
+<li>Paul McGinnis</li>
+<li>Barry Pederson</li>
+<li>dirk bergstrom</li>
+<li>Jacques de Selliers</li>
+<li>Lukas Vacek</li>
+<li>JUNJI NAKANISHI</li>
+<li>Shinya Okano</li>
+<li>Michael D. Healy</li>
+<li>Mike Albert</li>
+<li>Andrey Popp</li>
+<li>Benjamin Smith</li>
+<li>Hideaki Takahashi</li>
+<li>Terry Simons</li>
+<li>Corey Goldberg</li>
+<li>Roberto Gal</li>
+<li>Charles Norton</li>
+<li>Nate Swanberg</li>
+<li>Wolfgang Doll</li>
+<li>Richard King</li>
+<li>Kurtis Rader</li>
+<li>Alan Cima</li>
+<li>Leo VAN DER VELDEN</li>
+<li>Luke Tymowski</li>
+<li>Kunal Gupta</li>
+<li>Ryan Gorman</li>
+<li>Matt Terry</li>
+<li>Michael Newman</li>
+<li>Vern Ceder</li>
+<li>SafPlusPlus</li>
+<li>Rich Signell</li>
+<li>Robert Dennison</li>
+<li>Chris Adams</li>
+<li>Jacob Perkins</li>
+<li>Diogo Pinto</li>
+<li>Mark Redar</li>
+<li>Python Spa</li>
+<li>Moshe Zadka</li>
+<li>Nick Semenkovich (semenko)</li>
+<li>Pieter-Jan Dewitte</li>
+<li>BERNARD Olivier</li>
+<li>Barry Marshall</li>
+<li>RIPE NCC</li>
+<li>??? ?oe&amp;Yuml;???</li>
+<li>Gladys Michaels</li>
+<li>Paul W Stein</li>
+<li>EuroPython Conference Dinner (sponsored massage)</li>
+<li>Sacred Sircle Marketing</li>
+<li>Mary Frances Hunter</li>
+<li>House of Laudanum, Australia</li>
+<li>Matt Hagy</li>
+<li>MAN YONG LEE</li>
+<li>Edgardo Rafael Medrano</li>
+<li>FreeWear.org</li>
+<li>Jeff Ramnani</li>
+<li>Brian T. Edgar</li>
+<li>Greg Albrecht</li>
+<li>Edward Swartz</li>
+<li>nazmi Postacioglu</li>
+<li>J.T. Presta</li>
+<li>???&amp;euro;???? ?&amp;rsaquo;??? ?&amp;sbquo;????</li>
+<li>Team 2ch</li>
+<li>pycon.ca</li>
+<li>Barry Scheepers</li>
+<li>Tobias Ammann</li>
+<li>Mansour Farghaly</li>
+<li>Michael Bachelder</li>
+<li>Stephen McDonald</li>
+<li>kracekumar</li>
+<li>James Dennis</li>
+<li>Edward Hebert Jr</li>
+<li>Eric Renkey</li>
+<li>Charles King</li>
+<li>mtgeek</li>
+<li>Massimo Di Pierro</li>
+<li>Nikolay Khodov</li>
+<li>Toby Ho</li>
+<li>Daniel Tehranian</li>
+<li>Roy Hyunjin Han</li>
+<li>Ohio Valley Energy</li>
+<li>Nordic Software, Inc.</li>
+<li>Sophia Collier</li>
+<li>Cristian Marinescu</li>
+<li>Ren? RIBAUD</li>
+<li><ol class="first upperalpha" start="5">
+<li>Blake Peterson</li>
+</ol>
+</li>
+<li>Steve Bandel</li>
+<li>Microsoft Matching Gifts</li>
+<li>Paul McLanahan</li>
+<li>Gabriel</li>
+<li>Minesh B. Amin</li>
+<li>Mirus Research</li>
+<li>Joseph Kottke</li>
+<li>DAIGO TOYOTA</li>
+<li>Marcelo de Sena Lacerda</li>
+<li>Jan Blankenburgh</li>
+<li>Karl Obermeyer</li>
+<li>Kyran Dale</li>
+<li>Richard Floyd</li>
+<li>Diana Clarke</li>
+<li>Albert O'Connor</li>
+<li>Matthew Blomquist</li>
+<li>ExoAnalytic Solutions</li>
+<li>Luca Bergamini</li>
+<li>Berker Peksa?&amp;Yuml;</li>
+<li>Kelsey Hightower</li>
+<li>Heikki Lehtinen</li>
+<li>joaquin berenguer</li>
+<li>Scott Bucher</li>
+<li>Richard Leland</li>
+<li>Sidney Cave</li>
+<li>Hishiv Shah</li>
+<li>piko</li>
+<li>Eric Walstad</li>
+<li>Jan Hapala</li>
+<li>Odair G Martins</li>
+<li>John D Blischak</li>
+<li>Michael Garba</li>
+<li>Adebayo Opadeyi</li>
+<li>dechico marc</li>
+<li>Marissa Huang</li>
+<li>David Ripton</li>
+<li>Robert Scrimo</li>
+<li>Don Bush</li>
+<li>Miju Han</li>
+<li>Terry Bates</li>
+<li>Walker Hale</li>
+<li>Vihaan Majety</li>
+<li>Richard Ames</li>
+<li>Kurt B. Kaiser</li>
+<li>Kevin Crothers</li>
+<li>Chris Guidry</li>
+<li>Jennifer Selby</li>
+<li>Ian Wilson</li>
+<li>Neil Tallim</li>
+<li>Maurycy Pietrzak</li>
+<li>Threepress Consulting Inc.</li>
+<li>Beau Lyddon</li>
+<li>EDUARDO TADEU FELIPE LEMPE</li>
+<li>Robert Love</li>
+<li>Rodney Hardrick</li>
+<li>grizlupo</li>
+<li>Patrik Hersenius</li>
+<li>Orne Brocaar</li>
+<li>Chris Kelly</li>
+<li>Uniblue Systems Ltd</li>
+<li>Dan Medley</li>
+<li>K Hart Insight2Action</li>
+<li>Inspection Help, LLC</li>
+<li>julio berdote</li>
+<li>Matt Lott</li>
+<li>Alexander Perkins</li>
+<li>Devin Jacobs</li>
+<li>Vicky Tuite</li>
+<li>Jim Hess</li>
+<li>Kent Churchill</li>
+<li>In Spec, Inc.</li>
+<li>Jonathan Leicher</li>
+<li>GmonE! GPS Tracking System</li>
+<li>Ronald</li>
+<li>?&quot;?&amp;euro;???????&amp;euro;???? ?&amp;scaron;??? ?&amp;sbquo;?&amp;#x17D;??</li>
+<li>Mike Tracy</li>
+<li>imo.im</li>
+<li>Robert Liverman</li>
+<li>Chi F. Chen</li>
+<li>Christian Hattemer</li>
+<li>Jozef Iljuk</li>
+<li>lolo</li>
+<li>Python Ireland</li>
+<li>josef hoffman</li>
+<li>CodeModLabs LLC</li>
+<li>Iman Haamid</li>
+<li>Sharan Sharalaya</li>
+<li>agathe battestini</li>
+<li>Tom Bennett</li>
+<li>bspinor</li>
+<li>Chris McDonough</li>
+<li>Paul Scherf</li>
+<li>Victor Stinner</li>
+<li>Wilhelm Kleiminger</li>
+<li>Allen George</li>
+<li>Steven Grubb</li>
+<li>Karl Schleicher</li>
+<li>Chen Ruo Fei</li>
+<li>????&quot;? ?&amp;rsaquo;??&quot;&amp;permil;</li>
+<li>Russell Folks</li>
+<li>Jeffrey Meyer</li>
+<li>Paul Felix</li>
+<li>Daniel Gonzalez Ibeas</li>
+<li>Osvaldo Dias dos Santos</li>
+<li>Eran Rechter</li>
+<li>Campbell-Lange Workshop</li>
+<li>David O'Brennan</li>
+<li>Adobe Inc. Matching Gift</li>
+<li>Martin Eggen</li>
+<li>Brian Howell</li>
+<li>??? ? ???&amp;euro;</li>
+<li>Matthew Marshall</li>
+<li>Suzuki Tomohiro</li>
+<li>Konstantin Tretyakov</li>
+<li>Suzie Etchart</li>
+<li>??&amp;Scaron;??&amp;bull; ??&amp;euro;???</li>
+<li>Christopher Grebs</li>
+<li>Juan David Gomez</li>
+<li>Clinton James</li>
+<li>PyConUK (sponsored massage)</li>
+<li>saurav agarwal</li>
+<li>Bill Zingler</li>
+<li>Nick Joyce</li>
+<li>Marek Lach</li>
+<li>Ari Flinkman</li>
+<li>Erland Nordin</li>
+<li>MBA Sciences, Inc</li>
+<li>Xiang Xin Luo</li>
+<li>Markus Wulff</li>
+<li>Sherman Wilcox</li>
+<li>Manfred Moitzi</li>
+<li>ANDRE ROBERGE</li>
+<li>Huan Do</li>
+<li>Kyle Stephens</li>
+<li>Kenneth Platt</li>
+<li>PEDRO JARA VIGUERAS</li>
+<li>Eduardo Ribeiro</li>
+<li>Bob Ippolito</li>
+<li>Cedric Drolet</li>
+<li>Arian van Dorsten</li>
+<li>Varghese Philip</li>
+<li>Richard Ross</li>
+<li>Michael Albert</li>
+<li>Alessandro de Manzano</li>
+<li>Junghoon Kim</li>
+<li>Arezqui Belaid</li>
+<li>Stephen Waterbury</li>
+<li>Vipul Borikar</li>
+<li>RAVI KRISHNAPPA</li>
+<li>Aaron Lav</li>
+<li>John Szakmeister</li>
+<li>Michael Groh</li>
+<li>Ryan Franklin</li>
+<li>Ellina Petukhova</li>
+<li>NEIL PASSAGE</li>
+<li>DistroWatch.com</li>
+<li>Penny Rand</li>
+<li>tony cervantes</li>
+<li>Tim Peters</li>
+<li>Yuichi Nishiyama</li>
+<li>Simon Arlott</li>
+<li>Atlantes Global Ltd</li>
+<li>BitAlyze ApS Morten Zilmer</li>
+<li>Warren Thom</li>
+<li>Kai Groner</li>
+<li>Carlos Valiente</li>
+<li>Johan Lammens</li>
+<li>Shawn Brown</li>
+<li>Fernando Fco Toro Rueda</li>
+<li>Alext</li>
+<li>Pablo Recio Quijano</li>
+<li>Theodore Pollari</li>
+<li>Gregory Bolstad</li>
+<li>Brett Anderson</li>
+<li>Randy Wiser</li>
+<li>John Eiler</li>
+<li>SATOSHI ARAI</li>
+<li>David Glick</li>
+<li>Douglas Ireton</li>
+<li>Juan Pablo Ca?as Arboleda</li>
+<li>Arach Tchoupani</li>
+<li>chris harris</li>
+<li>Johnny Franks</li>
+<li>Oleg Zverkov</li>
+<li>Jonathan B. David</li>
+<li>Douglas Hellmann</li>
+<li>S7 Labs</li>
+<li>Jeffrey Jones</li>
+<li>Arjun Chennu</li>
+<li>Robin Pruss</li>
+<li>Samuel Safyan</li>
+<li>Pierce McMartin</li>
+<li>Wendal Chen</li>
+<li>Roger Hamlett</li>
+<li>Walker Hale IV</li>
+<li>Uday Kumar</li>
+<li>John Sabini</li>
+<li>Jeffery Self</li>
+<li>Alexey Zinoviev</li>
+<li>Andrew Godwin</li>
+<li>Olivier Grisel</li>
+<li>Pedro Luis  Garc?a Alonso</li>
+<li><strong>John Benediktsson</strong></li>
+<li>Paolo Scuro</li>
+<li>Man-Yong Lee</li>
+<li>JET</li>
+<li>Amit Belani</li>
+<li>john parrott</li>
+<li>Will Becker</li>
+<li>alex</li>
+<li>Jack Hagge</li>
+<li><strong>Vancouver Python and Zope User Group</strong></li>
+<li>H?gni Wennerstr?m</li>
+<li>S?bastien Volle</li>
+<li>CHARALAMPOS SAPERAS</li>
+<li>Alois Kuu Poodle</li>
+<li>SteepRock</li>
+<li>Juju, Inc.</li>
+<li>Andrea Barberio</li>
+<li>Hiroshi Yajima</li>
+<li>Aditya Joshi</li>
+<li>aonlazio</li>
+<li>INIKUP</li>
+<li>Stephen Whalley</li>
+<li>Marian Borca</li>
+<li>Reynold Chery</li>
+<li>Brad Fritz</li>
+<li>Robert Hawk</li>
+<li>Eli Bendersky</li>
+<li>John Cox</li>
+<li>Chen YenHung</li>
+<li>Hanover Technology Group</li>
+<li>james adams</li>
+<li>Rune Strand</li>
+<li>Ivo Danihelka</li>
+<li>Oyster Hotel Reviews</li>
+<li>Matt Palmer</li>
+<li>Christian Rocheleau</li>
+<li>Mario Fernandez</li>
+<li>Harry Moore</li>
+<li>greg albrecht</li>
+<li>Hariharan Jayaram</li>
+<li>Michael Bauer</li>
+<li>LUIS PALLARES ANIORTE</li>
+<li>Interet Corporation</li>
+<li>Brian Gershon</li>
+<li>Andre Bellafronte</li>
+<li>H?kan Terelius</li>
+<li>Cynthia Andre</li>
+<li>Andrew Casias</li>
+<li>Jason Whitlark</li>
+<li>Bogdan Luca</li>
+<li>Nicola Larosa</li>
+<li>Antonio Pedrosa</li>
+<li>Maru Newby</li>
+<li>Peter Scheie</li>
+<li>Benjamin Li</li>
+<li>Jinsong Wu</li>
+<li>Jim Wilcoxson</li>
+<li>Quincy Yarde</li>
+<li>Mattias Sundblad</li>
+<li>Juan Pedro Fisanotti</li>
+<li>Jan-Jaap Driessen</li>
+<li>Matthew Lewis</li>
+<li>Jon Levy</li>
+<li>Noah Aklilu</li>
+<li>Lyles Art Gallery</li>
+<li>Roman Susi</li>
+<li>James Tauber</li>
+<li>David Turvene</li>
+<li>Brian Lyttle</li>
+<li>John Palmieri</li>
+<li>Andrea Pelizzari</li>
+<li>David J Harris</li>
+<li>Roger Vossler</li>
+<li>Scott Carpenter</li>
+<li>Fredrik Ohlin</li>
+<li>Levi Haupert</li>
+<li>Scott Lasley</li>
+<li>Dan Jacka</li>
+<li>?&amp;sbquo;? ??&amp;scaron;?&amp;rsaquo;&amp;rsaquo;</li>
+<li>Gerard Blais</li>
+<li>Levi Culver</li>
+<li>Stanislav Bazhenov</li>
+<li>Vasiliy Fomin</li>
+<li>Aleksandrs Orlovs</li>
+<li>Lex Lindsey</li>
+<li>Syd Logan</li>
+<li>bucho</li>
+<li>Muharem Hrnjadovic</li>
+<li>carlos coronado</li>
+<li>Arturo Medina Jim?nez</li>
+<li>???????&amp;euro;???? ???&amp;euro;? ????????</li>
+<li>Nicholas Joyce</li>
+<li>Mike Bauer</li>
+<li>Roger Powell</li>
+<li>Alex&amp;Anna;</li>
+<li>??oe ???</li>
+<li>Benjamin H Smith</li>
+<li>Mark Krautheim</li>
+<li>Tres Seaver</li>
+<li>Two Sigma Investments, LLC</li>
+<li>Ashley Kirk</li>
+<li>Peyroux J.Alexandre</li>
+<li>KC Johnson</li>
+<li>Vagif Hasanov</li>
+<li>Jesper Bernoee</li>
+<li>Jason Robinson</li>
+<li>Benny Bergsell</li>
+<li>Manuel Verlaat</li>
+<li>Hassan Zawiah</li>
+<li>Deniz Kural</li>
+<li>Chris Sederqvist</li>
+<li>George Sakkis</li>
+<li>Ben Charrow</li>
+<li>Jens Meyer</li>
+<li>Fire Crow</li>
+<li>Michael Foord</li>
+<li>Jorge Rivero</li>
+<li>Luca Sabatini</li>
+<li>Peter Fein</li>
+<li>Andrew Webster</li>
+<li>Akira Kitada</li>
+<li>Aggie L. Choi</li>
+<li>Eric Natolini</li>
+<li>Hans-Georg Boden</li>
+<li>Kevin Hazzard</li>
+<li>Charles Miller</li>
+<li>Yarko Tymciurak</li>
+<li>Michael Bentley</li>
+<li>Oliver Andrich</li>
+<li>Szilveszter Farkas</li>
+<li>Alex Dreyer</li>
+<li>Chris Petrich</li>
+<li>Till Keyling</li>
+<li>atusi nakamura</li>
+<li>Chaim Krause</li>
+<li>tjin bui min</li>
+<li>Brian Loomis</li>
+<li>Evgeny Fadeev</li>
+<li>Geoffrey Hing</li>
+<li>Ankur Kumar</li>
+<li>Phil Curtiss</li>
+<li>?&amp;scaron;????? ?&amp;sbquo;?????&amp;sbquo;???? ?--??????????</li>
+<li>Edwin van der Velden</li>
+<li>SourceForge, Inc.</li>
+<li>Kurt Grandis</li>
+<li>Paolo Cantore</li>
+<li>Raphael Costales</li>
+<li>Noah Gift</li>
+<li>Gene</li>
+<li>Raidlogs</li>
+<li>David Garc?a Alonso</li>
+<li>William Roscoe</li>
+<li>Carl Trachte</li>
+<li>Richard Harding</li>
+<li>Allebrum</li>
+<li>Joshua Sorenson</li>
+<li>Sardorbek Pulatov</li>
+<li>NAOFUMI SAKAGUCHI</li>
+<li>Lauren C. Dandridge</li>
+<li>Cerise Cauthron</li>
+<li>Joelle BRUEL</li>
+<li>Paolo</li>
+<li>Eric Sorensen</li>
+<li>Dirkjan Ochtman</li>
+<li>Maximillian Dornseif</li>
+<li>PythonForum.Org</li>
+<li>Pallav Negi</li>
+<li>Christoph Gohlke</li>
+<li>Steve O'Brien</li>
+<li>Cedric Small</li>
+<li>Dawns</li>
+<li>Renato Pereira</li>
+<li>JIN HYEON WOO</li>
+<li>Billy Boone</li>
+<li>Charles Hollingsworth</li>
+<li>Woosha IT</li>
+<li>Scott Turnbull</li>
+<li>Andrew Garner</li>
+<li>Kaan AKSIT</li>
+<li>Made in Hawaii USA</li>
+<li>Michael Stubbs</li>
+<li>Christopher Blunck</li>
+<li>Stepan Wagner</li>
+<li>Tengiz Sharafiev</li>
+<li>Carrie Black</li>
+<li>Matthew Sacks</li>
+<li>Kristaps Buli?&amp;dagger;??</li>
+<li>Stephen Cooper</li>
+<li>Terry Phillips</li>
+<li>Lesli Olding</li>
+<li>Artem Godlevskyy</li>
+<li>Jeff Forcier</li>
+<li>George VanArsdale</li>
+<li>Mark Lotspaih</li>
+<li>the cvs2svn developers</li>
+<li>Slavko Radman</li>
+<li>Michael Trier</li>
+<li>S J Nixon</li>
+<li>David Zakariaie</li>
+<li>Charles M Palmer</li>
+<li>Salil Kulkarni</li>
+<li>Roger Pack</li>
+<li>Brian Munroe</li>
+<li>Keith Rudkin P/L ATF Rudkin Trading Trust</li>
+<li>Doug Woods</li>
+<li>Matt Mahaney</li>
+<li>David Gallwey</li>
+<li>Jeff Flanders</li>
+<li>?&amp;hellip;???? ?&amp;hellip;&amp;fnof;???</li>
+<li>Masakazu Ejiri</li>
+<li>Melanie Fox</li>
+<li>Stephanus Henzi</li>
+<li>Gregory Meno</li>
+<li><strong>Scott Hassan</strong></li>
+<li>enQuira, Inc.</li>
+<li>Robert Ramsdell</li>
+<li>Tarik Sabanovic</li>
+<li>Katsuhiko Kawai</li>
+<li>Yannick Gingras</li>
+<li>Alexandre Carbonell</li>
+<li>Andres Martinez</li>
+<li>James Hancock</li>
+<li>PMP Certification</li>
+<li><ol class="first upperalpha" start="18">
+<li>David Murray</li>
+</ol>
+</li>
+<li>Thomas Crawley</li>
+<li>Ned Deily</li>
+<li>Chris Bennett</li>
+<li>David Peckham</li>
+<li>Ludwig Ries</li>
+<li>Friedrich Forstner</li>
+<li>Edwin Quillian</li>
+<li>William Zingler</li>
+<li><strong>Omidyar Network</strong></li>
+<li>Rob Nichols</li>
+<li>O'Reilly Japan</li>
+<li>Reginald Dugard</li>
+<li>Olivier Friard</li>
+<li>Dillon Hicks</li>
+<li>Joseph Tevaarwerk</li>
+<li>jack leene</li>
+<li>Alex de Landgraaf</li>
+<li>Snowflake-sl</li>
+<li>DR F F Robb</li>
+<li>masashi yoshida</li>
+<li>Jason Jerome</li>
+<li>Mike Rolish</li>
+<li>Kurt Kaiser</li>
+<li>Michal Bartoszkiewicz</li>
+<li>OLEG OVCHINNIKOV</li>
+<li>duncan ablitt</li>
+<li>Ned Batchelder</li>
+<li>Nino Lopez</li>
+<li>Paul Dubois</li>
+<li>Shaoduo Xie China</li>
+<li>Karun Dambiec</li>
+<li>Sarosh Sultan Khwaja</li>
+<li><strong>Lars P Mathiassen</strong></li>
+<li>Larry Bugbee</li>
+<li>YCFlame</li>
+<li>Robinson P Tryon</li>
+<li>Robert Black</li>
+<li>noppaon songsawasd</li>
+<li>Graeme Glass</li>
+<li>david fuard</li>
+<li>jebat ayam</li>
+<li>Brian Jinwright</li>
+<li>Raymond Hettinger</li>
+<li>Robin D Bruce</li>
+<li>musheng chen</li>
+<li>Ricardo Nunes Cerqueira</li>
+<li>Linda Hall</li>
+<li><ol class="first upperalpha" start="13">
+<li>Dale Keith</li>
+</ol>
+</li>
+<li>Andrew Shearer</li>
+<li>Andy Kopra</li>
+<li>jim Andersson</li>
+<li>Cyrus Gross</li>
+<li>Rick Floyd</li>
+<li>ISAAC RAMNATH</li>
+<li>Simple Station</li>
+<li>Joshua Banton</li>
+<li>Sebastien Capt</li>
+<li>Iru Hwang</li>
+<li>Affiliated Commerce</li>
+<li>Wilton de O Garcia</li>
+<li>josh livni</li>
+<li>Nikolay Ivanov</li>
+<li>or??un av?&amp;Yuml;ar</li>
+<li>derin</li>
+<li>St Matthew eAccounting</li>
+<li>Alan Daniels</li>
+<li>David Avraamides</li>
+<li>Gregory Trubetskoy</li>
+<li>Yohei Sasaki</li>
+<li>LUKAS KRAEHENBUEHL</li>
+<li>Travis Bear</li>
+<li>kilo</li>
+<li>Will Boyce</li>
+<li>Orcun Avsar</li>
+<li>Ed Sweeney</li>
+<li>Chris Gemignani</li>
+<li>Earl Strassberger</li>
+<li>Michael Rolish</li>
+<li>Stephen C Waterbury</li>
+<li>Mr Robert C Ramsdell III</li>
+<li>Samuel John</li>
+<li>Kevin Sandifer</li>
+<li>Computer Line Associates</li>
+<li>Edward Corns</li>
+<li>ZipTicker</li>
+<li>Nichols Software, Inc.</li>
+<li>Robert Parnes</li>
+<li>Caleb Nidey</li>
+<li>OSDN / VA Software</li>
+<li>NSW Rural Doctors Network</li>
+<li>Ramon Sant Igarreta</li>
+<li>Alin Hanghiuc</li>
+<li>Lyle Dingus</li>
+<li>Rahul Viswanathan</li>
+<li>Ezio Melotti</li>
+<li>Lijst.com</li>
+<li>Mitch Chapman</li>
+<li>mercurial-ja</li>
+<li>Tyler Rimstad</li>
+<li>Catherine Arlett</li>
+<li>Stefan K?gl</li>
+<li>Andrew</li>
+<li>Bradley Allen</li>
+<li>Evan Luine</li>
+<li>TALHA KARABIYIK</li>
+<li>Pradeep Gowda</li>
+<li>Arnaud DELLU</li>
+<li>Dimitar Balinov</li>
+<li>Chitpol</li>
+<li>Vojt?&amp;rsaquo;ch Rylko</li>
+<li>Anton Sipos</li>
+<li>Guido van Rossum</li>
+<li>Jonathan March</li>
+<li>Jeffrey Wilcox</li>
+<li>Skandar De Anaya</li>
+<li>Clifford Gruen</li>
+<li>NVP</li>
+<li>Ruth Peterson</li>
+<li>James Dukarm</li>
+<li>Lincoln</li>
+<li>Blanford Robinson</li>
+<li>Rigel Trajano</li>
+<li>Paul Johnson</li>
+<li>Kevin R Crothers</li>
+<li>Simon Forman</li>
+<li>Zope Corporation</li>
+<li>Robert Cole</li>
+<li>Anton G.</li>
+<li>Mark Nenadov</li>
+<li>Kerry King</li>
+<li>Gerd Woetzel</li>
+<li>Oluwatosin Sodipe</li>
+<li>Daniel Chudnov</li>
+<li>Blok</li>
+<li>?&amp;fnof;? ?&amp;Yuml;??&quot;&amp;lsaquo;</li>
+<li>David Rovardi</li>
+<li>Tasuku SUENAGA a.k.a. gunyarakun</li>
+<li>Filipe AlvesFerreira</li>
+<li>Kapil Thangavelu</li>
+<li>Igor Bodlak</li>
+<li>Mr Thomas A Crawley</li>
+<li>Marc Dechico</li>
+<li>Christopher David Blunck Esq</li>
+<li>Robert F. Hossley</li>
+<li>Stefan Scholl</li>
+<li>Fredrick Gruman</li>
+<li>Roy H Han</li>
+<li>Ariel Nunez</li>
+<li>David Moran Anton</li>
+<li>Christopher J Cook</li>
+<li>Elizabeth Paton-Simpson</li>
+<li>Marian Deaconescu</li>
+<li>HenkJan van der Pol</li>
+<li>Browsershots</li>
+<li>Sarah Fortune</li>
+<li>Scott J Irwin</li>
+<li>Mr Brian Lyttle</li>
+<li>Mr Bill Zingler</li>
+<li>Mark C Jones</li>
+<li>Benjamin Zweig</li>
+<li>Bu?&amp;Yuml;ra Ok??u</li>
+<li>Alexandr Puzeyev</li>
+<li>Alan McIntyre</li>
+<li>Leendert Geffen</li>
+<li>Larry Jones</li>
+<li>Zettai.net</li>
+<li>Marvin Paul</li>
+<li>Elson Rodriguez</li>
+<li>Mike Cariaso</li>
+<li>Tim Sharpe</li>
+<li>Jonathan Schmidt</li>
+<li>Alberta Liquor and Gaming Commission</li>
+<li>Jan Kanis</li>
+<li>IOANNIS GIFTAKIS</li>
+<li>Misato Takahashi</li>
+<li>Fabien Schwob</li>
+<li>geoffrey jost</li>
+<li>Michael Rotondo</li>
+<li>Adam Breashers</li>
+<li>Patrick Brooks</li>
+<li>Skylar Saveland</li>
+<li>David Slate</li>
+<li>Akihiro Takizawa</li>
+<li>David K Friedman</li>
+<li>Zingler &amp; Associates, Inc.</li>
+<li>Clarke Wittstruck</li>
+<li>Bob Heida</li>
+<li>William Metz</li>
+<li>Matthew Costello</li>
+<li>Diego Havenstein</li>
+<li>Peter Ziobrzynski</li>
+<li>Sandro Dutra</li>
+<li>informatica 3dart di Diego Masciolini</li>
+<li>Whil Hentzen</li>
+<li>Eileen Quintero</li>
+<li>Radek ??enfeld</li>
+<li>Drew Mason-Laurence</li>
+<li>John van Uitregt</li>
+<li>Holden Web LLC</li>
+<li>Carsten Lindner</li>
+<li>Zed A Shaw</li>
+<li>Stephen Carmona</li>
+<li>Mr Brian E Magill</li>
+<li>Mr Thomas Herve</li>
+<li><ol class="first upperalpha" start="11">
+<li>Larsen</li>
+</ol>
+</li>
+<li>Shawn Storie</li>
+<li>Damon Jordan</li>
+<li>Ed Grether</li>
+<li>mr peter harris</li>
+<li>Steven H. Rogers</li>
+<li>Kamal Gill</li>
+<li>Caren Roberty</li>
+<li>Mr Eric L Shropshire</li>
+<li>Ken Dere</li>
+<li>Ioan Vlad</li>
+<li>matt perpick</li>
+<li>Mike Bayer</li>
+<li>Mr Earl Strassberger</li>
+<li>Lee Murach</li>
+<li>Brian Blazer</li>
+<li>Wayne Sutton</li>
+<li>Albert Hopkins</li>
+<li>Roy Smith</li>
+<li>Ilguiz Latypov</li>
+<li>sa puushkofik</li>
+<li>Lisa Goldsberry</li>
+<li>Mr Warren R Thom</li>
+<li>Mail-Archive, Inc.</li>
+<li>Brian Curtin</li>
+<li>?&amp;trade;&quot;?&amp;dagger;? ?&amp;permil;&amp;rsaquo;</li>
+<li>Masahiro Fukuda</li>
+<li>Andy Stark</li>
+<li>Timo Rossi</li>
+<li>Mr Rodney Drenth</li>
+<li>Mr Jeff Flanders</li>
+<li>Mr Jason Whitlark</li>
+<li>Gerard C Blais</li>
+<li>Jorge Monteiro</li>
+<li>Mr Luke Powers</li>
+<li>Daniel Young</li>
+<li>Srinidhi Venkatesh</li>
+<li>Trelgol</li>
+<li>Brian J. Mahoney</li>
+<li>Fernando Cuevas JR</li>
+<li>B&amp;D; Building</li>
+<li>Elegant Stitches</li>
+<li>Santiago Suarez Ordonez</li>
+<li>Susan Forman</li>
+<li>Iris Goosen</li>
+<li>Phil Helms</li>
+<li>David Niskanen</li>
+<li>AdytumSolutions, Inc.</li>
+<li>Nancy Rice Bott</li>
+<li>LD Landis</li>
+<li>Net100 Partners Ltd</li>
+<li>Yichun Wang</li>
+<li>laka</li>
+<li>Alec Bennett</li>
+<li>Lincoln Frye</li>
+<li>Kashya (Ronnie Maor)</li>
+<li>Forrest Voight</li>
+<li>Charles Woods</li>
+<li>Peter Schinkel</li>
+<li>Andrew Lientz and Chelsea Shure</li>
+<li>Shigeru Maruyama</li>
+<li>Lester Carr</li>
+<li>Jure Vrscaj</li>
+<li>Theo Thomas</li>
+<li>Kirk Ireson</li>
+<li>Gordon Tillman</li>
+<li>Samuel Schulenburg</li>
+<li>Jeremy Dunck</li>
+<li>Stuart Ellis</li>
+<li>Satoshi Abe</li>
+<li>Mark Pape</li>
+<li>Kendall Whitesell</li>
+<li>Charles Mead</li>
+<li>Microsoft LNC</li>
+<li>Thomas Herve</li>
+<li>Narupon Chattrapiban</li>
+<li>Chad Whitacre</li>
+<li>Mr Chris P McDonough</li>
+<li>Karl Barkei</li>
+<li>Edward m. Blake</li>
+<li>Istvan Albert</li>
+<li>Rich M. Krauter</li>
+<li>Mr Shannon -jj Behrens</li>
+<li>brett peppe</li>
+<li>Larry Rutledge</li>
+<li>Scott Sheffield</li>
+<li>Barry Miller</li>
+<li>Takuo Yonezawa</li>
+<li>Jeff Kowalczyk</li>
+<li>Ian King</li>
+<li>Gary Culp</li>
+<li>????????? ?&amp;sbquo;?&amp;OElig;???? ??????????????</li>
+<li>David Finch</li>
+<li>Xiao Liang</li>
+<li>Aaron Rhodes</li>
+<li>Mel Vincent</li>
+<li>Massimo Bassi</li>
+<li>DOTS</li>
+<li>Omar El-Domeiri</li>
+<li>Axiomfire</li>
+<li>James Gray</li>
+<li>Gerard CBlais</li>
+<li>Contradix Corporation</li>
+<li>Minghong Lin</li>
+<li>Ubaldo Bulla</li>
+<li>Robert L. Gabardy</li>
+<li>Edward M Kent</li>
+<li>Sarah Lambert</li>
+<li>Jan Decaluwe</li>
+<li>Michael H Jeffries Living Trust</li>
+<li>Howard Jones</li>
+<li>Uldis Bojars</li>
+<li>Didier THOMAS</li>
+<li>David Koonce</li>
+<li>Mike Arnott</li>
+<li>Michael Boroditsky</li>
+<li>Ian Caven</li>
+<li>Yusei TAHARA</li>
+<li>Wiilliam Neil Howell</li>
+<li>American Transport, Inc.</li>
+<li>Tetsuya Kitahata</li>
+<li>Cingular Matching Gift Center</li>
+<li>Luiz Felipe Eneas</li>
+<li>PEIWEI WU</li>
+<li>Randy Stulce</li>
+<li>Marshall Thompson</li>
+<li>Constantinos Laitsas</li>
+<li>Rich M.Krauter</li>
+<li>Harold Moss</li>
+<li>Robin Friedrich</li>
+<li>bodo august schnabel</li>
+<li>Wallace P. McMartin</li>
+<li>Shin Takeyama</li>
+<li>frank mahony</li>
+<li>Brian Warner</li>
+<li>RICARDO CERQUEIRA</li>
+<li>Jules Allen</li>
+<li>Yuuki Kikuchi</li>
+<li>Andrew Clark</li>
+<li>Dorothy Heim</li>
+<li>Christopher and Julie Blunck</li>
+<li>Andrew Groom</li>
+<li>Walt Buehring</li>
+<li>Clark C. Evans</li>
+<li>charles hightower</li>
+<li>Jostein Skaar</li>
+<li>Amir Bakhtiar</li>
+<li>Daniel Ogden</li>
+<li>Andrew Ittner</li>
+<li>mark borges</li>
+<li>David Kraus</li>
+<li>David Goodger</li>
+<li>Imaginary Landscape</li>
+<li>Patrick Maupin</li>
+<li>Jusup Budiyasa</li>
+<li>Glenn Parker</li>
+<li>Higinio Cachola</li>
+<li>W.T. Bridgman</li>
+<li>Bernhard Sch?ler</li>
+<li>Robert M. Emmons</li>
+<li>Sami Badawi</li>
+<li>charles a. hightower</li>
+<li>Thomas J Lucas</li>
+<li>Hans-Werner Bartels</li>
+<li>David A. and Cindy L. Byrne</li>
+<li>Grant Whiting</li>
+<li>Gene Ha</li>
+<li>Peggy Baker</li>
+<li>andrew sommerville</li>
+<li>Rostislav Cerovsky</li>
+<li>Astor M Castelo</li>
+<li>Armin Rigo</li>
+<li>James Conant</li>
+<li>Carl Phillips</li>
+<li>William, H Cozad</li>
+<li>Robin K. Friedrich</li>
+<li>Ivor Ellis</li>
+<li>Beverly Yahr</li>
+<li>Doug Blanding</li>
+<li>Jesse Costales</li>
+<li>Brenda Pruett</li>
+<li>Eric Florenzano</li>
+<li>St?phane KLEIN</li>
+<li>Rad Widmer</li>
+<li>George Paci</li>
+<li>Rob Nelson</li>
+<li>Theodore Gielow</li>
+<li>Fabio Bovelacci</li>
+<li>Peter Hamilton</li>
+<li>The Incredible Pear</li>
+<li>Christina Stevens</li>
+<li>Paul McNett</li>
+<li>Noah Aboussafy (IT Goes Click)</li>
+<li>Arthur Kjos</li>
+<li>Greg Lindstrom</li>
+<li>Andrew Engle</li>
+<li>Thomas Bennett</li>
+<li>Egil R?yeng</li>
+<li>Angela Roberts</li>
+<li>Bradley J. Allen</li>
+<li>Lupegi Liao / Chiung-i Huang</li>
+<li>Eugene Mazur</li>
+<li>Randall E Ivener</li>
+<li>Pete Soper</li>
+<li>Daniel Garman</li>
+<li>William T. Bridgman</li>
+<li>Mike LeonGuerrero</li>
+<li>C-Ring Systems, Inc.</li>
+<li>Bob Burke</li>
+<li>Lynn C. Rees</li>
+<li>Les Matheson</li>
+<li>Judy Miller</li>
+<li>Jim Draper</li>
+<li>Robert Brewer</li>
+<li>Mike Thompson</li>
+<li>John Rhodes</li>
+<li>Douglas J Fort</li>
+<li>Jeff Suttles</li>
+<li>Andrew Doran</li>
+<li>Thomas Hodgson</li>
+<li>David Freedman</li>
+<li>Thomas Wouters</li>
+<li>David Hancock</li>
+<li>Carl Banks</li>
+<li>Marco Napolitano</li>
+<li>Dave Jones</li>
+<li>KGS Electronics</li>
+<li>Tony Cappellini</li>
+<li>Mike Beachy</li>
+<li>Julien Poissonnier</li>
+<li>Simon Willison</li>
+<li>Open Source Appls Foundation</li>
+<li><ol class="first upperalpha" start="4">
+<li><ol class="first upperroman">
+<li>Hoenicke</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Wesleyt Witten</li>
+<li>Steven Zatz (Joan Lesnick)</li>
+<li>Jaime Peschiera</li>
+<li>Heikki J Toivonen</li>
+<li>Manfred Hanenkamp</li>
+<li>Irmen de Jong</li>
+<li>Bernhard Engelskircher</li>
+<li>Charles Richmond</li>
+<li>Reed Simpson</li>
+<li>Thomas Birsic</li>
+<li>Charles McIntire</li>
+<li>Brian van den Broek</li>
+<li>Roland Reumerman</li>
+<li>Vecta Exploration</li>
+<li>John Coker</li>
+<li>Kyle Sullivan</li>
+<li>Enigmatics</li>
+<li>Samuel Wilson</li>
+<li>Sebastian Erben</li>
+<li>Sebastjan</li>
+<li>Chris Thomas</li>
+<li>Beatrice During</li>
+<li>Don Spaulding II</li>
+<li>Thomas Guettler</li>
+<li>alan falk</li>
+<li>Petra Dr. Hayder-Eibl</li>
+<li>Steve Holden</li>
+<li>Will Leaman</li>
+<li>Dennis Furbush</li>
+<li>Philip Roche</li>
+<li>Hieu Hoang</li>
+<li>Michael Gwilliam</li>
+<li>Robert Emmons</li>
+<li>Gaurav DCosta</li>
+<li>Robert Zimmermann</li>
+<li>Greg Chapman</li>
+<li>Daniel Clark</li>
+<li>Jay Breda</li>
+<li>Ricardo Cerqueira</li>
+<li>Stephen Jakubowski</li>
+<li>Ollie Rutherfurd</li>
+<li>veth guevarra</li>
+<li>John Pinner</li>
+<li>Thomas Verghese</li>
+<li>Matthew Ross</li>
+<li>Tim Douglas</li>
+<li>Nichols Software</li>
+<li>Sergi Puso Gallart</li>
+<li>George Wills</li>
+<li>Lynn C Rees</li>
+<li>Paul Akerhielm</li>
+<li>Jeffrey Allen</li>
+<li>Tracy Ruggles</li>
+<li>Oleksandr Tyutyunnyk</li>
+<li>Ralph S Miller</li>
+<li>Steve Bailey</li>
+<li>Eric V. Smith</li>
+<li>Monash University Tea Room</li>
+<li>Mark D Borges</li>
+<li>Dermot Doran</li>
+<li>Val Bykovsky</li>
+<li>Alan Mitchell</li>
+<li>Michael Beachy</li>
+<li>Cn'V Corvette Sales</li>
+<li>charles a hightower</li>
+<li>Society for American Archaeology</li>
+<li>Fred Allen</li>
+<li>Kazuya Fukamachi</li>
+<li>Tom Suzuki</li>
+<li>HAROLD RICHARDSON</li>
+<li>Basil Rouskas</li>
+<li>Aaron Nauman</li>
+<li>Todd Engle</li>
+<li>Robert N. Cordy</li>
+<li>Alfred Forster</li>
+<li>samik chakraborty</li>
+<li>Gordon Hemminger</li>
+<li>Kevin Altis</li>
+<li>Matthew Ranostay</li>
+<li>Johan Hahn</li>
+<li>Cimarron Taylor</li>
+<li>Adi Miller</li>
+<li>James Ross</li>
+<li>William May</li>
+<li>richard rosenberg</li>
+<li>Bruce Harrison</li>
+<li>Audun Vaaler</li>
+<li>Gatecrash</li>
+<li>Brian Bilbrey</li>
+<li>Gray Ward</li>
+<li>Thomas Varghese</li>
+<li>Yusei Tahara</li>
+<li>Sloan Brooks</li>
+<li>John LaTorre</li>
+<li>Richard Monroe</li>
+<li>Arthur Siegel</li>
+<li>camilla palmer</li>
+<li>Mick Bryant</li>
+<li>Vicente Otero Santiago</li>
+<li>Phil Stressel, Sr.</li>
+<li>Dr. S. Kudva, M.D.</li>
+<li>Yvonne Mohrbacher</li>
+<li>Erik Dahl</li>
+<li>Stuart Fast</li>
+<li>Martin Nohr</li>
+<li>Paul McGuire</li>
+<li>George Montanaro</li>
+<li>Lex Berezhny</li>
+<li>Keller &amp; Fuller, Inc.</li>
+<li>David Hatcher</li>
+<li>Susan Dean</li>
+<li>Chad Harrington</li>
+<li>David Nelson</li>
+<li>Richard &amp; Susan Ames</li>
+<li>Thomas Kaufmann</li>
+<li>ObeliskConsulting, Inc.</li>
+<li>James R. Hall-Morrison</li>
+<li>Richard Emslie</li>
+<li>Madeline Gleich</li>
+<li>Vincent Wehren</li>
+<li>William Donais</li>
+<li>Leo Lawrenson</li>
+<li>Catherine Devlin</li>
+<li>Michael Twomey</li>
+<li>James Kehoe</li>
+<li>Altasoft</li>
+<li>CD Baby</li>
+<li>Ka-Ping Yee</li>
+<li>Andriy Kravchuk</li>
+<li>John Jarvis</li>
+<li>James McManus</li>
+<li>Mike Spencer</li>
+<li>Peter Kropf</li>
+<li>Gheorghe Gheorghiu</li>
+<li>Scott Haas</li>
+<li>Greg Barr</li>
+<li>Vincent Roy</li>
+<li>OSDN / VA Software (athompso)</li>
+<li>Robert &amp; Kay, Inc</li>
+<li>Michael McCafferty</li>
+<li>John Barker</li>
+<li>Scott Leerssen</li>
+<li>OSDN / VA Software (mckemie)</li>
+<li>Jeffrey Smith</li>
+<li>Robert Jeppesen</li>
+<li>Dominick Franzini</li>
+<li>Rodrigo Rodrigues</li>
+<li>Ron Willard</li>
+<li>Neundorfer, Inc.</li>
+<li>Farrel Buchinsky</li>
+<li>Marcos Sanchez Provencio</li>
+<li>Hans-Martin Hess</li>
+<li>Patricia Kingsley</li>
+<li>Timothy Smith</li>
+<li>Bruce Nehlsen</li>
+<li>Stefan Niederhauser</li>
+<li>Lawrence Landis</li>
+<li>fie raymon</li>
+<li>Mark Nias</li>
+<li>Max Wilbert</li>
+<li>Iftikhar Haq</li>
+<li>Elizabeth Hogan</li>
+<li>David Givers</li>
+<li>Roman Suzuki</li>
+<li>Roger Upole</li>
+<li>Paul Bonneau</li>
+<li>Craig Downing</li>
+<li>Roy Cline</li>
+<li>Jon Bartelson</li>
+<li>Franco Mastroddi</li>
+<li>Torsten K?hnel</li>
+<li>Daniele Berti</li>
+<li>David Carroll</li>
+<li>Eric Smith</li>
+<li>li jun zheng</li>
+<li>Donnal Walter</li>
+<li>Michael Jacquot</li>
+<li>NETWORKOLOGIST</li>
+<li>Kyle Brunskill</li>
+<li>Tim Godfrey</li>
+<li>Libor Foltynek</li>
+<li>Ataman Software, Inc</li>
+<li>Joel Hall</li>
+<li>Bernard Delmee</li>
+<li>Harrison Chauncey</li>
+<li>Donald Harper</li>
+<li>Thomas Zarecki</li>
+<li>Leslie Olding</li>
+<li>Paul F. DuBois</li>
+<li>A.M. Kuchling</li>
+<li>Robert Bryant</li>
+<li>Robert Maynard</li>
+<li>Otto Pichlhoefer</li>
+<li>Duane Kaufman</li>
+<li>Mark McEahern</li>
+<li>Hordern House Rare Books</li>
+<li>Alden Hart</li>
+<li>Paul Winkler</li>
+<li>Lawrence D Landis</li>
+<li>Stephen Maharam</li>
+<li>Jim Stone</li>
+<li>Grant Harris</li>
+<li>Dale Potter</li>
+<li>Martin Seibert</li>
+<li>Wolfgang Demisch</li>
+<li>David Niergarth</li>
+<li>ed van sicklin</li>
+<li>Martin Spear</li>
+<li>Robert Cordy</li>
+<li>High Tech Trading Company</li>
+<li>Its Your Turn, Inc.</li>
+<li>Bill Sconce</li>
+<li>George Runyan</li>
+<li>Tobias Geiger</li>
+<li>Jason Hitch</li>
+<li>Peter Hansen</li>
+<li>Daniel Garber</li>
+<li>Jeff Griffith</li>
+<li>Mike Hansen</li>
+<li>Kevin Meboe</li>
+<li>Peter Haines</li>
+<li>Matt Campbell</li>
+<li>JS Wild</li>
+<li>marco gillies</li>
+<li>Charles</li>
+<li>Eskander Kazim</li>
+<li>Pete Adams</li>
+<li>Katherine Kennedy</li>
+<li>Russell Ruckman</li>
+<li>Jim Lyles</li>
+<li>Hole System</li>
+<li>Daniel Gordon</li>
+<li>Christopher Kirkpatrick</li>
+<li>Stephen Tremel</li>
+<li>Debra Abberton</li>
+<li>Chai C Ang</li>
+<li>William Stuart</li>
+<li>Simon Michael</li>
+<li>Joseph J. Pamer</li>
+<li>Dan Downing</li>
+<li>S Willison</li>
+<li>John seward</li>
+<li>Nichalas Enser</li>
+<li>Robert Purbrick</li>
+<li>Vineet Jain</li>
+<li>David Eriksson</li>
+<li>Robert Howard</li>
+<li>Evan Jones</li>
+<li>Brian McKenna</li>
+<li>David Pentecost</li>
+<li>Bernd Kunrath</li>
+<li>Roger Eaton</li>
+<li><ol class="first upperalpha" start="13">
+<li>Khan</li>
+</ol>
+</li>
+<li>Piers Lauder</li>
+<li>Bonnie Kosanke</li>
+<li>Sebastian Wilhelmi</li>
+<li>Chad W Whitacre</li>
+<li>Ian Cook</li>
+<li>James Edwards</li>
+<li>Lada Adamic</li>
+<li>Sue Doersch</li>
+<li>John Welch</li>
+<li>Chris Petrilli</li>
+<li>Albert Martinez</li>
+<li>Mike Coward</li>
+<li>Tracy Woodrow</li>
+<li>David Packard</li>
+<li>Bob Watson</li>
+<li>Yun Huang Yong</li>
+<li>Larry McElderry</li>
+<li>Trevor Owen</li>
+<li>Steven Cooper</li>
+<li>Richard Honigsbaum</li>
+<li>Michael Chermside</li>
+<li>Gotpetsonline</li>
+<li>Michael Newhouse</li>
+<li>Scott Mitchell</li>
+<li>Michael James Hoy</li>
+<li>Philip H. Stressel, Sr.</li>
+<li>Clay Shirky</li>
+<li>John M. Copacino</li>
+<li>Jesse Brandeburg</li>
+<li>Andrew Todd</li>
+<li>B J Naughton III</li>
+<li>Mario La Valva</li>
+<li>OSDN / VA Software (gerryf)</li>
+<li>Mike Jaynes</li>
+<li>Daniel McLaughlin</li>
+<li>William King</li>
+<li>Dennis Coates</li>
+<li>Neal Norwitz</li>
+<li>Brian J. Gough</li>
+<li>defrance</li>
+<li>Judy Ross</li>
+<li>Dirk Meissner</li>
+<li>netmarkhome.com</li>
+<li>Nicholas S Jacobson</li>
+<li>Allie Lierman</li>
+<li>Dian Chesney</li>
+<li>Kazuhiro Sado</li>
+<li>Oliver Rutherfurd</li>
+<li>Jeffrey Johnson</li>
+<li>Glenn Williams</li>
+<li>Pinner John</li>
+<li>Scott Burns</li>
+<li>Albert Lilley</li>
+<li>Allan Clarke</li>
+<li>Steven Alderson</li>
+<li>Virginia Keech</li>
+<li>Tahoe Donner Association</li>
+<li>Sandra Li</li>
+<li>Anthony Hawes</li>
+<li>Vineet Singh</li>
+<li>Michael Butts</li>
+<li>Emile van Sebille</li>
+<li>Walter H Rauser</li>
+<li>Kevin Jacobs</li>
+<li>Joel Mandel</li>
+<li>Jean-Paul Calderone</li>
+<li>Glenn Gifford</li>
+<li>Robert Driscoll</li>
+<li>Dynapower Corporation</li>
+<li>Gordon Fang</li>
+<li>Gary DiNofrio</li>
+<li>Brian Pratt</li>
+<li>Meedio LLC</li>
+<li>Bob Pegan</li>
+<li>John Hodges</li>
+<li>Michael Sears</li>
+<li>Avigdor Sagi</li>
+<li>Gregory Wilson</li>
+<li>Dick Jones</li>
+<li>Susan Gleason</li>
+<li>Adytumsolutions</li>
+<li>Thomas E. Brosseau</li>
+<li>Douglas Sharp</li>
+<li>Ken Leonard</li>
+<li>Matthew Voight</li>
+<li>Downright Software LLC</li>
+<li>John Burkey</li>
+<li>Marco Mazzi</li>
+<li>omi</li>
+<li>Joel Carlson</li>
+<li>Pescom Research</li>
+<li>Nicholas G. Constantin</li>
+<li>Pontus Skold</li>
+<li>James McKiel</li>
+<li>William M Hesse</li>
+<li>Howard Lev</li>
+<li>Runsun Pan</li>
+<li>James Graham</li>
+<li>Roger Milton</li>
+<li>Christian Muirhead</li>
+<li>Jose Nunez</li>
+<li>Justin Vincent</li>
+<li>Jeri Steele</li>
+<li>William J Clabby</li>
+<li>Steven Scott</li>
+<li>Daniel Garner</li>
+<li>Keith Loose</li>
+<li>Roger Herzler</li>
+<li>Roger Walters</li>
+<li>Hakan R Esme</li>
+<li>Charles Cech</li>
+<li>Lockergnome</li>
+<li>Robert Stapp</li>
+<li>Marilyn Savory</li>
+<li>Brian Duncan</li>
+<li>Dave Mathiesen</li>
+<li>Frederick Lim</li>
+<li>Wade Wagner</li>
+<li>Ian T Kohl</li>
+<li>Gordon Weakliem</li>
+<li>Charles Erignac</li>
+<li>Lynette Moore</li>
+<li>nhok nhok</li>
+<li>Taed Wynnell</li>
+<li>Anthony Auretto</li>
+<li>Richard Moxley</li>
+<li>Rocky Bivens</li>
+<li>Lora Lee Mueller</li>
+<li>James Arnett</li>
+<li>greg Ward</li>
+<li>Matthew Dixon Cowles</li>
+<li>Lesmes Gonzalez Valles</li>
+<li>Patrick O'Flaherty</li>
+<li>Bas van der Meer</li>
+<li>Peyton McCullough</li>
+<li>George Pelletier</li>
+<li>Alvar &amp; Associates</li>
+<li>Stewart Dugan</li>
+<li>Aaron Straus</li>
+<li>Michael Bergmann</li>
+<li>Cameron  Photography</li>
+<li>Fred Persson</li>
+<li>Sassan Hassassian</li>
+<li>Wael Al Ali</li>
+<li>Yeon-Ki Kim</li>
+<li>Leigh Klotz</li>
+<li>Roch Leduc</li>
+<li>Stephen P Gallagher</li>
+<li>Richard Karnesky</li>
+<li>Paul Gibson</li>
+<li>Advanced Industrial Automation</li>
+<li>Kim Nyberg</li>
+<li>Britta Jessen</li>
+<li>Tom Goodell</li>
+<li>David Butcher</li>
+<li>Shearer Software, Inc.</li>
+<li>Lorilei Thompson</li>
+<li>Rudy Spevacek</li>
+<li>Steve Chouinard</li>
+<li>Zoid Technologies, LLC.</li>
+<li>Michelle Weclsk</li>
+<li>Pierre Robitaille</li>
+<li>Javier Fernandez</li>
+<li>Kenley Lamaute</li>
+<li>Harry Freeman</li>
+<li>Jens Diemer</li>
+<li>William Pry</li>
+<li>Chris Cogdon</li>
+<li>Jim Hamill</li>
+<li>John Paradiso &amp; Associates</li>
+<li>Michael Myers</li>
+<li>Ryan Rodgers</li>
+<li>Nancy Tindle</li>
+<li>Jon Udell</li>
+<li>Martin Drew</li>
+<li>Anjan Bacchu</li>
+<li>Richard Staff</li>
+<li>David Fox</li>
+<li>Simon Vans-Colina</li>
+<li>John Muller</li>
+<li>Jeff Davis</li>
+<li>Dana Graves</li>
+<li>Simon Perkins</li>
+<li>Christopher G Walker</li>
+<li>Sprint Tax, Inc.</li>
+<li>Carola Fuchs</li>
+<li>OSDN / VA Software (aportale)</li>
+<li>Wayne</li>
+<li>Jim Weber</li>
+<li>Luke Woollard</li>
+<li>Ludovico Magnocavallo</li>
+<li>John Byrd</li>
+<li>Donley Parmentier</li>
+<li>Dan Scherer</li>
+<li>George Cotsikis</li>
+<li>Suzette Benjamin</li>
+<li>Anne Verret-Speck</li>
+<li>Thomas Chused</li>
+<li>Michael Sock</li>
+<li>Marco Roxas</li>
+<li>Burning Blue Audio</li>
+<li>Michael Abajian</li>
+<li>Simon Heywood</li>
+<li>Gregory Crosswhite</li>
+<li>Bruce Pearson</li>
+<li>Max M Rasmussen</li>
+<li>Web Wizard Design</li>
+<li>Patrick Hart</li>
+<li>Bjarke Dahl Ebert</li>
+<li>Arya Connett</li>
+<li>Ryan Keppel</li>
+<li>Aniket Sheth</li>
+<li>William Kennedy</li>
+<li>Frank Laughlin III</li>
+<li>Ahmad Zakir Jaafar</li>
+<li>Richard Perez</li>
+<li>David Palme</li>
+<li>Andreas Schmeidl</li>
+<li>Kyle Degraaf</li>
+<li>Steve Lamb</li>
+<li>Christopher Armstrong</li>
+<li>Yi-Ling Wu</li>
+<li>John Bley</li>
+<li>Roy Morley</li>
+<li>Adam Cripps</li>
+<li>Trina R Owens</li>
+<li>Robert Jason</li>
+<li>Steven Sprouse</li>
+<li>Zachery Bir</li>
+<li>Oded Degani</li>
+<li>Wayne Wei</li>
+<li>Tim Wilson</li>
+<li>Roger Green</li>
+<li>Marie Royea</li>
+<li>Lairhaven Enterprises</li>
+<li>David Tucker</li>
+<li>Henry E Melgarejo</li>
+<li>Abhay Saxena</li>
+<li>Ramesh Ratan</li>
+<li>Guido Bugmann</li>
+<li>Lazaro Bello</li>
+<li>Kenneth Hardy</li>
+<li>John Kinney</li>
+<li>Hans-Christoph Hoepker</li>
+<li>Edward Lipsett</li>
+<li>Philippe Leyvraz</li>
+<li>Allen Jackson</li>
+<li>Suzie Boulos</li>
+<li>Brian Armand</li>
+<li>JT Gale</li>
+<li>David Colbeth</li>
+<li>Dave Faloon</li>
+<li>Roger Pueyo Centelles</li>
+<li>Rodrigo Vieira</li>
+<li>Richard Karsmakers</li>
+<li>Bob Eckert</li>
+<li>Mark Interrante</li>
+<li>Matthew Siegler</li>
+<li>Jonathan Simms</li>
+<li>Mark Guidroz</li>
+<li>Daniele Scalzi</li>
+<li>Paul Nordstrom</li>
+<li>Sylvia Zhang</li>
+<li>George B Smith</li>
+<li>Vincent Bielke</li>
+<li>Terry Reedy</li>
+<li>Luka Horvatic</li>
+<li>William C Carr</li>
+<li>Paul Hartley</li>
+<li>Klaus H?ppner</li>
+<li>Chris Cooper</li>
+<li>Robert Simmonds</li>
+<li>Douglas Warner</li>
+<li>Ahmed Daniyal</li>
+<li>David Yee</li>
+<li>Randy Ryan</li>
+<li><ol class="first upperalpha">
+<li><ol class="first upperalpha" start="10">
+<li>Bolton</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>JAMROC</li>
+<li>Javier Girado</li>
+<li>Gino Castellano</li>
+<li>Mark Bennett</li>
+<li>Emma Spurgeon</li>
+<li>george succi</li>
+<li>Teresa Morrison</li>
+<li>Benedict Falegan</li>
+<li>Letitia Moller</li>
+<li>Affero</li>
+<li>Robert Vargas</li>
+<li>Mark Hammond</li>
+<li>Roberto Ferrero</li>
+<li>Brett Cannon</li>
+<li>CLYDE K. HARVEY</li>
+<li>PayPal</li>
+</ul>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

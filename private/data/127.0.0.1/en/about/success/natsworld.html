@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/natsworld -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/natsworld">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="a-custom-image-viewing-game-for-an-autistic-child">
+<h1>A Custom Image Viewing Game for an Autistic Child</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Software Development</p>
+<p><strong>Keywords:</strong>  Game Development, Assistive Technologies</p>
+<p><strong>Title:</strong>  A Custom Image Viewing Game for an Autistic Child</p>
+<p><strong>Author:</strong>   Ned Batchelder</p>
+<p><strong>Date:</strong>   2003/01/17 15:59:01</p>
+<p><strong>Website:</strong>  <a class="reference external" href="http://www.nedbatchelder.com">http://www.nedbatchelder.com</a></p>
+<p><strong>Summary:</strong>  Ned Batchelder describes a custom image viewing game he wrote for his autistic son Nat, in the process showing off some of Python's language features.</p>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p>My son Nat is autistic.  He likes to look at pictures of familiar
+places, things, and people.  We bought a digital camera so we could take
+as many pictures of as many ordinary things as we wanted, without having
+to worry about the cost and bother of film and development.  Nat's
+tastes are difficult to predict, so we might take pictures of a subject
+certain to please him, only to find that he has no interest in them
+at all.  We wanted to be able to cast a wide net while taking
+pictures, to be certain to capture the images that would interest him.</p>
+<p>Once we had the camera, we took hundreds of pictures, and showed Nat how
+to look through them on the computer using an off-the-shelf image viewer
+called ThumbsPlus.  Watching Nat flip through pictures, though, I noticed
+something: once he became familiar with the sequence of the pictures, he
+was clicking on the pictures as if it mattered where he clicked.  The
+image viewer didn't care: any click on the picture would show the next
+picture.  But if Nat knew that the next picture was of a thing off to
+the left of the current picture, he would click on the left of the
+image.  If he knew the next picture was through a door at the right of
+the picture, he would click on the door.  He's played a number of kid's
+adventure games, such as Pajama Sam, and knew about this style of
+navigation.  Even in a program that didn't use that navigation style, he
+had begun using it as if it did.</p>
+<p>So I thought, why not make an image viewer that worked his way?  Why not
+write a program that lets me build picture environments from our life,
+and lets Nat navigate through them in the style he wanted?</p>
+<img alt="Natworld Screen Shot" src="/pythonorg/default/index/files/success/natsworld/natsworld-web.jpg" />
+<p><em>One of over 1500 images in Natsworld.  The user interface is simply a
+set of directional cursors (near center)</em> <a class="reference external" href="/pythonorg/default/index/files/success/natsworld/natsworld.jpg">Zoom in</a></p>
+</div>
+<div class="section" id="choosing-python">
+<h2>Choosing Python</h2>
+<p>I had used Python for small scripting projects before, and liked its
+quick-off-the-blocks feel.  It would provide me with a malleable
+environment in which to experiment with features, to see what Nat would
+find interesting.  Although this was an at-home project to be used only
+by my son, it shared issues with larger, supposedly more serious
+projects: unclear requirements, unpredictable customers, and limited
+developer resources.  The most important concern to me in choosing the
+development tools was my productivity.  Since this was &quot;after-hours&quot;
+work, my time and attention would be stretched thin, and I wanted to be
+able to focus on the user experience, not build environments, memory
+management, and the like.</p>
+<p>I looked for existing software, and found lots of interesting examples
+at pygame (www.pygame.org).  Pygame provided all the functions I'd need
+for image manipulation and display management, and there were a few
+existing projects there that provided useful examples.  Pyzzle almost
+provided what I needed, but wasn't as well-organized internally as I
+would have liked to be able to quickly experiment with new features.</p>
+</div>
+<div class="section" id="implementation">
+<h2>Implementation</h2>
+<p>Using the existing examples to help guide my pygame use, I created a new
+framework for my program.  My program, which I named simply &quot;Nat's
+World&quot;, would provide a virtual world for exploration.  It would work
+the way Nat expected it to, providing a simple exploration environment
+similar to games like Myst; clicking on the left of the screen would
+turn you left, clicking center would move you forward, and so forth.</p>
+<p>At its simplest, the entire environment was simply a set of nodes, each
+of which had an image to display, and a list of other connected nodes
+to navigate to. One physical location in the world is represented by a
+number of nodes, one for each direction to face. These nodes together
+are called a &quot;spot&quot;. Over time, this model was extended to add features
+to the environment, but this simple model got me off the ground. Python
+gave me a clean object-oriented basis for building my Node class, and
+pygame provided the primitives for displaying images, creating cursors,
+and collecting input.</p>
+<p>One of the biggest challenges was deciding among ways to organize the
+description of the world. On the one hand, I could have created a
+descriptive language for the structure of the world, and written an
+interpreter to read the description and build the in-memory structures
+on which the game would run. This would have been a fairly large
+effort, and would have required me to formalize all of the structures
+that could have appeared in a world. It also would have meant a longer
+delay before I had something that Nat could actually use. On the other
+hand, I could have simply used Python statements to construct the
+structures directly. This would have been tedious and error-prone.</p>
+<p>As a handy middle ground, I used Python statements to build the world,
+but made heavy use of utility functions and classes to provide
+short-cuts for common structures. For example, my images are all stored
+in directories named by date, and I would have had to enter an image
+filename for each node.  The ImgShortcut class made this simple.
+Defining the <tt class="docutils literal">__call__</tt> method allowed me to play with the syntax of
+Python to get the effect I wanted:</p>
+<pre class="code literal-block">
+class ImgShortcut:
+    def __init__(self, fmt):
+        self.fmt = fmt
+
+    def __call__(self, arg):
+        return self.fmt % (arg)
+
+nov4 =  ImgShortcut(r'C:\img\vol3\20011104\dscf%04d.jpg')
+nov10 = ImgShortcut(r'C:\img\vol3\20011110\dscf%04d.jpg')
+
+&gt;&gt;&gt; print nov4(17)
+c:\img\vol3\20011104\dscf0017.jpg
+</pre>
+<p>As another example, many spots in the world shared the same four-node
+structure: one for the north view, one for the west view, and so on.
+Using Python's keyword argument syntax, I was able to write a function to
+build this common spot type:</p>
+<pre class="code literal-block">
+def nesw(name, **data):
+    &quot;&quot;&quot;
+    Make four nodes for n, e, w, s from a location.
+    Keys:
+        images: ni, ei, wi, si.
+        destinations: n, e, w, s.
+    &quot;&quot;&quot;
+    # (code omitted)
+</pre>
+<p>The first argument is the base name for the new nodes (the node names
+are made by appending &quot;:n&quot;, &quot;:w&quot;, etc).  The remaining arguments are
+specified by keyword: ni is the image name for the north node, n is the
+node to the north; wi is the image for the west node, w is the node to
+the west, and so on.  Now I can make a spot with a simple short-hand
+syntax:</p>
+<pre class="code literal-block">
+nesw('front43',
+    ni = nov4(17),
+    ei = nov4(18),   e = 'allerton_hawthorne:e',
+    si = nov10(381), s = 'hall:s',
+    wi = nov4(16),   w = 'markliesl:w'
+)
+</pre>
+<p>Because of the keyword syntax, I can omit arguments that don't apply for
+the particular spot.  Now I have an almost declarative syntax that is
+handy for creating common structures, but without having to write an
+interpreter for a new mini-language.  And if I have an unusual case that
+needs full Python, it is available to me.</p>
+<p>The world and the program to support it grew in parallel.  As I came up
+with new ideas for structures for spots, I would write new utility
+functions like nesw() to create them easily.  I could watch Nat play the
+game, see what he wanted it to do, and add features quickly. Many of
+Python's features (interpreted code, object orientation, garbage
+collection, lists and dictionaries) supported this rapid turn-around.</p>
+<p>The Node class was extended and subclassed to create new types of
+nodes. For example, I added a MenuNode subclass to handle on-screen
+menus of destinations. This allowed clicking on the car, then choosing
+where you want to drive. Transitions between nodes were added to make
+the effect more pleasing. Clicking on the stereo produced a menu of
+songs to play (via pygame, of course).</p>
+</div>
+<div class="section" id="results">
+<h2>Results</h2>
+<p>At this point, the total size of the source is about 1400 lines of code,
+plus 1300 lines describing the world, which is currently over 1500
+nodes.</p>
+<p>When I show Nat's World to friends, they always talk about how great it
+would be if I could make something like it possible for other people.
+I've thought about writing a WorldBuilder application. It would let a
+non-technical person use a GUI to browse images, and connect them into
+a world of nodes. It would be a nice project to build, and an even
+nicer one to have since I could use it myself to extend Nat's World. I
+don't know if I'll ever have the time and focus to build such a thing
+in my spare time, but if I did, I know Python would be the tool for the
+job.</p>
+</div>
+<div class="section" id="about-the-author">
+<h2>About the Author</h2>
+<p><em>Ned Batchelder is a software engineer from Brookline, MA. His wife and
+three boys all love playing Nat's World. His web site is
+http://www.nedbatchelder.com.</em></p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

@@ -1,0 +1,30 @@
+Member meeting at PyCon 2006
+============================
+
+The annual PSF member meeting will be at `PyCon 2006 <http://us.pycon.org/TX2006/>`_ on February 24th, at
+5:10 pm, in the Bent Tree room.
+
+Vote
+~~~~
+
+You can vote by absentee
+ballot or by designating a
+proxy.  If you cannot attend the meeting and know how you would
+like to vote on each issue, use the absentee ballot.  It will simplify
+the vote tally and help the meeting run smoothly.  You can also
+designate a member to vote on your behalf at the meeting.  Be sure
+that you proxy will be attending the meeting and is willing to act as
+your proxy.
+
+Agenda
+~~~~~~
+
+- Head / proxy count
+- Review of the year   - Financial review (Kurt) - Grants process (Martin) - Other reports
+- Member vote to accept new nominated members     A simple majority is required to elect new members.   - Georg Brandl - Paul Everitt - Jim Hugunin - Travis Oliphant - Anna Martelli Ravenscroft - George Paci
+- Member vote to accept new sponsor member     A simple majority is required to elect new members.  The board   has already approved `CCP Games <http://www.ccpgames.com>`_ as   a pending sponsor member   - CCP Games
+- Member vote on candidates for new Board of Directors.      There are currently eight candidates.   - David Ascher - Brett Cannon - Stephan Deibel - Steve Holden - David Goodger - Andrew Kuchling - Martin von Loewis - Tim Peters
+- Discussion on whether the PSF should become an umbrella organization     similar to the Apache Foundation.
+- Discussion of how to get the SF bugtracker migrated (Brett).
+- Adjournment
+- Good of the order (Q&A and discussion)

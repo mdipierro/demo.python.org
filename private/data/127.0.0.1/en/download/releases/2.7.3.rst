@@ -1,0 +1,104 @@
+Python 2.7.3
+------------
+
+Python 2.7.3 was released on April 9, 2012. 2.7.3 includes fixes for several
+reported security issues in 2.7.2: `issue 13703 <http://bugs.python.org/issue13703>`_ (oCERT-2011-003, hash
+collision denial of service), `issue 14234 <http://bugs.python.org/issue14234>`_ (CVE-2012-0876, hash table
+collisions CPU usage DoS in the expat library), `issue 14001 <http://bugs.python.org/issue14001>`_ (CVE-2012-0845,
+SimpleXMLRPCServer denial of service), and `issue 13885 <http://bugs.python.org/issue13885>`_ (CVE-2011-3389,
+disabling of the CBC IV attack countermeasure in the _ssl module).
+
+The Python 2.7 series is scheduled to be the last major version in the 2.x
+series before 2.x moves into an extended maintenance period.  The 2.7 series
+contains many of the features that were first released in Python 3.1.
+Improvements in this release include:
+
+- An ordered dictionary type
+
+- New unittest features including test skipping, new assert methods, and test discovery
+
+- A much faster io module
+
+- Automatic numbering of fields in the str.format() method
+
+- Float repr improvements backported from 3.x
+
+- Tile support for Tkinter
+
+- A backport of the memoryview object from 3.x
+
+- Set literals
+
+- Set and dictionary comprehensions
+
+- Dictionary views
+
+- New syntax for nested with statements
+
+- The sysconfig module
+
+See these resources for further information: 
+
+- `What's new in 2.7? <http://docs.python.org/dev/whatsnew/2.7.html>`_
+
+- `Change log for this release <http://hg.python.org/cpython/file/d46c1973d3c4/Misc/NEWS>`_.
+
+- `Online Documentation <http://docs.python.org/2.7/>`_
+
+- Report bugs at `http://bugs.python.org <http://bugs.python.org>`_.
+
+- `Help fund Python and its community </psf/donations/>`_.
+
+Download
+--------
+
+This is a production release.  Please `report any bugs <http://bugs.python.org>`_
+you encounter.
+
+We currently support these formats for download: 
+
+- `Gzipped source tar ball (2.7.3) </ftp/python/2.7.3/Python-2.7.3.tgz>`_ `(sig) </ftp/python/2.7.3/Python-2.7.3.tgz.asc>`_
+
+- `Bzipped source tar ball (2.7.3) </ftp/python/2.7.3/Python-2.7.3.tar.bz2>`_ `(sig) </ftp/python/2.7.3/Python-2.7.3.tar.bz2.asc>`_
+
+- `XZ source tar ball (2.7.3) </ftp/python/2.7.3/Python-2.7.3.tar.xz>`_ `(sig) </ftp/python/2.7.3/Python-2.7.3.tar.xz.asc>`_
+
+- `Windows x86 MSI Installer (2.7.3) </ftp/python/2.7.3/python-2.7.3.msi>`_ `(sig) </ftp/python/2.7.3/python-2.7.3.msi.asc>`_
+
+- `Windows x86 MSI program database (2.7.3) </ftp/python/2.7.3/python-2.7.3-pdb.zip>`_ `(sig) </ftp/python/2.7.3/python-2.7.3-pdb.zip.asc>`_
+
+- `Windows X86-64 MSI Installer (2.7.3) </ftp/python/2.7.3/python-2.7.3.amd64.msi>`_ `[1] <#id5>`_ `(sig) </ftp/python/2.7.3/python-2.7.3.amd64.msi.asc>`_
+
+- `Windows X86-64 program database (2.7.3) </ftp/python/2.7.3/python-2.7.3.amd64-pdb.zip>`_ `[1] <#id5>`_ `(sig) </ftp/python/2.7.3/python-2.7.3.amd64-pdb.zip.asc>`_
+
+- `Windows help file </ftp/python/2.7.3/python273.chm>`_ `(sig) </ftp/python/2.7.3/python273.chm.asc>`_
+
+- `Mac OS X 64-bit/32-bit x86-64/i386 Installer (2.7.3) for Mac OS X 10.6 and 10.7 </ftp/python/2.7.3/python-2.7.3-macosx10.6.dmg>`_ `[2] <#id6>`_ `(sig) </ftp/python/2.7.3/python-2.7.3-macosx10.6.dmg.asc>`_. [You may need an updated Tcl/Tk install to run IDLE or use Tkinter, see note 2 for instructions.]
+
+- `Mac OS X 32-bit i386/PPC Installer (2.7.3) for Mac OS X 10.3 through 10.6 </ftp/python/2.7.3/python-2.7.3-macosx10.3.dmg>`_ `[2] <#id6>`_ `(sig) </ftp/python/2.7.3/python-2.7.3-macosx10.3.dmg.asc>`_.
+
+The source tarballs are signed with Benjamin Peterson's key (fingerprint: 12EF
+3DC3 8047 DA38 2D18 A5B9 99CD EA9D A413 5B38). The Windows installer was signed
+by Martin von L?wis' public key, which has a key id of 7D9DC8D2. The Mac
+installers were signed with Ned Deily's key, which has a key id of 6F5E1540.
+The public keys are located on the `download page </download#pubkeys>`_.
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    c57477edd6d18bd9eeca2f21add73919  11793433  Python-2.7.3.tar.bz2
+    62c4c1699170078c469f79ddfed21bc0   9976088  Python-2.7.3.tar.xz
+    2cf641732ac23b18d139be077bd906cd  14135620  Python-2.7.3.tgz
+    80461c3c60fae64122b51eb20341b453  22178854  python-2.7.3-macosx10.3.dmg
+    15c434a11abe7ea5575ef451cfd60f67  18761950  python-2.7.3-macosx10.6.dmg
+    008a63d89d67d41801a55ea341a34676  16221250  python-2.7.3-pdb.zip
+    5e24faf0b64c59e5f11f1fcfe4644bf3  17376322  python-2.7.3.amd64-pdb.zip
+    d11d4aeb7e5425bf28f28ab1c7452886  16420864  python-2.7.3.amd64.msi
+    c846d7a5ed186707d3675564a9838cc2  15867904  python-2.7.3.msi
+    9401a5f847b0c1078a4c68dccf6cd38a   5898853  python273.chm
+
+**MISSING**
+[1]  *(`1 <#id1>`_, `2 <#id2>`_)* The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).
+**MISSING**
+[2]  *(`1 <#id3>`_, `2 <#id4>`_)* There is important information about IDLE, Tkinter, and Tcl/Tk on Mac OS X here.  Also, on Mac OS X 10.6, if you need to build C extension modules with the 32-bit-only Python installed, you will need Apple Xcode 3, not 4.  The 64-bit/32-bit Python can use either Xcode 3 or Xcode 4.

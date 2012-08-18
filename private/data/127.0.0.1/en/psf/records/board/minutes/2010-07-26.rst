@@ -1,0 +1,183 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+July 26, 2010
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:01 UTC, 26
+July 2010.  Steve Holden presided at the meeting.  David Mertz prepared
+the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Report <#progress-report>`_
+
+- `6   Funding of Jean-Paul Calderone for a port of pyOpenSSL to Python 3.x <#funding-of-jean-paul-calderone-for-a-port-of-pyopenssl-to-python-3-x>`_
+
+- `7   Funding of Brett Cannon for Python core development <#funding-of-brett-cannon-for-python-core-development>`_
+
+- `8   Donation to American Heart Association <#donation-to-american-heart-association>`_
+
+- `9   Reauthorization of the Trademarks Committee <#reauthorization-of-the-trademarks-committee>`_
+
+- `10   Funding of PyCon Argentina and Python Brasil <#funding-of-pycon-argentina-and-python-brasil>`_
+
+- `11   Discussion of Email Balloting <#discussion-of-email-balloting>`_
+
+- `12   Electronic Contributor Agreements <#electronic-contributor-agreements>`_
+
+- `13   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Steve Holden, Gloria Willadsen, Jeff Rush, Marc-Andr? Lemburg,
+Jesse Noller, David Mertz, Tim Peters, Douglas Napoleone [joined meeting
+at 16:08], James Tauber [joined meeting at 16:10], Raymond Hettinger
+[joined meeting at 16:39].  Also in attendance was Kurt Kaiser
+(treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 10 May 2010 Board meeting minutes were approved during this month's
+meeting session.
+
+Approved, 6-0-1. 
+
+The 21 June 2010 Board meeting minutes were approved during this month's
+meeting session.
+
+Approved, 4-0-3.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting on 21 June 2010.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The montly Treasurer's Report was provided to Board members by K.
+Kaiser prior to the Board meeting.
+
+The board discussed how to respond to Wendroff's request for increase in
+fees from the previously contracted amounts; dissatisfaction with the
+level of service from Wendroff was discussed.  The Chair will explore
+other options for future accounting service.
+
+`5   Progress Report <#id5>`_
+-----------------------------
+
+Jesse Noller reported funding of 2 sprints, one in Canada and one at
+Europython, and the potential to fund 2-3 in the upcoming months.  He
+reports 2 potential donors and plenty of donated space for sprints,
+including space donation by Microsoft.
+
+`6   Funding of Jean-Paul Calderone for a port of pyOpenSSL to Python 3.x <#id6>`_
+----------------------------------------------------------------------------------
+
+The board voted on the funding motion. 
+
+    **RESOLVED**, that the PSF offers a USD 3,000 grant to Jean-Paul
+    Calderone for a fully functional port of pyOpenSSL to Python 3.x
+    with an API as similar to the 2.x API as possible.
+
+Approved, 9-0-0.
+
+`7   Funding of Brett Cannon for Python core development <#id7>`_
+-----------------------------------------------------------------
+
+The board discussed the funding request previously submitted in writing
+by Brett Cannon.
+
+    **RESOLVED**, that the PSF offers a USD 4,500 grant to work
+    full-time for a period of two months on Python core development as
+    outlined in the proposal PDF
+    (`http://mail.python.org/mailman/private/psf-board/attachments/20100614/62bbf3b8/attachment-0001.pdf <http://mail.python.org/mailman/private/psf-board/attachments/20100614/62bbf3b8/attachment-0001.pdf>`_).
+
+Approved, 9-0-0.
+
+`8   Donation to American Heart Association <#id8>`_
+----------------------------------------------------
+
+The board voted on a charitable donation in memory of Tim Costello. 
+
+    **RESOLVED**, that the PSF donate $100 to the American Heart
+    Association in memory of Tim Costello, the uber- technician of CTE
+    who recently passed-away.
+
+Approved, 9-0-0.
+
+`9   Reauthorization of the Trademarks Committee <#id9>`_
+---------------------------------------------------------
+
+The board discussed a revised membership and continuation of the
+Trademarks Committee.
+
+    **RESOLVED**, that the Board reauthorize the Trademarks Committee,
+    with a membership consisting of Chair David Mertz, and members
+    Marc-Andre Lemburg, David Goodger, James Tauber, Doug Napoleone.
+    Further resolve that the Chair shall be authorized to appoint or
+    remove such advisors to the committee as s/he sees fit, where
+    advisors may offer advice to the committee on legal or technical
+    issues but shall not vote in discussions nor count towards quorum.
+
+Approved, 5-0-3.
+
+`10   Funding of PyCon Argentina and Python Brasil <#id10>`_
+------------------------------------------------------------
+
+The board discussed a funding request that would cover joint funding of
+speakers to appear at both time-adjacent conferences. The original
+request was felt to be underspecified, heed was taken to current
+financial limitations fo the PSF, and the board reached a clarified
+motion.
+
+    **RESOLVED**, that the PSF offers a grant of US$2500 to the
+    organizers of the PyCon Argentina & Python Brasil 2010 conferences
+    to be held October 2010, to fund the travel expenses of keynote
+    speakers.
+
+Approved, 9-0-0.
+
+`11   Discussion of Email Balloting <#id11>`_
+---------------------------------------------
+
+Concern was expressed that Secretary Pat Campbell's health issue may
+prevent her from conducting the planned election to follow the recent
+EuroPython.
+
+Consensus was reached that the board should wait two weeks to see if Pat
+is comfortable with conducting the election at such time; further
+consensus was reached that should she be unable to conduct this
+election, another a principled non-PSF member would be suitable to
+conduct the balloting (with technical assistance from David Mertz, as
+needed).
+
+`12   Electronic Contributor Agreements <#id12>`_
+-------------------------------------------------
+
+The board discussed whether electronic signatures would be legally
+appropriate for contributor agreements and whether use of them would
+make it easier to optain such agreements.  Jeff Rush agreed to research
+the issue.
+
+`13   Adjournment <#id13>`_
+---------------------------
+
+Steve Holden adjourned the meeting at 17:10 UTC.

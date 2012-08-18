@@ -1,0 +1,117 @@
+Python 2.3.5
+------------
+
+We're happy to announce the release of 
+**Python 2.3.5 (final)** on 
+Feb 8th, 2005.
+This is a bug-fix release for Python 2.3. There have been around 50
+bugs fixed since 2.3.4 - in the Python interpreter, the standard library
+and also in the build process - see the release 
+notes for details.
+
+    **Important:** This release is vulnerable to the problem described in
+      `security advisory PSF-2006-001 </news/security/PSF-2006-001/>`_
+      "Buffer overrun in repr() of unicode strings in wide unicode
+      builds (UCS-4)".  This fix is included in
+      `Python 2.4.4 <../2.4.4/>`_
+      and `Python 2.5 <../2.5/>`_. If you need to remain with Python 2.3,
+      there's a patch available from the security advisory page.
+
+Python 2.3.5 supersedes the previous `Python 2.3.4 </download/releases/2.3.4/>`_ 
+release.
+
+No new features have been added in Python 2.3.5 -- the 2.3 series is
+in bugfix-only mode.
+
+**2.3.5 contains an important security fix for 
+SimpleXMLRPCServer - see the 
+advisory (PSF-2005-001) for more.**
+
+Python 2.3.5 is the last planned release in the Python 2.3 series, and 
+is being released for those people who are stuck on Python 2.3 for some 
+reason.  `Python 2.4 </download/releases/2.4/>`_
+is a newer release, and should be preferred where possible. 
+From here, bugfix releases will be made from the Python 2.4 branch - 
+2.4.1 will be the next Python release.
+
+Please see the separate `bugs page <bugs>`_ for known
+issues and the bug reporting procedure.
+
+Download the release
+~~~~~~~~~~~~~~~~~~~~
+
+**Windows** users should download the Windows installer, `Python-2.3.5.exe </ftp/python/2.3.5/Python-2.3.5.exe>`_, run
+it and follow the friendly instructions on the screen to complete the
+installation.  Windows users may also be interested in Mark Hammond's
+`win32all <http://starship.python.net/crew/mhammond/>`_, a collection of Windows-specific extensions including
+COM support and Pythonwin, an IDE built using Windows components.
+
+RPMs suitable for Red Hat/Fedora and source RPMs for other RPM-using
+operating systems are available from `the RPMs page <rpms>`_.
+
+**All others** should download either 
+`Python-2.3.5.tgz </ftp/python/2.3.5/Python-2.3.5.tgz>`_ or
+`Python-2.3.5.tar.bz2 </ftp/python/2.3.5/Python-2.3.5.tar.bz2>`_,
+the source archive.  The tar.bz2 is considerably smaller, so get that one if
+your system has the appropriate 
+tools to deal with it. Unpack it with 
+"tar -zxvf Python-2.3.5.tgz" (or 
+"bzcat Python-2.3.5.tar.bz2 | tar -xf -").  
+Change to the Python-2.3.5 directory
+and run the "./configure", "make", "make install" commands to compile 
+and install Python. The source archive is also suitable for Windows users
+who feel the need to build their own version.
+
+**Warning for Solaris and HP-UX users**: Some versions of the
+Solaris and HP/UX versions of *tar(1)* report checksum
+errors and are unable to unpack the Python source tree.
+This is caused by some pathnames being too
+long for the vendor's version. Use
+`GNU tar <http://www.gnu.org/software/tar/tar.html>`_ instead.
+
+If you're having trouble building on your system, check the top-level
+README file for platform-specific tips, or check the 
+`Build Bugs <bugs#build>`_ section on the Bugs webpage.
+
+What's New?
+~~~~~~~~~~~
+
+- A detailed list of the changes since 2.3.4 is in the `release notes <notes>`_, also available as the file ``Misc/NEWS`` in the source distribution.
+- See the `highlights </download/releases/2.3/highlights>`_ of the Python 2.3 release. As noted, the 2.3.5 release is a bugfix release of 2.3.4, itself a bugfix release of 2.3.
+- The Windows installer now includes the documentation in searchable  htmlhelp format, rather than individual HTML files. You can still download the `individual HTML files </ftp/python/doc/2.3.5/>`_.
+- Andrew Kuchling's What's New in Python 2.3 describes the most visible changes since `Python 2.2 </download/releases/2.2.3/>`_ in more detail.
+- For the full list of changes, you can poke around in `CVS <http://sourceforge.net/cvs/?group_id=5470>`_.
+
+Documentation
+~~~~~~~~~~~~~
+
+The documentation has been updated too:
+
+- `Browse HTML documentation on-line </doc/2.3.5/>`_
+
+- Download using `HTTP </ftp/python/doc/2.3.5/>`_.
+
+The interim documentation for
+new-style classes, last seen for Python 2.2.3, is still relevant
+for Python 2.3.5.  Raymond Hettinger has also written a tutorial on
+descriptors, introduced in Python 2.2.  
+In addition, The Python 2.3 Method
+Resolution Order is a nice paper by Michele Simionato that
+explains the C3 MRO algorithm (new in Python 2.3) clearly.  (Also
+available as `reStructured Text </download/releases/2.3/mro/mro.txt>`_.  Copied with
+permission.)
+
+Files, `MD5 <md5sum.py>`_ checksums, signatures, and sizes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
+
+    7a1ecc1196c5c0e9d4eef90ba684c4e9 `Python-2.3.5.tgz </ftp/python/2.3.5/Python-2.3.5.tgz>`_ (8535749 bytes, `signature <Python-2.3.5.tgz.asc>`_)
+    c12b57c6e0cf8bc676fd9444d71c9e18 `Python-2.3.5.tar.bz2 </ftp/python/2.3.5/Python-2.3.5.tar.bz2>`_ (7230000 bytes, `signature <Python-2.3.5.tar.bz2.asc>`_)
+    ba6f9eb9da40ad23bc631a1f31149a01 `Python-2.3.5.exe </ftp/python/2.3.5/Python-2.3.5.exe>`_ (9881382 bytes, `signature <Python-2.3.5.exe.asc>`_)
+
+The signatures above were generated with
+`GnuPG <http://www.gnupg.org>`_ using the release manager's
+(Anthony Baxter)
+`public key </download#pubkeys>`_ 
+which has a key id of 6A45C816.

@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/wingide -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/wingide">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="wing-ide-takes-flight-with-python">
+<h1>Wing IDE Takes Flight with Python</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Business</p>
+<p><strong>Keywords:</strong>  cpython, pygtk, wxpython, pyqt, tkinter, zope, mod_python, plone, pygame, web, missioncritical, rad</p>
+<p><strong>Title:</strong>  Wing IDE Takes Flight with Python</p>
+<p><strong>Authors:</strong>   Stephan R.A. Deibel and John P. Ehresman</p>
+<p><strong>Contact:</strong>   <a class="reference external" href="mailto:info%40wingide.com">info&#64;wingide.com</a></p>
+<p><strong>Date:</strong>   2003/01/17 15:59:02</p>
+<p><strong>Web site:</strong>  <a class="reference external" href="http://wingide.com/">http://wingide.com/</a></p>
+<p><strong>Summary:</strong>  Wing IDE is a successful commercial integrated development environment written for Python -- and in Python.</p>
+<p><strong>Logo:</strong>  .. image:: /files/success/wingide/dancing-logo-trans.gif    :alt: /files/success/wingide/dancing-logo-trans.gif</p>
+<div class="section" id="introduction">
+<h2>Introduction</h2>
+<p><a class="reference external" href="http://wingide.com/">Wing IDE</a> is a commercial integrated development environment for the Python
+programming language. Wing provides developers with a full-featured source
+editor, debugger, code browser, and many other tools specifically designed for
+use with Python. Wing works with all forms of Python, whether running as a
+stand-alone app, under a web server, or in a custom embedded scripting
+environment. Several GUI layers (<a class="reference external" href="http://www.wxpython.org/">wxPython</a>, <a class="reference external" href="http://www.riverbankcomputing.co.uk/pyqt/">PyQt</a>, <a class="reference external" href="http://www.daa.com.au/~james/pygtk/">PyGTK</a>, and <a class="reference external" href="http://www.python.org/topics/tkinter/">Tkinter</a>) are
+supported, as are <a class="reference external" href="http://www.zope.org/">Zope</a> and <a class="reference external" href="http://www.modpython.org/">mod_python</a> for web development, and <a class="reference external" href="http://www.pygame.org/">pygame</a> for game
+development.</p>
+<p>Wing was inspired in 1999 by several experiences we, its developers, had using
+Python alongside other technologies. At that time, we were working as
+consultants charged with evaluating a number of alternatives for tiered web
+development. Some of these were based on Java and some on Visual Basic, MTS,
+and ASP. Concurrently, we happened to be using Python to prototype some of the
+functional requirements for the web-deployed business applications we were
+developing.</p>
+<p>It wasn't long before we found ourselves comparing our Python prototypes
+favorably to the actual systems we were developing. Python was a much more
+productive way to work, and it seemed to result in at least as good an end
+product.</p>
+<p>Unfortunately, our client never seriously considered Python simply because it
+wasn't a mainstream (namely Java or Microsoft) technology. But it was clear to
+us that Python could have been a significant cost saver and competitive
+advantage for them, and we saw a business opportunity in helping other
+organizations benefit by using Python.</p>
+</div>
+<div class="section" id="development-approach">
+<h2>Development Approach</h2>
+<p>Work on Wing IDE started almost right away, in mid 1999, initially on a
+part-time basis. We realized that writing an entire IDE wasn't going to be
+easy and wanted to be sure that Python was really as good as it appeared to us
+at the time. The logical way to approach this was to develop the IDE itself in
+Python. This would give us proof of concept and let us become early users as
+we started to develop and debug Wing IDE with itself.</p>
+<img alt="Screen Shot of Wing IDE 1.1.7 Debugging Itself" src="/pythonorg/default/index/files/success/wingide/wingide_web.gif" />
+<p><em>Wing IDE 1.1.7 in action, debugging itself</em> <a class="reference external" href="/pythonorg/default/index/files/success/wingide/wingide.png">Zoom in</a></p>
+<p>To speed development and keep costs down, we chose to base Wing on as many
+open source modules as we could find. The GUI was written with GTK, which is
+accessed from Python via <a class="reference external" href="http://www.daa.com.au/~james/pygtk/">PyGTK</a>. The source editor is based on <a class="reference external" href="http://www.scintilla.org/">Scintilla</a>, an
+open source code editor component. And printing is implemented via py2pdf from
+<a class="reference external" href="http://www.reportlab.com/">ReportLab</a>.</p>
+<p>Initial development was on Linux but we planned to support at least Windows
+and eventually other Unix-like operating systems. For this reason, we avoided
+platform-specific implementations and chose cross-platform technologies.</p>
+<p>Additional development tools used in the project included gcc, Gnu make,
+latex, pdflatex, latex2html, emacs/xemacs (before Wing was functional), Visual
+C++ 6, and cygwin.</p>
+</div>
+<div class="section" id="results">
+<h2>Results</h2>
+<p>Our work on Wing IDE has been quite a success. We were able to develop faster
+than we originally expected, and to deliver Wing IDE on Linux, Windows 98
+through XP, Mac OS X with XDarwin, Solaris, and FreeBSD without major
+platform-specific development work. Today, our product is receiving good
+reviews and is selling well. All of this has been possible without any outside
+funding and with a development team of just two people.</p>
+<p>The biggest benefits of using Python have been in overall productivity,
+cross-platform deployment, speed of the resulting application, scalability,
+rock-solid stability, and its strong support for mixed-language development.</p>
+<div class="section" id="productivity">
+<h3>Productivity</h3>
+<p>Over the course of this project, we have been able to write on average over
+175 lines of debugged, documented, tested code per developer per day. Over a
+period of 660 FTE days, we produced a total of approximately 121K lines, of
+which 77K were written in Python. Even without considering that a line of
+Python is typically equivalent to 10 or more lines of C, we were extremely
+pleased with this result.</p>
+<p>The entire product, including third party open source modules, actually
+contains on the order of 1.2 million lines of code, of which 274K lines are
+Python.</p>
+<p>So why was using Python so productive, even when only 63% of the code we wrote
+was in Python? There is no single answer to this question, but several:</p>
+<p><strong>1) Simple syntax</strong> -- Although use of indentation to indicate program structure
+sometimes turns off first-time Python users, the reduced typing burden that
+comes with avoiding {}'s and similar syntactic sugar does matter over the
+course of writing and rewriting hundreds of thousands of lines of code.</p>
+<p><strong>2) Dynamic high-level data typing</strong> -- Lack of strong data typing, another
+commonly cited &quot;weakness&quot; in Python, is in practice a significant advantage
+for most kinds of software development. The bottom line is that you don't need
+strong data typing in the context of a language like Python. Common coding
+errors are caught anyway by the type system: You still can't add a number to a
+string, reference past the end of an array, or call an non-existent class
+method. Dynamic high-level data typing cuts out great volumes of support code
+and makes it possible to write flexible and introspective code (more on this
+below).</p>
+<p><strong>3) Powerful, easy-to-use data structures</strong> -- Python's built-in list and
+dictionary data structures can be used in combination to build just about any
+fast runtime data structure in a snap. This further reduces the amount of
+support code you need to write.</p>
+<p><strong>4) Extensive standard library</strong> -- Python comes with a vast standard library
+supporting everything from string and regular expression processing to XML
+parsing and generation, Web services tools, and internet protocol support.
+Many common programming tasks have already been built into the standard
+library, making it possible to do more with less code. Third-party modules are
+also available for database access, CORBA, COM, statistics, math, image
+processing, and much more.</p>
+<p><strong>5) Introspection</strong> -- Python's flexible data typing system extends also to code
+documentation, classes, methods, and even the way in which methods are called.
+Python makes introspection extremely accessible to the programmer and,
+remarkably, introspective code remains readable and maintainable. This can be
+very useful in redirecting I/O to classes of your own design, writing a tracer
+that determines code coverage, packing up data to store on disk or send over
+the network, developing glue code, writing table-driven algorithms, extracting
+documentation from code at runtime, applying design-by-contract development
+methods, and in building various types of meta-classes. For almost every
+programming task, Python makes it not only possible but quite easy to build
+meta-code where one might otherwise end up building gobs of manually crafted
+code.</p>
+<p><strong>6) Faster development and deeper prototyping</strong> -- Python increases speed of
+development to the point where prototyping can be integrated into and
+interleaved with the primary development process. When it takes only half a
+day to try out a new approach to a problem, rather than the week it might take
+in C or C++, programmers are more often empowered to rework existing imperfect
+code, and to try out new ideas. This results in the more rapid incorporation
+of experience into an application's design, and leads to higher code quality.</p>
+</div>
+<div class="section" id="cross-platform-deployment">
+<h3>Cross-platform Deployment</h3>
+<p>Wing IDE runs on a variety of Posix operating systems and Windows. Throughout
+our development process, we've been very happy with the way that Python
+performed across platforms. The same Python source or compiled Python byte
+code files can be shipped to clients regardless of target platform, making
+support quite easy.</p>
+</div>
+<div class="section" id="speed-scalability-and-stability">
+<h3>Speed, Scalability, and Stability</h3>
+<p>When we started to write in Python, our previous experience in compiled
+languages led us to believe that we would be spending a fair amount of time
+either optimizing code or converting it into C or C++ once we had prototyped
+it. As it turned out, most of the time Python produced a snappy end product
+that didn't require any extra work.</p>
+<p>This happened partially because most Python code is really just a thin
+interpreted layer over functionality that is written in C or C++. In
+our case, this included not just Python's fast built-in data structures and
+standard libraries but also the bulk of the GTK GUI development layer and the
+Scintilla source editor.</p>
+<p>In the course of development and in responding to thousands of support tickets
+over a three year period, we have never run into any significant problems with
+Python itself, either in scalability or stability. Wing IDE can handle
+software projects with thousands of Python files, and in many cases can run
+for weeks without problems. To our knowledge, we have yet to see Wing IDE
+crash because of a flaw in the Python interpreter or its standard libraries.</p>
+</div>
+<div class="section" id="mixed-language-development">
+<h3>Mixed-language Development</h3>
+<p>Python is almost always fast enough but we did run into a few cases where the
+interpreter did introduce too much overhead. The Wing IDE debugger and the
+source code analysis engine both contain modules that engage in extremely CPU
+intensive processing. These modules needed to be written in C in order to
+squeeze out as much speed as possible. Fortunately, Python is designed to make
+it quite easy to call back and forth between Python and C or C++.</p>
+<p>In most cases, we wrote and debugged code first in Python, and then converted
+by hand into C. This approach worked well for us. Working initially in Python
+was much more efficient and the conversion process relatively painless.</p>
+<p>Analysis of our records shows that 360 days were spent on 77K lines of Python
+code and 300 days (almost as much) on 44K of C, C++, or other code. From our
+experience with code conversions, we believe it is roughly correct for most
+types of performance-critical code to equate one line of Python with ten lines
+of C or C++ code. This means that about 5-10% of our application functionality
+is in C or C++ and the rest is in Python. Even considering that the C/C++ code
+is somewhat more complex than most of the Python code, these results confirm
+without any doubt that working in Python is far more productive than working
+in C or C++.</p>
+<p>In hindsight, we believe that we could have converted smaller units of code
+into C, by writing more general data-driven processing engines, and by more
+carefully selecting code to convert instead of converting whole modules at a
+time. Our primary goal for Python in the future is to be able to use it more
+often, even in performance-critical sections of code. This effort should
+benefit from projects like <a class="reference external" href="http://www.cosc.canterbury.ac.nz/~greg/python/Pyrex/">pyrex</a>, which allows the use of Python-like code in
+the development of compiled extension modules, and <a class="reference external" href="http://psyco.sourceforge.net/">psyco</a>, which is a
+just-in-time compiler for Python.</p>
+</div>
+</div>
+<div class="section" id="quirks">
+<h2>Quirks</h2>
+<p>There are just two quirks that affected our development with Python. The
+relative impact they had on our project was tiny compared to Python's benefits
+but for balance we feel they are worth mentioning:</p>
+<p><strong>1)</strong> Like Java and other languages, Python occasionally deprecates old
+features, or fixes minor bugs in a way that can potentially break existing
+code. This is done over the course of a number of releases, so that
+programmers will first see deprecation warnings, and only later be impacted by
+the change. We ran into this only once when Python 2.0 began to disallow
+multiple arguments to the sequence append method. This problem required changing
+exactly three easily found calls in our code base of over 77K lines of Python.</p>
+<p><strong>2)</strong> Different versions of Python can produce incompatible compiled byte code
+and requires that C/C++ extension modules are compiled against a specific
+version of Python. For example, while Python 2.2.2 works happily with Python
+2.2.1 or 2.2.0 byte code and extension modules, it will print warnings and may
+run into problems running against those compiled against Python 2.1.x or
+earlier. There are solid technical reasons behind this design choice, but it
+does require some additional work when packaging applications for distribution
+to users running different versions of Python. In the Wing IDE debugger, we
+solve the problem simply be storing separate directories for each interpreter
+version and importing modules accordingly at runtime. For the IDE itself, we
+solve it by shipping with a specific Python interpreter included; a task
+that's easily accomplished with support found in the Python standard library's
+distutils package.</p>
+<p>No other language we have used has been this devoid of quirks, even those we
+have used much less intensively and across fewer language revisions.</p>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>Without Python, we could not have sustained the Wing IDE development effort
+long enough to produce what is now a successful software product. Python has
+been more productive, robust, and portable than any other technology we have
+tried. Through our experiences providing technical support for the IDE, we
+know that we are not alone in these assessments. Feedback from our customers
+often includes strong endorsements for the productivity of Python, Wing IDE,
+and related technologies such as Zope.</p>
+</div>
+<div class="section" id="about-the-authors">
+<h2>About the Authors</h2>
+<p><em>Stephan R.A. Deibel has been designing and developing software for almost 20
+years. He has worked extensively in medical informatics and as a software
+consultant. Before finding Python, his projects included one of the first
+Macintosh-based multimedia authoring systems and an early CORBA
+implementation. Stephan is now CEO and co-founder of Archaeopteryx Software,
+Inc, makers of Wing IDE.</em></p>
+<p><em>John P. Ehresman has been programming for more than ten years in medical
+informatics and as a software consultant.  He has been using Python since
+version 1.2 and is now co-founder of Archaeopteryx Software, Inc.</em></p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

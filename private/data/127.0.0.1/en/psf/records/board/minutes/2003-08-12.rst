@@ -1,0 +1,89 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+August 12, 2003 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 10:00 PDT.  Guido van
+Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Thomas Wouters, David Ascher, Guido van Rossum, Marc-Andre
+Lemburg, Tim Peters, Jeremy Hylton. A quorum was present. Neal Norwitz
+also participated in the meeting.
+
+2. Python.org transfer
+######################
+
+Pursuant to a contract signed between CNRI and Guido van Rossum, transfer
+of the python.org domain name will be made from CNRI to the PSF.  The board
+agreed to transfer the hosting to XS4ALL and Thomas Wouters volunteered to
+execute that transfer.  No transfer of registrar is planned for the short
+term.  It was agreed that we should pay 5 years in advance to avoid 
+lapsing.
+
+3. Conference budget approval
+#############################
+
+Steve Holden not being present and no figures being available at
+the time of the meeting, the conference budget was not discussed or
+approved.
+
+4. Archaeopteryx Member Status
+##############################
+
+Archaeopteryx is a sponsor member with past dues.  As such,
+Archaeopteryx' membership rights are suspended as per the bylaws.  The
+transition from sponsor member to emeritus member can be done either
+voluntarily at the member's request or by a two thirds vote of the
+membership. Thus, it was
+
+    RESOLVED, that the treasurer contact Archaeopteryx and
+    suggest that they either pay their sponsorship fee or volunteer to
+    become emeritus members.
+
+Motion approved unanimously.
+
+5. Press Releases
+#################
+
+Stephan Deibel has in the past paid for press releases for Python
+releases out of pocket.  The board felt that there was some value to
+the press releases and that they are part of the PSF's mission.  Thus,
+it was
+
+    RESOLVED, that the PSF approves a $500/year budget for
+    the Public Support Committee to pay for distribution of press
+    releases.
+
+Motion approved with 4 ayes, 0 nos and 2 abstentions.
+
+6. Website Executive Committee
+##############################
+
+It was
+
+    RESOLVED, That a Project Management Committee, designated
+    Python Website Committee, be formed to be responsible for the content
+    and management of the Python Website (www.python.org), that its
+    initial members be Thomas Wouters, Kevin Altis, Just van Rossum, Aahz
+    and Fred L. Drake Jr., that it follows rules analog to those set for
+    in the PSF bylaws for the PSF board with respect to voting and
+    meetings, and that Thomas Wouters will be its initial chairman.
+
+Motion approved unanimously.
+
+7. Treasurer report
+###################
+
+The treasurer report was deferred to email discussions.
+
+8. Adjournment
+##############
+
+There being no further business, the meeting was adjourned at 11:00
+PDT.

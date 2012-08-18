@@ -1,0 +1,349 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+April 13, 2009
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:02 UTC, 13
+April 2009.  Steve Holden presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Status of Past Action Items <#status-of-past-action-items>`_- `4.1   Carried Forward <#carried-forward>`_  - `4.2   New On 12 March <#new-on-12-march>`_  - `4.3   New On 27 March <#new-on-27-march>`_  - `4.4   New Between Meetings <#new-between-meetings>`_
+
+- `5   Grant Funding from Mellon Foundation <#grant-funding-from-mellon-foundation>`_
+
+- `6   PyCon Italia <#pycon-italia>`_
+
+- `7   PSF Community Award Nominations <#psf-community-award-nominations>`_
+
+- `8   Grant for Vern Ceder for NECC Talk <#grant-for-vern-ceder-for-necc-talk>`_
+
+- `9   Request for PSF Support of FOWABE <#request-for-psf-support-of-fowabe>`_
+
+- `10   Request for Support of the &quot;NiceTime&quot; Proposal <#request-for-support-of-the-nicetime-proposal>`_
+
+- `11   PSF Prepayment and Reimbursement of Meetup.com Fees <#psf-prepayment-and-reimbursement-of-meetup-com-fees>`_
+
+- `12   PyCon Financial Results <#pycon-financial-results>`_
+
+- `13   PyOhio Donations <#pyohio-donations>`_
+
+- `14   Website for Learning Python <#website-for-learning-python>`_
+
+- `15   Adjournment <#adjournment>`_
+
+`1   Attendance <#id3>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Brett Cannon, David Goodger, Steve Holden,
+Andrew Kuchling, Martin von L?wis, David Mertz, Tim Peters, and Jeff Rush.
+Also in attendance were Kurt Kaiser (Treasurer) and Pat Campbell
+(Administrator).
+
+`2   Minutes of Past Meetings <#id4>`_
+--------------------------------------
+
+The January, February, and March 2009 Board meeting minutes were not
+ready.
+
+`3   Votes Taken Between Meetings <#id5>`_
+------------------------------------------
+
+No votes were taken since the last Board meetings on 12 March and 27
+March.
+
+`4   Status of Past Action Items <#id6>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+Action items are tracked in `the private PSF wiki <http://wiki.python.org/psf/Action_Items>`_ and their status is
+recorded in the regular minutes.  The numbers in square brackets (like
+&quot;[0]&quot;) refer to the action item ID on the wiki.
+
+`4.1   Carried Forward <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 12 March
+2009 meeting, as highlighted in the minutes (Section 4, Status of Past
+Action Items).  Numbers in [brackets] represent the item ID in the PSF
+private wiki.
+
+- [11] Originally from June 2006, Section 6, PSF Records: **MISSING**      Status: in progress.
+
+- [30] Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- [13] Originally from December 2006, Section 4, Jython Contributor Agreements: D. Goodger will write to the Jython contributors and ask them to sign contributor agreement forms, in combination with item 1 [11] above (transferred from A. Kuchling).     Status: carried forward.
+
+- [29] Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws [with S. Deibel's help].  Include an affiliation program [ref. July 2008 section 8].     Approved by member vote 2009-03-27.      Status: **done**.
+
+- [23] Originally from 14 April 2008, Section 5, Treasurer's Report: S. Holden will assist K. Kaiser with accounts receivable reminders.     Status: in progress.
+
+- [15] Originally from 14 April 2008, Section 7, PyCon Asset Record-Keeping: D. Goodger will update the assets file in PSF CVS with the details of the laptops and VGA2USB boxes purchased for PyCon 2008.     Status: in progress.
+
+- [16] Originally from 14 April 2008, Section 12, Sponsor Membership Issues: D. Goodger will update the member information in members.xls (sponsors & nominated members) & sponsor-addrs.txt, in PSF CVS.     Status: carried forward.
+
+- [22] Originally from 16 June 2008, Section 6.1, Treasurer's Report: K. Kaiser will submit an expanded report to psf-members.     Status: carried forward.
+
+- [4] Originally from 16 June 2008, Section 6.2, Treasurer's Report: D. Goodger will follow up regarding the PyCon transaction analysis.     Status: carried forward.
+
+- [5] Originally from 16 June 2008, Section 6.3, Treasurer's Report: D. Goodger will ensure that documentation for unpaid PyCon tutorials is found and provided.     Status: carried forward.
+
+- [9] Originally from 16 June 2008, Section 6.7, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon sponsorships.     Status: carried forward.
+
+- [10] Originally from 16 June 2008, Section 6.8, Treasurer's Report: D. Goodger will follow up regarding unpaid PyCon registrations.     Status: carried forward.
+
+- [25] Originally from 11 August 2008, Section 6.2, PyCon UK Sponsorship: R. Hettinger will propose a blanket policy for sponsorships, instead of one-off requests.     Status: carried forward.
+
+- [17] Originally from 8 September 2008, Section 7, PSF Logo: D. Goodger will produce final layouts for a PSF logo.     Status: carried forward.
+
+- [34] Originally from 8 December 2008, Section 5, Role of Administrator: D. Goodger and P. Campbell will verify and update the member contact information.     Status: carried forward.
+
+- [38] Originally from 12 January 2009, Section 7.2, Trademarks Committee (TMC): J. Tauber will work with the Trademarks Committee on establishing voting procedures.     Status: carried forward.
+
+- [39] Originally from 12 January 2009, Section 7.3, Trademarks Committee (TMC): J. Tauber will document the Trademarks Committee procedure as discussed at the Board meeting.     Status: carried forward.
+
+- [40] Originally from 12 January 2009, Section 7.4, Trademarks Committee (TMC): J. Tauber will work with counsel on a proposal to register Python trademarks.     Status: carried forward.
+
+- [42] Originally from 12 January 2009, Section 10, Legal Issues: K. Kaiser will look into acquiring errors and omissions insurance for the Board of Directors.     Status: carried forward.
+
+- [43] Originally from 9 February 2009, Section 9, Internet Domain Management: S. Holden will frame a motion regarding the management of the PSF's Internet domains.     Status: carried forward.
+
+- [44] Originally from 9 February 2009, Section 12, PSF Community Awards: D. Goodger will ask the members for nominations for the PSF Community Awards.     Status: carried forward.
+
+`4.2   New On 12 March <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 12 March 2009 Board meeting on
+IRC.
+
+- [46] Section 5, Internet Domain Management: S. Holden will ask Sean Reifschneider about domain management services.     Email sent 2009-03-12, awaiting detailed reply.      Status: carried forward.
+
+- [47] Section 6.1, Members' Meeting: M. von L?wis will restart the discussion on giving up control of the Python logo, and formulate a summary and a resolution for the agenda.     Email sent 2009-03-12.  Resolution added to the agenda and voted on at the 2009-03-27 members' meeting     Status: **done**.
+
+- [48] Section 6.2, Members' Meeting: K. Kaiser will prepare a 2008 financial report (P&L and balance sheet) in advance of the members' meeting.     Presented at the 2009-03-27 members' meeting, and emailed on the same day.     Status: **done**.
+
+- [49] Section 7, Board Candidates: S. Holden will send email to the members list regarding Board nominations.     Email sent 2009-03-12.      Status: **done**.
+
+- [50] Section 8, Account Signature Authority: K. Kaiser will obtain signature cards from the PSF's bank and coordinate their signing.     Status: carried forward.
+
+`4.3   New On 27 March <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 27 March 2009 Board meeting at
+PyCon.
+
+- [51] Section 4, New Members: D. Goodger and P. Campbell will inform the new members of their election, invite them to join the psf-members list, and will update the membership records.     Status: carried forward.
+
+- [52] Section 5, PSF Community Awards: P. Campbell will add &quot;PSF Community Award nominations&quot; to the Board agenda quarterly.     Status: carried forward.
+
+`4.4   New Between Meetings <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No action items were added since the last Board meetings on 12 March
+and 27 March.
+
+`5   Grant Funding from Mellon Foundation <#id11>`_
+---------------------------------------------------
+
+S. Holden asked the other Directors to familiarize themselves with the
+`Mellon Award for Technology Collaboration <http://matc.mellon.org/>`_
+for the next meeting.
+
+`6   PyCon Italia <#id12>`_
+---------------------------
+
+We received a funding request from PyCon Italia to help with a $7,000
+shortfall in their budget.  The PSF sponsored PyCon Italia 2007 & 2008
+at 1,500 Euros each.  S. Holden: &quot;It's a rather larger conference this
+year, with Guido [van Rossum] and [Alex] Martelli visiting.&quot;
+
+    **RESOLVED**, that the PSF support PyCon Italia 2009 with funding
+    of $3,500.
+
+Approved, 8-0-0. 
+
+B. Cannon: &quot;Are we ever going to say that we are not going to sponsor
+a conference after X number of years?  In other words do we ever
+expect them to become fully self-sufficient?&quot;
+
+D. Goodger: &quot;We do need a policy of some kind.&quot; 
+
+S. Holden noted that there is an outstanding action item to propose a
+policy on conference sponsorship.
+
+[53] S. Holden will notify the PyCon Italia organizers of the
+PSF's funding, and will request an invoice.
+
+`7   PSF Community Award Nominations <#id13>`_
+----------------------------------------------
+
+Nominees for the next round of PSF Community Awards were discussed.
+One nominee was selected.
+
+*[The details below were temporarily omitted from the public minutes,
+restored after the award announcement.]*
+
+    **RESOLVED**, that Stephan Deibel be awarded the PSF Community
+    Award.
+
+Approved, 8-0-0. 
+
+Sean Reifschneider was recommended for his many contributions: to
+PyCon networking, to python.org maintenance, and to the Python
+community.  Whether to award Sean or his company, Tummy.com, was
+debated.  T. Peters: &quot;We should ask Sean which he'd prefer -- he may
+have business reasons for wanting, or not wanting, Tummy to get it.&quot;
+
+`8   Grant for Vern Ceder for NECC Talk <#id14>`_
+-------------------------------------------------
+
+Vern Ceder approached S. Holden about PSF support for his attendance
+at National Educational Computing Conference (12,000+ teachers), where
+he will present Computer Programming for Everybody: Python in the
+Classroom with Jeff Elkner, promoting Python.  Vern is a
+schoolteacher who needs $1,000 total funding, and asked if the PSF
+would underwrite a portion.
+
+    **RESOLVED**, that a grant of $500 be made to facilitate Vern
+    Ceder's attendance to present a Python paper at NECC.
+
+Approved, 6-0-2. 
+
+[54] S. Holden will write to Vern Ceder about the PSF's grant
+towards his talk at NECC.
+
+`9   Request for PSF Support of FOWABE <#id15>`_
+------------------------------------------------
+
+A request was received from Xavier Heymans for the PSF's support of
+FOWABE, an EU proposal relating to improvements to the Plone/Zope
+technological stack.  It was noted that the request did not contain a
+complete proposal, and the Board agreed that it could not support the
+proposal without complete information.
+
+[55] S. Holden will write to Xavier Heymans to explain the
+Board's position regarding FOWABE support.
+
+`10   Request for Support of the &quot;NiceTime&quot; Proposal <#id16>`_
+------------------------------------------------------------------------
+
+A request was received from Ian Benson for a $10,000 grant of the
+&quot;NiceTime&quot; proposal, to further the Python education of a group of
+schoolteachers in the UK.  The grant would be used to hold a one day
+workshop in September.
+
+D. Goodger: &quot;I don't see a significant link to the PSF's mission.&quot; 
+
+S. Holden: &quot;[Ian Benson] is actually working towards formal adoption
+of Python as a teaching technique in the UK (and, later, perhaps the
+US) mathematics curriculum, so there is definitely relevance to our
+mission.&quot;
+
+A. Kuchling: &quot;I found the proposal didn't give enough details to let
+me decide.  ...  And there's a lot of jargon I didn't get...&quot;
+
+T. Peters: &quot;I didn't see anything specific about what the money would
+be spent on.  ...  Specific would be &quot;food&quot;, &quot;clothing&quot;, &quot;travel&quot;,
+&quot;awards&quot;, etc.  In effect, I want a high-level budget from him, so I
+have some idea where the PSF's money is going.&quot;
+
+[56] S. Holden will request a reformulated proposal for
+NiceTime.
+
+`11   PSF Prepayment and Reimbursement of Meetup.com Fees <#id17>`_
+-------------------------------------------------------------------
+
+J. Rush presented a proposal to reimburse user group organizers for
+fees paid to Meetup.com in the past year, and to prepay annual fees
+for Meetup.com Python groups ($144 per 3 groups).  Details at
+`https://www.dfwpython.org/Meetup/Meetup <https://www.dfwpython.org/Meetup/Meetup>`_.
+
+S. Holden asked J. Rush if he would be prepared to administer an
+annual budget for this.  J. Rush replied that he would.
+
+S. Holden: &quot;I'd personally see this as directly relevant to our
+mission. With $1,500 we could fund up to thirty groups.&quot;
+
+M. von L?wis wasn't familiar with Meetup.com.  The Board described it
+as: a system to encourage local groups to form and be active, used for
+organizing semi-public face-to-face meetings that can range widely in
+size and scope.  An organizer posts a date for an event, and people
+indicate their interest in attending.  For each group the Meetup.com
+site keeps a calendar of past meetings, with attendance, if the
+organizer approves it afterward.  Meetup evens can be useful, but
+attendance and frequency is not closely monitored by Meetup.
+
+D. Goodger asked about obtaining an umbrella group discount.  J. Rush:
+&quot;I'm still talking with meetup.com; they don't make it easy to sponsor
+groups of groups.  Been pushing them for years.&quot;
+
+A. Kuchling: &quot;Is there some criteria we should set for reimbursement?
+E.g. meetings of a certain size/frequency.&quot;  D. Goodger agreed
+
+S. Holden: &quot;We could have criteria for continued funding, but at $50
+per group per year we don't want to over-administer this - it could
+easily become a bike shed.&quot;
+
+D. Mertz: &quot;I think criterion of &quot;not obviously defunct&quot; would be
+enough to keep funding a local group.&quot;
+
+K. Kaiser asked about the number and frequency of invoices.  J. Rush:
+&quot;Probably 4-5 a year, spread throughout the year, for the first year.&quot;
+
+    **RESOLVED**, that an annual budget of up to $1,500 be established
+    for Meetup expenses for local user groups.  Jeff Rush will
+    administer the funds initially.
+
+Approved, 7-0-1.
+
+`12   PyCon Financial Results <#id18>`_
+---------------------------------------
+
+T. Peters inquired about the PyCon financial results.  D. Goodger:
+&quot;Our meeting planners, CTE, have assured us that we won't have to pay
+any attrition (empty hotel rooms).  That saves us up to $70K.  They
+haven't completed their post-conference audit yet though.  And we
+haven't done all the books yet.  Probably a small loss overall.&quot;
+
+`13   PyOhio Donations <#id19>`_
+--------------------------------
+
+D. Mertz: &quot;Should the board have any position about the proposal on
+PSF list to let PyOhio run its donations through PSF?&quot;
+
+J. Rush: &quot;The PyOhio issue is bigger; some regional groups want PSF to
+indemnify them; one idea is for the PSF to provide boilerplate org
+papers, rules.&quot;
+
+A. Kuchling: &quot;PyAR also would like boilerplate documents (for
+conference budgets, sponsorship contracts, etc.).&quot;
+
+S. Holden: &quot;I think we need to look at how to act as a channel for
+smaller groups, we certainly can't do it without consideration of
+liability issues and 501(3)(c) status.&quot;
+
+Further discussion was deferred to the ongoing discussion on
+the PSF-members mailing list.
+
+`14   Website for Learning Python <#id20>`_
+-------------------------------------------
+
+A. Kuchling: &quot;FYI: notes on a new micro-website for people wanting to
+learn Python.  I'll probably start trying to write it in a few
+weeks.&quot;
+
+`15   Adjournment <#id21>`_
+---------------------------
+
+S. Holden adjourned the meeting at 17:06 UTC.

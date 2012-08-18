@@ -1,0 +1,70 @@
+Python 3.0
+----------
+
+    **Python 3.0 has been replaced by a newer bugfix release of Python**.
+    Please download `Python 3.0.1 <../3.0.1/>`_ instead.
+
+Python 3.0 final was released on December 3rd, 2008. 
+
+Python 3.0 (a.k.a. &quot;Python 3000&quot; or &quot;Py3k&quot;) is a **new
+version** of the language that is **incompatible** with the 2.x line of
+releases.  The language is mostly the same, but many details,
+especially how built-in objects like dictionaries and strings work,
+have changed considerably, and a lot of deprecated features have
+finally been removed.  Also, the standard library has been reorganized
+in a few prominent places.
+
+Here are some Python 3.0 resources: 
+
+- `What's new in Python 3000 <http://docs.python.org/3.0/whatsnew/3.0.html>`_
+
+- `Python 3.0 change log <NEWS.txt>`_.
+
+- `Online Documentation <http://docs.python.org/3.0/>`_
+
+- Read more in `PEP 3000 </dev/peps/pep-3000/>`_
+
+- To help out, sign up for `python-3000@python.org <http://mail.python.org/mailman/listinfo/python-3000/>`_
+
+- Conversion tool for Python 2.x code: `2to3 <http://svn.python.org/view/sandbox/trunk/2to3/>`_
+
+Please report bugs at `http://bugs.python.org <http://bugs.python.org>`_ 
+
+Python 3.0 Release: 03-Dec-2008
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Download
+--------
+
+This is a production release; we currently support these formats: 
+
+- `Gzipped source tar ball (3.0) </ftp/python/3.0/Python-3.0.tgz>`_ `(sig) <Python-3.0.tgz.asc>`_
+
+- `Bzipped source tar ball (3.0) </ftp/python/3.0/Python-3.0.tar.bz2>`_ `(sig) <Python-3.0.tar.bz2.asc>`_
+
+- `Windows x86 MSI Installer (3.0) </ftp/python/3.0/python-3.0.msi>`_ `(sig) <python-3.0.msi.asc>`_
+
+- `Windows X86-64 MSI Installer (3.0) </ftp/python/3.0/python-3.0.amd64.msi>`_ `[1] <#id4>`_ `(sig) <python-3.0.amd64.msi.asc>`_
+
+MD5 checksums and sizes of the released files: 
+
+.. code-block::
+
+    ac1d8aa55bd6d04232cd96abfa445ac4  11191348  Python-3.0.tgz
+    28021e4c542323b7544aace274a03bed   9474659  Python-3.0.tar.bz2
+    054131fb1dcaf0bc20b23711d1028099  13421056  python-3.0.amd64.msi
+    2b85194a040b34088b64a48fa907c0af  13168640  python-3.0.msi
+
+Documentation
+-------------
+
+- `Online Documentation <http://docs.python.org/3.0/>`_ is updated twice a day
+
+- `What's new in Python 3000 <http://docs.python.org/3.0/whatsnew/3.0.html>`_
+
+- `Guido van Rossum's current blog <http://neopythonic.blogspot.com/>`_
+
+- `Guido van Rossum's previous blog <http://www.artima.com/weblogs/index.jsp?blogger=guido>`_
+
+**MISSING**
+`[1] <#id1>`_  The binaries for AMD64 will also work on processors that implement the Intel 64 architecture (formerly EM64T), i.e. the architecture that Microsoft calls x64, and AMD called x86-64 before calling it AMD64. They will not work on Intel Itanium Processors (formerly IA-64).

@@ -1,0 +1,440 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+March 21, 2011
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 16:00 UTC, 21
+March 2011. Steve Holden presided at the meeting. Pat Campbell
+prepared the minutes.
+
+All votes are reported in the form &quot;*Y-N-A*&quot; (*in favor ? opposed ?
+abstentions*; e.g. &quot;5-1-2&quot; means &quot;5 in favor, 1 opposed, and 2
+abstentions&quot;).
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Votes Taken Between Meetings <#votes-taken-between-meetings>`_
+
+- `4   Treasurer Report <#treasurer-report>`_
+
+- `5   Progress Report <#progress-report>`_- `5.1   Communication Status <#communication-status>`_  - `5.2   HAM WebPages/Links <#ham-webpages-links>`_  - `5.3   Infrastructure Committee <#infrastructure-committee>`_  - `5.4   Marketing Material <#marketing-material>`_  - `5.5   Moving PyPI to Amazon CloudFront <#moving-pypi-to-amazon-cloudfront>`_  - `5.6   PyCon US Website <#pycon-us-website>`_  - `5.7   Sprint Committee <#sprint-committee>`_  - `5.8   Trademarks Committee <#trademarks-committee>`_
+
+- `6   2011 EuroPython Conference Grant Funding <#europython-conference-grant-funding>`_
+
+- `7   ISTE Speaking Engagement Funding for V. Cedar <#iste-speaking-engagement-funding-for-v-cedar>`_
+
+- `8   Online Degree Reviews Future Sponsor Membership <#online-degree-reviews-future-sponsor-membership>`_
+
+- `9   Kiwi PyCon 2011 Conference Grant Funding <#kiwi-pycon-2011-conference-grant-funding>`_
+
+- `10   Other Business <#other-business>`_- `10.1   Conference Grant Prospectus <#conference-grant-prospectus>`_  - `10.2   2011 Members' Meeting <#members-meeting>`_  - `10.3   Contributor Agreements in Python Bug Tracker <#contributor-agreements-in-python-bug-tracker>`_  - `10.4   PyCon US 2010 & 2011 -- Great Job! <#pycon-us-2010-2011-great-job>`_
+
+- `11   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Raymond Hettinger, Steve Holden, Marc-Andre Lemburg, David Mertz,
+Doug Napoleone arrived at 12:34, Jesse Noller, Tim Peters, Allison Randal
+arrived at 12:05, Jeff Rush, Martin von Loewis, and Gloria Willadsen. Also
+in attendance were Kurt Kaiser (Treasurer), and Pat Campbell (Secretary &
+Administrator).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 28 February 2011 Board meeting minutes were voted on and approved. 
+
+Approved, 8-0-1.
+
+`3   Votes Taken Between Meetings <#id3>`_
+------------------------------------------
+
+There were no votes taken since the last Board meeting held on 28
+February 2011.
+
+`4   Treasurer Report <#id4>`_
+------------------------------
+
+The monthly Treasurer's Report was provided to Board members by K.
+Kaiser prior to the Board meeting and produced from Quickbooks Online.
+
+Here is an exerpt from the treasurer's report on a few of the activities
+the treasurer will be focused on:
+
+&quot;Although this is a report for February, PyCon is now over, and my focus
+is currently on AR and AP reduction, PyCon wrap-up and final payments to
+the hotel and our vendors, and implementation of the Associate Member
+program.&quot;
+
+`5   Progress Report <#id5>`_
+-----------------------------
+
+The following board reports were submitted to the board mailing list
+one week prior to this month's meeting. Please see a summary of each
+board report listed below and a possible board discussion which
+followed the report:
+
+`5.1   Communication Status <#id6>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Hellmann, Communication Officer, reported continued activities from
+last month, by saying:
+
+    - Paulo Nuin is working on a post about the PyPI mirroring project.
+
+    - Paulo Nuin is working on a post about the email package rewrite. We are waiting for some details about the QNX funding before the post goes live.
+
+As far as new activities for the month are concerned, he reported: 
+
+    - Several messages about the site-selection meeting for PyCon 2014-2015.- `http://pyfound.blogspot.com/2011/02/pycon-2014-2015-site-selection-meeting.html <http://pyfound.blogspot.com/2011/02/pycon-2014-2015-site-selection-meeting.html>`_  - `http://pyfound.blogspot.com/2011/03/bring-superbowl-of-python-to-your.html <http://pyfound.blogspot.com/2011/03/bring-superbowl-of-python-to-your.html>`_
+
+    - Added a few companies to the list maintained by @ThePSF account on twitter. If your company is not already included, please send a message to @ThePSF with the account you would like added.- `http://twitter.com/ThePSF/companies <http://twitter.com/ThePSF/companies>`_
+
+    - Members meeting announcement- `http://pyfound.blogspot.com/2011/02/psf-members-meeting-to-be-held-at-pycon.html <http://pyfound.blogspot.com/2011/02/psf-members-meeting-to-be-held-at-pycon.html>`_
+
+    - Paulo Nuin posted the call for submission for the promotional brochure project- `http://pyfound.blogspot.com/2011/03/call-for-submissions-for-promotional.html <http://pyfound.blogspot.com/2011/03/call-for-submissions-for-promotional.html>`_
+
+    - Announce readthedocs.org grant- `http://pyfound.blogspot.com/2011/03/psf-funds-readthedocsorg.html <http://pyfound.blogspot.com/2011/03/psf-funds-readthedocsorg.html>`_
+
+    - Posted call for applications for GSoC- `http://pyfound.blogspot.com/2011/03/now-accepting-applications-for-google.html <http://pyfound.blogspot.com/2011/03/now-accepting-applications-for-google.html>`_
+
+        Doug and Arc Riley talked about other ways to promote the project
+        this year. The next event is announcing that the PSF is
+        participating (assuming we are accepted, of course).
+
+    - Renew call for applications for sprint funding to coinside with the first day of PyCon sprints.- `http://pyfound.blogspot.com/2011/03/call-for-applications-sprint-funding.html <http://pyfound.blogspot.com/2011/03/call-for-applications-sprint-funding.html>`_
+
+    - Announce PyCon AU funding- `http://pyfound.blogspot.com/2011/03/pycon-australia.html <http://pyfound.blogspot.com/2011/03/pycon-australia.html>`_
+
+For items planned for next month and ongoing projects, D. Hellmann reported
+respectively:
+
+    - Finish the post on the email project.
+
+    - Announce grant to fund Python Miro Community (post scheduled for 21 March).
+
+    - We are starting a new project in partnership with the python-dev team to blog about the volunteer efforts from that group. I was able to recruit a few contributors at PyCon, and will put out a more general call for help after we have the blog established.
+
+    Facebook stats for 9 Dec - 7 Jan 
+
+    12,709 monthly active users (up 44%) 
+
+    1,625 new likes 
+
+    244,180 post views (up 377%) 
+
+    472 post feedback
+
+`5.2   HAM WebPages/Links <#id7>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+P. Campbell, Honorary Associate Membership (HAM) WebPages Start-up
+Project, reported on any current issues or blockages the project may
+be faced with by saying:
+
+&quot;We have been in the technical phase of the Honorary Associate Membership
+(HAM) Project for the past few months which means that the actual HAM
+membership recruitment can not begin until the new membership sign-up and
+payment system are in place on the official Python website.
+
+According to Kurt Kaiser, our treasurer, since PyCon US 2011 is behind us,
+he will be able to devote more of his time to the HAM project.
+
+So, hopefully, our first HAM membership signup will soon be on the way
+once the HAM membership signup and payment system is integrated with
+python.org!&quot;
+
+`5.3   Infrastructure Committee <#id8>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+S. Reifschneider, Infrastructure Committee Chair, reported on ongoing
+projects for the month when he listed: PSF Trac.
+
+`5.4   Marketing Material <#id9>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+M.A.Lemburg, Marketing Material Project Manager, reported progress
+on the project:
+
+&quot;The contract has been signed by the Steve and is now
+in process of being countersigned. At the same time, Kurt
+is preparing the first payment.
+
+For PyCon US 2011, we have prepared a flyer which was placed into
+the attendee's swag bag and have recruited a team of &quot;contact
+scouts&quot; to help find and contact people at PyCon US with
+potentially interesting Python projects:
+
+    `http://brochure.getpython.info/signup/contact-scout-signup <http://brochure.getpython.info/signup/contact-scout-signup>`_
+
+Doug's blog team has also put up a post about the project
+on the PSF blog.
+
+To make the information about the brochure more readily
+available, we have also created a informational website
+to support the brochure:
+
+    `http://brochure.getpython.info/ <http://brochure.getpython.info/>`_
+
+The flyer, blog post, contact scouts and mention of the
+project in Steve's talk have created a number of useful
+contacts which we will be following up with over the next
+weeks.
+
+We've also created a newsletter mailing list, a twitter
+account and RSS feed for interested parties.&quot;
+
+M.A.Lemburg also reported issues with the project, he said: 
+
+&quot;Additional help in finding such interesting projects would be
+greatly appreciated. Please consider signing up as contact scout:
+
+    `http://brochure.getpython.info/signup/contact-scout-signup <http://brochure.getpython.info/signup/contact-scout-signup>`_
+
+Thanks !&quot; 
+
+As far as future plans are concerned for his marketing materials
+project, he reported:
+
+&quot;If the project goes well, we'll follow up with a Python flyer,
+translated versions of the brochure and also consider creating
+marketing material more targeted at specific user groups or
+application fields.
+
+In the long run, we'd also like to take the idea of producing
+marketing material beyond printed material and develop booth
+setups, giveaways, CDs, etc. to support conference organizers and
+local user groups wishing to promote Python at their events.&quot;
+
+`5.5   Moving PyPI to Amazon CloudFront <#id10>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The project leader, M.A. Lemburg, Moving PyPI to Amazon CloudFront,
+reported progress on this project for the month:
+
+&quot;There has not been much progress on the project in the last four
+weeks.&quot;
+
+In terms of having any issues surrounding his project, M. A.
+Lemburg reported no issues except that he just does not have enough
+time to devote to his Moving PyPI to Amazon CloudFront project.
+
+- - Lemburg also reported on future plans for the project:
+
+&quot;Check to see whether a trigger based approach to S3 syncing
+wouldn't be easier to implement right from the start.&quot;
+
+`5.6   PyCon US Website <#id11>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Napoleone, PyCon US Website Project, reported on new activities
+for the month:
+
+    - Contract with Eldarion is complete.
+
+    - Archival of old PyCon websites to static content is complete.
+
+    - Catalog of future work and requirements is almost complete.
+
+`5.7   Sprint Committee <#id12>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+J. Noller, Sprint Committee Chair, provided a summary of activities for
+this month, he reported: :
+
+&quot;We recently approved two large, multi-day sprints for late March and
+early April in Argentina and Chicago, respectively. We also had two
+sprints occur in Portland and Cape Town, the latter of which we've
+already received a reimbursement request and will be working to pay
+out.
+
+The PyCon swag insert seemed to have been a success and got a few
+people talking, and will be looking forward to more sprints.&quot;
+
+As far as continued activities from last month, J. Noller said: 
+
+&quot;Using the account data from Kurt Kaiser, we're going to build up the
+ledger in order to keep better track of funding as usage grows.
+
+We're awaiting word from Noah Kantrowitz about our balance for the
+partial funding of the PyCon sprints. We put $500 into the pot, but
+have not yet heard what the total cost was and what our portion will
+be.&quot;
+
+On his report of new activities for the month, J. Noller said: 
+
+&quot;Catching up on promotion and blog writing. The Cape Town group did a
+very successful matplotlib sprint that we need to write about, and
+their previous porting sprint on Genshi was finally accepted into
+trunk which also needs coverage. Promotion of the two newly accepted
+sprints also needs coverage, which will be written early in the week
+of March 20.&quot;
+
+`5.8   Trademarks Committee <#id13>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+D. Mertz, Trademarks Committee Chair, provided issues & blockages for the
+previous monthly reporting, he said:
+
+**MISSING**
+
+As far as reporting on new activities, he provided the following list: 
+
+    - Eric Shae requests use of logo on hat, which was explained as nominative use
+
+    - Geoffrey Duncan requests use of logo in comic strip, explained as nominative
+
+    - Martin Haller requests use of modified logo for PyFFmgeg.  The use was considered confusing and dilutive.  After a polite email exchange, the project agreed to a different design that preserved the shape of the Python logo.
+
+    - Carl Trachte identified a possible derivative logo used by Amara, but it seems to be sufficiently different not to be derived or confusable with the Python logo
+
+    - Carl Trachte identified some modification for 3D effect by &quot;The Python Noob&quot; but they do not appear to pose a problem.
+
+    - Python Logo Glencairn Glasses were produced with nominative use of logo, and our Chair apparently managed to claim at least a set of them while they slipped by possessions of the Trademarks committee
+
+    - Ram Rachum produced a dark background version of the Python logo that is nominative use, but reminded committee that it would be nice to provide stock versions of such dark background images.
+
+    - Arc Riley has expressed an intent to design copyright unrestricted version of font similar to the one used in our wordmark logo, which would be cool if it happens.
+
+    - Carl Trachte consulted committee to clarify use of Python logo in examples of SVG modification tools.  He added good verbiage to his blog post letting readers know that such modified versions could not be used generally without permission of Trademarks Committee, while still producing a helpful article about SVG.
+
+    - We decided not to really address a use of modified logo in personal avatar icon, despite Van's concern of strictness of enforcement (although it does not appear we really have jurisdictional force in Austria anyway; at least in my evaluation it wasn't worth pushing on).
+
+    - Sheila Rebellato of ActiveState received clarification of nominative use of logo in PyCon flyers and marketing material.
+
+    - We clarified that use of logo on race bikes by Kent Gormat was fine (although I was slightly unclear of connection between PL and bikes)
+
+- Mertz reported on a number of ongoing projects:
+
+    - **MISSING**
+
+    - Doug Napoleone identified a probably dilutive derived logo by psycopg.  I need to followup with them to resolve this.
+
+    - Find some PSF member or other helpful Pythonista to produce dark background logo version
+
+    - Find some PSF member or other helpful Pythonista to produce logos that indicate PSF sponsors as a standard badge/logo.
+
+In addition to the above report, David also provided an executive summary: 
+
+Executive summary: The rate of trademark issues addressed by
+committees has been consistent for the last year.  The majority of
+correspondences are simply clarifications of nominative use.  Perhaps
+20% of discussions are about uses that we find dilutive or confusing,
+and in all cases for about 2 years, those uses that concern us have
+been resolved amiciably with the project rep, user group, individual,
+etc. who has the problem use.
+
+The committee (which mostly means its chair informally deciding that a
+given use has been discussed adequately to followup on) is adequate to
+the tasks we've seen.  Our counsel, Van, remains available on call in
+the event that some nastygrams or other legal actions are needed, but
+that has not been necessary since one case about two years ago.
+
+Hope that clarifies overall status.  It amounts, in my mind, to the
+need for the continuing need for the committee to do its work, but the
+work required remains steady and moderate.
+
+`6   2011 EuroPython Conference Grant Funding <#id14>`_
+-------------------------------------------------------
+
+    **RESOLVED**, that the PSF provide $2,000 to the 2011 EuroPython
+    Conference to be held in Italy.
+
+Approved, 9-0-0.
+
+`7   ISTE Speaking Engagement Funding for V. Cedar <#id15>`_
+------------------------------------------------------------
+
+    **RESOLVED**, that the PSF provide $500 for travel expenses to Vern
+    Ceder for the International Society for Technology in Education(ISTE)
+    speaking engagement to be held in Philadelphia, US, June 2011.
+
+Approved, 10-0-0.
+
+`8   Online Degree Reviews Future Sponsor Membership <#id16>`_
+--------------------------------------------------------------
+
+    **RESOLVED**, that the Board of Directors recommends Online Degree
+    Reviews to the membership, as a future sponsor member of the PSF.
+
+Approved, 9-0-0.
+
+`9   Kiwi PyCon 2011 Conference Grant Funding <#id17>`_
+-------------------------------------------------------
+
+    **RESOLVED**, That the PSF provide NZ$ 2,000 for Kiwi PyCon 2011
+    Conference to be held in New Zealand.
+
+Approved, 8-2-0.
+
+`10   Other Business <#id18>`_
+------------------------------
+
+`10.1   Conference Grant Prospectus <#id19>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The board reached a consenus on the need to construct a conference grant
+prospectus to be utilized as a basic guideline for conference funding.
+
+J. Noller: &quot;We should write a &quot;Conference Grant Prospectus&quot; which outlines
+how much to each &quot;type&quot; of conference we are willing to grant, and how they
+can apply.&quot;
+
+M.A. Lemburg: &quot;I can write up the page if someone else puts it up on the
+website.&quot;
+
+S. Holden: &quot;If you can draft an article, we can discuss it, then pass it by
+the board-public list before publication.&quot;
+
+`10.2   2011 Members' Meeting <#id20>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Board members discussed the upcoming Members' Meeting to be held at PyCon US
+2011 in Atlanta, Georgia to review the final planning stages. Prior to this
+month's board meeting, P. Campbell, PSF Secretary, had prepared a members'
+meeting report for board members review which included details of the
+arrangements for the members' meeting and catered lunch event.
+
+`10.3   Contributor Agreements in Python Bug Tracker <#id21>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The board briefly discussed the importance of updating contributor agreements
+in the bug tracker as a building block toward utilizing electronic contributor
+agreements sometime in the near future.
+
+J. Noller: &quot;I am following up on electronic contributor agreements per the PyCon
+discussions (the language summit) with Van Lindberg and Jacob Kaplan moss. When I
+have more information and a fully fledged plan, I will send it to the board. I
+have requirements from the summit, and Guido/others.&quot;
+
+S. Holden: &quot;That would be helpful. I think it's an irritation more than a real
+horror right now, but better we fix it before we see a large influx of developers.&quot;
+
+M. von Loewis: &quot;I'd like to arrive at a point where the tracker (or some other place)
+is authorative wrt. this information, so we can say that anybody not listed there
+either didn't submit a form, or we lost it.&quot;
+
+`10.4   PyCon US 2010 & 2011 -- Great Job! <#id22>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The board extended a hardy thank-you to V. Lindberg, chair, and J. Noller, vice-chair
+of PyCon US 2010 & 2011 for their great work.
+
+- Holden: &quot;You [J. Noller] and Van [Lindberg] did a great job, and THANK-YOU!!!!&quot;
+
+J. Noller: &quot;I will point out: We're still organizing and recovering from 2009 - Van and
+I have set some processes in place which will help us in the future, and we're refining
+it.&quot;
+
+`11   Adjournment <#id23>`_
+---------------------------
+
+- Holden adjourned the meeting at 17:08 UTC.

@@ -1,0 +1,62 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+July 13, 2004 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Guido van Rossum
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Martin v. L?wis, Tim Peters, Guido van Rossum, Steve
+Holden. Jeremy Hylton joined after the first agenda item. Neal Norwitz
+also attended the meeting. Martin was taking minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The June minutes where approved with 3/0/1.
+
+3. Reports
+##########
+
+Steve reported that the PR committee has worked on new site definitions.
+
+Jeremy reported that the conference committee has found the evaluation forms
+from the last conference. GWU is unavailable for March 2005, so the committee
+looks for alternative times/locations.
+
+4. New Python License
+#####################
+
+Marc-Andre Lemburg has suggested a new license for Python. David Ascher has
+asked his company lawyer for comments, and he suggested corrections. There was
+discussion how to proceed with this issue. Guido proposed that somebody drafts
+a new version including the comments, and proposes it to the board for the next
+meeting. *Tim volunteers to do so.*
+
+5. Contrib Forms
+################
+
+David Ascher had suggested that the proposed forms are 
+presented to some corporate lawyers we know. *Martin will contact them.*
+
+Martin also asked about the board's view on a patent clause. Tim remarked
+that Larry Rosen considered a patent clause unnecessary for a contributor's
+agreement. Guido said given David's argument in favour of such a clause,
+he is now +0 for including it. *Martin will post
+a revised version of the form to the members list, and ask members specifically
+whether they consider a patent clause necessary.*
+
+Jeremy brought up the question of a PSF lawyer. He has a lead, and asked
+for board approval for contacting a lawyer. Several board members confirmed
+that he, being a PSF officer, needs no official permission, and encouraged
+him to proceed.
+
+6. Adjournment
+##############
+
+Their being no further business, Guido adjourned the meeting at 17:45GMT.

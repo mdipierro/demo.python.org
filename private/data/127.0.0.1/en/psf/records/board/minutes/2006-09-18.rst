@@ -1,0 +1,107 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+September 18, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:29 UTC, 18
+September 2006.  Stephan Deibel presided at the meeting.  David
+Goodger prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in August <#new-in-august>`_
+
+- `4   Legal Counsel <#legal-counsel>`_
+
+- `5   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Steve Holden, David Goodger, Andrew Kuchling, David Ascher,
+and Stephan Deibel.  Also in attendance was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 14 August 2006 minutes were approved by a 4-0-1 vote.
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 14 August 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: carried forward.
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     D. Goodger has heard from the potential sponsor's representative, who is working on a sponsor application.  No ETA though.     Status: follow-up required.
+
+- Originally from November 2005, follow-up from December 2005: S. Holden is to contact a potential PSF sponsor/donor.     S. Holden reported that he has sent snail mail, but no reply yet.      Status: follow-up required.
+
+- Originally from November 2005, Section 8, Trademark Policy: S. Deibel to work on the PSF trademark policy, and discuss with Milind Shaw.     Status: follow-up required.
+
+- Originally from March 2006, Section 4, Grants Committee: M. von L?wis agreed to draft a report on the PSF grants.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     D. Goodger reported that he recently received records from Kurt Kaiser.  He is still awaiting the delivery of records from Jeremy Hylton though, who has not replied to repeated email messages. D. Goodger will telephone Jeremy Hylton to ask for PSF records to be sent.     Status: in progress.
+
+- Originally from July 2006, Section 3.2, item 3: D. Goodger will update & confirm email & snail mail addresses when he receives the PSF records, with the help of M. von L?wis.     Status: carried forward.
+
+- Originally from July 2006, Section 9, 2006 Budget & Action Plan: D. Goodger will develop the 2006 Budget & Action Plan further and take it to the PSF membership for feedback.     Status: carried forward.
+
+`3.2   New in August <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated in the 14 August 2006 board meeting on
+IRC.
+
+- Section 3.1, item 1: S. Holden will scan and forward the contributor agreements from the &quot;Need for Speed&quot; sprint.     Status: **replaced**.      S. Holden will forward the contributor agreements from the &quot;Need for Speed&quot; sprint to D. Goodger, who will scan them.
+
+- Section 3.3, item 4: S. Deibel to follow up with our lawyer regarding the trademark agreement from Autodesk.     Status: carried forward.
+
+- Section 5, Python Advocacy Coordinator Proposal: S. Deibel will take the Advocacy Coordinator proposal to the members for a week and call an email vote on Monday, August 21.     Status: **done**.      K. Kaiser will follow up with Jeff Rush regarding the Advocacy Coordinator contract, a contribution form, and invoices.
+
+- Section 6, Mission Statement Change: D. Goodger will notify the members and implement the changes to the Mission Statement web page.     Status: **done**.
+
+- Section 8, `http://www.cafepress.com/pydotorg <http://www.cafepress.com/pydotorg>`_: Regarding the Python CafePress web store: A. Kuchling will fix up the text; get the keys; make it public and announce it.     Status: **done**.
+
+- Section 9, Brett's Discussion with Mark Shuttleworth: B. Cannon will post a detailed summary of the conversation via email for further discussion.     Status: **done**.
+
+- Section 9, Brett's Discussion with Mark Shuttleworth: B. Cannon will contact Mark Shuttleworth to tell him we're interested in further discussion.     Status: **done**.      S. Deibel and B. Cannon will follow up regarding further discussion with Mark Shuttleworth.
+
+- Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+`4   Legal Counsel <#id6>`_
+---------------------------
+
+The PSF's existing lawyer (pro bono) has become busy lately and
+doesn't seem to have time for the PSF.  The consensus of the
+discussion was to wait through the week and then start looking around
+for someone else.
+
+D. Ascher reminded the board that he had spoken with a lawyer who does
+a lot of software legal work, and who seemed interested in doing work
+for the PSF.  D. Ascher will follow up regarding potential
+new legal counsel for the PSF.
+
+S. Deibel noted that we probably still do need volunteer help from a
+lawyer or it will be too expensive to do some things.
+
+`5   Adjournment <#id7>`_
+-------------------------
+
+S. Deibel adjourned the meeting at 17:49 UTC.

@@ -1,0 +1,92 @@
+March 9, 2005
+
+Press Release
+
+SOURCE: Python Software Foundation
+
+**PYCON 2005 - KEYNOTE SPEECH FROM GOOGLE INSIDER**
+
+*Keynote Speech by Greg Stein Provides Glimpse at Google's Use of Python*
+
+*Washington, DC, March 9, 2005* -- The organizers of PyCon 2005
+have announced that Greg Stein, an engineering manager at Google
+working with the Blogger team, will be giving a keynote presentation 
+on Google's use of Python for internal projects.  Mr. Stein's keynote 
+is scheduled for Friday, March 25, at 9:30 AM.
+
+PyCon 2005, the third annual Python developers' conference, will be
+held at George Washington University's Cafritz Conference Center in
+Washington DC on March 23-25, 2005.  PyCon is a community-oriented
+conference targeting developers interested in Python, a powerful open
+source programming language.  The conference program will include
+peer-reviewed presentations, impromptu talks, meetings for
+planning future development, and two other keynote speakers:
+
+- Guido van Rossum, creator of Python, will discuss plans for future         Python development.
+- Jim Hugunin, author of IronPython, will discuss its current         status.  IronPython is a new implementation of the Python 	programming language for the Microsoft .NET and open-source Mono 	platforms.
+
+PyCon 2005 is organized by members of the Python community, and made
+possible by the Python Software Foundation and conference sponsors.
+This year's sponsors include White Oak Technologies Inc., ActiveState,
+the Open Source Applications Foundation, and Google.  Pre-registration
+for PyCon 2005 costs $250 ($175 for students) until March 19th, and
+$300 ($225 for students) at the door.  For more information or to
+register, please visit the PyCon 2005 website:
+`www.python.org/pycon/2005 <http://www.python.org/pycon/2005/>`_.
+
+About Greg Stein
+----------------
+
+Greg Stein is an engineering manager at Google, working with the
+Blogger team.
+
+Prior to that, Greg was a director of engineering at CollabNet where
+he managed the Subversion project and releases of their CollabNet
+Enterprise Edition product. He also worked at Microsoft as a
+Development Manager, in the Commerce Server and Site Server
+groups. Greg was a co-founder and the Corporate Technologist of eShop,
+one of the first electronic commerce software companies, before its
+acquisition by Microsoft.
+
+In Greg's spare time, he works on many open source projects, such as
+Subversion, WebDAV, and Python.  He also works on Apache projects and
+is the current Chairman of the Apache Software Foundation.
+
+About Python
+------------
+
+Python is a powerful object-oriented programming language that is
+developed and maintained by a global community of open source developers
+under the oversight of the Python Software Foundation.
+
+Python is very easy to learn for programmers familiar with other
+languages such as C, C++, Java, and Visual Basic, and can
+significantly increase programmer productivity.  It is often
+characterized as an agile language that promotes speedy
+development. Python is often used in large system development to
+decrease software costs, mitigate risk, and meet aggressive
+schedules. The language is the basis of applications used by tens of
+thousands of companies and organizations worldwide, and its user base
+is growing rapidly.
+
+Additional information and downloads are available at `www.python.org <http://www.python.org>`_.
+
+About the Python Software Foundation
+------------------------------------
+
+The Python Software Foundation (PSF) is a non-profit organization
+devoted to advancing Open Source technology related to the Python
+programming language. The PSF holds the intellectual property rights
+to Python and plans to fund portions of future development of the
+language. Additional information on the PSF is available at `www.python.org/psf <http://www.python.org/psf/>`_. To make a
+tax-deductible donation, please visit `www.python.org/psf/donations/ <http://www.python.org/psf/donations/>`_. Corporate
+sponsorships are also being accepted.
+
+Press Contact
+-------------
+
+Stephan Deibel
+
+617-232-0059
+
+sdeibel@wingware.com

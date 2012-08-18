@@ -1,0 +1,104 @@
+Python 2.3.7
+------------
+
+    We are pleased to announce
+    **Python 2.3.7 (final)**, a
+    bugfix release of Python 2.3, on March 11, 2008.
+
+    **Important:**
+    2.3.7 is a source-only release. If you need a binary release
+    of 2.3, use `2.3.5 <../2.3.5>`_. If you need the fixes that are
+    included in this release, use `2.5.2 <../2.5.2>`_ or later.
+
+Python 2.3 is now well and truly in bugfix-only mode; no new features
+are being added, and only security critical bugs have been fixed.
+This release addresses a number of cases interpreter might have
+crashed in certain boundary conditions.
+
+See the `detailed release notes <NEWS.txt>`_ for more details. 
+
+`Python 2.5 <../2.5/>`_ and `Python 2.4 <../2.4/>`_ are newer releases of
+Python. This release of the older 2.3 code is to provide bug fixes for people
+who are still using Python 2.3.
+
+For more information on the new features of `Python 2.3 <../2.3/>`_ see the
+`2.3 highlights <../2.3/highlights>`_ or consult Andrew Kuchling's
+`What's New In Python <http://www.python.org/doc/2.3.5/whatsnew/whatsnew23.html>`_
+for a more detailed view.
+
+Since the release candidate, we received various reports that the
+this release may fail to build on current operating systems, in
+particular on OS X. We have made no attempt to fix these problems,
+as the release is targeted for systems that were current at the time
+Python 2.3 was originally released. For more recent systems, you might
+have to come up with work-arounds. For OS X in particular, try
+invoking:
+
+.. code-block::
+
+    ./configure MACOSX_DEPLOYMENT_TARGET=10.5
+
+Please see the separate `bugs page <bugs>`_ for known issues and the bug
+reporting procedure.
+
+See also the `license <license>`_
+
+Download the release
+--------------------
+
+As noted, python.org is not providing binary installers for 2.3.7. Windows
+and Mac OS X users who cannot compile their own versions should continue to
+use the `2.3.5 <../2.3.5/>`_ installers. These installers are not vulnerable
+to PSF-2006-001.
+
+gzip-compressed source code: `Python-2.3.7.tgz 
+</ftp/python/2.3.7/Python-2.3.7.tgz>`_ 
+
+bzip2-compressed source code: `Python-2.3.7.tar.bz2 </ftp/python/2.3.7/Python-2.3.7.tar.bz2>`_,
+the source archive.
+
+The bzip2-compressed version is considerably smaller, so get that one if
+your system has the `appropriate tools <http://www.bzip.org/>`_ to deal
+with it.
+
+Unpack the archive with ``tar -zxvf Python-2.3.7.tgz`` (or
+``bzcat Python-2.3.7.tar.bz2 | tar -xf -``).
+Change to the Python-2.3.7 directory and run the &quot;./configure&quot;, &quot;make&quot;,
+&quot;make install&quot; commands to compile and install Python. The source archive
+is also suitable for Windows users who feel the need to build their
+own version.
+
+What's New?
+-----------
+
+- See the `highlights <../2.3/highlights>`_ of the Python 2.3 release.
+
+- Andrew Kuchling's `What's New in Python 2.3 <http://www.python.org/doc/2.3.5/whatsnew/whatsnew23.html>`_ describes the most visible changes since `Python 2.2 <../2.2/>`_ in more detail.
+
+- A detailed list of the changes in 2.3.7 can be found in the `release notes <NEWS.txt>`_, or the ``Misc/NEWS`` file in the source distribution. This is a very short list - only security fixes have been included.
+
+- For the full list of changes, you can poke around in `Subversion <http://svn.python.org/view/python/branches/release23-maint/>`_.
+
+Documentation
+-------------
+
+The documentation for 2.3.5 is still current for this release. 
+
+- `Browse HTML on-line </doc/2.3.5/>`_
+
+- Download using `HTTP </ftp/python/doc/2.3.5/>`_.
+
+Files, `MD5 <md5sum.py>`_ checksums, signatures and sizes
+---------------------------------------------------------
+
+    ``0b4861edfaa6d8451458d5d7ed735e4a`` `Python-2.3.7.tgz </ftp/python/2.3.7/Python-2.3.7.tgz>`_
+    (8694077 bytes, `signature <Python-2.3.7.tgz.asc>`_)
+
+    ``fa73476c5214c57d0751fae527f991e1`` `Python-2.3.7.tar.bz2 </ftp/python/2.3.7/Python-2.3.7.tar.bz2>`_
+    (7352771 bytes, `signature <Python-2.3.7.tar.bz2.asc>`_)
+
+The signatures above were generated with
+`GnuPG <http://www.gnupg.org>`_ using release manager
+Martin v. L?wis's
+`public key </download#pubkeys>`_
+which has a key id of 7D9DC8D2.

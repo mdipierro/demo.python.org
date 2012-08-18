@@ -1,0 +1,108 @@
+The Python Software Foundation   Minutes of a Regular Meeting of the Board of Directors   December 14, 2004
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A regular meeting of the Python Software Foundation (the &quot;PSF&quot;) Board
+of Directors was held over Internet Relay Chat at 18:00 UTC, December
+14, 2004.  Stephan Deibel presided at the meeting.
+
+1   Attendance
+--------------
+
+The following members of the Board of Directors were present at the
+meeting: David Ascher, Stephan Deibel, Jeremy Hylton, Guido van
+Rossum, Steve Holden, and Tim Peters.
+
+David Goodger (not in attendance) prepared these minutes from the IRC
+log recorded by S. Deibel.
+
+2   Meeting minutes of past meetings
+------------------------------------
+
+The November minutes were approved with a 4-0-2 vote.
+
+3   Grants Committee
+--------------------
+
+The PSF lawyer will draft a proposal contract letter that grant
+proposers should sign and return.  The main points of the letter will
+be:
+
+- proposer will do what the proposal states,
+
+- proposer will send regular progress reports to the PSF Grants Committee, and
+
+- payment will be made in installments.
+
+The proposals list deliverables and payment will be made in part up
+front and then after each deliverable is received.
+
+    RESOLVED, that the PSF accepts the recommendation of the grants
+    committee to execute the following three projects in 2005:
+
+    - Brian Zimmer, Moving Jython Forward, US$10,000
+
+    - Ilya Etingof, implementation of SNMPv3 as a Python library module, US$1,500
+
+    - Greg Wilson, Software Engineering with Python for Scientists and Engineers, US$27,000
+
+    Approved, 5-0-1.
+
+J. Hylton proposed that the runners-up be sent email saying the Grants
+Committee would have liked to fund their proposals and please come
+back next year.
+
+S. Deibel proposed possibly approving more funds for runner-up
+proposals.  D. Ascher recommended waiting until we get a better idea
+whether the current process works.
+
+4   Web Site Redesign
+---------------------
+
+S. Holden has received a request from Tim Parkin to review a more
+detailed plan, but hasn't had time yet.  Once he responds, T. Parkin
+will submit a proposal which the whole Board can see.  S. Deibel
+deferred the discussion & vote.
+
+5   PyCon
+---------
+
+There's a possiblility that G. van Rossum wouldn't be able to attend
+PyCon.  This would cause some disappointment, as it's many people's
+reason for attending PyCon.  S. Holden reports that the current budget
+has a contingency element that could be used to fund G. van Rossum's
+costs.  Also, the Conference Committee is currently looking for
+suggestions for other delegates to sponsor to PyCon.  S. Deibel
+mentioned that the board could approve funds separately if necessary.
+
+S. Holden reports that A. Kuchling will chair 2006 if asked.
+Potential keynote speakers were discussed.  Possible venues are being
+investigated.  We would like registration fees to remain at last
+year's rate, which sees us break even at 210 delegates.  The PSF
+lawyer can review any contract that may be proposed for 2006.
+
+6   Reports
+-----------
+
+The November treasurer's report was mailed. 
+
+Python Support Committee: S. Deibel reports that credit card
+processing accounts are set up but he's still trying to find someone
+with access to python.org that he can work with to make the system
+live.  Plus there's some scripting needed to parse emails and such to
+integrate this with Marc Andre-Lemburg's and Neal Norwitz's setups.
+S. Holden volunteered to help.
+
+Lawyer for PSF: J. Hylton reports that &quot;Melind Shaw seems to be on
+board now.&quot;  In general, he will be able to do things pro bono as long
+as they aren't very large or have very short deadlines.
+
+7   Contributor Agreement
+-------------------------
+
+The contributor agreement form was approved in a unanimous email vote.
+
+8   Adjournment
+---------------
+
+There being no further business, S. Deibel adjourned the meeting at
+18:45 UTC.

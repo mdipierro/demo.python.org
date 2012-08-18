@@ -1,0 +1,121 @@
+There will be an extra PSF Member Meeting at the `O'Reilly Open Source Convention <http://www.python.org/workshops/oscon2002>`_, 
+July 22-26 in San Diego.
+
+We've reserved a room for the meeting:
+
+Location:       Marina II
+
+Date:		Wednesday, July 24
+
+Time:		8:00 - 10:00 pm
+
+It is likely that only 8-10 PSF members will show up.  This is not
+sufficient to make quorum without proxies: the quorum is 1/3 of the
+membership, which given the current is 17.  Therefore we hope that
+many people will send in their proxy forms.
+
+Tentative Agenda
+~~~~~~~~~~~~~~~~
+
+- Approval of new sponsor members STScI and AB Strakt
+- Progress report of 501(c)(3) application.
+- Statistics/progress regarding (sponsor) membership applications
+- Income and how to spend it
+- Future Python conferences
+
+Proxies
+~~~~~~~
+
+If you cannot attend the meeting, you can 
+`vote by proxy <proxy-july-2002.html>`_.
+
+The following members will attend the meeting, and are thus able to
+serve as proxies.  Other members who plan to attend should contact the
+secretary to be included in this list.
+
+- Aahz
+- Jason Abate (Hostway)
+- David Ascher
+- Guido van Rossum
+
+Members having voting rights
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Summary
+
+Total: 52
+
+Individual: 46
+
+Sponsor: 6
+
+Quorum: 17 ( ceil((46 + 6) / 3) )
+
+According to the bylaws (Section 3.8 Record of Members Having Voting
+Rights.), we must make a list of members having voting rights
+available prior to the meeting.  The list of names, sans private
+contact info, is available here.  (Members should receive the full
+required info by private email.)
+
+**Sponsor Members** 
+
+ActiveState, represented by David Ascher (pending receipt of sponsor fee)
+
+Advanced Simulation Technology Inc. (ASTi), represented by Patrick Gaffney
+
+Archaeopteryx Software, Inc., represented by Stephan Deibel
+
+Hostway Corporation, represented by Jason Abate
+
+O'Reilly & Associates, Inc., represented by Betsy Waliszewski
+
+Zope Corporation, represented by Paul Everitt
+
+**Nominated Members** 
+
+Aahz, 
+David Abrahams, 
+David Ascher, 
+Donald Beaudry, 
+Finn Bock, 
+Fred L. Drake, Jr., 
+Paul F. Dubois, 
+Greg Ewing, 
+Jim Fulton, 
+Lars Marius Garshol, 
+Mark Hammond, 
+Thomas Heller, 
+Neil Hodgson, 
+Michael Hudson, 
+Jeremy Hylton, 
+Jack Jansen, 
+Cameron Laird, 
+Marc-Andre Lemburg, 
+Martin von Lowis, 
+Fredrik Lundh, 
+Mark Lutz, 
+Mike McLay, 
+Ken Manheimer, 
+Alex Martelli, 
+Trent Mick, 
+Skip Montanaro, 
+Sjoerd Mullender, 
+Neal Norwitz, 
+Uche Ogbuji, 
+Mike Olson, 
+Samuele Pedroni, 
+Tim Peters, 
+Paul Prescod, 
+Eric S. Raymond, 
+Guido van Rossum, 
+Sam Rushing, 
+Neil Schemenauer, 
+Peter Schneider-Kamp, 
+Greg Stein, 
+Christian Tismer, 
+Charles G. Waldman, 
+Greg Ward, 
+Barry Warsaw, 
+Thomas Wouters, 
+Ka-Ping Yee, 
+Moshe Zadka

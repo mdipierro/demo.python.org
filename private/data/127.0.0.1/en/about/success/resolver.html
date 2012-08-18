@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <!-- about/success/resolver -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>
+      Python.org
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- le html5 shim, for ie6-8 support of html elements -->
+    <!--[if lt ie 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- le styles -->
+    
+    <script type="text/javascript"><!--
+    // These variables are used by the web2py_ajax_init function in web2py_ajax.js (which is loaded below).
+    var w2p_ajax_confirm_message = "Are you sure you want to delete this object?";
+    var w2p_ajax_date_format = "%Y-%m-%d";
+    var w2p_ajax_datetime_format = "%Y-%m-%d %H:%M:%S";
+    //--></script>
+<meta name="keywords" content="web2py, python, framework" /><meta name="copyright" content="Copyright 2011" /><meta name="description" content="a cool new app" /><meta name="generator" content="Web2py Web Framework" /><meta name="author" content="Your Name &lt;you@example.com&gt;" /><script src="/pythonorg/static/js/jquery.js" type="text/javascript"></script><link href="/pythonorg/static/css/calendar.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/js/calendar.js" type="text/javascript"></script><script src="/pythonorg/static/js/web2py.js" type="text/javascript"></script><link href="/pythonorg/static/css/web2py.css" rel="stylesheet" type="text/css" /><script src="/pythonorg/static/bootswatch_files/jquery.toc.js" type="text/javascript"></script><link href="http://bootswatch.com/spacelab/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" /><link href="http://bootswatch.com/css/docs.css" rel="stylesheet" type="text/css" />
+
+    <style>
+#content {padding-top: 0px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12pt;
+ font-weight: 300;line-height: 22.5px;color: #333;}
+#content-main img {max-width:200px; padding: 10px;}
+#toc { padding: 10px; font-size: 12px; font-height:14px}
+#toc ul { margin: 0; padding: 0; list-style: none; }
+#toc li { padding: 5px 10px; }
+#toc a { text-decoration: none; display: block; }
+#toc .toc-h2 { padding-left: 10px;}
+#toc .toc-h3 { padding-left: 20px; }
+#toc .toc-active { background: #ddd; }
+p, li {text-align: justify; line-height: 22.5px;}
+#content h1, #content h2, #content h3, #content h4 { 
+  padding-top:1em; padding-bottom: 0.5em; 
+}
+#rst-content h1 {font-size: 28px; text-align: left}
+#rst-content h2 {font-size: 24px; text-align: left}
+#rst-content h3 {font-size: 20px; text-align: left}
+#rst-content h4 {font-size: 16px; text-align: left}
+#rst-content pre {background-color: black; border: 0; color:white}
+</style>
+  </head>
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+    <!-- navbar     ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      
+      <div id="flash" class="flash navbar-inner" style="text-align:center; vertical-align:middle; background: yellow; color:black"></div>
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+            <span class="icon-bar"> </span>
+          </a>
+          <!--a class="brand" href="http://bootswatch.com/">bootswatch</a-->
+          <div class="nav-collapse">
+	    <ul class="nav"><li><a href="/pythonorg/default/index">Python.org</a></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">About</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/about">Readme</a></li><li><a href="/pythonorg/default/index/about/gettingstarted">Getting Started</a></li><li><a href="/pythonorg/default/index/about/apps">Applications</a></li><li><a href="/pythonorg/default/index/about/success">Success Stories</a></li><li><a href="http://docs.python.org/license.html">License</a></li><li><a href="/pythonorg/default/index/about/help">Help</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">News</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/news">Readme</a></li><li><a href="/pythonorg/default/index/news/security">Security Advisory</a></li><li><a href="/pythonorg/default/index/news/releaseschedule">Release Schedule</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Learn</a><ul class="dropdown-menu"><li><a href="https://www.google.com/search?q=python&amp;btnG=Search+Books&amp;tbm=bks&amp;tbo=1#q=python+language&amp;hl=en&amp;tbo=1&amp;tbas=0&amp;tbs=vw:g,bkt:b,cdr:1,cd_min:2000,cd_max:2099&amp;tbm=bks&amp;source=lnt&amp;sa=X">Books</a></li><li><a href="http://pyvideo.org">Videos</a></li><li><a href="http://wiki.python.org/moin/BeginnersGuide">Beginner's Tutorials</a></li><li><a href="http://docs.python.org/library/">Libraries</a></li><li><a href="http://docs.python.org/devguide/">Core Develoment</a></li><li><a href="http://wiki.python.org/moin/">Wiki</a></li><li><a href="/pythonorg/default/index/dev/peps">PEPs</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Download</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/download/windows">For Windows</a></li><li><a href="/pythonorg/default/index/download/mac">For Mac</a></li><li><a href="/pythonorg/default/index/download/source">For Linux</a></li><li><a href="/pythonorg/default/index/download/other">For other OS</a></li><li><a href="/pythonorg/default/index/download/releases">Old Releases</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">Community</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/community">Readme</a></li><li><a href="/pythonorg/default/index/community/lists">Mailing Lists</a></li><li><a href="/pythonorg/default/index/community/sigs">User Groups</a></li><li><a href="/pythonorg/default/index/community/workshops">Conferences</a></li><li><a href="/pythonorg/default/index/community/jobs">Jobs</a></li><li><a href="/pythonorg/default/index/community/awards">Awards</a></li><li><a href="/pythonorg/default/index/community/merchandise">Merchanise</a></li></ul></li><li class="dropdown"><a href="#" onclick="javascript:void(0);return false;">PSF</a><ul class="dropdown-menu"><li><a href="/pythonorg/default/index/psf">Readme</a></li><li><a href="/pythonorg/default/index/psf/about">About the PSF</a></li><li><a href="/pythonorg/default/index/psf/summary">Executive Summary</a></li><li><a href="/pythonorg/default/index/psf/mission">Mission Statement</a></li><li><a href="/pythonorg/default/index/psf/membership">Membership</a></li><li><a href="/pythonorg/default/index/psf/volunteer">Volunteer</a></li><li><a href="/pythonorg/default/index/psf/league">League</a></li><li><a href="/pythonorg/default/index/psf/committees">Committees</a></li><li><a href="/pythonorg/default/index/psf/bylaws">ByLaws</a></li><li><a href="/pythonorg/default/index/psf/reports">Reports</a></li><li><a href="http://wiki.python.org/moin/PythonSoftwareFoundation">Wiki</a></li><li><a href="http://pyfound.blogspot.com/">Weblog</a></li><li><a href="http://python.org/psf/press-release/">Press Releases</a></li><li><a href="/pythonorg/default/index/psf/forms">Forms</a></li></ul></li></ul>
+	    
+            <ul class="nav pull-right">
+              <li>
+                <a href="/pythonorg/default/edit/about/success/resolver">
+                  [en] Edit
+                  <i class="icon-share-alt icon-white"> </i>
+                </a>
+              </li>	      
+            </ul>
+	    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- masthead ================================================== -->
+      <header class="jumbotron subhead" id="overview">
+	<img src="/pythonorg/static/images/logo.png" width="86px" align="left"/>
+        <h1>
+          python<small>.org</small>
+        </h1>
+        <p class="lead">
+          The Programming Language of the Future
+        </p>
+      </header>
+      <!-- content ================================================== -->
+      <section id="content">
+        <div class="page-header">
+          <!--h1>
+            typography
+          </h1-->
+        </div>
+        <!-- headings & paragraph copy -->
+        <div class="row">
+          <div class="span8" id="content-main">
+	    
+<div id="rst-content">
+  
+  <p><strong>MISSING</strong>
+<strong>MISSING</strong></p>
+<div class="section" id="ironpython-at-resolver-systems-python-learns-new-tricks">
+<h1>IronPython at Resolver Systems: Python Learns New Tricks</h1>
+<p><strong>MISSING</strong>
+<strong>MISSING</strong>
+<strong>Category:</strong>  Business</p>
+<p><strong>Keywords:</strong>  ironpython, spreadsheet, web</p>
+<p><strong>Title:</strong>  IronPython at Resolver Systems: Python Learns New Tricks</p>
+<p><strong>Author:</strong>   Jonathan Hartley</p>
+<p><strong>Date:</strong>   2008/06/02 01:00:00</p>
+<p><strong>Website:</strong>  <a class="reference external" href="http://www.resolversystems.com">http://www.resolversystems.com</a></p>
+<p><strong>Summary:</strong>  Resolver Systems uses IronPython and .NET for Resolver One, a desktop and web-accessible spreadsheet aimed primarily at the financial services market.</p>
+<p><strong>Logo:</strong>  .. image:: /files/success/resolver/resolversystems-logo-web.png    :alt: /files/success/resolver/resolversystems-logo-web.png</p>
+<div class="section" id="introducing-ironpython">
+<h2>Introducing IronPython</h2>
+<p>Pairing the Python language's expressivity with the seamless availability of
+the extensive .NET class libraries makes <a class="reference external" href="http://www.codeplex.com/IronPython">IronPython</a> a powerful combination
+for Resolver Systems.</p>
+</div>
+<div class="section" id="about-resolver-systems">
+<h2>About Resolver Systems</h2>
+<p>Resolver Systems is a two year-old start-up based on the outskirts of London's
+financial district. Our first product, Resolver One, is a desktop and
+web-accessible spreadsheet aimed primarily at the financial services market. It
+is written entirely in IronPython, and directly exposes end-users to Python,
+both as expressions in cell formulae, and as an embedded scripting language
+which provides programmatic access to spreadsheet content.</p>
+<p>Resolver One launched in Spring of 2008, by which time the team had grown to
+fourteen people, and the codebase to 40k lines of product and 140k lines of
+tests.</p>
+</div>
+<div class="section" id="why-ironpython">
+<h2>Why IronPython?</h2>
+<p>From the outset, it was clear that it would be good to use an existing language
+as our embedded scripting language, rather than inventing one. A dynamic
+language would confer appropriate type semantics on the spreadsheet formulae.
+It would be advantageous if this same language could also be used for
+development of the Resolver One application itself. There was also a
+requirement for .NET interoperability, so that both our own development team
+and our users could invoke existing .NET libraries, especially the powerful
+Graphical User Interface (GUI) components in the System.Windows.Forms module of
+the .NET class libraries themselves.</p>
+<p>Python was regarded fondly by our founders, but could not directly fulfil the
+requirement for .NET interoperability. <a class="reference external" href="http://pythonnet.sourceforge.net/">Python for .NET</a> was considered,
+allowing Python developers to call .NET assemblies, but in the end this lost
+out to IronPython, a reimplementation of Python as a .NET language, which runs
+directly on the Common Language Runtime (CLR). At the time, IronPython felt
+like a somewhat risky proposition. At v0.7 it was still relatively young, and
+had an extremely low profile. The acquisition of IronPython by Microsoft also
+raised uncertainties about the project's future, should it be deemed contrary
+to Microsoft's strategy.</p>
+<p>However, our initial experiments with IronPython went well. It turned out to be
+trivially easy to create a GUI using the excellent design tool in Visual
+Studio, then inherit from these classes in Python code and implement all
+behaviour in Python, in the Integrated Development Environment (IDE) of one's
+choice. (Developers choose their own IDE, so we sport an entertaining diversity
+of them, currently: Eclipse, Vi, Emacs, Wing, Komodo and the lightweight but
+surprisingly useful Textpad.)</p>
+<p>For example, IronPython code can easily display a .NET Form, using:</p>
+<pre class="code literal-block">
+# Add a reference to the required .NET assembly
+# This only need be done once per application
+import clr
+clr.AddReference(&quot;System.Windows.Forms&quot;)
+
+# Then import symbols from the assembly, as if from a Python module
+from System.Windows.Forms import Application, Form
+
+# Then use the imported symbols as though they were native Python types
+form = Form()
+form.Text = &quot;Hello World&quot;
+Application.Run(form)
+</pre>
+<p>Which displays this fully-functional Windows application:</p>
+<img alt="'Hello World' GUI application created from IronPython" src="/pythonorg/default/index/files/success/resolver/helloworld-web.png" />
+<p><em>Figure 1. &quot;Hello World&quot; GUI application created from IronPython.</em>
+<a class="reference external" href="/pythonorg/default/index/files/success/resolver/helloworld.tiff">Zoom in</a></p>
+<p>Over time, other strengths of IronPython have become apparent. Using the .NET
+threading model means that applications are able to overcome CPython's global
+interpreter lock. Resolver One uses this to run background recalculation
+threads on different cores, to remain responsive during lengthy calculations.</p>
+<p>Meanwhile, the concerns about the IronPython project have diminished. The
+viability and visibility of IronPython has gone from strength to strength.
+Today, with dynamic languages getting ever more attention, IronPython forms the
+flagship language for Microsoft's recent Dynamic Language Runtime (DLR), upon
+which future versions of Visual Basic will be based, and a healthy future seems
+assured.</p>
+<p>The success of IronPython is well deserved. It has proven to be a very capable
+implementation, with transparent mappings between Python and .NET types, and
+very few differences between it and CPython to catch out unwary developers.
+Pairing up the expressivity and power of the Python language with the highly
+functional and extensive .NET class libraries is a powerful combination.</p>
+</div>
+<div class="section" id="mixing-generated-and-user-written-code">
+<h2>Mixing Generated and User-Written Code</h2>
+<p>Resolver One pre-processes users' cell expressions to convert common
+spreadsheet idioms into legal Python statements. These statements are
+executed to determine the values displayed in the GUI's grid. The order in
+which the statements are executed depends upon the dependencies between them.
+For example, if cell A1 references the value of B1, then B1 must be evaluated
+first. This provides us with the basic spreadsheet model that has proven so
+valuable for ad-hoc investigation of numerical models.</p>
+<img alt="Evaluation of cell formulae" src="/pythonorg/default/index/files/success/resolver/basic-spreadsheet-eval-web.png" />
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 5); <em><a href="#id1">backlink</a></em></p>
+Duplicate explicit target name: &quot;zoom in&quot;.</div>
+<p><em>Figure 2. The basic steps Resolver One uses to evaluate cell formulae.</em> <a class="reference external" href="/pythonorg/default/index/files/success/resolver/basic-spreadsheet-eval.eps">Zoom
+in</a></p>
+<p>However, using this method, it is difficult for users to create spreadsheets of
+any complexity without using cell expressions that are enormous and unwieldy,
+mixing data, business logic and presentation information. These expressions get
+duplicated (and almost-duplicated) many times. Any model which is more than
+trivial quickly degenerates into an unmaintainable 'Frankensheet'.</p>
+<p>To combat this, Resolver One allow users to intersperse the evaluation of cell
+formulae with arbitrary code of their own. This is done by displaying the code
+that is generated from cell expressions in a pane of the GUI. The user is free
+to insert any Python of their own devising, to be executed before, during or
+after the evaluation of the spreadsheet cell values.</p>
+<img alt="Resolver One's code pane" src="/pythonorg/default/index/files/success/resolver/resolverone-codepane-web.png" />
+<div class="system-message">
+<p class="system-message-title">System Message: WARNING/2 (<tt class="docutils">&lt;string&gt;</tt>, line 5); <em><a href="#id2">backlink</a></em></p>
+Duplicate explicit target name: &quot;zoom in&quot;.</div>
+<p><em>Figure 3. The code pane within the Resolver One application.</em> <a class="reference external" href="/pythonorg/default/index/files/success/resolver/resolverone-codepane.tiff">Zoom in</a></p>
+<p>So the spreadsheet, with all its data, expressions and user-customised
+functions and algorithms, becomes a single, executable Python script. The GUI
+and the code are two interchangeable views of the same underlying mathematical
+model - editing one automatically updates the other. This retains the
+accessibility and experimental immediacy of a traditional spreadsheet user
+interface, while allowing the user to tame the spreadsheet's complexity using
+the same techniques that software engineers have been inventing for the last
+few decades: elimination of redundancies; functional decomposition; object
+orientation; external libraries; and other high-level abstractions - all in a
+modern, fully-featured programming language.</p>
+<p>An important feature of Python that we were rely on heavily for this, and which
+we were happy to see supported in IronPython, was the execution of cell
+formulae and user code in a separate instance of the underlying Python engine.
+This isolates the user's spreadsheet code from the running instance of the
+Resolver One application, preventing us from polluting each other's namespace,
+or from having to share global settings such as the Python recursion limit.</p>
+</div>
+<div class="section" id="supporting-agile-development">
+<h2>Supporting Agile Development</h2>
+<p>Python is a modern, expressive language, which supports many aspects of a
+modern, agile software development process.</p>
+<div class="section" id="small-code-base">
+<h3>Small Code Base</h3>
+<p>Python's high level of abstraction and expressivity allows our developers to
+produce complex functionality using a minimal amount of code. This has enabled
+a small team of engineers - linearly growing from two to fourteen employees
+over two years - to create a fully-featured solution with a manageable codebase.</p>
+</div>
+<div class="section" id="unit-and-acceptance-testing">
+<h3>Unit and Acceptance Testing</h3>
+<p>Python's built-in 'unittest' module provides everything needed to get started
+with most unit testing, and has proven extendible enough for us to gradually
+build our own acceptance test framework on top of it. This uses the .NET API to
+directly stimulate mouse and keyboard input events to manipulate the
+application's GUI, and then asserting the existence and content of various GUI
+components like windows and textboxes, to provide automated assurance of
+end-to-end functionality.</p>
+</div>
+<div class="section" id="test-driven-development">
+<h3>Test-Driven Development</h3>
+<p>Dynamic languages like Python complement automated testing, by allowing the
+patching of modules, classes, methods or attributes with arbitrary objects at
+runtime. This allows tests to easily eliminate dependencies of the code under
+test, and thus concentrating on testing one thing at at time. Additionally, it
+makes it easy to stimulate particular behaviours or failure modes during the
+test. For example, by patching the file 'open' function with another function
+which simply raises an exception, a test can easily verify how the code under
+test reacts if it is unexpectedly unable to open a file.</p>
+</div>
+<div class="section" id="distributed-testing-infrastructure">
+<h3>Distributed Testing Infrastructure</h3>
+<p>Resolver Systems also uses Python extensively for their internal
+infrastructure, from IDE scripting to a distributed test runner, which spreads
+the load of running many unit and acceptance tests over however many machines
+in the office are currently idle.</p>
+<p>The distributed test mechanism became necessary as our test suite grew in size.
+We would rather over-test than under-test, and our test suites contain several
+hundred acceptance tests that fire up the application and pummel the GUI to put
+it through its paces, including performance tests on large data sets. Running
+all these tests takes a significant amount of time. When it grew to one hour,
+we developed procedures to work around it. When it grew to two or three hours,
+it was seriously impacting our developer's feedback cycle, so we vowed to
+reduce the amount of time taken to run the test suite, without compromising the
+coverage provided by all the diverse tests. The distributed test runner was the
+result.</p>
+<p>Notably, this wasn't our first attempt at a distributed test runner. One of our
+genius interns had attempted a similar project the previous summer, using .NET
+remote procedure calls. Unfortunately, the complexity of this proved too much
+to nail down in the time available. In the end, in true agile style, it was a
+less ambitious architecture which actually got completed, by a different genius
+intern the following summer. This has been refined gradually ever since, and
+now forms an invaluable part of our daily routine.</p>
+<p>Initiating a distributed build from a developer's PC will enumerate the tests,
+marking them as 'to be run' in a database, and then copy the build to shared
+directories on a manually listed set of 'slave' machines. Forcing developers to
+manually specify which machines to use was initially created as the 'simplest
+thing that could possibly work.' Contrary to our expectations, we have since
+had little motivation to automate this. It turns out that negotiation between
+developers over which machines to use during builds is a valuable excuse to
+touch base with each other about what we're up to through the day. It also
+provides an opportunity to fine-tune the allocation of free machines between
+more than one simultaneous build, when the need arises.</p>
+<p>Once slave machines have received their copy of the build, they grab the ID of
+a few unallocated tests from the database, and run those tests locally,
+updating the database with the results. Test results are visible at any time
+using a web interface, which also makes it easy to ask a particular machine to
+drop out of the build once it has finished running it's current batch of tests.
+Once all test records are marked as either pass or fail, we know the build is
+complete.</p>
+</div>
+</div>
+<div class="section" id="problems">
+<h2>Problems</h2>
+<div class="section" id="rd-party-gui-components-with-win32-api-calls-means-windows-only">
+<h3>3rd Party GUI Components with Win32 API calls means Windows Only</h3>
+<p>IronPython is a Microsoft .NET Language, and as such, is ostensibly limited to
+running on Windows only.</p>
+<p>The Mono project is a fantastic effort to improve that situation, and many .NET
+projects will run without recompilation under Mono on Linux, Mac OS X and
+others. However, in our case, Resolver One uses a 3rd party grid component in
+our GUI, which makes direct Win32 API calls. This precludes us running on
+different platforms for the time being.</p>
+<p>We are, however, working on a Mono-compatible version of Resolver Server, which
+is a version of Resolver One which publishes editable spreadsheets over the
+web, without displaying any GUI on the server.</p>
+</div>
+<div class="section" id="no-python-c-extension-modules">
+<h3>No Python C Extension Modules</h3>
+<p>IronPython scripts can in general import and use regular Python modules.
+However, IronPython cannot import C extension modules. Such modules generally
+have a .pyd extension, and consist of compiled C or C++, exposing an API to
+let them be imported like a Python library.</p>
+<p>Such modules include some of the Python standard library, such as cmath, array,
+parser, and subprocess. Much of this missing functionality is compensated for
+by the availability of equivalent .NET libraries, however this obviously
+damages the credibility of IronPython as a plug-in alternative implementation.</p>
+<p>Perhaps more significantly for us, this also precludes some commonly-used
+3rd-party modules such as <a class="reference external" href="http://www.scipy.org/">NumPy and SciPy</a>. Many of our clients would like
+to use these with Resolver One.</p>
+<p>Resolver Systems has therefore started an open-source project, <a class="reference external" href="http://code.google.com/p/ironclad">IronClad</a>,
+which aims to make C extension modules callable from IronPython. There is still
+a lot of work to do before this project will be useful, but obviously such a
+technology would be of interest to all users of IronPython. Enough progress has
+been made thus far to demonstrate the feasibility of the approach: The bzip C
+extension module can currently be called from IronPython, and others will
+follow as we implement more of the Python C extension API.</p>
+</div>
+<div class="section" id="negative-perceptions-of-open-source">
+<h3>Negative Perceptions of Open-Source</h3>
+<p>Sometimes we need to remind ourselves that people outside the software industry
+don't understand terms such as open source. Personally, I've had more
+than one informal dinner party conversation about Resolver One with finance
+industry people, who have stopped me to ask why on Earth we chose Python if
+it's an open source language? After all, isn't open source the same as
+freeware, ie. all rubbish?</p>
+<p>It's hard to know how significant this perception is amongst our potential
+clients' decision makers, but obviously we do our best to rectify such
+impressions wherever we encounter them.</p>
+</div>
+<div class="section" id="performance">
+<h3>Performance</h3>
+<p>IronPython performance is generally comparable to CPython - faster in some
+regards, slower in others. It seems likely that IronPython will continue to
+gain on CPython as their implementation matures. This is not saying much
+though - benchmarks clearly show dynamic languages like Python to be
+significantly slower than more mainstream, statically typed languages. However,
+this result is not as significant as it is sometimes made out to be, for two
+reasons.</p>
+<p>Firstly, many applications are rarely CPU bound, and simply do not need the
+intensive performance that the fastest languages can give you. For interactive
+desktop applications, the speed difference between C# and IronPython would
+rarely be discernible by the user.</p>
+<p>Some programs do require significant CPU performance, either because they are
+crunching large data sets or because they must scale across many users on a
+server. In such a project, it is often a very small proportion of the code
+which actually requires this high performance. Usually it makes sense to
+develop the majority of the application in a language which makes it easiest
+for the developers to make rapid progress, then measure performance to see
+whether optimisation is required, and where. The offending bottleneck can often
+be refactored for performance, or alternatively, rewritten in another language.
+(C for CPython, or any .NET language for IronPython.)</p>
+<p>Secondly, benchmarks give an overly pessimistic view of dynamic language
+performance. In significant real-world applications, the data sets and
+algorithms are significantly more complex than most benchmarks, and the higher
+levels of abstraction afforded by a powerful language like Python will enable
+developers to visualise more efficient implementations with less effort. Simply
+put, programs take less time to write in Python, leaving you more time
+afterwards to refactor for performance if necessary. Then the refactoring is
+easier in Python too.</p>
+<p>For Resolver One, we do find performance problems from time to time, such as
+when loading very large spreadsheets. Generally we schedule a new user story to
+address these performance issues, much as we would for any other functionality.
+After a day or three of work, we have usually developed a sufficient
+improvement in efficiency, and will have created an acceptance test along the
+way to measure and monitor this going forward.</p>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h2>Conclusion</h2>
+<p>Using Python so extensively, for our sole product and our internal development
+infrastructure, has made it a mission critical component for our company's
+success. Python has admirably supported our requirements, from the robust
+features of the language itself, the excellent .NET implementation provided by
+the IronPython project, and the thriving community of discussion, support and
+tools. On the whole, our clients feel the same, as shown by this quote from
+&quot;Credit Cooperatif&quot;, a large French retail bank who are now using Resolver One:</p>
+<blockquote>
+We use Excel and VBA, but we prefer Python for its combination of
+simplicity and power. We were looking to better link spreadsheets with
+Python programming, and Resolver One seemed to be the most elegant solution
+because it was based on Python but also gave us compatibility with our IT
+team?s architectural choice of Microsoft .NET.</blockquote>
+<p>Resolver One is Windows only, and is free for evaluation, or for non-commercial
+use.</p>
+<p><a class="reference external" href="http://www.resolversystems.com">http://www.resolversystems.com</a></p>
+</div>
+<div class="section" id="about-the-author">
+<h2>About the Author</h2>
+<p>Jonathan Hartley originally came into software from a background in digital
+electronics. Nowadays, he is delighted to be a developer at Resolver Systems,
+alongside people who are all smarter than he is. He lives in London with his
+wife Susan and two trusty Guitar Hero controllers.</p>
+</div>
+</div>
+
+  <br/><br/>
+</div>
+<script>
+  jQuery(function(){
+    jQuery('.system-message').hide();
+    jQuery('#rst-content p').each(function(i){
+      if(jQuery(this).html().lastIndexOf('Published:',0)===0)
+        jQuery(this).css('text-align','right').css('color','#aaa');
+    });
+  });
+</script>
+
+
+          </div>
+	  
+          <div class="span4">
+	    <form class="well form-search" action="/pythonorg/default/search">
+              <input type="text" name="keywords" class="input-medium search-query">
+	      <button type="submit" class="btn">Search</button>
+	    </form>
+	    
+            <div class="well" id="download">
+	      <a href="/pythonorg/default/sync/download">Download Now!</a>
+	      (<a href="http://wiki.python.org/moin/Python2orPython3">2.x or 3.x?</a>)
+	    </div>
+	    
+	    
+            <div class="well" id="toc"></div>
+            <script>
+	      jQuery(function(){jQuery('#toc').toc({
+	      'selectors': 'h1,h2,h3',
+	      'container': '#rst-content',
+	      'smoothScrolling': true,
+	      'prefix': 'toc',
+	      'highlightOnScroll': true,
+	      });});
+            </script>	    
+	    
+	    <div class="well" id="python uses">
+	      <h3>Using python for</h3>
+	      <ul>
+		<li>
+		  <a href="http://wiki.python.org/moin/WebProgramming">Web</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/DatabaseProgramming">Database</a>
+		</li>
+		<li>
+		  <a href="http://wiki.python.org/moin/GuiProgramming">GUI</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Networking</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Science</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/community/sigs/current/edu-sig">CS Education</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">Games</a>
+		</li>
+		<li>
+		  <a href="/pythonorg/default/index/about/apps">More</a>
+		</li>
+	      </ul>
+	    </div>
+
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#f2f2f2',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#3686b4',
+      links: '#262626'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('ThePSF').start();
+</script>
+          </div>	
+	  
+        </div>
+      </section><br /><br /><br /><br />
+      <!-- footer ================================== -->
+      <footer class="footer">
+	<span class="auth_navbar"> [ <a href="/pythonorg/default/user/login?_next=/pythonorg/default/sync">Login</a> | <a href="/pythonorg/default/user/retrieve_username?_next=/pythonorg/default/sync">Forgot username?</a> | <a href="/pythonorg/default/user/request_reset_password?_next=/pythonorg/default/sync">Lost password?</a> ] </span>
+        <p class="pull-right">
+	  Copyright © 1990-2012, Python Software Foundation
+          (<a href="/pythonorg/default/sync/about/legal">Legal Statements</a>)
+        </p>
+      </footer>
+    </div>
+    <!-- /container -->
+    
+    <!-- placed at the end of the document so the pages load faster -->
+    <script src="/pythonorg/static/js/jquery.quovolver.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-dropdown.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-scrollspy.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-collapse.js"></script>
+    <script src="/pythonorg/static/bootswatch_files/bootstrap-tooltip.js"></script>
+    <script>
+        jQuery(function(){
+	  jQuery('.nav>li>a').each(function(){
+	    if(jQuery(this).parent().find('ul').length)
+	      jQuery(this).attr({'class':'dropdown-toggle','data-toggle':'dropdown'}).append('<b class="caret"></b>');
+          });	
+        });
+      </script>
+    <script type="text/javascript" src="/pythonorg/static/js/jquerytypewriter.js"></script>
+    <script src="/pythonorg/static/js/share.js?static=%2Fpythonorg%2Fstatic%2Fimages"></script>
+    <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'unknown']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> 
+  </body>
+</html>
+    

@@ -1,0 +1,115 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+October 14, 2003 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 18:00 GMT. Guido
+van Rossum, president of the Foundation and chairman of the Board,
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Thomas Wouters, Guido van Rossum, Martin von L?wis, Tim
+Peters, Jeremy Hylton, David Ascher, Marc-Andre Lemburg.  A quorum was
+present. Neal Norwitz also participated in the meeting.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The minutes of the September meeting had not been prepared yet;
+they will be discussed next month.
+
+3. SSL Server Certificates
+##########################
+
+Thomas asked whether the PSF should buy an official server certificate
+at some recognized certificate authority, or whether python.org should
+just use a self-signed certificate. He reported that it would be $450
+for the first year, and $300 each subsequent year. Initially, the certificate
+would only be used for pypi. After discussion, the board agreed not
+to buy a certificate at this point, and just accept the warnings that browsers
+will issue if they receive unverified certificates.
+
+4. Contrib Forms
+################
+
+Marc-Andre reported that discussion of contrib forms with Larry
+Rosen has stopped, partly due to Larry's attempt to talk the PSF into
+switching to the AFL. Marc-Andre proposed that the PSF should not
+switch licenses, and ask Larry for comments on the contribution
+documents at hand. He also mentioned that David's lawyer might still
+provide comments on these documents. After discussion, the board
+agreed that Marc-Andre continues on this road.
+
+5. Project Management Committee
+###############################
+
+Guido moved that it is
+
+    RESOLVED, that the Foundation establish a Project Management
+    Committee, the Python Conference Committee, responsible for organizing
+    and sponsoring conferences that advance the Foundation's mission.  The
+    committee is authorized to incur expenses up to a limit establish by
+    the board for a specific conference.  The chairman of the committee
+    shall be Vice President of the Corporation.  The initial members of
+    the committee shall be David Ascher, Steve Holden, and Jeremy Hylton.
+    Ascher will be its initial chairman.
+
+The motion passed unanimously (7/0/0).
+
+6. Pending Sponsor Members
+##########################
+
+Guido moved that it is
+
+    RESOLVED, that the Board can collect sponsor fees and add a
+    Pending Sponsor Member to the website prior to being elected by the
+    members if the Board decides it is likely the full membership will
+    approve the Sponsor Member.  If Sponsor Membership status is not
+    approved, the funds will be converted to a donation.
+
+The motion passed unanimously (7/0/0). 
+
+Jeremy moved that it is
+
+    RESOLVED, that the Board accepts Array BioPharma as a
+    Pending Sponsor Member.
+
+The motion passed unanimously (7/0/0). 
+
+Neal will inform Array BioPharma about this decision.
+
+7. Trademark Registration
+#########################
+
+Guido moved that it is
+
+    RESOLVED, that the PSF secretary, Jeremy Hylton, registers
+    the term "PYTHON SOFTWARE FOUNDATION" on behalf of the Python Software
+    Foundation under the service class 042 with US PTO.
+
+There was discussion; Jeremy asked whether David's lawyer can guide
+him through the actual registration process. The motion then passed
+unanimously (7/0/0).
+
+David left the meeting because of other obligations.
+
+8. Python support committee
+###########################
+
+Guido moved that it is
+
+    RESOLVED, that the Public Support Committee, represented by
+    its chairman and officer Marc-Andre Lemburg, may signup for bookshop
+    affiliate programs on behalf of the Python Software Foundation for
+    fund-raising purposes.
+
+The motion passed unanimously (6/0/0).
+
+9. Adjournment
+##############
+
+There being no further business, the meeting was adjourned.

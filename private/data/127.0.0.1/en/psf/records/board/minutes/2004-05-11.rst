@@ -1,0 +1,112 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+May 11, 2004 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Tim Peters, Guido van Rossum, Martin v. L?wis, Stephan
+Deibel. A quorum was present. Martin was taking minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The April minutes where not available yet.
+
+3. Reports
+##########
+
+The treasurer and PSC reports were emailed. Martin reported that
+the Grant committee has created a mailing list, and had some
+discussions, but had not made any decision, yet. He also reported
+that we are still working with Larry Rosen on the contrib forms,
+but have not made any progress recently. Tim reports no progress
+on the changes to the bylaws.
+
+4. Change of Principal Office and Headquarters
+##############################################
+
+Stephan moved that it is
+
+    RESOLVED, that the principal office and official headquarters of the
+      PSF shall be:
+
+               Python Software Foundation
+
+               1209 Orange Street
+
+               Wilmington DE 19801
+
+               USA
+
+      The mailing address will remain:
+
+               Python Software Foundation
+
+               c/o Neal Norwitz
+
+               1707 Sinclair Lane
+
+               Crownsville, MD 21032-1925
+
+               USA
+
+The resolution passes with 4/0/0.
+
+5. Accountancy
+##############
+
+Stephan then moves that it is
+
+    RESOLVED, that the treasurer is authorized to pay an accountant
+       $800 for preparing IRS Form 990 for 2003.
+
+There was discussion on whether that is too expensive; Martin
+suggested that this budget is approved and the actual expenses
+are reviewed afterwards. The resolution passes with 4/0/0.
+
+6. Removal of Opsware
+#####################
+
+Opsware has asked not to be listed as a sponsor member anymore.  The
+board wondered what precisely this request means; it agreed that the
+PSF can offer Opsware to remove their company logo from python.org if
+they want to. The membership roll is public, so if they really don't
+want to be listed as a sponsor member anymore, they should terminate
+their membership. *Stephan will present these
+options to them.*
+
+7. Recognizing the Las Vegas User Group
+#######################################
+
+The Las Vegas Python User Group has asked that the PSF "recognizes"
+them, because some library required such recognition. David Ascher has
+asked that they draft actual text, to which request they have not
+responded.  The board decided not to take any action in this matter.
+
+8. Listing ILM as an emeritus member
+####################################
+
+ILM has sent a letter indicating that they wish to convert their
+membership to emeritus; this has not been reflected on the website.
+*Martin will correct the page.*
+
+9. Other business
+#################
+
+Guido and Tim discussed recovering the 1023 form; they agree that
+Tim's version of the document is close to the one we sent to the
+IRS. It contains only the narrative parts, not the actual form.
+We will never know for sure whether Guido's copy of the form is
+the one that actually get sent to the IRS.
+
+10. Adjournment
+###############
+
+There being no other business, the meeting is adjourned at 17:37 GMT.

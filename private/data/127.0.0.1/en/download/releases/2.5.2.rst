@@ -1,0 +1,148 @@
+Python 2.5.2
+------------
+
+    **Python 2.5.2 has been replaced by a newer bugfix
+    release of Python**. Please download `Python 2.5.6 <../2.5.6/>`_ instead.
+
+Python 2.5.2 was released on February 21st, 2008. 
+
+This is the second bugfix release of Python 2.5. Python 2.5 is now in
+bugfix-only mode; no new features are being added. According to the
+release notes, over 100 bugs and patches have been addressed since
+Python 2.5.1, many of them improving the stability of the interpreter,
+and improving its portability.
+
+If you want the latest production version of Python, use
+`Python 2.7 <../2.7/>`_ or later.
+
+See the `detailed release notes <NEWS.txt>`_ for more details. 
+
+Since the release candidate, we have backed out a few changes that
+did not work correctly on 64-bit systems. Again, see the release
+notes.
+
+For more information on the new features of `Python 2.5.2 <../2.5.2/>`_ see the
+`2.5 highlights <../2.5/highlights>`_ or consult Andrew Kuchling's
+`What's New In Python </doc/2.5/whatsnew/whatsnew25.html>`_
+for a more detailed view.
+
+Please see the separate `bugs page <bugs>`_ for known issues and the bug
+reporting procedure.
+
+See also the `license <license>`_.
+
+Download the release
+--------------------
+
+Windows
+~~~~~~~
+
+For x86 processors: `python-2.5.2.msi </ftp/python/2.5.2/python-2.5.2.msi>`_ 
+
+For Win64-Itanium users: `python-2.5.2.ia64.msi 
+</ftp/python/2.5.2/python-2.5.2.ia64.msi>`_ 
+
+For Win64-AMD64 users: `python-2.5.2.amd64.msi 
+</ftp/python/2.5.2/python-2.5.2.amd64.msi>`_ 
+
+This installer allows for `automated installation 
+</download/releases/2.5/msi#automated>`_ and `many other new features 
+</download/releases/2.5/msi>`_. 
+
+To use these installers, the Windows system must support Microsoft
+Installer 2.0. Just save the installer file to your local machine and
+then run it to find out if your machine supports
+MSI.
+
+Windows XP and later already have MSI; many older machines will
+already have MSI installed.
+
+If your machine lacks Microsoft Installer, you'll have to download it
+freely from Microsoft for `Windows 95, 98 and Me <http://www.microsoft.com/downloads/details.aspx?FamilyID=cebbacd8-c094-4255-b702-de3bb768148f&displaylang=en>`_
+and for `Windows NT 4.0 and 2000 <http://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f&DisplayLang=en>`_.
+
+Windows users may also be interested in Mark Hammond's
+`win32all <http://starship.python.net/crew/mhammond/win32/>`_ package,
+available from
+`Sourceforge <http://sourceforge.net/project/showfiles.php?group_id=78018>`_.
+win32all adds a number of Windows-specific extensions to Python, including COM support and the Pythonwin IDE.
+
+MacOS X
+~~~~~~~
+
+For MacOS X 10.3 and later: `python-2.5.2-macosx.dmg 
+</ftp/python/2.5.2/python-2.5.2-macosx.dmg>`_. This is a Universal installer. 
+
+The Universal OS X image contains an installer for python
+2.5.2 that works on Mac OS X 10.3.9 and later, on both PPC and Intel
+Macs.   The compiled libraries include both bsddb and readline.
+
+Other platforms
+~~~~~~~~~~~~~~~
+
+gzip-compressed source code: `Python-2.5.2.tgz 
+</ftp/python/2.5.2/Python-2.5.2.tgz>`_ 
+
+bzip2-compressed source code: `Python-2.5.2.tar.bz2 </ftp/python/2.5.2/Python-2.5.2.tar.bz2>`_,
+the source archive.
+
+The bzip2-compressed version is considerably smaller, so get that one if
+your system has the `appropriate  tools <http://www.bzip.org/>`_ to deal
+with it.
+
+Unpack the archive with ``tar -zxvf Python-2.5.2.tgz`` (or
+``bzcat Python-2.5.2.tar.bz2 | tar -xf -``).
+Change to the Python-2.5.2 directory and run the &quot;./configure&quot;, &quot;make&quot;,
+&quot;make install&quot; commands to compile and install Python. The source archive
+is also suitable for Windows users who feel the need to build their
+own version.
+
+What's New?
+-----------
+
+- See the `highlights <../2.5/highlights>`_ of the Python 2.5 release.
+
+- Andrew Kuchling's `What's New in Python 2.5 <http://www.python.org/doc/2.5/whatsnew/whatsnew25.html>`_ describes the most visible changes since `Python 2.4 <../2.4/>`_ in more detail.
+
+- A detailed list of the changes in 2.5.2 can be found in the `release notes <NEWS.txt>`_, or the ``Misc/NEWS`` file in the source distribution.
+
+- For the full list of changes, you can poke around in `Subversion <http://svn.python.org/view/python/trunk/>`_.
+
+Documentation
+-------------
+
+The documentation has also been updated: 
+
+- Download using `HTTP </ftp/python/doc/2.5.2/>`_.
+
+- Documentation is available in Windows Help (.chm) format - `Python25.chm </ftp/python/2.5.2/Python25.chm>`_.
+
+Files, `MD5 <md5sum.py>`_ checksums, signatures and sizes
+---------------------------------------------------------
+
+    ``3f7ca8aa86c6bd275426d63b46e07992`` `Python-2.5.2.tgz </ftp/python/2.5.2/Python-2.5.2.tgz>`_
+    (11584231 bytes, `signature <Python-2.5.2.tgz.asc>`_)
+
+    ``afb5451049eda91fbde10bd5a4b7fadc`` `Python-2.5.2.tar.bz2 </ftp/python/2.5.2/Python-2.5.2.tar.bz2>`_
+    (9806423 bytes, `signature <Python-2.5.2.tar.bz2.asc>`_)
+
+    ``d71e45968fdc4e206bb69fbf4cb82b2d`` `python-2.5.2.msi </ftp/python/2.5.2/python-2.5.2.msi>`_
+    (11294720 bytes, `signature <python-2.5.2.msi.asc>`_)
+
+    ``d44a5741d54eefd690298e118b0f815a`` `python-2.5.2.amd64.msi </ftp/python/2.5.2/python-2.5.2.amd64.msi>`_
+    (11301888 bytes, `signature <python-2.5.2.amd64.msi.asc>`_)
+
+    ``86a5c0b141c52d1d7dc31ec5a1f3ab7c`` `python-2.5.2.ia64.msi </ftp/python/2.5.2/python-2.5.2.ia64.msi>`_
+    (13523456 bytes, `signature <python-2.5.2.ia64.msi.asc>`_)
+
+    ``f72ba5ba35bf631eec94870e8ebeba61`` `python-2.5.2-macosx.dmg </ftp/python/2.5.2/python-2.5.2-macosx.dmg>`_
+    (19200390 bytes, `signature <python-2.5.2-macosx.dmg.asc>`_)
+
+    ``4c2f7e124287525a93849b0b53893bf0`` `Python25.chm </ftp/python/2.5.2/Python25.chm>`_
+    (4178494 bytes, `signature <Python25.chm.asc>`_)
+
+The signatures above were generated with
+`GnuPG <http://www.gnupg.org>`_ using release manager
+Martin v. L?wis's
+`public key </download#pubkeys>`_
+which has a key id of 7D9DC8D2.

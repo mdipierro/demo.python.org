@@ -1,0 +1,151 @@
+Python 2.5.4
+------------
+
+    We are pleased to announce the release of
+    **Python 2.5.4 (final)**, a
+    bugfix release of Python 2.5, on December 23rd, 2008.
+
+    **Python 2.5.4 has been replaced by a newer bugfix release of
+    Python**. Please download `Python 2.5.6 <../2.5.6/>`_ instead,
+    unless you need to use the Windows and OS X binaries provided here.
+
+This is the last bugfix release of Python 2.5. Future releases of
+Python 2.5 will only contain security patches; no new features are
+being added, and no &quot;regular&quot; bugs will be fixed anymore. According to
+the release notes, about 80 bugs and patches have been addressed since
+Python 2.5.2, many of them improving the stability of the interpreter,
+and improving its portability. Python 2.5.3 unfortunately contained an
+incorrect patch that could cause interpreter crashes; the only change
+in Python 2.5.4 relative to 2.5.4 is the reversal of this patch.
+Future releases will only address security isses, and no binaries or
+documentation updates will be provided in future releases of Python
+2.5.
+
+If you want the latest production version of Python, use
+`Python 2.7.2 <../2.7.2/>`_ or later.
+
+See the `detailed release notes <NEWS.txt>`_ for more details. 
+
+For more information on the new features of `Python 2.5 <../2.5/>`_ see the
+`2.5 highlights <../2.5/highlights>`_ or consult Andrew Kuchling's
+`What's New In Python </doc/2.5/whatsnew/whatsnew25.html>`_
+for a more detailed view.
+
+Please see the separate `bugs page <bugs>`_ for known issues and the bug
+reporting procedure.
+
+See also the `license <license>`_.
+
+Download the release
+--------------------
+
+Windows
+~~~~~~~
+
+For x86 processors: `python-2.5.4.msi </ftp/python/2.5.4/python-2.5.4.msi>`_ 
+
+For Win64-Itanium users: `python-2.5.4.ia64.msi 
+</ftp/python/2.5.4/python-2.5.4.ia64.msi>`_ 
+
+For Win64-AMD64 users: `python-2.5.4.amd64.msi 
+</ftp/python/2.5.4/python-2.5.4.amd64.msi>`_ 
+
+This installer allows for `automated installation 
+</download/releases/2.5/msi#automated>`_ and `many other new features 
+</download/releases/2.5/msi>`_. 
+
+To use these installers, the Windows system must support Microsoft
+Installer 2.0. Just save the installer file to your local machine and
+then run it to find out if your machine supports
+MSI.
+
+Windows XP and later already have MSI; many older machines will
+already have MSI installed.
+
+If your machine lacks Microsoft Installer, you'll have to download it
+freely from Microsoft for `Windows 95, 98 and Me <http://www.microsoft.com/downloads/details.aspx?FamilyID=cebbacd8-c094-4255-b702-de3bb768148f&displaylang=en>`_
+and for `Windows NT 4.0 and 2000 <http://www.microsoft.com/downloads/details.aspx?FamilyID=4b6140f9-2d36-4977-8fa1-6f8a0f5dca8f&DisplayLang=en>`_.
+
+Windows users may also be interested in Mark Hammond's
+`win32all <http://starship.python.net/crew/mhammond/win32/>`_ package,
+available from
+`Sourceforge <http://sourceforge.net/project/showfiles.php?group_id=78018>`_.
+win32all adds a number of Windows-specific extensions to Python, including COM support and the Pythonwin IDE.
+
+MacOS X
+~~~~~~~
+
+For MacOS X 10.3 and later: `python-2.5.4-macosx.dmg 
+</ftp/python/2.5.4/python-2.5.4-macosx.dmg>`_. This is a Universal installer. 
+
+The Universal OS X image contains an installer for python
+2.5.4 that works on Mac OS X 10.3.9 and later, on both PPC and Intel
+Macs.   The compiled libraries include both bsddb and readline.
+
+Other platforms
+~~~~~~~~~~~~~~~
+
+gzip-compressed source code: `Python-2.5.4.tgz 
+</ftp/python/2.5.4/Python-2.5.4.tgz>`_ 
+
+bzip2-compressed source code: `Python-2.5.4.tar.bz2 </ftp/python/2.5.4/Python-2.5.4.tar.bz2>`_,
+the source archive.
+
+The bzip2-compressed version is considerably smaller, so get that one if
+your system has the `appropriate  tools <http://www.bzip.org/>`_ to deal
+with it.
+
+Unpack the archive with ``tar -zxvf Python-2.5.4.tgz`` (or
+``bzcat Python-2.5.4.tar.bz2 | tar -xf -``).
+Change to the Python-2.5.4 directory and run the &quot;./configure&quot;, &quot;make&quot;,
+&quot;make install&quot; commands to compile and install Python. The source archive
+is also suitable for Windows users who feel the need to build their
+own version.
+
+What's New?
+-----------
+
+- See the `highlights <../2.5/highlights>`_ of the Python 2.5 release.
+
+- Andrew Kuchling's `What's New in Python 2.5 <http://www.python.org/doc/2.5/whatsnew/whatsnew25.html>`_ describes the most visible changes since `Python 2.4 <../2.4/>`_ in more detail.
+
+- A detailed list of the changes in 2.5.4 can be found in the `release notes <NEWS.txt>`_, or the ``Misc/NEWS`` file in the source distribution.
+
+- For the full list of changes, you can poke around in `Subversion <http://svn.python.org/view/python/trunk/>`_.
+
+Documentation
+-------------
+
+The documentation has also been updated: 
+
+- `Browse HTML on-line </doc/2.5.4/>`_
+
+Files, `MD5 <md5sum.py>`_ checksums, signatures and sizes
+---------------------------------------------------------
+
+    ``ad47b23778f64edadaaa8b5534986eed`` `Python-2.5.4.tgz </ftp/python/2.5.4/Python-2.5.4.tgz>`_
+    (11604497 bytes, `signature <Python-2.5.4.tgz.asc>`_)
+
+    ``394a5f56a5ce811fb0f023197ec0833e`` `Python-2.5.4.tar.bz2 </ftp/python/2.5.4/Python-2.5.4.tar.bz2>`_
+    (9821313 bytes, `signature <Python-2.5.4.tar.bz2.asc>`_)
+
+    ``b4bbaf5a24f7f0f5389706d768b4d210`` `python-2.5.4.msi </ftp/python/2.5.4/python-2.5.4.msi>`_
+    (11323392 bytes, `signature <python-2.5.4.msi.asc>`_)
+
+    ``b1e1e2a43324b0b6ddaff101ecbd8913`` `python-2.5.4.amd64.msi </ftp/python/2.5.4/python-2.5.4.amd64.msi>`_
+    (11340800 bytes, `signature <python-2.5.4.amd64.msi.asc>`_)
+
+    ``1acf900a3daf3f99d1a5511c2df98853`` `python-2.5.4.ia64.msi </ftp/python/2.5.4/python-2.5.4.ia64.msi>`_
+    (13567488 bytes, `signature <python-2.5.4.ia64.msi.asc>`_)
+
+    ``d8bd62fd175f5f9e9f4573e31096747e`` `python-2.5.4-macosx.dmg </ftp/python/2.5.4/python-2.5.4-macosx.dmg>`_
+    (19277129 bytes, `signature <python-2.5.4-macosx.dmg.asc>`_)
+
+    ``46d82531cfb9384d19d1bb4c9bbcfbab`` `Python25.chm </ftp/python/2.5.4/Python25.chm>`_
+    (4182312 bytes, `signature <Python25.chm.asc>`_)
+
+The signatures above were generated with
+`GnuPG <http://www.gnupg.org>`_ using release manager
+Martin v. L?wis's
+`public key </download#pubkeys>`_
+which has a key id of 7D9DC8D2.

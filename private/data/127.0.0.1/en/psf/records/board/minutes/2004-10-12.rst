@@ -1,0 +1,75 @@
+The Python Software Foundation   Minutes of Regular Meeting of the Board of Directors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+October 12, 2004 
+
+A regular meeting of the Python Software Foundation (the "PSF") Board
+of Directors was held over Internet Relay Chat at 17:00 GMT. Stephan Deibel
+presided at the meeting.
+
+1. Attendance
+#############
+
+The following members of the Board of Directors were present at the
+meeting: Jeremy Hylton, Guido van Rossum, Stephan Deibel, David Ascher
+Martin v. L?wis. Martin was taking minutes.
+
+2. Meeting minutes of past IRC meetings
+#######################################
+
+The August minutes where approved with 3/0/2.
+
+3. Reports
+##########
+
+The September treasurer's report was mailed. 
+
+Jeremy reported he received a letter from Heather Meeker, David's
+IP lawyer. He also reported that the 1023 form data was scanned.*Jeremy will respond to Heather, and contact the
+Reed Smith attorney.*
+
+Stephan reported that the grants discussion list was created. 
+
+Steve Holden reported in email that the PRC isn't doing anything. 
+
+Stephan reported for the PSC that credit card acceptance is
+ready to go live, and that *he needs still to process some forms for that*.
+
+Martin reported no progress on the contrib forms.
+
+4. Nokia's usage of the Python trademark
+########################################
+
+Nokia has asked whether they could use the Python trademark. The
+board discussed this query, and agreed that Nokia should be informed
+that
+- we currently don't hold the trademark, but CNRI does
+- we are trying to transfer the trademark to the PSF
+- the PSF has no issues with Nokia using the Python trademark
+
+*Stephan will respond to Nokia.*
+
+5. Grants Committee
+###################
+
+Martin reported that the grants committee has received 65
+contributions, which were being reviewed, in order to sort
+out those which stand no chance of being accepted. Many 
+submission ask for the entire budget of $40,000, many of these
+will be sorted out as too expensive. Jeremy suggested that
+some of these might receive just a fraction of their requested
+funds initially, to let the project start, and see later whether
+they are worth the money.
+
+Stephan asked whether the board could see the proposals;
+Martin responded that the board had already access. Jeremy
+observed that the PSF has no privacy statement, so it is
+unclear who can see the proposals, and in which case. He
+thinks it is important to limit information. Stephan responded
+that writing such a policy is on the todo list, but no volunteer
+has stepped forward, yet.
+
+6. Adjournment
+##############
+
+Their being no further business, Stephan adjourned the meeting at 17:40.

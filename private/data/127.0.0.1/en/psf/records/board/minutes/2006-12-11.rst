@@ -1,0 +1,225 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+December 11, 2006
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 18:01 UTC, 11
+December 2006.  Stephan Deibel presided at the meeting.  David Goodger
+prepared these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in November <#new-in-november>`_
+
+- `4   Jython Contributor Agreements <#jython-contributor-agreements>`_
+
+- `5   Jython License <#jython-license>`_
+
+- `6   PyCon Budget <#pycon-budget>`_
+
+- `7   Swag For Events <#swag-for-events>`_
+
+- `8   Call For New Directors? <#call-for-new-directors>`_
+
+- `9   Catering the Members' Meeting <#catering-the-members-meeting>`_
+
+- `10   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Stephan Deibel, David Goodger, David Ascher, Andrew Kuchling,
+Steve Holden, Martin von L?wis, and Brett Cannon (arrived at 18:37).
+Also in attendance were Kurt Kaiser (Treasurer) and Neal Norwitz
+(Assistant Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 13 November 2006 minutes were approved by a 4-0-2 vote
+(*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 13 November 2006
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from October 2005, Section 5, Ubuntu Development Meeting: Add &quot;swag for events&quot; to future agenda [D. Goodger].     Status: **done**.  See `Swag For Events <#swag-for-events>`_ below.
+
+- Originally from November 2005, follow-up from December 2005: D. Goodger is to contact a potential PSF sponsor/donor.     D. Goodger reported that the sponsor's representative informed him that the application is in the works, and is expected any day now.     Status: in progress.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: in progress.
+
+- Originally from July 2006, Section 3.2, item 3: D. Goodger will update & confirm email & snail mail addresses when he receives the PSF records, with the help of M. von L?wis.     Status: carried forward.
+
+- Originally from July 2006, Section 9, 2006 Budget & Action Plan: D. Goodger will develop the 2006 Budget & Action Plan further and take it to the PSF membership for feedback.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from September 2006, Section 3.1, item 7: D. Goodger will telephone Jeremy Hylton to ask for PSF records to be sent.     D. Goodger reported that he did finally get a response from Jeremy Hylton, who said he'd try to send the records, but no confirmation since.  D. Goodger: &quot;I'll try to be more of a pest.&quot;     Status: follow-up required.
+
+- Originally from September 2006, Section 3.2, item 7: S. Deibel and B. Cannon will follow up regarding further discussion with Mark Shuttleworth.     S. Deibel reported that there has been no reply yet.      Status: carried forward.
+
+`3.2   New in November <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated in the 13 November 2006 board meeting on
+IRC.
+
+- Section 4, Grants Committee: D. Goodger will add MvL's Grants Committee report to the web site.     Status: **done**.  See `http://www.python.org/psf/grants/report-2006-10/ <http://www.python.org/psf/grants/report-2006-10/>`_.
+
+- Section 4, Grants Committee: M. von L?wis will clarify the status of the Jython grant and provide a new figure for the outstanding grants commitment.     M. von L?wis confirmed by email that $7700 remains for the Jython grant.  He still needs to clarify the status of the remainder of the Jython grant work.     Status: in progress.
+
+- Section 6, Trademark Policy: D. Goodger will add a note to the trademark policy page with the board resolution details.     Status: **done**.
+
+- Section 6, Trademark Policy: A. Kuchling will post a PSF weblog entry about the trademark policy.     Status: **done**.
+
+- Section 7, PyCon: A. Kuchling will prepare a budget for PyCon to be discussed by email or at the next meeting.     Status: **done**.  See `PyCon Budget <#pycon-budget>`_ below.
+
+- Section 7, PyCon: D. Goodger will prepare for the PSF members' meeting at PyCon.     Status: in progress.
+
+- Section 8, Advocacy Coordinator Status: S. Deibel will summarize the board's discussion and communicate it with the Advocacy Coordinator.     S. Deibel reported that Jeff Rush has posted a call for content authors; &quot;now we see if the community responds.&quot;  D. Goodger opined that content is the toughest part; &quot;I think the direction on content may be: write a draft, put it out there, and hope for people to fix it up.&quot;     Status: **done**.
+
+`4   Jython Contributor Agreements <#id6>`_
+-------------------------------------------
+
+A. Kuchling: &quot;In looking at the Jython code ownership, several
+important maintainers haven't signed agreements.  ...  Should I write
+them and ask them to sign an agreement?&quot;
+
+D. Goodger noted that there's no harm in asking.  M. von L?wis: &quot;I
+think most forms have not been signed because contributors were never
+asked to sign them.&quot;
+
+A. Kuchling: &quot;Some other developers are listed as having signed Python
+agreements but not Jython ones.  This is murkier: contributions going
+forward are covered no matter what they've signed, and maybe they
+don't have many past contributions to cover.  Should I be pushing
+people to sign the Jython contrib form?&quot;
+
+M. von L?wis noted that &quot;contributions going forward are covered&quot; is
+not entirely true: the actual contribution should include the magic
+words &quot;Licensed to PSF under a Contributor Agreement&quot;.
+
+D. Goodger: &quot;we should cover licenses as much as possible; no harm in
+being covered more than once.&quot;
+
+D. Goodger also noted that until the records are organized, we only
+have incomplete information.
+
+S. Deibel: &quot;But (obviously?) if someone's contribs are being treated
+as covered by the fact than an employer owned them and chose to open
+source them then we should somehow note that in the registry of
+contrib forms.&quot;
+
+A. Kuchling will write to the Jython contributors and ask
+them to sign contributor agreement forms.
+
+`5   Jython License <#id7>`_
+----------------------------
+
+A. Kuchling asked if there is a target number of contributor forms
+we need to reach before changing the license to be PSFv2.  The
+current license is CNRI's.
+
+M. von L?wis: &quot;We can put the PSF license on top of [the Jython
+license stack], and I guess we can do that now (but we do need a
+board motion).  If we have informal agreement from the major
+contributors ..., you could post to the Jython list announcing that
+the PSF board is going to change the license, and then do that at
+the next board meeting.&quot;
+
+A. Kuchling will write up a summary of the license
+discussion, post it to jython-dev, and the current developers can
+decide what to do.
+
+`6   PyCon Budget <#id8>`_
+--------------------------
+
+A. Kuchling presented a budget developed by the Conference Committee:
+`http://spreadsheets.google.com/pub?key=pYkW9LgX8G5Pd-GMmhgYPHg <http://spreadsheets.google.com/pub?key=pYkW9LgX8G5Pd-GMmhgYPHg>`_.  There
+were no objections to the budget.  A. Kuchling will make a
+static copy of the budget for the records and prepare a resolution
+approving the submitted budget.
+
+A. Kuchling noted that one goal was to add breakfast, but it isn't
+included in our $42/day food cost, and would be expensive to add.  He
+suggested we just have no breakfast again this year, and there was no
+objection.
+
+S. Holden noted that sponsorship efforts will ramp up in the next two
+weeks.  We already have two platinum sponsors, one gold sponsor, and a
+bag-insert sponsor.
+
+`7   Swag For Events <#id9>`_
+-----------------------------
+
+D. Goodger asked if the PSF should pursue swag for events: preparing
+and producing giveaways for events and conferences other than PyCon.
+The concensus was that paying for swag giveaways is not a good
+expenditure.  We can design items and make them available from stores
+like CafePress, but leave the actual purchase up to individuals.
+
+`8   Call For New Directors? <#id10>`_
+--------------------------------------
+
+S. Deibel asked which of the current directors would stand for
+re-election.  All directors present said they would stand:
+
+    D. Ascher 
+
+    B. Cannon 
+
+    S. Deibel 
+
+    D. Goodger 
+
+    S. Holden 
+
+    A. Kuchling 
+
+    M. von L?wis
+
+Director T. Peters was not present. 
+
+D. Goodger will list the directors standing for re-election
+in the agenda of the upcoming Members' Meeting.
+
+D. Goodger will send out a &quot;call for directors&quot;.
+
+`9   Catering the Members' Meeting <#id11>`_
+--------------------------------------------
+
+D. Goodger noted that the PSF Members' Meeting planned for PyCon
+(Friday, February 23, 2007) will take place in the evening, at dinner
+time, and suggested we pay for take-out catering.
+
+    RESOLVED, that catering will be provided at the annual members
+    meeting at PyCon 2007 with a budget of up to $20 per expected
+    member attending the meeting in person.
+
+Approved 7-0-0. 
+
+D. Goodger will coordinate food for the 2007 PSF Members'
+Meeting with the conference committee & members.
+
+`10   Adjournment <#id12>`_
+---------------------------
+
+S. Deibel adjourned the meeting at 19:02 UTC.

@@ -1,0 +1,153 @@
+The Python Software Foundation 
+
+Minutes of a Regular Meeting of the Board of Directors 
+
+September 10, 2007
+
+A regular meeting of the Python Software Foundation (&quot;PSF&quot;) Board of
+Directors was held over Internet Relay Chat beginning at 17:07 UTC, 10
+September 2007.  David Goodger presided at the meeting and prepared
+these minutes.
+
+Contents 
+
+- `1   Attendance <#attendance>`_
+
+- `2   Minutes of Past Meetings <#minutes-of-past-meetings>`_
+
+- `3   Status of Past Action Items <#status-of-past-action-items>`_- `3.1   Carried Forward <#carried-forward>`_  - `3.2   New in August <#new-in-august>`_
+
+- `4   Tracker Thank-you Gifts <#tracker-thank-you-gifts>`_
+
+- `5   Fraud Attempts <#fraud-attempts>`_
+
+- `6   Renewing the Advocacy Coordinator Contract <#renewing-the-advocacy-coordinator-contract>`_
+
+- `7   History of PSF Officers & Directors <#history-of-psf-officers-directors>`_
+
+- `8   Draft Budget for PyCon 2008 <#draft-budget-for-pycon-2008>`_
+
+- `9   Adjournment <#adjournment>`_
+
+`1   Attendance <#id1>`_
+------------------------
+
+The following members of the Board of Directors were present at the
+meeting: Tim Peters, Andrew Kuchling, David Goodger, Martin von L?wis,
+and Brett Cannon.  Also in attendance was Kurt Kaiser (Treasurer).
+
+`2   Minutes of Past Meetings <#id2>`_
+--------------------------------------
+
+The 13 August 2007 Board meeting minutes were approved by a 4-0-1 vote
+(*in favor ? opposed ? abstentions*).
+
+`3   Status of Past Action Items <#id3>`_
+-----------------------------------------
+
+(Pending action items appear like this.) 
+
+`3.1   Carried Forward <#id4>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The following are action items carried forward from the 13 August 2007
+meeting, as highlighted in the minutes (Section 3, Status of Past
+Action Items):
+
+- Originally from October 2005, Section 4, Public Support Committee: D. Goodger will pursue web page and installer donation link ideas.     Status: carried forward.
+
+- Originally from June 2006, Section 6, PSF Records: The Board agreed to assemble the existing records in one place, have them scanned, and enter them into the PSF data repository. D. Goodger will coordinate this work and maintain the records.     Status: carried forward.
+
+- Originally from August 2006, Section 10: T. Peters will ask the advice of Larry Rosen regarding concerns with the contributor agreement.     Status: carried forward.
+
+- Originally from December 2006, Section 4, Jython Contributor Agreements: A. Kuchling will write to the Jython contributors and ask them to sign contributor agreement forms.     Status: carried forward.
+
+- Originally from March 2007, Section 12, Awards: S. Holden will prepare a proposal for a PSF awards program.     Status: carried forward.
+
+- Originally from March 2007, Section 18, Bylaw Change Survey: S. Holden will call for a separate discussion of changes to the bylaws.     Status: carried forward.
+
+- Originally from April 2007, Section 6, Python Package Index (Cheese Shop): A. Kuchling will ask Thomas Wouters about increasing the memory on ximinez, and getting another machine for PyPI.     M. von L?wis contacted Thomas Wouters, and he will talk to XS4ALL this week.     Status: in progress.
+
+- Originally from April 2007, Section 9, New PSF Members: D. Goodger will contact the PSF members not subscribed to the PSF-Members mailing list.     Status: carried forward.
+
+- Originally from May 2007, Section 4, Frank Willison Award: D. Goodger will set up a page on www.python.org to list the recipients of the Frank Willison Award.     Status: carried forward.
+
+- Originally from May 2007, Section 6, EuroPython Sponsorship: A. Kuchling will contact the EuroPython organizers to arrange for the PSF's sponsorship.     K. Kaiser reports that Laura Creighton has a list of the information we need to make payment.  We are waiting on a EuroPython invoice.     Status: **done**.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will produce a PSF logo based on the Python logo.     Status: carried forward.
+
+- Originally from May 2007, Section 7, PyCon Uno (Italy): D. Goodger will look into making PSF banners.     Status: carried forward.
+
+`3.2   New in August <#id5>`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These action items originated at the 13 August 2007 board meeting on
+IRC.
+
+- Section 4, PyCon UK Sponsorship Request: S. Deibel will inform the PyCon UK Society of the PSF's sponsorship, and will request an invoice, payment information, and sponsorship details.     K. Kaiser reported that $2500 was wired on 30 August.      Status: **done**.
+
+- Section 5: K. Kaiser will notify EarnMyDegree.com of their pending sponsor member status and send an invoice for sponsor dues.     Status: **done**.
+
+`4   Tracker Thank-you Gifts <#id6>`_
+-------------------------------------
+
+B. Cannon reported that the new issue tracker is now up at
+`http://bugs.python.org <http://bugs.python.org>`_, thanks to the help of several people.  Cannon
+would like to send them each thank-you gifts.  The Board was in
+agreement, but require a resolution if the amount is above the
+Officers' discretionary amount of $500 (see 2006-06-12 resolution).
+
+B. Cannon will prepare a concrete proposal for tracker
+thank-you gifts, for a Board vote.
+
+`5   Fraud Attempts <#id7>`_
+----------------------------
+
+In view of recent attempts to cash fraudulent checks, A. Kuchling
+asked if a note should be added to python.org, for banks who receive
+such checks (a FAQ for bankers).
+
+A. Kuchling will prepare a statement on fraudulent PSF checks
+for the python.org website.
+
+`6   Renewing the Advocacy Coordinator Contract <#id8>`_
+--------------------------------------------------------
+
+Jeff Rush, the Advocacy Coordinator, is interested in renewing his
+contract for a third (and final) six months.  The results of the
+second six-month contract were discussed.  There were mixed feelings.
+Some were favorable, but some were skeptical, questioning the expense.
+
+T. Peters: &quot;I think he's finding out interesting things about what
+doesn't work.&quot;
+
+D. Goodger raised issue of &quot;Advocacy Coordinator&quot; versus &quot;Advocate&quot;:
+&quot;I think the job is really 'Advocate', not coordinator.&quot;  T. Peters:
+&quot;To 'coordinate', he'd have to find a way to get others to volunteer
+too.&quot;  D. Goodger: &quot;It's hard to coordinate a lack of volunteers.&quot;
+
+T. Peters: &quot;I especially like that he helped get user groups formed.
+I like 'grass roots'.&quot;
+
+Since there was neither consensus nor a concrete proposal, the Board
+could not vote.  The issue was referred back to Stephan Deibel for
+email discussion.
+
+`7   History of PSF Officers & Directors <#id9>`_
+-----------------------------------------------------
+
+D. Goodger has added a &quot;History of PSF Officers & Directors&quot; page to
+python.org (`http://www.python.org/psf/records/board/history/ <http://www.python.org/psf/records/board/history/>`_), and
+asked that any mistakes be reported.
+
+`8   Draft Budget for PyCon 2008 <#id10>`_
+------------------------------------------
+
+D. Goodger reported that a draft budget for PyCon 2008 has been
+published (but it's not ready for a vote yet):
+`http://spreadsheets.google.com/pub?key=pyx4TeJX2JDoKnFsixLn9bw <http://spreadsheets.google.com/pub?key=pyx4TeJX2JDoKnFsixLn9bw>`_.
+
+`9   Adjournment <#id11>`_
+--------------------------
+
+D. Goodger adjourned the meeting at 17:43 UTC.
